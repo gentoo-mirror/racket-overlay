@@ -1,0 +1,49 @@
+---
+
+
+# This file is part of rkt.
+
+# rkt is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+# rkt is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License
+# along with rkt.  If not, see <https://www.gnu.org/licenses/>.
+
+# Original author: Maciej Barć (xgqt@protonmail.com)
+# Copyright (c) 2020-2021, src_prepare group
+# Licensed under the GNU GPL v2 License
+
+
+image: gentoo/stage3-amd64:latest
+
+
+variables:
+  FEATURES: "getbinpkg"
+  GIT_SUBMODULE_STRATEGY: recursive
+  MAKEOPTS: "--jobs=10"
+  PORTAGE_BINHOST: "https://xgqt.gitlab.io/gentoo-mini-mirror/binpkgs"
+  USE: "-perl"
+
+
+stages:
+  - test
+
+
+before_script:
+  - mkdir -p /var/cache/distfiles
+  - mkdir -p /var/db/repos/gentoo
+  - emerge-webrsync
+  - emerge -1nq --jobs=10 app-portage/repoman dev-vcs/git net-misc/wget
+
+
+test:
+  stage: test
+  script:
+    - bash scripts/repomanci

@@ -112,7 +112,6 @@ raco_remove() {
 		--force
 		--no-trash
 		--scope user
-		--no-setup
 		--no-docs
 	)
 	eval "${raco_cmd[@]}" "${1:-${PN}}" && einfo "raco has removed ${PN}"

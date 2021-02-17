@@ -110,9 +110,9 @@ raco_remove() {
 		raco pkg remove
 		--batch
 		--force
+		--no-docs
 		--no-trash
 		--scope user
-		--no-docs
 	)
 	eval "${raco_cmd[@]}" "${1:-${PN}}" && einfo "raco has removed ${PN}"
 }

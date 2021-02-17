@@ -106,52 +106,27 @@ raco_make() {
 
 raco_remove() {
 	# Do not die in this function
-	local raco_cmd=(
-		raco pkg remove
+	local raco_opts=(
 		--batch
 		--force
 		--no-docs
 		--no-trash
 		--scope user
 	)
-	eval "${raco_cmd[@]}" "${1:-${PN}}" && einfo "raco has removed ${PN}"
-}
-
-
-# @FUNCTION: scribble_compile
-# @DESCRIPTION:
-# Compile the documentation using scribble
-
-scribble_compile() {
-	einfo "Compiling documentation for ${P}"
-
-	mkdir -p "${WORKDIR}/docs" || die
-	find . -name "*.scrbl" -exec scribble --dest "${WORKDIR}/docs" {} \;
-}
-
-
-# @FUNCTION: scribble_install
-# @DESCRIPTION:
-# Install the documentation compiled using scribble
-
-scribble_install() {
-	einfo "Installing documentation for ${P}"
-
-	insinto "/usr/share/doc/${PF}/html"
-	doins "${WORKDIR}/docs"/*
+	eval raco pkg remove "${raco_opts[@]}" "${1:-${PN}}" \
+		&& einfo "raco has removed ${1:-${PN}}"
 }
 
 
 # @FUNCTION: raco_src_compile
 # @DESCRIPTION:
 # Default src_compile:
-# executes raco_make and if USE=doc invokes scribble_compile
+# executes raco_make
 
 racket_src_compile() {
 	einfo "Running Racket src_compile"
 
 	raco_make
-	use doc && scribble_compile
 }
 
 
@@ -181,6 +156,8 @@ racket_src_test() {
 
 pltuserhome_owner_portage() {
 	if [ -d "${PLTUSERHOME}" ]; then
+		einfo "Fixing ${PLTUSERHOME} permissions"
+
 		chown -R portage:portage "${PLTUSERHOME}"
 		chmod -R g+w "${PLTUSERHOME}"
 	fi
@@ -190,8 +167,8 @@ pltuserhome_owner_portage() {
 # @FUNCTION: raco_src_install
 # @DESCRIPTION:
 # Default src_install:
-# installs miscellaneous docs with einstalldocs, installs the compiled pkg
-# and if USE=doc invokes scribble_install
+# installs miscellaneous docs with einstalldocs
+# and installs the compiled pkg
 
 racket_src_install() {
 	einfo "Running Racket src_install"
@@ -202,10 +179,6 @@ racket_src_install() {
 
 	mkdir -p "${inst}" || die "raco_install failed"
 	cp -r "${S}" "${inst}/${PN}" || die "raco_install failed"
-
-	if use doc; then
-		scribble_install
-	fi
 }
 
 
@@ -218,14 +191,13 @@ racket_src_install() {
 racket_pkg_postinst() {
 	einfo "Running Racket pkg_postinst"
 
-	local raco_cmd=(
-		raco pkg install
+	local raco_opts=(
+		$(usex doc '' '--no-docs')
 		--batch
 		--deps force
 		--force
 		--jobs "$(nproc)"
 		--link
-		--no-docs
 		--scope user
 	)
 
@@ -234,7 +206,8 @@ racket_pkg_postinst() {
 	pushd "${P_RACKET_DIR}" || die
 
 	einfo "Running ${raco_cmd[@]}"
-	eval "${raco_cmd[@]}" || ewarn "raco_pkg_preinst failed (${raco_cmd[@]})"
+	eval raco pkg install "${raco_opts[@]}" \
+		|| ewarn "raco_pkg_preinst failed (${raco_cmd[@]})"
 
 	popd || die
 

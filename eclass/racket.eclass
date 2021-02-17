@@ -136,15 +136,15 @@ racket_src_compile() {
 }
 
 
-# @FUNCTION: racket_owner_portage
+# @FUNCTION: pltuserhome_owner_portage
 # @DESCRIPTION:
-# Change GENTOO_RACKET_PREFIX ownership recursively to portage:portage,
+# Change PLTUSERHOME ownership recursively to portage:portage,
 # then add group's write permissions
 
-racket_owner_portage() {
-	if [ -d "${GENTOO_RACKET_PREFIX}" ]; then
-		chown -R portage:portage "${GENTOO_RACKET_PREFIX}"
-		chmod -R g+w "${GENTOO_RACKET_PREFIX}"
+pltuserhome_owner_portage() {
+	if [ -d "${PLTUSERHOME}" ]; then
+		chown -R portage:portage "${PLTUSERHOME}"
+		chmod -R g+w "${PLTUSERHOME}"
 	fi
 }
 
@@ -199,6 +199,8 @@ racket_pkg_postinst() {
 	eval "${raco_cmd[@]}" || die "raco_pkg_preinst failed (${raco_cmd[@]})"
 
 	popd || die
+
+	pltuserhome_owner_portage
 }
 
 
@@ -214,4 +216,6 @@ racket_pkg_postrm() {
 		ewarn "Removing ${PN}"
 		raco_remove "${PN}"
 	fi
+
+	pltuserhome_owner_portage
 }

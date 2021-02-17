@@ -35,11 +35,9 @@ RACKET_DEPEND+="
 	>=dev-scheme/racket-7.0[-minimal]
 	acct-group/portage
 	acct-user/portage
-"
-RDEPEND+="
-	${RACKET_DEPEND}
 	sys-apps/baselayout-racket
 "
+RDEPEND+="${RACKET_DEPEND}"
 DEPEND+="${RACKET_DEPEND}"
 
 

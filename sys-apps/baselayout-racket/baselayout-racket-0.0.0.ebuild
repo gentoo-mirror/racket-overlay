@@ -35,3 +35,7 @@ src_install() {
 pkg_postinst() {
 	:
 }
+
+pkg_postrm() {
+	:
+}

@@ -13,6 +13,10 @@
 # This eclass is used in Racket packages ebuilds
 
 
+# Inherits
+inherit xdg-utils
+
+
 case "${EAPI}"
 in
 	0 | 1 | 2 | 3 | 4 | 5 | 6 )
@@ -26,22 +30,21 @@ in
 esac
 
 
-# Append dev-scheme/racket to dependencies
-DEPEND+="
+# Dependencies
+RACKET_DEPEND+="
 	>=dev-scheme/racket-7.0[-minimal]
+	acct-group/portage
+	acct-user/portage
 "
 RDEPEND+="
-	>=dev-scheme/racket-7.0[-minimal]
+	${RACKET_DEPEND}
 	sys-apps/baselayout-racket
 "
+DEPEND+="${RACKET_DEPEND}"
 
 
 # Exported functions
 EXPORT_FUNCTIONS src_prepare src_compile src_install pkg_postinst pkg_postrm
-
-
-# Inherits
-inherit xdg-utils
 
 
 # @FUNCTION: raco_environment_prepare

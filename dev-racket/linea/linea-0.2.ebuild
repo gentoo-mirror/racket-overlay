@@ -9,14 +9,11 @@ DESCRIPTION="Line-oriented reader"
 HOMEPAGE="https://github.com/willghatch/racket-rash"
 SRC_URI="https://github.com/willghatch/racket-rash/archive/v${PV}.tar.gz -> rash-${PV}.tar.gz"
 
-RESTRICT="
-	mirror
-	!test? ( test )
-"
+RESTRICT="mirror"
 LICENSE="LGPL-3"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE="doc test"
+IUSE="doc"
 
 DEPEND="
 	dev-racket/udelim

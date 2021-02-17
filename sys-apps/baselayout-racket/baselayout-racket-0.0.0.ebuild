@@ -9,7 +9,7 @@ DESCRIPTION="Baselayout for Racket"
 HOMEPAGE="https://gitlab.com/src_prepare/rkt"
 SRC_URI=""
 
-RESTRICT="mirror"
+RESTRICT="mirror test"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64"

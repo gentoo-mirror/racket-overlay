@@ -44,7 +44,7 @@ DEPEND+="${RACKET_DEPEND}"
 
 
 # Exported functions
-EXPORT_FUNCTIONS src_prepare src_compile src_install pkg_postinst pkg_postrm
+EXPORT_FUNCTIONS src_prepare src_compile src_test src_install pkg_postinst pkg_postrm
 
 
 # @FUNCTION: raco_environment_prepare
@@ -153,6 +153,25 @@ racket_src_compile() {
 
 	raco_make
 	use doc && scribble_compile
+}
+
+
+# @FUNCTION: racket_src_test
+# @DESCRIPTION:
+# Default src_test:
+# looks for main.rkt or ${PN}/main.rkt,
+# if found runs 'raco test' on that file
+
+racket_src_test() {
+	einfo "Running Racket src_test"
+
+	if [ -f "main.rkt" ]; then
+		raco test "main.rkt" || die "tests failed"
+	elif [ -f "${PN}/main.rkt" ]; then
+		raco test "${PN}/main.rkt" || die "tests failed"
+	else
+		ewarn "No tests found"
+	fi
 }
 
 

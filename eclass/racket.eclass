@@ -3,11 +3,14 @@
 
 
 # @ECLASS: racket.eclass
-# @MAINTAINER: src_prepare group
-# @AUTHOR: Maciej Barć <xgqt@protonmail.com>
+# @MAINTAINER:
+# src_prepare group
+# @AUTHOR:
+# Maciej Barć <xgqt@protonmail.com>
 # @SUPPORTED_EAPIS: 7
 # @BLURB: Common configuration eclass for Racket packages
-# @DESCRIPTION: This eclass is used in Racket packages ebuilds
+# @DESCRIPTION:
+# This eclass is used in Racket packages ebuilds
 
 
 case "${EAPI}"
@@ -38,7 +41,8 @@ EXPORT_FUNCTIONS src_prepare src_compile src_install pkg_postinst
 
 
 # @FUNCTION: raco_environment_prepare
-# @DESCRIPTION: Prepare the environment for building racket packages
+# @DESCRIPTION:
+# Prepare the environment for building racket packages
 
 racket_environment_prepare() {
 	einfo "Preparing the environment for Racket"
@@ -57,7 +61,8 @@ racket_environment_prepare() {
 
 
 # @FUNCTION: raco_src_prepare
-# @DESCRIPTION: Default src_prepare: executes raco_environment_prepare and default
+# @DESCRIPTION:
+# Default src_prepare: executes raco_environment_prepare and default
 
 racket_src_prepare() {
 	einfo "Running Racket src_prepare"
@@ -68,7 +73,8 @@ racket_src_prepare() {
 
 
 # @FUNCTION: raco_make
-# @DESCRIPTION: Find .rkt file and compile them
+# @DESCRIPTION:
+# Find .rkt file and compile them
 
 raco_make() {
 	einfo "Compiling racket source files with 'raco make'"
@@ -78,7 +84,8 @@ raco_make() {
 
 
 # @FUNCTION: scribble_compile
-# @DESCRIPTION: Compile the documentation using scribble
+# @DESCRIPTION:
+# Compile the documentation using scribble
 
 scribble_compile() {
 	einfo "Compiling documentation for ${P}"
@@ -89,7 +96,8 @@ scribble_compile() {
 
 
 # @FUNCTION: scribble_install
-# @DESCRIPTION: Install the documentation compiled using scribble
+# @DESCRIPTION:
+# Install the documentation compiled using scribble
 
 scribble_install() {
 	einfo "Installing documentation for ${P}"
@@ -100,7 +108,8 @@ scribble_install() {
 
 
 # @FUNCTION: raco_src_compile
-# @DESCRIPTION: Default src_compile:
+# @DESCRIPTION:
+# Default src_compile:
 # executes raco_make and if USE=doc invokes scribble_compile
 
 racket_src_compile() {
@@ -112,7 +121,8 @@ racket_src_compile() {
 
 
 # @FUNCTION: raco_src_install
-# @DESCRIPTION: Default src_install:
+# @DESCRIPTION:
+# Default src_install:
 # installs miscellaneous docs with einstalldocs, installs the compiled pkg
 # and if USE=doc invokes scribble_install
 
@@ -133,7 +143,8 @@ racket_src_install() {
 
 
 # @FUNCTION: raco_pkg_postinst
-# @DESCRIPTION: Default pkg_postinst:
+# @DESCRIPTION:
+# Default pkg_postinst:
 # removes old pkg (with the sname name)  and then isnatlls the pkg
 # to Gentoo's PLTUSERHOME (/usr/share/racket/gentoo/home)
 

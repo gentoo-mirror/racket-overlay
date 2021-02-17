@@ -211,7 +211,7 @@ racket_pkg_postinst() {
 	pushd "${P_RACKET_DIR}" || die
 
 	eval raco pkg install "${raco_opts[@]}" \
-		|| ewarn "raco_pkg_preinst failed (${raco_cmd[@]})"
+		|| ewarn "failed: raco pkg install ${raco_opts[@]}"
 
 	popd || die
 

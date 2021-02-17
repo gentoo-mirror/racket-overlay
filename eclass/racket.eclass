@@ -37,7 +37,11 @@ RDEPEND+="
 
 
 # Exported functions
-EXPORT_FUNCTIONS src_prepare src_compile src_install pkg_postinst
+EXPORT_FUNCTIONS src_prepare src_compile src_install pkg_postinst pkg_postrm
+
+
+# Inherits
+inherit xdg
 
 
 # @FUNCTION: raco_environment_prepare
@@ -46,6 +50,8 @@ EXPORT_FUNCTIONS src_prepare src_compile src_install pkg_postinst
 
 racket_environment_prepare() {
 	einfo "Preparing the environment for Racket"
+
+	xdg_environment_reset
 
 	export GENTOO_RACKET_PREFIX="/usr/share/racket/gentoo"
 
@@ -165,10 +171,24 @@ racket_pkg_postinst() {
 	raco pkg remove	--batch	--force --no-trash --scope user "${PN}"
 
 	pushd "${P_RACKET_DIR}" || die
-	mkdir -p "${PLTUSERHOME}/.local/share/racket" || die
 
 	einfo "Running ${raco_cmd[@]}"
 	eval "${raco_cmd[@]}" || die "raco_pkg_preinst failed (${raco_cmd[@]})"
 
 	popd || die
+}
+
+
+# @FUNCTION: raco_pkg_postrm
+# @DESCRIPTION:
+# Default pkg_postrm:
+# If P_RACKET_DIR deosn't exist remove the pkg using 'raco pkg remove'
+
+racket_pkg_postrm() {
+	einfo "Running Racket pkg_postrm"
+
+	if [ -n "${P_RACKET_DIR}" ] && [ ! -d "${P_RACKET_DIR}" ]; then
+		ewarn "Removing ${PN} using 'raco pkg remove'"
+		raco pkg remove	--batch	--force --no-trash --scope user "${PN}"
+	fi
 }

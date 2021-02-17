@@ -50,6 +50,10 @@ EXPORT_FUNCTIONS src_prepare src_compile src_install pkg_postinst pkg_postrm
 # @FUNCTION: raco_environment_prepare
 # @DESCRIPTION:
 # Prepare the environment for building racket packages
+# GENTOO_RACKET_PREFIX = /usr/share/racket/gentoo
+# GENTOO_RACKET_DIR = /usr/share/racket/gentoo/site
+# PLTUSERHOME = /usr/share/racket/gentoo/home"
+# P_RACKET_DIR = /usr/share/racket/gentoo/site/${PN}
 
 racket_environment_prepare() {
 	einfo "Preparing the environment for Racket"

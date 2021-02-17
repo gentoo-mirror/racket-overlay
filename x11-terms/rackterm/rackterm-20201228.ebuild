@@ -16,7 +16,6 @@ RESTRICT="mirror"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE="doc"
 
 DEPEND="
 	>=dev-scheme/racket-7.0[-minimal,X]

@@ -23,7 +23,10 @@ src_compile() {
 src_install() {
 	# Those are exported by the racket eclass
 	dodir "${GENTOO_RACKET_DIR}"
-	dodir "${PLTUSERHOME}"
+	dodir "${PLTUSERHOME}/.racket"
+
+	insinto "${PLTUSERHOME}"
+	newins "racketrc" ".racketrc"
 
 	insinto "/etc/profile.d"
 	doins "plt.sh"

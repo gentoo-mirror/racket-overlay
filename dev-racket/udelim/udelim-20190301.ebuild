@@ -21,9 +21,4 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE="doc test"
 
-DEPEND="
-	dev-scheme/racket[-minimal]
-"
-RDEPEND="${DEPEND}"
-
 S="${WORKDIR}/racket-${PN}-${COMMIT_SHA}"

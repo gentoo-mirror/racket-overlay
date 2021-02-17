@@ -24,20 +24,3 @@ DEPEND="
 RDEPEND="${DEPEND}"
 
 S="${WORKDIR}/racket-rash-${PV}/linea"
-
-src_prepare() {
-	racket_src_prepare
-	default
-}
-
-src_compile() {
-	racket_src_compile
-}
-
-src_install() {
-	racket_src_install
-}
-
-pkg_postinst() {
-	racket_pkg_postinst
-}

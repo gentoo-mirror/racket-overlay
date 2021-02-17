@@ -5,7 +5,7 @@ EAPI=7
 
 inherit racket
 
-DESCRIPTION="Line-oriented reader"
+DESCRIPTION="Reckless Racket Shell, for interactions and scripting"
 HOMEPAGE="https://github.com/willghatch/racket-rash"
 SRC_URI="https://github.com/willghatch/racket-${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 

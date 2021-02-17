@@ -50,9 +50,13 @@ EXPORT_FUNCTIONS src_prepare src_compile src_install pkg_postinst pkg_postrm
 # @FUNCTION: raco_environment_prepare
 # @DESCRIPTION:
 # Prepare the environment for building racket packages
+#
 # GENTOO_RACKET_PREFIX = /usr/share/racket/gentoo
+#
 # GENTOO_RACKET_DIR = /usr/share/racket/gentoo/site
+#
 # PLTUSERHOME = /usr/share/racket/gentoo/home
+#
 # P_RACKET_DIR = /usr/share/racket/gentoo/site/${PN}
 
 racket_environment_prepare() {
@@ -87,7 +91,7 @@ racket_src_prepare() {
 
 # @FUNCTION: raco_make
 # @DESCRIPTION:
-# Find .rkt file and compile them
+# Find '.rkt' files and compile them
 
 raco_make() {
 	einfo "Compiling racket source files with 'raco make'"
@@ -98,7 +102,7 @@ raco_make() {
 
 # @FUNCTION: raco_remove
 # @DESCRIPTION:
-# Remove a package installed to PLTUSERHOME
+# Remove a package installed in PLTUSERHOME
 
 raco_remove() {
 	# Do not die in this function
@@ -190,7 +194,7 @@ racket_src_install() {
 # @FUNCTION: raco_pkg_postinst
 # @DESCRIPTION:
 # Default pkg_postinst:
-# removes old pkg (with the sname name)  and then isnatlls the pkg
+# removes old pkg (with the same name)  and then installs the pkg
 # to Gentoo's PLTUSERHOME (/usr/share/racket/gentoo/home)
 
 racket_pkg_postinst() {
@@ -223,7 +227,7 @@ racket_pkg_postinst() {
 # @FUNCTION: raco_pkg_postrm
 # @DESCRIPTION:
 # Default pkg_postrm:
-# If P_RACKET_DIR deosn't exist remove the pkg using 'raco pkg remove'
+# If P_RACKET_DIR does not exist remove the pkg using 'raco pkg remove'
 
 racket_pkg_postrm() {
 	einfo "Running Racket pkg_postrm"

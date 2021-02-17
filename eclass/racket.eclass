@@ -41,7 +41,7 @@ EXPORT_FUNCTIONS src_prepare src_compile src_install pkg_postinst pkg_postrm
 
 
 # Inherits
-inherit xdg
+inherit xdg-utils
 
 
 # @FUNCTION: raco_environment_prepare

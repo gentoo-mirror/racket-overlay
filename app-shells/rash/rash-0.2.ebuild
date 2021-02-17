@@ -24,7 +24,3 @@ DEPEND="
 RDEPEND="${DEPEND}"
 
 S="${WORKDIR}/racket-${PN}-${PV}/${PN}"
-
-src_compile() {
-	use doc && scribble_compile
-}

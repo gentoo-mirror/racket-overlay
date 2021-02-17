@@ -49,13 +49,12 @@ EXPORT_FUNCTIONS src_prepare src_compile src_test src_install pkg_postinst pkg_p
 # @DESCRIPTION:
 # Prepare the environment for building racket packages
 #
+# @CODE
 # GENTOO_RACKET_PREFIX = /usr/share/racket/gentoo
-#
 # GENTOO_RACKET_DIR = /usr/share/racket/gentoo/site
-#
 # PLTUSERHOME = /usr/share/racket/gentoo/home
-#
 # P_RACKET_DIR = /usr/share/racket/gentoo/site/${PN}
+# @CODE
 
 racket_environment_prepare() {
 	einfo "Preparing the environment for Racket"
@@ -77,7 +76,9 @@ racket_environment_prepare() {
 
 # @FUNCTION: raco_src_prepare
 # @DESCRIPTION:
-# Default src_prepare: executes raco_environment_prepare and default
+# Default src_prepare:
+#
+# Executes 'raco_environment_prepare' and 'default'
 
 racket_src_prepare() {
 	einfo "Running Racket src_prepare"
@@ -99,6 +100,7 @@ raco_make() {
 
 
 # @FUNCTION: raco_remove
+# @USAGE: [pkg_name]
 # @DESCRIPTION:
 # Remove a package installed in PLTUSERHOME
 
@@ -119,7 +121,8 @@ raco_remove() {
 # @FUNCTION: raco_src_compile
 # @DESCRIPTION:
 # Default src_compile:
-# executes raco_make
+#
+# Executes 'raco_make'
 
 racket_src_compile() {
 	einfo "Running Racket src_compile"
@@ -131,7 +134,8 @@ racket_src_compile() {
 # @FUNCTION: racket_src_test
 # @DESCRIPTION:
 # Default src_test:
-# looks for main.rkt or ${PN}/main.rkt,
+#
+# Looks for main.rkt or ${PN}/main.rkt,
 # if found runs 'raco test' on that file
 
 racket_src_test() {
@@ -165,7 +169,8 @@ pltuserhome_owner_portage() {
 # @FUNCTION: raco_src_install
 # @DESCRIPTION:
 # Default src_install:
-# installs miscellaneous docs with einstalldocs
+#
+# installs miscellaneous docs with 'einstalldocs'
 # and installs the compiled pkg
 
 racket_src_install() {
@@ -183,8 +188,10 @@ racket_src_install() {
 # @FUNCTION: raco_pkg_postinst
 # @DESCRIPTION:
 # Default pkg_postinst:
-# removes old pkg (with the same name)  and then installs the pkg
+#
+# Removes old pkg (with the same name) and then installs the pkg
 # to Gentoo's PLTUSERHOME (/usr/share/racket/gentoo/home)
+# also fixes the permissions with 'pltuserhome_owner_portage'
 
 racket_pkg_postinst() {
 	einfo "Running Racket pkg_postinst"
@@ -216,7 +223,9 @@ racket_pkg_postinst() {
 # @FUNCTION: raco_pkg_postrm
 # @DESCRIPTION:
 # Default pkg_postrm:
-# If P_RACKET_DIR does not exist remove the pkg using 'raco pkg remove'
+#
+# If P_RACKET_DIR does not exist remove the pkg using 'raco_remove'
+# also fixes the permissions with 'pltuserhome_owner_portage'
 
 racket_pkg_postrm() {
 	einfo "Running Racket pkg_postrm"

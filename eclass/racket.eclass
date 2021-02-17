@@ -89,6 +89,16 @@ raco_make() {
 }
 
 
+# @FUNCTION: raco_remove
+# @DESCRIPTION:
+# Remove a package installed to PLTUSERHOME
+
+raco_remove() {
+	# Do not die in this function
+	raco pkg remove	--batch	--force --no-trash --scope user "${1}"
+}
+
+
 # @FUNCTION: scribble_compile
 # @DESCRIPTION:
 # Compile the documentation using scribble
@@ -168,7 +178,7 @@ racket_pkg_postinst() {
 		--scope user
 	)
 
-	raco pkg remove	--batch	--force --no-trash --scope user "${PN}"
+	raco_remove "${PN}"
 
 	pushd "${P_RACKET_DIR}" || die
 
@@ -188,7 +198,7 @@ racket_pkg_postrm() {
 	einfo "Running Racket pkg_postrm"
 
 	if [ -n "${P_RACKET_DIR}" ] && [ ! -d "${P_RACKET_DIR}" ]; then
-		ewarn "Removing ${PN} using 'raco pkg remove'"
-		raco pkg remove	--batch	--force --no-trash --scope user "${PN}"
+		ewarn "Removing ${PN}"
+		raco_remove "${PN}"
 	fi
 }

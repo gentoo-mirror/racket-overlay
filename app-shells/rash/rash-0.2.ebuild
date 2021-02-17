@@ -31,26 +31,3 @@ S="${WORKDIR}/racket-${PN}-${PV}/${PN}"
 src_compile() {
 	use doc && scribble_compile
 }
-
-pkg_postinst() {
-	local raco_cmd=(
-		raco pkg install
-		--batch
-		--deps force
-		--force
-		--jobs "$(nproc)"
-		--link
-		--no-docs
-		--scope user
-	)
-
-	raco pkg remove	--batch	--force --no-trash --scope user "${PN}"
-
-	pushd "${P_RACKET_DIR}" || die
-
-	einfo "Running ${raco_cmd[@]}"
-	# don't die
-	eval "${raco_cmd[@]}"
-
-	popd || die
-}

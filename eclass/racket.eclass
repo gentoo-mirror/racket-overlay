@@ -136,6 +136,19 @@ racket_src_compile() {
 }
 
 
+# @FUNCTION: racket_owner_portage
+# @DESCRIPTION:
+# Change GENTOO_RACKET_PREFIX ownership recursively to portage:portage,
+# then add group's write permissions
+
+racket_owner_portage() {
+	if [ -d "${GENTOO_RACKET_PREFIX}" ]; then
+		chown -R portage:portage "${GENTOO_RACKET_PREFIX}"
+		chmod -R g+w "${GENTOO_RACKET_PREFIX}"
+	fi
+}
+
+
 # @FUNCTION: raco_src_install
 # @DESCRIPTION:
 # Default src_install:

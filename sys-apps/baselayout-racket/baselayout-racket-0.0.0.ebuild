@@ -33,9 +33,10 @@ src_install() {
 }
 
 pkg_postinst() {
-	:
+	touch "${PLTUSERHOME}/.racket/racket-prefs.rktd"
+	racket_owner_portage
 }
 
 pkg_postrm() {
-	:
+	racket_owner_portage
 }

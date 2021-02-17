@@ -210,7 +210,6 @@ racket_pkg_postinst() {
 
 	pushd "${P_RACKET_DIR}" || die
 
-	einfo "Running ${raco_cmd[@]}"
 	eval raco pkg install "${raco_opts[@]}" \
 		|| ewarn "raco_pkg_preinst failed (${raco_cmd[@]})"
 

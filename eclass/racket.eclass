@@ -52,7 +52,7 @@ EXPORT_FUNCTIONS src_prepare src_compile src_install pkg_postinst pkg_postrm
 # Prepare the environment for building racket packages
 # GENTOO_RACKET_PREFIX = /usr/share/racket/gentoo
 # GENTOO_RACKET_DIR = /usr/share/racket/gentoo/site
-# PLTUSERHOME = /usr/share/racket/gentoo/home"
+# PLTUSERHOME = /usr/share/racket/gentoo/home
 # P_RACKET_DIR = /usr/share/racket/gentoo/site/${PN}
 
 racket_environment_prepare() {
@@ -102,7 +102,7 @@ raco_make() {
 
 raco_remove() {
 	# Do not die in this function
-	raco pkg remove	--batch	--force --no-trash --scope user "${1}"
+	raco pkg remove	--batch	--force --no-trash --scope user "${1:-${PN}}"
 }
 
 
@@ -198,7 +198,7 @@ racket_pkg_postinst() {
 		--scope user
 	)
 
-	raco_remove "${PN}"
+	raco_remove
 
 	pushd "${P_RACKET_DIR}" || die
 
@@ -221,7 +221,7 @@ racket_pkg_postrm() {
 
 	if [ -n "${P_RACKET_DIR}" ] && [ ! -d "${P_RACKET_DIR}" ]; then
 		ewarn "Removing ${PN}"
-		raco_remove "${PN}"
+		raco_remove
 	fi
 
 	pltuserhome_owner_portage

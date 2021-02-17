@@ -7,7 +7,7 @@ inherit racket
 
 DESCRIPTION="Line-oriented reader"
 HOMEPAGE="https://github.com/willghatch/racket-rash"
-SRC_URI="https://github.com/willghatch/racket-rash/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://github.com/willghatch/racket-rash/archive/v${PV}.tar.gz -> rash-${PV}.tar.gz"
 
 RESTRICT="
 	mirror

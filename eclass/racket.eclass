@@ -102,7 +102,16 @@ raco_make() {
 
 raco_remove() {
 	# Do not die in this function
-	raco pkg remove	--batch	--force --no-trash --scope user "${1:-${PN}}"
+	local raco_cmd=(
+		raco pkg remove
+		--batch
+		--force
+		--no-trash
+		--scope user
+		--no-setup
+		--no-docs
+	)
+	eval "${raco_cmd[@]}" "${1:-${PN}}" && einfo "raco has removed ${PN}"
 }
 
 
@@ -203,7 +212,7 @@ racket_pkg_postinst() {
 	pushd "${P_RACKET_DIR}" || die
 
 	einfo "Running ${raco_cmd[@]}"
-	eval "${raco_cmd[@]}" || die "raco_pkg_preinst failed (${raco_cmd[@]})"
+	eval "${raco_cmd[@]}" || ewarn "raco_pkg_preinst failed (${raco_cmd[@]})"
 
 	popd || die
 

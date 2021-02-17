@@ -197,12 +197,12 @@ racket_pkg_postinst() {
 	einfo "Running Racket pkg_postinst"
 
 	local raco_opts=(
-		$(usex doc '' '--no-docs')
 		--batch
 		--deps force
 		--force
 		--jobs "$(nproc)"
 		--link
+		--no-docs
 		--scope user
 	)
 

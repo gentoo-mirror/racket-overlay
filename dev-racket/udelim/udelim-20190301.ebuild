@@ -16,6 +16,5 @@ RESTRICT="mirror"
 LICENSE="LGPL-3"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE="doc"
 
 S="${WORKDIR}/racket-${PN}-${COMMIT_SHA}"

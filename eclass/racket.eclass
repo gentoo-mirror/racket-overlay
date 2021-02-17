@@ -25,10 +25,11 @@ esac
 
 # Append dev-scheme/racket to dependencies
 DEPEND+="
-	dev-scheme/racket[-minimal]
+	>=dev-scheme/racket-7.0[-minimal]
 "
 RDEPEND+="
-	dev-scheme/racket[-minimal]
+	>=dev-scheme/racket-7.0[-minimal]
+	sys-apps/baselayout-racket
 "
 
 

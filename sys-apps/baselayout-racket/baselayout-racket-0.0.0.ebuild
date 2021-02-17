@@ -25,8 +25,8 @@ src_install() {
 	dodir "${GENTOO_RACKET_DIR}"
 	dodir "${PLTUSERHOME}"
 
-	insinto /etc/env.d
-	doins 99plt
+	insinto "/etc/profile.d"
+	doins "plt.sh"
 }
 
 pkg_postinst() {

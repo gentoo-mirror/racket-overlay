@@ -11,6 +11,8 @@ if [[ "${PV}" != 99999999 ]]; then
 	KEYWORDS="~amd64"
 fi
 
+RACKET_REQ_USE="X"
+
 inherit desktop xdg gh racket
 
 DESCRIPTION="Terminal emulator in racket"
@@ -19,11 +21,6 @@ HOMEPAGE="https://github.com/willghatch/rackterm"
 RESTRICT="mirror"
 LICENSE="GPL-3"
 SLOT="0"
-
-DEPEND="
-	>=dev-scheme/racket-7.0[-minimal,X]
-"
-RDEPEND="${DEPEND}"
 
 src_prepare() {
 	racket_src_prepare

@@ -31,9 +31,27 @@ in
 esac
 
 
+# @ECLASS-VARIABLE: RACKET_REQ_USE
+# @DEFAULT_UNSET
+# @DESCRIPTION:
+# This variable contains a string of USE flags that will be appended
+# to the dev-scheme/racket DEPEND requirement.
+#
+# @CODE
+# RACKET_REQ_USE="X"
+# RACKET_REQ_USE="X,bc"
+# @CODE
+
+if [ -n "${RACKET_REQ_USE}" ]; then
+	_append_RACKET_REQ_USE=",${RACKET_REQ_USE}"
+else
+	_append_RACKET_REQ_USE=""
+fi
+
+
 # Dependencies
 RACKET_DEPEND+="
-	>=dev-scheme/racket-7.0[-minimal]
+	>=dev-scheme/racket-7.0[-minimal${_append_RACKET_REQ_USE}]
 	sys-apps/baselayout-racket
 "
 RDEPEND+="${RACKET_DEPEND}"

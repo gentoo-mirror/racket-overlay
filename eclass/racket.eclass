@@ -138,8 +138,15 @@ function racket_src_prepare() {
 function racket_compile_directory_zos() {
 	einfo "Compiling racket source files"
 
+	local raco_opts=(
+		--batch
+		--deps force
+		--force
+		--no-setup
+	)
+
 	# I think setup goes in order by module suffix
-	raco pkg install --force --no-setup "../$(basename $(realpath .))" \
+	raco pkg install "${raco_opts[@]}" "../$(basename $(realpath .))" \
 		|| die "failed perform temporary installation"
 
 	racket -e "(require compiler/compiler setup/getinfo)

@@ -10,6 +10,8 @@ if [[ "${PV}" != 99999999 ]]; then
 	KEYWORDS="~amd64"
 fi
 
+RACKET_REQ_USE="X"
+
 inherit gh racket
 
 DESCRIPTION="X11 bindings for Racket. Initially Jon Rafkind's work."
@@ -18,8 +20,3 @@ HOMEPAGE="https://github.com/kazzmir/x11-racket"
 RESTRICT="mirror"
 LICENSE="LGPL-3"
 SLOT="0"
-
-DEPEND="
-	>=dev-scheme/racket-7.0[-minimal,X]
-"
-RDEPEND="${DEPEND}"

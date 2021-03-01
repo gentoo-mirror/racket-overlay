@@ -97,16 +97,35 @@ function racket_environment_prepare() {
 }
 
 
+# @FUNCTION: racket_fix_collection
+# @DESCRIPTION:
+# If "info.rkt" exists in current directory, then check if it defines
+# a collection, if not then add '(define collection "${PN}")' to "info.rkt"
+# WARNING!: Check what is ${S}, it should be the highest (lowest depth)
+# placed "info.rkt" file that defines the collection you want.
+
+function racket_fix_collection() {
+	if [ -f ./info.rkt ]; then
+		if ! grep 'define collection' ./info.rkt; then
+			ewarn "adding a collection definition to info.rkt"
+			echo "(define collection \"${PN}\")" >> ./info.rkt
+		fi
+	fi
+}
+
+
 # @FUNCTION: racket_src_prepare
 # @DESCRIPTION:
 # Default src_prepare:
 #
-# Executes 'racket_environment_prepare' and 'default'.
+# Executes 'racket_environment_prepare', 'racket_fix_collection'
+# and 'default'.
 
 function racket_src_prepare() {
 	einfo "Running Racket src_prepare"
 
 	racket_environment_prepare
+	racket_fix_collection
 
 	default
 }

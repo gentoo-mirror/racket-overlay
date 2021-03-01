@@ -23,6 +23,8 @@
 
 *.log
 *.swp
+*.swo
+*.swn
 *~
 ,*
 .idea/

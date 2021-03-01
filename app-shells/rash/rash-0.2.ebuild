@@ -18,12 +18,9 @@ DEPEND="
 	dev-racket/basedir
 	dev-racket/linea
 	dev-racket/shell-pipeline
+	dev-racket/text-table
 	dev-racket/udelim
 "
 RDEPEND="${DEPEND}"
 
-S="${WORKDIR}/racket-${PN}-${PV}/${PN}"
-
-src_compile() {
-	:
-}
+S="${WORKDIR}/racket-${P}/${PN}"

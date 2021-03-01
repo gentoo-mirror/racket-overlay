@@ -3,40 +3,25 @@
 
 EAPI=7
 
-inherit racket
-
 DESCRIPTION="Baselayout for Racket"
 HOMEPAGE="https://gitlab.com/src_prepare/rkt"
 SRC_URI=""
 
-RESTRICT="mirror test"
+RESTRICT="mirror"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64"
 
-S="${FILESDIR}"
-
-src_compile() {
-	:
-}
+S="${WORKDIR}"
 
 src_install() {
-	# Those are exported by the racket eclass
-	dodir "${GENTOO_RACKET_DIR}"
-	dodir "${PLTUSERHOME}/.racket"
+	local protected=(
+		"${EPREFIX}/usr/share/racket/links.rktd"
+		"${EPREFIX}/usr/share/racket/pkgs/pkgs.rktd"
+	)
 
-	insinto "${PLTUSERHOME}"
-	newins "racketrc" ".racketrc"
+	einfo "Installing environment file..."
 
-	insinto "/etc/profile.d"
-	doins "plt.sh"
-}
-
-pkg_postinst() {
-	touch "${PLTUSERHOME}/.racket/racket-prefs.rktd"
-	pltuserhome_owner_portage
-}
-
-pkg_postrm() {
-	pltuserhome_owner_portage
+	echo "CONFIG_PROTECT=\"${protected[@]}\"" >> 99racket
+	doenvd 99racket
 }

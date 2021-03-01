@@ -34,6 +34,7 @@ esac
 # Dependencies
 RACKET_DEPEND+="
 	>=dev-scheme/racket-7.0[-minimal]
+	sys-apps/baselayout-racket
 "
 RDEPEND+="${RACKET_DEPEND}"
 DEPEND+="${RACKET_DEPEND}"

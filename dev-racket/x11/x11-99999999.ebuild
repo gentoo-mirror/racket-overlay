@@ -18,3 +18,8 @@ HOMEPAGE="https://github.com/kazzmir/x11-racket"
 RESTRICT="mirror"
 LICENSE="LGPL-3"
 SLOT="0"
+
+DEPEND="
+	>=dev-scheme/racket-7.0[-minimal,X]
+"
+RDEPEND="${DEPEND}"

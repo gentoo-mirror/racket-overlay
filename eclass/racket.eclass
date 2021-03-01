@@ -39,13 +39,15 @@ RACKET_DEPEND+="
 RDEPEND+="${RACKET_DEPEND}"
 DEPEND+="${RACKET_DEPEND}"
 
+
 # Exported functions
 EXPORT_FUNCTIONS src_prepare src_compile src_test src_install pkg_postinst pkg_postrm
 
 
 # @FUNCTION: racket_environment_prepare
 # @DESCRIPTION:
-# Prepare the environment for building racket packages
+# Prepare the environment for building racket packages.
+# This function sets the following variables:
 #
 # @CODE
 # GENTOO_RACKET_PREFIX = /usr/share/racket/
@@ -54,10 +56,11 @@ EXPORT_FUNCTIONS src_prepare src_compile src_test src_install pkg_postinst pkg_p
 # P_RACKET_DIR = ${EPREFIX}/usr/share/racket/pkgs/${PN}
 # @CODE
 
-racket_environment_prepare() {
+function racket_environment_prepare() {
 	einfo "Preparing the environment for Racket"
 
-	command -v raco || die "raco is missing"
+	command -v raco >/dev/null \
+		|| die "raco is missing"
 
 	xdg_environment_reset
 
@@ -67,6 +70,8 @@ racket_environment_prepare() {
 	export GENTOO_RACKET_DIR=/usr/share/racket/pkgs/
 
 	# The location of system's PLTUSERHOME
+	# this in most cases will be /var/tmp/portage/homedir
+	# While this is /root or /home/<user> we are in trouble
 	export PLTUSERHOME="${HOME}"
 
 	# Where the package will be merged
@@ -78,24 +83,28 @@ racket_environment_prepare() {
 # @DESCRIPTION:
 # Default src_prepare:
 #
-# Executes 'racket_environment_prepare' and 'default'
+# Executes 'racket_environment_prepare' and 'default'.
 
-racket_src_prepare() {
+function racket_src_prepare() {
 	einfo "Running Racket src_prepare"
 
 	racket_environment_prepare
+
 	default
 }
 
 
 # @FUNCTION: racket_compile_directory_zos
 # @DESCRIPTION:
-# Find '.rkt' files and compile them
+# Use special Racket function to safely compile the pkg.
 
-racket_compile_directory_zos() {
+function racket_compile_directory_zos() {
 	einfo "Compiling racket source files"
+
 	# I think setup goes in order by module suffix
-	raco pkg install --force --no-setup "../$(basename $(realpath .))" || die "failed temp install"
+	raco pkg install --force --no-setup "../$(basename $(realpath .))" \
+		|| die "failed perform temporary installation"
+
 	racket -e "(require compiler/compiler setup/getinfo)
 	(define info (get-info/full \".\"))
 	(compile-directory-zos (path->complete-path (string->path \".\")) info
@@ -106,9 +115,9 @@ racket_compile_directory_zos() {
 # @FUNCTION: raco_remove
 # @USAGE: [pkg_name]
 # @DESCRIPTION:
-# Remove a package installed in PLTUSERHOME
+# Remove a package installed in 'installation' scope
 
-raco_remove() {
+function raco_remove() {
 	# Do not die in this function
 	local raco_opts=(
 		--batch
@@ -126,21 +135,23 @@ raco_remove() {
 # @DESCRIPTION:
 # Default src_compile:
 #
-# Executes 'racket_compile_directory_zos'
+# Executes 'racket_compile_directory_zos'.
 
-racket_src_compile() {
+function racket_src_compile() {
 	einfo "Running Racket src_compile"
+
 	racket_compile_directory_zos
 }
+
 
 # @FUNCTION: racket_src_test
 # @DESCRIPTION:
 # Default src_test:
 #
 # Looks for main.rkt or ${PN}/main.rkt,
-# if found runs 'raco test' on that file
+# if found runs 'raco test' on that file.
 
-racket_src_test() {
+function racket_src_test() {
 	einfo "Running Racket src_test"
 
 	if [ -f "main.rkt" ]; then
@@ -152,33 +163,36 @@ racket_src_test() {
 	fi
 }
 
+
 # @FUNCTION: racket_src_install
 # @DESCRIPTION:
 # Default src_install:
 #
-# installs miscellaneous docs with 'einstalldocs'
-# and installs the compiled pkg
+# Installs miscellaneous docs with 'einstalldocs'
+# and then installs the compiled pkg.
 
-racket_src_install() {
+function racket_src_install() {
 	einfo "Running Racket src_install"
 
 	einstalldocs
 
 	local inst="${D}${GENTOO_RACKET_DIR}"
 
-	mkdir -p "${inst}" || die "racket_install failed"
-	cp -r "${S}" "${inst}/${PN}" || die "racket_install failed"
+	mkdir -p "${inst}" || die "racket_src_install failed"
+	cp -r "${S}" "${inst}/${PN}" || die "racket_src_install failed"
 }
+
 
 # @FUNCTION: racket_pkg_postinst
 # @DESCRIPTION:
 # Default pkg_postinst:
 #
 # Removes old pkg (with the same name) and then installs the pkg
-# to Gentoo's PLTUSERHOME (/usr/share/racket/gentoo/home)
+# in 'installation' scope.
 
-racket_pkg_postinst() {
+function racket_pkg_postinst() {
 	einfo "Running Racket pkg_postinst"
+
 	local raco_opts=(
 		--batch
 		--deps force
@@ -188,10 +202,20 @@ racket_pkg_postinst() {
 		--scope installation
 	)
 
+	# Remove old version of the pkg
 	raco_remove
-	pushd "${P_RACKET_DIR}" || die
-	eval raco pkg install "${raco_opts[@]}" || die
-	popd || die
+
+	# Go to a system directory where the pkg is installed
+	pushd "${P_RACKET_DIR}" >/dev/null \
+		|| die "couldn't pushd into ${P_RACKET_DIR}"
+
+	# Final step: install with raco - this creates launchers
+	# and updates racket package databases
+	eval raco pkg install "${raco_opts[@]}" \
+		|| die "racket_pkg_postinst failed"
+
+	popd >/dev/null \
+		|| die "couldn't popd"
 }
 
 
@@ -199,9 +223,10 @@ racket_pkg_postinst() {
 # @DESCRIPTION:
 # Default pkg_postrm:
 #
-# If P_RACKET_DIR does not exist remove the pkg using 'raco_remove'
+# If P_RACKET_DIR does not exist, which means the pkg has been unmerged,
+# remove the pkg using 'raco_remove' to properly update pkg databases.
 
-racket_pkg_postrm() {
+function racket_pkg_postrm() {
 	einfo "Running Racket pkg_postrm"
 
 	if [ -n "${P_RACKET_DIR}" ] && [ ! -d "${P_RACKET_DIR}" ]; then

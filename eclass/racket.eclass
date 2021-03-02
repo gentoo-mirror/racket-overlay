@@ -183,10 +183,10 @@ scribble_docs() {
 	einfo "Compiling documentation for ${P}"
 
 	local doctype
-	for doctype in html text markdown; do
+	for doctype in html latex markdown text; do
 		mkdir -p "${SCRBL_DOC_DIR}/${doctype}" || die
-		find . -name "*.scrbl" -exec scribble --${doctype} \
-			 --dest "${SCRBL_DOC_DIR}/${doctype}" {} \;
+		find . -name "*.scrbl" -exec scribble --quiet \
+			 --${doctype} --dest "${SCRBL_DOC_DIR}/${doctype}" {} \;
 	done
 }
 

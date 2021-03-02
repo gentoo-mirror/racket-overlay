@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="willghatch/racket-${PN}"
 
 if [[ "${PV}" != 99999999 ]]; then
-	GH_COMMIT="0952a8263c8e6cf1e7cd60e2daed62008246f25e"
+	COMMIT_SHA="0952a8263c8e6cf1e7cd60e2daed62008246f25e"
 	KEYWORDS="~amd64"
 fi
 

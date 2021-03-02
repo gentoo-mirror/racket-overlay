@@ -43,6 +43,30 @@ esac
 # @CODE
 
 
+# @ECLASS-VARIABLE: SCRBL_DOCS
+# @DEFAULT_UNSET
+# @DESCRIPTION:
+# This variable toggles whether to enable building
+# documentation using scribble.
+# Keep in mind we install into "/usr/share/doc/${PF}".
+#
+# @CODE
+# SCRBL_DOCS=ON
+# SCRBL_DOCS=OFF
+# @CODE
+
+case "${SCRBL_DOCS}" in
+	1 | [Tt][Rr][Uu][Ee] | [Oo][Nn] )
+		IUSE+="doc"
+		do_scrbl=1
+		SCRBL_DOC_DIR="${WORKDIR}/${P}_scrbl_docs"
+		;;
+	* )
+		do_scrbl=0
+		;;
+esac
+
+
 # Dependencies
 RACKET_DEPEND+="
 	>=dev-scheme/racket-7.0[-minimal${RACKET_REQ_USE:+,${RACKET_REQ_USE}}]
@@ -150,6 +174,23 @@ function racket_compile_directory_zos() {
 }
 
 
+# @FUNCTION: scribble_docs
+# @DESCRIPTION:
+# Compile the documentation using scribble.
+# Output to html, text and markdown formats.
+
+scribble_docs() {
+	einfo "Compiling documentation for ${P}"
+
+	local doctype
+	for doctype in html text markdown; do
+		mkdir -p "${SCRBL_DOC_DIR}/${doctype}" || die
+		find . -name "*.scrbl" -exec scribble --${doctype} \
+			 --dest "${SCRBL_DOC_DIR}/${doctype}" {} \;
+	done
+}
+
+
 # @FUNCTION: raco_remove
 # @USAGE: [pkg_name]
 # @DESCRIPTION:
@@ -179,6 +220,12 @@ function racket_src_compile() {
 	einfo "Running Racket src_compile"
 
 	racket_compile_directory_zos
+
+	if [ ${do_scrbl} -eq 1 ]; then
+		if use doc; then
+			scribble_docs || die "scribble_docs failed"
+		fi
+	fi
 }
 
 
@@ -218,6 +265,15 @@ function racket_src_install() {
 
 	mkdir -p "${inst}" || die "racket_src_install failed"
 	cp -r "${S}" "${inst}/${PN}" || die "racket_src_install failed"
+
+	if [ ${do_scrbl} -eq 1 ]; then
+		if use doc; then
+			einfo "Installing documentation for ${P}"
+			insinto "/usr/share/doc/${PF}"
+			doins -r "${SCRBL_DOC_DIR}"/*
+			docompress -x "/usr/share/doc/${PF}"
+		fi
+	fi
 }
 
 

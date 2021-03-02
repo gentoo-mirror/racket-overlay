@@ -177,7 +177,7 @@ function racket_compile_directory_zos() {
 # @FUNCTION: scribble_docs
 # @DESCRIPTION:
 # Compile the documentation using scribble.
-# Output to html, text and markdown formats.
+# Output to html, latex, markdown and text formats.
 
 scribble_docs() {
 	einfo "Compiling documentation for ${P}"

@@ -92,7 +92,9 @@ esac
 
 # Check if GH_DOM is set
 if [ -z "${GH_DOM}" ]; then
-	ewarn "GH_DOM variable is empty, defaulting to github.com"
+	if [ -n "${EBUILD_PHASE_FUNC}" ]; then
+		ewarn "GH_DOM variable is empty, defaulting to github.com"
+	fi
 	GH_DOM="github.com"
 fi
 

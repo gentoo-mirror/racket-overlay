@@ -124,7 +124,7 @@ function racket_environment_prepare() {
 
 function racket_fix_collection() {
 	if [ -f ./info.rkt ]; then
-		if ! grep 'define collection' ./info.rkt; then
+		if ! grep 'define collection' ./info.rkt >/dev/null; then
 			ewarn "adding a collection definition to info.rkt"
 			echo "(define collection \"${PN}\")" >> ./info.rkt
 		fi

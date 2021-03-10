@@ -123,9 +123,9 @@ case "${PV}" in
 
 		# Construct SRC_URI
 		if [[ "${GH_DOM}" == *github* ]]; then
-			SRC_URI="https://${GH_DOM}/${GH_REPO}/archive/${COMMIT_SHA}.tar.gz -> ${P}.tar.gz"
+			SRC_URI="https://${GH_DOM}/${GH_REPO}/archive/${GH_COMMIT}.tar.gz -> ${P}.tar.gz"
 		elif [[ "${GH_DOM}" == *gitlab* ]]; then
-			SRC_URI="https://${GH_DOM}/${GH_REPO}/-/archive/${COMMIT_SHA}.tar.gz -> ${P}.tar.gz"
+			SRC_URI="https://${GH_DOM}/${GH_REPO}/-/archive/${GH_COMMIT}.tar.gz -> ${P}.tar.gz"
 		else
 			if [ -n "${EBUILD_PHASE_FUNC}" ]; then
 				ewarn "Git hosting domain ${GH_DOM} is unsupported"

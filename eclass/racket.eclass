@@ -6,7 +6,7 @@
 # @MAINTAINER:
 # src_prepare group
 # @AUTHOR:
-# Maciej Barć <xgqt@protonmail.com>
+# Maciej Barć <xgqt@riseup.net>
 # Tom Gillespie <tgbugs@gmail.com>
 # @SUPPORTED_EAPIS: 7
 # @BLURB: Common configuration eclass for Racket packages

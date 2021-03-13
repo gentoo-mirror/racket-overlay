@@ -6,7 +6,7 @@
 # @MAINTAINER:
 # src_prepare group
 # @AUTHOR:
-# Maciej Barć <xgqt@protonmail.com>
+# Maciej Barć <xgqt@riseup.net>
 # @SUPPORTED_EAPIS: 7
 # @BLURB: Git Hosting snapshot helper
 # @DESCRIPTION:

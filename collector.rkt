@@ -101,6 +101,18 @@
     )
   )
 
+;; Should we actually list all 230 main-distribution pkgs here?
+(define skip-depend
+  '(
+    "base"
+    "racket" "racket-doc" "racket-lib"
+    "rackunit" "rackunit-doc" "rackunit-lib"
+    "sandbox-lib"
+    "scribble" "scribble-doc" "scribble-lib"
+    )
+  )
+
+
 ;;; For tests
 ;; (define small-all-pkg-details (take all-pkg-details 9))
 ;; (for ([pkg-details small-all-pkg-details])
@@ -164,16 +176,32 @@
             [gh_commit       pkg-data-checksum]
             [longdescription (hash-ref pkg-data 'description  "")]
             [description     (make-pkg-description longdescription pkg-name)]
-
+            [raw-depend      (hash-ref pkg-data 'dependencies '())]
+            [filtered-depend (set-subtract raw-depend skip-depend)]
+            [ebuild-depend   (map
+                              (lambda (str) (format "dev-racket/~A" str))
+                              filtered-depend
+                              )
+                             ]
             )
+
          (display
           (string-append
-           "PN          = " pn                  "\n"
-           "PV          = " pv                  "\n"
-           "SRC_URI     = " src_uri             "\n"
-           "GH_COMMIT   = " gh_commit           "\n"
-           "DESCRIPTION = " description         "\n"
+           "PN          = " pn          "\n"
+           "PV          = " pv          "\n"
+           "SRC_URI     = " src_uri     "\n"
+           "GH_COMMIT   = " gh_commit   "\n"
+           "DESCRIPTION = " description "\n"
 
+           (if (cons? ebuild-depend)
+               (string-append
+                "DEPEND=\""                             "\n"
+                "\t" (string-join ebuild-depend "\n\t") "\n"
+                "\""                                    "\n"
+                "RDEPEND=\"${DEPEND}\""                 "\n"
+                )
+               ""
+               )
            )
           )
          )

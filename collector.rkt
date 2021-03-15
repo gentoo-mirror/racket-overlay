@@ -92,6 +92,16 @@
 (define number-skipped   0)
 (define number-generated 0)
 
+(define number-skipped++
+  (λ ()
+    (set! number-skipped (+ 1 number-skipped))
+    )
+  )
+(define number-generated++
+  (λ ()
+    (set! number-generated (+ 1 number-generated))
+    )
+  )
 
 ;;; For tests
 ;; (define small-all-pkg-details (take all-pkg-details 9))
@@ -118,33 +128,33 @@
         pkg-data-tags
         )
        (printf "[WARNING]: Skipping ~A due to having a special tag~%" pkg-name)
-       (set! number-skipped (+ 1 number-skipped))
+       (number-skipped++)
        ]
       [(string-prefix? pkg-name "planet-")
        (printf "[WARNING]: Skipping ~A due to being in planet~%"      pkg-name)
-       (set! number-skipped (+ 1 number-skipped))
+       (number-skipped++)
        ]
       [(string-suffix? pkg-name "-doc")
        (printf "[WARNING]: Skipping ~A due to containing only docs~%" pkg-name)
-       (set! number-skipped (+ 1 number-skipped))
+       (number-skipped++)
        ]
       [(eq? pkg-data-last-updated 0)
        (printf "[WARNING]: Skipping ~A due to unknown update date~%"  pkg-name)
-       (set! number-skipped (+ 1 number-skipped))
+       (number-skipped++)
        ]
       [(eq? pkg-data-checksum "")
        ;; TODO: create live 99999999 instead of skipping
        (printf "[WARNING]: Skipping ~A due to empty checksum~%"       pkg-name)
-       (set! number-skipped (+ 1 number-skipped))
+       (number-skipped++)
        ]
       ;; this returns #f if there are no logs of failure
       [(hash-ref pkg-data-build 'conflicts-log #f)
        (printf "[WARNING]: Skipping ~A due to dependency conflicts~%" pkg-name)
-       (set! number-skipped (+ 1 number-skipped))
+       (number-skipped++)
        ]
       [(hash-ref pkg-data-build 'failure-log #f)
        (printf "[WARNING]: Skipping ~A due to failed build process~%" pkg-name)
-       (set! number-skipped (+ 1 number-skipped))
+       (number-skipped++)
        ]
 
       [else
@@ -169,7 +179,7 @@
            )
           )
          )
-       (set! number-generated (+ 1 number-generated))
+       (number-generated++)
        ]
       )
     )

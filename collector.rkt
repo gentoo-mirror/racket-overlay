@@ -37,6 +37,7 @@
  pkg/lib
  racket/date
  racket/list
+ racket/set
  racket/string
  )
 
@@ -45,12 +46,9 @@
 
 ;; Check if list1 has any of elements of lst2
 (define (contains-any lst1 lst2)
-  (if
-   (memf (lambda (arg) (member arg lst2))
-         lst1
-         )
-   #t #f
-   )
+  (if (cons? (set-intersect lst1 lst2))
+      #t #f
+      )
   )
 
 ;; epoch to date sting ; ie.: 1553012780 -> 20190319

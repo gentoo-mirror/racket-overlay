@@ -28,6 +28,11 @@
 ;; - dependencies
 ;; - source
 ;; - output to file
+;; It should be possible to create a dependency graph of all packages
+;; maybe then it would be easier to determine correct dependencies and
+;; which pkgs should be skipped
+;; Also, because we have the whole pkg map we can check
+;; if a pkg dependency belongs to a undesired set.
 
 
 #lang racket/base
@@ -85,7 +90,7 @@
 ;;; Global
 
 ;; The magic
-(define all-pkg-details (hash->list (get-all-pkg-details-from-catalogs)))
+(define all-pkg-details (get-all-pkg-details-from-catalogs))
 
 (define number-skipped   0)
 (define number-generated 0)
@@ -114,11 +119,10 @@
 
 
 ;;; For tests
-;; (define small-all-pkg-details (take all-pkg-details 9))
-;; (for ([pkg-details small-all-pkg-details])
+;; (for ([pkg-details (take (hash->list small-all-pkg-details) 9)])
 
 
-(for ([pkg-details all-pkg-details])
+(for ([pkg-details (hash->list all-pkg-details)])
 
   (let*
       (

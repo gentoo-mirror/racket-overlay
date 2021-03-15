@@ -93,12 +93,12 @@
 (define number-generated 0)
 
 (define number-skipped++
-  (λ ()
+  (lambda ()
     (set! number-skipped (+ 1 number-skipped))
     )
   )
 (define number-generated++
-  (λ ()
+  (lambda ()
     (set! number-generated (+ 1 number-generated))
     )
   )

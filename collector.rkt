@@ -135,40 +135,39 @@
        [pkg-data-tags         (hash-ref pkg-data 'tags '())]
        )
 
-    ;; 'cond' to skip currently unwanted pkgs
     (cond
-      [(contains-any
-        '("deprecated" "main-distribution" "main-test")
-        pkg-data-tags
-        )
-       (printf "[WARNING]: Skipping ~A due to having a special tag~%" pkg-name)
+      ;; 'cond' to skip currently unwanted pkgs
+      [(cond
+         [(contains-any
+           '("deprecated" "main-distribution" "main-test")
+           pkg-data-tags
+           )
+          (printf "[WARNING]: Skipping ~A due to having a special tag" pkg-name)
+          ]
+         [(string-prefix? pkg-name "planet-")
+          (printf "[WARNING]: Skipping ~A due to being in planet"      pkg-name)
+          ]
+         [(string-suffix? pkg-name "-doc")
+          (printf "[WARNING]: Skipping ~A due to containing only docs" pkg-name)
+          ]
+         [(eq? pkg-data-last-updated 0)
+          (printf "[WARNING]: Skipping ~A due to unknown update date"  pkg-name)
+          ]
+         [(eq? pkg-data-checksum "")
+          ;; TODO: create live 99999999 instead of skipping
+          (printf "[WARNING]: Skipping ~A due to empty checksum"       pkg-name)
+          ]
+         ;; this returns #f if there are no logs of failure
+         [(hash-ref pkg-data-build 'conflicts-log #f)
+          (printf "[WARNING]: Skipping ~A due to dependency conflicts" pkg-name)
+          ]
+         [(hash-ref pkg-data-build 'failure-log #f)
+          (printf "[WARNING]: Skipping ~A due to failed build process" pkg-name)
+          ]
+         [else #f]
+         )
        (number-skipped++)
-       ]
-      [(string-prefix? pkg-name "planet-")
-       (printf "[WARNING]: Skipping ~A due to being in planet~%"      pkg-name)
-       (number-skipped++)
-       ]
-      [(string-suffix? pkg-name "-doc")
-       (printf "[WARNING]: Skipping ~A due to containing only docs~%" pkg-name)
-       (number-skipped++)
-       ]
-      [(eq? pkg-data-last-updated 0)
-       (printf "[WARNING]: Skipping ~A due to unknown update date~%"  pkg-name)
-       (number-skipped++)
-       ]
-      [(eq? pkg-data-checksum "")
-       ;; TODO: create live 99999999 instead of skipping
-       (printf "[WARNING]: Skipping ~A due to empty checksum~%"       pkg-name)
-       (number-skipped++)
-       ]
-      ;; this returns #f if there are no logs of failure
-      [(hash-ref pkg-data-build 'conflicts-log #f)
-       (printf "[WARNING]: Skipping ~A due to dependency conflicts~%" pkg-name)
-       (number-skipped++)
-       ]
-      [(hash-ref pkg-data-build 'failure-log #f)
-       (printf "[WARNING]: Skipping ~A due to failed build process~%" pkg-name)
-       (number-skipped++)
+       (printf " (~A)~%" number-skipped)
        ]
 
       [else

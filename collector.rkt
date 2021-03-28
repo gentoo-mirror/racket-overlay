@@ -39,6 +39,7 @@
 
 
 (require
+ net/url
  pkg/lib
  racket/date
  racket/list
@@ -90,7 +91,16 @@
 ;;; Global
 
 ;; The magic
-(define all-pkg-details (get-all-pkg-details-from-catalogs))
+(define all-pkg-details
+  (parameterize
+      (
+       [current-pkg-catalogs
+        (list (string->url "https://pkgs.racket-lang.org/"))
+        ]
+       )
+    (get-all-pkg-details-from-catalogs)
+    )
+  )
 
 (define number-skipped   0)
 (define number-generated 0)

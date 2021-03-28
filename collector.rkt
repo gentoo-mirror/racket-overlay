@@ -127,6 +127,10 @@
     )
   )
 
+(define skip-tags
+  '("deprecated" "main-distribution" "main-test")
+  )
+
 
 ;;; For tests
 ;; (for ([pkg-details (take (hash->list small-all-pkg-details) 9)])
@@ -148,10 +152,7 @@
     (cond
       ;; 'cond' to skip currently unwanted pkgs
       [(cond
-         [(contains-any
-           '("deprecated" "main-distribution" "main-test")
-           pkg-data-tags
-           )
+         [(contains-any skip-tags pkg-data-tags)
           (printf "[WARNING]: Skipping ~A due to having a special tag" pkg-name)
           ]
          [(string-prefix? pkg-name "planet-")
@@ -190,10 +191,27 @@
             [longdescription (hash-ref pkg-data 'description  "")]
             [description     (make-pkg-description longdescription pkg-name)]
             [raw-depend      (hash-ref pkg-data 'dependencies '())]
-            [filtered-depend (set-subtract raw-depend skip-depend)]
+            ;; FIXME: Put this in one filter
+            [filtered-depend (map
+                              (lambda (pkg)
+                                (if (contains-any skip-tags
+                                                  (hash-ref
+                                                   (hash-ref all-pkg-details pkg (hash))
+                                                   'tags '()
+                                                   )
+                                                  )
+                                    #f
+                                    pkg
+                                    )
+                                )
+                              (set-subtract raw-depend skip-depend)
+                              )
+                             ]
             [ebuild-depend   (map
                               (lambda (str) (format "dev-racket/~A" str))
-                              filtered-depend
+                              ;; because sometimes we can get stuff like ("base" #:version "6.12")
+                              ;;                               pinned dependency ^
+                              (filter string? filtered-depend)
                               )
                              ]
             )

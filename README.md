@@ -1,3 +1,5 @@
+# rkt Gentoo overlay
+
 <p align="center">
     <a href="https://gitlab.com/src_prepare/rkt/pipelines">
         <img src="https://gitlab.com/src_prepare/rkt/badges/master/pipeline.svg">
@@ -19,6 +21,7 @@
     </a>
 </p>
 
-# rkt Gentoo overlay
+
+# About
 
 Experimental Gentoo overlay with Racket packages from the Racket Package Catalog

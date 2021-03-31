@@ -146,6 +146,7 @@
        [pkg-data-build        (hash-ref pkg-data 'build (hash))]
        [pkg-data-checksum     (hash-ref pkg-data 'checksum "")]
        [pkg-data-last-updated (hash-ref pkg-data 'last-updated 0 )]
+       [pkg-data-source       (hash-ref pkg-data 'source "")]
        [pkg-data-tags         (hash-ref pkg-data 'tags '())]
        )
 
@@ -160,6 +161,9 @@
           ]
          [(string-suffix? pkg-name "-doc")
           (printf "[WARNING]: Skipping ~A due to containing only docs" pkg-name)
+          ]
+         [(not (string-contains? pkg-data-source "github"))
+          (printf "[WARNING]: Skipping ~A due to unknown git upstream" pkg-name)
           ]
          [(eq? pkg-data-last-updated 0)
           (printf "[WARNING]: Skipping ~A due to unknown update date"  pkg-name)
@@ -186,7 +190,7 @@
            (
             [pn              pkg-name]
             [pv              (epoch->pv pkg-data-last-updated)]
-            [src_uri         (hash-ref pkg-data 'source       "")]
+            [src_uri         pkg-data-source]
             [gh_commit       pkg-data-checksum]
             [longdescription (hash-ref pkg-data 'description  "")]
             [description     (make-pkg-description longdescription pkg-name)]

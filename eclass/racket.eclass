@@ -31,6 +31,16 @@ in
 esac
 
 
+# @ECLASS-VARIABLE: RACKET_PN
+# @DESCRIPTION:
+# This variable controls the name under which the pkg will be installed.
+#
+# @CODE
+# RACKET_PN="mypkg"
+# @CODE
+: ${RACKET_PN:=${PN}}
+
+
 # @ECLASS-VARIABLE: RACKET_REQ_USE
 # @DEFAULT_UNSET
 # @DESCRIPTION:
@@ -89,7 +99,7 @@ EXPORT_FUNCTIONS src_prepare src_compile src_test src_install pkg_postinst pkg_p
 # GENTOO_RACKET_PREFIX = /usr/share/racket/
 # GENTOO_RACKET_DIR = /usr/share/racket/pkgs/
 # PLTUSERHOME = ${HOME}
-# P_RACKET_DIR = ${EPREFIX}/usr/share/racket/pkgs/${PN}
+# P_RACKET_DIR = ${EPREFIX}/usr/share/racket/pkgs/${RACKET_PN}
 # @CODE
 
 function racket_environment_prepare() {
@@ -111,7 +121,7 @@ function racket_environment_prepare() {
 	export PLTUSERHOME="${HOME}"
 
 	# Where the package will be merged
-	export P_RACKET_DIR="${EPREFIX}/usr/share/racket/pkgs/${PN}"
+	export P_RACKET_DIR="${EPREFIX}/usr/share/racket/pkgs/${RACKET_PN}"
 }
 
 
@@ -126,7 +136,7 @@ function racket_fix_collection() {
 	if [ -f ./info.rkt ]; then
 		if ! grep 'define collection' ./info.rkt >/dev/null; then
 			ewarn "adding a collection definition to info.rkt"
-			echo "(define collection \"${PN}\")" >> ./info.rkt
+			echo "(define collection \"${RACKET_PN}\")" >> ./info.rkt
 		fi
 	fi
 }
@@ -144,6 +154,8 @@ function racket_src_prepare() {
 
 	racket_environment_prepare
 	racket_fix_collection
+
+	einfo "prepared for Racket ${RACKET_PN} package"
 
 	default
 }
@@ -205,8 +217,8 @@ function raco_remove() {
 		--no-trash
 		--scope installation
 	)
-	eval raco pkg remove "${raco_opts[@]}" "${1:-${PN}}" \
-		&& einfo "raco has removed ${1:-${PN}}"
+	eval raco pkg remove "${raco_opts[@]}" "${1:-${RACKET_PN}}" \
+		&& einfo "raco has removed ${1:-${RACKET_PN}}"
 }
 
 
@@ -241,8 +253,8 @@ function racket_src_test() {
 
 	if [ -f "main.rkt" ]; then
 		raco test "main.rkt" || die "tests failed"
-	elif [ -f "${PN}/main.rkt" ]; then
-		raco test "${PN}/main.rkt" || die "tests failed"
+	elif [ -f "${RACKET_PN}/main.rkt" ]; then
+		raco test "${RACKET_PN}/main.rkt" || die "tests failed"
 	else
 		ewarn "No tests found"
 	fi
@@ -264,7 +276,7 @@ function racket_src_install() {
 	local inst="${D}${GENTOO_RACKET_DIR}"
 
 	mkdir -p "${inst}" || die "racket_src_install failed"
-	cp -r "${S}" "${inst}/${PN}" || die "racket_src_install failed"
+	cp -r "${S}" "${inst}/${RACKET_PN}" || die "racket_src_install failed"
 
 	if [ ${do_scrbl} -eq 1 ]; then
 		if use doc; then
@@ -324,7 +336,7 @@ function racket_pkg_postrm() {
 	einfo "Running Racket pkg_postrm"
 
 	if [ -n "${P_RACKET_DIR}" ] && [ ! -d "${P_RACKET_DIR}" ]; then
-		ewarn "Removing ${PN}"
+		ewarn "removing ${RACKET_PN}"
 		raco_remove
 	fi
 }

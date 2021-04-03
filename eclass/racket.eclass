@@ -64,17 +64,25 @@ esac
 # SCRBL_DOCS=ON
 # SCRBL_DOCS=OFF
 # @CODE
-
 case "${SCRBL_DOCS}" in
 	1 | [Tt][Rr][Uu][Ee] | [Oo][Nn] )
 		IUSE+="doc"
 		do_scrbl=1
-		SCRBL_DOC_DIR="${WORKDIR}/${P}_scrbl_docs"
 		;;
 	* )
 		do_scrbl=0
 		;;
 esac
+
+
+# @ECLASS-VARIABLE: SCRBL_DOC_DIR
+# @DESCRIPTION:
+# This variable contains the temporary scribble documentation build directory.
+#
+# @CODE
+# SCRBL_DOC_DIR="${WORKDIR}/${P}_scrbl_docs"
+# @CODE
+: ${SCRBL_DOC_DIR:="${WORKDIR}/${P}_scrbl_docs"}
 
 
 # Dependencies
@@ -196,7 +204,9 @@ scribble_docs() {
 
 	local doctype
 	for doctype in html latex markdown text; do
-		mkdir -p "${SCRBL_DOC_DIR}/${doctype}" || die
+		echo "Creating ${doctype} documentation in ${SCRBL_DOC_DIR}/${doctype}"
+		mkdir -p "${SCRBL_DOC_DIR}/${doctype}" \
+			|| die "failed to create ${SCRBL_DOC_DIR}/${doctype}"
 		find . -name "*.scrbl" -exec scribble --quiet \
 			 --${doctype} --dest "${SCRBL_DOC_DIR}/${doctype}" {} \;
 	done

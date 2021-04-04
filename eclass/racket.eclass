@@ -174,14 +174,14 @@ function racket_src_prepare() {
 # Use special Racket function to safely compile the pkg.
 
 function racket_compile_directory_zos() {
-	einfo "Compiling racket source files"
-
 	local raco_opts=(
 		--batch
 		--deps force
 		--force
 		--no-setup
 	)
+
+	ebegin "Compiling racket source files"
 
 	# I think setup goes in order by module suffix
 	raco pkg install "${raco_opts[@]}" "../$(basename $(realpath .))" \
@@ -191,6 +191,8 @@ function racket_compile_directory_zos() {
 	(define info (get-info/full \".\"))
 	(compile-directory-zos (path->complete-path (string->path \".\")) info
 	#:verbose #f #:skip-doc-sources? #t)" || die "compile failed"
+
+	eend $? "racket_compile_directory_zos: compiling racket source files failed" || die
 }
 
 
@@ -200,7 +202,7 @@ function racket_compile_directory_zos() {
 # Output to html, latex, markdown and text formats.
 
 scribble_docs() {
-	einfo "Compiling documentation for ${P}"
+	ebegin "Compiling documentation for ${P}"
 
 	local doctype
 	for doctype in html latex markdown text; do
@@ -210,6 +212,8 @@ scribble_docs() {
 		find . -name "*.scrbl" -exec scribble --quiet \
 			 --${doctype} --dest "${SCRBL_DOC_DIR}/${doctype}" {} \;
 	done
+
+	eend $? "scribble_docs: compiling documentation for ${P} failed" || die
 }
 
 
@@ -219,6 +223,8 @@ scribble_docs() {
 # Remove a package installed in 'installation' scope
 
 function raco_remove() {
+	local pkg="${1:-${RACKET_PN}}"
+
 	# Do not die in this function
 	local raco_opts=(
 		--batch
@@ -227,8 +233,13 @@ function raco_remove() {
 		--no-trash
 		--scope installation
 	)
-	eval raco pkg remove "${raco_opts[@]}" "${1:-${RACKET_PN}}" \
-		&& einfo "raco has removed ${1:-${RACKET_PN}}"
+
+	ebegin "Removing ${pkg}"
+
+	eval raco pkg remove "${raco_opts[@]}" "${pkg}" \
+		&& einfo "raco has removed ${pkg}"
+
+	eend $? "raco_remove: removing ${pkg} failed" || die
 }
 
 

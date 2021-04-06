@@ -88,6 +88,29 @@
   )
 
 
+(define (string->repo str)
+  (let*
+      (
+       [path-list (string-split
+                   (path->string (url->path (string->url str)))
+                   "/"
+                   )
+                  ]
+       ;; FIXME: fight this bug
+       [path     (string-join
+                  (if (>= (length path-list) 2)
+                      (take path-list 2)
+                      (take path-list 1)
+                      )
+                  "/"
+                  )
+                 ]
+       )
+    ;; trim trash
+    (string-trim (string-trim path ".git") "/.")
+    )
+  )
+
 ;;; Global
 
 ;; The magic
@@ -191,6 +214,7 @@
             [pn              pkg-name]
             [pv              (epoch->pv pkg-data-last-updated)]
             [src_uri         pkg-data-source]
+            [gh_repo         (string->repo src_uri)]
             [gh_commit       pkg-data-checksum]
             [longdescription (hash-ref pkg-data 'description  "")]
             [description     (make-pkg-description longdescription pkg-name)]
@@ -222,11 +246,13 @@
 
          (display
           (string-append
-           "PN          = " pn          "\n"
-           "PV          = " pv          "\n"
-           "SRC_URI     = " src_uri     "\n"
-           "GH_COMMIT   = " gh_commit   "\n"
-           "DESCRIPTION = " description "\n"
+           "PN          = "   pn          "\n"
+           "PV          = "   pv          "\n"
+           "SRC_URI     = " src_uri       "\n"
+           "GH_DOM      = \"github.com\"   \n"
+           "GH_REPO     = \"" gh_repo   "\"\n"
+           "GH_COMMIT   = "   gh_commit   "\n"
+           "DESCRIPTION = "   description "\n"
 
            (if (cons? ebuild-depend)
                (string-append

@@ -190,7 +190,7 @@ function racket_compile_directory_zos() {
 	racket -e "(require compiler/compiler setup/getinfo)
 	(define info (get-info/full \".\"))
 	(compile-directory-zos (path->complete-path (string->path \".\")) info
-	#:verbose #f #:skip-doc-sources? #t)" || die "compile failed"
+	#:verbose #t #:skip-doc-sources? #t)" || die "compile failed"
 
 	eend $? "racket_compile_directory_zos: compiling racket source files failed" || die
 }

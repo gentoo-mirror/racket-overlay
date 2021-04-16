@@ -87,7 +87,6 @@
     )
   )
 
-
 (define (string->repo str)
   (let*
       (
@@ -110,6 +109,19 @@
     (string-trim (string-trim path ".git") "/.")
     )
   )
+
+(define (string-query-path url-str)
+  ;; query - path
+  ;; ie.: .../racket-tulip?path=tulip
+  (let*
+      ([lst (string-split url-str "?path=")])
+    (if (eq? (length lst) 2)
+        (second lst)
+        #f
+        )
+    )
+  )
+
 
 ;;; Global
 
@@ -215,6 +227,7 @@
             [pv              (epoch->pv pkg-data-last-updated)]
             [src_uri         pkg-data-source]
             [gh_repo         (string->repo src_uri)]
+            [build_dir       (string-query-path pkg-data-source)]
             [gh_commit       pkg-data-checksum]
             [longdescription (hash-ref pkg-data 'description  "")]
             [description     (make-pkg-description longdescription pkg-name)]
@@ -253,6 +266,13 @@
            "GH_REPO     = \"" gh_repo   "\"\n"
            "GH_COMMIT   = "   gh_commit   "\n"
            "DESCRIPTION = "   description "\n"
+
+           (if (string? build_dir)
+               (string-append
+                "S=\"${S}/" build_dir   "\"\n"
+                )
+               ""
+               )
 
            (if (cons? ebuild-depend)
                (string-append

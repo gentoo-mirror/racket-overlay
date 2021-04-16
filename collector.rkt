@@ -167,24 +167,17 @@
   )
 
 
-;;; For tests
-;; (for ([pkg-details (take (hash->list small-all-pkg-details) 9)])
-
-
-(for ([pkg-details (hash->list all-pkg-details)])
-
+(define (drop-data pkg-details)
   (let*
       (
        [pkg-name (car pkg-details)]
        [pkg-data (cdr pkg-details)]
-
        [pkg-data-build        (hash-ref pkg-data 'build (hash))]
        [pkg-data-checksum     (hash-ref pkg-data 'checksum "")]
        [pkg-data-last-updated (hash-ref pkg-data 'last-updated 0 )]
        [pkg-data-source       (hash-ref pkg-data 'source "")]
        [pkg-data-tags         (hash-ref pkg-data 'tags '())]
        )
-
     (cond
       ;; 'cond' to skip currently unwanted pkgs
       [(cond
@@ -218,79 +211,92 @@
          )
        (number-skipped++)
        (printf " (~A)~%" number-skipped)
+       #f
        ]
-
-      [else
-       (let*
-           (
-            [pn              pkg-name]
-            [pv              (epoch->pv pkg-data-last-updated)]
-            [src_uri         pkg-data-source]
-            [gh_repo         (string->repo src_uri)]
-            [build_dir       (string-query-path pkg-data-source)]
-            [gh_commit       pkg-data-checksum]
-            [longdescription (hash-ref pkg-data 'description  "")]
-            [description     (make-pkg-description longdescription pkg-name)]
-            [raw-depend      (hash-ref pkg-data 'dependencies '())]
-            ;; FIXME: Put this in one filter
-            [filtered-depend (map
-                              (lambda (pkg)
-                                (if (contains-any skip-tags
-                                                  (hash-ref
-                                                   (hash-ref all-pkg-details pkg (hash))
-                                                   'tags '()
-                                                   )
-                                                  )
-                                    #f
-                                    pkg
-                                    )
-                                )
-                              (set-subtract raw-depend skip-depend)
-                              )
-                             ]
-            [ebuild-depend   (map
-                              (lambda (str) (format "dev-racket/~A" str))
-                              ;; because sometimes we can get stuff like ("base" #:version "6.12")
-                              ;;                               pinned dependency ^
-                              (filter string? filtered-depend)
-                              )
-                             ]
-            )
-
-         (display
-          (string-append
-           "PN          = "   pn          "\n"
-           "PV          = "   pv          "\n"
-           "SRC_URI     = " src_uri       "\n"
-           "GH_DOM      = \"github.com\"   \n"
-           "GH_REPO     = \"" gh_repo   "\"\n"
-           "GH_COMMIT   = "   gh_commit   "\n"
-           "DESCRIPTION = "   description "\n"
-
-           (if (string? build_dir)
-               (string-append
-                "S=\"${S}/" build_dir   "\"\n"
-                )
-               ""
-               )
-
-           (if (cons? ebuild-depend)
-               (string-append
-                "DEPEND=\""                             "\n"
-                "\t" (string-join ebuild-depend "\n\t") "\n"
-                "\""                                    "\n"
-                "RDEPEND=\"${DEPEND}\""                 "\n"
-                )
-               ""
-               )
-           )
-          )
-         )
-       (number-generated++)
-       ]
+      [else #t]
       )
     )
   )
+
+
+;;; For tests
+;; (for ([pkg-details (take (hash->list small-all-pkg-details) 9)])
+
+
+(for ([pkg-details (filter drop-data (hash->list all-pkg-details))])
+  (let*
+      (
+       [pkg-name (car pkg-details)]
+       [pkg-data (cdr pkg-details)]
+       [pkg-data-checksum     (hash-ref pkg-data 'checksum "")]
+       [pkg-data-last-updated (hash-ref pkg-data 'last-updated 0 )]
+       [pkg-data-source       (hash-ref pkg-data 'source "")]
+       [pn              pkg-name]
+       [pv              (epoch->pv pkg-data-last-updated)]
+       [src_uri         pkg-data-source]
+       [gh_repo         (string->repo src_uri)]
+       [build_dir       (string-query-path pkg-data-source)]
+       [gh_commit       pkg-data-checksum]
+       [longdescription (hash-ref pkg-data 'description  "")]
+       [description     (make-pkg-description longdescription pkg-name)]
+       [raw-depend      (hash-ref pkg-data 'dependencies '())]
+       ;; FIXME: Put this in one filter
+       [filtered-depend (map
+                         (lambda (pkg)
+                           (if (contains-any skip-tags
+                                             (hash-ref
+                                              (hash-ref all-pkg-details pkg (hash))
+                                              'tags '()
+                                              )
+                                             )
+                               #f
+                               pkg
+                               )
+                           )
+                         (set-subtract raw-depend skip-depend)
+                         )
+                        ]
+       [ebuild-depend   (map
+                         (lambda (str) (format "dev-racket/~A" str))
+                         ;; because sometimes we can get stuff like ("base" #:version "6.12")
+                         ;;                               pinned dependency ^
+                         (filter string? filtered-depend)
+                         )
+                        ]
+       )
+
+    (display
+     (string-append
+      "PN          = "   pn          "\n"
+      "PV          = "   pv          "\n"
+      "SRC_URI     = " src_uri       "\n"
+      "GH_DOM      = \"github.com\"   \n"
+      "GH_REPO     = \"" gh_repo   "\"\n"
+      "GH_COMMIT   = "   gh_commit   "\n"
+      "DESCRIPTION = "   description "\n"
+
+      (if (string? build_dir)
+          (string-append
+           "S=\"${S}/" build_dir   "\"\n"
+           )
+          ""
+          )
+
+      (if (cons? ebuild-depend)
+          (string-append
+           "DEPEND=\""                             "\n"
+           "\t" (string-join ebuild-depend "\n\t") "\n"
+           "\""                                    "\n"
+           "RDEPEND=\"${DEPEND}\""                 "\n"
+           )
+          ""
+          )
+      )
+     )
+    )
+  (number-generated++)
+  )
+
 
 (displayln "")
 (printf "Packages Generated: ~A~%" number-generated)

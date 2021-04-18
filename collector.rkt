@@ -114,9 +114,14 @@
   ;; query - path
   ;; ie.: .../racket-tulip?path=tulip
   (let*
-      ([lst (string-split url-str "?path=")])
+      (
+       [lst (string-split url-str "?path=")]
+       )
     (if (eq? (length lst) 2)
-        (second lst)
+        (car (string-split (second lst) "#"))
+        ;;                 ^ get the path
+        ;;   ^ also remove part after a hash symbol, ie.: "#main"
+        ;;     ... or maybe we shouldn't... is this a git branch?
         #f
         )
     )

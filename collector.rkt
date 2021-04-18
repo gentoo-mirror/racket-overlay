@@ -126,7 +126,7 @@
 ;;; Global
 
 ;; The magic
-(define all-pkg-details
+(define all-pkg-details-hash
   (parameterize
       (
        [current-pkg-catalogs
@@ -136,6 +136,13 @@
     (get-all-pkg-details-from-catalogs)
     )
   )
+
+(define all-pkg-details-list (hash->list all-pkg-details-hash))
+
+
+;;; Some mutations
+
+;; Will getting rid of this make code less readable?
 
 (define number-skipped   0)
 (define number-generated 0)
@@ -150,6 +157,7 @@
     (set! number-generated (+ 1 number-generated))
     )
   )
+
 
 ;; Should we actually list all 230 main-distribution pkgs here?
 (define skip-depend
@@ -223,7 +231,7 @@
 ;; (for ([pkg-details (take (hash->list small-all-pkg-details) 9)])
 
 
-(for ([pkg-details (filter drop-data (hash->list all-pkg-details))])
+(for ([pkg-details (filter drop-data all-pkg-details-list)])
   (let*
       (
        [pkg-name (car pkg-details)]
@@ -245,7 +253,7 @@
                          (lambda (pkg)
                            (if (contains-any skip-tags
                                              (hash-ref
-                                              (hash-ref all-pkg-details pkg (hash))
+                                              (hash-ref all-pkg-details-hash pkg (hash))
                                               'tags '()
                                               )
                                              )

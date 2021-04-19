@@ -232,11 +232,86 @@
   )
 
 
+(define all-pkg-details-drop-data
+  (filter drop-data all-pkg-details-list))
+
+(define all-pkg-details-flat
+  (flatten all-pkg-details-drop-data))
+
+
+(define circular '())
+
+(define (check-dependencies pkg)
+  (let*
+      (
+       ;; [deps (hash-ref all-pkg-details-hash pkg '())]
+       [raw-depend      (hash-ref (hash-ref all-pkg-details-hash pkg) 'dependencies '())]
+       [filtered-depend (map
+                         (lambda (pkg)
+                           (if (contains-any skip-tags
+                                             (hash-ref
+                                              (hash-ref all-pkg-details-hash pkg (hash))
+                                              'tags '()
+                                              )
+                                             )
+                               #f
+                               pkg
+                               )
+                           )
+                         (set-subtract raw-depend skip-depend)
+                         )
+                        ]
+       [deps            (filter
+                         (lambda (name) (not (eq? name pkg)))
+                         (filter string? filtered-depend)
+                         )
+                        ]
+       )
+    (cond
+      [(member pkg circular) #f]
+      [(null? deps)          #t]
+      [(not (list? deps)) (error "should be a list")]
+      [else
+       (set! circular (append circular (list pkg)))
+       ;; if there is any "False" value in the created map
+       (if (member #f
+                   (map (lambda (dep)
+                          (if (member dep all-pkg-details-flat)
+                              (check-dependencies dep)
+                              #f
+                              )
+                          )
+                        deps
+                        )
+                   )
+           #f #t
+           )
+       ]
+      )
+    )
+  )
+
+(define (check-dependencies-car pkg-details)
+  (set! circular '())
+  (let*
+      ([result (check-dependencies (car pkg-details))])
+    (if result
+        (displayln (string-append "[OK] " (car pkg-details) " passes the dependency check"))
+        (displayln (string-append "[!!] " (car pkg-details) " fails the dependency check"))
+        )
+    result
+    )
+  )
+
+
 ;;; For tests
 ;; (for ([pkg-details (take (hash->list small-all-pkg-details) 9)])
 
 
-(for ([pkg-details (filter drop-data all-pkg-details-list)])
+(for
+    ([pkg-details
+      (filter check-dependencies-car (filter drop-data all-pkg-details-list))
+      ])
   (let*
       (
        [pkg-name (car pkg-details)]

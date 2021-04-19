@@ -196,29 +196,37 @@
       [(cond
          [(contains-any skip-tags pkg-data-tags)
           (printf "[WARNING]: Skipping ~A due to having a special tag" pkg-name)
+          #t
           ]
          [(string-prefix? pkg-name "planet-")
           (printf "[WARNING]: Skipping ~A due to being in planet"      pkg-name)
+          #t
           ]
          [(string-suffix? pkg-name "-doc")
           (printf "[WARNING]: Skipping ~A due to containing only docs" pkg-name)
+          #t
           ]
          [(not (string-contains? pkg-data-source "github"))
           (printf "[WARNING]: Skipping ~A due to unknown git upstream" pkg-name)
+          #t
           ]
          [(eq? pkg-data-last-updated 0)
           (printf "[WARNING]: Skipping ~A due to unknown update date"  pkg-name)
+          #t
           ]
          [(eq? pkg-data-checksum "")
           ;; TODO: create live 99999999 instead of skipping
           (printf "[WARNING]: Skipping ~A due to empty checksum"       pkg-name)
+          #t
           ]
          ;; this returns #f if there are no logs of failure
          [(hash-ref pkg-data-build 'conflicts-log #f)
           (printf "[WARNING]: Skipping ~A due to dependency conflicts" pkg-name)
+          #t
           ]
          [(hash-ref pkg-data-build 'failure-log #f)
           (printf "[WARNING]: Skipping ~A due to failed build process" pkg-name)
+          #t
           ]
          [else #f]
          )
@@ -297,7 +305,16 @@
       ([result (check-dependencies (car pkg-details))])
     (if result
         (displayln (string-append "[OK] " (car pkg-details) " passes the dependency check"))
-        (displayln (string-append "[!!] " (car pkg-details) " fails the dependency check"))
+        (and
+         (number-skipped++)
+         (displayln (string-append "[!!] "
+                                   (car pkg-details) " fails the dependency check"
+                                   " (skipping: "
+                                   (number->string number-skipped)
+                                   ")"
+                                   )
+                    )
+         )
         )
     result
     )

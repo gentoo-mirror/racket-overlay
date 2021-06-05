@@ -243,8 +243,9 @@ function racket_src_compile() {
 # @DESCRIPTION:
 # Default src_test:
 #
-# Looks for main.rkt or ${PN}/main.rkt,
-# if found runs 'raco test' on that file.
+# Invokes 'raco test .' with '--submodule test' option causing it to look for
+# test submodules in files in current package directory (recursively)
+# and execute those tests.
 
 function racket_src_test() {
 	einfo "Running Racket src_test"

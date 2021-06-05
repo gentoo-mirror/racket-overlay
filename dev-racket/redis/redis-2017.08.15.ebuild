@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="stchang/redis/"
+GH_REPO="stchang/redis"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="A redis client for Racket."
-HOMEPAGE="https://github.com/stchang/redis/"
+HOMEPAGE="https://github.com/stchang/redis"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

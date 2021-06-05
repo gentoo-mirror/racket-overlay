@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="mordae/racket-dm/"
+GH_REPO="mordae/racket-dm"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Linux Device Mapper bindings for Racket."
-HOMEPAGE="https://github.com/mordae/racket-dm/"
+HOMEPAGE="https://github.com/mordae/racket-dm"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

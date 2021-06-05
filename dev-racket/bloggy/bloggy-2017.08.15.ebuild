@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="jeapostrophe/bloggy/"
+GH_REPO="jeapostrophe/bloggy"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="A very simple Racket blog system"
-HOMEPAGE="https://github.com/jeapostrophe/bloggy/"
+HOMEPAGE="https://github.com/jeapostrophe/bloggy"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

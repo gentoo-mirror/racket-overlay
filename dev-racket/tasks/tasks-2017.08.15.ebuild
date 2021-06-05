@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="mordae/racket-tasks/"
+GH_REPO="mordae/racket-tasks"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Sugar for sync."
-HOMEPAGE="https://github.com/mordae/racket-tasks/"
+HOMEPAGE="https://github.com/mordae/racket-tasks"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

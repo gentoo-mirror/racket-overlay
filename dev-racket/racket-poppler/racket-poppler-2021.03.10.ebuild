@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="soegaard/racket-poppler/"
+GH_REPO="soegaard/racket-poppler"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2021.03.10
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Read, search and render pdfs. Use LaTeX in scribble and slidehow."
-HOMEPAGE="https://github.com/soegaard/racket-poppler/"
+HOMEPAGE="https://github.com/soegaard/racket-poppler"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

@@ -7,25 +7,21 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="greghendershott/echonest"
+GH_REPO="racket/ChezScheme"
 
 if [[ "${PV}" != *99999999* ]]; then
-	# version: 2017.08.15
-	GH_COMMIT="fd7d6511231bb4304cfd10260825e86ac33c3ddc"
+	# version: 2021.06.05
+	GH_COMMIT="55f489ce10c66297ea71f2ebe542108a5d493575"
 	KEYWORDS="~amd64"
 fi
 
 inherit gh racket
 
-DESCRIPTION="Wrapper for The Echo Nest web API."
-HOMEPAGE="https://github.com/greghendershott/echonest"
+DESCRIPTION="Creates Chez Scheme boot files from source"
+HOMEPAGE="https://github.com/racket/ChezScheme"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"
 SLOT="0"
 
-DEPEND="
-	dev-racket/rackjure
-	dev-racket/wffi
-"
-RDEPEND="${DEPEND}"
+S="${S}/rktboot"

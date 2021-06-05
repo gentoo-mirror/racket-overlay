@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="LeifAndersen/slideshow-pretty/"
+GH_REPO="LeifAndersen/slideshow-pretty"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Slideshow extensions to add pretty transitions between slides."
-HOMEPAGE="https://github.com/LeifAndersen/slideshow-pretty/"
+HOMEPAGE="https://github.com/LeifAndersen/slideshow-pretty"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

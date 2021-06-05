@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="tonyg/racket-stomp/"
+GH_REPO="tonyg/racket-stomp"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2018.09.27
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="STOMP messaging protocol codec and client"
-HOMEPAGE="https://github.com/tonyg/racket-stomp/"
+HOMEPAGE="https://github.com/tonyg/racket-stomp"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

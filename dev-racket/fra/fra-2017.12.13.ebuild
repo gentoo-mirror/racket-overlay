@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="jeapostrophe/fra/"
+GH_REPO="jeapostrophe/fra"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.12.13
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Purely functional implementation of relational algebra"
-HOMEPAGE="https://github.com/jeapostrophe/fra/"
+HOMEPAGE="https://github.com/jeapostrophe/fra"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

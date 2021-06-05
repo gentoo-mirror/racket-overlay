@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="mordae/racket-misc1/"
+GH_REPO="mordae/racket-misc1"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Miscellaneous utilities collection."
-HOMEPAGE="https://github.com/mordae/racket-misc1/"
+HOMEPAGE="https://github.com/mordae/racket-misc1"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

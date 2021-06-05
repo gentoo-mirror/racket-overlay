@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="takikawa/taglib-racket/"
+GH_REPO="takikawa/taglib-racket"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="the taglib Racket package"
-HOMEPAGE="https://github.com/takikawa/taglib-racket/"
+HOMEPAGE="https://github.com/takikawa/taglib-racket"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

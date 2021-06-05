@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="jbclements/ebml/"
+GH_REPO="jbclements/ebml"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.12.18
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="A library for reading and writing EBML files."
-HOMEPAGE="https://github.com/jbclements/ebml/"
+HOMEPAGE="https://github.com/jbclements/ebml"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

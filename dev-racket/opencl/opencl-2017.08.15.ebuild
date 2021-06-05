@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="jeapostrophe/opencl/"
+GH_REPO="jeapostrophe/opencl"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="A Racket interface to OpenCL using an FFI"
-HOMEPAGE="https://github.com/jeapostrophe/opencl/"
+HOMEPAGE="https://github.com/jeapostrophe/opencl"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

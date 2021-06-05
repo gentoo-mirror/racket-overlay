@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="takikawa/tr-pfds/"
+GH_REPO="takikawa/tr-pfds"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2020.04.18
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Purely functional data structures for Typed Racket"
-HOMEPAGE="https://github.com/takikawa/tr-pfds/"
+HOMEPAGE="https://github.com/takikawa/tr-pfds"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

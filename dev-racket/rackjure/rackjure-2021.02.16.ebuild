@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="greghendershott/rackjure/"
+GH_REPO="greghendershott/rackjure"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2021.02.16
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Some Clojure-inspired idioms."
-HOMEPAGE="https://github.com/greghendershott/rackjure/"
+HOMEPAGE="https://github.com/greghendershott/rackjure"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

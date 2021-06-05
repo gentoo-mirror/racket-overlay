@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="kazzmir/x11-racket/"
+GH_REPO="kazzmir/x11-racket"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2021.03.10
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="X11 bindings for Racket. Initially Jon Rafkind's work."
-HOMEPAGE="https://github.com/kazzmir/x11-racket/"
+HOMEPAGE="https://github.com/kazzmir/x11-racket"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

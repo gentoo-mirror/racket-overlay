@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="tonyg/racket-ansi/"
+GH_REPO="tonyg/racket-ansi"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2021.02.18
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="ANSI and VT10x escape sequences for Racket."
-HOMEPAGE="https://github.com/tonyg/racket-ansi/"
+HOMEPAGE="https://github.com/tonyg/racket-ansi"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

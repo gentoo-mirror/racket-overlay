@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="samth/bcrypt.rkt/"
+GH_REPO="samth/bcrypt.rkt"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2021.05.25
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="A Racket interface to the bcrypt key derivation function."
-HOMEPAGE="https://github.com/samth/bcrypt.rkt/"
+HOMEPAGE="https://github.com/samth/bcrypt.rkt"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

@@ -7,25 +7,24 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="greghendershott/echonest"
+GH_REPO="arclanguage/anarki"
 
 if [[ "${PV}" != *99999999* ]]; then
-	# version: 2017.08.15
-	GH_COMMIT="fd7d6511231bb4304cfd10260825e86ac33c3ddc"
+	# version: 2021.06.05
+	GH_COMMIT="5dd727446612a45d6c43f93141a84a981a5a682b"
 	KEYWORDS="~amd64"
 fi
 
 inherit gh racket
 
-DESCRIPTION="Wrapper for The Echo Nest web API."
-HOMEPAGE="https://github.com/greghendershott/echonest"
+DESCRIPTION="Community-managed variant of the Arc dialect of Lisp"
+HOMEPAGE="https://github.com/arclanguage/anarki"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"
 SLOT="0"
 
 DEPEND="
-	dev-racket/rackjure
-	dev-racket/wffi
+	dev-racket/sha
 "
 RDEPEND="${DEPEND}"

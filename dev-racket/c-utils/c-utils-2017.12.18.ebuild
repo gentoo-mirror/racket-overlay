@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="samth/c.rkt/"
+GH_REPO="samth/c.rkt"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.12.18
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Utilities for manipulating C source code."
-HOMEPAGE="https://github.com/samth/c.rkt/"
+HOMEPAGE="https://github.com/samth/c.rkt"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

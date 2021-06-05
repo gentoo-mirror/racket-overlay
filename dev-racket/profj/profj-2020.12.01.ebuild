@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="mflatt/profj/"
+GH_REPO="mflatt/profj"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2020.12.01
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="ProfessorJ"
-HOMEPAGE="https://github.com/mflatt/profj/"
+HOMEPAGE="https://github.com/mflatt/profj"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

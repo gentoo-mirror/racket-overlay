@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="cmpitg/racket-raw-string/"
+GH_REPO="cmpitg/racket-raw-string"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Raw string support without at-exp"
-HOMEPAGE="https://github.com/cmpitg/racket-raw-string/"
+HOMEPAGE="https://github.com/cmpitg/racket-raw-string"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

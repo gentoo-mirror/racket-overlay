@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="Metaxal/measures/"
+GH_REPO="Metaxal/measures"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2018.01.20
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Units and measures with basic arithmetic operations."
-HOMEPAGE="https://github.com/Metaxal/measures/"
+HOMEPAGE="https://github.com/Metaxal/measures"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

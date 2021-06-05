@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="pleiad/cc4101-handin-client/"
+GH_REPO="pleiad/cc4101-handin-client"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="the cc4101-handin Racket package"
-HOMEPAGE="https://github.com/pleiad/cc4101-handin-client/"
+HOMEPAGE="https://github.com/pleiad/cc4101-handin-client"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="mordae/racket-libuuid/"
+GH_REPO="mordae/racket-libuuid"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2021.05.29
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="FFI bindings for the libuuid library."
-HOMEPAGE="https://github.com/mordae/racket-libuuid/"
+HOMEPAGE="https://github.com/mordae/racket-libuuid"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

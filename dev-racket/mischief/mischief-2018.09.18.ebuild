@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="carl-eastlund/mischief/"
+GH_REPO="carl-eastlund/mischief"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2018.09.18
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Mischief: A Racketeer's Toolkit"
-HOMEPAGE="https://github.com/carl-eastlund/mischief/"
+HOMEPAGE="https://github.com/carl-eastlund/mischief"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

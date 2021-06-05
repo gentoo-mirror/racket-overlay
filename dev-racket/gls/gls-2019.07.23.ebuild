@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="Kalimehtar/gls/"
+GH_REPO="Kalimehtar/gls"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2019.07.23
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="the gls Racket package"
-HOMEPAGE="https://github.com/Kalimehtar/gls/"
+HOMEPAGE="https://github.com/Kalimehtar/gls"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

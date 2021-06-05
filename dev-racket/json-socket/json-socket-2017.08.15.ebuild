@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="mordae/racket-json-socket/"
+GH_REPO="mordae/racket-json-socket"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="JSON-Talking TCP Sockets"
-HOMEPAGE="https://github.com/mordae/racket-json-socket/"
+HOMEPAGE="https://github.com/mordae/racket-json-socket"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

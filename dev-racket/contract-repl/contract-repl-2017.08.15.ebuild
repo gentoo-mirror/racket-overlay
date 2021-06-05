@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="takikawa/contract-repl/"
+GH_REPO="takikawa/contract-repl"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="A REPL that prints contracts on values"
-HOMEPAGE="https://github.com/takikawa/contract-repl/"
+HOMEPAGE="https://github.com/takikawa/contract-repl"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

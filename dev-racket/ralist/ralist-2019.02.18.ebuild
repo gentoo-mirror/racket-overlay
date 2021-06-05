@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="dvanhorn/ralist/"
+GH_REPO="dvanhorn/ralist"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2019.02.18
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Purely Functional Random Access Lists"
-HOMEPAGE="https://github.com/dvanhorn/ralist/"
+HOMEPAGE="https://github.com/dvanhorn/ralist"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

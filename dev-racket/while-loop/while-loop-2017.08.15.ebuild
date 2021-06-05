@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="jbclements/while-loop/"
+GH_REPO="jbclements/while-loop"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Danny Yoo's while-loop package"
-HOMEPAGE="https://github.com/jbclements/while-loop/"
+HOMEPAGE="https://github.com/jbclements/while-loop"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

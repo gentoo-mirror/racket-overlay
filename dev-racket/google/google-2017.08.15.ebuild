@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="tonyg/racket-google/"
+GH_REPO="tonyg/racket-google"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Google APIs (Drive, Plus, ...) for Racket."
-HOMEPAGE="https://github.com/tonyg/racket-google/"
+HOMEPAGE="https://github.com/tonyg/racket-google"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

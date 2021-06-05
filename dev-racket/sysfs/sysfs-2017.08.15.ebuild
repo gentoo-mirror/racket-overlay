@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="mordae/racket-sysfs/"
+GH_REPO="mordae/racket-sysfs"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Linux /sys utilities."
-HOMEPAGE="https://github.com/mordae/racket-sysfs/"
+HOMEPAGE="https://github.com/mordae/racket-sysfs"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="dyoo/stardate/"
+GH_REPO="dyoo/stardate"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Compute the current TNG stardate."
-HOMEPAGE="https://github.com/dyoo/stardate/"
+HOMEPAGE="https://github.com/dyoo/stardate"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="mordae/racket-tandem/"
+GH_REPO="mordae/racket-tandem"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Cooperative Communication Framework for Racket"
-HOMEPAGE="https://github.com/mordae/racket-tandem/"
+HOMEPAGE="https://github.com/mordae/racket-tandem"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

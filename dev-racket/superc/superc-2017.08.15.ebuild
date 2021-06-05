@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="jeapostrophe/superc/"
+GH_REPO="jeapostrophe/superc"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="A language for writing C with Racket macros and an easy interface to Racket"
-HOMEPAGE="https://github.com/jeapostrophe/superc/"
+HOMEPAGE="https://github.com/jeapostrophe/superc"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

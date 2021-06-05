@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="samth/find-parent-dir/"
+GH_REPO="samth/find-parent-dir"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Find parent directories matching a criterion."
-HOMEPAGE="https://github.com/samth/find-parent-dir/"
+HOMEPAGE="https://github.com/samth/find-parent-dir"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

@@ -6,26 +6,20 @@
 
 EAPI=7
 
-GH_DOM="github.com"
-GH_REPO="greghendershott/echonest"
+GH_DOM="gitlab.com"
+GH_REPO="src_prepare/collector2"
 
 if [[ "${PV}" != *99999999* ]]; then
-	# version: 2017.08.15
-	GH_COMMIT="fd7d6511231bb4304cfd10260825e86ac33c3ddc"
+	# version: 2021.06.05
+	GH_COMMIT="e430874d5d44edd34127fa46ed30418b94aa1ec6"
 	KEYWORDS="~amd64"
 fi
 
 inherit gh racket
 
-DESCRIPTION="Wrapper for The Echo Nest web API."
-HOMEPAGE="https://github.com/greghendershott/echonest"
+DESCRIPTION="the collector2 Racket package"
+HOMEPAGE="https://gitlab.com/src_prepare/collector2"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"
 SLOT="0"
-
-DEPEND="
-	dev-racket/rackjure
-	dev-racket/wffi
-"
-RDEPEND="${DEPEND}"

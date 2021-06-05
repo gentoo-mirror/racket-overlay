@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="takikawa/racket-cow-repl/"
+GH_REPO="takikawa/racket-cow-repl"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Cowsay in your REPL"
-HOMEPAGE="https://github.com/takikawa/racket-cow-repl/"
+HOMEPAGE="https://github.com/takikawa/racket-cow-repl"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

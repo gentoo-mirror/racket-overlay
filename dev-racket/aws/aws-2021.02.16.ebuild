@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="greghendershott/aws/"
+GH_REPO="greghendershott/aws"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2021.02.16
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="the aws Racket package"
-HOMEPAGE="https://github.com/greghendershott/aws/"
+HOMEPAGE="https://github.com/greghendershott/aws"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

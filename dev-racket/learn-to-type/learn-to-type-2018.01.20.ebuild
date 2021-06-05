@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="Metaxal/learn-to-type/"
+GH_REPO="Metaxal/learn-to-type"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2018.01.20
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="A very simple GUI program to learn to type by copying a text."
-HOMEPAGE="https://github.com/Metaxal/learn-to-type/"
+HOMEPAGE="https://github.com/Metaxal/learn-to-type"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="jeapostrophe/matrix/"
+GH_REPO="jeapostrophe/matrix"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Semi-persistent matrices based on spvectors"
-HOMEPAGE="https://github.com/jeapostrophe/matrix/"
+HOMEPAGE="https://github.com/jeapostrophe/matrix"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

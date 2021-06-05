@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="jeapostrophe/xml-rpc/"
+GH_REPO="jeapostrophe/xml-rpc"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2020.03.18
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="A native Racket XML-RPC client and server library"
-HOMEPAGE="https://github.com/jeapostrophe/xml-rpc/"
+HOMEPAGE="https://github.com/jeapostrophe/xml-rpc"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="samth/lang-slide/"
+GH_REPO="samth/lang-slide"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2019.08.14
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="A picture showing all the languages used to implement Racket."
-HOMEPAGE="https://github.com/samth/lang-slide/"
+HOMEPAGE="https://github.com/samth/lang-slide"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

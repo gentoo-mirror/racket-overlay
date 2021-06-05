@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="Metaxal/bazaar/"
+GH_REPO="Metaxal/bazaar"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2021.05.31
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="A personal collection of useful definitions. Quite unstable."
-HOMEPAGE="https://github.com/Metaxal/bazaar/"
+HOMEPAGE="https://github.com/Metaxal/bazaar"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

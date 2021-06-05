@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="jeapostrophe/mongodb/"
+GH_REPO="jeapostrophe/mongodb"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2020.04.17
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="A native Racket interface to MongoDB & BSON"
-HOMEPAGE="https://github.com/jeapostrophe/mongodb/"
+HOMEPAGE="https://github.com/jeapostrophe/mongodb"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

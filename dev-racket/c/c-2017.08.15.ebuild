@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="jeapostrophe/c/"
+GH_REPO="jeapostrophe/c"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="A language level for writing C code in DrRacket."
-HOMEPAGE="https://github.com/jeapostrophe/c/"
+HOMEPAGE="https://github.com/jeapostrophe/c"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

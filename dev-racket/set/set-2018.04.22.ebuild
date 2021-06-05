@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="samth/set.rkt/"
+GH_REPO="samth/set.rkt"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2018.04.22
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Use racket/set instead"
-HOMEPAGE="https://github.com/samth/set.rkt/"
+HOMEPAGE="https://github.com/samth/set.rkt"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

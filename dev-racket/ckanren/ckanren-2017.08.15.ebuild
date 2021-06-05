@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="calvis/cKanren/"
+GH_REPO="calvis/cKanren"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Constraint programming language"
-HOMEPAGE="https://github.com/calvis/cKanren/"
+HOMEPAGE="https://github.com/calvis/cKanren"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

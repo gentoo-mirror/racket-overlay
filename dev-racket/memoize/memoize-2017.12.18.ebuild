@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="jbclements/memoize/"
+GH_REPO="jbclements/memoize"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.12.18
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Memoization for functions"
-HOMEPAGE="https://github.com/jbclements/memoize/"
+HOMEPAGE="https://github.com/jbclements/memoize"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

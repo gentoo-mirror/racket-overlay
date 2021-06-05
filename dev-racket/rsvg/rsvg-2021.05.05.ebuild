@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="takikawa/racket-rsvg/"
+GH_REPO="takikawa/racket-rsvg"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2021.05.05
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="FFI bindings to libRSVG, a library for loading SVG documents"
-HOMEPAGE="https://github.com/takikawa/racket-rsvg/"
+HOMEPAGE="https://github.com/takikawa/racket-rsvg"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

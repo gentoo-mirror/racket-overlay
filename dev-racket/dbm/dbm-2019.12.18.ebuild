@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="jeapostrophe/dbm/"
+GH_REPO="jeapostrophe/dbm"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2019.12.18
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="An interface to UNIX dbm files using a libdbm FFI"
-HOMEPAGE="https://github.com/jeapostrophe/dbm/"
+HOMEPAGE="https://github.com/jeapostrophe/dbm"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

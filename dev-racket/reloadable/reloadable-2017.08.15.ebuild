@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="tonyg/racket-reloadable/"
+GH_REPO="tonyg/racket-reloadable"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="the reloadable Racket package"
-HOMEPAGE="https://github.com/tonyg/racket-reloadable/"
+HOMEPAGE="https://github.com/tonyg/racket-reloadable"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

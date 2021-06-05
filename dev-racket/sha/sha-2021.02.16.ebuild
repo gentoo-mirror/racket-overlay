@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="greghendershott/sha/"
+GH_REPO="greghendershott/sha"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2021.02.16
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="SHA-1 and SHA-2, via FFI to OpenSSL."
-HOMEPAGE="https://github.com/greghendershott/sha/"
+HOMEPAGE="https://github.com/greghendershott/sha"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="Metaxal/rwind/"
+GH_REPO="Metaxal/rwind"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2021.03.28
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="An X11 window manager written in Racket (still in early stage)"
-HOMEPAGE="https://github.com/Metaxal/rwind/"
+HOMEPAGE="https://github.com/Metaxal/rwind"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

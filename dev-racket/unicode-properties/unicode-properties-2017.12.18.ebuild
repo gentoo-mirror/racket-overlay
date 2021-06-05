@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="jbclements/unicode-props/"
+GH_REPO="jbclements/unicode-props"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.12.18
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="the unicode-properties Racket package"
-HOMEPAGE="https://github.com/jbclements/unicode-props/"
+HOMEPAGE="https://github.com/jbclements/unicode-props"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

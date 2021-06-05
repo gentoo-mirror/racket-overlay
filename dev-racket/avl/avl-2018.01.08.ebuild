@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="mordae/racket-avl/"
+GH_REPO="mordae/racket-avl"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2018.01.08
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="AVL Trees for Racket"
-HOMEPAGE="https://github.com/mordae/racket-avl/"
+HOMEPAGE="https://github.com/mordae/racket-avl"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

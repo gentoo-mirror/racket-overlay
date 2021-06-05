@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="jbclements/sxml/"
+GH_REPO="jbclements/sxml"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2021.02.18
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="SXML family of tools (including SXPath)"
-HOMEPAGE="https://github.com/jbclements/sxml/"
+HOMEPAGE="https://github.com/jbclements/sxml"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

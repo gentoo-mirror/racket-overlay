@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="samth/xlang/"
+GH_REPO="samth/xlang"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="A minimal combinator language, created for PLT Game #1"
-HOMEPAGE="https://github.com/samth/xlang/"
+HOMEPAGE="https://github.com/samth/xlang"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

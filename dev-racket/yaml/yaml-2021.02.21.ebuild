@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="esilkensen/yaml/"
+GH_REPO="esilkensen/yaml"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2021.02.21
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="A library for parsing and emitting YAML."
-HOMEPAGE="https://github.com/esilkensen/yaml/"
+HOMEPAGE="https://github.com/esilkensen/yaml"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

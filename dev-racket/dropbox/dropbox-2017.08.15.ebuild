@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="stchang/dropbox/"
+GH_REPO="stchang/dropbox"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="SDK for Dropbox"
-HOMEPAGE="https://github.com/stchang/dropbox/"
+HOMEPAGE="https://github.com/stchang/dropbox"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

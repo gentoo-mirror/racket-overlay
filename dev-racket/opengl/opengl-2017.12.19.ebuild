@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="stephanh42/RacketGL/"
+GH_REPO="stephanh42/RacketGL"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.12.19
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Exhaustive Racket bindings to OpenGL"
-HOMEPAGE="https://github.com/stephanh42/RacketGL/"
+HOMEPAGE="https://github.com/stephanh42/RacketGL"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

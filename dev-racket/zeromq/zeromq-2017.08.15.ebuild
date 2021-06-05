@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="jeapostrophe/zeromq/"
+GH_REPO="jeapostrophe/zeromq"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="A Racket interface to zeromq based on an FFI"
-HOMEPAGE="https://github.com/jeapostrophe/zeromq/"
+HOMEPAGE="https://github.com/jeapostrophe/zeromq"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

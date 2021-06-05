@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="stchang/parsack/"
+GH_REPO="stchang/parsack"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2020.02.28
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="A basic Parsec (Haskell's monadic parser combinator library) implementation."
-HOMEPAGE="https://github.com/stchang/parsack/"
+HOMEPAGE="https://github.com/stchang/parsack"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

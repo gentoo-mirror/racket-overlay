@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="takikawa/racket-aosd/"
+GH_REPO="takikawa/racket-aosd"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="FFI bindings to the Atheme Project's libaosd"
-HOMEPAGE="https://github.com/takikawa/racket-aosd/"
+HOMEPAGE="https://github.com/takikawa/racket-aosd"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

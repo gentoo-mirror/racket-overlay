@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="97jaz/hamt/"
+GH_REPO="97jaz/hamt"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Hash array mapped tries"
-HOMEPAGE="https://github.com/97jaz/hamt/"
+HOMEPAGE="https://github.com/97jaz/hamt"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="soegaard/minipascal/"
+GH_REPO="soegaard/minipascal"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="MiniPascal as a Racket language"
-HOMEPAGE="https://github.com/soegaard/minipascal/"
+HOMEPAGE="https://github.com/soegaard/minipascal"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

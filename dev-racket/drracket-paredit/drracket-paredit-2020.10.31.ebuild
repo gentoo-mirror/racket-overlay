@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="yjqww6/drracket-paredit/"
+GH_REPO="yjqww6/drracket-paredit"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2020.10.31
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="paredit keybindings for DrRacket"
-HOMEPAGE="https://github.com/yjqww6/drracket-paredit/"
+HOMEPAGE="https://github.com/yjqww6/drracket-paredit"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

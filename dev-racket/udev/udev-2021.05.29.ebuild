@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="mordae/racket-udev/"
+GH_REPO="mordae/racket-udev"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2021.05.29
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="udev bindings for Racket"
-HOMEPAGE="https://github.com/mordae/racket-udev/"
+HOMEPAGE="https://github.com/mordae/racket-udev"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

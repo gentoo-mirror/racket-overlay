@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="mflatt/scratchy/"
+GH_REPO="mflatt/scratchy"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Scratch-like runtime and language"
-HOMEPAGE="https://github.com/mflatt/scratchy/"
+HOMEPAGE="https://github.com/mflatt/scratchy"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

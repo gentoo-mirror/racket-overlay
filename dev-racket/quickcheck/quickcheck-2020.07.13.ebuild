@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="ifigueroap/racket-quickcheck/"
+GH_REPO="ifigueroap/racket-quickcheck"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2020.07.13
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Quickcheck Clone"
-HOMEPAGE="https://github.com/ifigueroap/racket-quickcheck/"
+HOMEPAGE="https://github.com/ifigueroap/racket-quickcheck"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

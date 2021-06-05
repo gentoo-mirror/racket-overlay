@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="samth/semilit/"
+GH_REPO="samth/semilit"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2020.10.22
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Semi-literate programming for any Racket language"
-HOMEPAGE="https://github.com/samth/semilit/"
+HOMEPAGE="https://github.com/samth/semilit"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

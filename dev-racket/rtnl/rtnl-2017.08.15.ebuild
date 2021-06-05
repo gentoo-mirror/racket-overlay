@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="mordae/racket-rtnl/"
+GH_REPO="mordae/racket-rtnl"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Racket FFI Bindings for the Route-Netlink Library"
-HOMEPAGE="https://github.com/mordae/racket-rtnl/"
+HOMEPAGE="https://github.com/mordae/racket-rtnl"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

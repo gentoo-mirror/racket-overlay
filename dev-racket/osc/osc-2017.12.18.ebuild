@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="jbclements/osc/"
+GH_REPO="jbclements/osc"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.12.18
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Open Sound Control data definitions"
-HOMEPAGE="https://github.com/jbclements/osc/"
+HOMEPAGE="https://github.com/jbclements/osc"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

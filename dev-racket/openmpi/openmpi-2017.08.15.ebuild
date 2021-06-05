@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="jeapostrophe/openmpi/"
+GH_REPO="jeapostrophe/openmpi"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="A Racket interface to MPI based on an FFI to OpenMPI"
-HOMEPAGE="https://github.com/jeapostrophe/openmpi/"
+HOMEPAGE="https://github.com/jeapostrophe/openmpi"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

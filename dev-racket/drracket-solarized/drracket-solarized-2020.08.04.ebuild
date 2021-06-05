@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="takikawa/drracket-solarized/"
+GH_REPO="takikawa/drracket-solarized"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2020.08.04
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Solarized colorscheme for Drracket"
-HOMEPAGE="https://github.com/takikawa/drracket-solarized/"
+HOMEPAGE="https://github.com/takikawa/drracket-solarized"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

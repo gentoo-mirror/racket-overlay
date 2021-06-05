@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="samth/disassemble/"
+GH_REPO="samth/disassemble"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2020.12.14
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Disassembler for JIT-compiled functions."
-HOMEPAGE="https://github.com/samth/disassemble/"
+HOMEPAGE="https://github.com/samth/disassemble"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

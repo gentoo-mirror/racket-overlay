@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="dyoo/data-red-black/"
+GH_REPO="dyoo/data-red-black"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="the data-red-black Racket package"
-HOMEPAGE="https://github.com/dyoo/data-red-black/"
+HOMEPAGE="https://github.com/dyoo/data-red-black"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

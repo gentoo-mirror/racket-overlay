@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="stchang/ftree/"
+GH_REPO="stchang/ftree"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2021.05.02
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Finger Trees"
-HOMEPAGE="https://github.com/stchang/ftree/"
+HOMEPAGE="https://github.com/stchang/ftree"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="dvanhorn/fector/"
+GH_REPO="dvanhorn/fector"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Persistent Functional Vectors"
-HOMEPAGE="https://github.com/dvanhorn/fector/"
+HOMEPAGE="https://github.com/dvanhorn/fector"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

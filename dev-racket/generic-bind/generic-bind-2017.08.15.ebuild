@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="stchang/generic-bind/"
+GH_REPO="stchang/generic-bind"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Generic binding forms."
-HOMEPAGE="https://github.com/stchang/generic-bind/"
+HOMEPAGE="https://github.com/stchang/generic-bind"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

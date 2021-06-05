@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="jeapostrophe/ring-buffer/"
+GH_REPO="jeapostrophe/ring-buffer"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2019.02.02
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="An imperative overwriting ring buffer data structure"
-HOMEPAGE="https://github.com/jeapostrophe/ring-buffer/"
+HOMEPAGE="https://github.com/jeapostrophe/ring-buffer"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

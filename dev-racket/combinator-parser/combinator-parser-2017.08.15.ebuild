@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="takikawa/combinator-parser/"
+GH_REPO="takikawa/combinator-parser"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="the combinator-parser Racket package"
-HOMEPAGE="https://github.com/takikawa/combinator-parser/"
+HOMEPAGE="https://github.com/takikawa/combinator-parser"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

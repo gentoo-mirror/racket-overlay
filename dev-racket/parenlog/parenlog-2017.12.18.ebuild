@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="jeapostrophe/parenlog/"
+GH_REPO="jeapostrophe/parenlog"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.12.18
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="A language that is like Prolog, but parenthetical."
-HOMEPAGE="https://github.com/jeapostrophe/parenlog/"
+HOMEPAGE="https://github.com/jeapostrophe/parenlog"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

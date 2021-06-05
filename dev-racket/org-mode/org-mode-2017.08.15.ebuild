@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="jeapostrophe/org-mode/"
+GH_REPO="jeapostrophe/org-mode"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="A native Racket reader and writer for org-mode files."
-HOMEPAGE="https://github.com/jeapostrophe/org-mode/"
+HOMEPAGE="https://github.com/jeapostrophe/org-mode"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

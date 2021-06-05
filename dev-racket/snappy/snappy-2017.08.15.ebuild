@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="stchang/snappy/"
+GH_REPO="stchang/snappy"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="FFI bindings to snappy, a fast compression library"
-HOMEPAGE="https://github.com/stchang/snappy/"
+HOMEPAGE="https://github.com/stchang/snappy"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

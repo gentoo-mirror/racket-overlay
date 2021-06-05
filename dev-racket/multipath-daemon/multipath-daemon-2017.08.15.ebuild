@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="mordae/racket-multipath-daemon/"
+GH_REPO="mordae/racket-multipath-daemon"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="the multipath-daemon Racket package"
-HOMEPAGE="https://github.com/mordae/racket-multipath-daemon/"
+HOMEPAGE="https://github.com/mordae/racket-multipath-daemon"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

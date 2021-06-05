@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="mflatt/slideshow-repl/"
+GH_REPO="mflatt/slideshow-repl"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2019.08.22
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="the slideshow-repl Racket package"
-HOMEPAGE="https://github.com/mflatt/slideshow-repl/"
+HOMEPAGE="https://github.com/mflatt/slideshow-repl"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

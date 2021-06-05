@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="jbclements/midi-readwrite/"
+GH_REPO="jbclements/midi-readwrite"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2017.08.15
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="simple functions to read MIDI (.mid) files"
-HOMEPAGE="https://github.com/jbclements/midi-readwrite/"
+HOMEPAGE="https://github.com/jbclements/midi-readwrite"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="tonyg/racket-scrypt/"
+GH_REPO="tonyg/racket-scrypt"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2021.02.19
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="Racket binding to Colin Percival's scrypt function."
-HOMEPAGE="https://github.com/tonyg/racket-scrypt/"
+HOMEPAGE="https://github.com/tonyg/racket-scrypt"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

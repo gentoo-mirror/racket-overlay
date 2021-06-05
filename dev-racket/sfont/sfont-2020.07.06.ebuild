@@ -7,7 +7,7 @@
 EAPI=7
 
 GH_DOM="github.com"
-GH_REPO="danielecapo/sfont/"
+GH_REPO="danielecapo/sfont"
 
 if [[ "${PV}" != *99999999* ]]; then
 	# version: 2020.07.06
@@ -18,7 +18,7 @@ fi
 inherit gh racket
 
 DESCRIPTION="A package for manipulating and creating fonts in Racket."
-HOMEPAGE="https://github.com/danielecapo/sfont/"
+HOMEPAGE="https://github.com/danielecapo/sfont"
 
 RESTRICT="mirror"
 LICENSE="all-rights-reserved"

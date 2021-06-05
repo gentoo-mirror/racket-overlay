@@ -249,15 +249,8 @@ function racket_src_compile() {
 function racket_src_test() {
 	einfo "Running Racket src_test"
 
-	if [ -f "main.rkt" ]; then
-		raco test "main.rkt" ||
-			die "tests failed"
-	elif [ -f "${RACKET_PN}/main.rkt" ]; then
-		raco test "${RACKET_PN}/main.rkt"  ||
-			die "tests failed"
-	else
-		ewarn "No tests found"
-	fi
+	raco test --heartbeat --no-run-if-absent --submodule test --table .  ||
+		die "tests failed"
 }
 
 

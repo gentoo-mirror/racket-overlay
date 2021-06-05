@@ -250,8 +250,13 @@ function racket_src_compile() {
 function racket_src_test() {
 	einfo "Running Racket src_test"
 
-	raco test --heartbeat --no-run-if-absent --submodule test --table .  ||
-		die "tests failed"
+	local raco_opts=(
+		--heartbeat
+		--no-run-if-absent
+		--submodule test
+		--table
+	)
+	eval raco test "${raco_opts[@]}" .  || die "tests failed"
 }
 
 

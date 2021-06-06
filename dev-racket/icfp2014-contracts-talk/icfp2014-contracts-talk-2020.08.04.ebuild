@@ -15,6 +15,8 @@ if [[ "${PV}" != *99999999* ]]; then
 	KEYWORDS="~amd64"
 fi
 
+RACKET_PN="icfp-2014-contracts-talk"
+
 inherit gh racket
 
 DESCRIPTION="Slideshow implementation of ICFP 2014 Contracts Keynote Talk"

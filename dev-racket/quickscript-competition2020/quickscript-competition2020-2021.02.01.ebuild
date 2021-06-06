@@ -15,6 +15,8 @@ if [[ "${PV}" != *99999999* ]]; then
 	KEYWORDS="~amd64"
 fi
 
+RACKET_PN="quickscript-competition-2020"
+
 inherit gh racket
 
 DESCRIPTION="Scripts from the Quickscript Competition July 2020"

@@ -15,6 +15,8 @@ if [[ "${PV}" != *99999999* ]]; then
 	KEYWORDS="~amd64"
 fi
 
+RACKET_PN="Quaternion"
+
 inherit gh racket
 
 DESCRIPTION="the Quaternion Racket package"

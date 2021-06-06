@@ -15,6 +15,8 @@ if [[ "${PV}" != *99999999* ]]; then
 	KEYWORDS="~amd64"
 fi
 
+RACKET_PN="bystroTeX"
+
 inherit gh racket
 
 DESCRIPTION="A tool for preparing HTML slides with LaTeX formulas, based on Scribble"

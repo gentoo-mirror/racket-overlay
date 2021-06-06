@@ -15,6 +15,8 @@ if [[ "${PV}" != *99999999* ]]; then
 	KEYWORDS="~amd64"
 fi
 
+RACKET_PN="DrRacketTheme"
+
 inherit gh racket
 
 DESCRIPTION="set the background image for DrRacketView -> Set Background"

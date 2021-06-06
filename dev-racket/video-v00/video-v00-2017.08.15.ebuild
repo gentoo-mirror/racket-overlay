@@ -15,6 +15,8 @@ if [[ "${PV}" != *99999999* ]]; then
 	KEYWORDS="~amd64"
 fi
 
+RACKET_PN="video-v0-0"
+
 inherit gh racket
 
 DESCRIPTION="v0.0 of #lang video"

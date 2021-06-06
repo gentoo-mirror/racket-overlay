@@ -15,6 +15,8 @@ if [[ "${PV}" != *99999999* ]]; then
 	KEYWORDS="~amd64"
 fi
 
+RACKET_PN="lambdajam-2015-racket-pl-pl"
+
 inherit gh racket
 
 DESCRIPTION="the lambdajam-2015-racket-pl-pl Racket package"

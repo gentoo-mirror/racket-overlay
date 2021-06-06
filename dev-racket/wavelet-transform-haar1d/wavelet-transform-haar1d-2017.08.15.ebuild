@@ -15,6 +15,8 @@ if [[ "${PV}" != *99999999* ]]; then
 	KEYWORDS="~amd64"
 fi
 
+RACKET_PN="wavelet-transform-haar-1d"
+
 inherit gh racket
 
 DESCRIPTION="A library to perform forward and reverse 1-d Haar Wavelet transforms"

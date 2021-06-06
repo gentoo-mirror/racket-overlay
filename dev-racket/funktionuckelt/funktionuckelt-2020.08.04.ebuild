@@ -15,6 +15,8 @@ if [[ "${PV}" != *99999999* ]]; then
 	KEYWORDS="~amd64"
 fi
 
+RACKET_PN="Funktionuckelt"
+
 inherit gh racket
 
 DESCRIPTION="A dark eye-friendly color scheme for Racket"

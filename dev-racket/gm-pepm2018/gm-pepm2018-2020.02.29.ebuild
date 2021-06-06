@@ -15,6 +15,8 @@ if [[ "${PV}" != *99999999* ]]; then
 	KEYWORDS="~amd64"
 fi
 
+RACKET_PN="gm-pepm-2018"
+
 inherit gh racket
 
 DESCRIPTION="Artifact for On the Cost of Type-Tag Soundness"

@@ -15,6 +15,8 @@ if [[ "${PV}" != *99999999* ]]; then
 	KEYWORDS="~amd64"
 fi
 
+RACKET_PN="Drrackgit"
+
 inherit gh racket
 
 DESCRIPTION="A git plugin for DrRacket."

@@ -15,6 +15,8 @@ if [[ "${PV}" != *99999999* ]]; then
 	KEYWORDS="~amd64"
 fi
 
+RACKET_PN="racket-raylib-2d"
+
 inherit gh racket
 
 DESCRIPTION="Racket wrapper for Raylib (https://www.raylib.com/) v2.5 2D functionality"

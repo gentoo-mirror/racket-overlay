@@ -15,6 +15,8 @@ if [[ "${PV}" != *99999999* ]]; then
 	KEYWORDS="~amd64"
 fi
 
+RACKET_PN="SSE"
+
 inherit gh racket
 
 DESCRIPTION="Server Sent Events for Racket"

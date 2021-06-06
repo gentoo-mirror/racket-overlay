@@ -15,6 +15,8 @@ if [[ "${PV}" != *99999999* ]]; then
 	KEYWORDS="~amd64"
 fi
 
+RACKET_PN="oii-422-handin-client"
+
 inherit gh racket
 
 DESCRIPTION="Handin Client for PUCV PL course OII-422"

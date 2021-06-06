@@ -15,6 +15,8 @@ if [[ "${PV}" != *99999999* ]]; then
 	KEYWORDS="~amd64"
 fi
 
+RACKET_PN="SAT"
+
 inherit gh racket
 
 DESCRIPTION="A simple SAT solver based on DPLL."

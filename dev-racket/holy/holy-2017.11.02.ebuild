@@ -15,6 +15,8 @@ if [[ "${PV}" != *99999999* ]]; then
 	KEYWORDS="~amd64"
 fi
 
+RACKET_PN="HoLy"
+
 inherit gh racket
 
 DESCRIPTION="the HoLy Racket package"

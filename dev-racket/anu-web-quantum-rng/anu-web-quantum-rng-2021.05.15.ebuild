@@ -15,6 +15,8 @@ if [[ "${PV}" != *99999999* ]]; then
 	KEYWORDS="~amd64"
 fi
 
+RACKET_PN="ANU-Web-Quantum-RNG"
+
 inherit gh racket
 
 DESCRIPTION="the ANU-Web-Quantum-RNG Racket package"

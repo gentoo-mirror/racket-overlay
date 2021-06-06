@@ -15,6 +15,8 @@ if [[ "${PV}" != *99999999* ]]; then
 	KEYWORDS="~amd64"
 fi
 
+RACKET_PN="GLPK"
+
 inherit gh racket
 
 DESCRIPTION="An interface to the Gnu Linear Programming Kit (GLPK)"

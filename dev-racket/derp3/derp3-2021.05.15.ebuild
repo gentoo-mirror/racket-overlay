@@ -15,6 +15,8 @@ if [[ "${PV}" != *99999999* ]]; then
 	KEYWORDS="~amd64"
 fi
 
+RACKET_PN="derp-3"
+
 inherit gh racket
 
 DESCRIPTION="the derp-3 Racket package"

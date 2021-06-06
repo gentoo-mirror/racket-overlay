@@ -15,6 +15,8 @@ if [[ "${PV}" != *99999999* ]]; then
 	KEYWORDS="~amd64"
 fi
 
+RACKET_PN="covid-19"
+
 inherit gh racket
 
 DESCRIPTION="Racket wrapper of QQ/Sina's COVID-19 API"

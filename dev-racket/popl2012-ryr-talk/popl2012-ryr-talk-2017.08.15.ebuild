@@ -15,6 +15,8 @@ if [[ "${PV}" != *99999999* ]]; then
 	KEYWORDS="~amd64"
 fi
 
+RACKET_PN="popl-2012-ryr-talk"
+
 inherit gh racket
 
 DESCRIPTION="the popl-2012-ryr-talk Racket package"

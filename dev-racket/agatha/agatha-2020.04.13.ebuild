@@ -15,6 +15,8 @@ if [[ "${PV}" != *99999999* ]]; then
 	KEYWORDS="~amd64"
 fi
 
+RACKET_PN="Agatha"
+
 inherit gh racket
 
 DESCRIPTION="Uma linguagem para Logica de primeira ordem"

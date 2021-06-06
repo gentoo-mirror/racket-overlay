@@ -15,6 +15,8 @@ if [[ "${PV}" != *99999999* ]]; then
 	KEYWORDS="~amd64"
 fi
 
+RACKET_PN="Adapton"
+
 inherit gh racket
 
 DESCRIPTION="Adapton: Composable, Demand-Driven Incremental Computation"

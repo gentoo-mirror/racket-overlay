@@ -239,16 +239,14 @@ function racket_src_compile() {
 }
 
 
-# @FUNCTION: racket_src_test
+# @FUNCTION: raco_test
 # @DESCRIPTION:
-# Default src_test:
-#
 # Invokes 'raco test .' with '--submodule test' option causing it to look for
 # test submodules in files in current package directory (recursively)
 # and execute those tests.
 
-function racket_src_test() {
-	einfo "Running Racket src_test"
+function raco_test() {
+	local pkg="${1:-${RACKET_PN}}"
 
 	local raco_opts=(
 		--heartbeat
@@ -256,7 +254,25 @@ function racket_src_test() {
 		--submodule test
 		--table
 	)
-	eval raco test "${raco_opts[@]}" .  || die "tests failed"
+
+	ebegin "Testing ${pkg}"
+
+	eval raco test "${raco_opts[@]}" .
+
+	eend $? "raco_test: testing ${pkg} failed"  || die
+}
+
+
+# @FUNCTION: racket_src_test
+# @DESCRIPTION:
+# Default src_test:
+#
+# Executes `raco_test'.
+
+function racket_src_test() {
+	einfo "Running Racket src_test"
+
+	raco_test
 }
 
 
@@ -358,7 +374,7 @@ function racket_pkg_postrm() {
 	einfo "Running Racket pkg_postrm"
 
 	if has_version "dev-scheme/racket"; then
-		ewarn "removing ${RACKET_PN}"
+		einfo "removing ${RACKET_PN}"
 		raco_remove
 	fi
 }

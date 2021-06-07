@@ -174,6 +174,7 @@ function racket_src_prepare() {
 # Use special Racket function to safely compile the pkg.
 
 function racket_compile_directory_zos() {
+	local pkg="${1:-${RACKET_PN}}"
 	local raco_opts=(
 		--batch
 		--deps force
@@ -181,7 +182,7 @@ function racket_compile_directory_zos() {
 		--no-setup
 	)
 
-	ebegin "Compiling racket source files"
+	ebegin "Compiling ${pkg} source"
 
 	# I think setup goes in order by module suffix
 	raco pkg install "${raco_opts[@]}" "../$(basename $(realpath .))"  ||
@@ -190,9 +191,9 @@ function racket_compile_directory_zos() {
 	racket -e "(require compiler/compiler setup/getinfo)
 	(define info (get-info/full \".\"))
 	(compile-directory-zos (path->complete-path (string->path \".\")) info
-	#:verbose #t #:skip-doc-sources? #t)"  || die "compile failed"
+	#:verbose #t #:skip-doc-sources? #t)"
 
-	eend $? "racket_compile_directory_zos: compiling racket source files failed"  || die
+	eend $? "racket_compile_directory_zos: compiling ${pkg} source failed"  || die
 }
 
 
@@ -202,9 +203,10 @@ function racket_compile_directory_zos() {
 # Output to html, latex, markdown and text formats.
 
 scribble_docs() {
-	ebegin "Compiling documentation for ${P}"
-
+	local pkg="${1:-${RACKET_PN}}"
 	local doctype
+
+	ebegin "Building ${pkg} documentation"
 
 	for doctype in html latex markdown text; do
 		echo "Creating ${doctype} documentation in ${SCRBL_DOC_DIR}/${doctype}"
@@ -216,7 +218,7 @@ scribble_docs() {
 			 --${doctype} --dest "${SCRBL_DOC_DIR}/${doctype}" {} \;
 	done
 
-	eend $? "scribble_docs: compiling documentation for ${P} failed"  || die
+	eend $? "scribble_docs: building ${pkg} documentation failed"  || die
 }
 
 
@@ -247,7 +249,6 @@ function racket_src_compile() {
 
 function raco_test() {
 	local pkg="${1:-${RACKET_PN}}"
-
 	local raco_opts=(
 		--heartbeat
 		--no-run-if-absent
@@ -313,8 +314,6 @@ function racket_src_install() {
 
 function raco_remove() {
 	local pkg="${1:-${RACKET_PN}}"
-
-	# Do not die in this function
 	local raco_opts=(
 		--batch
 		--force

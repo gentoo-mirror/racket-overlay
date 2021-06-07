@@ -95,7 +95,15 @@ DEPEND+="${RACKET_DEPEND}"
 
 
 # Exported functions
-EXPORT_FUNCTIONS src_prepare src_compile src_test src_install pkg_postinst pkg_postrm
+export_functions=(
+	src_prepare
+	src_compile
+	src_test
+	src_install
+	pkg_postinst
+	pkg_prerm
+)
+EXPORT_FUNCTIONS "${export_functions[@]}"
 
 
 # @FUNCTION: racket_environment_prepare
@@ -362,15 +370,15 @@ function racket_pkg_postinst() {
 }
 
 
-# @FUNCTION: racket_pkg_postrm
+# @FUNCTION: racket_pkg_prerm
 # @DESCRIPTION:
-# Default pkg_postrm:
+# Default pkg_prerm:
 #
-# If P_RACKET_DIR does not exist, which means the pkg has been unmerged,
-# remove the pkg using `raco_remove' to properly update pkg databases.
+# If we have Racket available remove the pkg using `raco_remove'
+# to properly update pkg databases.
 
-function racket_pkg_postrm() {
-	einfo "Running Racket pkg_postrm"
+function racket_pkg_prerm() {
+	einfo "Running Racket pkg_prerm"
 
 	if has_version "dev-scheme/racket"; then
 		einfo "removing ${RACKET_PN}"

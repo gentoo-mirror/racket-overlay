@@ -154,8 +154,8 @@ function racket_fix_collection() {
 # @DESCRIPTION:
 # Default src_prepare:
 #
-# Executes 'racket_environment_prepare', 'racket_fix_collection'
-# and 'default'.
+# Executes `racket_environment_prepare', `racket_fix_collection'
+# and `default'.
 
 function racket_src_prepare() {
 	einfo "Running Racket src_prepare"
@@ -226,7 +226,7 @@ scribble_docs() {
 # @DESCRIPTION:
 # Default src_compile:
 #
-# Executes 'racket_compile_directory_zos'.
+# Executes `racket_compile_directory_zos'.
 
 function racket_src_compile() {
 	einfo "Running Racket src_compile"
@@ -281,8 +281,8 @@ function racket_src_test() {
 # @DESCRIPTION:
 # Default src_install:
 #
-# Installs miscellaneous docs with 'einstalldocs'
-# and then installs the compiled pkg.
+# Installs miscellaneous docs with `einstalldocs'
+# and then installs the compiled racket package files.
 
 function racket_src_install() {
 	einfo "Running Racket src_install"
@@ -367,7 +367,7 @@ function racket_pkg_postinst() {
 # Default pkg_postrm:
 #
 # If P_RACKET_DIR does not exist, which means the pkg has been unmerged,
-# remove the pkg using 'raco_remove' to properly update pkg databases.
+# remove the pkg using `raco_remove' to properly update pkg databases.
 
 function racket_pkg_postrm() {
 	einfo "Running Racket pkg_postrm"

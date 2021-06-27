@@ -23,7 +23,7 @@ in
 	[0-6] )
 		die "EAPI: ${EAPI} too old"
 		;;
-	7 )
+	7 | 8 )
 		;;
 	* )
 		die "EAPI: ${EAPI} not supported"

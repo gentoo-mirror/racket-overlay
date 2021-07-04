@@ -17,7 +17,7 @@ fi
 
 inherit gh racket
 
-DESCRIPTION="the mini-theme Racket package"
+DESCRIPTION="A minimal DrRacket theme"
 HOMEPAGE="https://github.com/dannypsnl/mini-theme"
 
 RESTRICT="mirror"

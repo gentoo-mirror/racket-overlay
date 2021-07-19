@@ -93,6 +93,11 @@ RACKET_DEPEND="
 RDEPEND+="${RACKET_DEPEND}"
 DEPEND+="${RACKET_DEPEND}"
 
+# to use "racket-compiler" in `racket_compile_directory'
+if [[ "${PN}" != "racket-compiler" ]]; then
+	BDEPEND+="sys-apps/racket-compiler"
+fi
+
 
 # Exported functions
 export_functions=(
@@ -211,10 +216,7 @@ function racket_compile_directory() {
 
 	ebegin "Compiling ${pkg} source"
 
-	racket -e "(require compiler/compiler setup/getinfo)
-	(define info (get-info/full \".\"))
-	(compile-directory-zos (path->complete-path (string->path \".\")) info
-	#:verbose #t #:skip-doc-sources? #t)"
+	racket-compiler
 
 	eend $? "racket_compile_directory: compiling ${pkg} source failed"  || die
 }

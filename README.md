@@ -1,4 +1,4 @@
-# rkt Gentoo overlay
+# Racket Gentoo Overlay
 
 <p align="center">
     <a href="https://gitlab.com/src_prepare/rkt/pipelines">

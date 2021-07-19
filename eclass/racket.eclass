@@ -86,7 +86,7 @@ esac
 
 
 # Dependencies
-RACKET_DEPEND+="
+RACKET_DEPEND="
 	>=dev-scheme/racket-7.0[-minimal${RACKET_REQ_USE:+,${RACKET_REQ_USE}}]
 	sys-apps/baselayout-racket
 "
@@ -130,10 +130,11 @@ function racket_environment_prepare() {
 	# Where the ebuild merges the packages
 	export RACKET_PKGS_DIR="${RACKET_PREFIX}/pkgs"
 
-	# The location of system's PLTUSERHOME
+	# The location of temporary portage PLTUSERHOME
 	# this in most cases will be /var/tmp/portage/homedir
 	# While this is /root or /home/<user> we are in trouble
-	export PLTUSERHOME="${HOME}"
+	export PLTUSERHOME="${HOME}/pltuserhome"
+	mkdir -p "${PLTUSERHOME}"  || die
 
 	# Where the package will be merged
 	export RACKET_P_DIR="${EPREFIX}/${RACKET_PKGS_DIR}/${RACKET_PN}"
@@ -177,31 +178,47 @@ function racket_src_prepare() {
 }
 
 
-# @FUNCTION: racket_compile_directory_zos
+# @FUNCTION: racket_temporary_install
 # @DESCRIPTION:
-# Use special Racket function to safely compile the pkg.
+# Install package to portage's HOME directory.
 
-function racket_compile_directory_zos() {
+function racket_temporary_install() {
 	local pkg="${1:-${RACKET_PN}}"
 	local raco_opts=(
 		--batch
 		--deps force
 		--force
+		--name "${pkg}"
 		--no-setup
+		--scope user
 	)
 
-	ebegin "Compiling ${pkg} source"
+	ebegin "Temporarily installing ${pkg}"
 
-	# I think setup goes in order by module suffix
-	raco pkg install "${raco_opts[@]}" "../$(basename $(realpath .))"  ||
+	raco pkg install "${raco_opts[@]}"  ||
 		die "failed to perform temporary installation"
+
+	eend $? "racket_temporary_install: temporary installation failed"  || die
+}
+
+
+# @FUNCTION: racket_compile_directory
+# @DESCRIPTION:
+# Compile the package source.
+
+function racket_compile_directory() {
+	local pkg="${1:-${RACKET_PN}}"
+
+	ebegin "Compiling ${pkg} source"
 
 	racket -e "(require compiler/compiler setup/getinfo)
 	(define info (get-info/full \".\"))
 	(compile-directory-zos (path->complete-path (string->path \".\")) info
 	#:verbose #t #:skip-doc-sources? #t)"
 
-	eend $? "racket_compile_directory_zos: compiling ${pkg} source failed"  || die
+	# reh-compile
+
+	eend $? "racket_compile_directory: compiling ${pkg} source failed"  || die
 }
 
 
@@ -234,12 +251,13 @@ scribble_docs() {
 # @DESCRIPTION:
 # Default src_compile:
 #
-# Executes `racket_compile_directory_zos'.
+# Executes `racket_temporary_install' and `racket_compile_directory'.
 
 function racket_src_compile() {
 	einfo "Running Racket src_compile"
 
-	racket_compile_directory_zos
+	racket_temporary_install
+	racket_compile_directory
 
 	if [ ${do_scrbl} -eq 1 ]; then
 		if use doc; then
@@ -258,10 +276,9 @@ function racket_src_compile() {
 function raco_test() {
 	local pkg="${1:-${RACKET_PN}}"
 	local raco_opts=(
-		--heartbeat
+		--drdr
 		--no-run-if-absent
 		--submodule test
-		--table
 	)
 
 	ebegin "Testing ${pkg}"

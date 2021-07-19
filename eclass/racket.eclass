@@ -216,8 +216,6 @@ function racket_compile_directory() {
 	(compile-directory-zos (path->complete-path (string->path \".\")) info
 	#:verbose #t #:skip-doc-sources? #t)"
 
-	# reh-compile
-
 	eend $? "racket_compile_directory: compiling ${pkg} source failed"  || die
 }
 

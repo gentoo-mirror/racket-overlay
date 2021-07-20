@@ -1,10 +1,13 @@
 # Racket Gentoo Overlay
 
 <p align="center">
-    <a href="https://gitlab.com/src_prepare/rkt/pipelines">
-        <img src="https://gitlab.com/src_prepare/rkt/badges/master/pipeline.svg">
+    <a href="https://archive.softwareheritage.org/browse/origin/?origin_url=https://gitlab.com/src_prepare/racket/racket-overlay">
+        <img src="https://archive.softwareheritage.org/badge/origin/https://gitlab.com/src_prepare/racket/racket-overlay/">
     </a>
-    <a href="https://gitlab.com/src_prepare/rkt/">
+    <a href="https://gitlab.com/src_prepare/racket/racket-overlay/pipelines">
+        <img src="https://gitlab.com/src_prepare/racket/racket-overlay/badges/master/pipeline.svg">
+    </a>
+    <a href="https://gitlab.com/src_prepare/racket/racket-overlay/">
         <img src="https://gitlab.com/src_prepare/badge/-/raw/master/hosted_on-gitlab-orange.svg">
     </a>
     <a href="https://gentoo.org/">
@@ -16,7 +19,7 @@
     <a href="https://app.element.io/#/room/#src_prepare:matrix.org">
         <img src="https://gitlab.com/src_prepare/badge/-/raw/master/chat-matrix-green.svg">
     </a>
-    <a href="https://gitlab.com/src_prepare/rkt/commits/master.atom">
+    <a href="https://gitlab.com/src_prepare/racket/racket-overlay/commits/master.atom">
         <img src="https://gitlab.com/src_prepare/badge/-/raw/master/feed-atom-orange.svg">
     </a>
 </p>

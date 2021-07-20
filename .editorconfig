@@ -28,15 +28,17 @@ insert_final_newline = true
 tab_width = 4
 trim_trailing_whitespace = true
 
-[.gitmodules]
-indent_style = tab
-
 [*.ebuild]
+indent_style = tab
+indent_size = 4
+tab_width = 4
+
+[{*.xml,*.yml}]
+indent_size = 2
+tab_width = 2
+
+[.gitmodules]
 indent_style = tab
 
 [metadata.xml]
 indent_style = tab
-
-[repositories.xml]
-indent_style = space
-tab_width = 2

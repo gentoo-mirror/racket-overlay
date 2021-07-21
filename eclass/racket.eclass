@@ -8,7 +8,7 @@
 # @AUTHOR:
 # Maciej Barć <xgqt@riseup.net>
 # Tom Gillespie <tgbugs@gmail.com>
-# @SUPPORTED_EAPIS: 7
+# @SUPPORTED_EAPIS: 7 8
 # @BLURB: Common configuration eclass for Racket packages
 # @DESCRIPTION:
 # This eclass is used in Racket packages ebuilds

@@ -7,7 +7,7 @@
 # src_prepare group
 # @AUTHOR:
 # Maciej Barć <xgqt@riseup.net>
-# @SUPPORTED_EAPIS: 7
+# @SUPPORTED_EAPIS: 7 8
 # @BLURB: Git Hosting snapshot helper
 # @DESCRIPTION:
 # This eclass is used to ease creating snapshot ebuilds.
@@ -83,7 +83,7 @@ in
 	0 | 1 | 2 | 3 | 4 | 5 | 6 )
 		die "EAPI: ${EAPI} too old"
 		;;
-	7 )
+	7 | 8 )
 		;;
 	* )
 		die "EAPI: ${EAPI} not supported"

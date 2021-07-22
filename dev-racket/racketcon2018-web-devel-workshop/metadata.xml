@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
 <pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/jessealama/racketcon-2018-web-devel-workshop</bugs-to>
+    <remote-id type="github">jessealama/racketcon-2018-web-devel-workshop</remote-id>
+  </upstream>
 </pkgmetadata>

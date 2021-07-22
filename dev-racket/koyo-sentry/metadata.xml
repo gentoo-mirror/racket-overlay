@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
 <pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/Bogdanp/koyo-sentry</bugs-to>
+    <remote-id type="github">Bogdanp/koyo-sentry</remote-id>
+  </upstream>
 </pkgmetadata>

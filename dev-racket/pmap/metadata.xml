@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
 <pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/APOS80/pmap</bugs-to>
+    <remote-id type="github">APOS80/pmap</remote-id>
+  </upstream>
 </pkgmetadata>

@@ -1,0 +1,16 @@
+# Copyright 1999-2021 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+GH_DOM="github.com"
+GH_REPO="jeroanan/nproc"
+
+inherit racket gh
+
+DESCRIPTION="A simple wrapper to num_processors in gnulib's nproc module"
+HOMEPAGE="https://github.com/jeroanan/nproc"
+
+LICENSE="all-rights-reserved"
+SLOT="0"
+RESTRICT="mirror"

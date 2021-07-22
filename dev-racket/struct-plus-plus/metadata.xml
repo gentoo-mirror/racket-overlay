@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
 <pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/dstorrs/struct-plus-plus</bugs-to>
+    <remote-id type="github">dstorrs/struct-plus-plus</remote-id>
+  </upstream>
 </pkgmetadata>

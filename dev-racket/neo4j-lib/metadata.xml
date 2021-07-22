@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
 <pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/tomob/neo4j-lib</bugs-to>
+    <remote-id type="github">tomob/neo4j-lib</remote-id>
+  </upstream>
 </pkgmetadata>

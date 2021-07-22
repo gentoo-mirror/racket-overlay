@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
 <pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/jsmaniac/backport-template-pr1514</bugs-to>
+    <remote-id type="github">jsmaniac/backport-template-pr1514</remote-id>
+  </upstream>
 </pkgmetadata>

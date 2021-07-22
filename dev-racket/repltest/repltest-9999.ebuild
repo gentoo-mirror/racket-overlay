@@ -1,0 +1,19 @@
+# Copyright 1999-2021 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+GH_DOM="github.com"
+GH_REPO="jsmaniac/repltest"
+
+inherit racket gh
+
+DESCRIPTION="REPL test: copy-paste REPL interactions and run them as tests"
+HOMEPAGE="https://github.com/jsmaniac/repltest"
+
+LICENSE="all-rights-reserved"
+SLOT="0"
+RESTRICT="mirror"
+
+RDEPEND="dev-racket/afl"
+DEPEND="${RDEPEND}"

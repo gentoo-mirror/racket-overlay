@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
 <pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/jackfirth/racket-expect</bugs-to>
+    <remote-id type="github">jackfirth/racket-expect</remote-id>
+  </upstream>
 </pkgmetadata>

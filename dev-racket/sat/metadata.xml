@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
 <pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/Kraks/SAT.rkt</bugs-to>
+    <remote-id type="github">Kraks/SAT.rkt</remote-id>
+  </upstream>
 </pkgmetadata>

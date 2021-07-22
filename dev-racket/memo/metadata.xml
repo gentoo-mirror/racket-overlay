@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
 <pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/BourgondAries/memo</bugs-to>
+    <remote-id type="github">BourgondAries/memo</remote-id>
+  </upstream>
 </pkgmetadata>

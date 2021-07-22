@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
 <pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/AlexKnauth/icfp2017-artifact-auas7pp</bugs-to>
+    <remote-id type="github">AlexKnauth/icfp2017-artifact-auas7pp</remote-id>
+  </upstream>
 </pkgmetadata>

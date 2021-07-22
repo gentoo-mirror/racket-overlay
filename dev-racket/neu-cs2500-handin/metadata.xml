@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
 <pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/nuprl/cs2500-client</bugs-to>
+    <remote-id type="github">nuprl/cs2500-client</remote-id>
+  </upstream>
 </pkgmetadata>

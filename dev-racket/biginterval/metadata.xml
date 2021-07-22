@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
 <pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/oflatt/biginterval</bugs-to>
+    <remote-id type="github">oflatt/biginterval</remote-id>
+  </upstream>
 </pkgmetadata>

@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
 <pkgmetadata>
+  <upstream>
+    <bugs-to>https://gitlab.flux.utah.edu/xsmith/version-string-with-git-hash</bugs-to>
+  </upstream>
 </pkgmetadata>

@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
 <pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/ifigueroap/racket-rackunit-grade</bugs-to>
+    <remote-id type="github">ifigueroap/racket-rackunit-grade</remote-id>
+  </upstream>
 </pkgmetadata>

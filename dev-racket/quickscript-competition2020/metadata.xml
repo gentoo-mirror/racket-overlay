@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
 <pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/Quickscript-Competiton/July2020entries</bugs-to>
+    <remote-id type="github">Quickscript-Competiton/July2020entries</remote-id>
+  </upstream>
 </pkgmetadata>

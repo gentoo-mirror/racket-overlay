@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
 <pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/pmatos/cond-contract</bugs-to>
+    <remote-id type="github">pmatos/cond-contract</remote-id>
+  </upstream>
 </pkgmetadata>

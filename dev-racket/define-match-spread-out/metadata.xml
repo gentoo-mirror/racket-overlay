@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
 <pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/AlexKnauth/define-match-spread-out</bugs-to>
+    <remote-id type="github">AlexKnauth/define-match-spread-out</remote-id>
+  </upstream>
 </pkgmetadata>

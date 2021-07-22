@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
 <pkgmetadata>
+  <upstream>
+    <bugs-to>https://gitlab.com/pythondude325/basm</bugs-to>
+    <remote-id type="gitlab">pythondude325/basm</remote-id>
+  </upstream>
 </pkgmetadata>

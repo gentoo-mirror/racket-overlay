@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
 <pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/jiujiu1123/defensive-to-contracts</bugs-to>
+    <remote-id type="github">jiujiu1123/defensive-to-contracts</remote-id>
+  </upstream>
 </pkgmetadata>

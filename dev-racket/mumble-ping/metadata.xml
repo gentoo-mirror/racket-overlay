@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
 <pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/winny-/mumble-ping</bugs-to>
+    <remote-id type="github">winny-/mumble-ping</remote-id>
+  </upstream>
 </pkgmetadata>

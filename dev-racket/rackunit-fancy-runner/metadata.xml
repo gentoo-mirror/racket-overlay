@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
 <pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/c2d7fa/rackunit-fancy-runner</bugs-to>
+    <remote-id type="github">c2d7fa/rackunit-fancy-runner</remote-id>
+  </upstream>
 </pkgmetadata>

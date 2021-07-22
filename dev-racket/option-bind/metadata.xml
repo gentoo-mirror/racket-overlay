@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
 <pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/RenaissanceBug/option-bind</bugs-to>
+    <remote-id type="github">RenaissanceBug/option-bind</remote-id>
+  </upstream>
 </pkgmetadata>

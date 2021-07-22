@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
 <pkgmetadata>
+  <upstream>
+    <bugs-to>https://gitlab.com/car.margiotta/google-spreadsheet-api</bugs-to>
+    <remote-id type="gitlab">car.margiotta/google-spreadsheet-api</remote-id>
+  </upstream>
 </pkgmetadata>

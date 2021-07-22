@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
 <pkgmetadata>
+  <upstream>
+    <bugs-to>https://gitlab.com/gradual-typing-performance/gtp-pict</bugs-to>
+    <remote-id type="gitlab">gradual-typing-performance/gtp-pict</remote-id>
+  </upstream>
 </pkgmetadata>

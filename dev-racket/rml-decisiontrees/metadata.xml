@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
 <pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/johnstonskj/rml-decisiontrees</bugs-to>
+    <remote-id type="github">johnstonskj/rml-decisiontrees</remote-id>
+  </upstream>
 </pkgmetadata>

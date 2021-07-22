@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
 <pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/takikawa/raco-find-collection</bugs-to>
+    <remote-id type="github">takikawa/raco-find-collection</remote-id>
+  </upstream>
 </pkgmetadata>

@@ -164,18 +164,32 @@ function racket_fix_collection() {
 }
 
 
+# @FUNCTION: racket_clean_directory
+# @DESCRIPTION:
+# Removes '.git' directory if it exists so that it is not merged
+# with the package.
+
+function racket_clean_directory() {
+	if [ -d ".git" ]; then
+		rm -r ".git"  || die "failed to remove unnecessary '.git' directory"
+	fi
+}
+
+
 # @FUNCTION: racket_src_prepare
 # @DESCRIPTION:
 # Default src_prepare:
 #
-# Executes `racket_environment_prepare', `racket_fix_collection'
-# and `default'.
+# In addition to `default'
+# executes: `racket_environment_prepare', `racket_fix_collection'
+# and `racket_clean_directory'.
 
 function racket_src_prepare() {
 	einfo "Running Racket src_prepare"
 
 	racket_environment_prepare
 	racket_fix_collection
+	racket_clean_directory
 
 	einfo "prepared for Racket ${RACKET_PN} package"
 

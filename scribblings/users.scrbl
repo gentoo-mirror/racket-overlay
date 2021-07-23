@@ -24,17 +24,13 @@
 #lang scribble/manual
 
 
-@title[#:tag "racket-overlay"]{Racket Gentoo Overlay}
-
-@author[@author+email["Maciej Barć" "xgqt@riseup.net"]]
+@title[#:tag "racket-overlay-users"]{Overlay Users}
 
 
-@table-of-contents[]
+@section{Adding the overlay}
 
 
-@include-section{about.scrbl}
-@include-section{users.scrbl}
-@include-section{developers.scrbl}
+@subsection{Eselect repository}
 
-
-@index-section[]
+@commandline{eselect repository add racket-overlay git
+                     https://gitlab.com/src_prepare/racket/racket-overlay}

@@ -24,17 +24,12 @@
 #lang scribble/manual
 
 
-@title[#:tag "racket-overlay"]{Racket Gentoo Overlay}
-
-@author[@author+email["Maciej Barć" "xgqt@riseup.net"]]
+@title[#:tag "racket-overlay-developers"]{Ebuild Developers}
 
 
-@table-of-contents[]
+@section{Basic contribution rules}
 
-
-@include-section{about.scrbl}
-@include-section{users.scrbl}
-@include-section{developers.scrbl}
-
-
-@index-section[]
+The same developement rules that apply to
+@link["https://gitlab.com/src_prepare/src_prepare-overlay/-/blob/master/CONTRIBUTING.md"
+      "src_prepare-overlay"]
+apply to racket-overlay.

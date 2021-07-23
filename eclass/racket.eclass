@@ -92,10 +92,22 @@ RACKET_DEPEND="
 RDEPEND+="${RACKET_DEPEND}"
 DEPEND+="${RACKET_DEPEND}"
 
-# to use "racket-compiler" in `racket_compile_directory'
-if [[ "${PN}" != "racket-compiler" ]]; then
-	BDEPEND+="dev-scheme/racket sys-apps/racket-compiler"
-fi
+# CONSIDER: do we have to depend on racket for build-time too?
+# - racket-where (for `racket_pkg_prerm') - no additional BDEPEND
+# - racket-compiler (for `racket_compile_directory') - racket-where
+# - other - racket-compiler and racket-where
+case "${PN}"
+in
+	"racket-where" )
+		true
+	;;
+	"racket-compiler" )
+		BDEPEND+="sys-apps/racket-where"
+	;;
+	* )
+		BDEPEND+="sys-apps/racket-compiler sys-apps/racket-where"
+	;;
+esac
 
 
 # Exported functions
@@ -108,25 +120,6 @@ export_functions=(
 	pkg_prerm
 )
 EXPORT_FUNCTIONS "${export_functions[@]}"
-
-
-# @FUNCTION: racket_is_pkg_installed
-# @DESCRIPTION:
-# Helper function to check if the given package is installed.
-# Returns 0 if true and 1 if false.
-
-function racket_is_pkg_installed() {
-	local pkg="${1:-${RACKET_PN}}"
-	racket -e "(require pkg/lib)
-(cond
-  [(member \"${pkg}\" (installed-pkg-names #:scope 'installation))
-   (displayln \"Package installed: ${pkg}\")
-   (exit 0)]
-  [else
-   (displayln \"Package not found: ${pkg}\")
-   (exit 1)]
-  )"
-}
 
 
 # @FUNCTION: racket_environment_prepare
@@ -429,7 +422,7 @@ function racket_pkg_postinst() {
 function racket_pkg_prerm() {
 	einfo "Running Racket pkg_prerm"
 
-	if has_version "dev-scheme/racket" && racket_is_pkg_installed; then
+	if has_version "dev-scheme/racket" && racket-where "${RACKET_PN}"; then
 		einfo "removing ${RACKET_PN}"
 		raco_remove
 	fi

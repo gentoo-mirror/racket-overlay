@@ -87,15 +87,14 @@ esac
 
 # Dependencies
 RACKET_DEPEND="
-	>=dev-scheme/racket-7.0[-minimal${RACKET_REQ_USE:+,${RACKET_REQ_USE}}]
-	sys-apps/baselayout-racket
+	>=dev-scheme/racket-8.1:=[-minimal${RACKET_REQ_USE:+,${RACKET_REQ_USE}}]
 "
 RDEPEND+="${RACKET_DEPEND}"
 DEPEND+="${RACKET_DEPEND}"
 
 # to use "racket-compiler" in `racket_compile_directory'
 if [[ "${PN}" != "racket-compiler" ]]; then
-	BDEPEND+="sys-apps/racket-compiler"
+	BDEPEND+="dev-scheme/racket sys-apps/racket-compiler"
 fi
 
 
@@ -109,6 +108,25 @@ export_functions=(
 	pkg_prerm
 )
 EXPORT_FUNCTIONS "${export_functions[@]}"
+
+
+# @FUNCTION: racket_is_pkg_installed
+# @DESCRIPTION:
+# Helper function to check if the given package is installed.
+# Returns 0 if true and 1 if false.
+
+function racket_is_pkg_installed() {
+	local pkg="${1:-${RACKET_PN}}"
+	racket -e "(require pkg/lib)
+(cond
+  [(member \"${pkg}\" (installed-pkg-names #:scope 'installation))
+   (displayln \"Package installed: ${pkg}\")
+   (exit 0)]
+  [else
+   (displayln \"Package not found: ${pkg}\")
+   (exit 1)]
+  )"
+}
 
 
 # @FUNCTION: racket_environment_prepare
@@ -241,7 +259,7 @@ function racket_compile_directory() {
 # Compile the documentation using scribble.
 # Output to html, latex, markdown and text formats.
 
-scribble_docs() {
+function scribble_docs() {
 	local pkg="${1:-${RACKET_PN}}"
 	local doctype
 
@@ -406,12 +424,12 @@ function racket_pkg_postinst() {
 # Default pkg_prerm:
 #
 # If we have Racket available remove the pkg using `raco_remove'
-# to properly update pkg databases.
+# if it is installed to properly update pkg databases.
 
 function racket_pkg_prerm() {
 	einfo "Running Racket pkg_prerm"
 
-	if has_version "dev-scheme/racket"; then
+	if has_version "dev-scheme/racket" && racket_is_pkg_installed; then
 		einfo "removing ${RACKET_PN}"
 		raco_remove
 	fi

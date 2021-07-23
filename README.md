@@ -28,3 +28,23 @@
 # About
 
 Experimental Gentoo overlay with Racket packages from the Racket Package Catalog
+
+
+# HowTo
+
+## Quickstart
+
+### Unmask
+Unmask packages in racket-overlay:
+```sh
+mkdir -p /etc/portage/package.accept_keywords
+echo '*/*::racket-overlay' >> /etc/portage/package.accept_keywords/racket.conf
+```
+
+### Emerge Racket
+Emerge `dev-scheme/racket` with `USE="-minimal"`:
+```sh
+mkdir -p /etc/portage/package.use
+echo 'dev-scheme/racket -minimal' >> /etc/portage/package.use/racket.conf
+emerge -av dev-scheme/racket::racket-overlay
+```

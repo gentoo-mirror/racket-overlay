@@ -24,6 +24,7 @@ in
 		die "EAPI: ${EAPI} too old"
 		;;
 	7 | 8 )
+		true
 		;;
 	* )
 		die "EAPI: ${EAPI} not supported"
@@ -100,13 +101,13 @@ case "${PN}"
 in
 	"racket-where" )
 		true
-	;;
+		;;
 	"racket-compiler" )
 		BDEPEND+="sys-apps/racket-where"
-	;;
+		;;
 	* )
 		BDEPEND+="sys-apps/racket-compiler sys-apps/racket-where"
-	;;
+		;;
 esac
 
 
@@ -137,7 +138,7 @@ EXPORT_FUNCTIONS "${export_functions[@]}"
 function racket_environment_prepare() {
 	einfo "Preparing the environment for Racket"
 
-	command -v raco  >/dev/null  || die "raco is missing"
+	command -v raco >/dev/null || die "raco is missing"
 
 	xdg_environment_reset
 
@@ -150,7 +151,7 @@ function racket_environment_prepare() {
 	# this in most cases will be /var/tmp/portage/homedir
 	# While this is /root or /home/<user> we are in trouble
 	export PLTUSERHOME="${HOME}/pltuserhome"
-	mkdir -p "${PLTUSERHOME}"  || die
+	mkdir -p "${PLTUSERHOME}" || die
 
 	# Where the package will be merged
 	export RACKET_P_DIR="${EPREFIX}/${RACKET_PKGS_DIR}/${RACKET_PN}"
@@ -166,10 +167,10 @@ function racket_environment_prepare() {
 
 function racket_fix_collection() {
 	if [ -f ./info.rkt ]; then
-		if ! grep 'define collection' ./info.rkt  >/dev/null; then
+		if ! grep 'define collection' ./info.rkt >/dev/null; then
 			ewarn "adding a collection definition to info.rkt"
 
-			echo "(define collection \"${RACKET_PN}\")"  >> ./info.rkt
+			echo "(define collection \"${RACKET_PN}\")" >> ./info.rkt
 		fi
 	fi
 }
@@ -182,7 +183,7 @@ function racket_fix_collection() {
 
 function racket_clean_directory() {
 	if [ -d ".git" ]; then
-		rm -r ".git"  || die "failed to remove unnecessary '.git' directory"
+		rm -r ".git" || die "failed to remove unnecessary '.git' directory"
 	fi
 }
 
@@ -225,10 +226,10 @@ function racket_temporary_install() {
 
 	ebegin "Temporarily installing ${pkg}"
 
-	raco pkg install "${raco_opts[@]}"  ||
+	raco pkg install "${raco_opts[@]}" ||
 		die "failed to perform temporary installation"
 
-	eend $? "racket_temporary_install: temporary installation failed"  || die
+	eend $? "racket_temporary_install: temporary installation failed" || die
 }
 
 
@@ -243,7 +244,7 @@ function racket_compile_directory() {
 
 	racket-compiler
 
-	eend $? "racket_compile_directory: compiling ${pkg} source failed"  || die
+	eend $? "racket_compile_directory: compiling ${pkg} source failed" || die
 }
 
 
@@ -261,14 +262,14 @@ function scribble_docs() {
 	for doctype in html latex markdown text; do
 		echo "Creating ${doctype} documentation in ${SCRBL_DOC_DIR}/${doctype}"
 
-		mkdir -p "${SCRBL_DOC_DIR}/${doctype}"  ||
+		mkdir -p "${SCRBL_DOC_DIR}/${doctype}" ||
 			die "failed to create ${SCRBL_DOC_DIR}/${doctype}"
 
-		find . -name "*.scrbl" -exec scribble --quiet  \
+		find . -name "*.scrbl" -exec scribble --quiet \
 			 --${doctype} --dest "${SCRBL_DOC_DIR}/${doctype}" {} \;
 	done
 
-	eend $? "scribble_docs: building ${pkg} documentation failed"  || die
+	eend $? "scribble_docs: building ${pkg} documentation failed" || die
 }
 
 
@@ -286,7 +287,7 @@ function racket_src_compile() {
 
 	if [ ${do_scrbl} -eq 1 ]; then
 		if use doc; then
-			scribble_docs  || die "scribble_docs failed"
+			scribble_docs || die "scribble_docs failed"
 		fi
 	fi
 }
@@ -310,7 +311,7 @@ function raco_test() {
 
 	eval raco test "${raco_opts[@]}" .
 
-	eend $? "raco_test: testing ${pkg} failed"  || die
+	eend $? "raco_test: testing ${pkg} failed" || die
 }
 
 
@@ -341,9 +342,9 @@ function racket_src_install() {
 
 	local inst_dir="${D}${RACKET_PKGS_DIR}"
 
-	mkdir -p "${inst_dir}"  ||
+	mkdir -p "${inst_dir}" ||
 		die "racket_src_install failed"
-	cp -r "${S}" "${inst_dir}/${RACKET_PN}"  ||
+	cp -r "${S}" "${inst_dir}/${RACKET_PN}" ||
 		die "racket_src_install failed"
 
 	if [ ${do_scrbl} -eq 1 ]; then
@@ -374,41 +375,10 @@ function raco_remove() {
 
 	ebegin "Removing ${pkg}"
 
-	eval raco pkg remove "${raco_opts[@]}" "${pkg}"  &&
+	eval raco pkg remove "${raco_opts[@]}" "${pkg}" &&
 		einfo "raco has removed ${pkg}"
 
-	eend $? "raco_remove: removing ${pkg} failed"  || die
-}
-
-
-# @FUNCTION: racket_pkg_postinst
-# @DESCRIPTION:
-# Default pkg_postinst:
-#
-# Removes old pkg (with the same name) and then installs the pkg
-# in 'installation' scope.
-
-function racket_pkg_postinst() {
-	einfo "Running Racket pkg_postinst"
-
-	# Go to a system directory where the pkg is installed
-	pushd "${RACKET_P_DIR}" >/dev/null  ||
-		die "couldn't pushd into ${P_RACKET_DIR}"
-
-	# Final step: install with raco - this creates launchers
-	# and updates racket package databases
-	local raco_opts=(
-		--batch
-		--deps force
-		--force
-		--jobs "$(nproc)"
-		--no-docs
-		--scope installation
-	)
-	eval raco pkg install "${raco_opts[@]}"  ||
-		die "racket_pkg_postinst failed"
-
-	popd  >/dev/null  || die "couldn't popd"
+	eend $? "raco_remove: removing ${pkg} failed" || die
 }
 
 
@@ -426,4 +396,35 @@ function racket_pkg_prerm() {
 		einfo "removing ${RACKET_PN}"
 		raco_remove
 	fi
+}
+
+
+# @FUNCTION: racket_pkg_postinst
+# @DESCRIPTION:
+# Default pkg_postinst:
+#
+# Removes old pkg (with the same name) and then installs the pkg
+# in 'installation' scope.
+
+function racket_pkg_postinst() {
+	einfo "Running Racket pkg_postinst"
+
+	# Go to a system directory where the pkg is installed
+	pushd "${RACKET_P_DIR}" >/dev/null ||
+		die "couldn't pushd into ${P_RACKET_DIR}"
+
+	# Final step: install with raco - this creates launchers
+	# and updates racket package databases
+	local raco_opts=(
+		--batch
+		--deps force
+		--force
+		--jobs "$(nproc)"
+		--no-docs
+		--scope installation
+	)
+	eval raco pkg install "${raco_opts[@]}" ||
+		die "racket_pkg_postinst failed"
+
+	popd >/dev/null || die "couldn't popd"
 }

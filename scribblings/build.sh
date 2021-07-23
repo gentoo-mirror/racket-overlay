@@ -1,4 +1,4 @@
-# -*- conf -*-
+#!/bin/sh
 
 
 # This file is part of racket-overlay.
@@ -21,22 +21,9 @@
 # Licensed under the GNU GPL v2 License
 
 
-*.log
-*.swn
-*.swo
-*.swp
-*~
-,*
-.~lock.*
-/.ebuild.x
-/eclass/*.5
-/profiles/use.local.desc
+trap 'exit 128' INT
+set -e
+export PATH
 
-.idea/
-.vs/
-.vscode/
-/distfiles/
-/local/
-/metadata/md5-cache
-/packages/
-/scribblings/doc/
+
+exec scribble --htmls --dest ./doc ++main-xref-in racket-overlay.scrbl

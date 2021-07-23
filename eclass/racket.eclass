@@ -393,7 +393,6 @@ function racket_pkg_prerm() {
 	einfo "Running Racket pkg_prerm"
 
 	if has_version "dev-scheme/racket" && racket-where "${RACKET_PN}"; then
-		einfo "removing ${RACKET_PN}"
 		raco_remove
 	fi
 }

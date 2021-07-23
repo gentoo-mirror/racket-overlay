@@ -36,25 +36,31 @@ Experimental Gentoo overlay with Racket packages from the Racket Package Catalog
 ## WARNING
 
 Don't use `dev-scheme/racket` from ::gentoo (official repository),
-that version is unSLOTted and does not have some fixes.
+that version is un`SLOT`ted and does not have some fixes.
 
 
 ## Quickstart
 
 ### Unmask
+
 Unmask packages in racket-overlay:
 ```sh
 mkdir -p /etc/portage/package.accept_keywords
-echo '*/*::racket-overlay' >> /etc/portage/package.accept_keywords/racket.conf
+echo '*/*::racket-overlay' >> /etc/portage/package.accept_keywords/racket-overlay.conf
 ```
+Check out a example
+[racket-overlay.conf](./examples/package.accept_keywords/racket-overlay.conf).
 
 ### Emerge Racket
+
 Emerge `dev-scheme/racket` with `USE="-minimal"`:
 ```sh
 mkdir -p /etc/portage/package.use
 echo 'dev-scheme/racket -minimal' >> /etc/portage/package.use/racket.conf
 emerge -av dev-scheme/racket::racket-overlay
 ```
+Check out a example
+[racket.conf](./examples/package.use/racket.conf).
 
 
 ## Updating Racket

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
+<catmetadata>
+  <longdescription lang="en">
+    The dev-racket category contains Racket libraries,
+    extensions and bindings, as well as tools and utilities useful
+    for development in the Racket programming language.
+  </longdescription>
+  <longdescription lang="pl">
+    Kategoria dev-racket zawiera biblioteki,
+    rozszerzenia i powiązania (bindingi), jak również narzędzia przydatne
+    do tworzenia programów w języku programowania Racket.
+  </longdescription>
+</catmetadata>

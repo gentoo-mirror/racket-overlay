@@ -78,3 +78,9 @@ The following packages are causing rebuilds:
     (dev-racket/drracket-one-dark-2021.03.05:0/0::racket-overlay, ebuild scheduled for merge)
     (sys-apps/racket-compiler-0.0.0:0/0::racket-overlay, ebuild scheduled for merge)
 ```
+
+
+## Online Documentation
+
+You can read more documentation
+[here, on GitLab pages](https://src_prepare.gitlab.io/racket/racket-overlay/).

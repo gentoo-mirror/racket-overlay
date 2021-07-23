@@ -21,16 +21,37 @@
 # Licensed under the GNU GPL v2 License
 
 
-image: registry.gitlab.com/src_prepare/gentoo-repoman-container:latest
-
-
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
+  TERM: dumb
 
 stages:
   - test
+  - pages
+
 
 test:
   stage: test
+
+  image: registry.gitlab.com/src_prepare/gentoo-repoman-container:latest
+
   script:
     - bash scripts/repomanci
+
+
+pages:
+  stage: pages
+  only:
+    - master
+
+  image: racket/racket:8.1-full
+
+  script:
+    - cd scribblings
+    - sh ./build.sh
+    - mv doc/racket-overlay ../public
+
+  artifacts:
+    expire_in: 1 week
+    paths:
+      - public

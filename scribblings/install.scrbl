@@ -59,3 +59,10 @@ but the package pulled for rebuild is still installed and will try to execute
 it's "pkg_prerm". If it is not in the pkg database the removal will
 of course fail. Thus we use "racket-where" to prevent that failure by
 not removing that package when we don't need to.
+
+
+@section{Just in case}
+
+Just in case a package is somehow broken you can re-run it's setup with
+(from the root account):
+@commandline{raco setup --all-users --pkgs PKG}

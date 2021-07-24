@@ -33,3 +33,10 @@ The same developement rules that apply to
 @link["https://gitlab.com/src_prepare/src_prepare-overlay/-/blob/master/CONTRIBUTING.md"
       "src_prepare-overlay"]
 apply to racket-overlay.
+
+
+@section{Note about Racket-Mode}
+
+If you use GNU Emacs with "racket-mode"
+and use "racket-mode-start-faster" command, remember when you update the mode
+or Racket you have to re-run the command.

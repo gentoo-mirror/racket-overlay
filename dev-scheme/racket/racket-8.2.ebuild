@@ -142,6 +142,27 @@ src_install() {
 	fi
 }
 
+pkg_preinst() {
+	# pkg database files
+	local pkgdb=(
+		/usr/share/racket/info-cache.rktd
+		/usr/share/racket/links.rktd
+		/usr/share/racket/pkgs/pkgs.rktd
+	)
+	# If we are merging the same version (not revision!)
+	# check if pkg database files exist and do not overwrite them
+	if has_version "~${CATEGORY}/${PN}-${PV}"; then
+		echo "We are installing the same version: ${PV}"
+		local rktd
+		for rktd in "${pkgdb[@]}"; do
+			if [ -f "${EROOT}/${rktd}" ]; then
+				einfo "Keeping old file: ${rktd}"
+				cp "${EROOT}/${rktd}" "${D}/${rktd}" || die
+			fi
+		done
+	fi
+}
+
 pkg_postinst() {
 	post_X_update
 }

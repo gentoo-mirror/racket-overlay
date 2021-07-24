@@ -83,4 +83,4 @@ The following packages are causing rebuilds:
 ## Online Documentation
 
 You can read more documentation
-[here, on GitLab pages](https://src_prepare.gitlab.io/racket/racket-overlay/).
+[on GitLab pages](https://src_prepare.gitlab.io/racket/racket-overlay/).

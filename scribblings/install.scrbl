@@ -46,15 +46,23 @@ Gentoo package repository in following ways:
 
 @section{Helpers}
 
-We use 2 helper packages: "racket-compiler" and "racket-where".
+We use 2 helper packages:
+@link["https://gitlab.com/src_prepare/racket/racket-compiler"
+      "racket-compiler"] and
+@link["https://gitlab.com/src_prepare/racket/racket-where"
+      "racket-where"].
 Both of those packages are used in the eclass and are essential to it's function.
 Also, both of those packages include internally their own definitions of
 ebuild phases that otherwise would not be possible to resolve correctly.
 
-Racket-Compiler is used to compile a directory of racket source code
+@link["https://gitlab.com/src_prepare/racket/racket-compiler"
+      "Racket-Compiler"]
+is used to compile a directory of racket source code
 in the "racket_src_compile" racket.eclass function.
 
-Racket-Where is used to in "racket_pkg_prerm" racket.eclass function to check
+@link["https://gitlab.com/src_prepare/racket/racket-where"
+      "Racket-Where"]
+is used to in "racket_pkg_prerm" racket.eclass function to check
 if a package is registered in the Racket package database files.
 This is primarily helpful if we update Racket - we get a new package database,
 but the package pulled for rebuild is still installed and will try to execute
@@ -65,6 +73,6 @@ not removing that package when we don't need to.
 
 @section{Just in case}
 
-Just in case a package is somehow broken you can re-run it's setup with
-(from the root account):
+Just in case a package is somehow broken you can re-run it's setup
+(from the root account) with:
 @commandline{raco setup --all-users --pkgs PKG}

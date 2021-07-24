@@ -20,5 +20,5 @@ LICENSE="GPL-3"
 SLOT="0"
 
 src_compile() {
-	racket ./selfcompile.rkt  || die "compilation failed"
+	racket ./selfcompile.rkt || die "compilation failed"
 }

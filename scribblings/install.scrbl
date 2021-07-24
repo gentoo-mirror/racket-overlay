@@ -33,13 +33,13 @@
 Gentoo package repository in following ways:
 
 @itemlist[
-          @item{SLOT changed to "0/${PV}", ie: "0/8.1", "0/8.2", ...}
-          @item{additions to "src_prepare" to correctly setup the build environment}
-          @item{update the xdg databases if USE=X is used}
-          @item{EAPI bumped up to 8}
-          @item{reordering of some functions (not causing logic to change)}
-          @item{configure options as a array}
-          ]
+ @item{SLOT changed to "0/${PV}", ie: "0/8.1", "0/8.2", ...}
+ @item{additions to "src_prepare" to correctly setup the build environment}
+ @item{update the xdg databases if USE=X is used}
+ @item{EAPI bumped up to 8}
+ @item{reordering of some functions (not causing logic to change)}
+ @item{configure options as a array}
+ ]
 
 
 @section{Helpers}

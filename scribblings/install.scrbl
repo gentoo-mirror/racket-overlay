@@ -71,6 +71,20 @@ of course fail. Thus we use "racket-where" to prevent that failure by
 not removing that package when we don't need to.
 
 
+@section{First merge}
+
+Upon 1st merge of a "dev-racket" package new version of "racket"
+(should be from this overlay) and "racket-compiler"
+along with "racket-where" will be pulled.
+
+Packages will be built in this order: "dev-scheme/racket",
+"sys-apps/racket-where", "sys-apps/racket-compiler",
+and lastly your wanted "dev-racket" package.
+This is because "racket-where" depedns on "racket",
+"racket-compiler" on "racket-where" and "dev-racket" packages all depedn
+on "racket-compiler" and "racket-where" (@envvar{BDEPEND}).
+
+
 @section{Just in case}
 
 Just in case a package is somehow broken you can re-run it's setup

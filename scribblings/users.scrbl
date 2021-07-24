@@ -29,8 +29,25 @@
 
 @section{Adding the overlay}
 
+After adding the repository by one of following methods, synchronize it's
+contents with @commandline{emegre --sync}
+
 
 @subsection{Eselect repository}
 
+If you have eselect-repository installed you can use the following command:
+
 @commandline{eselect repository add racket-overlay git
                      https://gitlab.com/src_prepare/racket/racket-overlay}
+
+
+@subsection{Manual}
+
+As root: clone the repository into @filepath{/var/db/repos/racket-overlay}
+and copy @filepath{examples/repos.conf/racket-overlay.conf}
+into @filepath{/etc/portage/repos.conf}
+
+@commandline{mkdir -p /etc/portage/repos.conf}
+@commandline{cd /var/db/repos/}
+@commandline{git clone --recursive --verbose https://gitlab.com/src_prepare/racket/racket-overlay}
+@commandline{cp examples/repos.conf/racket-overlay.conf}

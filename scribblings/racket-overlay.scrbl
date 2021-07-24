@@ -35,6 +35,7 @@
 @include-section{about.scrbl}
 @include-section{users.scrbl}
 @include-section{developers.scrbl}
+@include-section{install.scrbl}
 
 
 @index-section[]

@@ -200,8 +200,8 @@ function racket_src_prepare() {
 	einfo "Running Racket src_prepare"
 
 	racket_environment_prepare
-	racket_fix_collection
 	racket_clean_directory
+	racket_fix_collection
 
 	einfo "prepared for Racket ${RACKET_PN} package"
 
@@ -238,13 +238,11 @@ function racket_temporary_install() {
 # Compile the package source.
 
 function racket_compile_directory() {
-	local pkg="${1:-${RACKET_PN}}"
-
-	ebegin "Compiling ${pkg} source"
+	ebegin "Compiling source"
 
 	racket-compiler
 
-	eend $? "racket_compile_directory: compiling ${pkg} source failed" || die
+	eend $? "racket_compile_directory: compiling source failed" || die
 }
 
 
@@ -254,11 +252,9 @@ function racket_compile_directory() {
 # Output to html, latex, markdown and text formats.
 
 function scribble_docs() {
-	local pkg="${1:-${RACKET_PN}}"
+	ebegin "Building documentation"
+
 	local doctype
-
-	ebegin "Building ${pkg} documentation"
-
 	for doctype in html latex markdown text; do
 		echo "Creating ${doctype} documentation in ${SCRBL_DOC_DIR}/${doctype}"
 
@@ -269,7 +265,7 @@ function scribble_docs() {
 			 --${doctype} --dest "${SCRBL_DOC_DIR}/${doctype}" {} \;
 	done
 
-	eend $? "scribble_docs: building ${pkg} documentation failed" || die
+	eend $? "scribble_docs: building documentation failed" || die
 }
 
 
@@ -300,18 +296,17 @@ function racket_src_compile() {
 # and execute those tests.
 
 function raco_test() {
-	local pkg="${1:-${RACKET_PN}}"
 	local raco_opts=(
 		--drdr
 		--no-run-if-absent
 		--submodule test
 	)
 
-	ebegin "Testing ${pkg}"
+	ebegin "Testing package"
 
 	eval raco test "${raco_opts[@]}" .
 
-	eend $? "raco_test: testing ${pkg} failed" || die
+	eend $? "raco_test: testing package failed" || die
 }
 
 

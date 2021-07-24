@@ -27,12 +27,12 @@ src_compile() {
 	do_compile
 }
 
-# NOTICE: pkg_prerm is called only is this pkg is already installed,
-# so we do not have to add a clause to check if racket-where exists.
+# NOTICE: "pkg_prerm" is called only if this package is already installed,
+# so we do not have to add a clause to check if "racket-where" exists.
 pkg_prerm() {
 	if has_version "dev-scheme/racket"; then
-		# Ensure that the bytecode is up to date;
-		# otherwise will fail if updating to a higher version.
+		# Ensure that the bytecode is up to date; otherwise this step will
+		# fail if updating "dev-scheme/racket" to a different version (PV).
 		pushd "${RACKET_P_DIR}" || die
 		do_compile
 		popd

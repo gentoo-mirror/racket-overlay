@@ -3,7 +3,7 @@
 
 EAPI=8
 
-GH_DOM="derend:bitbucket.org"
+GH_DOM="derend@bitbucket.org"
 GH_REPO="derend/continued-fractions"
 GH_COMMIT="1b64abbd6adcaf781c7873a8489bbeff87cbaa56"
 

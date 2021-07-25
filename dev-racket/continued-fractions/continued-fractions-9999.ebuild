@@ -3,7 +3,7 @@
 
 EAPI=8
 
-GH_DOM="derend:bitbucket.org"
+GH_DOM="derend@bitbucket.org"
 GH_REPO="derend/continued-fractions"
 
 inherit racket gh

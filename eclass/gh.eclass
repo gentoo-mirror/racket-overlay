@@ -124,8 +124,11 @@ case "${PV}" in
 		# Construct SRC_URI
 		case "${GH_DOM}"
 		in
-			*git.sr.ht* | *github* )
+			*codeberg* | *git.sr.ht* | *github* )
 				SRC_URI="https://${GH_DOM}/${GH_REPO}/archive/${GH_COMMIT}.tar.gz -> ${P}.tar.gz"
+				;;
+			*bitbucket* )
+				SRC_URI="https://${GH_DOM}/${GH_REPO}/get/${GH_COMMIT}.tar.gz -> ${P}.tar.gz"
 				;;
 			*gitlab* )
 				SRC_URI="https://${GH_DOM}/${GH_REPO}/-/archive/${GH_COMMIT}.tar.gz -> ${P}.tar.gz"
@@ -139,6 +142,17 @@ case "${PV}" in
 
 		# Construct S
 		# concatenate WORKDIR, the basename of GH_REPO and GH_COMMIT
-		S="${WORKDIR}/${GH_REPO##*/}-${GH_COMMIT}"
-		;;
+		case "${GH_DOM}"
+		in
+			*codeberg* )
+				S="${WORKDIR}/${PN}"
+				;;
+			*bitbucket* )
+				# FIXME: bitbucket unpacks to user-repo-cropped_sha
+				S="${WORKDIR}/FIXME"
+				;;
+			* )
+				S="${WORKDIR}/${GH_REPO##*/}-${GH_COMMIT}"
+				;;
+		esac
 esac

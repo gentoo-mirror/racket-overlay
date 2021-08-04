@@ -78,8 +78,7 @@
 
 
 # check EAPI
-case "${EAPI}"
-in
+case "${EAPI}" in
 	0 | 1 | 2 | 3 | 4 | 5 | 6 )
 		die "EAPI: ${EAPI} too old"
 		;;
@@ -108,10 +107,7 @@ fi
 
 case "${PV}" in
 	*9999* )
-		# git-r3 already sets this:
-		#PROPERTIES+=" live"
-
-		# For live ebuilds
+		# PROPERTIES+=" live"  # git-r3 already sets this
 		inherit git-r3
 		EGIT_REPO_URI="https://${GH_DOM}/${GH_REPO}"
 		;;
@@ -122,8 +118,7 @@ case "${PV}" in
 		fi
 
 		# Construct SRC_URI
-		case "${GH_DOM}"
-		in
+		case "${GH_DOM}" in
 			*codeberg* | *git.sr.ht* | *github* )
 				SRC_URI="https://${GH_DOM}/${GH_REPO}/archive/${GH_COMMIT}.tar.gz -> ${P}.tar.gz"
 				;;
@@ -141,17 +136,16 @@ case "${PV}" in
 		esac
 
 		# Construct S
-		# concatenate WORKDIR, the basename of GH_REPO and GH_COMMIT
-		case "${GH_DOM}"
-		in
+		case "${GH_DOM}" in
 			*codeberg* )
 				S="${WORKDIR}/${PN}"
 				;;
 			*bitbucket* )
-				# FIXME: bitbucket unpacks to user-repo-cropped_sha
-				S="${WORKDIR}/FIXME"
+				# user-repo-cropped_sha
+				S="${WORKDIR}/${GH_REPO%%/*}-${GH_REPO##*/}-${GH_COMMIT:0:12}"
 				;;
 			* )
+				# concatenate WORKDIR, the basename of GH_REPO and GH_COMMIT
 				S="${WORKDIR}/${GH_REPO##*/}-${GH_COMMIT}"
 				;;
 		esac

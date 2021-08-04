@@ -14,3 +14,6 @@ HOMEPAGE="https://gitlab.com/xgqt/racket-ebuild"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/dirname"
+DEPEND="${RDEPEND}"

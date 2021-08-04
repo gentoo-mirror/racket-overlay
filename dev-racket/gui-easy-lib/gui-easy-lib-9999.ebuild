@@ -15,3 +15,6 @@ S="${S}/gui-easy-lib"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/box-extra-lib"
+DEPEND="${RDEPEND}"

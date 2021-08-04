@@ -15,5 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/counter"
+RDEPEND="dev-racket/ebuild
+	dev-racket/counter"
 DEPEND="${RDEPEND}"

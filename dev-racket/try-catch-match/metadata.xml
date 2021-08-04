@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/eutro/try-catch-match</bugs-to>
+    <remote-id type="github">eutro/try-catch-match</remote-id>
+  </upstream>
+</pkgmetadata>

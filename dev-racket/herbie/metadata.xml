@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/uwplse/herbie</bugs-to>
+    <remote-id type="github">uwplse/herbie</remote-id>
+  </upstream>
+</pkgmetadata>

@@ -9,7 +9,7 @@ GH_REPO="derend/continued-fractions"
 inherit racket gh
 
 DESCRIPTION="Exact computer arithmetic and base conversion via continued fractions."
-HOMEPAGE="https://derend:bitbucket.org/derend/continued-fractions"
+HOMEPAGE="https://derend@bitbucket.org/derend/continued-fractions"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

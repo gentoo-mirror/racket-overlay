@@ -15,7 +15,5 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/thread-utils
-	dev-racket/nested-hash
-	dev-racket/finalizer"
+RDEPEND="dev-racket/nested-hash"
 DEPEND="${RDEPEND}"

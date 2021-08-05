@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="wargrey/w3s"
-GH_COMMIT="6c38c217c8fffcbb06b5d5cecba34c5ab630a7ac"
+GH_COMMIT="afeb2cc558fa6bbcd00cc8e55e697665482a3631"
 
 inherit racket gh
 

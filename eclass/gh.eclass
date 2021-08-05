@@ -141,7 +141,7 @@ case "${PV}" in
 				S="${WORKDIR}/${PN}"
 				;;
 			*bitbucket* )
-				# user-repo-cropped_sha
+				#               user        -  repo        -  cropped_sha
 				S="${WORKDIR}/${GH_REPO%%/*}-${GH_REPO##*/}-${GH_COMMIT:0:12}"
 				;;
 			* )

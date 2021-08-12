@@ -235,12 +235,13 @@ function racket_temporary_install() {
 
 # @FUNCTION: racket_compile_directory
 # @DESCRIPTION:
-# Compile the package source.
+# Compile the package source in current directory.
 
 function racket_compile_directory() {
 	ebegin "Compiling source"
 
-	racket-compiler
+	# Has to be given absolute path to current directory
+	racket-compiler "$(pwd)"
 
 	eend $? "racket_compile_directory: compiling source failed" || die
 }

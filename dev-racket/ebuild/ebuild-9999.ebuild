@@ -8,7 +8,7 @@ GH_REPO="xgqt/racket-ebuild"
 
 inherit racket gh
 
-DESCRIPTION="Library to ease automatic ebuild creation"
+DESCRIPTION="Library to ease automatic ebuild creation and maintenance"
 HOMEPAGE="https://gitlab.com/xgqt/racket-ebuild"
 
 LICENSE="all-rights-reserved"

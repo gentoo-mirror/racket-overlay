@@ -18,6 +18,7 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/adjutor
 	dev-racket/cover-coveralls
 	dev-racket/cover
+	dev-racket/collections-doc
 	dev-racket/scribble-abbrevs
 	dev-racket/version-case
 	dev-racket/mischief

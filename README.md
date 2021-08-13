@@ -33,12 +33,6 @@ Experimental Gentoo overlay with Racket packages from the Racket Package Catalog
 # HowTo
 
 
-## WARNING
-
-Don't use `dev-scheme/racket` from ::gentoo (official repository),
-that version is un`SLOT`ted and does not have some fixes.
-
-
 ## Quickstart
 
 ### Unmask
@@ -57,7 +51,7 @@ Emerge `dev-scheme/racket` with `USE="-minimal"`:
 ```sh
 mkdir -p /etc/portage/package.use
 echo 'dev-scheme/racket -minimal' >> /etc/portage/package.use/racket.conf
-emerge -av dev-scheme/racket::racket-overlay
+emerge -av dev-scheme/racket
 ```
 Check out a example
 [racket.conf](./examples/package.use/racket.conf).

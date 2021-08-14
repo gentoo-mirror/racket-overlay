@@ -37,10 +37,11 @@ Experimental Gentoo overlay with Racket packages from the Racket Package Catalog
 
 ### Unmask
 
-Unmask packages in racket-overlay:
+Unmask packages in racket-overlay and a recent version of Racket (at least `8.1`):
 ```sh
 mkdir -p /etc/portage/package.accept_keywords
 echo '*/*::racket-overlay' >> /etc/portage/package.accept_keywords/racket-overlay.conf
+echo '>=dev-scheme/racket-8.1::gentoo' >> /etc/portage/package.accept_keywords/racket-overlay.conf
 ```
 Check out a example
 [racket-overlay.conf](./examples/package.accept_keywords/racket-overlay.conf).

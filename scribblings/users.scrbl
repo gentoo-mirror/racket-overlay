@@ -30,7 +30,9 @@
 @section{Adding the overlay}
 
 After adding the repository by one of following methods, synchronize it's
-contents with @commandline{emegre --sync}
+contents with @commandline{emerge --sync}
+
+If you use eix, than update it's database with @commandline{eix-update}
 
 
 @subsection{Eselect repository}
@@ -51,8 +53,38 @@ into @filepath{/etc/portage/repos.conf}
  mkdir -p /etc/portage/repos.conf
  cd /var/db/repos/
  git clone --recursive --verbose https://gitlab.com/src_prepare/racket/racket-overlay
- cp examples/repos.conf/racket-overlay.conf
+ cp examples/repos.conf/racket-overlay.conf /etc/portage/repos.conf/racket-overlay.conf
 }
+
+
+@section{Unmask}
+
+Unmask packages in racket-overlay and a recent version of Racket (at least 8.1)
+
+@codeblock{
+ mkdir -p /etc/portage/package.accept_keywords
+ echo '*/*::racket-overlay' >> /etc/portage/package.accept_keywords/racket-overlay.conf
+ echo '>=dev-scheme/racket-8.1::gentoo' >> /etc/portage/package.accept_keywords/racket-overlay.conf
+}
+
+Check out a example
+@link["https://gitlab.com/src_prepare/racket/racket-overlay/-/blob/master/examples/package.accept_keywords/racket-overlay.conf"
+      "racket-overlay.conf"].
+
+
+@section{Emerge Racket}
+
+Emerge dev-scheme/racket with USE="-minimal"
+
+@codeblock{
+ mkdir -p /etc/portage/package.use
+ echo 'dev-scheme/racket -minimal' >> /etc/portage/package.use/racket.conf
+ emerge -av dev-scheme/racket
+}
+
+Check out a example
+@link["https://gitlab.com/src_prepare/racket/racket-overlay/-/blob/master/examples/package.use/racket.conf"
+      "racket.conf"].
 
 
 @section{Updates}

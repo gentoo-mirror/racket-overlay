@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/adjutor dev-racket/cover-coveralls dev-racket/cover dev-racket/scribble-abbrevs dev-racket/version-case dev-racket/mischief dev-racket/collections-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Collectively-defined contracts for commonly encountered types.
+EAPI=8
+HOMEPAGE=https://github.com/countvajhula/social-contract
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/adjutor dev-racket/cover-coveralls dev-racket/cover dev-racket/scribble-abbrevs dev-racket/version-case dev-racket/mischief dev-racket/collections-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/countvajhula/social-contract/archive/3b769a9e7d42f833b3979161f3248c2cf407ae33.tar.gz -> social-contract-2021.07.14.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=2b3e1394ccd69a1a8be3f2afdecd3f86

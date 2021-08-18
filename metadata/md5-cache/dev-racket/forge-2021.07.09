@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/sha dev-racket/request dev-racket/basedir dev-racket/predicates dev-racket/pretty-format dev-racket/mischief dev-racket/crypto-lib dev-racket/beautiful-racket dev-racket/brag-lib dev-racket/br-parser-tools-lib dev-racket/syntax-classes >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=A model-finding language with Alloy-adjacent syntax.
+EAPI=8
+HOMEPAGE=https://github.com/tnelson/Forge
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/sha dev-racket/request dev-racket/basedir dev-racket/predicates dev-racket/pretty-format dev-racket/mischief dev-racket/crypto-lib dev-racket/beautiful-racket dev-racket/brag-lib dev-racket/br-parser-tools-lib dev-racket/syntax-classes >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/tnelson/Forge/archive/55feaf27fde573546aa316e0a986db028505b229.tar.gz -> forge-2021.07.09.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=98e0dd65524d3bb1311d06fbfca51a19

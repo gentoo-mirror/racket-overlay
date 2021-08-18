@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=the dlm-read Racket package
+EAPI=8
+HOMEPAGE=https://github.com/LeifAndersen/racket-dlm-read
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/LeifAndersen/racket-dlm-read/archive/9ae0487b315e762d311ea0e14b72a9bd2de27470.tar.gz -> dlm-read-2017.08.15.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=57bf65c33f5ece0e22646f60b95c9ebe

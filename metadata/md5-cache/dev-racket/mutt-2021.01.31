@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/rackunit-abbrevs dev-racket/make-log-interceptor >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Racket API for the Mutt email client
+EAPI=8
+HOMEPAGE=https://github.com/bennn/racket-mutt
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/rackunit-abbrevs dev-racket/make-log-interceptor >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/bennn/racket-mutt/archive/c691ba0ab5ab13aac0f5fe843f3582e6789ee9eb.tar.gz -> mutt-2021.01.31.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=0a372adcd7181f5f0bd6596f4b1c7978

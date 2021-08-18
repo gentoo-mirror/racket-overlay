@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/sendinblue >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=A client for the Sendinblue transactional email API. (tests only)
+EAPI=8
+HOMEPAGE=https://github.com/sxn/racket-sendinblue
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/sendinblue >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/sxn/racket-sendinblue/archive/caa2e2afb3c2e43849aed92bcb73deadf0d0d20c.tar.gz -> sendinblue-test-2020.12.16.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=ab40eac908738e7fb3fd0def19e3e60a

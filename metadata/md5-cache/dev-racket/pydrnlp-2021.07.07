@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/rackjure dev-racket/_-exp dev-racket/markdown dev-racket/gregor-lib dev-racket/sql dev-racket/reprovide-lang dev-racket/python-tokenizer dev-racket/adjutor dev-racket/ricoeur-tei-utils dev-racket/ricoeur-kernel >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=NLP Library for Digital Ricoeur
+EAPI=8
+HOMEPAGE=https://bitbucket.org/digitalricoeur/pydrnlp
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/rackjure dev-racket/_-exp dev-racket/markdown dev-racket/gregor-lib dev-racket/sql dev-racket/reprovide-lang dev-racket/python-tokenizer dev-racket/adjutor dev-racket/ricoeur-tei-utils dev-racket/ricoeur-kernel >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://bitbucket.org/digitalricoeur/pydrnlp/get/666c1e00b67c0cc1ee6b5e3fbcfbec498b3173ac.tar.gz -> pydrnlp-2021.07.07.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=ea5fd461806ea28696b0b8e108ed063f

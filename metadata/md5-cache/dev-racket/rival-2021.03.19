@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Interval analysis for real computation
+EAPI=8
+HOMEPAGE=https://github.com/herbie-fp/rival
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/herbie-fp/rival/archive/ce01d0b08fd421cf70c8e953d82f5c267b78a328.tar.gz -> rival-2021.03.19.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=ba236d2e09c023c55de7e6a6c4fd3a7c

@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/plai-lazy dev-racket/plai-typed-s-exp-match dev-racket/plai-typed >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Utah CS 5510 homework submission plugin for DrRacket
+EAPI=8
+HOMEPAGE=https://github.com/mflatt/uu-cs5510
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/plai-lazy dev-racket/plai-typed-s-exp-match dev-racket/plai-typed >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/mflatt/uu-cs5510/archive/d6736f807b31f637e141ae97d28d65e8e10465aa.tar.gz -> uu-cs5510-2017.08.15.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=3239392de6f60e67be325f2c0868df7d

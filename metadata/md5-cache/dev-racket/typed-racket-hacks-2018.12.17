@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/set-extras >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=the typed-racket-hacks Racket package
+EAPI=8
+HOMEPAGE=https://github.com/philnguyen/typed-racket-hacks
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/set-extras >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/philnguyen/typed-racket-hacks/archive/6d462852a29abb4406d53db2587e9d463b90b2ae.tar.gz -> typed-racket-hacks-2018.12.17.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=4d4beda2fd30801b23bb0c7d96d7f950

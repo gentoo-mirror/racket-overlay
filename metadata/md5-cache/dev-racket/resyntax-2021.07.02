@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/rebellion dev-racket/fancy-app dev-racket/brag-lib dev-racket/br-parser-tools-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=An experimental refactoring tool built on top of syntax-parse.
+EAPI=8
+HOMEPAGE=https://github.com/jackfirth/resyntax
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/rebellion dev-racket/fancy-app dev-racket/brag-lib dev-racket/br-parser-tools-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/jackfirth/resyntax/archive/0c957be4eb2cd17601dee90fe4dd4d748de73ef5.tar.gz -> resyntax-2021.07.02.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=717ad295e93c24c366340e2003d164cb

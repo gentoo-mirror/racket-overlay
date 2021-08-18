@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/typed-racket-datatype-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Algebraic Datatypes for Typed Racket (tests and docs)
+EAPI=8
+HOMEPAGE=https://github.com/AlexKnauth/typed-racket-datatype
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/typed-racket-datatype-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/AlexKnauth/typed-racket-datatype/archive/dc955052081b18a164552c4e7db75ac392a92402.tar.gz -> typed-racket-datatype-2020.07.23.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=595fa550eff719468376f4a879b12c1c

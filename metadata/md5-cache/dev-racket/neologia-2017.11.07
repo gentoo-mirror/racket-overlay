@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/br-parser-tools-lib dev-racket/beautiful-racket-lib dev-racket/beautiful-racket dev-racket/brag >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=A language for creating and managing dictionaries and lexicons
+EAPI=8
+HOMEPAGE=https://github.com/robertkleffner/neologia
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/br-parser-tools-lib dev-racket/beautiful-racket-lib dev-racket/beautiful-racket dev-racket/brag >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/robertkleffner/neologia/archive/92d6ccde9041dc07b5c0db1849b4e1c65cb3cf2d.tar.gz -> neologia-2017.11.07.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=e65e2bb8e9bec802c6ecd669d452b018

@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=GTK/GLib/GIO/... GObjectIntrospection FFI binding
+EAPI=8
+HOMEPAGE=https://github.com/Kalimehtar/gir
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/Kalimehtar/gir/archive/668b693a4e0148ae5305493a3c7440e35f155082.tar.gz -> gir-2019.08.06.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=e93c2809c7a8f8682af13c1e53d75ab7

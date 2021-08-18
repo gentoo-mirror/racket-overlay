@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/gregor-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=the calendar Racket package
+EAPI=8
+HOMEPAGE=https://github.com/LeifAndersen/racket-calendar
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/gregor-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/LeifAndersen/racket-calendar/archive/1c38c3804b8f4d87d5036d67018839276bdf6875.tar.gz -> calendar-2017.12.06.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=a84a71870d4a622cb2979ab99d368340

@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/brag dev-racket/ejs dev-racket/uri-template dev-racket/json-pointer dev-racket/beautiful-racket-lib dev-racket/sugar dev-racket/http >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Validate JSON data using JSON Schema.
+EAPI=8
+HOMEPAGE=https://github.com/jessealama/argo
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/brag dev-racket/ejs dev-racket/uri-template dev-racket/json-pointer dev-racket/beautiful-racket-lib dev-racket/sugar dev-racket/http >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/jessealama/argo/archive/ee49d60a8d73b32e8323a1324503f1d9c1022e5f.tar.gz -> argo-2021.05.04.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=25ec6bb6898d0cd3ea321d7cf62e882b

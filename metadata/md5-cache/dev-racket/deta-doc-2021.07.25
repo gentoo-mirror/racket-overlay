@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/threading-lib dev-racket/threading-doc dev-racket/gregor-lib dev-racket/gregor-doc dev-racket/deta-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=A functional database mapper. (docs only)
+EAPI=8
+HOMEPAGE=https://github.com/Bogdanp/deta
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/threading-lib dev-racket/threading-doc dev-racket/gregor-lib dev-racket/gregor-doc dev-racket/deta-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/Bogdanp/deta/archive/dd227253d4414dd03f37acc15694a8d6f9d9b603.tar.gz -> deta-doc-2021.07.25.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=62bce3d87cdf110697c7f5c9319c36d0

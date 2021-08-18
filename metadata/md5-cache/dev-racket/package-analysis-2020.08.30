@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/rebellion >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=A package for analyzing the Racket package ecosystem
+EAPI=8
+HOMEPAGE=https://github.com/jackfirth/package-analysis
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/rebellion >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/jackfirth/package-analysis/archive/785bc9b1eac503c9359d9d08936422f6f47ce82b.tar.gz -> package-analysis-2020.08.30.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=7b3078a15122c383988acef0c8ebbf1c

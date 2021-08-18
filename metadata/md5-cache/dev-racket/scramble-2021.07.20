@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/scramble-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Assorted utility libraries (tests and documentation)
+EAPI=8
+HOMEPAGE=https://github.com/rmculpepper/racket-scramble
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/scramble-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/rmculpepper/racket-scramble/archive/b4910442172a962243d8e0f36039ebb78ea159ae.tar.gz -> scramble-2021.07.20.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=63ab6ec9feddfb13d0f12a00df559b20

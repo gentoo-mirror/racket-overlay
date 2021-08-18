@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/ragg >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Parser, runtime and #lang for ECMAScript
+EAPI=8
+HOMEPAGE=https://github.com/lwhjp/ecmascript
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/ragg >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/lwhjp/ecmascript/archive/69fcfa42856ea799ff9d9d63a60eaf1b1783fe50.tar.gz -> ecmascript-2019.02.13.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=43506fe04530b790a43075b753228bf8

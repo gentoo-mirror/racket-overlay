@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/response-ext dev-racket/racket-route-match >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Routy is a lightweight high performance HTTP request router for Racket.
+EAPI=8
+HOMEPAGE=https://github.com/Junker/routy
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/response-ext dev-racket/racket-route-match >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/Junker/routy/archive/2c48b4649ee102c8f175cae59bf5eeb6d6a041c9.tar.gz -> routy-2019.05.18.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=f204417db2bcd1d7de4c8e9dec00227b

@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/cuecore dev-racket/pex dev-racket/esc-vp21 dev-racket/libserialport dev-racket/tesira dev-racket/zmq dev-racket/mordae >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Presentation Room Control
+EAPI=8
+HOMEPAGE=https://github.com/mordae/racket-derpy
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/cuecore dev-racket/pex dev-racket/esc-vp21 dev-racket/libserialport dev-racket/tesira dev-racket/zmq dev-racket/mordae >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/mordae/racket-derpy/archive/179ec02668cdb0beda40022ef9b45909795c7c09.tar.gz -> derpy-2017.08.15.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=8bb45519ac6a36de9aaa6b210fd211ec

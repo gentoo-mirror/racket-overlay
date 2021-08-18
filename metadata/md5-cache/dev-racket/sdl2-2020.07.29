@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Racket bindings to the Simple DirectMedia Layer 2 library: the full package.
+EAPI=8
+HOMEPAGE=https://github.com/lockie/racket-sdl2
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/lockie/racket-sdl2/archive/a25bfa28e32c60f8219eb712255fa5b07e3a8ad5.tar.gz -> sdl2-2020.07.29.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=c369aa5ae3fc9629056b4323fbce5861

@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/scribble-code-examples dev-racket/rackjure dev-racket/hygienic-reader-extension >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=a lang-extension that provides rackjure-like anonymous function literals
+EAPI=8
+HOMEPAGE=https://github.com/AlexKnauth/afl
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/scribble-code-examples dev-racket/rackjure dev-racket/hygienic-reader-extension >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/AlexKnauth/afl/archive/13b5f8c6c71f0eb66a4f1e71f295bfda88f526bb.tar.gz -> afl-2018.10.13.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=343f1d5009bfb5280439a66517c036cc

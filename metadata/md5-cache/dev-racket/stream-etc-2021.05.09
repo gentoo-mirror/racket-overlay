@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/threading-doc dev-racket/chk-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Miscellaneous stream operations.
+EAPI=8
+HOMEPAGE=https://github.com/camoy/stream-etc
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/threading-doc dev-racket/chk-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/camoy/stream-etc/archive/637ad0b07259ce418e6f0aab06d34cd2ec8521cf.tar.gz -> stream-etc-2021.05.09.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=c3dee0d8039334b748f2ad6ee5765e8d

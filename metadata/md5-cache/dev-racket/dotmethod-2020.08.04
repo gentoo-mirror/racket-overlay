@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/scribble-code-examples dev-racket/my-cond dev-racket/mutable-match-lambda dev-racket/sweet-exp dev-racket/postfix-dot-notation dev-racket/afl >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=obj.method(x) in racket using mutable-match-lambda
+EAPI=8
+HOMEPAGE=https://github.com/AlexKnauth/dotmethod
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/scribble-code-examples dev-racket/my-cond dev-racket/mutable-match-lambda dev-racket/sweet-exp dev-racket/postfix-dot-notation dev-racket/afl >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/AlexKnauth/dotmethod/archive/e427237130d9b530d935269a6506c8cdeccc765c.tar.gz -> dotmethod-2020.08.04.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=1a29f4b002ca36195d7660f4e36ae77c

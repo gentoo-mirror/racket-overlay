@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/jen-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=procedural generation DSL embedded in Racket (doc) [UNSTABLE]
+EAPI=8
+HOMEPAGE=https://github.com/HeladoDeBrownie/jen
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/jen-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/HeladoDeBrownie/jen/archive/8af59d936c0218d4460eebcbeabc52aae1b6d58e.tar.gz -> jen-doc-2020.01.07.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=dbfc7a12cfc5abd71ba2b937e7dcdbea

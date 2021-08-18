@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/scribble-enhanced dev-racket/hyper-literate dev-racket/phc-toolkit >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=the remember Racket package
+EAPI=8
+HOMEPAGE=https://github.com/jsmaniac/remember
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/scribble-enhanced dev-racket/hyper-literate dev-racket/phc-toolkit >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/jsmaniac/remember/archive/cb47dd8b081ad14800fd668898f6f938a4a40e91.tar.gz -> remember-2021.04.04.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=99fc0a38e72a633716064a475f8db5d6

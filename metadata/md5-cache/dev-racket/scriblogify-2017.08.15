@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/webapi dev-racket/sxml >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Scribble your blog!
+EAPI=8
+HOMEPAGE=https://github.com/rmculpepper/scriblogify
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/webapi dev-racket/sxml >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/rmculpepper/scriblogify/archive/7771d00ce6101bd5d415b54134eb79c42b92f1ef.tar.gz -> scriblogify-2017.08.15.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=ca244911e9ef30eb37740ff56af1aae4

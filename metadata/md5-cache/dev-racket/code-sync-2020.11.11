@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/rfc6455 >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Fast Code Sharing for DrRacket
+EAPI=8
+HOMEPAGE=https://github.com/rymaju/code-sync
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/rfc6455 >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/rymaju/code-sync/archive/feea02e2cc19088ba7ce5336b89b22044d5dafcf.tar.gz -> code-sync-2020.11.11.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=0e8649906ab774bbba3dd8f0d60f7cae

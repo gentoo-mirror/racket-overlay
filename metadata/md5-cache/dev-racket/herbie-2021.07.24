@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/fpbench dev-racket/rival dev-racket/regraph dev-racket/egg-herbie >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=A tool for automatically improving the accuracy of floating point expressions
+EAPI=8
+HOMEPAGE=https://github.com/uwplse/herbie
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/fpbench dev-racket/rival dev-racket/regraph dev-racket/egg-herbie >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/uwplse/herbie/archive/8e29e90fccb360a9e19019cc534a635a30afcc66.tar.gz -> herbie-2021.07.24.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=458f16077273a1f54f991d9b287eaa2e

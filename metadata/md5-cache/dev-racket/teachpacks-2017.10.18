@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Racket Turtle for drawing turtle-graphics.
+EAPI=8
+HOMEPAGE=https://github.com/tyynetyyne/teachpacks
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/tyynetyyne/teachpacks/archive/f82605dc2de7e6b6267fe2b2e6a6481a1ab33a35.tar.gz -> teachpacks-2017.10.18.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=72b5c60310ae0b1e99cb9e8b08e5e7a4

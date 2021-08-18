@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Library that connects the Racket profiler to the flamegraph tool
+EAPI=8
+HOMEPAGE=https://github.com/takikawa/racket-profile-flamegraph
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/takikawa/racket-profile-flamegraph/archive/1364a084256765800e83d93b0db23b2cc801d161.tar.gz -> profile-flame-graph-2017.12.01.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=1707bc13ac5e65620e6e687ff48f97d8

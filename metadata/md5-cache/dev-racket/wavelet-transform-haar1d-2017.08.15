@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=A library to perform forward and reverse 1-d Haar Wavelet transforms
+EAPI=8
+HOMEPAGE=https://github.com/jbclements/wavelet-transform-haar-1d
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/jbclements/wavelet-transform-haar-1d/archive/a24d96252701f80dbd382fb4a0dccaf2d19160b1.tar.gz -> wavelet-transform-haar1d-2017.08.15.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=ed4b920c31db0293f988c86470a9f454

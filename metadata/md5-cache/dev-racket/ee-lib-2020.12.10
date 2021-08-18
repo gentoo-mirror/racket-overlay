@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Utilities for defining embedded macro expanders
+EAPI=8
+HOMEPAGE=https://github.com/michaelballantyne/ee-lib
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/michaelballantyne/ee-lib/archive/10f3dfe3b0a0ecd646de11cbbf706e8028a989b2.tar.gz -> ee-lib-2020.12.10.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=0141d85a0b0f4a5b843ed8797d86ca5d

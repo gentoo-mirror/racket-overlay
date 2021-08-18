@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/zeromq-r-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Bindings for ZeroMQ
+EAPI=8
+HOMEPAGE=https://github.com/rmculpepper/racket-zeromq
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/zeromq-r-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/rmculpepper/racket-zeromq/archive/d45ee2bbc64582b22055eee20d0ef777d519a3b4.tar.gz -> zeromq-r-2021.03.05.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=9da47d29dc44973b3d293253da99713d

@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/chk-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Require private bindings.
+EAPI=8
+HOMEPAGE=https://github.com/camoy/private-in
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/chk-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/camoy/private-in/archive/d8a8105a70c8940f6a156dc68d035abbcdd2fe08.tar.gz -> private-in-2020.08.15.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=de6e2d41e2261501617ceef24bdc92ee

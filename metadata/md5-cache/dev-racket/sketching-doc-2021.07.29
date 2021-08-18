@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/cairo-lib dev-racket/sketching-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Documentation for Sketching
+EAPI=8
+HOMEPAGE=https://github.com/soegaard/sketching
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/cairo-lib dev-racket/sketching-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/soegaard/sketching/archive/7fa0a354b6711345f0fe0c835241d7c6c666c044.tar.gz -> sketching-doc-2021.07.29.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=2278063d5a517a38984d3753ff8a63d3

@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/typed-map-lib dev-racket/aful >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Documentation for typed-map
+EAPI=8
+HOMEPAGE=https://github.com/jsmaniac/typed-map
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/typed-map-lib dev-racket/aful >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/jsmaniac/typed-map/archive/7a70650b6f8e1222fe1e4ebd2fb6b9b2489301e2.tar.gz -> typed-map-doc-2021.04.04.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=fe320ca7ca0e16ee92b41889a184fea0

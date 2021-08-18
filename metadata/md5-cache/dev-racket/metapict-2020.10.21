@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/racket-poppler dev-racket/graph-lib dev-racket/ppict >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Create beautiful pictures and diagrams
+EAPI=8
+HOMEPAGE=https://github.com/soegaard/metapict
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/racket-poppler dev-racket/graph-lib dev-racket/ppict >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/soegaard/metapict/archive/47ae265f73cbb92ff3e7bdd61e49f4af17597fdf.tar.gz -> metapict-2020.10.21.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=b61f5777039c82300f4d3f274a667e3f

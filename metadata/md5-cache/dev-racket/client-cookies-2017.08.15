@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Client cookies jar for net/url and similar libs.Deprecated: use net/cookies.
+EAPI=8
+HOMEPAGE=https://github.com/Kalimehtar/client-cookies
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/Kalimehtar/client-cookies/archive/ea699f80c4865c71971a73b4cfc444969a633c6c.tar.gz -> client-cookies-2017.08.15.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=e27b78d5abe91ca5a490a2e165d7025a

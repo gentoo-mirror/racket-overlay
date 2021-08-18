@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/sexp-diff-lib dev-racket/threading-lib dev-racket/parsack >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Markdown format parser.
+EAPI=8
+HOMEPAGE=https://github.com/greghendershott/markdown
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/sexp-diff-lib dev-racket/threading-lib dev-racket/parsack >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/greghendershott/markdown/archive/fc03a2728b12006b21c90b6c480cfe6ae91a4cbe.tar.gz -> markdown-2021.03.25.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=1a4faf477cd619c57c4d2a34f6ed6567

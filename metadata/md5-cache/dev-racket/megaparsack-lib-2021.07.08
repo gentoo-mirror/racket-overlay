@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/match-plus dev-racket/functional-lib dev-racket/curly-fn-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=the megaparsack-lib Racket package
+EAPI=8
+HOMEPAGE=https://github.com/lexi-lambda/megaparsack
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/match-plus dev-racket/functional-lib dev-racket/curly-fn-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/lexi-lambda/megaparsack/archive/c4f573c4b41f75f20dfacc2e8cfe7b6bff789fb3.tar.gz -> megaparsack-lib-2021.07.08.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=c7e3d2a6a3fa7f3de9e9daafa8711b8e

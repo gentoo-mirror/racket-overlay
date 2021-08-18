@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/binary-class >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=MP3 ID3v2.1 and ID3v2.2 tags parser
+EAPI=8
+HOMEPAGE=https://github.com/Kalimehtar/binary-class-mp3
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/binary-class >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/Kalimehtar/binary-class-mp3/archive/bc10152d1bc6cd1ed7be7bec0e8d3f1ae0bf7977.tar.gz -> binary-class-mp3-2017.08.15.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=6f6c569d627841990214d7bc6324d8ad

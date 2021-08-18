@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/xenomorph dev-racket/sugar dev-racket/png-image dev-racket/debug dev-racket/beautiful-racket-lib dev-racket/crc32c >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=font processing [in development]
+EAPI=8
+HOMEPAGE=https://github.com/mbutterick/fontland
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/xenomorph dev-racket/sugar dev-racket/png-image dev-racket/debug dev-racket/beautiful-racket-lib dev-racket/crc32c >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/mbutterick/fontland/archive/519cebbbbf87f78c2be9e57b97c674964a86f181.tar.gz -> fontland-2021.05.18.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=112f93a17cf782ca4566571bb614ef80

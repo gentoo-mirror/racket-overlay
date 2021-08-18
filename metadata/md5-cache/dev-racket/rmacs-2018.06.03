@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/diff-merge dev-racket/unix-signals dev-racket/ansi >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=An EMACS written in Racket. Runs in ANSI-compatible terminals.
+EAPI=8
+HOMEPAGE=https://github.com/tonyg/rmacs
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/diff-merge dev-racket/unix-signals dev-racket/ansi >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/tonyg/rmacs/archive/8c99dd5dfa22f1f34707bbe957de268dc6a7a632.tar.gz -> rmacs-2018.06.03.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=41e8d26c2379a076a787e6ca4faa51c0

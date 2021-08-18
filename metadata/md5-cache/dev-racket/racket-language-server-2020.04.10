@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Implementation of the Language Server Protocol for Racket.
+EAPI=8
+HOMEPAGE=https://github.com/theia-ide/racket-language-server
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/theia-ide/racket-language-server/archive/e397a130676504fc8b053e6b1f48d49b77b9ad98.tar.gz -> racket-language-server-2020.04.10.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=6a770d1f1899bd346610c2ca56ac24a7

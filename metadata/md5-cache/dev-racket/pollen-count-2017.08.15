@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/txexpr >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=the pollen-count Racket package
+EAPI=8
+HOMEPAGE=https://github.com/malcolmstill/pollen-count
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/txexpr >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/malcolmstill/pollen-count/archive/c4da923debcf40d0558ea4cb97c8a7bd4f35f34b.tar.gz -> pollen-count-2017.08.15.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=b7f92fc03a3bbf0f1cb90cb811837650

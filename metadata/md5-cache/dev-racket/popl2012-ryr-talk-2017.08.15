@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=the popl-2012-ryr-talk Racket package
+EAPI=8
+HOMEPAGE=https://github.com/rfindler/popl-2012-ryr-talk
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/rfindler/popl-2012-ryr-talk/archive/9da05129de004cc1df0ccfbd821e8542a9155021.tar.gz -> popl2012-ryr-talk-2017.08.15.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=faf17fbb16bffe127ad2f2a0c0ca0c1d

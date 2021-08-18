@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/ansi dev-racket/raart dev-racket/pk dev-racket/goblins dev-racket/lux >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Terminal Phase is a space shooter video game that runs in your terminal!
+EAPI=8
+HOMEPAGE=https://gitlab.com/dustyweb/terminal-phase
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/ansi dev-racket/raart dev-racket/pk dev-racket/goblins dev-racket/lux >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://gitlab.com/dustyweb/terminal-phase/-/archive/ecf6f068c265de812d3decd003144ba4a2dd1e2b.tar.gz -> terminal-phase-2021.05.08.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=19ac57119ffcb8e06659ea9c3d293c0e

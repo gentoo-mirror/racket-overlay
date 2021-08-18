@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/traces dev-racket/unreachable dev-racket/set-extras dev-racket/bnf >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Dynamic enforcement of size-change termination
+EAPI=8
+HOMEPAGE=https://github.com/philnguyen/termination
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/traces dev-racket/unreachable dev-racket/set-extras dev-racket/bnf >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/philnguyen/termination/archive/1d05c1bf8e9bd59d2fbaaa213b490fd8e59644bd.tar.gz -> termination-2019.05.30.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=ea0f8de4b3b97a78359fff5771a6518c

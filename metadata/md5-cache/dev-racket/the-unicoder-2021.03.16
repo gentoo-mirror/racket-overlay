@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/basedir >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Universal unicode input system
+EAPI=8
+HOMEPAGE=https://github.com/willghatch/the-unicoder
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/basedir >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/willghatch/the-unicoder/archive/c95473838a9f0893b1d39742b087203f702a540c.tar.gz -> the-unicoder-2021.03.16.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=3dfd78206fd5ef8ee9c96661a20f4d0e

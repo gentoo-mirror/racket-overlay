@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Basic QIF-parsing code, used to apply categories to downloaded transactions
+EAPI=8
+HOMEPAGE=https://github.com/jbclements/parse-qif
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/jbclements/parse-qif/archive/0e7e061ecc1709d5ebe0cd4fcbd56597e1e5575f.tar.gz -> parse-qif-2020.06.01.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=a4b4a213f49ef956370c52a9b204d02e

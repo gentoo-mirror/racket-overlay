@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/scribble-math dev-racket/scribble-enhanced dev-racket/datatype dev-racket/generic-bind dev-racket/xlist dev-racket/match-string dev-racket/typed-struct-props dev-racket/alexis-util dev-racket/extensible-parser-specifications dev-racket/type-expander dev-racket/remember dev-racket/phc-toolkit dev-racket/multi-id dev-racket/hyper-literate >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Implementation of phc-adt
+EAPI=8
+HOMEPAGE=https://github.com/jsmaniac/phc-adt
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/scribble-math dev-racket/scribble-enhanced dev-racket/datatype dev-racket/generic-bind dev-racket/xlist dev-racket/match-string dev-racket/typed-struct-props dev-racket/alexis-util dev-racket/extensible-parser-specifications dev-racket/type-expander dev-racket/remember dev-racket/phc-toolkit dev-racket/multi-id dev-racket/hyper-literate >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/jsmaniac/phc-adt/archive/36c1047c4899d1b478cc6052f9b2e71168aeefb5.tar.gz -> phc-adt-lib-2021.05.13.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=1577aadaf3baeca0035e9048312d82e5

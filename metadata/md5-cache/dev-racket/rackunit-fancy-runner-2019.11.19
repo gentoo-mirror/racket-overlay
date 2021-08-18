@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Command-line RackUnit test runner with fancy output
+EAPI=8
+HOMEPAGE=https://github.com/c2d7fa/rackunit-fancy-runner
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/c2d7fa/rackunit-fancy-runner/archive/c367fa93ed8a2daad4aa12cc9e947661d169dab6.tar.gz -> rackunit-fancy-runner-2019.11.19.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=db07490259e9d8b6ec87e8fb5a71848a

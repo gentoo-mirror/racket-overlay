@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/chk-doc dev-racket/chk-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=a minimal tester
+EAPI=8
+HOMEPAGE=https://github.com/jeapostrophe/chk
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/chk-doc dev-racket/chk-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/jeapostrophe/chk/archive/32fb635e19fa2dc2d9c35bac0964ab76dde1e89e.tar.gz -> chk-2021.04.16.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=dfd1b2f255bf84f728320895f68948ce

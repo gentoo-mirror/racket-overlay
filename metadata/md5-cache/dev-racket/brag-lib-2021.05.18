@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/br-parser-tools-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=the brag-lib Racket package
+EAPI=8
+HOMEPAGE=https://github.com/mbutterick/brag
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/br-parser-tools-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/mbutterick/brag/archive/d3405dd0abfcf221fc968dd8bec9cdba77d53f0a.tar.gz -> brag-lib-2021.05.18.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=2bfdf03439f6a429add4005b7f19fa0f

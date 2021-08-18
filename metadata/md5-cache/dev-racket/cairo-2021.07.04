@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/cairo-test dev-racket/cairo-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=the cairo Racket package
+EAPI=8
+HOMEPAGE=https://github.com/soegaard/cairo
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/cairo-test dev-racket/cairo-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/soegaard/cairo/archive/537ba989c6dd0ed71e5da38995306955fcae84d5.tar.gz -> cairo-2021.07.04.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=079883be96ec06e6cb56bda0ba8131f2

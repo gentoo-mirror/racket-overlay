@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/threading-lib dev-racket/sawzall-lib dev-racket/data-frame >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Tests for Sawzall
+EAPI=8
+HOMEPAGE=https://github.com/ralsei/sawzall
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/threading-lib dev-racket/sawzall-lib dev-racket/data-frame >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/ralsei/sawzall/archive/bff8a299f23a89c3c0dab134827baba432182ba4.tar.gz -> sawzall-test-2021.08.05.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=01ab9520daca278a30d806100c4ac63d

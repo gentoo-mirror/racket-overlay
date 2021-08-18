@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Canonical s-expressions for Racket.
+EAPI=8
+HOMEPAGE=https://gitlab.com/spritely/racket-csexp
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://gitlab.com/spritely/racket-csexp/-/archive/a5b054836db26c6568d88d4e6c7706ff270f83f4.tar.gz -> csexp-2021.05.08.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=25ac389c7543abb3074d5590d84cf7a0

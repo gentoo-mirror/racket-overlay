@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/gregor-lib dev-racket/crypto-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=the mobilpay Racket package
+EAPI=8
+HOMEPAGE=https://github.com/Bogdanp/mobilpay
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/gregor-lib dev-racket/crypto-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/Bogdanp/mobilpay/archive/0c75ab1a28c834035fb1d661e3e0390338b9f34a.tar.gz -> mobilpay-2019.06.27.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=a4f63b6f762123d0954c7a0a4f605885

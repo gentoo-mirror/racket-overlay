@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/rackjure dev-racket/sweet-exp-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=misc kw utils
+EAPI=8
+HOMEPAGE=https://github.com/AlexKnauth/kw-utils
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/rackjure dev-racket/sweet-exp-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/AlexKnauth/kw-utils/archive/91095643063329146e7d901b864e1438963bbc10.tar.gz -> kw-utils-2020.10.01.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=64fd1a2ce688e838d21fc94efdcd73dd

@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/debug-scopes >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=the chain-module-begin Racket package
+EAPI=8
+HOMEPAGE=https://github.com/jsmaniac/chain-module-begin
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/debug-scopes >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/jsmaniac/chain-module-begin/archive/77fca59322b93cb83a2d57c25546dd7a7313bc56.tar.gz -> chain-module-begin-2021.03.05.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=a0a9459e9fa33be2ced717324971317b

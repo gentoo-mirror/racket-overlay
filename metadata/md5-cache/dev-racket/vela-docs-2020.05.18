@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/vela-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=vela docs
+EAPI=8
+HOMEPAGE=https://github.com/nuty/vela
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/vela-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/nuty/vela/archive/5998a2cf7101a9b98d91fce11c4c1d86f0f5a274.tar.gz -> vela-docs-2020.05.18.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=e781bd00ecde40c9ab8de7691560ba1f

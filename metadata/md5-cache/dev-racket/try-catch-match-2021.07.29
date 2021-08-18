@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=A try-catch-finally macro that binds with match.
+EAPI=8
+HOMEPAGE=https://github.com/eutro/try-catch-match
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/eutro/try-catch-match/archive/6cd64b9b0d3fc3828318da9f8d26cc5d9271c1f4.tar.gz -> try-catch-match-2021.07.29.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=0eef6da5b71727dda1f7003b3cfc9fbc

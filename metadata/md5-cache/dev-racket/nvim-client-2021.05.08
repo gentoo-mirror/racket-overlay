@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/msgpack >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=API client for the Neovim text editor
+EAPI=8
+HOMEPAGE=https://gitlab.com/HiPhish/neovim.rkt
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/msgpack >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://gitlab.com/HiPhish/neovim.rkt/-/archive/c7d0a3d7ceaebd59955e6d2aee16352098c82d8a.tar.gz -> nvim-client-2021.05.08.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=8777ba86a2067ad181856136502d2355

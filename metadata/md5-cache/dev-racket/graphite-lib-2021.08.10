@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/simple-polynomial dev-racket/threading-lib dev-racket/loess dev-racket/fancy-app dev-racket/ddict dev-racket/data-frame dev-racket/colormaps >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=A ggplot2-inspired data visualization library (no documentation)
+EAPI=8
+HOMEPAGE=https://github.com/ralsei/graphite
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/simple-polynomial dev-racket/threading-lib dev-racket/loess dev-racket/fancy-app dev-racket/ddict dev-racket/data-frame dev-racket/colormaps >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/ralsei/graphite/archive/89f24af3a7d83019de362b52c07f15ce32aa73b1.tar.gz -> graphite-lib-2021.08.10.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=77cad09ae17d246c0c176e58c3121119

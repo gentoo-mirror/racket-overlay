@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/rackunit-abbrevs dev-racket/reprovide-lang-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Scribble-to-LaTeX helper functions
+EAPI=8
+HOMEPAGE=https://github.com/bennn/scribble-abbrevs
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/rackunit-abbrevs dev-racket/reprovide-lang-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/bennn/scribble-abbrevs/archive/3f81620a49fdb6e81d8734cd5088a41b32dd9ec8.tar.gz -> scribble-abbrevs-2021.07.22.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=4cc1d758afa0b709cc88f30f413731fd

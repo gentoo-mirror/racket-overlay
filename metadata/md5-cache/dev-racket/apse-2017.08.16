@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/mode-lambda dev-racket/lux >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=a pixel-based sprite editor (good with mode-lambda)
+EAPI=8
+HOMEPAGE=https://github.com/jeapostrophe/apse
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/mode-lambda dev-racket/lux >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/jeapostrophe/apse/archive/b02dfe2de3f7ae1a1edf931c9555408e6354a5bc.tar.gz -> apse-2017.08.16.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=b98b93b10a8da1b6e4b97ad6d79562cb

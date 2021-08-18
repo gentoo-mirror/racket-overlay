@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/http >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=the wffi Racket package
+EAPI=8
+HOMEPAGE=https://github.com/greghendershott/wffi
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/http >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/greghendershott/wffi/archive/03bd59bea2aa6e0a855de28fb5bb18769ed04b3b.tar.gz -> wffi-2017.08.15.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=aec61c3324f6cd16342d0f9eac687410

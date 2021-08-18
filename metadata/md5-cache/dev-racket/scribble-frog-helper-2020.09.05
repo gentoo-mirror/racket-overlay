@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/frog dev-racket/timable dev-racket/gregor >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=scribble helper functions especially for writing blogs with frog
+EAPI=8
+HOMEPAGE=https://github.com/yanyingwang/scribble-frog-helper
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/frog dev-racket/timable dev-racket/gregor >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/yanyingwang/scribble-frog-helper/archive/5ba86188de0ce1cd3d4540982be2473183c78e81.tar.gz -> scribble-frog-helper-2020.09.05.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=ca66dc4e617e7c39cbc66af0d33d6728

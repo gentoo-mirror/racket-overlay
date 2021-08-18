@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/keyring-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Keyring backend using MacOS Keychain
+EAPI=8
+HOMEPAGE=https://github.com/samdphillips/racket-keyring
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/keyring-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/samdphillips/racket-keyring/archive/b94d316071f10b14c32bf7398d45d849348e680d.tar.gz -> keyring-keychain-lib-2021.04.18.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=de11f3bd37da489c07d084607e94c5d6

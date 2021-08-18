@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Read, search and render pdfs. Use LaTeX in scribble and slidehow.
+EAPI=8
+HOMEPAGE=https://github.com/soegaard/racket-poppler
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/soegaard/racket-poppler/archive/0ccd65fb4a85c05ad6494b5ab8412c529bd77f26.tar.gz -> racket-poppler-2021.03.10.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=c2de443c525d47c4c335a3e7c8ea19db

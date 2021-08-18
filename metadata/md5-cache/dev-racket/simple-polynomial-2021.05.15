@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/simple-matrix >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Basic polynomial arithmetic and interpolation.
+EAPI=8
+HOMEPAGE=https://bitbucket.org/derend/simple-polynomial
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/simple-matrix >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://bitbucket.org/derend/simple-polynomial/get/c8c7e2e4175a27123becd6e78f792738b0bf1188.tar.gz -> simple-polynomial-2021.05.15.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=7cf4445bb21ddee010d2e4a4443442cd

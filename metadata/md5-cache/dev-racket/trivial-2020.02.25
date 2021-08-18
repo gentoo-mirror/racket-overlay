@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/rackunit-abbrevs dev-racket/reprovide-lang >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=type-tailored standard library functions
+EAPI=8
+HOMEPAGE=https://github.com/bennn/trivial
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/rackunit-abbrevs dev-racket/reprovide-lang >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/bennn/trivial/archive/c28c838d6d0116ba4c9d122c0e410ef178164e3a.tar.gz -> trivial-2020.02.25.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=1b8f141a5c903519973a054597e1a859

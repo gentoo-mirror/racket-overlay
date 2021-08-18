@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=An automated (RESTful) CRUD API generator for use with the Racket web server.
+EAPI=8
+HOMEPAGE=https://github.com/nadeemabdulhamid/piecrust
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/nadeemabdulhamid/piecrust/archive/71761acebc880912a4c688a32baef871dbf9ad94.tar.gz -> piecrust-2021.07.03.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=b3b2d481d9cad2f5afbd3e1b075a7f22

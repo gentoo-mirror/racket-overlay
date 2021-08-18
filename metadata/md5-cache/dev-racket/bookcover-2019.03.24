@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/beautiful-racket-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=the bookcover Racket package
+EAPI=8
+HOMEPAGE=https://github.com/otherjoel/bookcover
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/beautiful-racket-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/otherjoel/bookcover/archive/824cdc44d35cc2c418074e4eaf12bbb0e516342f.tar.gz -> bookcover-2019.03.24.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=eb9394daf6f1aea348552e296f02d763

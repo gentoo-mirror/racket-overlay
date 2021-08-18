@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/irc >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=A higher-level, typed wrapper around the irc package
+EAPI=8
+HOMEPAGE=https://github.com/lexi-lambda/racket-irc-client
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/irc >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/lexi-lambda/racket-irc-client/archive/dc3958adf0d8e7a8bf34820cb7bc6630eb18d622.tar.gz -> irc-client-2018.05.31.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=422fd1dbf9273602de3467f0da9959e8

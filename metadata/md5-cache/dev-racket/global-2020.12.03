@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/text-table >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Define global variables and automatically generate a command line parser.
+EAPI=8
+HOMEPAGE=https://github.com/Metaxal/global
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/text-table >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/Metaxal/global/archive/d912b774228e449f19083cba15e37b188a1673b4.tar.gz -> global-2020.12.03.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=9efb8d8de2c2da95c1e28677430bece8

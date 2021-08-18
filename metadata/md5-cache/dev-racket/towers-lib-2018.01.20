@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/bazaar >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Library for the Towers game.
+EAPI=8
+HOMEPAGE=https://github.com/Metaxal/towers
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/bazaar >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/Metaxal/towers/archive/e1224228b5b5b514c7063b44810c1bdd5f8d5d14.tar.gz -> towers-lib-2018.01.20.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=bb9c2140a42a753e5df1e57920a99c99

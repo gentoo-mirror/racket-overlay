@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/otp-lib dev-racket/crypto-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=the typed-otp-lib Racket package
+EAPI=8
+HOMEPAGE=https://github.com/yilinwei/otp
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/otp-lib dev-racket/crypto-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/yilinwei/otp/archive/0757167eac914c45a756c090c4bdf5410080c145.tar.gz -> typed-otp-lib-2021.02.23.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=95d06d7c3415f39c5ad9c1066c15e7f8

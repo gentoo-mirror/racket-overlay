@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/todo-list >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=A little fork of the Pie language (adds let and equal).
+EAPI=8
+HOMEPAGE=https://github.com/pnwamk/pie
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/todo-list >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/pnwamk/pie/archive/77d183629f3d09f2d0b79a5bcd3b16e92ecf5f19.tar.gz -> pie-a-let-mode-2020.04.07.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=c85727723b7b9414b182a2f9934ceb82

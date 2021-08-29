@@ -8,7 +8,7 @@ GH_REPO="countvajhula/social-contract"
 
 inherit racket gh
 
-DESCRIPTION="Collectively-defined contracts for commonly encountered types."
+DESCRIPTION="High-level, composable syntax for describing contracts."
 HOMEPAGE="https://github.com/countvajhula/social-contract"
 
 LICENSE="all-rights-reserved"
@@ -22,5 +22,8 @@ RDEPEND="dev-racket/adjutor
 	dev-racket/scribble-abbrevs
 	dev-racket/version-case
 	dev-racket/mischief
+	dev-racket/megaparsack-parser-tools
+	dev-racket/megaparsack-lib
+	dev-racket/functional-lib
 	dev-racket/collections-lib"
 DEPEND="${RDEPEND}"

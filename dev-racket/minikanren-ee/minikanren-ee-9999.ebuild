@@ -15,6 +15,5 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/ee-lib
-	dev-racket/faster-minikanren"
+RDEPEND="dev-racket/ee-lib"
 DEPEND="${RDEPEND}"

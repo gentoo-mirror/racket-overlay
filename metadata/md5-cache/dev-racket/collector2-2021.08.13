@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/threading-lib dev-racket/ebuild dev-racket/counter >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=generate Gentoo ebuild scripts from Racket catalog packages
+EAPI=8
+HOMEPAGE=https://gitlab.com/src_prepare/racket/collector2
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/threading-lib dev-racket/ebuild dev-racket/counter >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://gitlab.com/src_prepare/racket/collector2/-/archive/55f2e77a8646af86a013683778773090a0b3c250.tar.gz -> collector2-2021.08.13.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=653711b682ddd126af003c4d201d5d8f

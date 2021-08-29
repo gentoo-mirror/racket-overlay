@@ -1,14 +1,15 @@
-BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile install postinst prepare prerm test unpack
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=dev-racket/adjutor dev-racket/cover-coveralls dev-racket/cover dev-racket/collections-doc dev-racket/scribble-abbrevs dev-racket/version-case dev-racket/mischief dev-racket/megaparsack-parser-tools dev-racket/megaparsack-lib dev-racket/functional-lib dev-racket/collections-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=High-level, composable syntax for describing contracts.
 EAPI=8
 HOMEPAGE=https://github.com/countvajhula/social-contract
 INHERIT=racket gh
+KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-PROPERTIES=live
 RDEPEND=dev-racket/adjutor dev-racket/cover-coveralls dev-racket/cover dev-racket/collections-doc dev-racket/scribble-abbrevs dev-racket/version-case dev-racket/mischief dev-racket/megaparsack-parser-tools dev-racket/megaparsack-lib dev-racket/functional-lib dev-racket/collections-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=b0058c0f238cb3934087a42eb8b39520
+SRC_URI=https://github.com/countvajhula/social-contract/archive/4dc6d963ac7e9d571c0e5a7767aee69eec95db6b.tar.gz -> social-contract-2021.08.28.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=86b790482f20ce338e524ce0d5bd3a3c

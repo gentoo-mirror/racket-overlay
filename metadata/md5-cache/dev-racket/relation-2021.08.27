@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/cover-coveralls dev-racket/cover dev-racket/threading-doc dev-racket/rackjure dev-racket/functional-doc dev-racket/collections-doc dev-racket/fancy-app dev-racket/sugar dev-racket/algebraic dev-racket/scribble-abbrevs dev-racket/version-case dev-racket/typed-stack dev-racket/kw-utils dev-racket/ionic dev-racket/social-contract dev-racket/mischief dev-racket/threading-lib dev-racket/point-free dev-racket/arguments dev-racket/functional-lib dev-racket/describe dev-racket/collections-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Generic interfaces and convenient utilities for using relations.
+EAPI=8
+HOMEPAGE=https://github.com/countvajhula/relation
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/cover-coveralls dev-racket/cover dev-racket/threading-doc dev-racket/rackjure dev-racket/functional-doc dev-racket/collections-doc dev-racket/fancy-app dev-racket/sugar dev-racket/algebraic dev-racket/scribble-abbrevs dev-racket/version-case dev-racket/typed-stack dev-racket/kw-utils dev-racket/ionic dev-racket/social-contract dev-racket/mischief dev-racket/threading-lib dev-racket/point-free dev-racket/arguments dev-racket/functional-lib dev-racket/describe dev-racket/collections-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/countvajhula/relation/archive/465bb1832fa97fbe3190fab3fc7857c2d952d14b.tar.gz -> relation-2021.08.27.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=7d48170cfcc2d469a3c97953130a696b

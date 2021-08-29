@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/lathe-ordinals-lib dev-racket/lathe-ordinals-doc >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Ordinal numbers supporting addition, multiplication, and exponentiation.
+EAPI=8
+HOMEPAGE=https://github.com/lathe/lathe-ordinals-for-racket
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/lathe-ordinals-lib dev-racket/lathe-ordinals-doc >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/lathe/lathe-ordinals-for-racket/archive/f9f7b132a7e40a323a39a7c52c4280ae68f33889.tar.gz -> lathe-ordinals-2021.08.13.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=2c404a5e2bfb742bb4205c2b20c4fb23

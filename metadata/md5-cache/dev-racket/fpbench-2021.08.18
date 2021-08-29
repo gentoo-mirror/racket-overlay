@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/generic-flonum >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=the fpbench Racket package
+EAPI=8
+HOMEPAGE=https://github.com/FPBench/FPBench
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/generic-flonum >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/FPBench/FPBench/archive/cfb4b3fe80ac060754c0ee45243b6407604d978d.tar.gz -> fpbench-2021.08.18.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=e3145c6c5fbf6857036270910909f242

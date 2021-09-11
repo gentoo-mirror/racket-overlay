@@ -39,7 +39,7 @@ The upstream repository can be found on
 @link["https://gitlab.com/src_prepare/racket/racket-overlay" "GitLab"].
 
 There also is a mirror on
-@link["https://github.com/xgqt/rkt" "GitHub"].
+@link["https://github.com/gentoo-mirror/racket-overlay" "GitHub"].
 
 
 @section{License}

@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Creates Chez Scheme boot files from source
+EAPI=8
+HOMEPAGE=https://github.com/racket/ChezScheme
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/racket/ChezScheme/archive/91a33d86e8e5f637bbc96afa765aff6b3b66120c.tar.gz -> cs-bootstrap-2021.08.30.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=6607561128d36e4e1d0505bae08ccddb

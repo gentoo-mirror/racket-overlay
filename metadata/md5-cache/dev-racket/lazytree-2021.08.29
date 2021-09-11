@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/cover-coveralls dev-racket/cover dev-racket/functional-doc dev-racket/collections-doc dev-racket/scribble-abbrevs dev-racket/social-contract dev-racket/relation dev-racket/collections-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Lightweight, general-purpose utilities for working with tree-structured data.
+EAPI=8
+HOMEPAGE=https://github.com/countvajhula/lazytree
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/cover-coveralls dev-racket/cover dev-racket/functional-doc dev-racket/collections-doc dev-racket/scribble-abbrevs dev-racket/social-contract dev-racket/relation dev-racket/collections-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/countvajhula/lazytree/archive/2cb43e3a629e5eb95ddfcae3d7c25b947eee6a2d.tar.gz -> lazytree-2021.08.29.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=0aa8a83bf196598ccce837e14db33fb9

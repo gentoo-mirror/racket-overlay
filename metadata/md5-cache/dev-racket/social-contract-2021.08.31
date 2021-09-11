@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/adjutor dev-racket/cover-coveralls dev-racket/cover dev-racket/collections-doc dev-racket/scribble-abbrevs dev-racket/version-case dev-racket/mischief dev-racket/megaparsack-parser-tools dev-racket/megaparsack-lib dev-racket/functional-lib dev-racket/collections-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=High-level, composable syntax for describing contracts.
+EAPI=8
+HOMEPAGE=https://github.com/countvajhula/social-contract
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/adjutor dev-racket/cover-coveralls dev-racket/cover dev-racket/collections-doc dev-racket/scribble-abbrevs dev-racket/version-case dev-racket/mischief dev-racket/megaparsack-parser-tools dev-racket/megaparsack-lib dev-racket/functional-lib dev-racket/collections-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/countvajhula/social-contract/archive/ea92ab0a5bcb342eb969a34fb3c7f981cc79de60.tar.gz -> social-contract-2021.08.31.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=bc0d5f11d870a9bc73bb08a9c48f4d8f

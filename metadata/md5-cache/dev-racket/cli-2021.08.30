@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/cover-coveralls dev-racket/cover dev-racket/scribble-abbrevs dev-racket/version-case dev-racket/mischief >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Simple and expressive command line interfaces.
+EAPI=8
+HOMEPAGE=https://github.com/countvajhula/cli
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/cover-coveralls dev-racket/cover dev-racket/scribble-abbrevs dev-racket/version-case dev-racket/mischief >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/countvajhula/cli/archive/a2c031446a6540876bacaf1292b434217708056f.tar.gz -> cli-2021.08.30.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=cdfdb8b89a096a7cda58662107aa8588

@@ -40,3 +40,34 @@ apply to racket-overlay.
 If you use GNU Emacs with "racket-mode"
 and use "racket-mode-start-faster" command, remember when you update the mode
 or Racket you have to re-run the command.
+
+
+@section{Updating packages with Collector2}
+
+Presented here is a example workflow of updating this repository's packages:
+
+@itemlist[
+ @item{
+  Generate packages
+  @commandline{collector2 -d $(pwd) -c}
+ }
+ @item{
+  Regenerate manifests
+  @commandline{repoman manifest}
+ }
+ @item{
+  Check if repoman test passes, if no correct the errors
+  @commandline{repoman -dvx full}
+ }
+ @item{
+  Commit the changes
+  @commandline{git commit --signoff}
+ }
+ @item{
+  Synchronize the repository
+  @codeblock{
+   git pull
+   git push
+  }
+ }
+ ]

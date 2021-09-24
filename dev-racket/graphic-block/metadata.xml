@@ -3,7 +3,6 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/djh-uwaterloo/uwaterloo-racket</bugs-to>
-    <remote-id type="github">djh-uwaterloo/uwaterloo-racket</remote-id>
+    <bugs-to>https://git.uwaterloo.ca/djholtby/uwaterloo-racket</bugs-to>
   </upstream>
 </pkgmetadata>

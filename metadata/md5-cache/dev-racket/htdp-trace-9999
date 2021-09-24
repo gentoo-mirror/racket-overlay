@@ -3,7 +3,7 @@ DEFINED_PHASES=compile install postinst prepare prerm test unpack
 DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the htdp-trace Racket package
 EAPI=8
-HOMEPAGE=https://github.com/djh-uwaterloo/uwaterloo-racket
+HOMEPAGE=https://git.uwaterloo.ca/djholtby/uwaterloo-racket
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
@@ -11,4 +11,4 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=6211bb2ecef570ae0708b08d697f7938
+_md5_=eb4ad9ffa295b6e6fc3dbfa9fae9fa33

@@ -23,6 +23,7 @@ RDEPEND="dev-racket/misc1
 	dev-racket/argo
 	dev-racket/http
 	dev-racket/beautiful-racket-lib
+	dev-racket/net-cookies-lib
 	dev-racket/brag-lib
 	dev-racket/br-parser-tools-lib"
 DEPEND="${RDEPEND}"

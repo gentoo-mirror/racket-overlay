@@ -14,3 +14,6 @@ HOMEPAGE="https://github.com/Metaxal/quickscript-extra"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/quickscript"
+DEPEND="${RDEPEND}"

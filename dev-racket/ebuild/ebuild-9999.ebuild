@@ -8,12 +8,18 @@ GH_REPO="xgqt/racket-ebuild"
 
 inherit racket gh
 
-DESCRIPTION="Library to ease automatic ebuild creation and maintenance"
+DESCRIPTION="Library to ease automatic ebuild creation. Metapackage."
 HOMEPAGE="https://gitlab.com/xgqt/racket-ebuild"
+S="${S}/src/ebuild"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/dirname"
+RDEPEND="dev-racket/ebuild-transformers
+	dev-racket/ebuild-tools
+	dev-racket/ebuild-tests
+	dev-racket/ebuild-templates
+	dev-racket/ebuild-lib
+	dev-racket/ebuild-docs"
 DEPEND="${RDEPEND}"

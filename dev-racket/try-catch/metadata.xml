@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/dstorrs/try-catch</bugs-to>
+    <remote-id type="github">dstorrs/try-catch</remote-id>
+  </upstream>
+</pkgmetadata>

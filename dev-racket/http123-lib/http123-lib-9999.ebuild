@@ -16,6 +16,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/scramble-lib
+RDEPEND="dev-racket/net-cookies-lib
+	dev-racket/scramble-lib
 	dev-racket/binaryio-lib"
 DEPEND="${RDEPEND}"

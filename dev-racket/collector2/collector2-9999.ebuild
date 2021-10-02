@@ -8,7 +8,7 @@ GH_REPO="src_prepare/racket/collector2"
 
 inherit racket gh
 
-DESCRIPTION="generate Gentoo ebuild scripts from Racket catalog packages"
+DESCRIPTION="Parse Racket packages catalog and generate ebuild scripts"
 HOMEPAGE="https://gitlab.com/src_prepare/racket/collector2"
 
 LICENSE="all-rights-reserved"
@@ -16,6 +16,7 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/threading-lib
-	dev-racket/ebuild
+	dev-racket/ebuild-templates
+	dev-racket/ebuild-lib
 	dev-racket/counter"
 DEPEND="${RDEPEND}"

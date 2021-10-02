@@ -18,5 +18,6 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/search-list-box
+	dev-racket/quickscript
 	dev-racket/markdown"
 DEPEND="${RDEPEND}"

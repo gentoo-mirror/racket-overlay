@@ -10,7 +10,7 @@ inherit racket gh
 
 DESCRIPTION="the syrup Racket package"
 HOMEPAGE="https://gitlab.com/spritely/syrup"
-S="${S}/impls%2Fracket%2Fsyrup"
+S="${S}/impls/racket/syrup"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

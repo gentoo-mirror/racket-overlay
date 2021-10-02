@@ -16,7 +16,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/gregor-doc
+RDEPEND="dev-racket/srfi-doc-nonfree
+	dev-racket/gregor-doc
 	dev-racket/libargon2
 	dev-racket/koyo-lib
 	dev-racket/gregor-lib

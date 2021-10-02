@@ -17,7 +17,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/css-expr
+RDEPEND="dev-racket/net-cookies-lib
+	dev-racket/css-expr
 	dev-racket/http
 	dev-racket/txexpr"
 DEPEND="${RDEPEND}"

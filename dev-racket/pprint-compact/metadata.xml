@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/sorawee/pprint-compact</bugs-to>
+    <remote-id type="github">sorawee/pprint-compact</remote-id>
+  </upstream>
+</pkgmetadata>

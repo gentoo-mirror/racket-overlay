@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=A tool for preparing HTML slides with LaTeX formulas, based on Scribble
+EAPI=8
+HOMEPAGE=https://github.com/amkhlv/amkhlv
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/amkhlv/amkhlv/archive/912b7f533b44dad627fb126e9ea3978caeb6676a.tar.gz -> bystrotex-2021.09.28.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=365bed8e734990573973b30b8eb971f0

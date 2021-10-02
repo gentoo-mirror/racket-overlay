@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/memoize dev-racket/clotho dev-racket/racr dev-racket/pprint >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Generator of highly effective fuzz testers.
+EAPI=8
+HOMEPAGE=https://gitlab.flux.utah.edu/xsmith/xsmith
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/memoize dev-racket/clotho dev-racket/racr dev-racket/pprint >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://gitlab.flux.utah.edu/xsmith/xsmith/-/archive/b5401707e5e225ac8f57e15843ffb8459a382235.tar.gz -> xsmith-2021.09.30.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=74139af5fe20b708448e4eac493406fa

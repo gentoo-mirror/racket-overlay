@@ -15,8 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/racket-graphviz
-	dev-racket/csv-writing
+RDEPEND="dev-racket/csv-writing
 	dev-racket/graph
 	dev-racket/brag-lib"
 DEPEND="${RDEPEND}"

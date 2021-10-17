@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/sleibrock/ez-csv</bugs-to>
+    <remote-id type="github">sleibrock/ez-csv</remote-id>
+  </upstream>
+</pkgmetadata>

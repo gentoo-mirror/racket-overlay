@@ -18,8 +18,8 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/ebuild-transformers
 	dev-racket/ebuild-tools
-	dev-racket/ebuild-tests
+	dev-racket/ebuild-test
 	dev-racket/ebuild-templates
 	dev-racket/ebuild-lib
-	dev-racket/ebuild-docs"
+	dev-racket/ebuild-doc"
 DEPEND="${RDEPEND}"

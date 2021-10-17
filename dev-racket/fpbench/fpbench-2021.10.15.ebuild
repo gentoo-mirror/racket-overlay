@@ -4,15 +4,18 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="jsgrant/rodot"
-GH_COMMIT="c79986ac71154bed153dd1ea2dec15254369bf05"
+GH_REPO="FPBench/FPBench"
+GH_COMMIT="7d6683d7e390d3abdfc860499a0fd81aaf044184"
 
 inherit racket gh
 
-DESCRIPTION="**EXPERIMENTAL** An Attempt At Godot4 x GDExtensions Support For Racket."
-HOMEPAGE="https://github.com/jsgrant/rodot"
+DESCRIPTION="the fpbench Racket package"
+HOMEPAGE="https://github.com/FPBench/FPBench"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/generic-flonum"
+DEPEND="${RDEPEND}"

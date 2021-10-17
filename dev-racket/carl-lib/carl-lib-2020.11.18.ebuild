@@ -17,8 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/racket-graphviz
-	dev-racket/csv-writing
+RDEPEND="dev-racket/csv-writing
 	dev-racket/graph
 	dev-racket/brag-lib"
 DEPEND="${RDEPEND}"

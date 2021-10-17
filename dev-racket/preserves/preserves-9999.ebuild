@@ -10,7 +10,7 @@ inherit racket gh
 
 DESCRIPTION="the preserves Racket package"
 HOMEPAGE="https://gitlab.com/preserves/preserves"
-S="${S}/implementations%2Fracket%2Fpreserves"
+S="${S}/implementations/racket/preserves"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

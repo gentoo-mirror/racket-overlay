@@ -28,7 +28,7 @@ RDEPEND="dev-racket/cover-coveralls
 	dev-racket/version-case
 	dev-racket/typed-stack
 	dev-racket/kw-utils
-	dev-racket/ionic
+	dev-racket/qi
 	dev-racket/social-contract
 	dev-racket/mischief
 	dev-racket/threading-lib

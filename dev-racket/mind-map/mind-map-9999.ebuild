@@ -14,6 +14,3 @@ HOMEPAGE="https://github.com/zyrolasting/mind-map"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
-
-RDEPEND="dev-racket/racket-graphviz"
-DEPEND="${RDEPEND}"

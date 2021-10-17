@@ -4,13 +4,16 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="jsgrant/rodot"
+GH_REPO="racket/pict-snip"
+GH_COMMIT="cd389ba6471a045c791e2dd6e483e356017499d8"
 
 inherit racket gh
 
-DESCRIPTION="**EXPERIMENTAL** An Attempt At Godot4 x GDExtensions Support For Racket."
-HOMEPAGE="https://github.com/jsgrant/rodot"
+DESCRIPTION="tests for pict-snip-lib"
+HOMEPAGE="https://github.com/racket/pict-snip"
+S="${S}/pict-snip-test"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
+KEYWORDS="~amd64"
 RESTRICT="mirror"

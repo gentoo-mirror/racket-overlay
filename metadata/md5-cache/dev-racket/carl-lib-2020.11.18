@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/racket-graphviz dev-racket/csv-writing dev-racket/graph dev-racket/brag-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/csv-writing dev-racket/graph dev-racket/brag-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Backend for Causal Relational Learning implementation
 EAPI=8
 HOMEPAGE=https://github.com/mkyl/carl-lib
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/racket-graphviz dev-racket/csv-writing dev-racket/graph dev-racket/brag-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/csv-writing dev-racket/graph dev-racket/brag-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mkyl/carl-lib/archive/195c155ccf9306acd29adaf2ab7d536d7686f849.tar.gz -> carl-lib-2020.11.18.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=89643d274d646617cf09fd4940055d4f
+_md5_=f7505f41f7b1448a7a91fcfb13a8deb0

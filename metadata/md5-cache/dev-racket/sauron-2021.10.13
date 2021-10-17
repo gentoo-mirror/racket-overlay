@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/file-watchers dev-racket/from-template dev-racket/try-catch-finally-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=A DrRacket plugin to make it experience like an IDE
+EAPI=8
+HOMEPAGE=https://github.com/racket-tw/sauron
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/file-watchers dev-racket/from-template dev-racket/try-catch-finally-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/racket-tw/sauron/archive/ea02630ca2349bbeabd80a70fb188883952ffef1.tar.gz -> sauron-2021.10.13.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=b50fb10b303cd6a521f2f0bfa63c7942

@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
-DESCRIPTION=Write and render mind maps in Racket.
+DESCRIPTION=Library to ease automatic ebuild creation. Core.
 EAPI=8
-HOMEPAGE=https://github.com/zyrolasting/mind-map
+HOMEPAGE=https://gitlab.com/xgqt/racket-ebuild
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/zyrolasting/mind-map/archive/8401400f1dbc7956357cd27563b6926f4e429d7c.tar.gz -> mind-map-2020.06.19.tar.gz
+SRC_URI=https://gitlab.com/xgqt/racket-ebuild/-/archive/292cc1b9de5fbd93ebd5857cd680e157ed3f554d.tar.gz -> ebuild-lib-2021.10.15.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=64123d83562384a48ebdf3df8d22ef6f
+_md5_=a1fe4c8e07debbbb9d5f05a3f9740e97

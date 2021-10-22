@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=the racket-lambda-runtime Racket package
+EAPI=8
+HOMEPAGE=https://github.com/johnnyodonnell/racket-lambda-runtime
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/johnnyodonnell/racket-lambda-runtime/archive/2a8410a11e93bf9371eac6f90a37c582ef5e1897.tar.gz -> racket-lambda-runtime-2021.10.19.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=edb3398c55f5d2f5c5102e8715a0404e

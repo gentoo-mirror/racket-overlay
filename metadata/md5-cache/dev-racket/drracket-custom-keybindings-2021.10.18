@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=the drracket-custom-keybindings Racket package
+EAPI=8
+HOMEPAGE=https://github.com/aowens-21/drracket-custom-keybindings
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/aowens-21/drracket-custom-keybindings/archive/fe11a60df4567640bc2baa16e46a6870bf5c4af6.tar.gz -> drracket-custom-keybindings-2021.10.18.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=137f8d091fbeb8a1305bc97a47536095

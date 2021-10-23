@@ -20,6 +20,7 @@ LICENSE="GPL-3"
 SLOT="0"
 
 do_compile() {
+	find . -type d -name "compiled" -exec rm -dr {} + || die
 	sh ./compile.sh || die "compilation failed"
 }
 
@@ -27,17 +28,14 @@ src_compile() {
 	do_compile
 }
 
-# NOTICE: "pkg_prerm" is called only if this package is already installed,
-# so we do not have to add a clause to check if "racket-where" exists.
 pkg_prerm() {
 	if has_version "dev-scheme/racket"; then
 		# Ensure that the bytecode is up to date; otherwise this step will
 		# fail if updating "dev-scheme/racket" to a different version (PV).
-		pushd "${RACKET_P_DIR}" || die
+		pushd "${RACKET_P_DIR}" >/dev/null || die "pushd failed"
 		do_compile
-		popd
+		popd >/dev/null || die "popd failed"
 
-		einfo "removing ${RACKET_PN}"
-		raco_remove
+		racket_pkg_prerm
 	fi
 }

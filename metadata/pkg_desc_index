@@ -1420,4 +1420,4 @@ dev-racket/zordoz 2020.03.29 9999: Explorer for .zo bytecode files
 dev-racket/zubat 2020.12.30 9999: the zubat Racket package
 dev-scheme/racket 8.3_pre20211021: General purpose, multi-paradigm Lisp-Scheme programming language
 sys-apps/racket-compiler 0.0.0 0.1.0: Small tool to compile Racket source code
-sys-apps/racket-where 0.0.0 0.1.0: Small tool to find Racket packages
+sys-apps/racket-where 0.0.0 0.1.0 0.1.1: Small tool to find Racket packages

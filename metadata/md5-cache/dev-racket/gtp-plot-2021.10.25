@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/rackunit-abbrevs dev-racket/gtp-util dev-racket/reprovide-lang dev-racket/scribble-abbrevs >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Plots for gradual typing performance
+EAPI=8
+HOMEPAGE=https://github.com/bennn/gtp-plot
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/rackunit-abbrevs dev-racket/gtp-util dev-racket/reprovide-lang dev-racket/scribble-abbrevs >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/bennn/gtp-plot/archive/fabd40e30caafb310a4a7f6fd77fcf95571ebfac.tar.gz -> gtp-plot-2021.10.25.tar.gz
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=f9ba7b9997a626d8ba6684ff99c2f589

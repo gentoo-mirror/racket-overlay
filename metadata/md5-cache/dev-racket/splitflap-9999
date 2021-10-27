@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/try-catch dev-racket/syntax-classes-lib dev-racket/handy >=dev-scheme/racket-8.1:=[-minimal]
-DESCRIPTION=the struct-plus-plus Racket package
+DEPEND=dev-racket/splitflap-lib dev-racket/splitflap-doc >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Atom and RSS feed generation
 EAPI=8
-HOMEPAGE=https://github.com/dstorrs/struct-plus-plus
+HOMEPAGE=https://github.com/otherjoel/splitflap
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/try-catch dev-racket/syntax-classes-lib dev-racket/handy >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/splitflap-lib dev-racket/splitflap-doc >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=1b3df8c7a6d5cac26a982f771e74714c
+_md5_=e748854b5de78ad2c5c59bd861bbc9a1

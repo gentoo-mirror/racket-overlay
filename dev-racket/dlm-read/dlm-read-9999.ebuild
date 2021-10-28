@@ -14,3 +14,6 @@ HOMEPAGE="https://github.com/LeifAndersen/racket-dlm-read"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/csv-reading"
+DEPEND="${RDEPEND}"

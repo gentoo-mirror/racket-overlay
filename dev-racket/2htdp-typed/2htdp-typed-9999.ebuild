@@ -14,3 +14,7 @@ HOMEPAGE="https://github.com/lexi-lambda/racket-2htdp-typed"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/unstable-contract-lib
+	dev-racket/unstable-list-lib"
+DEPEND="${RDEPEND}"

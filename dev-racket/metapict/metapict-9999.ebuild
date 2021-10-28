@@ -16,6 +16,8 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/racket-poppler
+	dev-racket/unstable-parameter-group-lib
+	dev-racket/unstable-latent-contract-lib
 	dev-racket/graph-lib
 	dev-racket/ppict"
 DEPEND="${RDEPEND}"

@@ -19,5 +19,7 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/rackunit-abbrevs
 	dev-racket/sxml
 	dev-racket/reprovide-lang
+	dev-racket/levenshtein
+	dev-racket/html-parsing
 	dev-racket/basedir"
 DEPEND="${RDEPEND}"

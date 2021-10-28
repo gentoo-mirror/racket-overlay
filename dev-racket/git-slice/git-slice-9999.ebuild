@@ -14,3 +14,6 @@ HOMEPAGE="https://github.com/samth/git-slice"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/remote-shell"
+DEPEND="${RDEPEND}"

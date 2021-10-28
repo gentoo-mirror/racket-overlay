@@ -15,5 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/misc1"
+RDEPEND="dev-racket/unstable-doc
+	dev-racket/misc1"
 DEPEND="${RDEPEND}"

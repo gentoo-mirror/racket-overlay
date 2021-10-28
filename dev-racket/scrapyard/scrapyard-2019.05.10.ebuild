@@ -18,5 +18,6 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/txexpr
-	dev-racket/sxml"
+	dev-racket/sxml
+	dev-racket/html-parsing"
 DEPEND="${RDEPEND}"

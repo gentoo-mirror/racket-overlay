@@ -15,5 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/job-queue-lib"
+RDEPEND="dev-racket/job-queue-lib
+	dev-racket/web-server-test"
 DEPEND="${RDEPEND}"

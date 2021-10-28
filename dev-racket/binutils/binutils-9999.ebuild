@@ -14,3 +14,6 @@ HOMEPAGE="https://github.com/lwhjp/racket-binutils"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/binary-class"
+DEPEND="${RDEPEND}"

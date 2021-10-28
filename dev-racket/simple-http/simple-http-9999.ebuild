@@ -14,3 +14,6 @@ HOMEPAGE="https://github.com/DarrenN/simple-http"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/html-parsing"
+DEPEND="${RDEPEND}"

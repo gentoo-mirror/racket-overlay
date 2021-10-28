@@ -17,5 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/misc1"
+RDEPEND="dev-racket/unstable-doc
+	dev-racket/misc1"
 DEPEND="${RDEPEND}"

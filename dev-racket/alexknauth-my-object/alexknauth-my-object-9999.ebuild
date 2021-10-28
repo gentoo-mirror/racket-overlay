@@ -16,6 +16,7 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/heresy
+	dev-racket/unstable-lib
 	dev-racket/kw-utils
 	dev-racket/hash-lambda
 	dev-racket/lens"

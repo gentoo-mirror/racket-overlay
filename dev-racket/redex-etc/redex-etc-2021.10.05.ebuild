@@ -19,5 +19,6 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/chk-lib
 	dev-racket/private-in
+	dev-racket/unstable-redex
 	dev-racket/latex-utils"
 DEPEND="${RDEPEND}"

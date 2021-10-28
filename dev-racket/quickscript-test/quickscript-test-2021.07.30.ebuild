@@ -17,5 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/quickscript"
+RDEPEND="dev-racket/quickscript
+	dev-racket/drracket-test"
 DEPEND="${RDEPEND}"

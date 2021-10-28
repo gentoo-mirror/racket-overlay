@@ -17,7 +17,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/command-tree
+RDEPEND="dev-racket/charterm
+	dev-racket/command-tree
 	dev-racket/reprovide-lang
 	dev-racket/anaphoric
 	dev-racket/br-parser-tools-lib

@@ -14,3 +14,9 @@ HOMEPAGE="https://github.com/herbie-fp/egg-herbie"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/egg-herbie-linux
+	dev-racket/egg-herbie-linux
+	dev-racket/egg-herbie-windows
+	dev-racket/egg-herbie-osx"
+DEPEND="${RDEPEND}"

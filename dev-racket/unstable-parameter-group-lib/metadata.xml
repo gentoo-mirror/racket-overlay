@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+  <upstream>
+    <bugs-to>http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/empty.zip</bugs-to>
+  </upstream>
+</pkgmetadata>

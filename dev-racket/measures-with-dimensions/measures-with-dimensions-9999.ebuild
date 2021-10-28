@@ -19,5 +19,6 @@ RDEPEND="dev-racket/colon-match
 	dev-racket/predicates
 	dev-racket/reprovide-lang
 	dev-racket/sweet-exp
+	dev-racket/unstable-lib
 	dev-racket/threading"
 DEPEND="${RDEPEND}"

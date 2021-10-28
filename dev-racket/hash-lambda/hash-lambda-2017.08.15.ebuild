@@ -18,5 +18,7 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/mutable-match-lambda
-	dev-racket/kw-utils"
+	dev-racket/kw-utils
+	dev-racket/unstable-list-lib
+	dev-racket/unstable-lib"
 DEPEND="${RDEPEND}"

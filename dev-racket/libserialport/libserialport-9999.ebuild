@@ -15,6 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/mordae
+RDEPEND="dev-racket/unstable-lib
+	dev-racket/mordae
 	dev-racket/misc1"
 DEPEND="${RDEPEND}"

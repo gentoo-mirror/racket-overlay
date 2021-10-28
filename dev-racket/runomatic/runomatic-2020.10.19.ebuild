@@ -19,5 +19,6 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/sxml
 	dev-racket/request
-	dev-racket/gregor"
+	dev-racket/gregor
+	dev-racket/html-parsing"
 DEPEND="${RDEPEND}"

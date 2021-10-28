@@ -18,5 +18,6 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/scribble-code-examples
-	dev-racket/defpat"
+	dev-racket/defpat
+	dev-racket/unstable-lib"
 DEPEND="${RDEPEND}"

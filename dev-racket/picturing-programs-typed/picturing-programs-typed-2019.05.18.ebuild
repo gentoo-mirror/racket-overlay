@@ -17,5 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/2htdp-typed"
+RDEPEND="dev-racket/unstable-contract-lib
+	dev-racket/unstable-list-lib
+	dev-racket/2htdp-typed"
 DEPEND="${RDEPEND}"

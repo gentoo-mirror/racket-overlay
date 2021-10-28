@@ -17,8 +17,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/lens
-	dev-racket/reprovide-lang
+RDEPEND="dev-racket/fancy-app
 	dev-racket/generic-syntax-expanders
-	dev-racket/fancy-app"
+	dev-racket/reprovide-lang
+	dev-racket/lens"
 DEPEND="${RDEPEND}"

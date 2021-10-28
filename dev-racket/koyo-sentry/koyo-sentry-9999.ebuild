@@ -15,7 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sentry-doc
+RDEPEND="dev-racket/koyo-lib
 	dev-racket/sentry-lib
-	dev-racket/koyo-lib"
+	dev-racket/sentry-doc"
 DEPEND="${RDEPEND}"

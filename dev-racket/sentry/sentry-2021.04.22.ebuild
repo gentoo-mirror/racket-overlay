@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sentry-lib
-	dev-racket/sentry-doc"
+RDEPEND="dev-racket/sentry-doc
+	dev-racket/sentry-lib"
 DEPEND="${RDEPEND}"

@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/with-cache
-	dev-racket/reprovide-lang"
+RDEPEND="dev-racket/reprovide-lang
+	dev-racket/with-cache"
 DEPEND="${RDEPEND}"

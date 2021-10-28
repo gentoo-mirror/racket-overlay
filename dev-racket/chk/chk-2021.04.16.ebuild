@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/chk-doc
-	dev-racket/chk-lib"
+RDEPEND="dev-racket/chk-lib
+	dev-racket/chk-doc"
 DEPEND="${RDEPEND}"

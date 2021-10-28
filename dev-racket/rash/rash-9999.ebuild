@@ -16,8 +16,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/udelim
-	dev-racket/linea
+RDEPEND="dev-racket/basedir
 	dev-racket/shell-pipeline
-	dev-racket/basedir"
+	dev-racket/linea
+	dev-racket/udelim"
 DEPEND="${RDEPEND}"

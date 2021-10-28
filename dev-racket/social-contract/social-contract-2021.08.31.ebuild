@@ -17,15 +17,15 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/adjutor
-	dev-racket/cover-coveralls
-	dev-racket/cover
-	dev-racket/collections-doc
-	dev-racket/scribble-abbrevs
-	dev-racket/version-case
-	dev-racket/mischief
-	dev-racket/megaparsack-parser-tools
-	dev-racket/megaparsack-lib
+RDEPEND="dev-racket/collections-lib
 	dev-racket/functional-lib
-	dev-racket/collections-lib"
+	dev-racket/megaparsack-lib
+	dev-racket/megaparsack-parser-tools
+	dev-racket/mischief
+	dev-racket/version-case
+	dev-racket/scribble-abbrevs
+	dev-racket/collections-doc
+	dev-racket/cover
+	dev-racket/cover-coveralls
+	dev-racket/adjutor"
 DEPEND="${RDEPEND}"

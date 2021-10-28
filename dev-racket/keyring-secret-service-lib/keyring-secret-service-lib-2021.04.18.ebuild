@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/keyring-lib
-	dev-racket/dbus"
+RDEPEND="dev-racket/dbus
+	dev-racket/keyring-lib"
 DEPEND="${RDEPEND}"

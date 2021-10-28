@@ -15,7 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/al2-test-runner
+RDEPEND="dev-racket/http-easy
 	dev-racket/geoid
-	dev-racket/http-easy"
+	dev-racket/al2-test-runner"
 DEPEND="${RDEPEND}"

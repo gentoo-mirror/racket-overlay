@@ -17,9 +17,9 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/struct-define
-	dev-racket/ansi
-	dev-racket/reprovide-lang
+RDEPEND="dev-racket/lux
 	dev-racket/unix-signals
-	dev-racket/lux"
+	dev-racket/reprovide-lang
+	dev-racket/ansi
+	dev-racket/struct-define"
 DEPEND="${RDEPEND}"

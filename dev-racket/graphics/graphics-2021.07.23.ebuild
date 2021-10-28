@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/w3s
-	dev-racket/digimon"
+RDEPEND="dev-racket/digimon
+	dev-racket/w3s"
 DEPEND="${RDEPEND}"

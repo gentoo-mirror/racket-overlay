@@ -15,8 +15,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/rackunit-abbrevs
-	dev-racket/gtp-util
+RDEPEND="dev-racket/scribble-abbrevs
 	dev-racket/reprovide-lang
-	dev-racket/scribble-abbrevs"
+	dev-racket/gtp-util
+	dev-racket/rackunit-abbrevs"
 DEPEND="${RDEPEND}"

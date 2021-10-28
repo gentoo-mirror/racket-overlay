@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/megaparsack-lib
-	dev-racket/functional-lib"
+RDEPEND="dev-racket/functional-lib
+	dev-racket/megaparsack-lib"
 DEPEND="${RDEPEND}"

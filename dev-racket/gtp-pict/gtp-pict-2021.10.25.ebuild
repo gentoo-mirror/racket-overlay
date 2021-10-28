@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/rackunit-abbrevs
+RDEPEND="dev-racket/pict-abbrevs
 	dev-racket/ppict
-	dev-racket/pict-abbrevs"
+	dev-racket/rackunit-abbrevs"
 DEPEND="${RDEPEND}"

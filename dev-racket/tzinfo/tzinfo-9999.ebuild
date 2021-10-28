@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/tzdata
-	dev-racket/cldr-core"
+RDEPEND="dev-racket/cldr-core
+	dev-racket/tzdata"
 DEPEND="${RDEPEND}"

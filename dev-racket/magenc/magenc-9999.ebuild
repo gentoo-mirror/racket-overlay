@@ -16,7 +16,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sql
+RDEPEND="dev-racket/crypto-lib
 	dev-racket/csexp
-	dev-racket/crypto-lib"
+	dev-racket/sql"
 DEPEND="${RDEPEND}"

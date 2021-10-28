@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/rebellion
-	dev-racket/elle-lib"
+RDEPEND="dev-racket/elle-lib
+	dev-racket/rebellion"
 DEPEND="${RDEPEND}"

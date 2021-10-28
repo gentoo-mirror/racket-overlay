@@ -17,10 +17,10 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/unstable-doc
-	dev-racket/in-new-directory
-	dev-racket/pprint
-	dev-racket/unstable-contract-lib
+RDEPEND="dev-racket/parameter
 	dev-racket/set
-	dev-racket/parameter"
+	dev-racket/unstable-contract-lib
+	dev-racket/pprint
+	dev-racket/in-new-directory
+	dev-racket/unstable-doc"
 DEPEND="${RDEPEND}"

@@ -15,7 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/rosette
+RDEPEND="dev-racket/mischief
 	dev-racket/quickcheck
-	dev-racket/mischief"
+	dev-racket/rosette"
 DEPEND="${RDEPEND}"

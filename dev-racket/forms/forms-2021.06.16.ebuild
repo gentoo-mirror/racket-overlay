@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/forms-lib
-	dev-racket/forms-doc"
+RDEPEND="dev-racket/forms-doc
+	dev-racket/forms-lib"
 DEPEND="${RDEPEND}"

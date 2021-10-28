@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/lens-lib
-	dev-racket/macrotypes-lib"
+RDEPEND="dev-racket/macrotypes-lib
+	dev-racket/lens-lib"
 DEPEND="${RDEPEND}"

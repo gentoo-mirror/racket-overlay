@@ -17,9 +17,9 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/debug-scopes
-	dev-racket/typed-map-lib
-	dev-racket/tr-immutable
+RDEPEND="dev-racket/scribble-enhanced
 	dev-racket/sexp-diff
-	dev-racket/scribble-enhanced"
+	dev-racket/tr-immutable
+	dev-racket/typed-map-lib
+	dev-racket/debug-scopes"
 DEPEND="${RDEPEND}"

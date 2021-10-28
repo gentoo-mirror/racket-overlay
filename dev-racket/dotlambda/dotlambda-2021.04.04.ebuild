@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/debug-scopes
+RDEPEND="dev-racket/typed-map-lib
 	dev-racket/chain-module-begin
-	dev-racket/typed-map-lib"
+	dev-racket/debug-scopes"
 DEPEND="${RDEPEND}"

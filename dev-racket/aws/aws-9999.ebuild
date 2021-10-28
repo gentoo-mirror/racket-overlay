@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sha
-	dev-racket/http"
+RDEPEND="dev-racket/http
+	dev-racket/sha"
 DEPEND="${RDEPEND}"

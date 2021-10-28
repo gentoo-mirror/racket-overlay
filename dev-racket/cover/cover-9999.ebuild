@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/cover-doc
-	dev-racket/cover-lib"
+RDEPEND="dev-racket/cover-lib
+	dev-racket/cover-doc"
 DEPEND="${RDEPEND}"

@@ -16,18 +16,18 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/temp-c-doc
-	dev-racket/markparam-doc
-	dev-racket/automata-doc
-	dev-racket/unstable2d
-	dev-racket/unstable-pretty-lib
-	dev-racket/unstable-parameter-group-lib
-	dev-racket/unstable-options-lib
-	dev-racket/unstable-macro-testing-lib
-	dev-racket/unstable-list-lib
-	dev-racket/unstable-lib
+RDEPEND="dev-racket/unstable-contract-lib
 	dev-racket/unstable-debug-lib
-	dev-racket/unstable-contract-lib"
+	dev-racket/unstable-lib
+	dev-racket/unstable-list-lib
+	dev-racket/unstable-macro-testing-lib
+	dev-racket/unstable-options-lib
+	dev-racket/unstable-parameter-group-lib
+	dev-racket/unstable-pretty-lib
+	dev-racket/unstable2d
+	dev-racket/automata-doc
+	dev-racket/markparam-doc
+	dev-racket/temp-c-doc"
 DEPEND="${RDEPEND}"
 
 src_unpack() {

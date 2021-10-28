@@ -16,8 +16,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/html-template
-	dev-racket/mcfly"
+RDEPEND="dev-racket/mcfly
+	dev-racket/html-template"
 DEPEND="${RDEPEND}"
 
 src_unpack() {

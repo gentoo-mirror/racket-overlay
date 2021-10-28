@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/crypto-lib
-	dev-racket/brag"
+RDEPEND="dev-racket/brag
+	dev-racket/crypto-lib"
 DEPEND="${RDEPEND}"

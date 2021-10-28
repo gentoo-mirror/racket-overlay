@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/rackjure
-	dev-racket/unstable-lib"
+RDEPEND="dev-racket/unstable-lib
+	dev-racket/rackjure"
 DEPEND="${RDEPEND}"

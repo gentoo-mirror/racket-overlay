@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/towers-lib
-	dev-racket/bazaar"
+RDEPEND="dev-racket/bazaar
+	dev-racket/towers-lib"
 DEPEND="${RDEPEND}"

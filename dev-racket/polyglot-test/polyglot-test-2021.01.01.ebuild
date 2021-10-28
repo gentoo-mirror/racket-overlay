@@ -18,8 +18,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/markdown
-	dev-racket/unlike-assets-lib
+RDEPEND="dev-racket/polyglot-lib
 	dev-racket/aws
-	dev-racket/polyglot-lib"
+	dev-racket/unlike-assets-lib
+	dev-racket/markdown"
 DEPEND="${RDEPEND}"

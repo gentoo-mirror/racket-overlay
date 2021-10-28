@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/multimethod-doc
-	dev-racket/multimethod-lib"
+RDEPEND="dev-racket/multimethod-lib
+	dev-racket/multimethod-doc"
 DEPEND="${RDEPEND}"

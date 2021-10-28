@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/parendown-lib
-	dev-racket/lathe-ordinals-lib"
+RDEPEND="dev-racket/lathe-ordinals-lib
+	dev-racket/parendown-lib"
 DEPEND="${RDEPEND}"

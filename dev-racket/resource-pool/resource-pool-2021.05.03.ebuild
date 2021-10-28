@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/rackcheck
-	dev-racket/resource-pool-lib"
+RDEPEND="dev-racket/resource-pool-lib
+	dev-racket/rackcheck"
 DEPEND="${RDEPEND}"

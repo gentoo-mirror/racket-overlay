@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/rackunit-abbrevs
-	dev-racket/make-log-interceptor"
+RDEPEND="dev-racket/make-log-interceptor
+	dev-racket/rackunit-abbrevs"
 DEPEND="${RDEPEND}"

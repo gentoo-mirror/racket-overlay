@@ -17,11 +17,11 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/debug
-	dev-racket/gregor
-	dev-racket/sugar
-	dev-racket/fontland
-	dev-racket/brag
+RDEPEND="dev-racket/with-cache
 	dev-racket/beautiful-racket-lib
-	dev-racket/with-cache"
+	dev-racket/brag
+	dev-racket/fontland
+	dev-racket/sugar
+	dev-racket/gregor
+	dev-racket/debug"
 DEPEND="${RDEPEND}"

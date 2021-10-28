@@ -15,7 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/nanopass
+RDEPEND="dev-racket/html-parsing
 	dev-racket/html-writing
-	dev-racket/html-parsing"
+	dev-racket/nanopass"
 DEPEND="${RDEPEND}"

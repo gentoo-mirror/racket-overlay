@@ -16,9 +16,9 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/markdown
-	dev-racket/aws
-	dev-racket/unlike-assets-lib
+RDEPEND="dev-racket/file-watchers
 	dev-racket/txexpr
-	dev-racket/file-watchers"
+	dev-racket/unlike-assets-lib
+	dev-racket/aws
+	dev-racket/markdown"
 DEPEND="${RDEPEND}"

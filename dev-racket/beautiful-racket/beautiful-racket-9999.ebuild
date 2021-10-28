@@ -16,7 +16,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/br-parser-tools-doc
+RDEPEND="dev-racket/beautiful-racket-lib
 	dev-racket/beautiful-racket-demo
-	dev-racket/beautiful-racket-lib"
+	dev-racket/br-parser-tools-doc"
 DEPEND="${RDEPEND}"

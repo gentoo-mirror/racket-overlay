@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/syntax-classes-lib
-	dev-racket/ugly-app-lib"
+RDEPEND="dev-racket/ugly-app-lib
+	dev-racket/syntax-classes-lib"
 DEPEND="${RDEPEND}"

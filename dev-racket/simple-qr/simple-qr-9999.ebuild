@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/simple-svg
-	dev-racket/reed-solomon"
+RDEPEND="dev-racket/reed-solomon
+	dev-racket/simple-svg"
 DEPEND="${RDEPEND}"

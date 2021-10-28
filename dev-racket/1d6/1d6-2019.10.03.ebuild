@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/beautiful-racket-lib
-	dev-racket/brag"
+RDEPEND="dev-racket/brag
+	dev-racket/beautiful-racket-lib"
 DEPEND="${RDEPEND}"

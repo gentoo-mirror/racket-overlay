@@ -17,12 +17,12 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/scribble-math
-	dev-racket/version-case
-	dev-racket/auto-syntax-e
-	dev-racket/scope-operations
-	dev-racket/alexis-util
-	dev-racket/stxparse-info
+RDEPEND="dev-racket/backport-template-pr1514
 	dev-racket/phc-toolkit
-	dev-racket/backport-template-pr1514"
+	dev-racket/stxparse-info
+	dev-racket/alexis-util
+	dev-racket/scope-operations
+	dev-racket/auto-syntax-e
+	dev-racket/version-case
+	dev-racket/scribble-math"
 DEPEND="${RDEPEND}"

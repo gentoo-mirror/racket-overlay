@@ -16,9 +16,9 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/lens-doc
-	dev-racket/lens-unstable
-	dev-racket/lens-lib
+RDEPEND="dev-racket/lens-common
 	dev-racket/lens-data
-	dev-racket/lens-common"
+	dev-racket/lens-lib
+	dev-racket/lens-unstable
+	dev-racket/lens-doc"
 DEPEND="${RDEPEND}"

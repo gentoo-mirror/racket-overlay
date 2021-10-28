@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/megaparsack-lib
-	dev-racket/functional-lib"
+RDEPEND="dev-racket/functional-lib
+	dev-racket/megaparsack-lib"
 DEPEND="${RDEPEND}"

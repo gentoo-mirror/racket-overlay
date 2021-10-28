@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/component-lib
-	dev-racket/component-doc"
+RDEPEND="dev-racket/component-doc
+	dev-racket/component-lib"
 DEPEND="${RDEPEND}"

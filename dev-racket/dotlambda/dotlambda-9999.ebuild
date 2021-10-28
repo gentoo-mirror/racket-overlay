@@ -15,7 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/debug-scopes
+RDEPEND="dev-racket/typed-map-lib
 	dev-racket/chain-module-begin
-	dev-racket/typed-map-lib"
+	dev-racket/debug-scopes"
 DEPEND="${RDEPEND}"

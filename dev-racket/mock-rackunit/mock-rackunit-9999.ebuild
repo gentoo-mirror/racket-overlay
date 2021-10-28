@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sweet-exp
-	dev-racket/mock"
+RDEPEND="dev-racket/mock
+	dev-racket/sweet-exp"
 DEPEND="${RDEPEND}"

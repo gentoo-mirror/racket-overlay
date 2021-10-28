@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/option-bind
+RDEPEND="dev-racket/sha
 	dev-racket/crypto
-	dev-racket/sha"
+	dev-racket/option-bind"
 DEPEND="${RDEPEND}"

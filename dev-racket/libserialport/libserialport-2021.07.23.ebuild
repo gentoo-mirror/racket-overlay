@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/unstable-lib
+RDEPEND="dev-racket/misc1
 	dev-racket/mordae
-	dev-racket/misc1"
+	dev-racket/unstable-lib"
 DEPEND="${RDEPEND}"

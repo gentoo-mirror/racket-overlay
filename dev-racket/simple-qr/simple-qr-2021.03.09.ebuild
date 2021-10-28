@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/simple-svg
-	dev-racket/reed-solomon"
+RDEPEND="dev-racket/reed-solomon
+	dev-racket/simple-svg"
 DEPEND="${RDEPEND}"

@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/koyo-lib
-	dev-racket/koyo-doc"
+RDEPEND="dev-racket/koyo-doc
+	dev-racket/koyo-lib"
 DEPEND="${RDEPEND}"

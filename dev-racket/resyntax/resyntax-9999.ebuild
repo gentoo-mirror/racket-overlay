@@ -15,8 +15,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/rebellion
-	dev-racket/fancy-app
+RDEPEND="dev-racket/br-parser-tools-lib
 	dev-racket/brag-lib
-	dev-racket/br-parser-tools-lib"
+	dev-racket/fancy-app
+	dev-racket/rebellion"
 DEPEND="${RDEPEND}"

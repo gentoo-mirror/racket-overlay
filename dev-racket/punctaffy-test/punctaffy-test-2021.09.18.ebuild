@@ -18,7 +18,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/punctaffy-lib
+RDEPEND="dev-racket/lathe-comforts-lib
 	dev-racket/parendown
-	dev-racket/lathe-comforts-lib"
+	dev-racket/punctaffy-lib"
 DEPEND="${RDEPEND}"

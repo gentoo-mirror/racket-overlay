@@ -17,9 +17,9 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/cover-coveralls
-	dev-racket/cover
-	dev-racket/scribble-abbrevs
+RDEPEND="dev-racket/mischief
 	dev-racket/version-case
-	dev-racket/mischief"
+	dev-racket/scribble-abbrevs
+	dev-racket/cover
+	dev-racket/cover-coveralls"
 DEPEND="${RDEPEND}"

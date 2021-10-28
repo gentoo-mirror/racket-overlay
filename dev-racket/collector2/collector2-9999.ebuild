@@ -10,13 +10,14 @@ inherit racket gh
 
 DESCRIPTION="Parse Racket packages catalog and generate ebuild scripts"
 HOMEPAGE="https://gitlab.com/src_prepare/racket/collector2"
+S="${S}/src"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/threading-lib
-	dev-racket/ebuild-templates
+RDEPEND="dev-racket/counter
 	dev-racket/ebuild-lib
-	dev-racket/counter"
+	dev-racket/ebuild-templates
+	dev-racket/threading-lib"
 DEPEND="${RDEPEND}"

@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/static-rename-lib
-	dev-racket/static-rename-doc"
+RDEPEND="dev-racket/static-rename-doc
+	dev-racket/static-rename-lib"
 DEPEND="${RDEPEND}"

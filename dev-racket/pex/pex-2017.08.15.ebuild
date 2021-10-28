@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/libserialport
-	dev-racket/mordae"
+RDEPEND="dev-racket/mordae
+	dev-racket/libserialport"
 DEPEND="${RDEPEND}"

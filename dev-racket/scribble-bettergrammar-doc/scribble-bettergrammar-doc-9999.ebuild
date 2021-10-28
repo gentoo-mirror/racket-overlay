@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sexp-diff-doc
-	dev-racket/scribble-bettergrammar-lib"
+RDEPEND="dev-racket/scribble-bettergrammar-lib
+	dev-racket/sexp-diff-doc"
 DEPEND="${RDEPEND}"

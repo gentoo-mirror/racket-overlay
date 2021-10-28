@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/rebellion
-	dev-racket/fancy-app"
+RDEPEND="dev-racket/fancy-app
+	dev-racket/rebellion"
 DEPEND="${RDEPEND}"

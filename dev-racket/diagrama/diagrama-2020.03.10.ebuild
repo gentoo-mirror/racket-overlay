@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/diagrama-doc
-	dev-racket/diagrama-lib"
+RDEPEND="dev-racket/diagrama-lib
+	dev-racket/diagrama-doc"
 DEPEND="${RDEPEND}"

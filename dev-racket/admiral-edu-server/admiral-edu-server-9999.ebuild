@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/yaml
-	dev-racket/aws"
+RDEPEND="dev-racket/aws
+	dev-racket/yaml"
 DEPEND="${RDEPEND}"

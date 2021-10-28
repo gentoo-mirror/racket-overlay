@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/cover-coveralls
-	dev-racket/scribble-math"
+RDEPEND="dev-racket/scribble-math
+	dev-racket/cover-coveralls"
 DEPEND="${RDEPEND}"

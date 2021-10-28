@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sexp-diff-lib
+RDEPEND="dev-racket/parsack
 	dev-racket/threading-lib
-	dev-racket/parsack"
+	dev-racket/sexp-diff-lib"
 DEPEND="${RDEPEND}"

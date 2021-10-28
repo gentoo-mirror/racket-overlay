@@ -16,8 +16,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/distro-build-doc
-	dev-racket/distro-build-lib"
+RDEPEND="dev-racket/distro-build-lib
+	dev-racket/distro-build-doc"
 DEPEND="${RDEPEND}"
 
 src_unpack() {

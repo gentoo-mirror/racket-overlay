@@ -15,8 +15,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/redis-doc
-	dev-racket/koyo-doc
+RDEPEND="dev-racket/koyo-lib
 	dev-racket/redis-lib
-	dev-racket/koyo-lib"
+	dev-racket/koyo-doc
+	dev-racket/redis-doc"
 DEPEND="${RDEPEND}"

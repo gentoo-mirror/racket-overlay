@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/redex-abbrevs-doc
-	dev-racket/redex-abbrevs-lib"
+RDEPEND="dev-racket/redex-abbrevs-lib
+	dev-racket/redex-abbrevs-doc"
 DEPEND="${RDEPEND}"

@@ -16,8 +16,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/syntax-warn-lang
-	dev-racket/syntax-warn-doc
+RDEPEND="dev-racket/syntax-warn-base
 	dev-racket/syntax-warn-cli
-	dev-racket/syntax-warn-base"
+	dev-racket/syntax-warn-doc
+	dev-racket/syntax-warn-lang"
 DEPEND="${RDEPEND}"

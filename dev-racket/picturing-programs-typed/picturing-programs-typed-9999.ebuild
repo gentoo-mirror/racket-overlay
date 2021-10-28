@@ -15,7 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/unstable-contract-lib
+RDEPEND="dev-racket/2htdp-typed
 	dev-racket/unstable-list-lib
-	dev-racket/2htdp-typed"
+	dev-racket/unstable-contract-lib"
 DEPEND="${RDEPEND}"

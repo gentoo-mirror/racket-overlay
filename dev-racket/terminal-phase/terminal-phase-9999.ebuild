@@ -15,9 +15,9 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/ansi
-	dev-racket/raart
-	dev-racket/pk
+RDEPEND="dev-racket/lux
 	dev-racket/goblins
-	dev-racket/lux"
+	dev-racket/pk
+	dev-racket/raart
+	dev-racket/ansi"
 DEPEND="${RDEPEND}"

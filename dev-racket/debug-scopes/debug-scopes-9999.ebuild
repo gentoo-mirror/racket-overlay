@@ -15,7 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/scribble-enhanced
+RDEPEND="dev-racket/pretty-format
 	dev-racket/reprovide-lang
-	dev-racket/pretty-format"
+	dev-racket/scribble-enhanced"
 DEPEND="${RDEPEND}"

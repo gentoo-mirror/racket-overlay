@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/cairo-lib
-	dev-racket/sketching-lib"
+RDEPEND="dev-racket/sketching-lib
+	dev-racket/cairo-lib"
 DEPEND="${RDEPEND}"

@@ -18,12 +18,12 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/unlike-assets-lib
-	dev-racket/unlike-assets-doc
-	dev-racket/txexpr
-	dev-racket/polyglot-lib
-	dev-racket/markdown
-	dev-racket/file-watchers
+RDEPEND="dev-racket/aws
 	dev-racket/css-expr
-	dev-racket/aws"
+	dev-racket/file-watchers
+	dev-racket/markdown
+	dev-racket/polyglot-lib
+	dev-racket/txexpr
+	dev-racket/unlike-assets-doc
+	dev-racket/unlike-assets-lib"
 DEPEND="${RDEPEND}"

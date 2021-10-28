@@ -15,9 +15,9 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/doc-coverage
-	dev-racket/reprovide-lang
-	dev-racket/fancy-app
+RDEPEND="dev-racket/syntax-classes-lib
 	dev-racket/arguments
-	dev-racket/syntax-classes-lib"
+	dev-racket/fancy-app
+	dev-racket/reprovide-lang
+	dev-racket/doc-coverage"
 DEPEND="${RDEPEND}"

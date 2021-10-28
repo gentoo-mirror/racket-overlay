@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/unstable-contract-lib
-	dev-racket/unstable-list-lib"
+RDEPEND="dev-racket/unstable-list-lib
+	dev-racket/unstable-contract-lib"
 DEPEND="${RDEPEND}"

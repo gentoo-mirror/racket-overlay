@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/chk
-	dev-racket/pprint"
+RDEPEND="dev-racket/pprint
+	dev-racket/chk"
 DEPEND="${RDEPEND}"

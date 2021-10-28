@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/brag
-	dev-racket/br-parser-tools-lib"
+RDEPEND="dev-racket/br-parser-tools-lib
+	dev-racket/brag"
 DEPEND="${RDEPEND}"

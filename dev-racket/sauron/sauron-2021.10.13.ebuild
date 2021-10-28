@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/file-watchers
+RDEPEND="dev-racket/try-catch-finally-lib
 	dev-racket/from-template
-	dev-racket/try-catch-finally-lib"
+	dev-racket/file-watchers"
 DEPEND="${RDEPEND}"

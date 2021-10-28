@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/north
+RDEPEND="dev-racket/component-lib
 	dev-racket/koyo-lib
-	dev-racket/component-lib"
+	dev-racket/north"
 DEPEND="${RDEPEND}"

@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/turnstile-lib
-	dev-racket/c-utils"
+RDEPEND="dev-racket/c-utils
+	dev-racket/turnstile-lib"
 DEPEND="${RDEPEND}"

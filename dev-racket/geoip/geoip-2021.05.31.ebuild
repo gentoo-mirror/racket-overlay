@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/geoip-lib
-	dev-racket/geoip-doc"
+RDEPEND="dev-racket/geoip-doc
+	dev-racket/geoip-lib"
 DEPEND="${RDEPEND}"

@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/response-ext
-	dev-racket/racket-route-match"
+RDEPEND="dev-racket/racket-route-match
+	dev-racket/response-ext"
 DEPEND="${RDEPEND}"

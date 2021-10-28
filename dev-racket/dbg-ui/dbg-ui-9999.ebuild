@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/gui-easy-lib
-	dev-racket/dbg"
+RDEPEND="dev-racket/dbg
+	dev-racket/gui-easy-lib"
 DEPEND="${RDEPEND}"

@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/struct-plus-plus
-	dev-racket/handy"
+RDEPEND="dev-racket/handy
+	dev-racket/struct-plus-plus"
 DEPEND="${RDEPEND}"

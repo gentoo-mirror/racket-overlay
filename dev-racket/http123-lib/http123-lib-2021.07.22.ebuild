@@ -18,7 +18,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/net-cookies-lib
+RDEPEND="dev-racket/binaryio-lib
 	dev-racket/scramble-lib
-	dev-racket/binaryio-lib"
+	dev-racket/net-cookies-lib"
 DEPEND="${RDEPEND}"

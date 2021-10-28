@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/io
-	dev-racket/dherman-struct"
+RDEPEND="dev-racket/dherman-struct
+	dev-racket/io"
 DEPEND="${RDEPEND}"

@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/static-rename-lib
-	dev-racket/rackunit-spec"
+RDEPEND="dev-racket/rackunit-spec
+	dev-racket/static-rename-lib"
 DEPEND="${RDEPEND}"

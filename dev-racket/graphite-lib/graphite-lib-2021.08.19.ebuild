@@ -18,11 +18,11 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/simple-polynomial
-	dev-racket/threading-lib
-	dev-racket/loess
-	dev-racket/fancy-app
-	dev-racket/ddict
+RDEPEND="dev-racket/colormaps
 	dev-racket/data-frame
-	dev-racket/colormaps"
+	dev-racket/ddict
+	dev-racket/fancy-app
+	dev-racket/loess
+	dev-racket/threading-lib
+	dev-racket/simple-polynomial"
 DEPEND="${RDEPEND}"

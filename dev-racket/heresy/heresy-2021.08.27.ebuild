@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/rackjure
-	dev-racket/unstable-lib"
+RDEPEND="dev-racket/unstable-lib
+	dev-racket/rackjure"
 DEPEND="${RDEPEND}"

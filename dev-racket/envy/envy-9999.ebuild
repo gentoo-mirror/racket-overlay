@@ -15,7 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sweet-exp
+RDEPEND="dev-racket/sweet-exp-lib
 	dev-racket/threading
-	dev-racket/sweet-exp-lib"
+	dev-racket/sweet-exp"
 DEPEND="${RDEPEND}"

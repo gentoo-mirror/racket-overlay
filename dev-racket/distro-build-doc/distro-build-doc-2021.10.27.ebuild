@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/distro-build-client
-	dev-racket/distro-build-server"
+RDEPEND="dev-racket/distro-build-server
+	dev-racket/distro-build-client"
 DEPEND="${RDEPEND}"

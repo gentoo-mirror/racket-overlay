@@ -15,10 +15,10 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/scribble-code-examples
-	dev-racket/my-cond
-	dev-racket/mutable-match-lambda
-	dev-racket/sweet-exp
+RDEPEND="dev-racket/afl
 	dev-racket/postfix-dot-notation
-	dev-racket/afl"
+	dev-racket/sweet-exp
+	dev-racket/mutable-match-lambda
+	dev-racket/my-cond
+	dev-racket/scribble-code-examples"
 DEPEND="${RDEPEND}"

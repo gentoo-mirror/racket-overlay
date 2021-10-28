@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/operational-transformation-lib
-	dev-racket/operational-transformation-demo"
+RDEPEND="dev-racket/operational-transformation-demo
+	dev-racket/operational-transformation-lib"
 DEPEND="${RDEPEND}"

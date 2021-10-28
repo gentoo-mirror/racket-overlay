@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/graphite-lib
-	dev-racket/data-frame"
+RDEPEND="dev-racket/data-frame
+	dev-racket/graphite-lib"
 DEPEND="${RDEPEND}"

@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/geoip-lib
-	dev-racket/geoip-doc"
+RDEPEND="dev-racket/geoip-doc
+	dev-racket/geoip-lib"
 DEPEND="${RDEPEND}"

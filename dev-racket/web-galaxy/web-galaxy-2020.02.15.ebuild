@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/web-galaxy-doc
-	dev-racket/web-galaxy-lib"
+RDEPEND="dev-racket/web-galaxy-lib
+	dev-racket/web-galaxy-doc"
 DEPEND="${RDEPEND}"

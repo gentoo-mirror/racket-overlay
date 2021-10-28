@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/txexpr
+RDEPEND="dev-racket/html-parsing
 	dev-racket/sxml
-	dev-racket/html-parsing"
+	dev-racket/txexpr"
 DEPEND="${RDEPEND}"

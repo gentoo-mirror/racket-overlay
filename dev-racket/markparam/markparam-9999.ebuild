@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/markparam-doc
-	dev-racket/markparam-lib"
+RDEPEND="dev-racket/markparam-lib
+	dev-racket/markparam-doc"
 DEPEND="${RDEPEND}"

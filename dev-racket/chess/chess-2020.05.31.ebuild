@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/reprovide-lang
-	dev-racket/rebellion"
+RDEPEND="dev-racket/rebellion
+	dev-racket/reprovide-lang"
 DEPEND="${RDEPEND}"

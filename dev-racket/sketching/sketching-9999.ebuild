@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sketching-doc
-	dev-racket/sketching-lib"
+RDEPEND="dev-racket/sketching-lib
+	dev-racket/sketching-doc"
 DEPEND="${RDEPEND}"

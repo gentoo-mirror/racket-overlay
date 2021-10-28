@@ -16,10 +16,10 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/overeasy
-	dev-racket/gdbdump
+RDEPEND="dev-racket/mcfly
 	dev-racket/charterm
-	dev-racket/mcfly"
+	dev-racket/gdbdump
+	dev-racket/overeasy"
 DEPEND="${RDEPEND}"
 
 src_unpack() {

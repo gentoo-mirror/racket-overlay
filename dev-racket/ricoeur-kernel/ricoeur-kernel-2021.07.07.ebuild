@@ -17,8 +17,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/functional-lib
-	dev-racket/gregor
+RDEPEND="dev-racket/adjutor
 	dev-racket/reprovide-lang
-	dev-racket/adjutor"
+	dev-racket/gregor
+	dev-racket/functional-lib"
 DEPEND="${RDEPEND}"

@@ -15,12 +15,12 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/cover-coveralls
-	dev-racket/cover
-	dev-racket/functional-doc
-	dev-racket/collections-doc
-	dev-racket/scribble-abbrevs
-	dev-racket/social-contract
+RDEPEND="dev-racket/collections-lib
 	dev-racket/relation
-	dev-racket/collections-lib"
+	dev-racket/social-contract
+	dev-racket/scribble-abbrevs
+	dev-racket/collections-doc
+	dev-racket/functional-doc
+	dev-racket/cover
+	dev-racket/cover-coveralls"
 DEPEND="${RDEPEND}"

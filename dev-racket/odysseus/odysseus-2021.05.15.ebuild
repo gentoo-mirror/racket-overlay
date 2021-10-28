@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sxml
-	dev-racket/sha"
+RDEPEND="dev-racket/sha
+	dev-racket/sxml"
 DEPEND="${RDEPEND}"

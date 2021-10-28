@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/response-ext
-	dev-racket/racket-route-match"
+RDEPEND="dev-racket/racket-route-match
+	dev-racket/response-ext"
 DEPEND="${RDEPEND}"

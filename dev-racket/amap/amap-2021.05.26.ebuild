@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/scribble-rainbow-delimiters
-	dev-racket/request"
+RDEPEND="dev-racket/request
+	dev-racket/scribble-rainbow-delimiters"
 DEPEND="${RDEPEND}"

@@ -18,7 +18,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/threading-lib
+RDEPEND="dev-racket/deta-lib
 	dev-racket/gregor-lib
-	dev-racket/deta-lib"
+	dev-racket/threading-lib"
 DEPEND="${RDEPEND}"

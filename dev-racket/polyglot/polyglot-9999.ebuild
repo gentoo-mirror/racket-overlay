@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/polyglot-doc
-	dev-racket/polyglot-lib"
+RDEPEND="dev-racket/polyglot-lib
+	dev-racket/polyglot-doc"
 DEPEND="${RDEPEND}"

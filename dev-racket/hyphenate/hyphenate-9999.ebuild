@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/txexpr
-	dev-racket/sugar"
+RDEPEND="dev-racket/sugar
+	dev-racket/txexpr"
 DEPEND="${RDEPEND}"

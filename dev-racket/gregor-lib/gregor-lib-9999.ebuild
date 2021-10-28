@@ -16,11 +16,11 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/cldr-localenames-modern
-	dev-racket/cldr-dates-modern
-	dev-racket/cldr-numbers-modern
-	dev-racket/cldr-bcp47
-	dev-racket/cldr-core
+RDEPEND="dev-racket/memoize
 	dev-racket/tzinfo
-	dev-racket/memoize"
+	dev-racket/cldr-core
+	dev-racket/cldr-bcp47
+	dev-racket/cldr-numbers-modern
+	dev-racket/cldr-dates-modern
+	dev-racket/cldr-localenames-modern"
 DEPEND="${RDEPEND}"

@@ -16,8 +16,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/remote-shell-doc
-	dev-racket/remote-shell-lib"
+RDEPEND="dev-racket/remote-shell-lib
+	dev-racket/remote-shell-doc"
 DEPEND="${RDEPEND}"
 
 src_unpack() {

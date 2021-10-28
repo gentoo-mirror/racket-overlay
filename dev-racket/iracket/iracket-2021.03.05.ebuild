@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sha
+RDEPEND="dev-racket/zeromq-r-lib
 	dev-racket/uuid
-	dev-racket/zeromq-r-lib"
+	dev-racket/sha"
 DEPEND="${RDEPEND}"

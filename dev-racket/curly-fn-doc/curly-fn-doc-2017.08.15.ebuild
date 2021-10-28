@@ -18,8 +18,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/scribble-code-examples
-	dev-racket/namespaced-transformer-lib
+RDEPEND="dev-racket/curly-fn-lib
 	dev-racket/namespaced-transformer-doc
-	dev-racket/curly-fn-lib"
+	dev-racket/namespaced-transformer-lib
+	dev-racket/scribble-code-examples"
 DEPEND="${RDEPEND}"

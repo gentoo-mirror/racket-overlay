@@ -16,7 +16,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/fixture
+RDEPEND="dev-racket/disposable
 	dev-racket/doc-coverage
-	dev-racket/disposable"
+	dev-racket/fixture"
 DEPEND="${RDEPEND}"

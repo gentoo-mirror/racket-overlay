@@ -16,11 +16,11 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/srfi-doc-nonfree
-	dev-racket/gregor-doc
-	dev-racket/libargon2
-	dev-racket/koyo-lib
-	dev-racket/gregor-lib
+RDEPEND="dev-racket/component-doc
 	dev-racket/component-lib
-	dev-racket/component-doc"
+	dev-racket/gregor-lib
+	dev-racket/koyo-lib
+	dev-racket/libargon2
+	dev-racket/gregor-doc
+	dev-racket/srfi-doc-nonfree"
 DEPEND="${RDEPEND}"

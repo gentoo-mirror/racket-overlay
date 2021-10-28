@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/gregor-doc
+RDEPEND="dev-racket/adjutor
 	dev-racket/gregor-lib
-	dev-racket/adjutor"
+	dev-racket/gregor-doc"
 DEPEND="${RDEPEND}"

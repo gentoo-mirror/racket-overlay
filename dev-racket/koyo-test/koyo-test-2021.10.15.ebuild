@@ -18,8 +18,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/libargon2
-	dev-racket/koyo-lib
+RDEPEND="dev-racket/component-lib
 	dev-racket/gregor-lib
-	dev-racket/component-lib"
+	dev-racket/koyo-lib
+	dev-racket/libargon2"
 DEPEND="${RDEPEND}"

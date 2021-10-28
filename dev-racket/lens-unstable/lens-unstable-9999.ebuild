@@ -16,7 +16,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sweet-exp-lib
+RDEPEND="dev-racket/lens-lib
 	dev-racket/reprovide-lang-lib
-	dev-racket/lens-lib"
+	dev-racket/sweet-exp-lib"
 DEPEND="${RDEPEND}"

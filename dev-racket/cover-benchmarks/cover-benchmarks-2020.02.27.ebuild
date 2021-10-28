@@ -18,8 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/racket-benchmarks
-	dev-racket/pict-test
-	dev-racket/custom-load
-	dev-racket/cover-lib"
+RDEPEND="dev-racket/cover-lib
+	dev-racket/custom-load"
 DEPEND="${RDEPEND}"

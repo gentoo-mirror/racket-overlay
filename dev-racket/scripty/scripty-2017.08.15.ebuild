@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/scripty-lib
-	dev-racket/scripty-doc"
+RDEPEND="dev-racket/scripty-doc
+	dev-racket/scripty-lib"
 DEPEND="${RDEPEND}"

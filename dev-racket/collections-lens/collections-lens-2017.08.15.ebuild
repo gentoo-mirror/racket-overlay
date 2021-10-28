@@ -17,8 +17,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/lens-doc
-	dev-racket/lens-common
+RDEPEND="dev-racket/collections
 	dev-racket/curly-fn
-	dev-racket/collections"
+	dev-racket/lens-common
+	dev-racket/lens-doc"
 DEPEND="${RDEPEND}"

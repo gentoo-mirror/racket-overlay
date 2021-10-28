@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/hash-view
+RDEPEND="dev-racket/hash-view-lib
 	dev-racket/http-easy
-	dev-racket/hash-view-lib"
+	dev-racket/hash-view"
 DEPEND="${RDEPEND}"

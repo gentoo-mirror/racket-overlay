@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sxml
-	dev-racket/sha"
+RDEPEND="dev-racket/sha
+	dev-racket/sxml"
 DEPEND="${RDEPEND}"

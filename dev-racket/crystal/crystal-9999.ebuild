@@ -16,8 +16,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/html-writing
-	dev-racket/magenc
+RDEPEND="dev-racket/crypto-lib
 	dev-racket/csexp
-	dev-racket/crypto-lib"
+	dev-racket/magenc
+	dev-racket/html-writing"
 DEPEND="${RDEPEND}"

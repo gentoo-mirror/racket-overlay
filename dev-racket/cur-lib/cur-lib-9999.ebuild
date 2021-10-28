@@ -16,7 +16,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/reprovide-lang-lib
+RDEPEND="dev-racket/turnstile-lib
 	dev-racket/macrotypes-lib
-	dev-racket/turnstile-lib"
+	dev-racket/reprovide-lang-lib"
 DEPEND="${RDEPEND}"

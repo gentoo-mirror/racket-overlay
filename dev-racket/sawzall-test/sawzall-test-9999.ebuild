@@ -16,7 +16,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/threading-lib
+RDEPEND="dev-racket/data-frame
 	dev-racket/sawzall-lib
-	dev-racket/data-frame"
+	dev-racket/threading-lib"
 DEPEND="${RDEPEND}"

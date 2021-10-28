@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/list-util
-	dev-racket/opt"
+RDEPEND="dev-racket/opt
+	dev-racket/list-util"
 DEPEND="${RDEPEND}"

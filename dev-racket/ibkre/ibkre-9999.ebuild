@@ -15,7 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/syndicate
+RDEPEND="dev-racket/opt
 	dev-racket/bitsyntax
-	dev-racket/opt"
+	dev-racket/syndicate"
 DEPEND="${RDEPEND}"

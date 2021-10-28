@@ -15,8 +15,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/plt-service-monitor
-	dev-racket/plt-web-lib
+RDEPEND="dev-racket/aws
 	dev-racket/s3-sync
-	dev-racket/aws"
+	dev-racket/plt-web-lib
+	dev-racket/plt-service-monitor"
 DEPEND="${RDEPEND}"

@@ -15,10 +15,10 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/cover-coveralls
-	dev-racket/rackunit-spec
-	dev-racket/threading
-	dev-racket/net-jwt
+RDEPEND="dev-racket/crypto-lib
 	dev-racket/dali
-	dev-racket/crypto-lib"
+	dev-racket/net-jwt
+	dev-racket/threading
+	dev-racket/rackunit-spec
+	dev-racket/cover-coveralls"
 DEPEND="${RDEPEND}"

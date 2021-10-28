@@ -15,7 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/debug
+RDEPEND="dev-racket/beautiful-racket-lib
 	dev-racket/sugar
-	dev-racket/beautiful-racket-lib"
+	dev-racket/debug"
 DEPEND="${RDEPEND}"

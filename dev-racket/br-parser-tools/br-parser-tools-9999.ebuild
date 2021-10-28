@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/br-parser-tools-doc
-	dev-racket/br-parser-tools-lib"
+RDEPEND="dev-racket/br-parser-tools-lib
+	dev-racket/br-parser-tools-doc"
 DEPEND="${RDEPEND}"

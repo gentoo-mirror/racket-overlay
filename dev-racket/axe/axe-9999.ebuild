@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/scribble-code-examples
-	dev-racket/collections"
+RDEPEND="dev-racket/collections
+	dev-racket/scribble-code-examples"
 DEPEND="${RDEPEND}"

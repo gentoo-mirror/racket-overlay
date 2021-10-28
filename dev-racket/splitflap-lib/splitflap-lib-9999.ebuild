@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/txexpr
-	dev-racket/gregor-lib"
+RDEPEND="dev-racket/gregor-lib
+	dev-racket/txexpr"
 DEPEND="${RDEPEND}"

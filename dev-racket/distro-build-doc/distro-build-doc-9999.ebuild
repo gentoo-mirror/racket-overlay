@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/distro-build-client
-	dev-racket/distro-build-server"
+RDEPEND="dev-racket/distro-build-server
+	dev-racket/distro-build-client"
 DEPEND="${RDEPEND}"

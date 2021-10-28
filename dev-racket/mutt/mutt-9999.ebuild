@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/rackunit-abbrevs
-	dev-racket/make-log-interceptor"
+RDEPEND="dev-racket/make-log-interceptor
+	dev-racket/rackunit-abbrevs"
 DEPEND="${RDEPEND}"

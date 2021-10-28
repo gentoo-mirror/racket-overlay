@@ -15,8 +15,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/tjson
-	dev-racket/http11
+RDEPEND="dev-racket/opt
 	dev-racket/uri
-	dev-racket/opt"
+	dev-racket/http11
+	dev-racket/tjson"
 DEPEND="${RDEPEND}"

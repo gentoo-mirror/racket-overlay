@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/memoize
-	dev-racket/portaudio"
+RDEPEND="dev-racket/portaudio
+	dev-racket/memoize"
 DEPEND="${RDEPEND}"

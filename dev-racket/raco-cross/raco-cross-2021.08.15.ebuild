@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/raco-cross-doc
-	dev-racket/raco-cross-lib"
+RDEPEND="dev-racket/raco-cross-lib
+	dev-racket/raco-cross-doc"
 DEPEND="${RDEPEND}"

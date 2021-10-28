@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/ppict
-	dev-racket/lang-file"
+RDEPEND="dev-racket/lang-file
+	dev-racket/ppict"
 DEPEND="${RDEPEND}"

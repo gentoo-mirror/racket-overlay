@@ -16,7 +16,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/cover-coveralls
+RDEPEND="dev-racket/alexis-util
 	dev-racket/cover
-	dev-racket/alexis-util"
+	dev-racket/cover-coveralls"
 DEPEND="${RDEPEND}"

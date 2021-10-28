@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/cairo-lib
-	dev-racket/sketching-lib"
+RDEPEND="dev-racket/sketching-lib
+	dev-racket/cairo-lib"
 DEPEND="${RDEPEND}"

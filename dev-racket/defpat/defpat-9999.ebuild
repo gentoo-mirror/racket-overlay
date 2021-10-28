@@ -15,10 +15,10 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/scribble-code-examples
-	dev-racket/unstable-list-lib
-	dev-racket/unstable-lib
-	dev-racket/reprovide-lang
+RDEPEND="dev-racket/generic-bind
 	dev-racket/sweet-exp
-	dev-racket/generic-bind"
+	dev-racket/reprovide-lang
+	dev-racket/unstable-lib
+	dev-racket/unstable-list-lib
+	dev-racket/scribble-code-examples"
 DEPEND="${RDEPEND}"

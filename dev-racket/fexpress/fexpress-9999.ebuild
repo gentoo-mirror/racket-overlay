@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/fexpress-lib
-	dev-racket/fexpress-doc"
+RDEPEND="dev-racket/fexpress-doc
+	dev-racket/fexpress-lib"
 DEPEND="${RDEPEND}"

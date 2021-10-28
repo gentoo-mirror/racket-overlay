@@ -16,13 +16,13 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/turnstile-lib
-	dev-racket/turnstile-example
-	dev-racket/struct-defaults
-	dev-racket/rfc6455
-	dev-racket/rackunit-macrotypes-lib
-	dev-racket/macrotypes-lib
-	dev-racket/auxiliary-macro-context
+RDEPEND="dev-racket/sha
 	dev-racket/automata
-	dev-racket/sha"
+	dev-racket/auxiliary-macro-context
+	dev-racket/macrotypes-lib
+	dev-racket/rackunit-macrotypes-lib
+	dev-racket/rfc6455
+	dev-racket/struct-defaults
+	dev-racket/turnstile-example
+	dev-racket/turnstile-lib"
 DEPEND="${RDEPEND}"

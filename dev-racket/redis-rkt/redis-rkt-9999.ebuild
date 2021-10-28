@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/redis-lib
-	dev-racket/redis-doc"
+RDEPEND="dev-racket/redis-doc
+	dev-racket/redis-lib"
 DEPEND="${RDEPEND}"

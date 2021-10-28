@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/chk-lib
-	dev-racket/contract-etc"
+RDEPEND="dev-racket/contract-etc
+	dev-racket/chk-lib"
 DEPEND="${RDEPEND}"

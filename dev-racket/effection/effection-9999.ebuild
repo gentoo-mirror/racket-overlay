@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/effection-lib
-	dev-racket/effection-doc"
+RDEPEND="dev-racket/effection-doc
+	dev-racket/effection-lib"
 DEPEND="${RDEPEND}"

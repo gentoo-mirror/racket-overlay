@@ -17,11 +17,11 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/scribble-math
-	dev-racket/predicates
-	dev-racket/version-case
-	dev-racket/hyper-literate
-	dev-racket/type-expander
+RDEPEND="dev-racket/alexis-util
 	dev-racket/reprovide-lang
-	dev-racket/alexis-util"
+	dev-racket/type-expander
+	dev-racket/hyper-literate
+	dev-racket/version-case
+	dev-racket/predicates
+	dev-racket/scribble-math"
 DEPEND="${RDEPEND}"

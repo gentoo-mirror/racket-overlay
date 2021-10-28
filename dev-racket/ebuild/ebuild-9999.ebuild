@@ -16,10 +16,10 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/ebuild-transformers
-	dev-racket/ebuild-tools
-	dev-racket/ebuild-test
-	dev-racket/ebuild-templates
+RDEPEND="dev-racket/ebuild-doc
 	dev-racket/ebuild-lib
-	dev-racket/ebuild-doc"
+	dev-racket/ebuild-templates
+	dev-racket/ebuild-test
+	dev-racket/ebuild-tools
+	dev-racket/ebuild-transformers"
 DEPEND="${RDEPEND}"

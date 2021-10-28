@@ -17,9 +17,9 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/threading-doc
-	dev-racket/threading-lib
-	dev-racket/reprovide-lang
+RDEPEND="dev-racket/find-parent-dir
 	dev-racket/markdown
-	dev-racket/find-parent-dir"
+	dev-racket/reprovide-lang
+	dev-racket/threading-lib
+	dev-racket/threading-doc"
 DEPEND="${RDEPEND}"

@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/txexpr
-	dev-racket/pollen"
+RDEPEND="dev-racket/pollen
+	dev-racket/txexpr"
 DEPEND="${RDEPEND}"

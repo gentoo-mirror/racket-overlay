@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/lathe-ordinals-lib
-	dev-racket/lathe-ordinals-doc"
+RDEPEND="dev-racket/lathe-ordinals-doc
+	dev-racket/lathe-ordinals-lib"
 DEPEND="${RDEPEND}"

@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/linea
+RDEPEND="dev-racket/kw-make-struct
 	dev-racket/quickcheck
-	dev-racket/kw-make-struct"
+	dev-racket/linea"
 DEPEND="${RDEPEND}"

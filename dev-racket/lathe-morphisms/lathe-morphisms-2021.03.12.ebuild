@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/lathe-morphisms-lib
-	dev-racket/lathe-morphisms-doc"
+RDEPEND="dev-racket/lathe-morphisms-doc
+	dev-racket/lathe-morphisms-lib"
 DEPEND="${RDEPEND}"

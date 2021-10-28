@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/mode-lambda
-	dev-racket/lux"
+RDEPEND="dev-racket/lux
+	dev-racket/mode-lambda"
 DEPEND="${RDEPEND}"

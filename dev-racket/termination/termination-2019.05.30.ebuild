@@ -18,8 +18,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/traces
-	dev-racket/unreachable
+RDEPEND="dev-racket/bnf
 	dev-racket/set-extras
-	dev-racket/bnf"
+	dev-racket/unreachable
+	dev-racket/traces"
 DEPEND="${RDEPEND}"

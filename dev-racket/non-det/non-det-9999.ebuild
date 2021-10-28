@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/text-table
-	dev-racket/chk-lib"
+RDEPEND="dev-racket/chk-lib
+	dev-racket/text-table"
 DEPEND="${RDEPEND}"

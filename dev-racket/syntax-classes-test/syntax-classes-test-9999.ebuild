@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/syntax-classes-lib
-	dev-racket/rackunit-spec"
+RDEPEND="dev-racket/rackunit-spec
+	dev-racket/syntax-classes-lib"
 DEPEND="${RDEPEND}"

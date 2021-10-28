@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/diagrama-doc
-	dev-racket/diagrama-lib"
+RDEPEND="dev-racket/diagrama-lib
+	dev-racket/diagrama-doc"
 DEPEND="${RDEPEND}"

@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/rackunit-macrotypes-lib
-	dev-racket/macrotypes-example"
+RDEPEND="dev-racket/macrotypes-example
+	dev-racket/rackunit-macrotypes-lib"
 DEPEND="${RDEPEND}"

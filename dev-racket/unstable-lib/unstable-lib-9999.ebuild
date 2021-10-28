@@ -16,12 +16,12 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/staged-slide
-	dev-racket/unstable-macro-testing-lib
-	dev-racket/temp-c-lib
-	dev-racket/ppict
+RDEPEND="dev-racket/automata-lib
 	dev-racket/markparam-lib
-	dev-racket/automata-lib"
+	dev-racket/ppict
+	dev-racket/temp-c-lib
+	dev-racket/unstable-macro-testing-lib
+	dev-racket/staged-slide"
 DEPEND="${RDEPEND}"
 
 src_unpack() {

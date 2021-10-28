@@ -15,7 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/quickcheck
+RDEPEND="dev-racket/sugar
 	dev-racket/css-tools
-	dev-racket/sugar"
+	dev-racket/quickcheck"
 DEPEND="${RDEPEND}"

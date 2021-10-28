@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/http-easy
-	dev-racket/gregor-lib"
+RDEPEND="dev-racket/gregor-lib
+	dev-racket/http-easy"
 DEPEND="${RDEPEND}"

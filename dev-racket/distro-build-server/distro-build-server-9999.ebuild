@@ -16,9 +16,9 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/remote-shell-lib
+RDEPEND="dev-racket/distro-build-client
 	dev-racket/plt-web-lib
-	dev-racket/distro-build-client"
+	dev-racket/remote-shell-lib"
 DEPEND="${RDEPEND}"
 
 src_unpack() {

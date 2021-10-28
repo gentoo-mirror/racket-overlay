@@ -16,13 +16,13 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/ragg
-	dev-racket/punctaffy-lib
-	dev-racket/parendown-lib
-	dev-racket/parendown-doc
-	dev-racket/lathe-morphisms-lib
-	dev-racket/lathe-morphisms-doc
-	dev-racket/lathe-comforts-lib
+RDEPEND="dev-racket/brag
 	dev-racket/lathe-comforts-doc
-	dev-racket/brag"
+	dev-racket/lathe-comforts-lib
+	dev-racket/lathe-morphisms-doc
+	dev-racket/lathe-morphisms-lib
+	dev-racket/parendown-doc
+	dev-racket/parendown-lib
+	dev-racket/punctaffy-lib
+	dev-racket/ragg"
 DEPEND="${RDEPEND}"

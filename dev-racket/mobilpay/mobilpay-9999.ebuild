@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/gregor-lib
-	dev-racket/crypto-lib"
+RDEPEND="dev-racket/crypto-lib
+	dev-racket/gregor-lib"
 DEPEND="${RDEPEND}"

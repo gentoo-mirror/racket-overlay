@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/remote-shell-lib
-	dev-racket/plt-web-lib"
+RDEPEND="dev-racket/plt-web-lib
+	dev-racket/remote-shell-lib"
 DEPEND="${RDEPEND}"

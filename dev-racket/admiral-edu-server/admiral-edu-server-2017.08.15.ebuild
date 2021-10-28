@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/yaml
-	dev-racket/aws"
+RDEPEND="dev-racket/aws
+	dev-racket/yaml"
 DEPEND="${RDEPEND}"

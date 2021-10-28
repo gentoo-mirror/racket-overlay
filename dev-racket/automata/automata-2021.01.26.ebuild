@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/automata-doc
-	dev-racket/automata-lib"
+RDEPEND="dev-racket/automata-lib
+	dev-racket/automata-doc"
 DEPEND="${RDEPEND}"

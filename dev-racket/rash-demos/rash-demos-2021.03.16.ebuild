@@ -18,11 +18,11 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/text-table
-	dev-racket/csv-reading
-	dev-racket/udelim
-	dev-racket/linea
-	dev-racket/shell-pipeline
+RDEPEND="dev-racket/rash
 	dev-racket/basedir
-	dev-racket/rash"
+	dev-racket/shell-pipeline
+	dev-racket/linea
+	dev-racket/udelim
+	dev-racket/csv-reading
+	dev-racket/text-table"
 DEPEND="${RDEPEND}"

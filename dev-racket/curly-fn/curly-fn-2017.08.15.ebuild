@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/curly-fn-lib
-	dev-racket/curly-fn-doc"
+RDEPEND="dev-racket/curly-fn-doc
+	dev-racket/curly-fn-lib"
 DEPEND="${RDEPEND}"

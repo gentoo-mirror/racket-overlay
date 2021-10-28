@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/lathe-morphisms-lib
-	dev-racket/lathe-morphisms-doc"
+RDEPEND="dev-racket/lathe-morphisms-doc
+	dev-racket/lathe-morphisms-lib"
 DEPEND="${RDEPEND}"

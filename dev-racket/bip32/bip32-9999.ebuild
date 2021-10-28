@@ -15,9 +15,9 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/ec
-	dev-racket/base58
-	dev-racket/crypto
+RDEPEND="dev-racket/binaryio
 	dev-racket/sha
-	dev-racket/binaryio"
+	dev-racket/crypto
+	dev-racket/base58
+	dev-racket/ec"
 DEPEND="${RDEPEND}"

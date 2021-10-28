@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/scribble-rainbow-delimiters
-	dev-racket/gregor"
+RDEPEND="dev-racket/gregor
+	dev-racket/scribble-rainbow-delimiters"
 DEPEND="${RDEPEND}"

@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/syntax-classes-lib
-	dev-racket/agile"
+RDEPEND="dev-racket/agile
+	dev-racket/syntax-classes-lib"
 DEPEND="${RDEPEND}"

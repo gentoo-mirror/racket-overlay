@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/libuuid
-	dev-racket/misc1"
+RDEPEND="dev-racket/misc1
+	dev-racket/libuuid"
 DEPEND="${RDEPEND}"

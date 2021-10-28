@@ -15,7 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/scribble-enhanced
+RDEPEND="dev-racket/phc-toolkit
 	dev-racket/hyper-literate
-	dev-racket/phc-toolkit"
+	dev-racket/scribble-enhanced"
 DEPEND="${RDEPEND}"

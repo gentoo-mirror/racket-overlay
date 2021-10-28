@@ -16,7 +16,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/graph-test
+RDEPEND="dev-racket/graph-lib
 	dev-racket/graph-doc
-	dev-racket/graph-lib"
+	dev-racket/graph-test"
 DEPEND="${RDEPEND}"

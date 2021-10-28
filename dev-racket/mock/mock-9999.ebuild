@@ -16,8 +16,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sweet-exp
-	dev-racket/reprovide-lang
+RDEPEND="dev-racket/arguments
 	dev-racket/fancy-app
-	dev-racket/arguments"
+	dev-racket/reprovide-lang
+	dev-racket/sweet-exp"
 DEPEND="${RDEPEND}"

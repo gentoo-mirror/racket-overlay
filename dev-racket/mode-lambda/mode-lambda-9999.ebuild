@@ -15,7 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/opengl
+RDEPEND="dev-racket/lux
 	dev-racket/reprovide-lang-lib
-	dev-racket/lux"
+	dev-racket/opengl"
 DEPEND="${RDEPEND}"

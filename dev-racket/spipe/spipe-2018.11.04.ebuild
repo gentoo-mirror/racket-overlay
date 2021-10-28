@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/threading
-	dev-racket/nested-hash"
+RDEPEND="dev-racket/nested-hash
+	dev-racket/threading"
 DEPEND="${RDEPEND}"

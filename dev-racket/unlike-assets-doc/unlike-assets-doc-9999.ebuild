@@ -16,7 +16,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/graph-lib
+RDEPEND="dev-racket/unlike-assets-lib
 	dev-racket/kinda-ferpy
-	dev-racket/unlike-assets-lib"
+	dev-racket/graph-lib"
 DEPEND="${RDEPEND}"

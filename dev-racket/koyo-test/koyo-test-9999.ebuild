@@ -16,8 +16,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/libargon2
-	dev-racket/koyo-lib
+RDEPEND="dev-racket/component-lib
 	dev-racket/gregor-lib
-	dev-racket/component-lib"
+	dev-racket/koyo-lib
+	dev-racket/libargon2"
 DEPEND="${RDEPEND}"

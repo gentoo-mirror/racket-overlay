@@ -17,12 +17,12 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/relation
-	dev-racket/cover-coveralls
-	dev-racket/cover
-	dev-racket/scribble-abbrevs
-	dev-racket/adjutor
-	dev-racket/typed-stack
+RDEPEND="dev-racket/mischief
 	dev-racket/fancy-app
-	dev-racket/mischief"
+	dev-racket/typed-stack
+	dev-racket/adjutor
+	dev-racket/scribble-abbrevs
+	dev-racket/cover
+	dev-racket/cover-coveralls
+	dev-racket/relation"
 DEPEND="${RDEPEND}"

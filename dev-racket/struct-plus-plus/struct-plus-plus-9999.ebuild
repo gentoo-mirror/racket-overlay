@@ -15,7 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/try-catch
+RDEPEND="dev-racket/handy
 	dev-racket/syntax-classes-lib
-	dev-racket/handy"
+	dev-racket/try-catch"
 DEPEND="${RDEPEND}"

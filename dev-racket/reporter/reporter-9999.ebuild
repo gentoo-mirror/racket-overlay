@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/c-utils
-	dev-racket/ansi-color"
+RDEPEND="dev-racket/ansi-color
+	dev-racket/c-utils"
 DEPEND="${RDEPEND}"

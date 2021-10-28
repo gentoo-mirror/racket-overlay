@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/turnstile-lib
-	dev-racket/c-utils"
+RDEPEND="dev-racket/c-utils
+	dev-racket/turnstile-lib"
 DEPEND="${RDEPEND}"

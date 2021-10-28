@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/deta-lib
-	dev-racket/deta-doc"
+RDEPEND="dev-racket/deta-doc
+	dev-racket/deta-lib"
 DEPEND="${RDEPEND}"

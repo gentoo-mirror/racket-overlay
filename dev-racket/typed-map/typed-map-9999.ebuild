@@ -16,7 +16,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/typed-map-doc
+RDEPEND="dev-racket/typed-map-lib
 	dev-racket/typed-map-test
-	dev-racket/typed-map-lib"
+	dev-racket/typed-map-doc"
 DEPEND="${RDEPEND}"

@@ -15,7 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/plai-dynamic
+RDEPEND="dev-racket/plait
 	dev-racket/brag
-	dev-racket/plait"
+	dev-racket/plai-dynamic"
 DEPEND="${RDEPEND}"

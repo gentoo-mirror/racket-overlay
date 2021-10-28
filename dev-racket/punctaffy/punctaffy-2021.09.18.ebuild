@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/punctaffy-lib
-	dev-racket/punctaffy-doc"
+RDEPEND="dev-racket/punctaffy-doc
+	dev-racket/punctaffy-lib"
 DEPEND="${RDEPEND}"

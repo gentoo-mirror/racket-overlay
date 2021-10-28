@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/mode-lambda
-	dev-racket/lux"
+RDEPEND="dev-racket/lux
+	dev-racket/mode-lambda"
 DEPEND="${RDEPEND}"

@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sketching-doc
-	dev-racket/sketching-lib"
+RDEPEND="dev-racket/sketching-lib
+	dev-racket/sketching-doc"
 DEPEND="${RDEPEND}"

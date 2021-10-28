@@ -18,7 +18,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/cur-test
+RDEPEND="dev-racket/cur-lib
 	dev-racket/cur-doc
-	dev-racket/cur-lib"
+	dev-racket/cur-test"
 DEPEND="${RDEPEND}"

@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/unstable-lib
-	dev-racket/pfds"
+RDEPEND="dev-racket/pfds
+	dev-racket/unstable-lib"
 DEPEND="${RDEPEND}"

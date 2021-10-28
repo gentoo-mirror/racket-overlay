@@ -18,7 +18,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/racketscript-doc
+RDEPEND="dev-racket/racketscript-compiler
 	dev-racket/racketscript-extras
-	dev-racket/racketscript-compiler"
+	dev-racket/racketscript-doc"
 DEPEND="${RDEPEND}"

@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sawzall-doc
-	dev-racket/sawzall-lib"
+RDEPEND="dev-racket/sawzall-lib
+	dev-racket/sawzall-doc"
 DEPEND="${RDEPEND}"

@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/rackunit-macrotypes-lib
-	dev-racket/macrotypes-example"
+RDEPEND="dev-racket/macrotypes-example
+	dev-racket/rackunit-macrotypes-lib"
 DEPEND="${RDEPEND}"

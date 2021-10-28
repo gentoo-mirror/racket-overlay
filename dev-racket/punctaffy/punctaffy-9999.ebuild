@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/punctaffy-lib
-	dev-racket/punctaffy-doc"
+RDEPEND="dev-racket/punctaffy-doc
+	dev-racket/punctaffy-lib"
 DEPEND="${RDEPEND}"

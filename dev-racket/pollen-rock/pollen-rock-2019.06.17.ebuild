@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sugar
-	dev-racket/pollen"
+RDEPEND="dev-racket/pollen
+	dev-racket/sugar"
 DEPEND="${RDEPEND}"

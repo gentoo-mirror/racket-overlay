@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/txexpr
-	dev-racket/sugar"
+RDEPEND="dev-racket/sugar
+	dev-racket/txexpr"
 DEPEND="${RDEPEND}"

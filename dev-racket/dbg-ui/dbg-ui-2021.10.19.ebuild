@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/gui-easy-lib
-	dev-racket/dbg"
+RDEPEND="dev-racket/dbg
+	dev-racket/gui-easy-lib"
 DEPEND="${RDEPEND}"

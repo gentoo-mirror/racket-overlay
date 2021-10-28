@@ -16,15 +16,15 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sha
-	dev-racket/request
-	dev-racket/basedir
-	dev-racket/predicates
-	dev-racket/pretty-format
-	dev-racket/mischief
-	dev-racket/crypto-lib
-	dev-racket/beautiful-racket
-	dev-racket/brag-lib
+RDEPEND="dev-racket/syntax-classes
 	dev-racket/br-parser-tools-lib
-	dev-racket/syntax-classes"
+	dev-racket/brag-lib
+	dev-racket/beautiful-racket
+	dev-racket/crypto-lib
+	dev-racket/mischief
+	dev-racket/pretty-format
+	dev-racket/predicates
+	dev-racket/basedir
+	dev-racket/request
+	dev-racket/sha"
 DEPEND="${RDEPEND}"

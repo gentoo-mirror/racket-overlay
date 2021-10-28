@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/scribble-rainbow-delimiters
+RDEPEND="dev-racket/gregor-lib
 	dev-racket/uuid
-	dev-racket/gregor-lib"
+	dev-racket/scribble-rainbow-delimiters"
 DEPEND="${RDEPEND}"

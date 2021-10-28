@@ -16,7 +16,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/pk
+RDEPEND="dev-racket/crypto
 	dev-racket/syrup
-	dev-racket/crypto"
+	dev-racket/pk"
 DEPEND="${RDEPEND}"

@@ -17,11 +17,11 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/brag
-	dev-racket/ejs
-	dev-racket/uri-template
-	dev-racket/json-pointer
-	dev-racket/beautiful-racket-lib
+RDEPEND="dev-racket/http
 	dev-racket/sugar
-	dev-racket/http"
+	dev-racket/beautiful-racket-lib
+	dev-racket/json-pointer
+	dev-racket/uri-template
+	dev-racket/ejs
+	dev-racket/brag"
 DEPEND="${RDEPEND}"

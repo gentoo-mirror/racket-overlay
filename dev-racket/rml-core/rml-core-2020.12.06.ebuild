@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/cover-coveralls
+RDEPEND="dev-racket/csv-reading
 	dev-racket/mcfly
-	dev-racket/csv-reading"
+	dev-racket/cover-coveralls"
 DEPEND="${RDEPEND}"

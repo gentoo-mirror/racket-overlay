@@ -15,7 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sysfs
+RDEPEND="dev-racket/misc1
 	dev-racket/rtnl
-	dev-racket/misc1"
+	dev-racket/sysfs"
 DEPEND="${RDEPEND}"

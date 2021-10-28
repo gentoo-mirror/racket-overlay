@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/w3s
-	dev-racket/digimon"
+RDEPEND="dev-racket/digimon
+	dev-racket/w3s"
 DEPEND="${RDEPEND}"

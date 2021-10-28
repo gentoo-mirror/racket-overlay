@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/http
-	dev-racket/aws"
+RDEPEND="dev-racket/aws
+	dev-racket/http"
 DEPEND="${RDEPEND}"

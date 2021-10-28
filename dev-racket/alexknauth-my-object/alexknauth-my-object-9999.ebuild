@@ -15,9 +15,9 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/heresy
-	dev-racket/unstable-lib
-	dev-racket/kw-utils
+RDEPEND="dev-racket/lens
 	dev-racket/hash-lambda
-	dev-racket/lens"
+	dev-racket/kw-utils
+	dev-racket/unstable-lib
+	dev-racket/heresy"
 DEPEND="${RDEPEND}"

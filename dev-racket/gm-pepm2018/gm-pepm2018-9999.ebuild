@@ -16,8 +16,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/rackunit-abbrevs
-	dev-racket/with-cache
+RDEPEND="dev-racket/html-parsing
 	dev-racket/sxml
-	dev-racket/html-parsing"
+	dev-racket/with-cache
+	dev-racket/rackunit-abbrevs"
 DEPEND="${RDEPEND}"

@@ -18,8 +18,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/text-table
-	dev-racket/global
+RDEPEND="dev-racket/bazaar
 	dev-racket/define2
-	dev-racket/bazaar"
+	dev-racket/global
+	dev-racket/text-table"
 DEPEND="${RDEPEND}"

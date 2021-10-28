@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/gregor-lib
-	dev-racket/binaryio"
+RDEPEND="dev-racket/binaryio
+	dev-racket/gregor-lib"
 DEPEND="${RDEPEND}"

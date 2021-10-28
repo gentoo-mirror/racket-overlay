@@ -18,7 +18,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/cover-coveralls
+RDEPEND="dev-racket/alexis-util
 	dev-racket/cover
-	dev-racket/alexis-util"
+	dev-racket/cover-coveralls"
 DEPEND="${RDEPEND}"

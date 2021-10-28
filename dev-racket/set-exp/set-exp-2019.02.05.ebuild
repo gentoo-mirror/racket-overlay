@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/cover
-	dev-racket/doc-coverage"
+RDEPEND="dev-racket/doc-coverage
+	dev-racket/cover"
 DEPEND="${RDEPEND}"

@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/collections-doc
+RDEPEND="dev-racket/agile
 	dev-racket/collections-lib
-	dev-racket/agile"
+	dev-racket/collections-doc"
 DEPEND="${RDEPEND}"

@@ -16,7 +16,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/static-rename-lib
+RDEPEND="dev-racket/collections-lib
 	dev-racket/curly-fn-lib
-	dev-racket/collections-lib"
+	dev-racket/static-rename-lib"
 DEPEND="${RDEPEND}"

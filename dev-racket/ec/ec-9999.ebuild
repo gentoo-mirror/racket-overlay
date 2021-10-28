@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/crypto-lib
-	dev-racket/binaryio"
+RDEPEND="dev-racket/binaryio
+	dev-racket/crypto-lib"
 DEPEND="${RDEPEND}"

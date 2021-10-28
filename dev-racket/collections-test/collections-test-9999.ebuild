@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/match-plus
-	dev-racket/collections-lib"
+RDEPEND="dev-racket/collections-lib
+	dev-racket/match-plus"
 DEPEND="${RDEPEND}"

@@ -16,8 +16,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/curly-fn
-	dev-racket/megaparsack-parser-tools
+RDEPEND="dev-racket/functional-lib
 	dev-racket/megaparsack-lib
-	dev-racket/functional-lib"
+	dev-racket/megaparsack-parser-tools
+	dev-racket/curly-fn"
 DEPEND="${RDEPEND}"

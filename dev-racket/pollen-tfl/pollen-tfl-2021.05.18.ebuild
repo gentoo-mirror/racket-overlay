@@ -17,9 +17,9 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sugar
-	dev-racket/txexpr
-	dev-racket/css-tools
+RDEPEND="dev-racket/pollen
 	dev-racket/hyphenate
-	dev-racket/pollen"
+	dev-racket/css-tools
+	dev-racket/txexpr
+	dev-racket/sugar"
 DEPEND="${RDEPEND}"

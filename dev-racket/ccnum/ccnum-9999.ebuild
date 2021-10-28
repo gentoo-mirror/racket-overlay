@@ -16,8 +16,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/overeasy
-	dev-racket/mcfly"
+RDEPEND="dev-racket/mcfly
+	dev-racket/overeasy"
 DEPEND="${RDEPEND}"
 
 src_unpack() {

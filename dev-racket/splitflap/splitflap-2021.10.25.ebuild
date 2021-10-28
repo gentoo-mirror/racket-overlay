@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/splitflap-lib
-	dev-racket/splitflap-doc"
+RDEPEND="dev-racket/splitflap-doc
+	dev-racket/splitflap-lib"
 DEPEND="${RDEPEND}"

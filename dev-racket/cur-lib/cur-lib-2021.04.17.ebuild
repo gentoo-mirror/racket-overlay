@@ -18,7 +18,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/reprovide-lang-lib
+RDEPEND="dev-racket/turnstile-lib
 	dev-racket/macrotypes-lib
-	dev-racket/turnstile-lib"
+	dev-racket/reprovide-lang-lib"
 DEPEND="${RDEPEND}"

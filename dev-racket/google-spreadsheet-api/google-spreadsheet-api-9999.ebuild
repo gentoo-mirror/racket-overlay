@@ -15,7 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/scribble-code-examples
+RDEPEND="dev-racket/crypto
 	dev-racket/net-jwt
-	dev-racket/crypto"
+	dev-racket/scribble-code-examples"
 DEPEND="${RDEPEND}"

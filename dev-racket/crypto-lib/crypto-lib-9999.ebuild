@@ -16,8 +16,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/gmp-lib
-	dev-racket/binaryio-lib
+RDEPEND="dev-racket/asn1-lib
 	dev-racket/base64-lib
-	dev-racket/asn1-lib"
+	dev-racket/binaryio-lib
+	dev-racket/gmp-lib"
 DEPEND="${RDEPEND}"

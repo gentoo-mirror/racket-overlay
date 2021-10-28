@@ -17,6 +17,5 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/job-queue-lib
-	dev-racket/web-server-test"
+RDEPEND="dev-racket/job-queue-lib"
 DEPEND="${RDEPEND}"

@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/http
-	dev-racket/aws"
+RDEPEND="dev-racket/aws
+	dev-racket/http"
 DEPEND="${RDEPEND}"

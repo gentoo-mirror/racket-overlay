@@ -17,8 +17,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/rebellion
-	dev-racket/point-free
+RDEPEND="dev-racket/chess
 	dev-racket/fancy-app
-	dev-racket/chess"
+	dev-racket/point-free
+	dev-racket/rebellion"
 DEPEND="${RDEPEND}"

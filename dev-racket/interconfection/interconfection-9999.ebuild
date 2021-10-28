@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/interconfection-lib
-	dev-racket/interconfection-doc"
+RDEPEND="dev-racket/interconfection-doc
+	dev-racket/interconfection-lib"
 DEPEND="${RDEPEND}"

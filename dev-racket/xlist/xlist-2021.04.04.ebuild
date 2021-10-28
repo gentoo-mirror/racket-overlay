@@ -17,12 +17,12 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/scribble-math
-	dev-racket/match-string
-	dev-racket/reprovide-lang
-	dev-racket/phc-toolkit
-	dev-racket/type-expander
-	dev-racket/multi-id
+RDEPEND="dev-racket/mutable-match-lambda
 	dev-racket/scribble-enhanced
-	dev-racket/mutable-match-lambda"
+	dev-racket/multi-id
+	dev-racket/type-expander
+	dev-racket/phc-toolkit
+	dev-racket/reprovide-lang
+	dev-racket/match-string
+	dev-racket/scribble-math"
 DEPEND="${RDEPEND}"

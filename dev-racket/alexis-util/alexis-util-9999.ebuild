@@ -16,7 +16,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/threading
+RDEPEND="dev-racket/match-plus
 	dev-racket/static-rename
-	dev-racket/match-plus"
+	dev-racket/threading"
 DEPEND="${RDEPEND}"

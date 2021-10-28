@@ -15,7 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/north
+RDEPEND="dev-racket/component-lib
 	dev-racket/koyo-lib
-	dev-racket/component-lib"
+	dev-racket/north"
 DEPEND="${RDEPEND}"

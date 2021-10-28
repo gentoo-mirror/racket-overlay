@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/gregor-doc
-	dev-racket/gregor-lib"
+RDEPEND="dev-racket/gregor-lib
+	dev-racket/gregor-doc"
 DEPEND="${RDEPEND}"

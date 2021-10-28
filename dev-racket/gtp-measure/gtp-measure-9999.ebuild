@@ -15,8 +15,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/require-typed-check
-	dev-racket/lang-file
+RDEPEND="dev-racket/basedir
 	dev-racket/gtp-util
-	dev-racket/basedir"
+	dev-racket/lang-file
+	dev-racket/require-typed-check"
 DEPEND="${RDEPEND}"

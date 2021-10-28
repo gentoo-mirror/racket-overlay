@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/scribble-enhanced
+RDEPEND="dev-racket/pretty-format
 	dev-racket/reprovide-lang
-	dev-racket/pretty-format"
+	dev-racket/scribble-enhanced"
 DEPEND="${RDEPEND}"

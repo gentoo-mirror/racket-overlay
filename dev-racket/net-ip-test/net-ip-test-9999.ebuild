@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/quickcheck
-	dev-racket/net-ip-lib"
+RDEPEND="dev-racket/net-ip-lib
+	dev-racket/quickcheck"
 DEPEND="${RDEPEND}"

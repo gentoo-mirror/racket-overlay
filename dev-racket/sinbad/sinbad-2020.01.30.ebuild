@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sxml
-	dev-racket/csv-reading"
+RDEPEND="dev-racket/csv-reading
+	dev-racket/sxml"
 DEPEND="${RDEPEND}"

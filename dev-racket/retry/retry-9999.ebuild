@@ -15,11 +15,11 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/mock-rackunit
-	dev-racket/gregor-doc
-	dev-racket/mock
-	dev-racket/reprovide-lang
-	dev-racket/gregor-lib
+RDEPEND="dev-racket/compose-app
 	dev-racket/fancy-app
-	dev-racket/compose-app"
+	dev-racket/gregor-lib
+	dev-racket/reprovide-lang
+	dev-racket/mock
+	dev-racket/gregor-doc
+	dev-racket/mock-rackunit"
 DEPEND="${RDEPEND}"

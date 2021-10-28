@@ -17,8 +17,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/doc-coverage
-	dev-racket/disposable
+RDEPEND="dev-racket/reprovide-lang
 	dev-racket/fancy-app
-	dev-racket/reprovide-lang"
+	dev-racket/disposable
+	dev-racket/doc-coverage"
 DEPEND="${RDEPEND}"

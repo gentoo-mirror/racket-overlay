@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/uri
+RDEPEND="dev-racket/http11
 	dev-racket/string-util
-	dev-racket/http11"
+	dev-racket/uri"
 DEPEND="${RDEPEND}"

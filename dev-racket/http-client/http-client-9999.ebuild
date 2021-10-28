@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/scribble-rainbow-delimiters
-	dev-racket/html-parsing"
+RDEPEND="dev-racket/html-parsing
+	dev-racket/scribble-rainbow-delimiters"
 DEPEND="${RDEPEND}"

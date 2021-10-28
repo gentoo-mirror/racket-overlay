@@ -17,14 +17,14 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/rackjure
-	dev-racket/_-exp
-	dev-racket/markdown
-	dev-racket/gregor-lib
-	dev-racket/sql
-	dev-racket/reprovide-lang
-	dev-racket/python-tokenizer
-	dev-racket/adjutor
+RDEPEND="dev-racket/ricoeur-kernel
 	dev-racket/ricoeur-tei-utils
-	dev-racket/ricoeur-kernel"
+	dev-racket/adjutor
+	dev-racket/python-tokenizer
+	dev-racket/reprovide-lang
+	dev-racket/sql
+	dev-racket/gregor-lib
+	dev-racket/markdown
+	dev-racket/_-exp
+	dev-racket/rackjure"
 DEPEND="${RDEPEND}"

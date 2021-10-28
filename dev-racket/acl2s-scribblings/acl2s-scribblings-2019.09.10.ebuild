@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/syntax-class-or
-	dev-racket/syntax-classes-lib"
+RDEPEND="dev-racket/syntax-classes-lib
+	dev-racket/syntax-class-or"
 DEPEND="${RDEPEND}"

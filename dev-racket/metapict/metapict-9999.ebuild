@@ -15,9 +15,9 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/racket-poppler
-	dev-racket/unstable-parameter-group-lib
-	dev-racket/unstable-latent-contract-lib
+RDEPEND="dev-racket/ppict
 	dev-racket/graph-lib
-	dev-racket/ppict"
+	dev-racket/unstable-latent-contract-lib
+	dev-racket/unstable-parameter-group-lib
+	dev-racket/racket-poppler"
 DEPEND="${RDEPEND}"

@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/rfc6455
-	dev-racket/glm"
+RDEPEND="dev-racket/glm
+	dev-racket/rfc6455"
 DEPEND="${RDEPEND}"

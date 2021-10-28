@@ -15,13 +15,13 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/misc1
-	dev-racket/json-pointer
-	dev-racket/dotenv
-	dev-racket/argo
-	dev-racket/http
-	dev-racket/beautiful-racket-lib
-	dev-racket/net-cookies-lib
+RDEPEND="dev-racket/br-parser-tools-lib
 	dev-racket/brag-lib
-	dev-racket/br-parser-tools-lib"
+	dev-racket/net-cookies-lib
+	dev-racket/beautiful-racket-lib
+	dev-racket/http
+	dev-racket/argo
+	dev-racket/dotenv
+	dev-racket/json-pointer
+	dev-racket/misc1"
 DEPEND="${RDEPEND}"

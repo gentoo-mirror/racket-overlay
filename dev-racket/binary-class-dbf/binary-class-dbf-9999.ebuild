@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/fast-convert
-	dev-racket/binary-class"
+RDEPEND="dev-racket/binary-class
+	dev-racket/fast-convert"
 DEPEND="${RDEPEND}"

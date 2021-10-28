@@ -17,9 +17,9 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/with-cache
-	dev-racket/syntax-sloc
-	dev-racket/scribble-abbrevs
+RDEPEND="dev-racket/require-typed-check
 	dev-racket/gtp-util
-	dev-racket/require-typed-check"
+	dev-racket/scribble-abbrevs
+	dev-racket/syntax-sloc
+	dev-racket/with-cache"
 DEPEND="${RDEPEND}"

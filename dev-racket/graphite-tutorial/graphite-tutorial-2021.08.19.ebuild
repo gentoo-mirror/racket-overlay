@@ -18,11 +18,11 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/threading-lib
-	dev-racket/threading-doc
-	dev-racket/sawzall-lib
-	dev-racket/sawzall-doc
-	dev-racket/graphite-lib
+RDEPEND="dev-racket/data-frame
 	dev-racket/graphite-doc
-	dev-racket/data-frame"
+	dev-racket/graphite-lib
+	dev-racket/sawzall-doc
+	dev-racket/sawzall-lib
+	dev-racket/threading-doc
+	dev-racket/threading-lib"
 DEPEND="${RDEPEND}"

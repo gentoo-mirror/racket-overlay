@@ -17,14 +17,14 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/words
-	dev-racket/debug
-	dev-racket/markdown
-	dev-racket/txexpr
-	dev-racket/sugar
-	dev-racket/pollen
-	dev-racket/pitfall
-	dev-racket/hyphenate
+RDEPEND="dev-racket/beautiful-racket-lib
 	dev-racket/fontland
-	dev-racket/beautiful-racket-lib"
+	dev-racket/hyphenate
+	dev-racket/pitfall
+	dev-racket/pollen
+	dev-racket/sugar
+	dev-racket/txexpr
+	dev-racket/markdown
+	dev-racket/debug
+	dev-racket/words"
 DEPEND="${RDEPEND}"

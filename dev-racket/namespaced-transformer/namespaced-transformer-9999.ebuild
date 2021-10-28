@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/namespaced-transformer-lib
-	dev-racket/namespaced-transformer-doc"
+RDEPEND="dev-racket/namespaced-transformer-doc
+	dev-racket/namespaced-transformer-lib"
 DEPEND="${RDEPEND}"

@@ -18,7 +18,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/html-parsing
+RDEPEND="dev-racket/sxml
 	dev-racket/gregor
-	dev-racket/sxml"
+	dev-racket/html-parsing"
 DEPEND="${RDEPEND}"

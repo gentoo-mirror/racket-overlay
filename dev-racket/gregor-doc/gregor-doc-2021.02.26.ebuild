@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/tzinfo
-	dev-racket/gregor-lib"
+RDEPEND="dev-racket/gregor-lib
+	dev-racket/tzinfo"
 DEPEND="${RDEPEND}"

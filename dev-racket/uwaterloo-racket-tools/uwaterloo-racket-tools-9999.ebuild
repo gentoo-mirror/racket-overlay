@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/graphic-block
-	dev-racket/htdp-trace"
+RDEPEND="dev-racket/htdp-trace
+	dev-racket/graphic-block"
 DEPEND="${RDEPEND}"

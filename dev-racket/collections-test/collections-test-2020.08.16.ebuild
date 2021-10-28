@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/match-plus
-	dev-racket/collections-lib"
+RDEPEND="dev-racket/collections-lib
+	dev-racket/match-plus"
 DEPEND="${RDEPEND}"

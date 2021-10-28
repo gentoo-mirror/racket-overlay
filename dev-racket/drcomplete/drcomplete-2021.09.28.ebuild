@@ -18,9 +18,9 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/drcomplete-auto
-	dev-racket/drcomplete-module
-	dev-racket/drcomplete-user-defined
+RDEPEND="dev-racket/drcomplete-filename
 	dev-racket/drcomplete-required
-	dev-racket/drcomplete-filename"
+	dev-racket/drcomplete-user-defined
+	dev-racket/drcomplete-module
+	dev-racket/drcomplete-auto"
 DEPEND="${RDEPEND}"

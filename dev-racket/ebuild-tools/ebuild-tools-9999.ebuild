@@ -16,8 +16,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/ebuild-transformers
-	dev-racket/ebuild-templates
+RDEPEND="dev-racket/upi-lib
 	dev-racket/ebuild-lib
-	dev-racket/dirname"
+	dev-racket/ebuild-templates
+	dev-racket/ebuild-transformers"
 DEPEND="${RDEPEND}"

@@ -17,8 +17,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/seq-no-order
-	dev-racket/alexis-util
+RDEPEND="dev-racket/phc-toolkit
 	dev-racket/generic-syntax-expanders
-	dev-racket/phc-toolkit"
+	dev-racket/alexis-util
+	dev-racket/seq-no-order"
 DEPEND="${RDEPEND}"

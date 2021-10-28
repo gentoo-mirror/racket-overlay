@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/crypto-lib
-	dev-racket/brag"
+RDEPEND="dev-racket/brag
+	dev-racket/crypto-lib"
 DEPEND="${RDEPEND}"

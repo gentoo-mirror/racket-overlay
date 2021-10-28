@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/diff-merge
+RDEPEND="dev-racket/ansi
 	dev-racket/unix-signals
-	dev-racket/ansi"
+	dev-racket/diff-merge"
 DEPEND="${RDEPEND}"

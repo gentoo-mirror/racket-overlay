@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/redis-lib
-	dev-racket/redis-doc"
+RDEPEND="dev-racket/redis-doc
+	dev-racket/redis-lib"
 DEPEND="${RDEPEND}"

@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/quickcheck
-	dev-racket/net-ip-lib"
+RDEPEND="dev-racket/net-ip-lib
+	dev-racket/quickcheck"
 DEPEND="${RDEPEND}"

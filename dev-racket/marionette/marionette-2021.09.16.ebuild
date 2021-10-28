@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/marionette-lib
-	dev-racket/marionette-doc"
+RDEPEND="dev-racket/marionette-doc
+	dev-racket/marionette-lib"
 DEPEND="${RDEPEND}"

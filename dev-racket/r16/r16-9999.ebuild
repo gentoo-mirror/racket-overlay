@@ -15,7 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/threading-doc
+RDEPEND="dev-racket/racket-cord
 	dev-racket/threading-lib
-	dev-racket/racket-cord"
+	dev-racket/threading-doc"
 DEPEND="${RDEPEND}"

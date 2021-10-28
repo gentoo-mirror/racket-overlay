@@ -15,8 +15,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/reprovide-lang
-	dev-racket/lux
+RDEPEND="dev-racket/anaphoric
 	dev-racket/mode-lambda
-	dev-racket/anaphoric"
+	dev-racket/lux
+	dev-racket/reprovide-lang"
 DEPEND="${RDEPEND}"

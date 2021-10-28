@@ -18,7 +18,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/match-plus
+RDEPEND="dev-racket/curly-fn-lib
 	dev-racket/functional-lib
-	dev-racket/curly-fn-lib"
+	dev-racket/match-plus"
 DEPEND="${RDEPEND}"

@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/namespaced-transformer-lib
-	dev-racket/namespaced-transformer-doc"
+RDEPEND="dev-racket/namespaced-transformer-doc
+	dev-racket/namespaced-transformer-lib"
 DEPEND="${RDEPEND}"

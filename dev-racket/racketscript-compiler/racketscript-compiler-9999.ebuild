@@ -16,7 +16,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/anaphoric
+RDEPEND="dev-racket/threading
 	dev-racket/graph-lib
-	dev-racket/threading"
+	dev-racket/anaphoric"
 DEPEND="${RDEPEND}"

@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/cairo-test
-	dev-racket/cairo-lib"
+RDEPEND="dev-racket/cairo-lib
+	dev-racket/cairo-test"
 DEPEND="${RDEPEND}"

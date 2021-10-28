@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/collections
-	dev-racket/alexis-util"
+RDEPEND="dev-racket/alexis-util
+	dev-racket/collections"
 DEPEND="${RDEPEND}"

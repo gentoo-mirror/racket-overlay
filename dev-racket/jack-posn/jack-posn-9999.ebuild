@@ -15,8 +15,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/doc-coverage
-	dev-racket/cover
+RDEPEND="dev-racket/sweet-exp
 	dev-racket/fancy-app
-	dev-racket/sweet-exp"
+	dev-racket/cover
+	dev-racket/doc-coverage"
 DEPEND="${RDEPEND}"

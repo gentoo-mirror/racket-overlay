@@ -18,8 +18,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/parendown-lib
-	dev-racket/lathe-comforts-lib
+RDEPEND="dev-racket/interconfection-lib
 	dev-racket/lathe-comforts-doc
-	dev-racket/interconfection-lib"
+	dev-racket/lathe-comforts-lib
+	dev-racket/parendown-lib"
 DEPEND="${RDEPEND}"

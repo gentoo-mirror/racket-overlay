@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sasl-doc
-	dev-racket/sasl-lib"
+RDEPEND="dev-racket/sasl-lib
+	dev-racket/sasl-doc"
 DEPEND="${RDEPEND}"

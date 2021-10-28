@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/natural-cli
+RDEPEND="dev-racket/txexpr
 	dev-racket/graph-lib
-	dev-racket/txexpr"
+	dev-racket/natural-cli"
 DEPEND="${RDEPEND}"

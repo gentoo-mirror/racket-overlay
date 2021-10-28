@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/redex-abbrevs-doc
-	dev-racket/redex-abbrevs-lib"
+RDEPEND="dev-racket/redex-abbrevs-lib
+	dev-racket/redex-abbrevs-doc"
 DEPEND="${RDEPEND}"

@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/hygienic-reader-extension
-	dev-racket/sweet-exp"
+RDEPEND="dev-racket/sweet-exp
+	dev-racket/hygienic-reader-extension"
 DEPEND="${RDEPEND}"

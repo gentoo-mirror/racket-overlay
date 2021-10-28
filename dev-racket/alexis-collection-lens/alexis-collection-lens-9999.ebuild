@@ -15,10 +15,10 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/doc-coverage
-	dev-racket/cover-coveralls
-	dev-racket/cover
-	dev-racket/lens
+RDEPEND="dev-racket/alexis-collections
 	dev-racket/curly-fn
-	dev-racket/alexis-collections"
+	dev-racket/lens
+	dev-racket/cover
+	dev-racket/cover-coveralls
+	dev-racket/doc-coverage"
 DEPEND="${RDEPEND}"

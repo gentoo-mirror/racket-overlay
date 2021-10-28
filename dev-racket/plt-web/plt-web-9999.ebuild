@@ -16,8 +16,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/plt-web-doc
-	dev-racket/plt-web-lib"
+RDEPEND="dev-racket/plt-web-lib
+	dev-racket/plt-web-doc"
 DEPEND="${RDEPEND}"
 
 src_unpack() {

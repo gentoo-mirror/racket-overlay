@@ -18,8 +18,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/turnstile-test
-	dev-racket/turnstile-doc
+RDEPEND="dev-racket/turnstile-lib
 	dev-racket/turnstile-example
-	dev-racket/turnstile-lib"
+	dev-racket/turnstile-doc
+	dev-racket/turnstile-test"
 DEPEND="${RDEPEND}"

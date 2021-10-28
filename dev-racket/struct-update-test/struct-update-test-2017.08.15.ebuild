@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/struct-update-lib
-	dev-racket/rackunit-spec"
+RDEPEND="dev-racket/rackunit-spec
+	dev-racket/struct-update-lib"
 DEPEND="${RDEPEND}"

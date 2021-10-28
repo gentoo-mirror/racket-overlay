@@ -15,10 +15,10 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/xenomorph
-	dev-racket/sugar
-	dev-racket/png-image
-	dev-racket/debug
+RDEPEND="dev-racket/crc32c
 	dev-racket/beautiful-racket-lib
-	dev-racket/crc32c"
+	dev-racket/debug
+	dev-racket/png-image
+	dev-racket/sugar
+	dev-racket/xenomorph"
 DEPEND="${RDEPEND}"

@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/doc-coverage
-	dev-racket/morsel-lib"
+RDEPEND="dev-racket/morsel-lib
+	dev-racket/doc-coverage"
 DEPEND="${RDEPEND}"

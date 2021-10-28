@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/find-parent-dir
+RDEPEND="dev-racket/sxml
 	dev-racket/frog
-	dev-racket/sxml"
+	dev-racket/find-parent-dir"
 DEPEND="${RDEPEND}"

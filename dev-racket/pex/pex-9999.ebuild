@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/libserialport
-	dev-racket/mordae"
+RDEPEND="dev-racket/mordae
+	dev-racket/libserialport"
 DEPEND="${RDEPEND}"

@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/unstable-lib
+RDEPEND="dev-racket/xexpr-path
 	dev-racket/misc1
-	dev-racket/xexpr-path"
+	dev-racket/unstable-lib"
 DEPEND="${RDEPEND}"

@@ -16,10 +16,10 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/rackunit-abbrevs
-	dev-racket/sxml
-	dev-racket/reprovide-lang
-	dev-racket/levenshtein
+RDEPEND="dev-racket/basedir
 	dev-racket/html-parsing
-	dev-racket/basedir"
+	dev-racket/levenshtein
+	dev-racket/reprovide-lang
+	dev-racket/sxml
+	dev-racket/rackunit-abbrevs"
 DEPEND="${RDEPEND}"

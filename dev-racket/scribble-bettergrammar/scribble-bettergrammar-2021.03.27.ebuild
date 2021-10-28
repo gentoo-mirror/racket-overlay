@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/scribble-bettergrammar-doc
-	dev-racket/scribble-bettergrammar-lib"
+RDEPEND="dev-racket/scribble-bettergrammar-lib
+	dev-racket/scribble-bettergrammar-doc"
 DEPEND="${RDEPEND}"

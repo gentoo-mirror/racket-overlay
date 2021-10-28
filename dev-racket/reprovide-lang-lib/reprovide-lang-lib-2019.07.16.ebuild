@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/syntax-macro-lang
-	dev-racket/lang-file-lib"
+RDEPEND="dev-racket/lang-file-lib
+	dev-racket/syntax-macro-lang"
 DEPEND="${RDEPEND}"

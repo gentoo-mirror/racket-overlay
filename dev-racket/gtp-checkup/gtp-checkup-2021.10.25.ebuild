@@ -17,10 +17,10 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/pict-abbrevs
-	dev-racket/require-typed-check
-	dev-racket/memoize
-	dev-racket/gtp-util
+RDEPEND="dev-racket/basedir
 	dev-racket/gregor
-	dev-racket/basedir"
+	dev-racket/gtp-util
+	dev-racket/memoize
+	dev-racket/require-typed-check
+	dev-racket/pict-abbrevs"
 DEPEND="${RDEPEND}"

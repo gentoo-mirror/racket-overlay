@@ -15,7 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/linea
+RDEPEND="dev-racket/kw-make-struct
 	dev-racket/quickcheck
-	dev-racket/kw-make-struct"
+	dev-racket/linea"
 DEPEND="${RDEPEND}"

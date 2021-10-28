@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/web-galaxy-doc
-	dev-racket/web-galaxy-lib"
+RDEPEND="dev-racket/web-galaxy-lib
+	dev-racket/web-galaxy-doc"
 DEPEND="${RDEPEND}"

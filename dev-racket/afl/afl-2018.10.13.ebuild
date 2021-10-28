@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/scribble-code-examples
+RDEPEND="dev-racket/hygienic-reader-extension
 	dev-racket/rackjure
-	dev-racket/hygienic-reader-extension"
+	dev-racket/scribble-code-examples"
 DEPEND="${RDEPEND}"

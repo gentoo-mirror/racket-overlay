@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/mutable-match-lambda
-	dev-racket/reprovide-lang"
+RDEPEND="dev-racket/reprovide-lang
+	dev-racket/mutable-match-lambda"
 DEPEND="${RDEPEND}"

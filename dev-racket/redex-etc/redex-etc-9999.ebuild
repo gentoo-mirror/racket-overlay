@@ -15,8 +15,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/chk-lib
-	dev-racket/private-in
+RDEPEND="dev-racket/latex-utils
 	dev-racket/unstable-redex
-	dev-racket/latex-utils"
+	dev-racket/private-in
+	dev-racket/chk-lib"
 DEPEND="${RDEPEND}"

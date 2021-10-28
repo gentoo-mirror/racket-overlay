@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/c-utils
-	dev-racket/ansi-color"
+RDEPEND="dev-racket/ansi-color
+	dev-racket/c-utils"
 DEPEND="${RDEPEND}"

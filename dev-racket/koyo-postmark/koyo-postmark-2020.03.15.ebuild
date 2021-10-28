@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/koyo-doc
+RDEPEND="dev-racket/koyo-lib
 	dev-racket/postmark-client
-	dev-racket/koyo-lib"
+	dev-racket/koyo-doc"
 DEPEND="${RDEPEND}"

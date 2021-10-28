@@ -16,8 +16,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/unstable-flonum-lib
-	dev-racket/unstable"
+RDEPEND="dev-racket/unstable
+	dev-racket/unstable-flonum-lib"
 DEPEND="${RDEPEND}"
 
 src_unpack() {

@@ -18,7 +18,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/brag
+RDEPEND="dev-racket/sugar
 	dev-racket/beautiful-racket-lib
-	dev-racket/sugar"
+	dev-racket/brag"
 DEPEND="${RDEPEND}"

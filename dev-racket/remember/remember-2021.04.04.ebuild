@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/scribble-enhanced
+RDEPEND="dev-racket/phc-toolkit
 	dev-racket/hyper-literate
-	dev-racket/phc-toolkit"
+	dev-racket/scribble-enhanced"
 DEPEND="${RDEPEND}"

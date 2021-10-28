@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/rosette
+RDEPEND="dev-racket/mischief
 	dev-racket/quickcheck
-	dev-racket/mischief"
+	dev-racket/rosette"
 DEPEND="${RDEPEND}"

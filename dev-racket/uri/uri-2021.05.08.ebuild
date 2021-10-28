@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/opt
-	dev-racket/string-util"
+RDEPEND="dev-racket/string-util
+	dev-racket/opt"
 DEPEND="${RDEPEND}"

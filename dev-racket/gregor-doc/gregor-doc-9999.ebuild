@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/tzinfo
-	dev-racket/gregor-lib"
+RDEPEND="dev-racket/gregor-lib
+	dev-racket/tzinfo"
 DEPEND="${RDEPEND}"

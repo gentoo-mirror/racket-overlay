@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/chk-lib dev-racket/private-in dev-racket/latex-utils >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/chk-lib dev-racket/private-in dev-racket/unstable-redex dev-racket/latex-utils >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Miscellanea for Redex.
 EAPI=8
 HOMEPAGE=https://github.com/camoy/redex-etc
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/chk-lib dev-racket/private-in dev-racket/latex-utils >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/chk-lib dev-racket/private-in dev-racket/unstable-redex dev-racket/latex-utils >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/camoy/redex-etc/archive/ee18a8030f9d3358004fd89e7c3b34fdc1d64145.tar.gz -> redex-etc-2021.10.05.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=c70aacd73e89f24ad30861003a1713df
+_md5_=5f43c85f69f5de8b47df093d5bff7e5e

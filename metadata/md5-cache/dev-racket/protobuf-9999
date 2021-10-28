@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test unpack
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Protocol Buffer serialization library and ProtoC code generator plugin
+EAPI=8
+HOMEPAGE=https://chust.org/repos/racket-protobuf/uv/protobuf-1.1.3.zip
+INHERIT=racket
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+PROPERTIES=live
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c
+_md5_=db7b53bad36e45029918e0b00aa8e518

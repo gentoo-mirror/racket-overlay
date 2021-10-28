@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/binary-class >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Utilities for manipulating machine code object files
 EAPI=8
 HOMEPAGE=https://github.com/lwhjp/racket-binutils
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/binary-class >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lwhjp/racket-binutils/archive/a72ef077e2d00ec776f12c0e497c6517f66dfe16.tar.gz -> binutils-2021.02.28.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=9ab3df250aeda576a6789cded9581c9b
+_md5_=44c301ca0d7beadeeb8800a0e58c6a73

@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/nested-hash >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/thread-utils dev-racket/nested-hash dev-racket/finalizer >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Memoization with finalizers and cleanup
 EAPI=8
 HOMEPAGE=https://github.com/BourgondAries/memo
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/nested-hash >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/thread-utils dev-racket/nested-hash dev-racket/finalizer >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/BourgondAries/memo/archive/3ecfa4ad20c38ce97fedaed848d08348e92c56d3.tar.gz -> memo-2018.11.24.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=9809a645d29de8ac02d69bd3de120694
+_md5_=a8ab2d5b9d70ef3d82db330293564bfe

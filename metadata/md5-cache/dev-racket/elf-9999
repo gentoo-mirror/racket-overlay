@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test unpack
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Unix executable and linking format read/writing
+EAPI=8
+HOMEPAGE=http://code_man.cybnet.ch/racket/
+INHERIT=racket
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+PROPERTIES=live
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c
+_md5_=eadf5a166982c2d827488e8bc84d9f09

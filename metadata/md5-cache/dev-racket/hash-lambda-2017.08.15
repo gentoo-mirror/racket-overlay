@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/mutable-match-lambda dev-racket/kw-utils >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/mutable-match-lambda dev-racket/kw-utils dev-racket/unstable-list-lib dev-racket/unstable-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=using hash-tables for rest-arguments that include keyword-arguments
 EAPI=8
 HOMEPAGE=https://github.com/AlexKnauth/hash-lambda
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/mutable-match-lambda dev-racket/kw-utils >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/mutable-match-lambda dev-racket/kw-utils dev-racket/unstable-list-lib dev-racket/unstable-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/hash-lambda/archive/d65df820d1c16e4d2f8c6e1519f3a0ec838387c8.tar.gz -> hash-lambda-2017.08.15.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=a0793f789da12bbef2c414c1a6626fec
+_md5_=f4e62e0a6516c3aee4c22d5a8b948dac

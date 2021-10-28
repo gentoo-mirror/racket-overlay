@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test unpack
+DEPEND=dev-racket/plait >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=SAU CPTR-405 W20 handin plugin for DrRacket
+EAPI=8
+HOMEPAGE=http://computing.southern.edu/rordonez/class/CPTR-405/
+INHERIT=racket
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+PROPERTIES=live
+RDEPEND=dev-racket/plait >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c
+_md5_=bc2e605eb9c018b193290290bdc9b2d2

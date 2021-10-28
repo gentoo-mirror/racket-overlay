@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/txexpr dev-racket/sxml >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/txexpr dev-racket/sxml dev-racket/html-parsing >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Light helper for web scrapers. Caches and parses downloaded files.
 EAPI=8
 HOMEPAGE=https://github.com/lassik/racket-scrapyard
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/txexpr dev-racket/sxml >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/txexpr dev-racket/sxml dev-racket/html-parsing >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lassik/racket-scrapyard/archive/23b49c3562f3b8fea01886a219230fe37e2abf2d.tar.gz -> scrapyard-2019.05.10.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=79ef3d1bd096f3b4e362a31d40fcf13a
+_md5_=16232c12059319a1f1e01c4072914d35

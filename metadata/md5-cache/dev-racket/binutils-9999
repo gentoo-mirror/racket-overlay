@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/binary-class >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Utilities for manipulating machine code object files
 EAPI=8
 HOMEPAGE=https://github.com/lwhjp/racket-binutils
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/binary-class >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=65de0f2102fcd83e5c160e5df9d31e78
+_md5_=b8ebf8531ab6d56c011ac3591060b561

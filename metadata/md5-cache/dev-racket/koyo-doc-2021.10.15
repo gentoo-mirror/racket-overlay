@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/srfi-doc-nonfree dev-racket/gregor-doc dev-racket/libargon2 dev-racket/koyo-lib dev-racket/gregor-lib dev-racket/component-lib dev-racket/component-doc >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/component-doc dev-racket/component-lib dev-racket/gregor-lib dev-racket/koyo-lib dev-racket/libargon2 dev-racket/gregor-doc dev-racket/srfi-doc-nonfree >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=A web application toolkit (docs only).
 EAPI=8
 HOMEPAGE=https://github.com/Bogdanp/koyo
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/srfi-doc-nonfree dev-racket/gregor-doc dev-racket/libargon2 dev-racket/koyo-lib dev-racket/gregor-lib dev-racket/component-lib dev-racket/component-doc >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/component-doc dev-racket/component-lib dev-racket/gregor-lib dev-racket/koyo-lib dev-racket/libargon2 dev-racket/gregor-doc dev-racket/srfi-doc-nonfree >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/koyo/archive/b251ffc93a18d5073f1b120d3721ebfe887f8a76.tar.gz -> koyo-doc-2021.10.15.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=eaaa423b3fcdb0be2efee5e23fc4b1bf
+_md5_=4efa450675456a5919b631208642c0bc

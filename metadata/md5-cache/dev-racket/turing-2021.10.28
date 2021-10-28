@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
-DESCRIPTION=Minimal core version of Racket test suites
+DESCRIPTION=the turing Racket package
 EAPI=8
-HOMEPAGE=https://github.com/racket/racket
+HOMEPAGE=https://github.com/curiousyogurt/turing
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/racket/racket/archive/c2a185a8c575e4a800e6c71873d167bc1422e76a.tar.gz -> racket-test-core-2021.10.21.tar.gz
+SRC_URI=https://github.com/curiousyogurt/turing/archive/421bc59ec8b0c7ab0037b7455cfef1f99e41a00b.tar.gz -> turing-2021.10.28.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=2c86917b3755096d3af36fb459b7ac4a
+_md5_=2e94463a2d8dc1fcaa27e234f8b84af0

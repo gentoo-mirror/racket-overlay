@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/rackunit-abbrevs dev-racket/with-cache dev-racket/sxml dev-racket/html-parsing >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/html-parsing dev-racket/sxml dev-racket/with-cache dev-racket/rackunit-abbrevs >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Artifact for On the Cost of Type-Tag Soundness
 EAPI=8
 HOMEPAGE=https://github.com/nuprl/retic_performance
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/rackunit-abbrevs dev-racket/with-cache dev-racket/sxml dev-racket/html-parsing >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/html-parsing dev-racket/sxml dev-racket/with-cache dev-racket/rackunit-abbrevs >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/nuprl/retic_performance/archive/621211c2f40251ce5364c33e72e4067e34a32013.tar.gz -> gm-pepm2018-2020.02.29.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=163784e33b3ab93e7dbc5efb7adb9852
+_md5_=c6215b2c91870ba2f4766d488fe1dec2

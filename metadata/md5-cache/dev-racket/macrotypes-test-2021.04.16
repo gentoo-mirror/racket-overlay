@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/rackunit-macrotypes-lib dev-racket/macrotypes-example >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/macrotypes-example dev-racket/rackunit-macrotypes-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the macrotypes-test Racket package
 EAPI=8
 HOMEPAGE=https://github.com/stchang/macrotypes
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/rackunit-macrotypes-lib dev-racket/macrotypes-example >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/macrotypes-example dev-racket/rackunit-macrotypes-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/stchang/macrotypes/archive/220552416edf5646d796668176a473e4271205b2.tar.gz -> macrotypes-test-2021.04.16.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=60f28869f739bbfacd451a8158352bb5
+_md5_=1d126017d743957fe2b95f1a4b368316

@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/sxml dev-racket/html-parsing >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/html-parsing dev-racket/sxml >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the zubat Racket package
 EAPI=8
 HOMEPAGE=https://github.com/kalxd/zubat
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/sxml dev-racket/html-parsing >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/html-parsing dev-racket/sxml >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/kalxd/zubat/archive/97e3365d8b4343d7ec23df3fa9640fd865d66841.tar.gz -> zubat-2020.12.30.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=f4de2622ebb0be89379af456aa58265a
+_md5_=c1565e160f26203f6ba332d9aec60844

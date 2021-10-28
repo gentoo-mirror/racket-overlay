@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/threading-lib dev-racket/sentry-lib dev-racket/gregor-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/gregor-lib dev-racket/sentry-lib dev-racket/threading-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=A Sentry SDK for Racket. (tests only)
 EAPI=8
 HOMEPAGE=https://github.com/Bogdanp/racket-sentry
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/threading-lib dev-racket/sentry-lib dev-racket/gregor-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/gregor-lib dev-racket/sentry-lib dev-racket/threading-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/racket-sentry/archive/87d708bd4fc56ad272708ffd63ed1e2f50393b26.tar.gz -> sentry-test-2021.04.22.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=29ac55d3e6889d83c7ac1a4e430bceba
+_md5_=c45dff82701ac95269e1f05a9a9de139

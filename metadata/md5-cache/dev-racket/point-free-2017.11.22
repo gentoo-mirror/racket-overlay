@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/cover dev-racket/doc-coverage >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/doc-coverage dev-racket/cover >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=A library for easier and more powerful function composition
 EAPI=8
 HOMEPAGE=https://github.com/jackfirth/point-free
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/cover dev-racket/doc-coverage >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/doc-coverage dev-racket/cover >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/point-free/archive/d294a342466d5071dd2c8f16ba9e50f9006b54af.tar.gz -> point-free-2017.11.22.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=ecef68ff4e936451efea70ddafaa4f4a
+_md5_=d4391be2461dcebea0065243a386e091

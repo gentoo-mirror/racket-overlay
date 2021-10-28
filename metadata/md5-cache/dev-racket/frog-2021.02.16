@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/threading-doc dev-racket/threading-lib dev-racket/reprovide-lang dev-racket/markdown dev-racket/find-parent-dir >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/find-parent-dir dev-racket/markdown dev-racket/reprovide-lang dev-racket/threading-lib dev-racket/threading-doc >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Static blog generator application. Supports Twitter Bootstrap, Pygments, more.
 EAPI=8
 HOMEPAGE=https://github.com/greghendershott/frog
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/threading-doc dev-racket/threading-lib dev-racket/reprovide-lang dev-racket/markdown dev-racket/find-parent-dir >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/find-parent-dir dev-racket/markdown dev-racket/reprovide-lang dev-racket/threading-lib dev-racket/threading-doc >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/greghendershott/frog/archive/93d8b442c2e619334612b7e2d091e4eb33995021.tar.gz -> frog-2021.02.16.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=e898162358a8c8eacdd4e3c24222edbf
+_md5_=f8e62129f2ac735dddfe8e7e2678b5b8

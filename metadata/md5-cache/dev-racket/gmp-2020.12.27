@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/gmp-lib dev-racket/binaryio-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/binaryio-lib dev-racket/gmp-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Bindings to gmp (the GNU Multiple Precision Arithmetic Library)
 EAPI=8
 HOMEPAGE=https://github.com/rmculpepper/racket-gmp
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/gmp-lib dev-racket/binaryio-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/binaryio-lib dev-racket/gmp-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/rmculpepper/racket-gmp/archive/768c33615a1c2414ccaf1a1e4ea1064bd5dd46af.tar.gz -> gmp-2020.12.27.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=d24ae09d43294e6e984213a0cd75d6c7
+_md5_=919f829421cdf85ab2faedfb5be471e2

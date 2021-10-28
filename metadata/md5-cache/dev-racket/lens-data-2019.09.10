@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/sweet-exp-lib dev-racket/reprovide-lang-lib dev-racket/kw-make-struct-lib dev-racket/struct-update-lib dev-racket/syntax-classes-lib dev-racket/fancy-app dev-racket/lens-common >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/lens-common dev-racket/fancy-app dev-racket/syntax-classes-lib dev-racket/struct-update-lib dev-racket/kw-make-struct-lib dev-racket/reprovide-lang-lib dev-racket/sweet-exp-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Lens constructors for various Racket data structures
 EAPI=8
 HOMEPAGE=https://github.com/jackfirth/lens
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/sweet-exp-lib dev-racket/reprovide-lang-lib dev-racket/kw-make-struct-lib dev-racket/struct-update-lib dev-racket/syntax-classes-lib dev-racket/fancy-app dev-racket/lens-common >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/lens-common dev-racket/fancy-app dev-racket/syntax-classes-lib dev-racket/struct-update-lib dev-racket/kw-make-struct-lib dev-racket/reprovide-lang-lib dev-racket/sweet-exp-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/lens/archive/733db7744921409b69ddc78ae5b23ffaa6b91e37.tar.gz -> lens-data-2019.09.10.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=e6e63b6bd5980991bf8685aab484ca67
+_md5_=30ac93d1153582867d3ece9b2b51bf2f

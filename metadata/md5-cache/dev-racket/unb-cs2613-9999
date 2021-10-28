@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/date dev-racket/explorer dev-racket/frog >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/frog dev-racket/explorer dev-racket/date >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Racket packages for UNB CS2613
 EAPI=8
 HOMEPAGE=https://pivot.cs.unb.ca/git/unb-cs2613
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/date dev-racket/explorer dev-racket/frog >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/frog dev-racket/explorer dev-racket/date >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=e6e09e7f80b46c444c254f526943d358
+_md5_=7a6445df209b1a64f78311cd535a7525

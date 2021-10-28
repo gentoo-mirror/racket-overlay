@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/fast-convert dev-racket/binary-class >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/binary-class dev-racket/fast-convert >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Interface to *.dbf files (dBase, Foxpro, ...)
 EAPI=8
 HOMEPAGE=https://github.com/Kalimehtar/binary-class-dbf
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/fast-convert dev-racket/binary-class >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/binary-class dev-racket/fast-convert >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=926cac27fd0b2b0272b2d54bc4e5f01b
+_md5_=da2a8cd82a24664ce2c8fe446ab49aaf

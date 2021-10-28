@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/quickcheck dev-racket/css-tools dev-racket/sugar >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/sugar dev-racket/css-tools dev-racket/quickcheck >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Tiny framework for generating identicons
 EAPI=8
 HOMEPAGE=https://github.com/DarrenN/identikon
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/quickcheck dev-racket/css-tools dev-racket/sugar >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/sugar dev-racket/css-tools dev-racket/quickcheck >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/DarrenN/identikon/archive/d8908ee6955e69466270692599eb9076adc6a28b.tar.gz -> identikon-2020.07.13.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=74469542b56b2601218e9d30fa80e1fa
+_md5_=cb9bb11ace040a3b4a5e40768687b9f6

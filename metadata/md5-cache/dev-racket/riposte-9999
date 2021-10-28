@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/misc1 dev-racket/json-pointer dev-racket/dotenv dev-racket/argo dev-racket/http dev-racket/beautiful-racket-lib dev-racket/net-cookies-lib dev-racket/brag-lib dev-racket/br-parser-tools-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/br-parser-tools-lib dev-racket/brag-lib dev-racket/net-cookies-lib dev-racket/beautiful-racket-lib dev-racket/http dev-racket/argo dev-racket/dotenv dev-racket/json-pointer dev-racket/misc1 >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Language for testing JSON-based HTTP APIs
 EAPI=8
 HOMEPAGE=https://github.com/vicampo/riposte
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/misc1 dev-racket/json-pointer dev-racket/dotenv dev-racket/argo dev-racket/http dev-racket/beautiful-racket-lib dev-racket/net-cookies-lib dev-racket/brag-lib dev-racket/br-parser-tools-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/br-parser-tools-lib dev-racket/brag-lib dev-racket/net-cookies-lib dev-racket/beautiful-racket-lib dev-racket/http dev-racket/argo dev-racket/dotenv dev-racket/json-pointer dev-racket/misc1 >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=863d1fa3d8c0082d69b7f0aa3574494c
+_md5_=f92a4dee8dde931e3d5165cd4122195d

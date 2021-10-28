@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/predicates dev-racket/point-free dev-racket/lens dev-racket/reprovide-lang dev-racket/fancy-app >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/fancy-app dev-racket/reprovide-lang dev-racket/lens dev-racket/point-free dev-racket/predicates >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the generic-syntax-expanders Racket package
 EAPI=8
 HOMEPAGE=https://github.com/jackfirth/generic-syntax-expanders
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/predicates dev-racket/point-free dev-racket/lens dev-racket/reprovide-lang dev-racket/fancy-app >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/fancy-app dev-racket/reprovide-lang dev-racket/lens dev-racket/point-free dev-racket/predicates >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=c3e6c4e228ed2a9a5b22f2619809afbc
+_md5_=25f389d7978f44b4ed1de8a2669ca1e9

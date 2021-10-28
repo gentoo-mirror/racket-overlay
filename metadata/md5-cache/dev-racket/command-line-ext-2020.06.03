@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/lens dev-racket/reprovide-lang dev-racket/generic-syntax-expanders dev-racket/fancy-app >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/fancy-app dev-racket/generic-syntax-expanders dev-racket/reprovide-lang dev-racket/lens >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Extensible form of command-line with command-line-flag-expanders
 EAPI=8
 HOMEPAGE=https://github.com/jackfirth/command-line-ext
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/lens dev-racket/reprovide-lang dev-racket/generic-syntax-expanders dev-racket/fancy-app >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/fancy-app dev-racket/generic-syntax-expanders dev-racket/reprovide-lang dev-racket/lens >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/command-line-ext/archive/e980b3b31d7a0cb6e0339335bde860f35a0fe471.tar.gz -> command-line-ext-2020.06.03.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=7cc1bdd7de7ae86d61304de9cb2be027
+_md5_=c0dc949cf8c2d806cd9b51f4e729dc1e

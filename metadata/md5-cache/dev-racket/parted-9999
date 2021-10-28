@@ -1,6 +1,6 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/sudo dev-racket/overeasy dev-racket/mcfly >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/mcfly dev-racket/overeasy dev-racket/sudo >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Interface to GNU Parted Disk Partion Utility
 EAPI=8
 HOMEPAGE=http://www.neilvandyke.org/racket/
@@ -8,8 +8,8 @@ INHERIT=racket
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/sudo dev-racket/overeasy dev-racket/mcfly >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/mcfly dev-racket/overeasy dev-racket/sudo >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c
-_md5_=0cb424e82b240a61bdc593565251ffca
+_md5_=a201c184208cdac617f4e973aab6b6fe

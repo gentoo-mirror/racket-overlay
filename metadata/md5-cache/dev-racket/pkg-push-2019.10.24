@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/http dev-racket/aws >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/aws dev-racket/http >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the pkg-push Racket package
 EAPI=8
 HOMEPAGE=https://github.com/racket/pkg-push
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/http dev-racket/aws >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/aws dev-racket/http >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/racket/pkg-push/archive/3fc18d8edb81b854ed98897bef925c73f68597ed.tar.gz -> pkg-push-2019.10.24.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=4d25812e47430dd990228937ea9412e4
+_md5_=3d2c3bce110b8e583ffbc2ea6cad7fec

@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/sha dev-racket/binaryio >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/binaryio dev-racket/sha >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Provides Base58Check encoding and decoding functions.
 EAPI=8
 HOMEPAGE=https://github.com/marckn0x/base58
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/sha dev-racket/binaryio >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/binaryio dev-racket/sha >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/marckn0x/base58/archive/125186f659f29a9f7275540c6211885784a68edd.tar.gz -> base58-2020.08.19.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=739b63fe00985124823b87daa918fc93
+_md5_=d6fd5b824aeabfafe878dff173f3a41c

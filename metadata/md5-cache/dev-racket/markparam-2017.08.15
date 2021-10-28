@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/markparam-doc dev-racket/markparam-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/markparam-lib dev-racket/markparam-doc >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=a convenience library for continuation marks like parameters
 EAPI=8
 HOMEPAGE=https://github.com/jeapostrophe/markparam
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/markparam-doc dev-racket/markparam-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/markparam-lib dev-racket/markparam-doc >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jeapostrophe/markparam/archive/f6393494334318ef497606001f2e83bab2c8c15d.tar.gz -> markparam-2017.08.15.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=489acbc4a4af2f5b93eec1cc753d4a10
+_md5_=cea1fb17d913bdd8e6fc2dc615752763

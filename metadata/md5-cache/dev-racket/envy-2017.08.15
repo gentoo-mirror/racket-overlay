@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/sweet-exp dev-racket/threading dev-racket/sweet-exp-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/sweet-exp-lib dev-racket/threading dev-racket/sweet-exp >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=an environment variable manager for applications
 EAPI=8
 HOMEPAGE=https://github.com/lexi-lambda/envy
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/sweet-exp dev-racket/threading dev-racket/sweet-exp-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/sweet-exp-lib dev-racket/threading dev-racket/sweet-exp >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lexi-lambda/envy/archive/0adfe762ea5ee9237ec67e15b1880a8767060ffb.tar.gz -> envy-2017.08.15.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=c7ad0def591f30ae794884be4b188c48
+_md5_=de850a88052cfe8399d1b6ef73b651ba

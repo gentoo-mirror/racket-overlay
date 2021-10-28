@@ -1,6 +1,6 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/remote-shell-lib dev-racket/plt-web-lib dev-racket/distro-build-client >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/distro-build-client dev-racket/plt-web-lib dev-racket/remote-shell-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=server-side part of distro-build
 EAPI=8
 HOMEPAGE=http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/empty.zip
@@ -8,8 +8,8 @@ INHERIT=racket
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/remote-shell-lib dev-racket/plt-web-lib dev-racket/distro-build-client >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/distro-build-client dev-racket/plt-web-lib dev-racket/remote-shell-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c
-_md5_=71b7ffba21b6d6b2b08563733b7d09bd
+_md5_=4136b59cee80c358deb6634da5b4e827

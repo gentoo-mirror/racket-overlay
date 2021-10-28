@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/colon-match dev-racket/predicates dev-racket/reprovide-lang dev-racket/sweet-exp dev-racket/unstable-lib dev-racket/threading >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/threading dev-racket/unstable-lib dev-racket/sweet-exp dev-racket/reprovide-lang dev-racket/predicates dev-racket/colon-match >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=based on measures, but with dimensions and types
 EAPI=8
 HOMEPAGE=https://github.com/AlexKnauth/measures-with-dimensions
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/colon-match dev-racket/predicates dev-racket/reprovide-lang dev-racket/sweet-exp dev-racket/unstable-lib dev-racket/threading >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/threading dev-racket/unstable-lib dev-racket/sweet-exp dev-racket/reprovide-lang dev-racket/predicates dev-racket/colon-match >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=470d31c8ad9e2496930976c13692df7a
+_md5_=d494889f3078bc1388702b7d4d8de73f

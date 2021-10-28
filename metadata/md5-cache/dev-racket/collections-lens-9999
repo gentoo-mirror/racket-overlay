@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/lens-doc dev-racket/lens-common dev-racket/curly-fn dev-racket/collections >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/collections dev-racket/curly-fn dev-racket/lens-common dev-racket/lens-doc >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Lenses for generic collections
 EAPI=8
 HOMEPAGE=https://github.com/lexi-lambda/collections-lens
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/lens-doc dev-racket/lens-common dev-racket/curly-fn dev-racket/collections >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/collections dev-racket/curly-fn dev-racket/lens-common dev-racket/lens-doc >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=181c9557f02971381145c03c5578a350
+_md5_=7170099ae57160603379ff66ba3d7a22

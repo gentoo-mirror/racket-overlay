@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/text-table dev-racket/chk-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/chk-lib dev-racket/text-table >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Racket non-determinism
 EAPI=8
 HOMEPAGE=https://github.com/jeapostrophe/non-det
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/text-table dev-racket/chk-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/chk-lib dev-racket/text-table >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jeapostrophe/non-det/archive/e26cdb7cb8152df912e239323fad8bb6b3a8b05f.tar.gz -> non-det-2017.12.04.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=2c0930004978c7b2e21f4dd6b9aeeca9
+_md5_=609f5d24c4f7f8122ddcce9a4b8250d2

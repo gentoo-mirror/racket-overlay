@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/cuecore dev-racket/pex dev-racket/esc-vp21 dev-racket/libserialport dev-racket/tesira dev-racket/zmq dev-racket/mordae >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/mordae dev-racket/zmq dev-racket/tesira dev-racket/libserialport dev-racket/esc-vp21 dev-racket/pex dev-racket/cuecore >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Presentation Room Control
 EAPI=8
 HOMEPAGE=https://github.com/mordae/racket-derpy
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/cuecore dev-racket/pex dev-racket/esc-vp21 dev-racket/libserialport dev-racket/tesira dev-racket/zmq dev-racket/mordae >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/mordae dev-racket/zmq dev-racket/tesira dev-racket/libserialport dev-racket/esc-vp21 dev-racket/pex dev-racket/cuecore >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=61777cad33fa654d616e439ee812ccea
+_md5_=8fc5f2cc78fabf266a9e05283c8e4a2a

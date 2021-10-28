@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/html-writing dev-racket/magenc dev-racket/csexp dev-racket/crypto-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/crypto-lib dev-racket/csexp dev-racket/magenc dev-racket/html-writing >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the crystal Racket package
 EAPI=8
 HOMEPAGE=https://gitlab.com/spritely/crystal
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/html-writing dev-racket/magenc dev-racket/csexp dev-racket/crypto-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/crypto-lib dev-racket/csexp dev-racket/magenc dev-racket/html-writing >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/spritely/crystal/-/archive/70274401f177b1001ea15169c9032e466bf8efc9.tar.gz -> crystal-2021.05.08.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=0ed5a761a087e37566bf48359d3b5b5c
+_md5_=8bf80c820c4f0a3166109314180b769d

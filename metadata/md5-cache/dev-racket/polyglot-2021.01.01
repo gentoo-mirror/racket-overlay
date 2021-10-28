@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/polyglot-doc dev-racket/polyglot-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/polyglot-lib dev-racket/polyglot-doc >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the polyglot Racket package
 EAPI=8
 HOMEPAGE=https://github.com/zyrolasting/polyglot
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/polyglot-doc dev-racket/polyglot-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/polyglot-lib dev-racket/polyglot-doc >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/zyrolasting/polyglot/archive/d27ca7fe90fd4ba2a6c5bcd921fce89e72d2c408.tar.gz -> polyglot-2021.01.01.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=1aa3d2f4a92479a68733846b91a72ef1
+_md5_=29818a975aaf6cb9f9e1e08a09e1a807

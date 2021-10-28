@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/simple-svg dev-racket/reed-solomon >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/reed-solomon dev-racket/simple-svg >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=QR code tool
 EAPI=8
 HOMEPAGE=https://github.com/simmone/racket-simple-qr
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/simple-svg dev-racket/reed-solomon >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/reed-solomon dev-racket/simple-svg >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/simmone/racket-simple-qr/archive/904f1491bc521badeafeabd0d7d7e97e3d0ee958.tar.gz -> simple-qr-2021.03.09.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=c4d8c01e277e0f7f00b69f53ac359c68
+_md5_=52d1fe00e84cce201df21f63ad486e34

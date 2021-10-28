@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/sugar dev-racket/pollen >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/pollen dev-racket/sugar >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Component-based development for Pollen
 EAPI=8
 HOMEPAGE=https://github.com/leafac/pollen-component
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/sugar dev-racket/pollen >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/pollen dev-racket/sugar >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/leafac/pollen-component/archive/36853a84a58e2889b0e3065d5f1357a596e3c1e6.tar.gz -> pollen-component-2018.05.13.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=9ead07e876bc0674f1be22ac6ee4259d
+_md5_=ed6eeb887ffa7eb22ff79199d1f8fea7

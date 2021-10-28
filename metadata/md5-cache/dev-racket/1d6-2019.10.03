@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/beautiful-racket-lib dev-racket/brag >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/brag dev-racket/beautiful-racket-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=A partial implementation of the Troll dice-rolling language in Racket.
 EAPI=8
 HOMEPAGE=https://github.com/jessealama/1d6
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/beautiful-racket-lib dev-racket/brag >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/brag dev-racket/beautiful-racket-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jessealama/1d6/archive/ae3bf1fc265bd1815dc8f9d6bbb153afdbf3a53d.tar.gz -> 1d6-2019.10.03.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=0982439b1739ec8227966c472a331b06
+_md5_=a8fd898642c2309e4fbe43859560fff1

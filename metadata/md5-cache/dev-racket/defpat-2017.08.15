@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/scribble-code-examples dev-racket/unstable-list-lib dev-racket/unstable-lib dev-racket/reprovide-lang dev-racket/sweet-exp dev-racket/generic-bind >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/generic-bind dev-racket/sweet-exp dev-racket/reprovide-lang dev-racket/unstable-lib dev-racket/unstable-list-lib dev-racket/scribble-code-examples >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=a version of define for defining functions with match-patterns as arguments
 EAPI=8
 HOMEPAGE=https://github.com/AlexKnauth/defpat
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/scribble-code-examples dev-racket/unstable-list-lib dev-racket/unstable-lib dev-racket/reprovide-lang dev-racket/sweet-exp dev-racket/generic-bind >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/generic-bind dev-racket/sweet-exp dev-racket/reprovide-lang dev-racket/unstable-lib dev-racket/unstable-list-lib dev-racket/scribble-code-examples >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/defpat/archive/b1ab923ef4c92355de7ee77703d8af692835c8f0.tar.gz -> defpat-2017.08.15.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=bd758b1d7e532b54606f6f1efe5a03a5
+_md5_=d30dfe76209c787e7523c07e48679e5a

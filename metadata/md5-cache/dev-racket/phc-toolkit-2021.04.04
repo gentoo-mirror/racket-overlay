@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/scribble-math dev-racket/predicates dev-racket/version-case dev-racket/hyper-literate dev-racket/type-expander dev-racket/reprovide-lang dev-racket/alexis-util >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/alexis-util dev-racket/reprovide-lang dev-racket/type-expander dev-racket/hyper-literate dev-racket/version-case dev-racket/predicates dev-racket/scribble-math >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the phc-toolkit Racket package
 EAPI=8
 HOMEPAGE=https://github.com/jsmaniac/phc-toolkit
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/scribble-math dev-racket/predicates dev-racket/version-case dev-racket/hyper-literate dev-racket/type-expander dev-racket/reprovide-lang dev-racket/alexis-util >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/alexis-util dev-racket/reprovide-lang dev-racket/type-expander dev-racket/hyper-literate dev-racket/version-case dev-racket/predicates dev-racket/scribble-math >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jsmaniac/phc-toolkit/archive/694c75444c4151be7069b3a0271650921d86ce51.tar.gz -> phc-toolkit-2021.04.04.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=25c6f41ab4865a3c2be626e668f313b2
+_md5_=8c3ac8c6621c2f997fa3c6e56c3ec64e

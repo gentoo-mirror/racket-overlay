@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/cover-coveralls dev-racket/cover dev-racket/threading-doc dev-racket/rackjure dev-racket/functional-doc dev-racket/collections-doc dev-racket/fancy-app dev-racket/sugar dev-racket/algebraic dev-racket/scribble-abbrevs dev-racket/version-case dev-racket/typed-stack dev-racket/kw-utils dev-racket/qi dev-racket/social-contract dev-racket/mischief dev-racket/threading-lib dev-racket/point-free dev-racket/arguments dev-racket/functional-lib dev-racket/describe dev-racket/collections-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/collections-lib dev-racket/describe dev-racket/functional-lib dev-racket/arguments dev-racket/point-free dev-racket/threading-lib dev-racket/mischief dev-racket/social-contract dev-racket/qi dev-racket/kw-utils dev-racket/typed-stack dev-racket/version-case dev-racket/scribble-abbrevs dev-racket/algebraic dev-racket/sugar dev-racket/fancy-app dev-racket/collections-doc dev-racket/functional-doc dev-racket/rackjure dev-racket/threading-doc dev-racket/cover dev-racket/cover-coveralls >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Generic interfaces and convenient utilities for using relations.
 EAPI=8
 HOMEPAGE=https://github.com/countvajhula/relation
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/cover-coveralls dev-racket/cover dev-racket/threading-doc dev-racket/rackjure dev-racket/functional-doc dev-racket/collections-doc dev-racket/fancy-app dev-racket/sugar dev-racket/algebraic dev-racket/scribble-abbrevs dev-racket/version-case dev-racket/typed-stack dev-racket/kw-utils dev-racket/qi dev-racket/social-contract dev-racket/mischief dev-racket/threading-lib dev-racket/point-free dev-racket/arguments dev-racket/functional-lib dev-racket/describe dev-racket/collections-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/collections-lib dev-racket/describe dev-racket/functional-lib dev-racket/arguments dev-racket/point-free dev-racket/threading-lib dev-racket/mischief dev-racket/social-contract dev-racket/qi dev-racket/kw-utils dev-racket/typed-stack dev-racket/version-case dev-racket/scribble-abbrevs dev-racket/algebraic dev-racket/sugar dev-racket/fancy-app dev-racket/collections-doc dev-racket/functional-doc dev-racket/rackjure dev-racket/threading-doc dev-racket/cover dev-racket/cover-coveralls >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=a9365dc3cf1f66a51d0530b0cd6fa6ca
+_md5_=68c3ebddc4e42bc9e56ce799b68f7128

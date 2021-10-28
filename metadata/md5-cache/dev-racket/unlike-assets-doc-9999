@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/graph-lib dev-racket/kinda-ferpy dev-racket/unlike-assets-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/unlike-assets-lib dev-racket/kinda-ferpy dev-racket/graph-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=(OLD EDITION) Documentation for unlike-assets
 EAPI=8
 HOMEPAGE=https://github.com/zyrolasting/unlike-assets
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/graph-lib dev-racket/kinda-ferpy dev-racket/unlike-assets-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/unlike-assets-lib dev-racket/kinda-ferpy dev-racket/graph-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=9dbe4e02c060a481b1920103ea3ace06
+_md5_=10c7b69556a6d90b2b7a4f23702d2545

@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/text-table dev-racket/global dev-racket/define2 dev-racket/bazaar >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/bazaar dev-racket/define2 dev-racket/global dev-racket/text-table >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the satore Racket package
 EAPI=8
 HOMEPAGE=https://github.com/deepmind/deepmind-research
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/text-table dev-racket/global dev-racket/define2 dev-racket/bazaar >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/bazaar dev-racket/define2 dev-racket/global dev-racket/text-table >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/deepmind/deepmind-research/archive/5f6b11299e93b0d6c6edc8e89cd1dde61495b9ae.tar.gz -> satore-2021.10.26.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=cb0f06e24b069def4936fdd2db7c7caf
+_md5_=310b6bd42138e98784911ae3ebd205d7

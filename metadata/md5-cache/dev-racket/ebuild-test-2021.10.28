@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/ebuild-templates dev-racket/ebuild-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/ebuild-lib dev-racket/ebuild-templates >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Library to ease automatic ebuild creation. Tests.
 EAPI=8
 HOMEPAGE=https://gitlab.com/xgqt/racket-ebuild
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/ebuild-templates dev-racket/ebuild-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/ebuild-lib dev-racket/ebuild-templates >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://gitlab.com/xgqt/racket-ebuild/-/archive/32666841fb8446f1c4c06fb0d195c57c4c81b4bd.tar.gz -> ebuild-test-2021.10.20.tar.gz
+SRC_URI=https://gitlab.com/xgqt/racket-ebuild/-/archive/98bc0a1ea21b8519baef33acee971194c1d3698b.tar.gz -> ebuild-test-2021.10.28.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=37fa3c4a3671a3f784ed5ca4d8789afc
+_md5_=a125c0cd4c21d3b51ef6157ae8a34ac8

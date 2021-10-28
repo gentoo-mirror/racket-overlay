@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/heresy dev-racket/unstable-lib dev-racket/kw-utils dev-racket/hash-lambda dev-racket/lens >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/lens dev-racket/hash-lambda dev-racket/kw-utils dev-racket/unstable-lib dev-racket/heresy >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=my version of objects, inspired by things from heresy
 EAPI=8
 HOMEPAGE=https://github.com/AlexKnauth/my-object
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/heresy dev-racket/unstable-lib dev-racket/kw-utils dev-racket/hash-lambda dev-racket/lens >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/lens dev-racket/hash-lambda dev-racket/kw-utils dev-racket/unstable-lib dev-racket/heresy >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=d9e165e8fbf6c2580f74210bd2cdd406
+_md5_=a307cd2d53c54e850bc83b45b58bee52

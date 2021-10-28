@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/scribble-math dev-racket/version-case dev-racket/auto-syntax-e dev-racket/scope-operations dev-racket/alexis-util dev-racket/stxparse-info dev-racket/phc-toolkit dev-racket/backport-template-pr1514 >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/backport-template-pr1514 dev-racket/phc-toolkit dev-racket/stxparse-info dev-racket/alexis-util dev-racket/scope-operations dev-racket/auto-syntax-e dev-racket/version-case dev-racket/scribble-math >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the subtemplate Racket package
 EAPI=8
 HOMEPAGE=https://github.com/jsmaniac/subtemplate
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/scribble-math dev-racket/version-case dev-racket/auto-syntax-e dev-racket/scope-operations dev-racket/alexis-util dev-racket/stxparse-info dev-racket/phc-toolkit dev-racket/backport-template-pr1514 >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/backport-template-pr1514 dev-racket/phc-toolkit dev-racket/stxparse-info dev-racket/alexis-util dev-racket/scope-operations dev-racket/auto-syntax-e dev-racket/version-case dev-racket/scribble-math >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=78f8130ae1d3f6d163b32d01f692dbf0
+_md5_=f96fcec45f30f29e127f5aad7002564a

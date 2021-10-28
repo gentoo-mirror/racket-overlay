@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/pk dev-racket/syrup dev-racket/crypto >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/crypto dev-racket/syrup dev-racket/pk >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Goblins is a lightweight actor model library.
 EAPI=8
 HOMEPAGE=https://gitlab.com/spritely/goblins
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/pk dev-racket/syrup dev-racket/crypto >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/crypto dev-racket/syrup dev-racket/pk >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/spritely/goblins/-/archive/2cc18e31503eb40715bf56b060815d330d06b569.tar.gz -> goblins-2021.07.31.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=d56472a4e01d48c20d9e77d1443a54a3
+_md5_=d62eb431360b4a45bc7ee8b1547dc9ac

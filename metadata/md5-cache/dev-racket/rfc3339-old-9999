@@ -1,6 +1,6 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/overeasy dev-racket/mcfly >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/mcfly dev-racket/overeasy >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=RFC 3339 Timestamps
 EAPI=8
 HOMEPAGE=http://www.neilvandyke.org/racket/
@@ -8,8 +8,8 @@ INHERIT=racket
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/overeasy dev-racket/mcfly >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/mcfly dev-racket/overeasy >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c
-_md5_=964d8c1f1c7ac201ec513f251af5ce39
+_md5_=f0d646cd417b1ffbb220ff54acb72efd

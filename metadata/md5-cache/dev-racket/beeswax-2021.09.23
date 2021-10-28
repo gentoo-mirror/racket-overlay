@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/sugar dev-racket/pollen >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/pollen dev-racket/sugar >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=A Pollen-friendly template language
 EAPI=8
 HOMEPAGE=https://github.com/otherjoel/beeswax
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/sugar dev-racket/pollen >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/pollen dev-racket/sugar >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/otherjoel/beeswax/archive/ad702b5a1c3024c6c7a2d19fa7b0c3c2586aa22b.tar.gz -> beeswax-2021.09.23.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=805e4b9db8e6f2e07fe68c54a5f8f12c
+_md5_=94409dd5b7f36b4cabc691d5d3c3c506

@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/punctaffy-lib dev-racket/punctaffy-doc >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/punctaffy-doc dev-racket/punctaffy-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the punctaffy Racket package
 EAPI=8
 HOMEPAGE=https://github.com/lathe/punctaffy-for-racket
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/punctaffy-lib dev-racket/punctaffy-doc >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/punctaffy-doc dev-racket/punctaffy-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lathe/punctaffy-for-racket/archive/06ff449b11f50788f7b6267ade01b51e8e5274e7.tar.gz -> punctaffy-2021.09.18.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=6b42a43dc01c25bb3a35f19f38a41a48
+_md5_=08e17be0a162139cc6bb2c961dd8168a

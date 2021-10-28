@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/marionette-lib dev-racket/marionette-doc >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/marionette-doc dev-racket/marionette-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the marionette Racket package
 EAPI=8
 HOMEPAGE=https://github.com/Bogdanp/marionette
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/marionette-lib dev-racket/marionette-doc >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/marionette-doc dev-racket/marionette-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/marionette/archive/0dad4b5d3db974e1c93a2c9a0852d14b8e91d094.tar.gz -> marionette-2021.09.16.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=7613bb712ae061c73fdcc949157713ee
+_md5_=f44d1c8b68c7f74bce7b7cdf8e10b0ee

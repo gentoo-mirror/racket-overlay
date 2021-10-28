@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/net-cookies-lib dev-racket/css-expr dev-racket/html-parsing dev-racket/http dev-racket/txexpr >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/txexpr dev-racket/http dev-racket/html-parsing dev-racket/css-expr dev-racket/net-cookies-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Material for the web development workshop held at RacketCon 2018
 EAPI=8
 HOMEPAGE=https://github.com/jessealama/racketcon-2018-web-devel-workshop
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/net-cookies-lib dev-racket/css-expr dev-racket/html-parsing dev-racket/http dev-racket/txexpr >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/txexpr dev-racket/http dev-racket/html-parsing dev-racket/css-expr dev-racket/net-cookies-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jessealama/racketcon-2018-web-devel-workshop/archive/e377a8f4fd9d6ef3b097ef1507ff3e16e0e260dc.tar.gz -> racketcon2018-web-devel-workshop-2019.01.27.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=2d92df7107bfd63537d72e60575b6704
+_md5_=ec9b4e03de1abd5c2a340284ea8c9d06

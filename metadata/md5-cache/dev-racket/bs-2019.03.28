@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/crypto-lib dev-racket/brag >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/brag dev-racket/crypto-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=A Bitcoin Script Implementation for testing Script riddles.
 EAPI=8
 HOMEPAGE=https://github.com/oldsin/bs
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/crypto-lib dev-racket/brag >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/brag dev-racket/crypto-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/oldsin/bs/archive/0a88ed7217076a6286fdaef0183bea596149991b.tar.gz -> bs-2019.03.28.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=0b2f74983a7acc6e83f97fe73dfe9c2c
+_md5_=7781336a510f0ade3074d9a0b80dc422

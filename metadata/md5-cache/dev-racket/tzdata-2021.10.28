@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
-DESCRIPTION=Additional Racket test suites
+DESCRIPTION=zoneinfo data mainly for Windows systems using tzinfo
 EAPI=8
-HOMEPAGE=https://github.com/racket/racket
+HOMEPAGE=https://github.com/97jaz/tzdata
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/racket/racket/archive/c2a185a8c575e4a800e6c71873d167bc1422e76a.tar.gz -> racket-test-extra-2021.10.21.tar.gz
+SRC_URI=https://github.com/97jaz/tzdata/archive/5e303ff6e7a342a019313c39cb211a9c6539802a.tar.gz -> tzdata-2021.10.28.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=4c2f40c3f839429d66345b47b0cdf8bf
+_md5_=c489d07085e009ebfac66494d4791980

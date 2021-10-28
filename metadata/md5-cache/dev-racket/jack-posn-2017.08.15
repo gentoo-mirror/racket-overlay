@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/doc-coverage dev-racket/cover dev-racket/fancy-app dev-racket/sweet-exp >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/sweet-exp dev-racket/fancy-app dev-racket/cover dev-racket/doc-coverage >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Library for working with points in 2d space
 EAPI=8
 HOMEPAGE=https://github.com/jackfirth/racket-posn
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/doc-coverage dev-racket/cover dev-racket/fancy-app dev-racket/sweet-exp >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/sweet-exp dev-racket/fancy-app dev-racket/cover dev-racket/doc-coverage >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/racket-posn/archive/402ca7d3d5db28b04d82ff825a684c4995dcf355.tar.gz -> jack-posn-2017.08.15.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=ed5b94a5a9d0f750fe1f2eb45ee099d4
+_md5_=76876e0168c9496c42ba77643730b407

@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/syntax-warn-lang dev-racket/syntax-warn-doc dev-racket/syntax-warn-cli dev-racket/syntax-warn-base >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/syntax-warn-base dev-racket/syntax-warn-cli dev-racket/syntax-warn-doc dev-racket/syntax-warn-lang >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the syntax-warn Racket package
 EAPI=8
 HOMEPAGE=https://github.com/jackfirth/syntax-warn
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/syntax-warn-lang dev-racket/syntax-warn-doc dev-racket/syntax-warn-cli dev-racket/syntax-warn-base >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/syntax-warn-base dev-racket/syntax-warn-cli dev-racket/syntax-warn-doc dev-racket/syntax-warn-lang >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=bcb57298fb43a1247f33c2beb33e1530
+_md5_=2dfb8d7ee733c00cd356e0f1244d8c4f

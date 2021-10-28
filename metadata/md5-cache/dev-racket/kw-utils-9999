@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/rackjure dev-racket/sweet-exp-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/sweet-exp-lib dev-racket/rackjure >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=misc kw utils
 EAPI=8
 HOMEPAGE=https://github.com/AlexKnauth/kw-utils
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/rackjure dev-racket/sweet-exp-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/sweet-exp-lib dev-racket/rackjure >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=07881cc76c62d08a20882453a8ed06e5
+_md5_=ba273d2d63abef3266110dd8c2c1d23b

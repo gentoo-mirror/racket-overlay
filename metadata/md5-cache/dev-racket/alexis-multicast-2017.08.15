@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/cover-coveralls dev-racket/cover dev-racket/alexis-util >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/alexis-util dev-racket/cover dev-racket/cover-coveralls >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=One-to-many buffered asynchronous channels
 EAPI=8
 HOMEPAGE=https://github.com/lexi-lambda/racket-alexis
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/cover-coveralls dev-racket/cover dev-racket/alexis-util >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/alexis-util dev-racket/cover dev-racket/cover-coveralls >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lexi-lambda/racket-alexis/archive/0268afb688231e0d6d76ded3291538dd5d3db37c.tar.gz -> alexis-multicast-2017.08.15.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=379758be79833709688067d3b87ba667
+_md5_=0c9fe84399e01154d63b5f2149243242

@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/unstable-list-lib dev-racket/static-rename dev-racket/match-plus dev-racket/functional-lib dev-racket/curly-fn-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/curly-fn-lib dev-racket/functional-lib dev-racket/match-plus dev-racket/static-rename dev-racket/unstable-list-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the collections-lib Racket package
 EAPI=8
 HOMEPAGE=https://github.com/lexi-lambda/racket-collections
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/unstable-list-lib dev-racket/static-rename dev-racket/match-plus dev-racket/functional-lib dev-racket/curly-fn-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/curly-fn-lib dev-racket/functional-lib dev-racket/match-plus dev-racket/static-rename dev-racket/unstable-list-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lexi-lambda/racket-collections/archive/c4822fc200b0488922cd6e86b4f2ea7cf8c565da.tar.gz -> collections-lib-2020.08.16.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=cadf067692402e8ce322038e1cb5b39e
+_md5_=216112cc5ee46dbfe6841fc98cc077f7

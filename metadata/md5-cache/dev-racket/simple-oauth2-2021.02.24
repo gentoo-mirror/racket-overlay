@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/cover-coveralls dev-racket/rackunit-spec dev-racket/threading dev-racket/net-jwt dev-racket/dali dev-racket/crypto-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/crypto-lib dev-racket/dali dev-racket/net-jwt dev-racket/threading dev-racket/rackunit-spec dev-racket/cover-coveralls >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Simple OAuth 2.0 client implementation
 EAPI=8
 HOMEPAGE=https://github.com/johnstonskj/simple-oauth2
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/cover-coveralls dev-racket/rackunit-spec dev-racket/threading dev-racket/net-jwt dev-racket/dali dev-racket/crypto-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/crypto-lib dev-racket/dali dev-racket/net-jwt dev-racket/threading dev-racket/rackunit-spec dev-racket/cover-coveralls >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/johnstonskj/simple-oauth2/archive/b8cb40511f64dcb274e17957e6fc9ab4c8a6cbea.tar.gz -> simple-oauth2-2021.02.24.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=031ec53673eff8a6ebe254a525ce6fc0
+_md5_=892644665ec026c4070c6fbcbcca5acc

@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/graphite-tutorial dev-racket/graphite-doc dev-racket/graphite-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/graphite-lib dev-racket/graphite-doc dev-racket/graphite-tutorial >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=A ggplot2-inspired data visualization library
 EAPI=8
 HOMEPAGE=https://github.com/ralsei/graphite
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/graphite-tutorial dev-racket/graphite-doc dev-racket/graphite-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/graphite-lib dev-racket/graphite-doc dev-racket/graphite-tutorial >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/ralsei/graphite/archive/58a7bc54345e9b0bc5ac080401757f76d3999b0c.tar.gz -> graphite-2021.08.19.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=92ef6cc6142253e26511e67c1b43e605
+_md5_=85545f9028d2f969951b4b6626f7fe74

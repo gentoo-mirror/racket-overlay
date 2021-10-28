@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/linea dev-racket/quickcheck dev-racket/kw-make-struct >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/kw-make-struct dev-racket/quickcheck dev-racket/linea >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Parsing with delimited continuations.
 EAPI=8
 HOMEPAGE=https://github.com/willghatch/racket-chido-parse
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/linea dev-racket/quickcheck dev-racket/kw-make-struct >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/kw-make-struct dev-racket/quickcheck dev-racket/linea >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/willghatch/racket-chido-parse/archive/413c49e9760c0313809ecbf9ccee9772413cb336.tar.gz -> chido-parse-2021.03.09.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=4278f870d83372aeb720dd8cbde62831
+_md5_=c096f94e092db0fa7e1fb10466f63ead

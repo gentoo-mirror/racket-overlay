@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/br-parser-tools-doc dev-racket/beautiful-racket-demo dev-racket/beautiful-racket-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/beautiful-racket-lib dev-racket/beautiful-racket-demo dev-racket/br-parser-tools-doc >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the beautiful-racket Racket package
 EAPI=8
 HOMEPAGE=https://github.com/mbutterick/beautiful-racket
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/br-parser-tools-doc dev-racket/beautiful-racket-demo dev-racket/beautiful-racket-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/beautiful-racket-lib dev-racket/beautiful-racket-demo dev-racket/br-parser-tools-doc >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mbutterick/beautiful-racket/archive/b0d133f4ba4149ea506d8b0dbd3845c915efdd06.tar.gz -> beautiful-racket-2021.05.19.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=2a3c4b70cf5ee5f0fb2cc438a1c51b04
+_md5_=3192069f44cc5c3f2bdc33470f3b6289

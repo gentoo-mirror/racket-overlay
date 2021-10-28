@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/preserves dev-racket/bitsyntax dev-racket/auxiliary-macro-context dev-racket/struct-defaults dev-racket/rfc6455 >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/rfc6455 dev-racket/struct-defaults dev-racket/auxiliary-macro-context dev-racket/bitsyntax dev-racket/preserves >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the syndicate Racket package
 EAPI=8
 HOMEPAGE=https://git.syndicate-lang.org/syndicate-lang/syndicate-rkt
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/preserves dev-racket/bitsyntax dev-racket/auxiliary-macro-context dev-racket/struct-defaults dev-racket/rfc6455 >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/rfc6455 dev-racket/struct-defaults dev-racket/auxiliary-macro-context dev-racket/bitsyntax dev-racket/preserves >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=998e30fb17d57c0619f105a8d682adae
+_md5_=024368f1de3f44609982fc095c2379b2

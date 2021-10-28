@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/xenomorph dev-racket/sugar dev-racket/png-image dev-racket/debug dev-racket/beautiful-racket-lib dev-racket/crc32c >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/crc32c dev-racket/beautiful-racket-lib dev-racket/debug dev-racket/png-image dev-racket/sugar dev-racket/xenomorph >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=font processing [in development]
 EAPI=8
 HOMEPAGE=https://github.com/mbutterick/fontland
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/xenomorph dev-racket/sugar dev-racket/png-image dev-racket/debug dev-racket/beautiful-racket-lib dev-racket/crc32c >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/crc32c dev-racket/beautiful-racket-lib dev-racket/debug dev-racket/png-image dev-racket/sugar dev-racket/xenomorph >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=620367ccc328b79a3782707d92d92c0e
+_md5_=fb9d9ea1ee537108451f06628120bba9

@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/turnstile-test dev-racket/turnstile-doc dev-racket/turnstile-example dev-racket/turnstile-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/turnstile-lib dev-racket/turnstile-example dev-racket/turnstile-doc dev-racket/turnstile-test >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=#lang for implementing typed languages with Racket
 EAPI=8
 HOMEPAGE=https://github.com/stchang/macrotypes
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/turnstile-test dev-racket/turnstile-doc dev-racket/turnstile-example dev-racket/turnstile-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/turnstile-lib dev-racket/turnstile-example dev-racket/turnstile-doc dev-racket/turnstile-test >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/stchang/macrotypes/archive/220552416edf5646d796668176a473e4271205b2.tar.gz -> turnstile-2021.04.16.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=1cdd59940631b9803e6af3f15607c008
+_md5_=4f52bce8000aec32d0719b3f7ca883f2

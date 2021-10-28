@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/tjson dev-racket/http11 dev-racket/uri dev-racket/opt >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/opt dev-racket/uri dev-racket/http11 dev-racket/tjson >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the openweather Racket package
 EAPI=8
 HOMEPAGE=https://gitlab.com/RayRacine/openweather
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/tjson dev-racket/http11 dev-racket/uri dev-racket/opt >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/opt dev-racket/uri dev-racket/http11 dev-racket/tjson >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/RayRacine/openweather/-/archive/a0c4e4832b3ac05c1c38fbf64c6ce3ff583882e7.tar.gz -> openweather-2021.05.08.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=314fa01aa4b3d810531242dcb596f13f
+_md5_=f330f56e95a29a0cc372b70c9b5bf8cb

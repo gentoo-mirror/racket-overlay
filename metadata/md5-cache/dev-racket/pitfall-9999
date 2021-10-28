@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/debug dev-racket/gregor dev-racket/sugar dev-racket/fontland dev-racket/brag dev-racket/beautiful-racket-lib dev-racket/with-cache >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/with-cache dev-racket/beautiful-racket-lib dev-racket/brag dev-racket/fontland dev-racket/sugar dev-racket/gregor dev-racket/debug >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=PDF generation library [under development]
 EAPI=8
 HOMEPAGE=https://github.com/mbutterick/pitfall
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/debug dev-racket/gregor dev-racket/sugar dev-racket/fontland dev-racket/brag dev-racket/beautiful-racket-lib dev-racket/with-cache >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/with-cache dev-racket/beautiful-racket-lib dev-racket/brag dev-racket/fontland dev-racket/sugar dev-racket/gregor dev-racket/debug >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=8c50a76878b52bcb1f122c0ded01801a
+_md5_=4947a79b80223d19c280ee3a34a035c5

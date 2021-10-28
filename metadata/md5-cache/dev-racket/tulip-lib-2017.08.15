@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/curly-fn dev-racket/megaparsack-parser-tools dev-racket/megaparsack-lib dev-racket/functional-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/functional-lib dev-racket/megaparsack-lib dev-racket/megaparsack-parser-tools dev-racket/curly-fn >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the tulip-lib Racket package
 EAPI=8
 HOMEPAGE=https://github.com/lexi-lambda/racket-tulip
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/curly-fn dev-racket/megaparsack-parser-tools dev-racket/megaparsack-lib dev-racket/functional-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/functional-lib dev-racket/megaparsack-lib dev-racket/megaparsack-parser-tools dev-racket/curly-fn >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lexi-lambda/racket-tulip/archive/1613cfd4d7e8dbc8ceb86cf33479375147f42b2f.tar.gz -> tulip-lib-2017.08.15.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=5c408fc399fa499dfe9a070bec92985d
+_md5_=ed5e60bde76537132125b4e83fdd88ca

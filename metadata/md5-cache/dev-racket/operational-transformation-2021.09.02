@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/operational-transformation-lib dev-racket/operational-transformation-demo >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/operational-transformation-demo dev-racket/operational-transformation-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the operational-transformation Racket package
 EAPI=8
 HOMEPAGE=https://github.com/tonyg/racket-operational-transformation
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/operational-transformation-lib dev-racket/operational-transformation-demo >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/operational-transformation-demo dev-racket/operational-transformation-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/tonyg/racket-operational-transformation/archive/685d60091bff0428c2ec3cd8c4f63c8ef8b28de5.tar.gz -> operational-transformation-2021.09.02.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=581f72b2aa7609726017dc00423af432
+_md5_=6dde9c788817f187423b6b45621e54d2

@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/w3s dev-racket/digimon >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/digimon dev-racket/w3s >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Essential computer graphics for Typed Racket
 EAPI=8
 HOMEPAGE=https://github.com/wargrey/graphics
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/w3s dev-racket/digimon >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/digimon dev-racket/w3s >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/wargrey/graphics/archive/57d09f638b2d73e8f36bf358540f3ba2f3ff8ce1.tar.gz -> graphics-2021.07.23.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=016c5386a32a1e1eaa4fb0330c57a256
+_md5_=064d24161a4a746cbcc89380ca82b562

@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/c-utils dev-racket/ansi-color >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/ansi-color dev-racket/c-utils >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=A util toolbox for compiler error reporting
 EAPI=8
 HOMEPAGE=https://github.com/racket-tw/reporter
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/c-utils dev-racket/ansi-color >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/ansi-color dev-racket/c-utils >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/racket-tw/reporter/archive/dc3243e339c3dfaa2961cb2bc43e6c1037efa5a0.tar.gz -> reporter-2021.07.04.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=153a9427a72050ad62d58269731b86c5
+_md5_=c71ac911a07fe05c4540bba87d1472a7

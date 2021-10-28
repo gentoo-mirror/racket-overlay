@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/scribble-code-examples dev-racket/scribble-enhanced dev-racket/phc-toolkit dev-racket/rackjure dev-racket/hygienic-reader-extension >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/hygienic-reader-extension dev-racket/rackjure dev-racket/phc-toolkit dev-racket/scribble-enhanced dev-racket/scribble-code-examples >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=A fork of #lang afl which also supports #lang aflu/unhygienic.
 EAPI=8
 HOMEPAGE=https://github.com/jsmaniac/aful
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/scribble-code-examples dev-racket/scribble-enhanced dev-racket/phc-toolkit dev-racket/rackjure dev-racket/hygienic-reader-extension >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/hygienic-reader-extension dev-racket/rackjure dev-racket/phc-toolkit dev-racket/scribble-enhanced dev-racket/scribble-code-examples >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jsmaniac/aful/archive/e7f7270bdb70708f58bbda27ffad07509085e5fe.tar.gz -> aful-2021.03.05.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=87f50761516a1c33da637e1c597d191f
+_md5_=cebdbded8e2b4076cff72eac95c5f6dd

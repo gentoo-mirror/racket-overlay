@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/rackunit-spec dev-racket/static-rename-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/static-rename-lib dev-racket/rackunit-spec >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=A helper library
 EAPI=8
 HOMEPAGE=https://github.com/LiberalArtist/adjutor
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/rackunit-spec dev-racket/static-rename-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/static-rename-lib dev-racket/rackunit-spec >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/LiberalArtist/adjutor/archive/5a9ae8570213cfffde644ecf405df500490de05c.tar.gz -> adjutor-2021.05.28.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=b606bdb6c6551db1710382319c7afa31
+_md5_=db7e666674c066168c76f8ee81ebb7ce

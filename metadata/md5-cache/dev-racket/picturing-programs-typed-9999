@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/unstable-contract-lib dev-racket/unstable-list-lib dev-racket/2htdp-typed >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/2htdp-typed dev-racket/unstable-list-lib dev-racket/unstable-contract-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the picturing-programs-typed Racket package
 EAPI=8
 HOMEPAGE=https://github.com/maueroats/picturing-programs-typed
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/unstable-contract-lib dev-racket/unstable-list-lib dev-racket/2htdp-typed >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/2htdp-typed dev-racket/unstable-list-lib dev-racket/unstable-contract-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=b45b5f93b0dd85cca20f2ad0ea7895f1
+_md5_=db564f612bac9fa4b92b1dd8a5fb3b5b

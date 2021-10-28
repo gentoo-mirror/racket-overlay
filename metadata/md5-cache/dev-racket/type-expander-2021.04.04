@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/mutable-match-lambda dev-racket/scribble-enhanced dev-racket/version-case dev-racket/debug-scopes dev-racket/auto-syntax-e dev-racket/hyper-literate >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/hyper-literate dev-racket/auto-syntax-e dev-racket/debug-scopes dev-racket/version-case dev-racket/scribble-enhanced dev-racket/mutable-match-lambda >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Type expanders for typed/racket, which work like match expanders for match
 EAPI=8
 HOMEPAGE=https://github.com/jsmaniac/type-expander
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/mutable-match-lambda dev-racket/scribble-enhanced dev-racket/version-case dev-racket/debug-scopes dev-racket/auto-syntax-e dev-racket/hyper-literate >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/hyper-literate dev-racket/auto-syntax-e dev-racket/debug-scopes dev-racket/version-case dev-racket/scribble-enhanced dev-racket/mutable-match-lambda >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jsmaniac/type-expander/archive/b182b9422083bf8adee71d6543f78372ad801ede.tar.gz -> type-expander-2021.04.04.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=919f0b310766629c5b6a9b7140096e44
+_md5_=146f766a16661a8ed48711ba51c918cc

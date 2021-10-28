@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/threading dev-racket/nested-hash >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/nested-hash dev-racket/threading >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=A 'super-pipe' that threads over Racket hash-tables
 EAPI=8
 HOMEPAGE=https://github.com/BourgondAries/spipe
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/threading dev-racket/nested-hash >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/nested-hash dev-racket/threading >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/BourgondAries/spipe/archive/d6bc777a8113447fea9a3f10b5a0fbce6269dce4.tar.gz -> spipe-2018.11.04.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=e521dcd27f000756111b57ed3c192792
+_md5_=73e4ddbb2b5725dd47b1fb985ab78b7e

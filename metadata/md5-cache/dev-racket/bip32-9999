@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/ec dev-racket/base58 dev-racket/crypto dev-racket/sha dev-racket/binaryio >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/binaryio dev-racket/sha dev-racket/crypto dev-racket/base58 dev-racket/ec >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Racket implementation of Bitcoin Improvement Proposal 32.
 EAPI=8
 HOMEPAGE=https://github.com/marckn0x/bip32
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/ec dev-racket/base58 dev-racket/crypto dev-racket/sha dev-racket/binaryio >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/binaryio dev-racket/sha dev-racket/crypto dev-racket/base58 dev-racket/ec >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=523a2feb0df7d6c0b46881a541988e8b
+_md5_=559055ee27068ee604f0c8fcf98dfd34

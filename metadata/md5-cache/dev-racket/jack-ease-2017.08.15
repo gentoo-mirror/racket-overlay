@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/doc-coverage dev-racket/cover dev-racket/fancy-app dev-racket/lens dev-racket/sweet-exp >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/sweet-exp dev-racket/lens dev-racket/fancy-app dev-racket/cover dev-racket/doc-coverage >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Library for easing things between start and stop values fluidly
 EAPI=8
 HOMEPAGE=https://github.com/jackfirth/racket-ease
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/doc-coverage dev-racket/cover dev-racket/fancy-app dev-racket/lens dev-racket/sweet-exp >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/sweet-exp dev-racket/lens dev-racket/fancy-app dev-racket/cover dev-racket/doc-coverage >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/racket-ease/archive/3a7149ded68be348611e346742feac85fca6d74f.tar.gz -> jack-ease-2017.08.15.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=7b6887caef1d8ff3136452c0fc90ea29
+_md5_=3eafa6c7ab2baf0ce95b235a87abc332

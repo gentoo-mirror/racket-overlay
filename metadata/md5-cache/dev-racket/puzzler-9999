@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/brag dev-racket/beautiful-racket >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/beautiful-racket dev-racket/brag >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=A language for building 2D grid-based puzzle games.
 EAPI=8
 HOMEPAGE=https://github.com/aowens-21/puzzler
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/brag dev-racket/beautiful-racket >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/beautiful-racket dev-racket/brag >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=8ab31da5b5ca0f62cafe88131123838a
+_md5_=2b80245a9549d65ead85cadaaba1d288

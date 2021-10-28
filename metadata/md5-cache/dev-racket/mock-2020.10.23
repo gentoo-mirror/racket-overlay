@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/sweet-exp dev-racket/reprovide-lang dev-racket/fancy-app dev-racket/arguments >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/arguments dev-racket/fancy-app dev-racket/reprovide-lang dev-racket/sweet-exp >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=A library for creating test mocks
 EAPI=8
 HOMEPAGE=https://github.com/jackfirth/racket-mock
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/sweet-exp dev-racket/reprovide-lang dev-racket/fancy-app dev-racket/arguments >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/arguments dev-racket/fancy-app dev-racket/reprovide-lang dev-racket/sweet-exp >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/racket-mock/archive/5e8e2a1dd125e5e437510c87dabf903d0ec25749.tar.gz -> mock-2020.10.23.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=a6a98e9e9e165441e81d6bb9d4c91c04
+_md5_=b93c1265b11a133cb9165589c4c01435

@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/parendown-lib dev-racket/parendown-doc dev-racket/lathe-comforts-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/lathe-comforts-lib dev-racket/parendown-doc dev-racket/parendown-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=A collection of utilities. (doc)
 EAPI=8
 HOMEPAGE=https://github.com/lathe/lathe-comforts-for-racket
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/parendown-lib dev-racket/parendown-doc dev-racket/lathe-comforts-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/lathe-comforts-lib dev-racket/parendown-doc dev-racket/parendown-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=936135962de6befc78f197e3402cdfdd
+_md5_=7ce172697e102c2be1331ef5ccf3dfd9

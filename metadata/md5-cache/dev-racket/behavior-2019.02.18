@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/cover-coveralls dev-racket/scribble-math >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/scribble-math dev-racket/cover-coveralls >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the behavior Racket package
 EAPI=8
 HOMEPAGE=https://github.com/johnstonskj/behavior
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/cover-coveralls dev-racket/scribble-math >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/scribble-math dev-racket/cover-coveralls >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/johnstonskj/behavior/archive/72103db75c07d52d9027b34f0960532e235f9c10.tar.gz -> behavior-2019.02.18.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=0f156c4597934a66551006146d7995aa
+_md5_=7d8eb744fd821d343552989a2cee1ecc

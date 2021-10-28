@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/sha dev-racket/http >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/http dev-racket/sha >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the aws Racket package
 EAPI=8
 HOMEPAGE=https://github.com/greghendershott/aws
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/sha dev-racket/http >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/http dev-racket/sha >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/greghendershott/aws/archive/94a16a6875ac585a10fc488b1bf48052172d5668.tar.gz -> aws-2021.02.16.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=93f24663bbaeb203e0bf03d3b16f5e02
+_md5_=ee387138683a0f5f633c952fd430ae2b

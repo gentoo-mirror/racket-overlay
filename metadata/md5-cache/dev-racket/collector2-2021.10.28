@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/threading-lib dev-racket/ebuild-templates dev-racket/ebuild-lib dev-racket/counter >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/counter dev-racket/ebuild-lib dev-racket/ebuild-templates dev-racket/threading-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Parse Racket packages catalog and generate ebuild scripts
 EAPI=8
 HOMEPAGE=https://gitlab.com/src_prepare/racket/collector2
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/threading-lib dev-racket/ebuild-templates dev-racket/ebuild-lib dev-racket/counter >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/counter dev-racket/ebuild-lib dev-racket/ebuild-templates dev-racket/threading-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://gitlab.com/src_prepare/racket/collector2/-/archive/c58a256898dd4640639fe0a13f69d897fb3ee4a7.tar.gz -> collector2-2021.10.15.tar.gz
+SRC_URI=https://gitlab.com/src_prepare/racket/collector2/-/archive/a1f57fa1c3535c357bd49a50e98d2772c30cc32a.tar.gz -> collector2-2021.10.28.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=bc62b89d353dcafeec72b9fee2561cb2
+_md5_=ad0b3318a48ff4ee9f9d410cec041aae

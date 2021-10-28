@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/syntax-classes-lib dev-racket/ugly-app-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/ugly-app-lib dev-racket/syntax-classes-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=A Toolbox of Syntactic Shortcuts
 EAPI=8
 HOMEPAGE=https://github.com/plane/happy-app
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/syntax-classes-lib dev-racket/ugly-app-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/ugly-app-lib dev-racket/syntax-classes-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/plane/happy-app/archive/b14ad656e3f326881adf958bde846073c14d5e5f.tar.gz -> happy-app-2021.05.29.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=0e39f4626ec9bfc8250e25d23fa96c90
+_md5_=39d248c1aff6fc47d820199c956c5c93

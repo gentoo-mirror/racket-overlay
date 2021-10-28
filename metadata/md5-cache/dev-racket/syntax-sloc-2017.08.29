@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/scribble-code-examples dev-racket/lang-file >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/lang-file dev-racket/scribble-code-examples >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=counts the number of source lines of code in a racket syntax object
 EAPI=8
 HOMEPAGE=https://github.com/AlexKnauth/syntax-sloc
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/scribble-code-examples dev-racket/lang-file >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/lang-file dev-racket/scribble-code-examples >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/syntax-sloc/archive/ea9bfa06a207ba63b481dcc794c55475eb6bcc33.tar.gz -> syntax-sloc-2017.08.29.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=8131d6d10dd1f8e68800092eb17d3c45
+_md5_=55582d89205a3369e467959a1778f3ea

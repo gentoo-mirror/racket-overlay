@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/sxml dev-racket/sha >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/sha dev-racket/sxml >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Library with handy general-purpose functions and macro as well as specific ones
 EAPI=8
 HOMEPAGE=https://github.com/prozion/odysseus
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/sxml dev-racket/sha >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/sha dev-racket/sxml >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/prozion/odysseus/archive/9cce7d4276e403be2236639190f8a09519cece02.tar.gz -> odysseus-2021.05.15.tar.gz
 _eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=127a8003f731db25119bb9c4e9c8ef21
+_md5_=d7a04d7cc5a449a716eaff6c3e8d85e8

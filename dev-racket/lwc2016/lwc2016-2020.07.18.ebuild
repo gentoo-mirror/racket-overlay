@@ -17,5 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/ppict"
+RDEPEND="dev-racket/unstable-lib
+	dev-racket/ppict"
 DEPEND="${RDEPEND}"

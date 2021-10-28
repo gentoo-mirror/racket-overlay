@@ -15,5 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/hygienic-quote-lang"
+RDEPEND="dev-racket/unstable-macro-testing-lib
+	dev-racket/hygienic-quote-lang
+	dev-racket/unstable-lib"
 DEPEND="${RDEPEND}"

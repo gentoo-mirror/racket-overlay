@@ -15,6 +15,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/ppict
+RDEPEND="dev-racket/unstable-doc
+	dev-racket/unstable-lib
+	dev-racket/ppict
 	dev-racket/lux"
 DEPEND="${RDEPEND}"

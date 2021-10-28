@@ -15,7 +15,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/command-tree
+RDEPEND="dev-racket/charterm
+	dev-racket/command-tree
 	dev-racket/reprovide-lang
 	dev-racket/anaphoric
 	dev-racket/br-parser-tools-lib

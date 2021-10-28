@@ -17,6 +17,7 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/text-table
+	dev-racket/csv-reading
 	dev-racket/udelim
 	dev-racket/linea
 	dev-racket/shell-pipeline

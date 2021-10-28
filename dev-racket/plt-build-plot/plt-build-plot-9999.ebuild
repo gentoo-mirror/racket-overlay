@@ -16,6 +16,7 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/plt-service-monitor
+	dev-racket/plt-web-lib
 	dev-racket/s3-sync
 	dev-racket/aws"
 DEPEND="${RDEPEND}"

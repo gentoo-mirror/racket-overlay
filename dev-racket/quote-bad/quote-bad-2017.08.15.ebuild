@@ -17,5 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/hygienic-quote-lang"
+RDEPEND="dev-racket/unstable-macro-testing-lib
+	dev-racket/hygienic-quote-lang
+	dev-racket/unstable-lib"
 DEPEND="${RDEPEND}"

@@ -16,3 +16,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/remote-shell-lib
+	dev-racket/plt-web-lib"
+DEPEND="${RDEPEND}"

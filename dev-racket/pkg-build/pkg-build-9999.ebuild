@@ -14,3 +14,7 @@ HOMEPAGE="https://github.com/racket/pkg-build"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/remote-shell-lib
+	dev-racket/plt-web-lib"
+DEPEND="${RDEPEND}"

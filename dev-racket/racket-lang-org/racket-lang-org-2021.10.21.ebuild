@@ -25,5 +25,7 @@ RDEPEND="dev-racket/s3-sync
 	dev-racket/sugar
 	dev-racket/css-tools
 	dev-racket/pollen
-	dev-racket/graph"
+	dev-racket/plt-web-lib
+	dev-racket/graph
+	dev-racket/csv-reading"
 DEPEND="${RDEPEND}"

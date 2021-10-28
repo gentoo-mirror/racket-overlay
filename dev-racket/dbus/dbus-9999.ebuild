@@ -15,6 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/misc1
+RDEPEND="dev-racket/unstable-lib
+	dev-racket/misc1
 	dev-racket/xexpr-path"
 DEPEND="${RDEPEND}"

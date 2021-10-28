@@ -14,3 +14,6 @@ HOMEPAGE="https://github.com/nanopass/nanopass-framework-racket"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/unstable-pretty-lib"
+DEPEND="${RDEPEND}"

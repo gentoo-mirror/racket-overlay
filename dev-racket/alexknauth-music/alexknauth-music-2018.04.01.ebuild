@@ -17,7 +17,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/rsound
+RDEPEND="dev-racket/unstable-lib
+	dev-racket/rsound
 	dev-racket/reprovide-lang
 	dev-racket/txexpr
 	dev-racket/graph

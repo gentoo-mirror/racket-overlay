@@ -14,3 +14,6 @@ HOMEPAGE="https://github.com/takikawa/ppict-slide-grid"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/unstable-lib"
+DEPEND="${RDEPEND}"

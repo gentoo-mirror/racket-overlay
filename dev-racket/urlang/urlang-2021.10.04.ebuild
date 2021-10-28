@@ -17,5 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/nanopass"
+RDEPEND="dev-racket/nanopass
+	dev-racket/html-writing
+	dev-racket/html-parsing"
 DEPEND="${RDEPEND}"

@@ -15,3 +15,7 @@ S="${S}/distro-build-doc"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/distro-build-client
+	dev-racket/distro-build-server"
+DEPEND="${RDEPEND}"

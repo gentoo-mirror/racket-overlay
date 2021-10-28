@@ -16,5 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sxml"
+RDEPEND="dev-racket/sxml
+	dev-racket/csv-reading"
 DEPEND="${RDEPEND}"

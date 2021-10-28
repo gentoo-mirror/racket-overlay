@@ -18,7 +18,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/static-rename
+RDEPEND="dev-racket/unstable-list-lib
+	dev-racket/static-rename
 	dev-racket/match-plus
 	dev-racket/functional-lib
 	dev-racket/curly-fn-lib"

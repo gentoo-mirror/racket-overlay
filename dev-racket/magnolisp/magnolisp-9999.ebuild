@@ -14,3 +14,6 @@ HOMEPAGE="https://github.com/bldl/magnolisp"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/unstable-debug-lib"
+DEPEND="${RDEPEND}"

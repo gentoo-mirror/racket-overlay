@@ -16,6 +16,8 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/scribble-code-examples
+	dev-racket/unstable-list-lib
+	dev-racket/unstable-lib
 	dev-racket/reprovide-lang
 	dev-racket/sweet-exp
 	dev-racket/generic-bind"

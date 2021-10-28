@@ -15,8 +15,10 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/in-new-directory
+RDEPEND="dev-racket/unstable-doc
+	dev-racket/in-new-directory
 	dev-racket/pprint
+	dev-racket/unstable-contract-lib
 	dev-racket/set
 	dev-racket/parameter"
 DEPEND="${RDEPEND}"

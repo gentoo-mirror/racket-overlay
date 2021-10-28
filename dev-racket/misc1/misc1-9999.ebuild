@@ -14,3 +14,7 @@ HOMEPAGE="https://github.com/mordae/racket-misc1"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/unstable-doc
+	dev-racket/unstable-lib"
+DEPEND="${RDEPEND}"

@@ -17,6 +17,7 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/net-cookies-lib
 	dev-racket/css-expr
+	dev-racket/html-parsing
 	dev-racket/http
 	dev-racket/txexpr"
 DEPEND="${RDEPEND}"

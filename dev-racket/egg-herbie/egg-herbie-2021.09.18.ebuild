@@ -16,3 +16,9 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/egg-herbie-linux
+	dev-racket/egg-herbie-linux
+	dev-racket/egg-herbie-windows
+	dev-racket/egg-herbie-osx"
+DEPEND="${RDEPEND}"

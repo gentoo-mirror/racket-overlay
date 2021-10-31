@@ -11,5 +11,5 @@ RDEPEND=dev-racket/basedir >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/bennn/with-cache/archive/07e3ad861bbd98c212c8d24868af665617949a9d.tar.gz -> with-cache-2021.10.25.tar.gz
-_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
 _md5_=b9188d14112ca393b73e028370e487f0

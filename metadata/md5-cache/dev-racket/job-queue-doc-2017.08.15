@@ -11,5 +11,5 @@ RDEPEND=dev-racket/job-queue-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jeapostrophe/job-queue/archive/0a2c349636aa88b06c9c299ef201494df648b164.tar.gz -> job-queue-doc-2017.08.15.tar.gz
-_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
 _md5_=a352b8790c882b91833f4bc7cf1b4f66

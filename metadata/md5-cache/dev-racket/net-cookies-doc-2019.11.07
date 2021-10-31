@@ -11,5 +11,5 @@ RDEPEND=dev-racket/net-cookies-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/RenaissanceBug/racket-cookies/archive/f6b1a4ab18d09fae70f903663304ecaeb5f1041b.tar.gz -> net-cookies-doc-2019.11.07.tar.gz
-_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
 _md5_=b9b81584093e6851c20b4bf02c7bc0d7

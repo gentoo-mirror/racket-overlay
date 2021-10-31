@@ -11,5 +11,5 @@ RDEPEND=dev-racket/brag dev-racket/beautiful-racket dev-racket/beautiful-racket-
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/robertkleffner/wort/archive/433130f0f6f1fa90d7ed21b857d03bce856656b0.tar.gz -> wort-2021.08.03.tar.gz
-_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
 _md5_=d525e74a7722ec8db30a88d7663aa349

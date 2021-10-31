@@ -11,5 +11,5 @@ RDEPEND=dev-racket/adjutor dev-racket/gregor-lib dev-racket/gregor-doc >=dev-sch
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/LiberalArtist/liturgical-calendar/archive/69af60c76b565b5469d94fffe72917e722afdc6a.tar.gz -> liturgical-calendar-2021.05.28.tar.gz
-_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
 _md5_=4a0aaf7d0bd7310adc2e1770de433cbd

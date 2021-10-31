@@ -11,5 +11,5 @@ RDEPEND=dev-racket/br-parser-tools-lib dev-racket/beautiful-racket-lib dev-racke
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/robertkleffner/wort/archive/433130f0f6f1fa90d7ed21b857d03bce856656b0.tar.gz -> wort-2020.03.14.tar.gz
-_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
 _md5_=0076be4a32bb3d606289ba83c9e6e635

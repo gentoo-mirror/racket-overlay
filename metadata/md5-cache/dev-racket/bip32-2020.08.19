@@ -11,5 +11,5 @@ RDEPEND=dev-racket/binaryio dev-racket/sha dev-racket/crypto dev-racket/base58 d
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/marckn0x/bip32/archive/19f4460abd1f5fdacaa651064c4d8353401294f0.tar.gz -> bip32-2020.08.19.tar.gz
-_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
 _md5_=c78435827dd73aee5b066ea6950aa3ca

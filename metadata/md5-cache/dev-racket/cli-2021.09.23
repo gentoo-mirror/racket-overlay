@@ -11,5 +11,5 @@ RDEPEND=dev-racket/mischief dev-racket/version-case dev-racket/scribble-abbrevs 
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/countvajhula/cli/archive/ee7ccb3604a12bbdd65ae3c01ae2cd6ee8b38791.tar.gz -> cli-2021.09.23.tar.gz
-_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
 _md5_=ecf156de7d3cc8cf740eb0a258b60760

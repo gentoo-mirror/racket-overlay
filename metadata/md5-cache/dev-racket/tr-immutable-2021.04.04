@@ -11,5 +11,5 @@ RDEPEND=dev-racket/typed-map-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jsmaniac/tr-immutable/archive/218e8862718327696b2a7cd2e1ae82800a653306.tar.gz -> tr-immutable-2021.04.04.tar.gz
-_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
 _md5_=0789b2a854621a9a41a8cf23d19806a9

@@ -11,5 +11,5 @@ RDEPEND=dev-racket/graphics dev-racket/w3s dev-racket/digimon >=dev-scheme/racke
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/wargrey/mox/archive/2d7fd6945e4d3eeec076be759f966b0deeb85a3d.tar.gz -> mox-2021.07.19.tar.gz
-_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
 _md5_=96d4b51123f7545dd2105a8266c80259

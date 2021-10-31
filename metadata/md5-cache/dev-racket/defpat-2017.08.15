@@ -11,5 +11,5 @@ RDEPEND=dev-racket/generic-bind dev-racket/sweet-exp dev-racket/reprovide-lang d
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/defpat/archive/b1ab923ef4c92355de7ee77703d8af692835c8f0.tar.gz -> defpat-2017.08.15.tar.gz
-_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
 _md5_=d30dfe76209c787e7523c07e48679e5a

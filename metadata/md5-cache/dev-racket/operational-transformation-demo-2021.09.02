@@ -11,5 +11,5 @@ RDEPEND=dev-racket/operational-transformation-lib >=dev-scheme/racket-8.1:=[-min
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/tonyg/racket-operational-transformation/archive/685d60091bff0428c2ec3cd8c4f63c8ef8b28de5.tar.gz -> operational-transformation-demo-2021.09.02.tar.gz
-_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
 _md5_=9f29fa23e770a4d94015808bdd355b33

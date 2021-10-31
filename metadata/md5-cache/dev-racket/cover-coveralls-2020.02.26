@@ -11,5 +11,5 @@ RDEPEND=dev-racket/cover-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/rpless/cover-coveralls/archive/a5bb101d934e72f49b3f583707c58b921d61c07c.tar.gz -> cover-coveralls-2020.02.26.tar.gz
-_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
 _md5_=553e765d3a78d500d42b70126cd5223f

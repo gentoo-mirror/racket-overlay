@@ -11,5 +11,5 @@ RDEPEND=dev-racket/beautiful-racket-macro dev-racket/sugar dev-racket/debug >=de
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mbutterick/beautiful-racket/archive/b0d133f4ba4149ea506d8b0dbd3845c915efdd06.tar.gz -> beautiful-racket-lib-2021.05.19.tar.gz
-_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
 _md5_=65d7b372cfb3c16c12b072dc73c57e2a

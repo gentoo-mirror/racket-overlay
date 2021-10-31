@@ -11,5 +11,5 @@ RDEPEND=dev-racket/sweet-exp dev-racket/fancy-app dev-racket/cover dev-racket/do
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/racket-posn/archive/402ca7d3d5db28b04d82ff825a684c4995dcf355.tar.gz -> jack-posn-2017.08.15.tar.gz
-_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
 _md5_=76876e0168c9496c42ba77643730b407

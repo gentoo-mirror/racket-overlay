@@ -11,5 +11,5 @@ RDEPEND=dev-racket/html-parsing dev-racket/scribble-rainbow-delimiters >=dev-sch
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/yanyingwang/http-client/archive/183207563adbf371cab073d8ed46bb95d7e972c6.tar.gz -> http-client-2021.06.08.tar.gz
-_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
 _md5_=65d856401a2a3d93f50f23d0255a8795

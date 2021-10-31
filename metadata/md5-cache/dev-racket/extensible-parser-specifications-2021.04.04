@@ -11,5 +11,5 @@ RDEPEND=dev-racket/phc-toolkit dev-racket/generic-syntax-expanders dev-racket/al
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jsmaniac/extensible-parser-specifications/archive/616130a74b83cf7790257150655949698a7a3913.tar.gz -> extensible-parser-specifications-2021.04.04.tar.gz
-_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
 _md5_=c2bef00db393623cb5c0210558215df4

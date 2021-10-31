@@ -11,5 +11,5 @@ RDEPEND=dev-racket/collections dev-racket/scribble-code-examples >=dev-scheme/ra
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lotabout/axe/archive/234c2d1f6849f3719c3fc3c2354a4d257e53943b.tar.gz -> axe-2017.08.15.tar.gz
-_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
 _md5_=f1b0a38370e8567ff0fcffdc2bd50257

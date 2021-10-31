@@ -11,5 +11,5 @@ RDEPEND=dev-racket/plai-typed dev-racket/plai-typed-s-exp-match dev-racket/plai-
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mflatt/uu-cs5510/archive/d6736f807b31f637e141ae97d28d65e8e10465aa.tar.gz -> uu-cs5510-2017.08.15.tar.gz
-_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
 _md5_=77468e33c993ba21da527e920a589291

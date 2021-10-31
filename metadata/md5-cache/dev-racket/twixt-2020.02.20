@@ -11,5 +11,5 @@ RDEPEND=dev-racket/rebellion >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/twixt/archive/41aca88a7a7e5a993460df011da67b4fa31daadc.tar.gz -> twixt-2020.02.20.tar.gz
-_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
 _md5_=4486ec3bb6cf1e71d8ba011d47f0d09f

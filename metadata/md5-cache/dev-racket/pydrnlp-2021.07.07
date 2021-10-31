@@ -11,5 +11,5 @@ RDEPEND=dev-racket/ricoeur-kernel dev-racket/ricoeur-tei-utils dev-racket/adjuto
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://bitbucket.org/digitalricoeur/pydrnlp/get/666c1e00b67c0cc1ee6b5e3fbcfbec498b3173ac.tar.gz -> pydrnlp-2021.07.07.tar.gz
-_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
 _md5_=3fdcb02ba68d40e90ef1ae430f44f5e4

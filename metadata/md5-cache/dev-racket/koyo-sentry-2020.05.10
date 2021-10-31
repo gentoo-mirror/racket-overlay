@@ -11,5 +11,5 @@ RDEPEND=dev-racket/koyo-lib dev-racket/sentry-lib dev-racket/sentry-doc >=dev-sc
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/koyo-sentry/archive/f04efd69d239347bc44cba1587deb1bc3d5ba8c7.tar.gz -> koyo-sentry-2020.05.10.tar.gz
-_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
 _md5_=850e3ab4f54f6606db2134934fb12554

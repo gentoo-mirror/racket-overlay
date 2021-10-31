@@ -11,5 +11,5 @@ RDEPEND=dev-racket/custom-load >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/florence/cover/archive/ad50ffa8f6246053bec24b39b9cae7fad1534373.tar.gz -> cover-lib-2020.02.27.tar.gz
-_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
 _md5_=5de749d7031c16363b4f4060b3aa425e

@@ -11,5 +11,5 @@ RDEPEND=dev-racket/agile dev-racket/syntax-classes-lib >=dev-scheme/racket-8.1:=
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/macrotypefunctors/macrotypes-nonstx/archive/b3f9839b6f8dcce4bf3fe9c15d5017214300924d.tar.gz -> macrotypes-nonstx-2018.05.03.tar.gz
-_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
 _md5_=341374e7e430d183bef540af1590de98

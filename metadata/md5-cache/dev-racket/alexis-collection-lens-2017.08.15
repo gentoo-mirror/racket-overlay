@@ -11,5 +11,5 @@ RDEPEND=dev-racket/alexis-collections dev-racket/curly-fn dev-racket/lens dev-ra
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lexi-lambda/alexis-collection-lens/archive/4f91587e8a5728b02c1ea9af9ac7476baf39b928.tar.gz -> alexis-collection-lens-2017.08.15.tar.gz
-_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
 _md5_=9644f0edc90ae2aa8741260b7c6a3530

@@ -11,5 +11,5 @@ RDEPEND=dev-racket/graph-test dev-racket/graph-doc dev-racket/graph-lib >=dev-sc
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/stchang/graph/archive/0ff9a1934f4421c53ec4b71cb48d54a6ad86c7b9.tar.gz -> graph-2020.09.18.tar.gz
-_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
 _md5_=f1fb87e07763e7d971646cf036fa917e

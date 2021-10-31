@@ -11,5 +11,5 @@ RDEPEND=dev-racket/gregor-lib dev-racket/sentry-lib dev-racket/gregor-doc >=dev-
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/racket-sentry/archive/87d708bd4fc56ad272708ffd63ed1e2f50393b26.tar.gz -> sentry-doc-2021.04.22.tar.gz
-_eclasses_=xdg-utils	27f9a2f19502b925ac117bd657aa2979	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
 _md5_=92ad90e637600ef1f74a6ef9db176a47

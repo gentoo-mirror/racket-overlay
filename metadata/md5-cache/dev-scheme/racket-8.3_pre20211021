@@ -11,5 +11,5 @@ RDEPEND=!dev-tex/slatex dev-db/sqlite:3 dev-libs/libffi:= X? ( dev-util/desktop-
 REQUIRED_USE=futures? ( jit )
 SLOT=0/8.3.0.3
 SRC_URI=minimal? ( https://plt.cs.northwestern.edu/snapshots/20211021-29226bc0dc/installers/racket-minimal-8.3.0.3-src-builtpkgs.tgz -> racket-8.3_pre20211021-minimal.tgz ) !minimal? ( https://plt.cs.northwestern.edu/snapshots/20211021-29226bc0dc/installers/racket-test-8.3.0.3-src-builtpkgs.tgz -> racket-8.3_pre20211021.tgz )
-_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	optfeature	30ce9dec2b8943338c9b015bd32bac6a	xdg-utils	27f9a2f19502b925ac117bd657aa2979
+_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	optfeature	30ce9dec2b8943338c9b015bd32bac6a	xdg-utils	4f29a8b760a594a212abe9c2ba957c31
 _md5_=47158a3b05ba1feb72f267e966b25c3b

@@ -14,3 +14,6 @@ HOMEPAGE="https://github.com/Metaxal/bazaar"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/define2"
+DEPEND="${RDEPEND}"

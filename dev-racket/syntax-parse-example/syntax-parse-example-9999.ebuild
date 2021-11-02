@@ -4,12 +4,12 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="bennn/syntax-parse-example"
+GH_REPO="syntax-objects/syntax-parse-example"
 
 inherit racket gh
 
 DESCRIPTION="Example macros written using syntax/parse"
-HOMEPAGE="https://github.com/bennn/syntax-parse-example"
+HOMEPAGE="https://github.com/syntax-objects/syntax-parse-example"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

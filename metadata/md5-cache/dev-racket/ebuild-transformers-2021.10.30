@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/upi-lib dev-racket/ebuild-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Library to ease automatic ebuild creation. Additional helper libraries.
+EAPI=8
+HOMEPAGE=https://gitlab.com/xgqt/racket-ebuild
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/upi-lib dev-racket/ebuild-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://gitlab.com/xgqt/racket-ebuild/-/archive/a69863c0afb919205c81bc1c2852cd1c85fee3cf.tar.gz -> ebuild-transformers-2021.10.30.tar.gz
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=87cf38f732fad120669f11be949b6c1d

@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=An implementation of RFC5321 for Racket. (docs & implementation)
+EAPI=8
+HOMEPAGE=https://github.com/Bogdanp/racket-smtp-server
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/Bogdanp/racket-smtp-server/archive/43c45bd45bb9d4a227ed58e3ace1cfea07793af4.tar.gz -> smtp-server-2021.11.02.tar.gz
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=6ae6ce8589757cdd91f9b21e70ed7509

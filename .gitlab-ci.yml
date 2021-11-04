@@ -47,9 +47,7 @@ pages:
   image: racket/racket:8.1-full
 
   script:
-    - cd scribblings
-    - sh ./build.sh
-    - mv doc/racket-overlay ../public
+    - make doc
 
   artifacts:
     expire_in: 1 week

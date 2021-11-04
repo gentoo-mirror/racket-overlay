@@ -37,5 +37,5 @@ tab_width = 4
 indent_size = 2
 tab_width = 2
 
-[.gitmodules]
+[{.gitmodules,Makefile}]
 indent_style = tab

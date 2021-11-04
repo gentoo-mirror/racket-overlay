@@ -20,7 +20,7 @@
 
 doc:
 	cd ./scribblings && sh ./build.sh
-	rm -dr ./public
+	if [ -d ./public ] ; then rm -dr ./public ; fi
 	cp -r ./scribblings/doc/racket-overlay ./public
 
 test:

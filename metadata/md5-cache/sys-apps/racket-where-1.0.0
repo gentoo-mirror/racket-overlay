@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Small tool to find Racket packages
+EAPI=8
+HOMEPAGE=https://gitlab.com/src_prepare/racket/racket-where
+INHERIT=racket
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://gitlab.com/src_prepare/racket/racket-where/-/archive/1.0.0/racket-where-1.0.0.tar.gz
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c
+_md5_=ab8f5925eb813d826cfc6027b13ea361

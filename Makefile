@@ -26,5 +26,5 @@ doc:
 test:
 	repoman -dxv full
 
-update-submodules:
+submodules:
 	sh ./3rd_party/scripts/src/update-submodules

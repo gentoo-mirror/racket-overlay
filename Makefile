@@ -7,7 +7,7 @@
 
 # racket-overlay is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.	See the
 # GNU General Public License for more details.
 
 # You should have received a copy of the GNU General Public License
@@ -18,24 +18,13 @@
 # Licensed under the GNU GPL v2 License
 
 
-root = true
+doc:
+	cd ./scribblings && sh ./build.sh
+	rm -dr ./public
+	cp -r ./scribblings/doc/racket-overlay ./public
 
-[*]
-charset = utf-8
-end_of_line = lf
-indent_style = space
-insert_final_newline = true
-tab_width = 4
-trim_trailing_whitespace = true
+test:
+	repoman -dxv full
 
-[*.ebuild]
-indent_style = tab
-indent_size = 4
-tab_width = 4
-
-[{*.xml,*.yml}]
-indent_size = 2
-tab_width = 2
-
-[{.gitmodules,Makefile}]
-indent_style = tab
+update-submodules:
+	sh ./3rd_party/scripts/src/update-submodules

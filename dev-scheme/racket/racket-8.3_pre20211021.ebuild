@@ -28,7 +28,7 @@ LICENSE="
 SLOT="0/${PLT_V}"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
-IUSE="X +chez +doc +futures +jit minimal +places +readline +threads"
+IUSE="X +chez +doc +futures +jit minimal +places +threads"
 REQUIRED_USE="futures? ( jit )"
 
 DEPEND="
@@ -44,7 +44,6 @@ DEPEND="
 		x11-libs/pango[X]
 		x11-misc/shared-mime-info
 	)
-	readline? ( dev-libs/libedit )
 "
 RDEPEND="${DEPEND}"
 
@@ -155,6 +154,7 @@ pkg_preinst() {
 pkg_postinst() {
 	post_X_update
 
+	optfeature "readline editing features in REPL" dev-libs/libedit
 	optfeature "generating PDF files using Scribble" dev-texlive/texlive-fontsextra
 }
 

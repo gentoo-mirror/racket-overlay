@@ -17,8 +17,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/latex-utils
-	dev-racket/unstable-redex
+RDEPEND="dev-racket/chk-lib
+	dev-racket/latex-utils
 	dev-racket/private-in
-	dev-racket/chk-lib"
+	dev-racket/unstable-redex"
 DEPEND="${RDEPEND}"

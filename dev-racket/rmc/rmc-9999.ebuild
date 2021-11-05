@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/pprint
-	dev-racket/chk"
+RDEPEND="dev-racket/chk
+	dev-racket/pprint"
 DEPEND="${RDEPEND}"

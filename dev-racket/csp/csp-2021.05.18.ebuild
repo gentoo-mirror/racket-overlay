@@ -18,7 +18,7 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/beautiful-racket-lib
-	dev-racket/sugar
 	dev-racket/debug
-	dev-racket/graph"
+	dev-racket/graph
+	dev-racket/sugar"
 DEPEND="${RDEPEND}"

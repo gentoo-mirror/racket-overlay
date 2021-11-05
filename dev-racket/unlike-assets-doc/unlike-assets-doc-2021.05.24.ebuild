@@ -18,7 +18,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/unlike-assets-lib
+RDEPEND="dev-racket/graph-lib
 	dev-racket/kinda-ferpy
-	dev-racket/graph-lib"
+	dev-racket/unlike-assets-lib"
 DEPEND="${RDEPEND}"

@@ -18,15 +18,15 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/syntax-classes
+RDEPEND="dev-racket/basedir
+	dev-racket/beautiful-racket
 	dev-racket/br-parser-tools-lib
 	dev-racket/brag-lib
-	dev-racket/beautiful-racket
 	dev-racket/crypto-lib
 	dev-racket/mischief
-	dev-racket/pretty-format
 	dev-racket/predicates
-	dev-racket/basedir
+	dev-racket/pretty-format
 	dev-racket/request
-	dev-racket/sha"
+	dev-racket/sha
+	dev-racket/syntax-classes"
 DEPEND="${RDEPEND}"

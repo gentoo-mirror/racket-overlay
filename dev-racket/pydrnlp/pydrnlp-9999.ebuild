@@ -15,14 +15,14 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/ricoeur-kernel
-	dev-racket/ricoeur-tei-utils
+RDEPEND="dev-racket/_-exp
 	dev-racket/adjutor
-	dev-racket/python-tokenizer
-	dev-racket/reprovide-lang
-	dev-racket/sql
 	dev-racket/gregor-lib
 	dev-racket/markdown
-	dev-racket/_-exp
-	dev-racket/rackjure"
+	dev-racket/python-tokenizer
+	dev-racket/rackjure
+	dev-racket/reprovide-lang
+	dev-racket/ricoeur-kernel
+	dev-racket/ricoeur-tei-utils
+	dev-racket/sql"
 DEPEND="${RDEPEND}"

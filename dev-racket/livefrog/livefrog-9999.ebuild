@@ -15,7 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sxml
+RDEPEND="dev-racket/find-parent-dir
 	dev-racket/frog
-	dev-racket/find-parent-dir"
+	dev-racket/sxml"
 DEPEND="${RDEPEND}"

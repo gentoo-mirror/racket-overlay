@@ -18,7 +18,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/graph-lib
-	dev-racket/graph-doc
+RDEPEND="dev-racket/graph-doc
+	dev-racket/graph-lib
 	dev-racket/graph-test"
 DEPEND="${RDEPEND}"

@@ -17,9 +17,9 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sweet-exp
-	dev-racket/lens
+RDEPEND="dev-racket/cover
+	dev-racket/doc-coverage
 	dev-racket/fancy-app
-	dev-racket/cover
-	dev-racket/doc-coverage"
+	dev-racket/lens
+	dev-racket/sweet-exp"
 DEPEND="${RDEPEND}"

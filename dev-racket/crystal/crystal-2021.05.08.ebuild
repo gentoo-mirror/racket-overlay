@@ -20,6 +20,6 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/crypto-lib
 	dev-racket/csexp
-	dev-racket/magenc
-	dev-racket/html-writing"
+	dev-racket/html-writing
+	dev-racket/magenc"
 DEPEND="${RDEPEND}"

@@ -20,6 +20,6 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/find-parent-dir
 	dev-racket/markdown
 	dev-racket/reprovide-lang
-	dev-racket/threading-lib
-	dev-racket/threading-doc"
+	dev-racket/threading-doc
+	dev-racket/threading-lib"
 DEPEND="${RDEPEND}"

@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/brag
-	dev-racket/beautiful-racket-lib"
+RDEPEND="dev-racket/beautiful-racket-lib
+	dev-racket/brag"
 DEPEND="${RDEPEND}"

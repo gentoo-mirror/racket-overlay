@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/temp-c-lib
-	dev-racket/automata"
+RDEPEND="dev-racket/automata
+	dev-racket/temp-c-lib"
 DEPEND="${RDEPEND}"

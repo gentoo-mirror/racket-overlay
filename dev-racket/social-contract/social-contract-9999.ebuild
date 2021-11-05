@@ -15,15 +15,15 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/collections-lib
+RDEPEND="dev-racket/adjutor
+	dev-racket/collections-doc
+	dev-racket/collections-lib
+	dev-racket/cover
+	dev-racket/cover-coveralls
 	dev-racket/functional-lib
 	dev-racket/megaparsack-lib
 	dev-racket/megaparsack-parser-tools
 	dev-racket/mischief
-	dev-racket/version-case
 	dev-racket/scribble-abbrevs
-	dev-racket/collections-doc
-	dev-racket/cover
-	dev-racket/cover-coveralls
-	dev-racket/adjutor"
+	dev-racket/version-case"
 DEPEND="${RDEPEND}"

@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/vela-lib
-	dev-racket/vela-docs"
+RDEPEND="dev-racket/vela-docs
+	dev-racket/vela-lib"
 DEPEND="${RDEPEND}"

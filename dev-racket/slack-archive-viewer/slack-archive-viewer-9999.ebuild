@@ -15,11 +15,11 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sass
+RDEPEND="dev-racket/beeswax
 	dev-racket/jsond
+	dev-racket/markdown
 	dev-racket/pollen
-	dev-racket/beeswax
-	dev-racket/txexpr
+	dev-racket/sass
 	dev-racket/sugar
-	dev-racket/markdown"
+	dev-racket/txexpr"
 DEPEND="${RDEPEND}"

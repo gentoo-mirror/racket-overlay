@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/neuron-lib
-	dev-racket/neuron-doc"
+RDEPEND="dev-racket/neuron-doc
+	dev-racket/neuron-lib"
 DEPEND="${RDEPEND}"

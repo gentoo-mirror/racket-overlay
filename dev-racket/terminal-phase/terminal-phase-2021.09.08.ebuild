@@ -17,9 +17,9 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/lux
+RDEPEND="dev-racket/ansi
 	dev-racket/goblins
+	dev-racket/lux
 	dev-racket/pk
-	dev-racket/raart
-	dev-racket/ansi"
+	dev-racket/raart"
 DEPEND="${RDEPEND}"

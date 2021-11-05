@@ -15,8 +15,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/phc-toolkit
+RDEPEND="dev-racket/alexis-util
 	dev-racket/generic-syntax-expanders
-	dev-racket/alexis-util
+	dev-racket/phc-toolkit
 	dev-racket/seq-no-order"
 DEPEND="${RDEPEND}"

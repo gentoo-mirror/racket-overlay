@@ -16,10 +16,10 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/lens-lib
+RDEPEND="dev-racket/doc-coverage
+	dev-racket/jack-scribble-example
+	dev-racket/lens-lib
 	dev-racket/lens-unstable
 	dev-racket/reprovide-lang-lib
-	dev-racket/jack-scribble-example
-	dev-racket/doc-coverage
 	dev-racket/sweet-exp-lib"
 DEPEND="${RDEPEND}"

@@ -16,8 +16,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/polyglot-lib
-	dev-racket/aws
-	dev-racket/unlike-assets-lib
-	dev-racket/markdown"
+RDEPEND="dev-racket/aws
+	dev-racket/markdown
+	dev-racket/polyglot-lib
+	dev-racket/unlike-assets-lib"
 DEPEND="${RDEPEND}"

@@ -17,9 +17,9 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/lens
-	dev-racket/hash-lambda
+RDEPEND="dev-racket/hash-lambda
+	dev-racket/heresy
 	dev-racket/kw-utils
-	dev-racket/unstable-lib
-	dev-racket/heresy"
+	dev-racket/lens
+	dev-racket/unstable-lib"
 DEPEND="${RDEPEND}"

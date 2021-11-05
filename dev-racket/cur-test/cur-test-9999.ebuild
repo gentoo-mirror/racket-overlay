@@ -16,8 +16,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/cur-lib
-	dev-racket/sweet-exp-lib
-	dev-racket/chk-lib
-	dev-racket/rackunit-macrotypes-lib"
+RDEPEND="dev-racket/chk-lib
+	dev-racket/cur-lib
+	dev-racket/rackunit-macrotypes-lib
+	dev-racket/sweet-exp-lib"
 DEPEND="${RDEPEND}"

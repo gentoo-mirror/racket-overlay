@@ -18,7 +18,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/threading
+RDEPEND="dev-racket/anaphoric
 	dev-racket/graph-lib
-	dev-racket/anaphoric"
+	dev-racket/threading"
 DEPEND="${RDEPEND}"

@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/markparam-lib
-	dev-racket/markparam-doc"
+RDEPEND="dev-racket/markparam-doc
+	dev-racket/markparam-lib"
 DEPEND="${RDEPEND}"

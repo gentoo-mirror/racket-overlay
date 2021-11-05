@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/reprovide-lang-lib
-	dev-racket/rackunit-chk"
+RDEPEND="dev-racket/rackunit-chk
+	dev-racket/reprovide-lang-lib"
 DEPEND="${RDEPEND}"

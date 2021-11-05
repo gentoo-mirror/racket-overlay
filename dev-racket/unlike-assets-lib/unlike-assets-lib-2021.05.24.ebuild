@@ -18,8 +18,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/file-watchers
-	dev-racket/ansi-color
+RDEPEND="dev-racket/ansi-color
+	dev-racket/file-watchers
 	dev-racket/graph-lib
 	dev-racket/kinda-ferpy"
 DEPEND="${RDEPEND}"

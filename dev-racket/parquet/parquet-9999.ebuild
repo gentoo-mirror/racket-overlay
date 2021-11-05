@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/thrift
-	dev-racket/cover-coveralls"
+RDEPEND="dev-racket/cover-coveralls
+	dev-racket/thrift"
 DEPEND="${RDEPEND}"

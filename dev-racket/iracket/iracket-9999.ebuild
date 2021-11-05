@@ -15,7 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/zeromq-r-lib
+RDEPEND="dev-racket/sha
 	dev-racket/uuid
-	dev-racket/sha"
+	dev-racket/zeromq-r-lib"
 DEPEND="${RDEPEND}"

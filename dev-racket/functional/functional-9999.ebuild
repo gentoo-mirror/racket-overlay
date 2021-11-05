@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/functional-lib
-	dev-racket/functional-doc"
+RDEPEND="dev-racket/functional-doc
+	dev-racket/functional-lib"
 DEPEND="${RDEPEND}"

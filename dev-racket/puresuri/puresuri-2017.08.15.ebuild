@@ -19,6 +19,6 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/lux
 	dev-racket/ppict
-	dev-racket/unstable-lib
-	dev-racket/unstable-doc"
+	dev-racket/unstable-doc
+	dev-racket/unstable-lib"
 DEPEND="${RDEPEND}"

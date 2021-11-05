@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/xfunctions-lib
-	dev-racket/xfunctions-doc"
+RDEPEND="dev-racket/xfunctions-doc
+	dev-racket/xfunctions-lib"
 DEPEND="${RDEPEND}"

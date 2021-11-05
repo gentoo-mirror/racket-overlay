@@ -15,9 +15,9 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/lux
-	dev-racket/unix-signals
+RDEPEND="dev-racket/ansi
+	dev-racket/lux
 	dev-racket/reprovide-lang
-	dev-racket/ansi
-	dev-racket/struct-define"
+	dev-racket/struct-define
+	dev-racket/unix-signals"
 DEPEND="${RDEPEND}"

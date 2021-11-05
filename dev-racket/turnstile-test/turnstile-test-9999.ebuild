@@ -16,7 +16,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/turnstile-lib
+RDEPEND="dev-racket/rackunit-macrotypes-lib
 	dev-racket/turnstile-example
-	dev-racket/rackunit-macrotypes-lib"
+	dev-racket/turnstile-lib"
 DEPEND="${RDEPEND}"

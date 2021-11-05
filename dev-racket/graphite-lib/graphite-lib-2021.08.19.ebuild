@@ -23,6 +23,6 @@ RDEPEND="dev-racket/colormaps
 	dev-racket/ddict
 	dev-racket/fancy-app
 	dev-racket/loess
-	dev-racket/threading-lib
-	dev-racket/simple-polynomial"
+	dev-racket/simple-polynomial
+	dev-racket/threading-lib"
 DEPEND="${RDEPEND}"

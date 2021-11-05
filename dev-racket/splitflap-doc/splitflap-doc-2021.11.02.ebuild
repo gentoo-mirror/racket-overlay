@@ -18,8 +18,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/txexpr
-	dev-racket/gregor-doc
+RDEPEND="dev-racket/gregor-doc
 	dev-racket/gregor-lib
-	dev-racket/splitflap-lib"
+	dev-racket/splitflap-lib
+	dev-racket/txexpr"
 DEPEND="${RDEPEND}"

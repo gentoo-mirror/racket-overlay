@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sweet-exp
-	dev-racket/hygienic-reader-extension"
+RDEPEND="dev-racket/hygienic-reader-extension
+	dev-racket/sweet-exp"
 DEPEND="${RDEPEND}"

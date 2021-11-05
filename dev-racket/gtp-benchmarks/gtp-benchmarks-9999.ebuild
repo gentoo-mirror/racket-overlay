@@ -15,8 +15,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/require-typed-check
-	dev-racket/gtp-util
+RDEPEND="dev-racket/gtp-util
+	dev-racket/require-typed-check
 	dev-racket/scribble-abbrevs
 	dev-racket/syntax-sloc
 	dev-racket/with-cache"

@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sasl-lib
-	dev-racket/sasl-doc"
+RDEPEND="dev-racket/sasl-doc
+	dev-racket/sasl-lib"
 DEPEND="${RDEPEND}"

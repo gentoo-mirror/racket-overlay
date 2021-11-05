@@ -15,7 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/txexpr
-	dev-racket/graph-lib
-	dev-racket/natural-cli"
+RDEPEND="dev-racket/graph-lib
+	dev-racket/natural-cli
+	dev-racket/txexpr"
 DEPEND="${RDEPEND}"

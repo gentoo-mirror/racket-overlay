@@ -15,7 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/struct-plus-plus
-	dev-racket/thread-with-id
-	dev-racket/handy"
+RDEPEND="dev-racket/handy
+	dev-racket/struct-plus-plus
+	dev-racket/thread-with-id"
 DEPEND="${RDEPEND}"

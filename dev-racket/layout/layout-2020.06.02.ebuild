@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/reprovide-lang-lib
-	dev-racket/rackunit-chk"
+RDEPEND="dev-racket/rackunit-chk
+	dev-racket/reprovide-lang-lib"
 DEPEND="${RDEPEND}"

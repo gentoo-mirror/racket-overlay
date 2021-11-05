@@ -15,8 +15,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/unstable-lib
-	dev-racket/unstable-list-lib
-	dev-racket/kw-utils
-	dev-racket/mutable-match-lambda"
+RDEPEND="dev-racket/kw-utils
+	dev-racket/mutable-match-lambda
+	dev-racket/unstable-lib
+	dev-racket/unstable-list-lib"
 DEPEND="${RDEPEND}"

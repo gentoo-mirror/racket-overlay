@@ -16,6 +16,6 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/agile
-	dev-racket/collections-lib
-	dev-racket/collections-doc"
+	dev-racket/collections-doc
+	dev-racket/collections-lib"
 DEPEND="${RDEPEND}"

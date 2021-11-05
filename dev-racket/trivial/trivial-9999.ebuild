@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/reprovide-lang
-	dev-racket/rackunit-abbrevs"
+RDEPEND="dev-racket/rackunit-abbrevs
+	dev-racket/reprovide-lang"
 DEPEND="${RDEPEND}"

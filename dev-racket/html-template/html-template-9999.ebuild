@@ -16,8 +16,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/mcfly
-	dev-racket/html-writing
+RDEPEND="dev-racket/html-writing
+	dev-racket/mcfly
 	dev-racket/overeasy"
 DEPEND="${RDEPEND}"
 

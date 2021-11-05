@@ -17,9 +17,9 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/syntax-classes-lib
-	dev-racket/arguments
+RDEPEND="dev-racket/arguments
+	dev-racket/doc-coverage
 	dev-racket/fancy-app
 	dev-racket/reprovide-lang
-	dev-racket/doc-coverage"
+	dev-racket/syntax-classes-lib"
 DEPEND="${RDEPEND}"

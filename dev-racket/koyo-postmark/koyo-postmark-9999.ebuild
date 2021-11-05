@@ -15,7 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/koyo-lib
-	dev-racket/postmark-client
-	dev-racket/koyo-doc"
+RDEPEND="dev-racket/koyo-doc
+	dev-racket/koyo-lib
+	dev-racket/postmark-client"
 DEPEND="${RDEPEND}"

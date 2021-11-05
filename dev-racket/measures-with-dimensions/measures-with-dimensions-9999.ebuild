@@ -15,10 +15,10 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/threading
-	dev-racket/unstable-lib
-	dev-racket/sweet-exp
-	dev-racket/reprovide-lang
+RDEPEND="dev-racket/colon-match
 	dev-racket/predicates
-	dev-racket/colon-match"
+	dev-racket/reprovide-lang
+	dev-racket/sweet-exp
+	dev-racket/threading
+	dev-racket/unstable-lib"
 DEPEND="${RDEPEND}"

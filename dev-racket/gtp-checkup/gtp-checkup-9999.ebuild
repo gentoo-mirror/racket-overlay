@@ -19,6 +19,6 @@ RDEPEND="dev-racket/basedir
 	dev-racket/gregor
 	dev-racket/gtp-util
 	dev-racket/memoize
-	dev-racket/require-typed-check
-	dev-racket/pict-abbrevs"
+	dev-racket/pict-abbrevs
+	dev-racket/require-typed-check"
 DEPEND="${RDEPEND}"

@@ -18,10 +18,10 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/lens-lib
+RDEPEND="dev-racket/doc-coverage
+	dev-racket/jack-scribble-example
+	dev-racket/lens-lib
 	dev-racket/lens-unstable
 	dev-racket/reprovide-lang-lib
-	dev-racket/jack-scribble-example
-	dev-racket/doc-coverage
 	dev-racket/sweet-exp-lib"
 DEPEND="${RDEPEND}"

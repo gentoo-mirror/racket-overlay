@@ -16,6 +16,6 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/koyo-lib
-	dev-racket/sentry-lib
-	dev-racket/sentry-doc"
+	dev-racket/sentry-doc
+	dev-racket/sentry-lib"
 DEPEND="${RDEPEND}"

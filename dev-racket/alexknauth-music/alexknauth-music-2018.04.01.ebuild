@@ -20,8 +20,8 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/agile
 	dev-racket/collections-lib
 	dev-racket/graph
-	dev-racket/txexpr
 	dev-racket/reprovide-lang
 	dev-racket/rsound
+	dev-racket/txexpr
 	dev-racket/unstable-lib"
 DEPEND="${RDEPEND}"

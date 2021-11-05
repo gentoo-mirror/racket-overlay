@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/turnstile-lib
-	dev-racket/macrotypes-lib"
+RDEPEND="dev-racket/macrotypes-lib
+	dev-racket/turnstile-lib"
 DEPEND="${RDEPEND}"

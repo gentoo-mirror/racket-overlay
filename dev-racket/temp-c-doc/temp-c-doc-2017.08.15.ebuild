@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/temp-c-lib
-	dev-racket/automata"
+RDEPEND="dev-racket/automata
+	dev-racket/temp-c-lib"
 DEPEND="${RDEPEND}"

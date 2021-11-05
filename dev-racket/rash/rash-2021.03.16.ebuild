@@ -19,7 +19,7 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/basedir
-	dev-racket/shell-pipeline
 	dev-racket/linea
+	dev-racket/shell-pipeline
 	dev-racket/udelim"
 DEPEND="${RDEPEND}"

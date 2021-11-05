@@ -18,11 +18,11 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/memoize
-	dev-racket/tzinfo
+RDEPEND="dev-racket/cldr-bcp47
 	dev-racket/cldr-core
-	dev-racket/cldr-bcp47
-	dev-racket/cldr-numbers-modern
 	dev-racket/cldr-dates-modern
-	dev-racket/cldr-localenames-modern"
+	dev-racket/cldr-localenames-modern
+	dev-racket/cldr-numbers-modern
+	dev-racket/memoize
+	dev-racket/tzinfo"
 DEPEND="${RDEPEND}"

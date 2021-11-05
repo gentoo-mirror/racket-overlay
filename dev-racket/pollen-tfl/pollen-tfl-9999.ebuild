@@ -15,9 +15,9 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/pollen
+RDEPEND="dev-racket/css-tools
 	dev-racket/hyphenate
-	dev-racket/css-tools
-	dev-racket/txexpr
-	dev-racket/sugar"
+	dev-racket/pollen
+	dev-racket/sugar
+	dev-racket/txexpr"
 DEPEND="${RDEPEND}"

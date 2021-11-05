@@ -19,9 +19,9 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/automata-lib
 	dev-racket/markparam-lib
 	dev-racket/ppict
+	dev-racket/staged-slide
 	dev-racket/temp-c-lib
-	dev-racket/unstable-macro-testing-lib
-	dev-racket/staged-slide"
+	dev-racket/unstable-macro-testing-lib"
 DEPEND="${RDEPEND}"
 
 src_unpack() {

@@ -17,8 +17,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/opengl
-	dev-racket/glm
+RDEPEND="dev-racket/glm
 	dev-racket/glsl
+	dev-racket/opengl
 	dev-racket/reprovide-lang-lib"
 DEPEND="${RDEPEND}"

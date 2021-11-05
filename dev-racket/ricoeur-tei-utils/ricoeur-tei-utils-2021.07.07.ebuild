@@ -17,17 +17,17 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/adjutor
-	dev-racket/ricoeur-kernel
+RDEPEND="dev-racket/_-exp
+	dev-racket/adjutor
+	dev-racket/functional-doc
 	dev-racket/functional-lib
-	dev-racket/roman-numeral
+	dev-racket/gregor-doc
 	dev-racket/gregor-lib
-	dev-racket/sql
 	dev-racket/icns
 	dev-racket/nanopass
 	dev-racket/reprovide-lang-lib
-	dev-racket/functional-doc
-	dev-racket/gregor-doc
-	dev-racket/_-exp
+	dev-racket/ricoeur-kernel
+	dev-racket/roman-numeral
+	dev-racket/sql
 	dev-racket/todo-list"
 DEPEND="${RDEPEND}"

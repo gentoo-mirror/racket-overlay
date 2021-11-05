@@ -15,8 +15,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sxml
-	dev-racket/webapi
-	dev-racket/html-parsing
-	dev-racket/html-writing"
+RDEPEND="dev-racket/html-parsing
+	dev-racket/html-writing
+	dev-racket/sxml
+	dev-racket/webapi"
 DEPEND="${RDEPEND}"

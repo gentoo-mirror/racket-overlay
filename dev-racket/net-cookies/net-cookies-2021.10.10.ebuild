@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/net-cookies-lib
-	dev-racket/net-cookies-doc"
+RDEPEND="dev-racket/net-cookies-doc
+	dev-racket/net-cookies-lib"
 DEPEND="${RDEPEND}"

@@ -16,7 +16,7 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/anaphoric
-	dev-racket/mode-lambda
 	dev-racket/lux
+	dev-racket/mode-lambda
 	dev-racket/reprovide-lang"
 DEPEND="${RDEPEND}"

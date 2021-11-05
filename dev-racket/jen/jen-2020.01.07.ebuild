@@ -18,7 +18,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/jen-lib
-	dev-racket/jen-doc
+RDEPEND="dev-racket/jen-doc
+	dev-racket/jen-lib
 	dev-racket/jen-samples"
 DEPEND="${RDEPEND}"

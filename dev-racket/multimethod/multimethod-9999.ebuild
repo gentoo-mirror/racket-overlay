@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/multimethod-lib
-	dev-racket/multimethod-doc"
+RDEPEND="dev-racket/multimethod-doc
+	dev-racket/multimethod-lib"
 DEPEND="${RDEPEND}"

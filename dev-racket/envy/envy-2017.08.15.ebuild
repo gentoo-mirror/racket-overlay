@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sweet-exp-lib
-	dev-racket/threading
-	dev-racket/sweet-exp"
+RDEPEND="dev-racket/sweet-exp
+	dev-racket/sweet-exp-lib
+	dev-racket/threading"
 DEPEND="${RDEPEND}"

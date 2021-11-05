@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/wffi
-	dev-racket/rackjure"
+RDEPEND="dev-racket/rackjure
+	dev-racket/wffi"
 DEPEND="${RDEPEND}"

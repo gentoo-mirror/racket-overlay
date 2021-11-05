@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/elle-lib
-	dev-racket/elle-doc"
+RDEPEND="dev-racket/elle-doc
+	dev-racket/elle-lib"
 DEPEND="${RDEPEND}"

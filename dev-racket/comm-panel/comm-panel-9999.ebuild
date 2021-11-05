@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/happy-names
-	dev-racket/aws"
+RDEPEND="dev-racket/aws
+	dev-racket/happy-names"
 DEPEND="${RDEPEND}"

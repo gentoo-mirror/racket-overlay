@@ -16,13 +16,13 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/beautiful-racket-lib
+	dev-racket/debug
 	dev-racket/fontland
 	dev-racket/hyphenate
+	dev-racket/markdown
 	dev-racket/pitfall
 	dev-racket/pollen
 	dev-racket/sugar
 	dev-racket/txexpr
-	dev-racket/markdown
-	dev-racket/debug
 	dev-racket/words"
 DEPEND="${RDEPEND}"

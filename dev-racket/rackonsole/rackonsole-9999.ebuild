@@ -16,9 +16,9 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/mcfly
-	dev-racket/charterm
+RDEPEND="dev-racket/charterm
 	dev-racket/gdbdump
+	dev-racket/mcfly
 	dev-racket/overeasy"
 DEPEND="${RDEPEND}"
 

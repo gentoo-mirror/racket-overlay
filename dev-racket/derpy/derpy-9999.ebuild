@@ -15,11 +15,11 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/mordae
-	dev-racket/zmq
-	dev-racket/tesira
-	dev-racket/libserialport
+RDEPEND="dev-racket/cuecore
 	dev-racket/esc-vp21
+	dev-racket/libserialport
+	dev-racket/mordae
 	dev-racket/pex
-	dev-racket/cuecore"
+	dev-racket/tesira
+	dev-racket/zmq"
 DEPEND="${RDEPEND}"

@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/pict3d
-	dev-racket/glu-tessellate"
+RDEPEND="dev-racket/glu-tessellate
+	dev-racket/pict3d"
 DEPEND="${RDEPEND}"

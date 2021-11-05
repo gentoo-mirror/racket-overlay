@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/misc1
-	dev-racket/libuuid"
+RDEPEND="dev-racket/libuuid
+	dev-racket/misc1"
 DEPEND="${RDEPEND}"

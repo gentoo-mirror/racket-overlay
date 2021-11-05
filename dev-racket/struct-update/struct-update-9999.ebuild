@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/struct-update-lib
-	dev-racket/struct-update-doc"
+RDEPEND="dev-racket/struct-update-doc
+	dev-racket/struct-update-lib"
 DEPEND="${RDEPEND}"

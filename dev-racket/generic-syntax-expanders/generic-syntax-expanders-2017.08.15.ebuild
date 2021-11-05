@@ -18,8 +18,8 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/fancy-app
-	dev-racket/reprovide-lang
 	dev-racket/lens
 	dev-racket/point-free
-	dev-racket/predicates"
+	dev-racket/predicates
+	dev-racket/reprovide-lang"
 DEPEND="${RDEPEND}"

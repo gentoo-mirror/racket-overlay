@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/scribble-math
-	dev-racket/linux-shared-libraries"
+RDEPEND="dev-racket/linux-shared-libraries
+	dev-racket/scribble-math"
 DEPEND="${RDEPEND}"

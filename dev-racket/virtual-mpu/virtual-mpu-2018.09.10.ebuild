@@ -17,10 +17,10 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/brag
+RDEPEND="dev-racket/anaphoric
 	dev-racket/br-parser-tools-lib
-	dev-racket/anaphoric
-	dev-racket/reprovide-lang
+	dev-racket/brag
+	dev-racket/charterm
 	dev-racket/command-tree
-	dev-racket/charterm"
+	dev-racket/reprovide-lang"
 DEPEND="${RDEPEND}"

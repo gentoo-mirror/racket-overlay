@@ -16,6 +16,6 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/gregor-lib
-	dev-racket/uuid
-	dev-racket/scribble-rainbow-delimiters"
+	dev-racket/scribble-rainbow-delimiters
+	dev-racket/uuid"
 DEPEND="${RDEPEND}"

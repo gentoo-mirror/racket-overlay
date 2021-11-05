@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/dali
-	dev-racket/cover-coveralls"
+RDEPEND="dev-racket/cover-coveralls
+	dev-racket/dali"
 DEPEND="${RDEPEND}"

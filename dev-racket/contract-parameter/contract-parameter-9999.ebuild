@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/contract-etc
-	dev-racket/chk-lib"
+RDEPEND="dev-racket/chk-lib
+	dev-racket/contract-etc"
 DEPEND="${RDEPEND}"

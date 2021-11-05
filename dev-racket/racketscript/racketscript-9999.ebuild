@@ -17,6 +17,6 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/racketscript-compiler
-	dev-racket/racketscript-extras
-	dev-racket/racketscript-doc"
+	dev-racket/racketscript-doc
+	dev-racket/racketscript-extras"
 DEPEND="${RDEPEND}"

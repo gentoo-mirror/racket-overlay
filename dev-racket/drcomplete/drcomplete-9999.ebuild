@@ -16,9 +16,9 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/drcomplete-filename
-	dev-racket/drcomplete-required
-	dev-racket/drcomplete-user-defined
+RDEPEND="dev-racket/drcomplete-auto
+	dev-racket/drcomplete-filename
 	dev-racket/drcomplete-module
-	dev-racket/drcomplete-auto"
+	dev-racket/drcomplete-required
+	dev-racket/drcomplete-user-defined"
 DEPEND="${RDEPEND}"

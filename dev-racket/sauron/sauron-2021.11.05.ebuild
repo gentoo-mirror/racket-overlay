@@ -5,6 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="racket-tw/sauron"
+GH_COMMIT="b93d8d8c41830a6e987ab8774178bd83555ddbc0"
 
 inherit racket gh
 
@@ -13,6 +14,7 @@ HOMEPAGE="https://github.com/racket-tw/sauron"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
+KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/file-watchers

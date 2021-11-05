@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/automata-lib
-	dev-racket/automata-doc"
+RDEPEND="dev-racket/automata-doc
+	dev-racket/automata-lib"
 DEPEND="${RDEPEND}"

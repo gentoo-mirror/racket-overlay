@@ -15,7 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/crypto
-	dev-racket/bitsyntax
+RDEPEND="dev-racket/bitsyntax
+	dev-racket/crypto
 	dev-racket/word"
 DEPEND="${RDEPEND}"

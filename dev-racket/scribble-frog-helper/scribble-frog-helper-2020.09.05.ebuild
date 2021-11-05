@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/gregor
-	dev-racket/timable
-	dev-racket/frog"
+RDEPEND="dev-racket/frog
+	dev-racket/gregor
+	dev-racket/timable"
 DEPEND="${RDEPEND}"

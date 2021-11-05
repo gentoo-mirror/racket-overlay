@@ -17,8 +17,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/egg-herbie-osx
-	dev-racket/egg-herbie-windows
+RDEPEND="dev-racket/egg-herbie-linux
 	dev-racket/egg-herbie-linux
-	dev-racket/egg-herbie-linux"
+	dev-racket/egg-herbie-osx
+	dev-racket/egg-herbie-windows"
 DEPEND="${RDEPEND}"

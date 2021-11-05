@@ -17,15 +17,15 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/csv-reading
+RDEPEND="dev-racket/css-tools
+	dev-racket/csv-reading
+	dev-racket/frog
 	dev-racket/graph
+	dev-racket/gregor-lib
 	dev-racket/plt-web-lib
 	dev-racket/pollen
-	dev-racket/css-tools
-	dev-racket/sugar
-	dev-racket/txexpr
-	dev-racket/gregor-lib
-	dev-racket/frog
 	dev-racket/ppict
-	dev-racket/s3-sync"
+	dev-racket/s3-sync
+	dev-racket/sugar
+	dev-racket/txexpr"
 DEPEND="${RDEPEND}"

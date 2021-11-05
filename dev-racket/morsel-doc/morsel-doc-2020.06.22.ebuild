@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/morsel-lib
-	dev-racket/doc-coverage"
+RDEPEND="dev-racket/doc-coverage
+	dev-racket/morsel-lib"
 DEPEND="${RDEPEND}"

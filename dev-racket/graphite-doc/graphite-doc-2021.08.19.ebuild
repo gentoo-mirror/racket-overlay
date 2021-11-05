@@ -18,10 +18,10 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/loess
-	dev-racket/simple-polynomial
-	dev-racket/data-frame
+RDEPEND="dev-racket/data-frame
 	dev-racket/graphite-lib
 	dev-racket/graphite-tutorial
-	dev-racket/gregor"
+	dev-racket/gregor
+	dev-racket/loess
+	dev-racket/simple-polynomial"
 DEPEND="${RDEPEND}"

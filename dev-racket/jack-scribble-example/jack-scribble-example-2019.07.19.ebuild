@@ -17,8 +17,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sweet-exp-lib
-	dev-racket/reprovide-lang-lib
+RDEPEND="dev-racket/doc-coverage
 	dev-racket/fancy-app
-	dev-racket/doc-coverage"
+	dev-racket/reprovide-lang-lib
+	dev-racket/sweet-exp-lib"
 DEPEND="${RDEPEND}"

@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/resource-pool-lib
-	dev-racket/rackcheck"
+RDEPEND="dev-racket/rackcheck
+	dev-racket/resource-pool-lib"
 DEPEND="${RDEPEND}"

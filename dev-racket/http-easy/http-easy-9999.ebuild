@@ -17,7 +17,7 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/memoize
+	dev-racket/net-cookies-doc
 	dev-racket/net-cookies-lib
-	dev-racket/resource-pool-lib
-	dev-racket/net-cookies-doc"
+	dev-racket/resource-pool-lib"
 DEPEND="${RDEPEND}"

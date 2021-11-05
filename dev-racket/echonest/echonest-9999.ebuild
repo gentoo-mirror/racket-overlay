@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/wffi
-	dev-racket/rackjure"
+RDEPEND="dev-racket/rackjure
+	dev-racket/wffi"
 DEPEND="${RDEPEND}"

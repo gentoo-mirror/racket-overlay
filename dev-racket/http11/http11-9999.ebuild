@@ -15,8 +15,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/uri
-	dev-racket/date
+RDEPEND="dev-racket/date
 	dev-racket/opt
-	dev-racket/string-util"
+	dev-racket/string-util
+	dev-racket/uri"
 DEPEND="${RDEPEND}"

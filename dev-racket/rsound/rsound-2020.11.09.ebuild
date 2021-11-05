@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/portaudio
-	dev-racket/memoize"
+RDEPEND="dev-racket/memoize
+	dev-racket/portaudio"
 DEPEND="${RDEPEND}"

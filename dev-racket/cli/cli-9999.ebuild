@@ -15,9 +15,9 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/mischief
-	dev-racket/version-case
+RDEPEND="dev-racket/cover
+	dev-racket/cover-coveralls
+	dev-racket/mischief
 	dev-racket/scribble-abbrevs
-	dev-racket/cover
-	dev-racket/cover-coveralls"
+	dev-racket/version-case"
 DEPEND="${RDEPEND}"

@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/raco-cross-lib
-	dev-racket/raco-cross-doc"
+RDEPEND="dev-racket/raco-cross-doc
+	dev-racket/raco-cross-lib"
 DEPEND="${RDEPEND}"

@@ -18,6 +18,6 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/racket-cord
-	dev-racket/threading-lib
-	dev-racket/threading-doc"
+	dev-racket/threading-doc
+	dev-racket/threading-lib"
 DEPEND="${RDEPEND}"

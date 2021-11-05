@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/cover-lib
-	dev-racket/cover-doc"
+RDEPEND="dev-racket/cover-doc
+	dev-racket/cover-lib"
 DEPEND="${RDEPEND}"

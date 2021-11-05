@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/job-queue-lib
-	dev-racket/job-queue-doc"
+RDEPEND="dev-racket/job-queue-doc
+	dev-racket/job-queue-lib"
 DEPEND="${RDEPEND}"

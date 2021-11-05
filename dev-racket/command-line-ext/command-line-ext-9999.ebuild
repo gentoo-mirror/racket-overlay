@@ -17,6 +17,6 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/fancy-app
 	dev-racket/generic-syntax-expanders
-	dev-racket/reprovide-lang
-	dev-racket/lens"
+	dev-racket/lens
+	dev-racket/reprovide-lang"
 DEPEND="${RDEPEND}"

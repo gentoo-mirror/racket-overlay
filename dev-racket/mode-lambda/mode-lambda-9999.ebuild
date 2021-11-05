@@ -16,6 +16,6 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/lux
-	dev-racket/reprovide-lang-lib
-	dev-racket/opengl"
+	dev-racket/opengl
+	dev-racket/reprovide-lang-lib"
 DEPEND="${RDEPEND}"

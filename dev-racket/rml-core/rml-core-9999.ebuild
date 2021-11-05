@@ -15,7 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/csv-reading
-	dev-racket/mcfly
-	dev-racket/cover-coveralls"
+RDEPEND="dev-racket/cover-coveralls
+	dev-racket/csv-reading
+	dev-racket/mcfly"
 DEPEND="${RDEPEND}"

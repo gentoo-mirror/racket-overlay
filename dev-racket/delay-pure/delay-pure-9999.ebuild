@@ -15,7 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/type-expander
-	dev-racket/phc-toolkit
+RDEPEND="dev-racket/phc-toolkit
+	dev-racket/type-expander
 	dev-racket/version-case"
 DEPEND="${RDEPEND}"

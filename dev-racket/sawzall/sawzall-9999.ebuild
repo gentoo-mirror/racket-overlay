@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sawzall-lib
-	dev-racket/sawzall-doc"
+RDEPEND="dev-racket/sawzall-doc
+	dev-racket/sawzall-lib"
 DEPEND="${RDEPEND}"

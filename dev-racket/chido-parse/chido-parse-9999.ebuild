@@ -16,6 +16,6 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/kw-make-struct
-	dev-racket/quickcheck
-	dev-racket/linea"
+	dev-racket/linea
+	dev-racket/quickcheck"
 DEPEND="${RDEPEND}"

@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/syntax-classes-lib
-	dev-racket/syntax-classes-doc"
+RDEPEND="dev-racket/syntax-classes-doc
+	dev-racket/syntax-classes-lib"
 DEPEND="${RDEPEND}"

@@ -17,6 +17,6 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/beautiful-racket-macro
-	dev-racket/sugar
-	dev-racket/debug"
+	dev-racket/debug
+	dev-racket/sugar"
 DEPEND="${RDEPEND}"

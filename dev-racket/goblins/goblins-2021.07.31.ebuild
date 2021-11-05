@@ -19,6 +19,6 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/crypto
-	dev-racket/syrup
-	dev-racket/pk"
+	dev-racket/pk
+	dev-racket/syrup"
 DEPEND="${RDEPEND}"

@@ -17,10 +17,10 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/crypto-lib
+RDEPEND="dev-racket/cover-coveralls
+	dev-racket/crypto-lib
 	dev-racket/dali
 	dev-racket/net-jwt
-	dev-racket/threading
 	dev-racket/rackunit-spec
-	dev-racket/cover-coveralls"
+	dev-racket/threading"
 DEPEND="${RDEPEND}"

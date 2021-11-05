@@ -19,7 +19,7 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/fancy-app
-	dev-racket/reprovide-lang-lib
 	dev-racket/lens-data
+	dev-racket/reprovide-lang-lib
 	dev-racket/sweet-exp-lib"
 DEPEND="${RDEPEND}"

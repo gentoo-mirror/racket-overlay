@@ -15,10 +15,10 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/hyper-literate
-	dev-racket/auto-syntax-e
+RDEPEND="dev-racket/auto-syntax-e
 	dev-racket/debug-scopes
-	dev-racket/version-case
+	dev-racket/hyper-literate
+	dev-racket/mutable-match-lambda
 	dev-racket/scribble-enhanced
-	dev-racket/mutable-match-lambda"
+	dev-racket/version-case"
 DEPEND="${RDEPEND}"

@@ -16,6 +16,6 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/2htdp-typed
-	dev-racket/unstable-list-lib
-	dev-racket/unstable-contract-lib"
+	dev-racket/unstable-contract-lib
+	dev-racket/unstable-list-lib"
 DEPEND="${RDEPEND}"

@@ -18,7 +18,7 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/adjutor
-	dev-racket/reprovide-lang
+	dev-racket/functional-lib
 	dev-racket/gregor
-	dev-racket/functional-lib"
+	dev-racket/reprovide-lang"
 DEPEND="${RDEPEND}"

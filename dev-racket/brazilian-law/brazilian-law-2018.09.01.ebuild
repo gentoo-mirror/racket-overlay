@@ -17,8 +17,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/megaparsack
-	dev-racket/txexpr
-	dev-racket/curly-fn-lib
-	dev-racket/functional-lib"
+RDEPEND="dev-racket/curly-fn-lib
+	dev-racket/functional-lib
+	dev-racket/megaparsack
+	dev-racket/txexpr"
 DEPEND="${RDEPEND}"

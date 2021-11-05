@@ -16,11 +16,11 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/lens-common
-	dev-racket/fancy-app
-	dev-racket/syntax-classes-lib
-	dev-racket/struct-update-lib
+RDEPEND="dev-racket/fancy-app
 	dev-racket/kw-make-struct-lib
+	dev-racket/lens-common
 	dev-racket/reprovide-lang-lib
-	dev-racket/sweet-exp-lib"
+	dev-racket/struct-update-lib
+	dev-racket/sweet-exp-lib
+	dev-racket/syntax-classes-lib"
 DEPEND="${RDEPEND}"

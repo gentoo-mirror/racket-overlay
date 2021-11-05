@@ -17,6 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/sweet-exp-lib
-	dev-racket/rackjure"
+RDEPEND="dev-racket/rackjure
+	dev-racket/sweet-exp-lib"
 DEPEND="${RDEPEND}"

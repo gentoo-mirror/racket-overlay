@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/upi-lib
-	dev-racket/ebuild-lib"
+RDEPEND="dev-racket/ebuild-lib
+	dev-racket/upi-lib"
 DEPEND="${RDEPEND}"

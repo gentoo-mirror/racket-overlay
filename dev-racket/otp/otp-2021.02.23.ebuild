@@ -18,7 +18,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/otp-lib
-	dev-racket/typed-otp-lib
-	dev-racket/otp-doc"
+RDEPEND="dev-racket/otp-doc
+	dev-racket/otp-lib
+	dev-racket/typed-otp-lib"
 DEPEND="${RDEPEND}"

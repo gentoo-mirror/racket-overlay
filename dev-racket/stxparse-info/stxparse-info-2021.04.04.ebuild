@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/version-case
+RDEPEND="dev-racket/auto-syntax-e
 	dev-racket/subtemplate
-	dev-racket/auto-syntax-e"
+	dev-racket/version-case"
 DEPEND="${RDEPEND}"

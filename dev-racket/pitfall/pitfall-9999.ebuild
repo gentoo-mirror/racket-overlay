@@ -15,11 +15,11 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/with-cache
-	dev-racket/beautiful-racket-lib
+RDEPEND="dev-racket/beautiful-racket-lib
 	dev-racket/brag
+	dev-racket/debug
 	dev-racket/fontland
-	dev-racket/sugar
 	dev-racket/gregor
-	dev-racket/debug"
+	dev-racket/sugar
+	dev-racket/with-cache"
 DEPEND="${RDEPEND}"

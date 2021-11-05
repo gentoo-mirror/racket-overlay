@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/crypto
-	dev-racket/bitsyntax
+RDEPEND="dev-racket/bitsyntax
+	dev-racket/crypto
 	dev-racket/word"
 DEPEND="${RDEPEND}"

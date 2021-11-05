@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/http-easy
+RDEPEND="dev-racket/al2-test-runner
 	dev-racket/geoid
-	dev-racket/al2-test-runner"
+	dev-racket/http-easy"
 DEPEND="${RDEPEND}"

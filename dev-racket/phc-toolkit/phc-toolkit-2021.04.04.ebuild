@@ -18,10 +18,10 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/alexis-util
-	dev-racket/reprovide-lang
-	dev-racket/type-expander
 	dev-racket/hyper-literate
-	dev-racket/version-case
 	dev-racket/predicates
-	dev-racket/scribble-math"
+	dev-racket/reprovide-lang
+	dev-racket/scribble-math
+	dev-racket/type-expander
+	dev-racket/version-case"
 DEPEND="${RDEPEND}"

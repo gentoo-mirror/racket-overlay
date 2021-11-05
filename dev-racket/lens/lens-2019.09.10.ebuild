@@ -20,7 +20,7 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/lens-common
 	dev-racket/lens-data
+	dev-racket/lens-doc
 	dev-racket/lens-lib
-	dev-racket/lens-unstable
-	dev-racket/lens-doc"
+	dev-racket/lens-unstable"
 DEPEND="${RDEPEND}"

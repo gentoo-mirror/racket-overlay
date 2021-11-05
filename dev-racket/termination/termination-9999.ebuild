@@ -18,6 +18,6 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/bnf
 	dev-racket/set-extras
-	dev-racket/unreachable
-	dev-racket/traces"
+	dev-racket/traces
+	dev-racket/unreachable"
 DEPEND="${RDEPEND}"

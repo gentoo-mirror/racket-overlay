@@ -16,9 +16,9 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/afl
-	dev-racket/postfix-dot-notation
-	dev-racket/sweet-exp
 	dev-racket/mutable-match-lambda
 	dev-racket/my-cond
-	dev-racket/scribble-code-examples"
+	dev-racket/postfix-dot-notation
+	dev-racket/scribble-code-examples
+	dev-racket/sweet-exp"
 DEPEND="${RDEPEND}"

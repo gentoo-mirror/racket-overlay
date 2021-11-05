@@ -16,7 +16,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/jen-lib
-	dev-racket/jen-doc
+RDEPEND="dev-racket/jen-doc
+	dev-racket/jen-lib
 	dev-racket/jen-samples"
 DEPEND="${RDEPEND}"

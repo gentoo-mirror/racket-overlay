@@ -16,6 +16,6 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/ansi
-	dev-racket/unix-signals
-	dev-racket/diff-merge"
+	dev-racket/diff-merge
+	dev-racket/unix-signals"
 DEPEND="${RDEPEND}"

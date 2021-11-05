@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/threading-lib
-	dev-racket/threading-doc"
+RDEPEND="dev-racket/threading-doc
+	dev-racket/threading-lib"
 DEPEND="${RDEPEND}"

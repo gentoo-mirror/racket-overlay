@@ -16,9 +16,9 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/rfc6455
-	dev-racket/struct-defaults
-	dev-racket/auxiliary-macro-context
+RDEPEND="dev-racket/auxiliary-macro-context
 	dev-racket/bitsyntax
-	dev-racket/preserves"
+	dev-racket/preserves
+	dev-racket/rfc6455
+	dev-racket/struct-defaults"
 DEPEND="${RDEPEND}"

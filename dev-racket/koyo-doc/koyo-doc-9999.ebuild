@@ -18,9 +18,9 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/component-doc
 	dev-racket/component-lib
+	dev-racket/gregor-doc
 	dev-racket/gregor-lib
 	dev-racket/koyo-lib
 	dev-racket/libargon2
-	dev-racket/gregor-doc
 	dev-racket/srfi-doc-nonfree"
 DEPEND="${RDEPEND}"

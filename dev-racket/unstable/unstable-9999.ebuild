@@ -16,8 +16,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/unstable-lib
-	dev-racket/unstable-doc"
+RDEPEND="dev-racket/unstable-doc
+	dev-racket/unstable-lib"
 DEPEND="${RDEPEND}"
 
 src_unpack() {

@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/scribble-enhanced
-	dev-racket/racketscript-compiler"
+RDEPEND="dev-racket/racketscript-compiler
+	dev-racket/scribble-enhanced"
 DEPEND="${RDEPEND}"

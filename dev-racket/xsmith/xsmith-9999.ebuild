@@ -16,8 +16,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/pprint
-	dev-racket/racr
-	dev-racket/clotho
-	dev-racket/memoize"
+RDEPEND="dev-racket/clotho
+	dev-racket/memoize
+	dev-racket/pprint
+	dev-racket/racr"
 DEPEND="${RDEPEND}"

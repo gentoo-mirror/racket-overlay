@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/x64asm-lib
-	dev-racket/x64asm-doc"
+RDEPEND="dev-racket/x64asm-doc
+	dev-racket/x64asm-lib"
 DEPEND="${RDEPEND}"

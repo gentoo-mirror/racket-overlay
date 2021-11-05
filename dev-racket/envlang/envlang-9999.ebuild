@@ -15,8 +15,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/phc-toolkit
-	dev-racket/reprovide-lang-lib
+RDEPEND="dev-racket/hyper-literate
+	dev-racket/phc-toolkit
 	dev-racket/polysemy
-	dev-racket/hyper-literate"
+	dev-racket/reprovide-lang-lib"
 DEPEND="${RDEPEND}"

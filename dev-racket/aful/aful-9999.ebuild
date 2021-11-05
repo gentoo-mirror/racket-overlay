@@ -16,8 +16,8 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/hygienic-reader-extension
-	dev-racket/rackjure
 	dev-racket/phc-toolkit
-	dev-racket/scribble-enhanced
-	dev-racket/scribble-code-examples"
+	dev-racket/rackjure
+	dev-racket/scribble-code-examples
+	dev-racket/scribble-enhanced"
 DEPEND="${RDEPEND}"

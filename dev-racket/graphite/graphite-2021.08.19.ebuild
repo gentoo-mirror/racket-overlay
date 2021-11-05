@@ -18,7 +18,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/graphite-lib
-	dev-racket/graphite-doc
+RDEPEND="dev-racket/graphite-doc
+	dev-racket/graphite-lib
 	dev-racket/graphite-tutorial"
 DEPEND="${RDEPEND}"

@@ -18,6 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/polyglot-lib
-	dev-racket/polyglot-doc"
+RDEPEND="dev-racket/polyglot-doc
+	dev-racket/polyglot-lib"
 DEPEND="${RDEPEND}"

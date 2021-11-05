@@ -15,7 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/frog
+RDEPEND="dev-racket/date
 	dev-racket/explorer
-	dev-racket/date"
+	dev-racket/frog"
 DEPEND="${RDEPEND}"

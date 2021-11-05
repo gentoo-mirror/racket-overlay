@@ -16,8 +16,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/mcfly
-	dev-racket/canonicalize-path
+RDEPEND="dev-racket/canonicalize-path
+	dev-racket/mcfly
 	dev-racket/overeasy"
 DEPEND="${RDEPEND}"
 

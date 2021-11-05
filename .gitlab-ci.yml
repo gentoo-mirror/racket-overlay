@@ -19,6 +19,7 @@
 # Original author: Maciej Barć <xgqt@riseup.net>
 # Copyright (c) 2021, src_prepare group
 # Licensed under the GNU GPL v2 License
+# SPDX-License-Identifier: GPL-3.0-only
 
 
 variables:
@@ -35,21 +36,34 @@ test:
 
   image: registry.gitlab.com/src_prepare/gentoo-repoman-container:latest
 
+  only:
+    changes:
+      - .gitlab-ci.yml
+      - */*/*.ebuild
+      - */*/Manifest
+      - */*/metadata.xml
+
   script:
     - bash scripts/repomanci
 
 
 pages:
   stage: pages
+
   only:
-    - master
-
-  image: racket/racket:8.1-full
-
-  script:
-    - make doc
+    refs:
+      - master
+    changes:
+      - .gitlab-ci.yml
+      - scribblings/*.scrbl
+      - scribblings/*/*.scrbl
 
   artifacts:
     expire_in: 1 week
     paths:
       - public
+
+  image: racket/racket:8.2-full
+
+  script:
+    - make doc

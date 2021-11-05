@@ -4,22 +4,20 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="Bogdanp/koyo"
-GH_COMMIT="59da9c143ba0ec28d796c79d45780a041afd511c"
+GH_REPO="Bogdanp/racket-component"
+GH_COMMIT="1c2a0ec582caaa15c7bfeab0dd25bd2f58c99c7f"
 
 inherit racket gh
 
-DESCRIPTION="A web application toolkit (tests only)."
-HOMEPAGE="https://github.com/Bogdanp/koyo"
-S="${S}/koyo-test"
+DESCRIPTION="Simple dependency injection (docs and implementation)."
+HOMEPAGE="https://github.com/Bogdanp/racket-component"
+S="${S}/component"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/libargon2
-	dev-racket/koyo-lib
-	dev-racket/gregor-lib
+RDEPEND="dev-racket/component-doc
 	dev-racket/component-lib"
 DEPEND="${RDEPEND}"

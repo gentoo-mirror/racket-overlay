@@ -38,10 +38,10 @@ test:
 
   only:
     changes:
-      - .gitlab-ci.yml
-      - */*/*.ebuild
-      - */*/Manifest
-      - */*/metadata.xml
+      - ".gitlab-ci.yml"
+      - "*/*/*.ebuild"
+      - "*/*/Manifest"
+      - "*/*/metadata.xml"
 
   script:
     - bash scripts/repomanci
@@ -54,9 +54,9 @@ pages:
     refs:
       - master
     changes:
-      - .gitlab-ci.yml
-      - scribblings/*.scrbl
-      - scribblings/*/*.scrbl
+      - ".gitlab-ci.yml"
+      - "scribblings/*.scrbl"
+      - "scribblings/*/*.scrbl"
 
   artifacts:
     expire_in: 1 week

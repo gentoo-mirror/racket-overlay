@@ -4,18 +4,15 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="sorawee/fmt"
-GH_COMMIT="aa3135ac654fe33a29a1ee26e88eed11a9ce7a86"
+GH_REPO="dannypsnl/mini-theme"
+GH_COMMIT="f755954dd4106d128e346fd79e4a0cae23bf1412"
 
 inherit racket gh
 
-DESCRIPTION="An extensible code formatter for Racket"
-HOMEPAGE="https://github.com/sorawee/fmt"
+DESCRIPTION="A minimal DrRacket theme"
+HOMEPAGE="https://github.com/dannypsnl/mini-theme"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
-
-RDEPEND="dev-racket/pprint-compact"
-DEPEND="${RDEPEND}"

@@ -4,19 +4,18 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racket/racket"
-GH_COMMIT="8352131f0026f62fb678b2bf554e3d46ac77abc1"
+GH_REPO="Metaxal/text-block"
+GH_COMMIT="de397c4f513f94afc8e319a32b3f3e64f0e3a420"
 
 inherit racket gh
 
-DESCRIPTION="Racket build and contribution documentation"
-HOMEPAGE="https://github.com/racket/racket"
-S="${S}/pkgs/racket-build-guide"
+DESCRIPTION="Similar to pict, but for 2d unicode text and math formulas"
+HOMEPAGE="https://github.com/Metaxal/text-block"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/distro-build-doc"
+RDEPEND="dev-racket/define2"
 DEPEND="${RDEPEND}"

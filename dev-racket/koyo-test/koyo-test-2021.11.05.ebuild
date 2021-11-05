@@ -5,20 +5,21 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="Bogdanp/koyo"
-GH_COMMIT="59da9c143ba0ec28d796c79d45780a041afd511c"
+GH_COMMIT="d8daa94ca04f38f290e0e30022ad0f2c446e2d1f"
 
 inherit racket gh
 
-DESCRIPTION="A web application toolkit (implementation only)."
+DESCRIPTION="A web application toolkit (tests only)."
 HOMEPAGE="https://github.com/Bogdanp/koyo"
-S="${S}/koyo-lib"
+S="${S}/koyo-test"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/gregor-lib
-	dev-racket/crypto-lib
-	dev-racket/component-lib"
+RDEPEND="dev-racket/component-lib
+	dev-racket/gregor-lib
+	dev-racket/koyo-lib
+	dev-racket/libargon2"
 DEPEND="${RDEPEND}"

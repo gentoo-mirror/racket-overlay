@@ -10,7 +10,9 @@ HOMEPAGE="https://racket-lang.org/"
 
 MAJOR="$(ver_cut 1-2)"
 PLT_V="${MAJOR}.0.3"
-PLT_SNAP="20211021-29226bc0dc"
+PLT_SNAP_DATE="${PV##*_pre}"
+PLT_SNAP_HASH="29226bc0dc"
+PLT_SNAP="${PLT_SNAP_DATE}-${PLT_SNAP_HASH}"
 PLT_HOST="https://plt.cs.northwestern.edu"
 SRC_URI="
 	minimal? ( ${PLT_HOST}/snapshots/${PLT_SNAP}/installers/racket-minimal-${PLT_V}-src-builtpkgs.tgz -> ${P}-minimal.tgz )
@@ -28,7 +30,7 @@ LICENSE="
 SLOT="0/${PLT_V}"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
-IUSE="X +chez +doc +futures +jit minimal +places +readline +threads"
+IUSE="X +chez +doc +futures +jit minimal +places +threads"
 REQUIRED_USE="futures? ( jit )"
 
 DEPEND="
@@ -44,7 +46,6 @@ DEPEND="
 		x11-libs/pango[X]
 		x11-misc/shared-mime-info
 	)
-	readline? ( dev-libs/libedit )
 "
 RDEPEND="${DEPEND}"
 
@@ -155,6 +156,7 @@ pkg_preinst() {
 pkg_postinst() {
 	post_X_update
 
+	optfeature "readline editing features in REPL" dev-libs/libedit
 	optfeature "generating PDF files using Scribble" dev-texlive/texlive-fontsextra
 }
 

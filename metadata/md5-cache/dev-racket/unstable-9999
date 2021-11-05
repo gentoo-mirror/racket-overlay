@@ -1,6 +1,6 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/unstable-lib dev-racket/unstable-doc >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/unstable-doc dev-racket/unstable-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Experimental libraries
 EAPI=8
 HOMEPAGE=http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/empty.zip
@@ -8,8 +8,8 @@ INHERIT=racket
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/unstable-lib dev-racket/unstable-doc >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/unstable-doc dev-racket/unstable-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c
-_md5_=5c00b04c6c1792d85339e0af79741b2e
+_md5_=3126e55f0933504fa31fe7b8db7b29f2

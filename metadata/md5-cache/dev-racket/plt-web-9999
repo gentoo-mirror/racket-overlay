@@ -1,6 +1,6 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/plt-web-lib dev-racket/plt-web-doc >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/plt-web-doc dev-racket/plt-web-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Web-page creation libraries
 EAPI=8
 HOMEPAGE=http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/empty.zip
@@ -8,8 +8,8 @@ INHERIT=racket
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/plt-web-lib dev-racket/plt-web-doc >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/plt-web-doc dev-racket/plt-web-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c
-_md5_=15021a417bce50dc0eadaae168e2687e
+_md5_=83a0a3fafde184057db4b6f8b4f69ccf

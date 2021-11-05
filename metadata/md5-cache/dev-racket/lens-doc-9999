@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/lens-lib dev-racket/lens-unstable dev-racket/reprovide-lang-lib dev-racket/jack-scribble-example dev-racket/doc-coverage dev-racket/sweet-exp-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/doc-coverage dev-racket/jack-scribble-example dev-racket/lens-lib dev-racket/lens-unstable dev-racket/reprovide-lang-lib dev-racket/sweet-exp-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Documentation for the lens libraries
 EAPI=8
 HOMEPAGE=https://github.com/jackfirth/lens
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/lens-lib dev-racket/lens-unstable dev-racket/reprovide-lang-lib dev-racket/jack-scribble-example dev-racket/doc-coverage dev-racket/sweet-exp-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/doc-coverage dev-racket/jack-scribble-example dev-racket/lens-lib dev-racket/lens-unstable dev-racket/reprovide-lang-lib dev-racket/sweet-exp-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=2afbf2e7572ff5814f786ead11aacc07
+_md5_=6a22660db94fa90a1321b95cf81cf06b

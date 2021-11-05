@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/unstable-lib dev-racket/unstable-list-lib dev-racket/kw-utils dev-racket/mutable-match-lambda >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/kw-utils dev-racket/mutable-match-lambda dev-racket/unstable-lib dev-racket/unstable-list-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=using hash-tables for rest-arguments that include keyword-arguments
 EAPI=8
 HOMEPAGE=https://github.com/AlexKnauth/hash-lambda
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/unstable-lib dev-racket/unstable-list-lib dev-racket/kw-utils dev-racket/mutable-match-lambda >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/kw-utils dev-racket/mutable-match-lambda dev-racket/unstable-lib dev-racket/unstable-list-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=66f4126cbf26e53c3e9c279f509589fb
+_md5_=6187a4b4a7cf458672c332a2bc7cf7d7

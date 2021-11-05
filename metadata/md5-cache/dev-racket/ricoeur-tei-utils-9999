@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/adjutor dev-racket/ricoeur-kernel dev-racket/functional-lib dev-racket/roman-numeral dev-racket/gregor-lib dev-racket/sql dev-racket/icns dev-racket/nanopass dev-racket/reprovide-lang-lib dev-racket/functional-doc dev-racket/gregor-doc dev-racket/_-exp dev-racket/todo-list >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/_-exp dev-racket/adjutor dev-racket/functional-doc dev-racket/functional-lib dev-racket/gregor-doc dev-racket/gregor-lib dev-racket/icns dev-racket/nanopass dev-racket/reprovide-lang-lib dev-racket/ricoeur-kernel dev-racket/roman-numeral dev-racket/sql dev-racket/todo-list >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Digital Ricoeur library for TEI XML files
 EAPI=8
 HOMEPAGE=https://bitbucket.org/digitalricoeur/tei-utils
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/adjutor dev-racket/ricoeur-kernel dev-racket/functional-lib dev-racket/roman-numeral dev-racket/gregor-lib dev-racket/sql dev-racket/icns dev-racket/nanopass dev-racket/reprovide-lang-lib dev-racket/functional-doc dev-racket/gregor-doc dev-racket/_-exp dev-racket/todo-list >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/_-exp dev-racket/adjutor dev-racket/functional-doc dev-racket/functional-lib dev-racket/gregor-doc dev-racket/gregor-lib dev-racket/icns dev-racket/nanopass dev-racket/reprovide-lang-lib dev-racket/ricoeur-kernel dev-racket/roman-numeral dev-racket/sql dev-racket/todo-list >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=e39ee9c3aec2e7a81660265699b67ccb
+_md5_=532dd4be3147c50d1eb5b566996c6f79

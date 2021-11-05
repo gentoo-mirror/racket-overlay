@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/pprint dev-racket/chk >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/chk dev-racket/pprint >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Racket-made C
 EAPI=8
 HOMEPAGE=https://github.com/jeapostrophe/rmc
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/pprint dev-racket/chk >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/chk dev-racket/pprint >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jeapostrophe/rmc/archive/e11425287cfecb3940f75a25a29f9b74826c2605.tar.gz -> rmc-2017.08.15.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=9df3395b44a29a2181443f68fdc36f07
+_md5_=9909244103e13f055cfa19420038adb9

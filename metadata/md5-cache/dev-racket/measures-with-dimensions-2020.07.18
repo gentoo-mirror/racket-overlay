@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/threading dev-racket/unstable-lib dev-racket/sweet-exp dev-racket/reprovide-lang dev-racket/predicates dev-racket/colon-match >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/colon-match dev-racket/predicates dev-racket/reprovide-lang dev-racket/sweet-exp dev-racket/threading dev-racket/unstable-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=based on measures, but with dimensions and types
 EAPI=8
 HOMEPAGE=https://github.com/AlexKnauth/measures-with-dimensions
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/threading dev-racket/unstable-lib dev-racket/sweet-exp dev-racket/reprovide-lang dev-racket/predicates dev-racket/colon-match >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/colon-match dev-racket/predicates dev-racket/reprovide-lang dev-racket/sweet-exp dev-racket/threading dev-racket/unstable-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/measures-with-dimensions/archive/fc6c78f79ac89cf488a5ccc5fc20391bd254886c.tar.gz -> measures-with-dimensions-2020.07.18.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=5db563a5c4d0cb6300aa1406654fa388
+_md5_=0701ec76ee25d5972b8bba3cc5c60793

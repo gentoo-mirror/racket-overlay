@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/jen-lib dev-racket/jen-doc dev-racket/jen-samples >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/jen-doc dev-racket/jen-lib dev-racket/jen-samples >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=procedural generation DSL embedded in Racket [UNSTABLE]
 EAPI=8
 HOMEPAGE=https://github.com/HeladoDeBrownie/jen
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/jen-lib dev-racket/jen-doc dev-racket/jen-samples >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/jen-doc dev-racket/jen-lib dev-racket/jen-samples >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=4e6bcb1d68df84ed8dbe2e8b857dde7c
+_md5_=391d91e1e59fa0088ad4056dd2ed9603

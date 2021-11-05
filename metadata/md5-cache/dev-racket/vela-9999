@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/vela-lib dev-racket/vela-docs >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/vela-docs dev-racket/vela-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Simple web framework to build RESTful app in Racket.
 EAPI=8
 HOMEPAGE=https://github.com/nuty/vela
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/vela-lib dev-racket/vela-docs >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/vela-docs dev-racket/vela-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=0393b7e70c59fc54934beb16472a7f3f
+_md5_=f1367a76e0dad30464a80a4086f93727

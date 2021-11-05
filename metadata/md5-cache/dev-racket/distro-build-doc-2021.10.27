@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/distro-build-server dev-racket/distro-build-client >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/distro-build-client dev-racket/distro-build-server >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=documentation part of distro-build
 EAPI=8
 HOMEPAGE=https://github.com/racket/distro-build
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/distro-build-server dev-racket/distro-build-client >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/distro-build-client dev-racket/distro-build-server >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/racket/distro-build/archive/f1d8176e42e864816637efc926a3b671bfe63f10.tar.gz -> distro-build-doc-2021.10.27.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=b6e565e96b91baec40ec4c3d552b056c
+_md5_=8dc0d620d6e43acbd75f6d63cb64f79b

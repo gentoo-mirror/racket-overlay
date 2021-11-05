@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/sawzall-lib dev-racket/sawzall-doc >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/sawzall-doc dev-racket/sawzall-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=A grammar for data wrangling
 EAPI=8
 HOMEPAGE=https://github.com/ralsei/sawzall
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/sawzall-lib dev-racket/sawzall-doc >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/sawzall-doc dev-racket/sawzall-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/ralsei/sawzall/archive/2866f3646aad5d062c559b2c7a6b5c61d10b8481.tar.gz -> sawzall-2021.11.01.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=7995795f18586e6ceaf65b2434154597
+_md5_=ac09c0e59447394798f6da03d084aac5

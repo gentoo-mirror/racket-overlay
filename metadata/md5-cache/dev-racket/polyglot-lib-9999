@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/file-watchers dev-racket/txexpr dev-racket/unlike-assets-lib dev-racket/aws dev-racket/markdown >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/aws dev-racket/file-watchers dev-racket/markdown dev-racket/txexpr dev-racket/unlike-assets-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Implementation for Polyglot
 EAPI=8
 HOMEPAGE=https://github.com/zyrolasting/polyglot
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/file-watchers dev-racket/txexpr dev-racket/unlike-assets-lib dev-racket/aws dev-racket/markdown >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/aws dev-racket/file-watchers dev-racket/markdown dev-racket/txexpr dev-racket/unlike-assets-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=ad8c4098fd2ae3897df47b1e359aa19b
+_md5_=b825885749bd6bb44ce6f12376868d3d

@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/cur-lib dev-racket/sweet-exp-lib dev-racket/chk-lib dev-racket/rackunit-macrotypes-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/chk-lib dev-racket/cur-lib dev-racket/rackunit-macrotypes-lib dev-racket/sweet-exp-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the cur-test Racket package
 EAPI=8
 HOMEPAGE=https://github.com/wilbowma/cur
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/cur-lib dev-racket/sweet-exp-lib dev-racket/chk-lib dev-racket/rackunit-macrotypes-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/chk-lib dev-racket/cur-lib dev-racket/rackunit-macrotypes-lib dev-racket/sweet-exp-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/wilbowma/cur/archive/7ce536c14e4e18cc84a7011a70f37cb98e21cf97.tar.gz -> cur-test-2021.04.17.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=04cf88a11a32a824ba0346a534c08134
+_md5_=1d96b43ee072c01c068a998ce3f23084

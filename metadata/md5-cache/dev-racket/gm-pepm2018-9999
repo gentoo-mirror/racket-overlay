@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/html-parsing dev-racket/sxml dev-racket/with-cache dev-racket/rackunit-abbrevs >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/html-parsing dev-racket/rackunit-abbrevs dev-racket/sxml dev-racket/with-cache >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Artifact for On the Cost of Type-Tag Soundness
 EAPI=8
 HOMEPAGE=https://github.com/nuprl/retic_performance
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/html-parsing dev-racket/sxml dev-racket/with-cache dev-racket/rackunit-abbrevs >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/html-parsing dev-racket/rackunit-abbrevs dev-racket/sxml dev-racket/with-cache >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=9e3448c674e92a03da6ce35667b591a9
+_md5_=530c58a619cbb6469a9ea819413f09a8

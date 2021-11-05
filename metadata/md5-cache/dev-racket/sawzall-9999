@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/sawzall-lib dev-racket/sawzall-doc >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/sawzall-doc dev-racket/sawzall-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=A grammar for data wrangling
 EAPI=8
 HOMEPAGE=https://github.com/ralsei/sawzall
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/sawzall-lib dev-racket/sawzall-doc >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/sawzall-doc dev-racket/sawzall-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=ac29531421b302f953193e8a3ae4ee10
+_md5_=27c7c1e8f80ce3618b533f96a2d9e285

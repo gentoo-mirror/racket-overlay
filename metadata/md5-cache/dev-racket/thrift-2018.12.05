@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/http dev-racket/cover-coveralls >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/cover-coveralls dev-racket/http >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Support for the Apache Thrift messaging framework
 EAPI=8
 HOMEPAGE=https://github.com/johnstonskj/racket-thrift
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/http dev-racket/cover-coveralls >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/cover-coveralls dev-racket/http >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/johnstonskj/racket-thrift/archive/bbed34e6af97167ec5e9327c7c6ad739e331e793.tar.gz -> thrift-2018.12.05.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=d4b89856a2b445ba94673081cadf9852
+_md5_=bf2f4669686a93798b3d0d9e3c13923d

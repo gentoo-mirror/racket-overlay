@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/sha dev-racket/automata dev-racket/auxiliary-macro-context dev-racket/macrotypes-lib dev-racket/rackunit-macrotypes-lib dev-racket/rfc6455 dev-racket/struct-defaults dev-racket/turnstile-example dev-racket/turnstile-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/automata dev-racket/auxiliary-macro-context dev-racket/macrotypes-lib dev-racket/rackunit-macrotypes-lib dev-racket/rfc6455 dev-racket/sha dev-racket/struct-defaults dev-racket/turnstile-example dev-racket/turnstile-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the syndicate-classic Racket package
 EAPI=8
 HOMEPAGE=https://github.com/tonyg/syndicate
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/sha dev-racket/automata dev-racket/auxiliary-macro-context dev-racket/macrotypes-lib dev-racket/rackunit-macrotypes-lib dev-racket/rfc6455 dev-racket/struct-defaults dev-racket/turnstile-example dev-racket/turnstile-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/automata dev-racket/auxiliary-macro-context dev-racket/macrotypes-lib dev-racket/rackunit-macrotypes-lib dev-racket/rfc6455 dev-racket/sha dev-racket/struct-defaults dev-racket/turnstile-example dev-racket/turnstile-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/tonyg/syndicate/archive/fc6e012d1c6b9ae406dc6e088f18337338dfd77c.tar.gz -> syndicate-classic-2021.05.10.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=36f83f9f6b97cf2b91e28af821ef5334
+_md5_=e95435525fa75cc3c989a5345897785f

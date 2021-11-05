@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/hash-view-lib dev-racket/http-easy dev-racket/hash-view >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/hash-view dev-racket/hash-view-lib dev-racket/http-easy >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=An interface for the Google Cloud text-to-speech API
 EAPI=8
 HOMEPAGE=https://github.com/otherjoel/wavenet-api
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/hash-view-lib dev-racket/http-easy dev-racket/hash-view >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/hash-view dev-racket/hash-view-lib dev-racket/http-easy >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=a945fdfe82d0f386337ab5464bafe852
+_md5_=b8f2b2a79a0d2538aabe97840d7511ed

@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/gregor-lib dev-racket/uuid dev-racket/scribble-rainbow-delimiters >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/gregor-lib dev-racket/scribble-rainbow-delimiters dev-racket/uuid >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=A practical library to send emails using SMTP protocol
 EAPI=8
 HOMEPAGE=https://github.com/yanyingwang/smtp
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/gregor-lib dev-racket/uuid dev-racket/scribble-rainbow-delimiters >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/gregor-lib dev-racket/scribble-rainbow-delimiters dev-racket/uuid >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/yanyingwang/smtp/archive/87b1cb20e0ade41273248f7cf0a02258a8bd19a6.tar.gz -> smtp-2021.09.26.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=3ca5d5766f95638ed6c7e4c206893f46
+_md5_=efef12f5bc02450c418f759b9faf5e2d

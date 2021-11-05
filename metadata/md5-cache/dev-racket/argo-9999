@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/http dev-racket/sugar dev-racket/beautiful-racket-lib dev-racket/json-pointer dev-racket/uri-template dev-racket/ejs dev-racket/brag >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/beautiful-racket-lib dev-racket/brag dev-racket/ejs dev-racket/http dev-racket/json-pointer dev-racket/sugar dev-racket/uri-template >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Validate JSON data using JSON Schema.
 EAPI=8
 HOMEPAGE=https://github.com/jessealama/argo
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/http dev-racket/sugar dev-racket/beautiful-racket-lib dev-racket/json-pointer dev-racket/uri-template dev-racket/ejs dev-racket/brag >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/beautiful-racket-lib dev-racket/brag dev-racket/ejs dev-racket/http dev-racket/json-pointer dev-racket/sugar dev-racket/uri-template >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=dcd82bb76402e8f24cc875d4f5919561
+_md5_=7159bb2b1ca8b7a82e23faef551173f4

@@ -1,6 +1,6 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/mcfly dev-racket/html-template >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/html-template dev-racket/mcfly >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Racket Web Server html-template Support
 EAPI=8
 HOMEPAGE=http://www.neilvandyke.org/racket/
@@ -8,8 +8,8 @@ INHERIT=racket
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/mcfly dev-racket/html-template >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/html-template dev-racket/mcfly >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c
-_md5_=868ddb868e05e721f7caf0f9ec793efa
+_md5_=b4bf5cb09c28b9d5cb7640bc68e7800f

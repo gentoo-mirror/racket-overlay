@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/syntax-classes-lib dev-racket/arguments dev-racket/fancy-app dev-racket/reprovide-lang dev-racket/doc-coverage >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/arguments dev-racket/doc-coverage dev-racket/fancy-app dev-racket/reprovide-lang dev-racket/syntax-classes-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the expect Racket package
 EAPI=8
 HOMEPAGE=https://github.com/jackfirth/racket-expect
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/syntax-classes-lib dev-racket/arguments dev-racket/fancy-app dev-racket/reprovide-lang dev-racket/doc-coverage >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/arguments dev-racket/doc-coverage dev-racket/fancy-app dev-racket/reprovide-lang dev-racket/syntax-classes-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=52a8e1143c2298a84a8e4ed09fcbc89d
+_md5_=960e7f49c6cdd8fb8e8cf058dea549d2

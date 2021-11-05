@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/unstable-list-lib dev-racket/unstable-contract-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/unstable-contract-lib dev-racket/unstable-list-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=A partial version of 2htdp for Typed Racket
 EAPI=8
 HOMEPAGE=https://github.com/lexi-lambda/racket-2htdp-typed
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/unstable-list-lib dev-racket/unstable-contract-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/unstable-contract-lib dev-racket/unstable-list-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lexi-lambda/racket-2htdp-typed/archive/b46c957f0ad7490bc7b0f01da0e80380f34cac2d.tar.gz -> 2htdp-typed-2017.08.15.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=62759f9e4f22f6fb6386ef28179fc7cd
+_md5_=1b1ac7af6f1ed54a94aa6084299d7879

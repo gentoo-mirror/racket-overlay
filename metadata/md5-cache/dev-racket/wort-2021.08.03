@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/brag dev-racket/beautiful-racket dev-racket/beautiful-racket-lib dev-racket/br-parser-tools-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/beautiful-racket dev-racket/beautiful-racket-lib dev-racket/br-parser-tools-lib dev-racket/brag >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=A tiny concatenative language with polymorphic type inference
 EAPI=8
 HOMEPAGE=https://github.com/robertkleffner/wort
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/brag dev-racket/beautiful-racket dev-racket/beautiful-racket-lib dev-racket/br-parser-tools-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/beautiful-racket dev-racket/beautiful-racket-lib dev-racket/br-parser-tools-lib dev-racket/brag >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/robertkleffner/wort/archive/433130f0f6f1fa90d7ed21b857d03bce856656b0.tar.gz -> wort-2021.08.03.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=d525e74a7722ec8db30a88d7663aa349
+_md5_=1f0c2a4cd509b882a9da16ce8bd75393

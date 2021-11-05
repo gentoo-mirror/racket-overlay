@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/neuron-lib dev-racket/neuron-doc >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/neuron-doc dev-racket/neuron-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Decentralized Software Organisms
 EAPI=8
 HOMEPAGE=https://github.com/dedbox/racket-neuron
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/neuron-lib dev-racket/neuron-doc >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/neuron-doc dev-racket/neuron-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/dedbox/racket-neuron/archive/a8ecafec0c6398c35423348cb02ec229869c8b15.tar.gz -> neuron-2019.07.19.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=5335a889ea3943802464446b1fd46d0d
+_md5_=aaf1e6a88da87f2c379099ab64ad5f71

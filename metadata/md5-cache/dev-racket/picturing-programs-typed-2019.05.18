@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/2htdp-typed dev-racket/unstable-list-lib dev-racket/unstable-contract-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/2htdp-typed dev-racket/unstable-contract-lib dev-racket/unstable-list-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the picturing-programs-typed Racket package
 EAPI=8
 HOMEPAGE=https://github.com/maueroats/picturing-programs-typed
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/2htdp-typed dev-racket/unstable-list-lib dev-racket/unstable-contract-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/2htdp-typed dev-racket/unstable-contract-lib dev-racket/unstable-list-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/maueroats/picturing-programs-typed/archive/82dd9c1938c0fa9fdb5ea95849f7ca6f3a082edd.tar.gz -> picturing-programs-typed-2019.05.18.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=8819462f26eeb61eceadead45833a845
+_md5_=11d7e5c7c137ced63634364b32fabc2c

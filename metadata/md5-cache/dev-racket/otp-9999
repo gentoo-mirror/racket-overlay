@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/otp-lib dev-racket/typed-otp-lib dev-racket/otp-doc >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/otp-doc dev-racket/otp-lib dev-racket/typed-otp-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Implementation of one-time passwords as specified by RFC4226 and RFC6238.
 EAPI=8
 HOMEPAGE=https://github.com/yilinwei/otp
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/otp-lib dev-racket/typed-otp-lib dev-racket/otp-doc >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/otp-doc dev-racket/otp-lib dev-racket/typed-otp-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=a9896bd1272433cb3d7b22e7d9ab9deb
+_md5_=9a2d5929eb075d9dd665e4d57f825f4a

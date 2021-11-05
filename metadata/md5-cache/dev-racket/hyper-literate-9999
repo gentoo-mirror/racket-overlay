@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/scribble-enhanced dev-racket/sexp-diff dev-racket/tr-immutable dev-racket/typed-map-lib dev-racket/debug-scopes >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/debug-scopes dev-racket/scribble-enhanced dev-racket/sexp-diff dev-racket/tr-immutable dev-racket/typed-map-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the hyper-literate Racket package
 EAPI=8
 HOMEPAGE=https://github.com/jsmaniac/hyper-literate
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/scribble-enhanced dev-racket/sexp-diff dev-racket/tr-immutable dev-racket/typed-map-lib dev-racket/debug-scopes >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/debug-scopes dev-racket/scribble-enhanced dev-racket/sexp-diff dev-racket/tr-immutable dev-racket/typed-map-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=969944b12cf3b584696ff99f79752e24
+_md5_=69a54e374afdcb0d58fb92ff7a31706c

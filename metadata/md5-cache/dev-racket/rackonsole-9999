@@ -1,6 +1,6 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/mcfly dev-racket/charterm dev-racket/gdbdump dev-racket/overeasy >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/charterm dev-racket/gdbdump dev-racket/mcfly dev-racket/overeasy >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Lightweight Operator Console for Racket Server Processes
 EAPI=8
 HOMEPAGE=http://www.neilvandyke.org/racket/
@@ -8,8 +8,8 @@ INHERIT=racket
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/mcfly dev-racket/charterm dev-racket/gdbdump dev-racket/overeasy >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/charterm dev-racket/gdbdump dev-racket/mcfly dev-racket/overeasy >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c
-_md5_=86958e299a16ff65b07f861123e421d7
+_md5_=7779558e82f503fda7a5847aead98a4b

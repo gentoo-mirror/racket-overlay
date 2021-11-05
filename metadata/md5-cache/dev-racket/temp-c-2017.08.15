@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/temp-c-lib dev-racket/temp-c-doc >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/temp-c-doc dev-racket/temp-c-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=temporal contracts
 EAPI=8
 HOMEPAGE=https://github.com/jeapostrophe/temp-c
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/temp-c-lib dev-racket/temp-c-doc >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/temp-c-doc dev-racket/temp-c-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jeapostrophe/temp-c/archive/43f7f2141c81a301aa229ef4105f458eee070653.tar.gz -> temp-c-2017.08.15.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=dbad9c91d8c4d65d82b08504746e3822
+_md5_=29846f7738d9fb06398e476bde05643a

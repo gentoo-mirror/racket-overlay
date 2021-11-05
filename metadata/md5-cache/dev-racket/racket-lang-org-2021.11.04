@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/csv-reading dev-racket/graph dev-racket/plt-web-lib dev-racket/pollen dev-racket/css-tools dev-racket/sugar dev-racket/txexpr dev-racket/gregor-lib dev-racket/frog dev-racket/ppict dev-racket/s3-sync >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/css-tools dev-racket/csv-reading dev-racket/frog dev-racket/graph dev-racket/gregor-lib dev-racket/plt-web-lib dev-racket/pollen dev-racket/ppict dev-racket/s3-sync dev-racket/sugar dev-racket/txexpr >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Sources for http://racket-lang.org
 EAPI=8
 HOMEPAGE=https://github.com/racket/racket-lang-org
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/csv-reading dev-racket/graph dev-racket/plt-web-lib dev-racket/pollen dev-racket/css-tools dev-racket/sugar dev-racket/txexpr dev-racket/gregor-lib dev-racket/frog dev-racket/ppict dev-racket/s3-sync >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/css-tools dev-racket/csv-reading dev-racket/frog dev-racket/graph dev-racket/gregor-lib dev-racket/plt-web-lib dev-racket/pollen dev-racket/ppict dev-racket/s3-sync dev-racket/sugar dev-racket/txexpr >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/racket/racket-lang-org/archive/d368854355d0e842e98026bc5e9b12f8b5a5bd74.tar.gz -> racket-lang-org-2021.11.04.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=d1a81ab35c5ad50a542e1eadc54a2737
+_md5_=cab4b3fa52e2ca88de208eca052db6d0

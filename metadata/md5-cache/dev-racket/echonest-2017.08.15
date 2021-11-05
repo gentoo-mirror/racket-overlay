@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/wffi dev-racket/rackjure >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/rackjure dev-racket/wffi >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Wrapper for The Echo Nest web API.
 EAPI=8
 HOMEPAGE=https://github.com/greghendershott/echonest
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/wffi dev-racket/rackjure >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/rackjure dev-racket/wffi >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/greghendershott/echonest/archive/fd7d6511231bb4304cfd10260825e86ac33c3ddc.tar.gz -> echonest-2017.08.15.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=838dcfbf3cd8c75e345131cd177316c4
+_md5_=0cafb06b66f92bdd1bea87d9b58ed9f0

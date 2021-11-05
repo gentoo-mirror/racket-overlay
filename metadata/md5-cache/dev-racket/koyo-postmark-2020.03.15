@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/koyo-lib dev-racket/postmark-client dev-racket/koyo-doc >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/koyo-doc dev-racket/koyo-lib dev-racket/postmark-client >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=A Postmark mail adapter for koyo. (docs and implementation)
 EAPI=8
 HOMEPAGE=https://github.com/Bogdanp/koyo-postmark
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/koyo-lib dev-racket/postmark-client dev-racket/koyo-doc >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/koyo-doc dev-racket/koyo-lib dev-racket/postmark-client >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/koyo-postmark/archive/ceeb619d555ef49c2cec42c0b890a97fd1377f89.tar.gz -> koyo-postmark-2020.03.15.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=336f64419f590d05f4364a109bc1c8a0
+_md5_=ae9a99882494680707ca17de4729e1d8

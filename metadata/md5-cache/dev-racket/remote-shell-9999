@@ -1,6 +1,6 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/remote-shell-lib dev-racket/remote-shell-doc >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/remote-shell-doc dev-racket/remote-shell-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Tools for running on remote and virtual-machine hosts
 EAPI=8
 HOMEPAGE=http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/empty.zip
@@ -8,8 +8,8 @@ INHERIT=racket
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/remote-shell-lib dev-racket/remote-shell-doc >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/remote-shell-doc dev-racket/remote-shell-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c
-_md5_=8a4d27e5d3d1381f2a1c4fa9724f5ee5
+_md5_=9a23f251bfdcd16be25f72edd29482b9

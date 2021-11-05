@@ -1,6 +1,6 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/automata-lib dev-racket/markparam-lib dev-racket/ppict dev-racket/temp-c-lib dev-racket/unstable-macro-testing-lib dev-racket/staged-slide >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/automata-lib dev-racket/markparam-lib dev-racket/ppict dev-racket/staged-slide dev-racket/temp-c-lib dev-racket/unstable-macro-testing-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=implementation (no documentation) part of unstable
 EAPI=8
 HOMEPAGE=http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/empty.zip
@@ -8,8 +8,8 @@ INHERIT=racket
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/automata-lib dev-racket/markparam-lib dev-racket/ppict dev-racket/temp-c-lib dev-racket/unstable-macro-testing-lib dev-racket/staged-slide >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/automata-lib dev-racket/markparam-lib dev-racket/ppict dev-racket/staged-slide dev-racket/temp-c-lib dev-racket/unstable-macro-testing-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c
-_md5_=4150eb2b3e1dafaf783edc04a5745a47
+_md5_=379f7f124a734e131fe05ce08ae8aa45

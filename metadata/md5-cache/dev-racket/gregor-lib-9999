@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/memoize dev-racket/tzinfo dev-racket/cldr-core dev-racket/cldr-bcp47 dev-racket/cldr-numbers-modern dev-racket/cldr-dates-modern dev-racket/cldr-localenames-modern >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/cldr-bcp47 dev-racket/cldr-core dev-racket/cldr-dates-modern dev-racket/cldr-localenames-modern dev-racket/cldr-numbers-modern dev-racket/memoize dev-racket/tzinfo >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Code part of the gregor date and time library
 EAPI=8
 HOMEPAGE=https://github.com/97jaz/gregor
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/memoize dev-racket/tzinfo dev-racket/cldr-core dev-racket/cldr-bcp47 dev-racket/cldr-numbers-modern dev-racket/cldr-dates-modern dev-racket/cldr-localenames-modern >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/cldr-bcp47 dev-racket/cldr-core dev-racket/cldr-dates-modern dev-racket/cldr-localenames-modern dev-racket/cldr-numbers-modern dev-racket/memoize dev-racket/tzinfo >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=7ca043e4d4588a4af1080f0df620200f
+_md5_=801b7d69fbfce505d759616983eb3816

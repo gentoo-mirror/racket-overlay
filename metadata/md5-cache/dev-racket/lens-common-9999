@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/fancy-app dev-racket/reprovide-lang-lib dev-racket/lens-data dev-racket/sweet-exp-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/fancy-app dev-racket/lens-data dev-racket/reprovide-lang-lib dev-racket/sweet-exp-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Base lens constructors and additional combinators
 EAPI=8
 HOMEPAGE=https://github.com/jackfirth/lens
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/fancy-app dev-racket/reprovide-lang-lib dev-racket/lens-data dev-racket/sweet-exp-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/fancy-app dev-racket/lens-data dev-racket/reprovide-lang-lib dev-racket/sweet-exp-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=08136fc4f29ffc20b7828e004f6256ab
+_md5_=f40758ec5bc78905813daa731a6b70d2

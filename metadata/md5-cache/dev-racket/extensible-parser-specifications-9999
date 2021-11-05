@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/phc-toolkit dev-racket/generic-syntax-expanders dev-racket/alexis-util dev-racket/seq-no-order >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/alexis-util dev-racket/generic-syntax-expanders dev-racket/phc-toolkit dev-racket/seq-no-order >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the extensible-parser-specifications Racket package
 EAPI=8
 HOMEPAGE=https://github.com/jsmaniac/extensible-parser-specifications
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/phc-toolkit dev-racket/generic-syntax-expanders dev-racket/alexis-util dev-racket/seq-no-order >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/alexis-util dev-racket/generic-syntax-expanders dev-racket/phc-toolkit dev-racket/seq-no-order >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=ff95936712b037d60acf70e305002a4a
+_md5_=ecae0d805174b289c3e7b34460c342d5

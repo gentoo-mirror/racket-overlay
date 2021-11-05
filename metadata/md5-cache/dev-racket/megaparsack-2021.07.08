@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/megaparsack-lib dev-racket/megaparsack-doc dev-racket/megaparsack-parser dev-racket/megaparsack-parser-tools >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/megaparsack-doc dev-racket/megaparsack-lib dev-racket/megaparsack-parser dev-racket/megaparsack-parser-tools >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=practical parser combinators
 EAPI=8
 HOMEPAGE=https://github.com/lexi-lambda/megaparsack
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/megaparsack-lib dev-racket/megaparsack-doc dev-racket/megaparsack-parser dev-racket/megaparsack-parser-tools >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/megaparsack-doc dev-racket/megaparsack-lib dev-racket/megaparsack-parser dev-racket/megaparsack-parser-tools >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lexi-lambda/megaparsack/archive/c4f573c4b41f75f20dfacc2e8cfe7b6bff789fb3.tar.gz -> megaparsack-2021.07.08.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=7623758531e346a9937874d85879eb5f
+_md5_=e14e7f65ede3204ff84066f470baec0f

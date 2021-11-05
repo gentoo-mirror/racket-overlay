@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/asn1-lib dev-racket/asn1-doc >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/asn1-doc dev-racket/asn1-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=ASN.1 library
 EAPI=8
 HOMEPAGE=https://github.com/rmculpepper/asn1
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/asn1-lib dev-racket/asn1-doc >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/asn1-doc dev-racket/asn1-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/rmculpepper/asn1/archive/dc47c3e5ea41f025a2644b1aa4151ed1f88e524f.tar.gz -> asn1-2021.07.22.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=cf96b3d6bdc96eecba71e693531ac33e
+_md5_=978f34324a5bb4a23804965fe19e65e8

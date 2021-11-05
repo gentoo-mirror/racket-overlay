@@ -1124,7 +1124,7 @@ dev-racket/sass 2020.10.30 9999: Bindings to libsass.
 dev-racket/sat 2018.09.20 9999: A simple SAT solver based on DPLL.
 dev-racket/satore 2021.09.23 2021.09.30 2021.10.26 9999: the satore Racket package
 dev-racket/sau-cptr405 9999: SAU CPTR-405 W20 handin plugin for DrRacket
-dev-racket/sauron 2021.07.31 2021.08.29 2021.10.13 9999: A DrRacket plugin to make it experience like an IDE
+dev-racket/sauron 2021.07.31 2021.08.29 2021.10.13 2021.11.05 9999: A DrRacket plugin to make it experience like an IDE
 dev-racket/sawzall 2021.10.26 2021.10.27 2021.11.01 9999: A grammar for data wrangling
 dev-racket/sawzall-doc 2021.10.26 2021.10.27 2021.11.01 9999: Documentation for Sawzall
 dev-racket/sawzall-lib 2021.10.26 2021.10.27 2021.11.01 9999: A grammar for data wrangling (no documentation)
@@ -1325,7 +1325,7 @@ dev-racket/test-more 2019.05.02 9999: the test-more Racket package
 dev-racket/tetris 2020.12.06 9999: A colorful version of tetris.
 dev-racket/texmath 2019.06.28 9999: Pseudo-(La)TeX mathematical notation for Scribble
 dev-racket/text-block 2021.07.21 2021.10.06 2021.11.05 9999: Similar to pict, but for 2d unicode text and math formulas
-dev-racket/text-date 2021.10.23 9999: Widget for Racket/gui for date enter
+dev-racket/text-date 2021.10.23 2021.11.05 9999: Widget for Racket/gui for date enter
 dev-racket/text-table 2021.06.26 9999: A simple package to display text tables with utf-8 frames.
 dev-racket/the-unicoder 2021.03.16 9999: Universal unicode input system
 dev-racket/thread-utils 2019.06.21 9999: Error-safe infinite loop and until-timeout

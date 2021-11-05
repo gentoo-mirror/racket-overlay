@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/crypto-lib dev-racket/crypto-doc >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/crypto-doc dev-racket/crypto-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Cryptography library
 EAPI=8
 HOMEPAGE=https://github.com/rmculpepper/crypto
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/crypto-lib dev-racket/crypto-doc >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/crypto-doc dev-racket/crypto-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/rmculpepper/crypto/archive/21e900fc568843331e1ea3eb1e1094c90a07032d.tar.gz -> crypto-2021.09.07.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=c153163af2d87c8d4ec37e26b8e7b1ea
+_md5_=e0a1c8a35d335bb7880f7a738a7caf4e

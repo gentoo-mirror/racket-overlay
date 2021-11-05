@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/adjutor dev-racket/reprovide-lang dev-racket/gregor dev-racket/functional-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/adjutor dev-racket/functional-lib dev-racket/gregor dev-racket/reprovide-lang >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=A standard library for Digital Ricoeur
 EAPI=8
 HOMEPAGE=https://bitbucket.org/digitalricoeur/ricoeur-kernel
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/adjutor dev-racket/reprovide-lang dev-racket/gregor dev-racket/functional-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/adjutor dev-racket/functional-lib dev-racket/gregor dev-racket/reprovide-lang >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=3a0ad5f2fa4a9036871d4c3720b913e5
+_md5_=76300d8531d1ed6f767565a3e86bd916

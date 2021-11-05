@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/pollen dev-racket/hyphenate dev-racket/css-tools dev-racket/txexpr dev-racket/sugar >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/css-tools dev-racket/hyphenate dev-racket/pollen dev-racket/sugar dev-racket/txexpr >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Sample Pollen project: source code for Typography for Lawyers website
 EAPI=8
 HOMEPAGE=https://github.com/mbutterick/pollen-tfl
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/pollen dev-racket/hyphenate dev-racket/css-tools dev-racket/txexpr dev-racket/sugar >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/css-tools dev-racket/hyphenate dev-racket/pollen dev-racket/sugar dev-racket/txexpr >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mbutterick/pollen-tfl/archive/d51229e0558f30b522acb6e13858f84a3f8814ce.tar.gz -> pollen-tfl-2021.05.18.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=bb89aa30c4e73890266775424d40750b
+_md5_=18233033d5ce66e0c0df87eba8c5dd90

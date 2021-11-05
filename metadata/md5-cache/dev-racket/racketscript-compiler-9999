@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/threading dev-racket/graph-lib dev-racket/anaphoric >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/anaphoric dev-racket/graph-lib dev-racket/threading >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=A Racket to JavaScript compiler
 EAPI=8
 HOMEPAGE=https://github.com/racketscript/racketscript
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/threading dev-racket/graph-lib dev-racket/anaphoric >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/anaphoric dev-racket/graph-lib dev-racket/threading >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=25ab5de7d6cfc1bf5fb10e2c91783b25
+_md5_=4eb856858debb63f107b87e5b6e4d0cc

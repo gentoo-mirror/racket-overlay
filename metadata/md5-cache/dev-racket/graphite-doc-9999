@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/loess dev-racket/simple-polynomial dev-racket/data-frame dev-racket/graphite-lib dev-racket/graphite-tutorial dev-racket/gregor >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/data-frame dev-racket/graphite-lib dev-racket/graphite-tutorial dev-racket/gregor dev-racket/loess dev-racket/simple-polynomial >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Documentation for Graphite
 EAPI=8
 HOMEPAGE=https://github.com/ralsei/graphite
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/loess dev-racket/simple-polynomial dev-racket/data-frame dev-racket/graphite-lib dev-racket/graphite-tutorial dev-racket/gregor >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/data-frame dev-racket/graphite-lib dev-racket/graphite-tutorial dev-racket/gregor dev-racket/loess dev-racket/simple-polynomial >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=884822e05c91ddf2369b7392a9f757ec
+_md5_=0eb50d4ef8a869aa215c5b03728dfe64

@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/unstable-lib dev-racket/defpat dev-racket/scribble-code-examples >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/defpat dev-racket/scribble-code-examples dev-racket/unstable-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=a version of define that allows definitions to be spread across a file
 EAPI=8
 HOMEPAGE=https://github.com/AlexKnauth/define-match-spread-out
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/unstable-lib dev-racket/defpat dev-racket/scribble-code-examples >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/defpat dev-racket/scribble-code-examples dev-racket/unstable-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=4c987ac59ba7ff152053bf2ba95638e9
+_md5_=813a1966c586d69d4630beb17993cee7

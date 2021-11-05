@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/pict3d dev-racket/glu-tessellate >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/glu-tessellate dev-racket/pict3d >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=For Pict3D, generates text and other 2-D shapes from paths
 EAPI=8
 HOMEPAGE=https://github.com/mflatt/pict3d-die-cut
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/pict3d dev-racket/glu-tessellate >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/glu-tessellate dev-racket/pict3d >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=9da127aae79d025254e3abb9500c133b
+_md5_=8620f2de327ea16cf34e1bf35322119d

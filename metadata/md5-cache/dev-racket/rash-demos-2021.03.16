@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/rash dev-racket/basedir dev-racket/shell-pipeline dev-racket/linea dev-racket/udelim dev-racket/csv-reading dev-racket/text-table >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/basedir dev-racket/csv-reading dev-racket/linea dev-racket/rash dev-racket/shell-pipeline dev-racket/text-table dev-racket/udelim >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Demo code for the Rash package.
 EAPI=8
 HOMEPAGE=https://github.com/willghatch/racket-rash
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/rash dev-racket/basedir dev-racket/shell-pipeline dev-racket/linea dev-racket/udelim dev-racket/csv-reading dev-racket/text-table >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/basedir dev-racket/csv-reading dev-racket/linea dev-racket/rash dev-racket/shell-pipeline dev-racket/text-table dev-racket/udelim >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/willghatch/racket-rash/archive/c40c5adfedf632bc1fdbad3e0e2763b134ee3ff5.tar.gz -> rash-demos-2021.03.16.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=49321481372cdf746806f6e93cff1bc9
+_md5_=e10d8cf8ff984cb4330426fff4b4f70a

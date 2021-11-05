@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/compose-app dev-racket/fancy-app dev-racket/gregor-lib dev-racket/reprovide-lang dev-racket/mock dev-racket/gregor-doc dev-racket/mock-rackunit >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/compose-app dev-racket/fancy-app dev-racket/gregor-doc dev-racket/gregor-lib dev-racket/mock dev-racket/mock-rackunit dev-racket/reprovide-lang >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Composable configurable retryers for flakily failing operations.
 EAPI=8
 HOMEPAGE=https://github.com/jackfirth/racket-retry
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/compose-app dev-racket/fancy-app dev-racket/gregor-lib dev-racket/reprovide-lang dev-racket/mock dev-racket/gregor-doc dev-racket/mock-rackunit >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/compose-app dev-racket/fancy-app dev-racket/gregor-doc dev-racket/gregor-lib dev-racket/mock dev-racket/mock-rackunit dev-racket/reprovide-lang >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/racket-retry/archive/2a6ba58ab5f14707305e75063c3ee4519fc6dc7d.tar.gz -> retry-2017.12.05.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=31da1cdc2d83d1662944876369b5e25e
+_md5_=7a4f6f8c53f0ea26733aedfec86885b8

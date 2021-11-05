@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/raco-cross-lib dev-racket/raco-cross-doc >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/raco-cross-doc dev-racket/raco-cross-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=A raco command to drive cross compilation.
 EAPI=8
 HOMEPAGE=https://github.com/racket/raco-cross
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/raco-cross-lib dev-racket/raco-cross-doc >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/raco-cross-doc dev-racket/raco-cross-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/racket/raco-cross/archive/08d23ab27196594b731a8fee4360f93882494b7a.tar.gz -> raco-cross-2021.08.15.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=38af912b7a2df582e54689ed8c3a0d05
+_md5_=61fbd3fded9c377271fe98230d6221df

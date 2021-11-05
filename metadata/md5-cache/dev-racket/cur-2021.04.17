@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/cur-lib dev-racket/cur-doc dev-racket/cur-test >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/cur-doc dev-racket/cur-lib dev-racket/cur-test >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Dependent types and meta-programming
 EAPI=8
 HOMEPAGE=https://github.com/wilbowma/cur
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/cur-lib dev-racket/cur-doc dev-racket/cur-test >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/cur-doc dev-racket/cur-lib dev-racket/cur-test >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/wilbowma/cur/archive/7ce536c14e4e18cc84a7011a70f37cb98e21cf97.tar.gz -> cur-2021.04.17.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=259aa772444b24ffb4f18fe8b6b1a25f
+_md5_=b65a94c6fcef9a63c903ff46683053b4

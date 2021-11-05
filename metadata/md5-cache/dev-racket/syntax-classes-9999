@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/syntax-classes-lib dev-racket/syntax-classes-doc >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/syntax-classes-doc dev-racket/syntax-classes-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Additional useful syntax classes for use with syntax/parse
 EAPI=8
 HOMEPAGE=https://github.com/lexi-lambda/syntax-classes
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/syntax-classes-lib dev-racket/syntax-classes-doc >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/syntax-classes-doc dev-racket/syntax-classes-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=2a16166433a10c5679320bcc2d8b2976
+_md5_=20350a01c58a6d5a11c9c77add1ad0b2

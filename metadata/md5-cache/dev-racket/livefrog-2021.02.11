@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/sxml dev-racket/frog dev-racket/find-parent-dir >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/find-parent-dir dev-racket/frog dev-racket/sxml >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Convert ljdump/ljmigrate files for Frog
 EAPI=8
 HOMEPAGE=https://github.com/ebzzry/livefrog
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/sxml dev-racket/frog dev-racket/find-parent-dir >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/find-parent-dir dev-racket/frog dev-racket/sxml >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/ebzzry/livefrog/archive/cde478d1ab11c52f7f23763174ae9ae16402a918.tar.gz -> livefrog-2021.02.11.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=1747b88416acf75fa6ac5737e92620b4
+_md5_=340c7dc8516243f8d0de4733ddfd3f03

@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/megaparsack dev-racket/txexpr dev-racket/curly-fn-lib dev-racket/functional-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/curly-fn-lib dev-racket/functional-lib dev-racket/megaparsack dev-racket/txexpr >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the brazilian-law Racket package
 EAPI=8
 HOMEPAGE=https://github.com/OAB-exams/brazilian-law-parser
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/megaparsack dev-racket/txexpr dev-racket/curly-fn-lib dev-racket/functional-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/curly-fn-lib dev-racket/functional-lib dev-racket/megaparsack dev-racket/txexpr >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/OAB-exams/brazilian-law-parser/archive/912433fd9755e309d7e681fa2c74cff5e692a6d8.tar.gz -> brazilian-law-2018.09.01.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=05927c526ef41b92ed211745ff72e5fc
+_md5_=589be7391782eb839b262f7412689940

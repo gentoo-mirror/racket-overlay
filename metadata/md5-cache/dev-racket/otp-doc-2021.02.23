@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/otp-lib dev-racket/crypto-lib dev-racket/crypto-doc >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/crypto-doc dev-racket/crypto-lib dev-racket/otp-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the otp-doc Racket package
 EAPI=8
 HOMEPAGE=https://github.com/yilinwei/otp
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/otp-lib dev-racket/crypto-lib dev-racket/crypto-doc >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/crypto-doc dev-racket/crypto-lib dev-racket/otp-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/yilinwei/otp/archive/0757167eac914c45a756c090c4bdf5410080c145.tar.gz -> otp-doc-2021.02.23.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=90dc8e3650a3d1d19c13d392a1b14448
+_md5_=79421bafe7e2e1f898aa70c96ecab47d

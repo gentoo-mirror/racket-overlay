@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/plait dev-racket/brag dev-racket/plai-dynamic >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/brag dev-racket/plai-dynamic dev-racket/plait >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Handin client + metapackage for UNB Fredericton CS4613
 EAPI=8
 HOMEPAGE=https://pivot.cs.unb.ca/git/unb-cs4613
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/plait dev-racket/brag dev-racket/plai-dynamic >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/brag dev-racket/plai-dynamic dev-racket/plait >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=788eb1fa0802c1cdf283688c1ac0e47f
+_md5_=198b05cb236783703041f3c119ca29b3

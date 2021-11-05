@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/txexpr dev-racket/gregor-doc dev-racket/gregor-lib dev-racket/splitflap-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/gregor-doc dev-racket/gregor-lib dev-racket/splitflap-lib dev-racket/txexpr >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Documentation for splitflap
 EAPI=8
 HOMEPAGE=https://github.com/otherjoel/splitflap
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/txexpr dev-racket/gregor-doc dev-racket/gregor-lib dev-racket/splitflap-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/gregor-doc dev-racket/gregor-lib dev-racket/splitflap-lib dev-racket/txexpr >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=1375f36277094696f5b2786f5b98d85e
+_md5_=8abdb808d664b1c84aa1615d701d9bcf

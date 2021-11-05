@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/crypto dev-racket/bitsyntax dev-racket/word >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/bitsyntax dev-racket/crypto dev-racket/word >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Implementation of the Bluetooth CSR Mesh protocol.
 EAPI=8
 HOMEPAGE=https://gitlab.com/RayRacine/csrmesh
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/crypto dev-racket/bitsyntax dev-racket/word >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/bitsyntax dev-racket/crypto dev-racket/word >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=2913a491c07986cdc7ec9ba10def8a18
+_md5_=5d280619a0aa17a43383edcc9047315d

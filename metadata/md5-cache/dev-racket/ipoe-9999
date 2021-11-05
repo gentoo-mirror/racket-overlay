@@ -1,14 +1,14 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/basedir dev-racket/html-parsing dev-racket/levenshtein dev-racket/reprovide-lang dev-racket/sxml dev-racket/rackunit-abbrevs >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/basedir dev-racket/html-parsing dev-racket/levenshtein dev-racket/rackunit-abbrevs dev-racket/reprovide-lang dev-racket/sxml >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=interactive poetry editor
 EAPI=8
 HOMEPAGE=https://github.com/bennn/ipoe
 INHERIT=racket gh
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/basedir dev-racket/html-parsing dev-racket/levenshtein dev-racket/reprovide-lang dev-racket/sxml dev-racket/rackunit-abbrevs >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/basedir dev-racket/html-parsing dev-racket/levenshtein dev-racket/rackunit-abbrevs dev-racket/reprovide-lang dev-racket/sxml >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
-_md5_=470e035ada4e20f9066e387b91b1485f
+_md5_=faed7a6df5c99a480e1232a0eab62bdc

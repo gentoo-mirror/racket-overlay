@@ -1,0 +1,22 @@
+# Copyright 1999-2021 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+GH_DOM="github.com"
+GH_REPO="Bogdanp/racket-component"
+GH_COMMIT="1c2a0ec582caaa15c7bfeab0dd25bd2f58c99c7f"
+
+inherit racket gh
+
+DESCRIPTION="Simple dependency injection (docs)."
+HOMEPAGE="https://github.com/Bogdanp/racket-component"
+S="${S}/component-doc"
+
+LICENSE="all-rights-reserved"
+SLOT="0"
+KEYWORDS="~amd64"
+RESTRICT="mirror"
+
+RDEPEND="dev-racket/component-lib"
+DEPEND="${RDEPEND}"

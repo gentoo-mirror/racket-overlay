@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="countvajhula/qi"
-GH_COMMIT="2fcdd16773bf92a0705c260fe59169ceac15c97c"
+GH_COMMIT="6751371fd736b49a5dfa5bc70f94ea96946aa7cf"
 
 inherit racket gh
 
@@ -17,12 +17,12 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/relation
-	dev-racket/cover-coveralls
-	dev-racket/cover
-	dev-racket/scribble-abbrevs
-	dev-racket/adjutor
-	dev-racket/typed-stack
+RDEPEND="dev-racket/mischief
 	dev-racket/fancy-app
-	dev-racket/mischief"
+	dev-racket/typed-stack
+	dev-racket/adjutor
+	dev-racket/scribble-abbrevs
+	dev-racket/cover
+	dev-racket/cover-coveralls
+	dev-racket/relation"
 DEPEND="${RDEPEND}"

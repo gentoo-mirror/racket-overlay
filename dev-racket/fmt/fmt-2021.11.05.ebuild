@@ -4,15 +4,18 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="bennn/syntax-parse-example"
-GH_COMMIT="01e9e9654ab5f4241b5c6a3b90df555929378e0c"
+GH_REPO="sorawee/fmt"
+GH_COMMIT="14b62e88ac516f3dc9b65fd06f2d7e76ff0236d4"
 
 inherit racket gh
 
-DESCRIPTION="Example macros written using syntax/parse"
-HOMEPAGE="https://github.com/bennn/syntax-parse-example"
+DESCRIPTION="An extensible code formatter for Racket"
+HOMEPAGE="https://github.com/sorawee/fmt"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/pprint-compact"
+DEPEND="${RDEPEND}"

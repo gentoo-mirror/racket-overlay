@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=A list-box% with a search field
+EAPI=8
+HOMEPAGE=https://github.com/Metaxal/search-list-box
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/Metaxal/search-list-box/archive/4c7b180583af54ae7e108bb89ef44ca7d85ff941.tar.gz -> search-list-box-2021.11.03.tar.gz
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=4309c7a1f32ab47aa809b2badeaba4b0

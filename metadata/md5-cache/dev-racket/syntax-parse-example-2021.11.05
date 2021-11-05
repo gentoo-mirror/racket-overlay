@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
-DESCRIPTION=Chipmunk bindings for Racket.
+DESCRIPTION=Example macros written using syntax/parse
 EAPI=8
-HOMEPAGE=https://github.com/thoughtstem/racket-chipmunk
+HOMEPAGE=https://github.com/syntax-objects/syntax-parse-example
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/thoughtstem/racket-chipmunk/archive/152c9c4758f59ade9db01614e89e946eb39de168.tar.gz -> racket-chipmunk-2021.10.22.tar.gz
+SRC_URI=https://github.com/syntax-objects/syntax-parse-example/archive/a77eb16fbd0170932c0b1e3fdb9454b2be6973c7.tar.gz -> syntax-parse-example-2021.11.05.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=2da40f5531796d5eb2ddb0369a21eefd
+_md5_=f062b151e680dadcbab0f3a001d00e7f

@@ -1,0 +1,15 @@
+BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/splitflap-doc dev-racket/splitflap-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Atom and RSS feed generation
+EAPI=8
+HOMEPAGE=https://github.com/otherjoel/splitflap
+INHERIT=racket gh
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/splitflap-doc dev-racket/splitflap-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/otherjoel/splitflap/archive/d779871e2c3161af728589925b77bb5e2693f6c0.tar.gz -> splitflap-2021.11.02.tar.gz
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_md5_=210fa79d84cbcda13dc41451ceb4475b

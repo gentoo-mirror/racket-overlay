@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
-DESCRIPTION=Example macros written using syntax/parse
+DESCRIPTION=Russian internationalization bits
 EAPI=8
-HOMEPAGE=https://github.com/bennn/syntax-parse-example
+HOMEPAGE=https://github.com/Kalimehtar/russian
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/bennn/syntax-parse-example/archive/01e9e9654ab5f4241b5c6a3b90df555929378e0c.tar.gz -> syntax-parse-example-2021.10.27.tar.gz
+SRC_URI=https://github.com/Kalimehtar/russian/archive/c536993445f3e34ed6baa614bf4f0f8be1d2e3aa.tar.gz -> russian-2021.11.03.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=76178343633183cef3df3b327c808122
+_md5_=ddeec8206cde9f5c83afdfffcbb5dc9a

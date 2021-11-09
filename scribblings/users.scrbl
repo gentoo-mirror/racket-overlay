@@ -101,3 +101,7 @@ The following packages are causing rebuilds:
     (dev-racket/drracket-one-dark-2021.03.05:0/0::racket-overlay, ebuild scheduled for merge)
     (sys-apps/racket-compiler-0.0.0:0/0::racket-overlay, ebuild scheduled for merge)
 }
+
+For more info on Gentoo updates see
+@link["https://wiki.gentoo.org/wiki/Upgrading_Gentoo#Updating_packages"
+      "Gentoo Wiki: Updating packages"].

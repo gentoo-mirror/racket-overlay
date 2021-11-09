@@ -2,10 +2,12 @@
 # Distributed under the terms of the GNU General Public License v2
 
 # NOTICE: Maintainers, while bumping Racket using this ebuild
-# you need to change PLT_V_MINOR and PLT_SNAP_HASH
+# you need to change "PLT_V_MINOR" and "PLT_SNAP_HASH".
 
 # NOTICE: This ebuild version has to remain in form "<MAJOR_RELEASE>_pre<DATE>"
 # for non-prerelease versions like <MAJOR_RELEASE> to take precedence!
+# Otherwise, use "_p" (patch) instead of "_pre" (prerelease)
+# if you wish for this ebuild to take precedence.
 
 EAPI=8
 

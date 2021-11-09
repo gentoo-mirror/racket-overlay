@@ -12,4 +12,4 @@ REQUIRED_USE=futures? ( jit )
 SLOT=0/8.3.0.5
 SRC_URI=minimal? ( https://plt.cs.northwestern.edu/snapshots/20211031-00cd554fb4/installers/racket-minimal-8.3.0.5-src-builtpkgs.tgz -> racket-8.3_pre20211031-minimal.tgz ) !minimal? ( https://plt.cs.northwestern.edu/snapshots/20211031-00cd554fb4/installers/racket-test-8.3.0.5-src-builtpkgs.tgz -> racket-8.3_pre20211031.tgz )
 _eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	optfeature	30ce9dec2b8943338c9b015bd32bac6a	xdg-utils	4f29a8b760a594a212abe9c2ba957c31
-_md5_=73aec44a99f0e1e8e92c92c3d35b4e39
+_md5_=858d0153d51f564d11ec1a8473156400

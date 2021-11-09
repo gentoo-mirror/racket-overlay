@@ -1,19 +1,29 @@
 # Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
+# NOTICE: Maintainers, while bumping Racket using this ebuild
+# you need to change PLT_V_MINOR and PLT_SNAP_HASH
+
+# NOTICE: This ebuild version has to remain in form "<MAJOR_RELEASE>_pre<DATE>"
+# for non-prerelease versions like <MAJOR_RELEASE> to take precedence!
+
 EAPI=8
+
+PLT_V_MAJOR="$(ver_cut 1-2)"
+PLT_V_MINOR="0.5"
+PLT_V="${PLT_V_MAJOR}.${PLT_V_MINOR}"
+
+PLT_SNAP_DATE="${PV##*_pre}"
+PLT_SNAP_HASH="00cd554fb4"
+PLT_SNAP="${PLT_SNAP_DATE}-${PLT_SNAP_HASH}"
+
+PLT_HOST="https://plt.cs.northwestern.edu"
 
 inherit desktop optfeature xdg-utils
 
 DESCRIPTION="General purpose, multi-paradigm Lisp-Scheme programming language"
 HOMEPAGE="https://racket-lang.org/"
 
-MAJOR="$(ver_cut 1-2)"
-PLT_V="${MAJOR}.0.5"
-PLT_SNAP_DATE="${PV##*_pre}"
-PLT_SNAP_HASH="00cd554fb4"
-PLT_SNAP="${PLT_SNAP_DATE}-${PLT_SNAP_HASH}"
-PLT_HOST="https://plt.cs.northwestern.edu"
 SRC_URI="
 	minimal? ( ${PLT_HOST}/snapshots/${PLT_SNAP}/installers/racket-minimal-${PLT_V}-src-builtpkgs.tgz -> ${P}-minimal.tgz )
 	!minimal? ( ${PLT_HOST}/snapshots/${PLT_SNAP}/installers/racket-test-${PLT_V}-src-builtpkgs.tgz -> ${P}.tgz )

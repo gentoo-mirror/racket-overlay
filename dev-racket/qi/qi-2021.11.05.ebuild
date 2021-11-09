@@ -23,6 +23,5 @@ RDEPEND="dev-racket/mischief
 	dev-racket/adjutor
 	dev-racket/scribble-abbrevs
 	dev-racket/cover
-	dev-racket/cover-coveralls
-	dev-racket/relation"
+	dev-racket/cover-coveralls"
 DEPEND="${RDEPEND}"

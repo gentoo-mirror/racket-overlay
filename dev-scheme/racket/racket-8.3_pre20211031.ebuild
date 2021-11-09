@@ -15,7 +15,12 @@ PLT_V_MAJOR="$(ver_cut 1-2)"
 PLT_V_MINOR="0.5"
 PLT_V="${PLT_V_MAJOR}.${PLT_V_MINOR}"
 
-PLT_SNAP_DATE="${PV##*_pre}"
+case ${PV##*_}
+in
+	pre* ) PLT_SNAP_DATE="${PV##*_pre}" ;;
+	p* ) PLT_SNAP_DATE="${PV##*_p}" ;;
+	* ) PLT_SNAP_DATE="" ;;
+esac
 PLT_SNAP_HASH="00cd554fb4"
 PLT_SNAP="${PLT_SNAP_DATE}-${PLT_SNAP_HASH}"
 

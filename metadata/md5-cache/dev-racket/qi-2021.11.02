@@ -1,15 +1,15 @@
 BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/mischief dev-racket/fancy-app dev-racket/typed-stack dev-racket/adjutor dev-racket/scribble-abbrevs dev-racket/cover dev-racket/cover-coveralls dev-racket/relation >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/mischief dev-racket/fancy-app dev-racket/typed-stack dev-racket/adjutor dev-racket/scribble-abbrevs dev-racket/cover dev-racket/cover-coveralls >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Another way to structure computations
 EAPI=8
 HOMEPAGE=https://github.com/countvajhula/qi
 INHERIT=racket gh
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/mischief dev-racket/fancy-app dev-racket/typed-stack dev-racket/adjutor dev-racket/scribble-abbrevs dev-racket/cover dev-racket/cover-coveralls dev-racket/relation >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/mischief dev-racket/fancy-app dev-racket/typed-stack dev-racket/adjutor dev-racket/scribble-abbrevs dev-racket/cover dev-racket/cover-coveralls >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/countvajhula/qi/archive/73381979a5b56414018ce3527b7b0cf9fe981b3e.tar.gz -> qi-2021.11.02.tar.gz
 _eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
-_md5_=819efcf49a82461fdfacc16b1dc46992
+_md5_=bb13b468dab991790a082fdd2eef3005

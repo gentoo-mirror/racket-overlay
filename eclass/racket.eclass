@@ -169,7 +169,7 @@ function racket_environment_prepare() {
 # placed "info.rkt" file that defines the collection you want.
 
 function racket_fix_collection() {
-	if [ -f ./info.rkt ]; then
+	if [[ -f ./info.rkt ]]; then
 		if ! grep 'define collection' ./info.rkt >/dev/null; then
 			ewarn "adding a collection definition to info.rkt"
 
@@ -185,7 +185,7 @@ function racket_fix_collection() {
 # with the package.
 
 function racket_clean_directory() {
-	if [ -d ".git" ]; then
+	if [[ -d ".git" ]]; then
 		rm -r ".git" || die "failed to remove unnecessary '.git' directory"
 	fi
 }
@@ -322,7 +322,7 @@ function racket_src_compile() {
 	racket_temporary_install
 	racket_compile_directory
 
-	if [ ${do_scrbl} -eq 1 ]; then
+	if [[ ${do_scrbl} -eq 1 ]]; then
 		if use doc; then
 			scribble_package_docs
 			scribble_system_docs
@@ -384,7 +384,7 @@ function racket_src_install() {
 	cp -r "${S}" "${inst_dir}/${RACKET_PN}" ||
 		die "racket_src_install failed"
 
-	if [ ${do_scrbl} -eq 1 ]; then
+	if [[ ${do_scrbl} -eq 1 ]]; then
 		if use doc; then
 			einfo "Installing documentation for ${P}"
 			insinto "/usr/share/doc/${PF}"
@@ -458,7 +458,7 @@ function racket_pkg_postinst() {
 		--jobs "$(makeopts_jobs)"
 		--scope installation
 	)
-	if [ ${do_scrbl} -eq 1 ]; then
+	if [[ ${do_scrbl} -eq 1 ]]; then
 		! use doc && raco_opts+=( --no-docs )
 	else
 		raco_opts+=( --no-docs )

@@ -284,7 +284,7 @@ function racket_src_compile() {
 
 	if [ ${do_scrbl} -eq 1 ]; then
 		if use doc; then
-			scribble_docs || die "scribble_docs failed"
+			scribble_docs
 		fi
 	fi
 }

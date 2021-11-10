@@ -11,5 +11,5 @@ RDEPEND=dev-racket/threading-lib dev-racket/threading-doc dev-racket/gregor-lib 
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/deta/archive/420295e1c520989b945138575428eadb35839051.tar.gz -> deta-doc-2021.08.09.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=6e8ff8eb67be1b4ee7b846198616bd37

@@ -11,5 +11,5 @@ RDEPEND=dev-racket/threading-lib dev-racket/threading-doc dev-racket/sawzall-lib
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/ralsei/graphite/archive/89f24af3a7d83019de362b52c07f15ce32aa73b1.tar.gz -> graphite-tutorial-2021.08.10.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=d2684aabddf7cdab7dd1cd5bd609e86d

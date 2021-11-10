@@ -11,5 +11,5 @@ RDEPEND=dev-racket/beautiful-racket-lib dev-racket/brag-lib >=dev-scheme/racket-
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/whichxjy/rockstar-rkt/archive/47723774e7ec6995eedd8fba27856b58ab056f71.tar.gz -> rockstar-2019.09.25.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=435c1c77ee30a91b68525b4a6a938b36

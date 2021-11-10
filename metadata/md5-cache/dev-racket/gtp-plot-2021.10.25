@@ -11,5 +11,5 @@ RDEPEND=dev-racket/gtp-util dev-racket/rackunit-abbrevs dev-racket/reprovide-lan
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/bennn/gtp-plot/archive/fabd40e30caafb310a4a7f6fd77fcf95571ebfac.tar.gz -> gtp-plot-2021.10.25.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=57a6d92d85a7b22a47fafed4528cf4be

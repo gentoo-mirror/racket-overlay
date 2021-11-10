@@ -11,5 +11,5 @@ RDEPEND=dev-racket/scribble-abbrevs >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/bengreenman/choose-out/-/archive/1f95bbe28c3ae1f4bc1e2556a2e363ae344c1bfd.tar.gz -> choose-out-2021.05.08.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=eb72d9b148081ca31ef9de0e2cd6d2a3

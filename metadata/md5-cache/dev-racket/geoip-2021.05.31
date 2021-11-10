@@ -11,5 +11,5 @@ RDEPEND=dev-racket/geoip-doc dev-racket/geoip-lib >=dev-scheme/racket-8.1:=[-min
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/racket-geoip/archive/bcc9bbb2905d0ef93f8c9cc35ed0bb4a6f31285b.tar.gz -> geoip-2021.05.31.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=52b6302589eec15f1013c05688fa9c39

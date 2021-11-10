@@ -11,5 +11,5 @@ RDEPEND=dev-racket/namespaced-transformer-lib >=dev-scheme/racket-8.1:=[-minimal
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lexi-lambda/racket-curly-fn/archive/d64cd71d5b386be85f5979edae6f6b6469a4df86.tar.gz -> curly-fn-lib-2017.08.15.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=a8aecf106abdca58221ce2aa0e3fe5b4

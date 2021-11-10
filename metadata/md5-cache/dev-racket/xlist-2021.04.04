@@ -11,5 +11,5 @@ RDEPEND=dev-racket/match-string dev-racket/multi-id dev-racket/mutable-match-lam
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jsmaniac/xlist/archive/e82c02f99186b062df86a92dc63a954861e36064.tar.gz -> xlist-2021.04.04.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=d7b8b7297180a08dc79770a1d9840edc

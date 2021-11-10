@@ -11,5 +11,5 @@ RDEPEND=dev-racket/web-galaxy-doc dev-racket/web-galaxy-lib >=dev-scheme/racket-
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/euhmeuh/web-galaxy/archive/2d9d5710aec25d961dcfc37a2e88c3c0f435021f.tar.gz -> web-galaxy-2020.02.15.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=41091caff84cf51bd641ef2481ee7d54

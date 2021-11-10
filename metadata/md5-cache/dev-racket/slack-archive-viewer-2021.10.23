@@ -11,5 +11,5 @@ RDEPEND=dev-racket/sass dev-racket/jsond dev-racket/pollen dev-racket/beeswax de
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/benknoble/slack-archive-viewer/archive/72a22ea2755b583d73c47af91ecf5d04478f753b.tar.gz -> slack-archive-viewer-2021.10.23.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=8bca57832125e933dabb6c0c53f0a7fa

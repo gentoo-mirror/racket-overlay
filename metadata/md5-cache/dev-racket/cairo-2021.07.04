@@ -11,5 +11,5 @@ RDEPEND=dev-racket/cairo-lib dev-racket/cairo-test >=dev-scheme/racket-8.1:=[-mi
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/soegaard/cairo/archive/537ba989c6dd0ed71e5da38995306955fcae84d5.tar.gz -> cairo-2021.07.04.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=5f2b3a329916713c0646693183581722

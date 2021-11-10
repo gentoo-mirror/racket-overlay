@@ -11,5 +11,5 @@ RDEPEND=dev-racket/anaphoric dev-racket/lux dev-racket/mode-lambda dev-racket/re
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/euhmeuh/rilouworld/archive/184dea6c187f4f94da6616b89ec15cc8ba6bb786.tar.gz -> rilouworld-2019.04.12.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=d481935da400ac6735fe9194aa22ab2b

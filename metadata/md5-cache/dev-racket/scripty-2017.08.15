@@ -11,5 +11,5 @@ RDEPEND=dev-racket/scripty-doc dev-racket/scripty-lib >=dev-scheme/racket-8.1:=[
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lexi-lambda/scripty/archive/09a0e2fd24dfcd5942177d4a328821534ee60ded.tar.gz -> scripty-2017.08.15.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=b52fe586562bb46497b6ef021fd16c1c

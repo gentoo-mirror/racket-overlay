@@ -11,5 +11,5 @@ RDEPEND=dev-racket/anaphoric dev-racket/graph-lib dev-racket/threading >=dev-sch
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/racketscript/racketscript/archive/9ea3f06a298d74f5ff9f275012a5fa997eaa6dca.tar.gz -> racketscript-compiler-2021.08.08.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=8ea614c7f9b455564ba54736bd173f48

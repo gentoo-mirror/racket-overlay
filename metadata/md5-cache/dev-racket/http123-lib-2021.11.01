@@ -11,5 +11,5 @@ RDEPEND=dev-racket/binaryio-lib dev-racket/net-cookies-lib dev-racket/scramble-l
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/rmculpepper/racket-http123/archive/d261bbe08f9b32c02cb89741d9797f7e5631191b.tar.gz -> http123-lib-2021.11.01.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=7f918f807fa9d0ce89d96ee30072207f

@@ -11,5 +11,5 @@ RDEPEND=dev-racket/racketscript-compiler >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/racketscript/racketscript/archive/b68136602ede4e729305f977f7397eab63575260.tar.gz -> racketscript-extras-2021.08.16.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=e7ded3cf2251e4dd8697d124bfedb59b

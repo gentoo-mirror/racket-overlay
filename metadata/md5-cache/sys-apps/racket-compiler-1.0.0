@@ -10,5 +10,5 @@ LICENSE=GPL-3
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://gitlab.com/src_prepare/racket/racket-compiler/-/archive/1.0.0/racket-compiler-1.0.0.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b
 _md5_=e5021d2b5fc9beed9a57d355e2033f2f

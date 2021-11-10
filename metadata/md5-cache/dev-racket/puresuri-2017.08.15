@@ -11,5 +11,5 @@ RDEPEND=dev-racket/lux dev-racket/ppict dev-racket/unstable-doc dev-racket/unsta
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jeapostrophe/puresuri/archive/9744e849989867e7e002507cd1dfe18ffdf5b5e3.tar.gz -> puresuri-2017.08.15.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=5a115b47bcecd4124b0e61864a559e12

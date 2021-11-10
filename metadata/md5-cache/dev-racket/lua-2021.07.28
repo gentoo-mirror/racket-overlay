@@ -11,5 +11,5 @@ RDEPEND=dev-racket/functional-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/shawsumma/lure/archive/aa0f0dde617dbe616dc1bb3f2c9e456d6023dae6.tar.gz -> lua-2021.07.28.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=56fb66f69fb1cd613bb8bf12845f5b95

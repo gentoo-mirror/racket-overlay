@@ -11,5 +11,5 @@ RDEPEND=dev-racket/pollen >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/basus/colophon/archive/04989fbffb385a09d4f6b83ab9a132fa85ec8454.tar.gz -> colophon-2020.12.19.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=438b4b79fa610be92a1806053799dcb5

@@ -11,5 +11,5 @@ RDEPEND=dev-racket/gui-easy-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/racket-gui-easy/archive/5d4e6892e2d85cb9476cd59d9cd31b2001c61105.tar.gz -> gui-easy-2021.10.02.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=61b9d07a989159fb8f0bd203d406c6e1

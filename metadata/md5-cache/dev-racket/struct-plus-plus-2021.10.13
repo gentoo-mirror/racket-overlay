@@ -11,5 +11,5 @@ RDEPEND=dev-racket/syntax-classes-lib dev-racket/handy >=dev-scheme/racket-8.1:=
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/dstorrs/struct-plus-plus/archive/453f6564eb2d4c4d29169d80a676b34027c7dab0.tar.gz -> struct-plus-plus-2021.10.13.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=4f28f7222ba06c9c5391a05c6366d54e

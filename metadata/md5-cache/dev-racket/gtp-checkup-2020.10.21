@@ -11,5 +11,5 @@ RDEPEND=dev-racket/pict-abbrevs dev-racket/require-typed-check dev-racket/memoiz
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/bennn/gtp-checkup/archive/39c36beb3329935b198c73a2010c37314686ab82.tar.gz -> gtp-checkup-2020.10.21.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=a4bd6601eb3599cc280853da39a63ff5

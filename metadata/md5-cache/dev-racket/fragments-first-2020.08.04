@@ -11,5 +11,5 @@ RDEPEND=dev-racket/fragments >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/srfoster/fragments-first/archive/f9a6bec8a8ec537874d04c05c2a6d27b0af11e38.tar.gz -> fragments-first-2020.08.04.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=5d03cbcc579f838ed1decf7a633ea97d

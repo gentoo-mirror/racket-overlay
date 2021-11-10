@@ -11,5 +11,5 @@ RDEPEND=dev-racket/asn1-lib dev-racket/crypto-lib >=dev-scheme/racket-8.1:=[-min
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/rmculpepper/crypto/archive/21e900fc568843331e1ea3eb1e1094c90a07032d.tar.gz -> crypto-test-2021.09.07.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=dd5fe7d9fac98fc53224a915901dbc93

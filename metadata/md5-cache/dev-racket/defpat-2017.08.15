@@ -11,5 +11,5 @@ RDEPEND=dev-racket/generic-bind dev-racket/reprovide-lang dev-racket/scribble-co
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/defpat/archive/b1ab923ef4c92355de7ee77703d8af692835c8f0.tar.gz -> defpat-2017.08.15.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=c9d2926a570ff51ddc097ee9f7c35693

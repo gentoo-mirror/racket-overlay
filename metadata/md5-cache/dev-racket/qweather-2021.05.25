@@ -11,5 +11,5 @@ RDEPEND=dev-racket/scribble-rainbow-delimiters dev-racket/http-client >=dev-sche
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/yanyingwang/qweather/archive/7288f7deeb3d7f5a7f1f59ec48eb6e03850e75d3.tar.gz -> qweather-2021.05.25.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=d54fbf47e85cce7d6e83c961ccaa4932

@@ -11,5 +11,5 @@ RDEPEND=dev-racket/reprovide-lang-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/parnikkapore/rkt-libquiche/archive/26aa3ade5feaa8819648c10057ca064c4ec64d85.tar.gz -> libquiche-2021.06.22.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=87dd1878b6ef969417c682a4136fece2

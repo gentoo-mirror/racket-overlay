@@ -11,5 +11,5 @@ RDEPEND=dev-racket/graph-lib dev-racket/ppict dev-racket/racket-poppler dev-rack
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/soegaard/metapict/archive/c929542ff4d5187248e37cb4ee4b5e3994d5c07a.tar.gz -> metapict-2021.10.23.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=882a1df8ec07d20e43467ad4dc9d54df

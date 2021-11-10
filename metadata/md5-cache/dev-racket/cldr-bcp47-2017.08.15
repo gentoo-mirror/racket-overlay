@@ -11,5 +11,5 @@ RDEPEND=dev-racket/cldr-core >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/97jaz/cldr-bcp47/archive/823fc1a530f1a0ec4de59f5454c1a17f20c5a5d6.tar.gz -> cldr-bcp47-2017.08.15.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=a320ee4353996915cdbbc04cb548d99c

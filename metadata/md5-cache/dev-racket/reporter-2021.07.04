@@ -11,5 +11,5 @@ RDEPEND=dev-racket/ansi-color dev-racket/c-utils >=dev-scheme/racket-8.1:=[-mini
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/racket-tw/reporter/archive/dc3243e339c3dfaa2961cb2bc43e6c1037efa5a0.tar.gz -> reporter-2021.07.04.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=c71ac911a07fe05c4540bba87d1472a7

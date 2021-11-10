@@ -11,5 +11,5 @@ RDEPEND=dev-racket/mordae dev-racket/misc1 >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mordae/racket-libserialport/archive/51f85372a6e51cc3268c4e45c0bef0f89c836b25.tar.gz -> libserialport-2018.05.18.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=0addd0be33388e8640092520a85e744d

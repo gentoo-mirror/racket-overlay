@@ -11,5 +11,5 @@ RDEPEND=dev-racket/binary-class >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lwhjp/binary-class-riff/archive/ddad0c7fa1e1f7a3b990809bcccbd521204e2fd0.tar.gz -> binary-class-riff-2020.09.06.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=882bae81e31e7ff44b340e6026b63006

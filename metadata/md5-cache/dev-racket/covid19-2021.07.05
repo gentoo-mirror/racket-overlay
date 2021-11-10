@@ -11,5 +11,5 @@ RDEPEND=dev-racket/http-client dev-racket/scribble-rainbow-delimiters >=dev-sche
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/yanyingwang/covid-19/archive/c69ad787d45df4698defc97c8863f47a95851984.tar.gz -> covid19-2021.07.05.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=9e8129d1eacf741088784eff44d61f54

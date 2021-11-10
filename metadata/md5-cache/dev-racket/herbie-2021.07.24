@@ -11,5 +11,5 @@ RDEPEND=dev-racket/egg-herbie dev-racket/fpbench dev-racket/regraph dev-racket/r
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/uwplse/herbie/archive/8e29e90fccb360a9e19019cc534a635a30afcc66.tar.gz -> herbie-2021.07.24.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=d658182486323e2fee455cc0372e8a55

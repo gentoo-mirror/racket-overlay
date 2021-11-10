@@ -11,5 +11,5 @@ RDEPEND=dev-racket/beautiful-racket-lib dev-racket/brag-lib >=dev-scheme/racket-
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/hashimmm/tablesci/-/archive/43c4544d64e9d218acabe167bfa3c894fa6f5f42.tar.gz -> tablesci-2021.05.08.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=b1c9433940d7cce3de03657322193cd8

@@ -11,5 +11,5 @@ RDEPEND=dev-racket/component-doc dev-racket/component-lib dev-racket/gregor-doc 
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/koyo/archive/d8daa94ca04f38f290e0e30022ad0f2c446e2d1f.tar.gz -> koyo-doc-2021.11.05.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=eb857c99ce5a0461a99d9d76219afb23

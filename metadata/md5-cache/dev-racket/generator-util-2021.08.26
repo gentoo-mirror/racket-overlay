@@ -11,5 +11,5 @@ RDEPEND=dev-racket/collections-lib dev-racket/relation dev-racket/social-contrac
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/countvajhula/generator-util/archive/68b53d805f5f83db4c8dd9fa42734882eb61576a.tar.gz -> generator-util-2021.08.26.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=c22eb0532db43c75323326677f2e57cb

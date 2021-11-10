@@ -11,5 +11,5 @@ RDEPEND=dev-racket/brag dev-racket/crypto-lib >=dev-scheme/racket-8.1:=[-minimal
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/oldsin/bs/archive/0a88ed7217076a6286fdaef0183bea596149991b.tar.gz -> bs-2019.03.28.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	ccdb426443d03dc48f3eb6b2936c1c9c	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
 _md5_=7781336a510f0ade3074d9a0b80dc422

@@ -15,7 +15,7 @@
 
 
 # Inherits
-inherit xdg-utils
+inherit multiprocessing xdg-utils
 
 
 case "${EAPI}"
@@ -211,6 +211,16 @@ function racket_src_prepare() {
 }
 
 
+# @FUNCTION: eraco
+# @DESCRIPTION:
+# Racket's raco command wrapper.
+
+function eraco() {
+	echo "Raco: ${*}"
+	raco "${@}" || die "ERROR: \"raco ${*}\" failed"
+}
+
+
 # @FUNCTION: racket_temporary_install
 # @DESCRIPTION:
 # Install package to portage's HOME directory.
@@ -228,8 +238,7 @@ function racket_temporary_install() {
 
 	ebegin "Temporarily installing ${pkg}"
 
-	raco pkg install "${raco_opts[@]}" ||
-		die "failed to perform temporary installation"
+	eraco pkg install "${raco_opts[@]}"
 
 	eend $? "racket_temporary_install: temporary installation failed" || die
 }
@@ -307,7 +316,7 @@ function raco_test() {
 
 	ebegin "Testing package"
 
-	eval raco test "${raco_opts[@]}" .
+	eraco test "${raco_opts[@]}" .
 
 	eend $? "raco_test: testing package failed" || die
 }
@@ -373,9 +382,9 @@ function raco_remove() {
 
 	ebegin "Removing ${pkg}"
 
-	eval raco pkg remove "${raco_opts[@]}" "${pkg}" &&
-		einfo "raco has removed ${pkg}"
+	eraco pkg remove "${raco_opts[@]}" "${pkg}"
 
+	einfo "raco has removed ${pkg}"
 	eend $? "raco_remove: removing ${pkg} failed" || die
 }
 
@@ -416,12 +425,11 @@ function racket_pkg_postinst() {
 		--batch
 		--deps force
 		--force
-		--jobs "$(nproc)"
+		--jobs "$(makeopts_jobs)"
 		--no-docs
 		--scope installation
 	)
-	eval raco pkg install "${raco_opts[@]}" ||
-		die "racket_pkg_postinst failed"
+	eraco pkg install "${raco_opts[@]}"
 
 	popd >/dev/null || die "couldn't popd"
 }

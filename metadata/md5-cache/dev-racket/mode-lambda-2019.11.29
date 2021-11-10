@@ -12,5 +12,5 @@ RDEPEND=dev-racket/lux dev-racket/opengl dev-racket/reprovide-lang-lib >=dev-sch
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jeapostrophe/mode-lambda/archive/64b5ae81f457ded7664458cd9935ce7d3ebfc449.tar.gz -> mode-lambda-2019.11.29.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4ca7fef24a98c9850ee324cf0168966f	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fd3e661caef5e9be812dfc0388bc8890	gh	835cf29b98967cd5809582a98586b7db
 _md5_=a8dead2af5b078037f6e00207389e35c

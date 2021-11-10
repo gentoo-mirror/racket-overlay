@@ -12,5 +12,5 @@ RDEPEND=dev-racket/plai-typed >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mflatt/plai-typed-s-exp-match/archive/e010d9718916394b1b3545cb2f7a49c27904e873.tar.gz -> plai-typed-s-exp-match-2017.08.15.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4ca7fef24a98c9850ee324cf0168966f	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fd3e661caef5e9be812dfc0388bc8890	gh	835cf29b98967cd5809582a98586b7db
 _md5_=2e7b4781ba582653452af56fbf0fe263

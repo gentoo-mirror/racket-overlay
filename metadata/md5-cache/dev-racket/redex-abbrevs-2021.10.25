@@ -12,5 +12,5 @@ RDEPEND=dev-racket/redex-abbrevs-doc dev-racket/redex-abbrevs-lib >=dev-scheme/r
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/bennn/redex-abbrevs/archive/9e08f5a3ea0c2b70c5324c73969397c161a624df.tar.gz -> redex-abbrevs-2021.10.25.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4ca7fef24a98c9850ee324cf0168966f	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fd3e661caef5e9be812dfc0388bc8890	gh	835cf29b98967cd5809582a98586b7db
 _md5_=328144b527b316378a49b7ca7b87ae70

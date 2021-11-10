@@ -12,5 +12,5 @@ RDEPEND=dev-racket/al2-test-runner >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/alex-hhh/data-frame/archive/b32142ae8ccd206262f1968cfb141926b2c9d8e7.tar.gz -> data-frame-2021.10.19.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4ca7fef24a98c9850ee324cf0168966f	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fd3e661caef5e9be812dfc0388bc8890	gh	835cf29b98967cd5809582a98586b7db
 _md5_=c8a6affbe62b8e73f1e5af1e05a80c52

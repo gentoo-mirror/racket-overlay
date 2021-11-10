@@ -12,5 +12,5 @@ RDEPEND=dev-racket/slideshow-latex >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/LeifAndersen/slideshow-pretty/archive/021378757a40163f8e84efe616eb17036eeb2a4f.tar.gz -> slideshow-pretty-2017.08.15.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4ca7fef24a98c9850ee324cf0168966f	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fd3e661caef5e9be812dfc0388bc8890	gh	835cf29b98967cd5809582a98586b7db
 _md5_=e833900dd55d3f6be495fd33e2b02110

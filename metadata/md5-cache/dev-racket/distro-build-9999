@@ -12,5 +12,5 @@ PROPERTIES=live
 RDEPEND=dev-racket/distro-build-doc dev-racket/distro-build-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4ca7fef24a98c9850ee324cf0168966f
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fd3e661caef5e9be812dfc0388bc8890
 _md5_=bdb355b12c67ac1773406fd7673be3fd

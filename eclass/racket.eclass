@@ -55,7 +55,6 @@ esac
 
 
 # @ECLASS-VARIABLE: SCRBL_DOCS
-# @DEFAULT_UNSET
 # @DESCRIPTION:
 # This variable toggles whether to enable building
 # documentation using scribble.
@@ -65,10 +64,13 @@ esac
 # SCRBL_DOCS=ON
 # SCRBL_DOCS=OFF
 # @CODE
+: ${SCRBL_DOCS:="ON"}
+
 case "${SCRBL_DOCS}" in
 	1 | [Tt][Rr][Uu][Ee] | [Oo][Nn] )
 		IUSE+="doc"
 		do_scrbl=1
+		BDEPEND+=" doc? ( dev-texlive/texlive-fontsextra ) "
 		;;
 	* )
 		do_scrbl=0
@@ -103,10 +105,10 @@ in
 		true
 		;;
 	"racket-compiler" )
-		BDEPEND+="sys-apps/racket-where"
+		BDEPEND+=" sys-apps/racket-where "
 		;;
 	* )
-		BDEPEND+="sys-apps/racket-compiler sys-apps/racket-where"
+		BDEPEND+=" sys-apps/racket-compiler sys-apps/racket-where "
 		;;
 esac
 
@@ -256,7 +258,7 @@ function scribble_docs() {
 	ebegin "Building documentation"
 
 	local doctype
-	for doctype in html latex markdown text; do
+	for doctype in html latex markdown pdf text; do
 		echo "Creating ${doctype} documentation in ${SCRBL_DOC_DIR}/${doctype}"
 
 		mkdir -p "${SCRBL_DOC_DIR}/${doctype}" ||

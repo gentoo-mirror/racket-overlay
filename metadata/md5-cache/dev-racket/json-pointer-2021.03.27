@@ -1,15 +1,16 @@
-BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=dev-racket/ejs >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Parse, render, and evaluate JSON Pointers (RFC 6901).
 EAPI=8
 HOMEPAGE=https://github.com/jessealama/json-pointer
 INHERIT=racket gh
+IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/ejs >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jessealama/json-pointer/archive/73e97e426eff151ffd705059771c5c92f2da4697.tar.gz -> json-pointer-2021.03.27.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4ca7fef24a98c9850ee324cf0168966f	gh	835cf29b98967cd5809582a98586b7db
 _md5_=3d7c7bf97d830b6b4848fdec7b72a91a

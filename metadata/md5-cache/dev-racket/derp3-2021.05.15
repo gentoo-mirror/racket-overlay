@@ -1,15 +1,16 @@
-BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the derp-3 Racket package
 EAPI=8
 HOMEPAGE=https://bitbucket.org/jbclements/derp-3
 INHERIT=racket gh
+IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://bitbucket.org/jbclements/derp-3/get/b26498d7bc7ab09a17b799c0e295f8e514930ca4.tar.gz -> derp3-2021.05.15.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4ca7fef24a98c9850ee324cf0168966f	gh	835cf29b98967cd5809582a98586b7db
 _md5_=cb42b8f82bb34d13ebf9d7deba6a80c5

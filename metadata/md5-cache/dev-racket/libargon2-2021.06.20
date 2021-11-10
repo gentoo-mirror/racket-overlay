@@ -1,15 +1,16 @@
-BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the libargon2 Racket package
 EAPI=8
 HOMEPAGE=https://github.com/Bogdanp/racket-libargon2
 INHERIT=racket gh
+IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/racket-libargon2/archive/fa799ff37ef8864ef8c74c883238086e93ba1af5.tar.gz -> libargon2-2021.06.20.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4ca7fef24a98c9850ee324cf0168966f	gh	835cf29b98967cd5809582a98586b7db
 _md5_=6b0fbc6268d33a36b42cbf30d0fc790f

@@ -1,15 +1,16 @@
-BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=FFI bindings to libRSVG, a library for loading SVG documents
 EAPI=8
 HOMEPAGE=https://github.com/takikawa/racket-rsvg
 INHERIT=racket gh
+IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/takikawa/racket-rsvg/archive/9a9c82801e40622238794fdac556339ac0a6c912.tar.gz -> rsvg-2021.05.05.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4ca7fef24a98c9850ee324cf0168966f	gh	835cf29b98967cd5809582a98586b7db
 _md5_=aad7e9d1ba7c2827f0a173546ee7888c

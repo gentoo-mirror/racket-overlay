@@ -1,15 +1,16 @@
-BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=dev-racket/lathe-morphisms-doc dev-racket/lathe-morphisms-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Interfaces for category theory concepts.
 EAPI=8
 HOMEPAGE=https://github.com/lathe/lathe-morphisms-for-racket
 INHERIT=racket gh
+IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/lathe-morphisms-doc dev-racket/lathe-morphisms-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lathe/lathe-morphisms-for-racket/archive/422f0c5f5c5bc58d950d54886f26eb27d56d3061.tar.gz -> lathe-morphisms-2021.03.12.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4ca7fef24a98c9850ee324cf0168966f	gh	835cf29b98967cd5809582a98586b7db
 _md5_=8bc4e8e6f680e10d7b279f226c4e20c3

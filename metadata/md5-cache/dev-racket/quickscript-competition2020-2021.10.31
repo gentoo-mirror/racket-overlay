@@ -1,15 +1,16 @@
-BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=dev-racket/markdown dev-racket/quickscript dev-racket/search-list-box >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Scripts from the Quickscript Competition July 2020
 EAPI=8
 HOMEPAGE=https://github.com/Quickscript-Competiton/July2020entries
 INHERIT=racket gh
+IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/markdown dev-racket/quickscript dev-racket/search-list-box >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Quickscript-Competiton/July2020entries/archive/8ef87f308a66b37a7fca4edacfd5819aeab10767.tar.gz -> quickscript-competition2020-2021.10.31.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4ca7fef24a98c9850ee324cf0168966f	gh	835cf29b98967cd5809582a98586b7db
 _md5_=7905b65cc1963f69e1273ea088e292b0

@@ -1,15 +1,16 @@
-BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=dev-racket/markdown dev-racket/sugar dev-racket/txexpr dev-racket/beeswax dev-racket/pollen dev-racket/jsond dev-racket/sass >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Generate a static site to view slack archives
 EAPI=8
 HOMEPAGE=https://github.com/benknoble/slack-archive-viewer
 INHERIT=racket gh
+IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/markdown dev-racket/sugar dev-racket/txexpr dev-racket/beeswax dev-racket/pollen dev-racket/jsond dev-racket/sass >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/benknoble/slack-archive-viewer/archive/f998c86c03baf7cf9857bfb7aa7b1b0e8df2ae5a.tar.gz -> slack-archive-viewer-2021.09.20.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4ca7fef24a98c9850ee324cf0168966f	gh	835cf29b98967cd5809582a98586b7db
 _md5_=5087a078ed861fc3a9bf8749e953bdb1

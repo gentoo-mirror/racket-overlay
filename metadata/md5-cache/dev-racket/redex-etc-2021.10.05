@@ -1,15 +1,16 @@
-BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=dev-racket/chk-lib dev-racket/latex-utils dev-racket/private-in dev-racket/unstable-redex >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Miscellanea for Redex.
 EAPI=8
 HOMEPAGE=https://github.com/camoy/redex-etc
 INHERIT=racket gh
+IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/chk-lib dev-racket/latex-utils dev-racket/private-in dev-racket/unstable-redex >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/camoy/redex-etc/archive/ee18a8030f9d3358004fd89e7c3b34fdc1d64145.tar.gz -> redex-etc-2021.10.05.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4ca7fef24a98c9850ee324cf0168966f	gh	835cf29b98967cd5809582a98586b7db
 _md5_=e303c19195b1fcb0bee1c4766b16f77a

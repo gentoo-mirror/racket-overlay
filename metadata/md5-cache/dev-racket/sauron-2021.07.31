@@ -1,15 +1,16 @@
-BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=dev-racket/file-watchers dev-racket/from-template dev-racket/try-catch-finally-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=A DrRacket plugin to make it experience like an IDE
 EAPI=8
 HOMEPAGE=https://github.com/racket-tw/sauron
 INHERIT=racket gh
+IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/file-watchers dev-racket/from-template dev-racket/try-catch-finally-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/racket-tw/sauron/archive/e20fc17f22cb298288c95d78ff209ce6ea5fa31e.tar.gz -> sauron-2021.07.31.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4ca7fef24a98c9850ee324cf0168966f	gh	835cf29b98967cd5809582a98586b7db
 _md5_=727a66e64f87466336a9b81f1790415c

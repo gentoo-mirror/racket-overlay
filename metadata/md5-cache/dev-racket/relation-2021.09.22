@@ -1,15 +1,16 @@
-BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=dev-racket/cover-coveralls dev-racket/cover dev-racket/threading-doc dev-racket/rackjure dev-racket/functional-doc dev-racket/collections-doc dev-racket/fancy-app dev-racket/sugar dev-racket/algebraic dev-racket/scribble-abbrevs dev-racket/version-case dev-racket/typed-stack dev-racket/kw-utils dev-racket/ionic dev-racket/social-contract dev-racket/mischief dev-racket/threading-lib dev-racket/point-free dev-racket/arguments dev-racket/functional-lib dev-racket/describe dev-racket/collections-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Generic interfaces and convenient utilities for using relations.
 EAPI=8
 HOMEPAGE=https://github.com/countvajhula/relation
 INHERIT=racket gh
+IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/cover-coveralls dev-racket/cover dev-racket/threading-doc dev-racket/rackjure dev-racket/functional-doc dev-racket/collections-doc dev-racket/fancy-app dev-racket/sugar dev-racket/algebraic dev-racket/scribble-abbrevs dev-racket/version-case dev-racket/typed-stack dev-racket/kw-utils dev-racket/ionic dev-racket/social-contract dev-racket/mischief dev-racket/threading-lib dev-racket/point-free dev-racket/arguments dev-racket/functional-lib dev-racket/describe dev-racket/collections-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/countvajhula/relation/archive/a3d8230300b2fd4c5be921561c884ac9118dc270.tar.gz -> relation-2021.09.22.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4ca7fef24a98c9850ee324cf0168966f	gh	835cf29b98967cd5809582a98586b7db
 _md5_=a6bb6d234efa2e413438bdb757093d71

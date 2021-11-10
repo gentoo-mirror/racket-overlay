@@ -1,14 +1,15 @@
-BDEPEND=sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
 DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=colorize your console
 EAPI=8
 HOMEPAGE=https://github.com/yanyingwang/colorize
 INHERIT=racket gh
+IUSE=doc
 LICENSE=all-rights-reserved
 PROPERTIES=live
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4ca7fef24a98c9850ee324cf0168966f	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
 _md5_=c1ab8efe90b199456a8c0394571a05cc

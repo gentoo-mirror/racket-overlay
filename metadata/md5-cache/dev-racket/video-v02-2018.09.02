@@ -1,15 +1,16 @@
-BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=dev-racket/reprovide-lang dev-racket/ppict dev-racket/graph dev-racket/portaudio dev-racket/opengl dev-racket/bitsyntax >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=v0.2 of #lang video
 EAPI=8
 HOMEPAGE=https://github.com/videolang/video
 INHERIT=racket gh
+IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/reprovide-lang dev-racket/ppict dev-racket/graph dev-racket/portaudio dev-racket/opengl dev-racket/bitsyntax >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/videolang/video/archive/8828d1c287030691cbc12f75fb803265fc3d97bb.tar.gz -> video-v02-2018.09.02.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4ca7fef24a98c9850ee324cf0168966f	gh	835cf29b98967cd5809582a98586b7db
 _md5_=7369058e79aebc48c71fd4d444cba24e

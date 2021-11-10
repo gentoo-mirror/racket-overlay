@@ -1,15 +1,16 @@
-BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=dev-racket/basedir dev-racket/gregor dev-racket/gtp-util dev-racket/memoize dev-racket/pict-abbrevs dev-racket/require-typed-check >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Test correctness of typed/untyped interaction.
 EAPI=8
 HOMEPAGE=https://github.com/bennn/gtp-checkup
 INHERIT=racket gh
+IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/basedir dev-racket/gregor dev-racket/gtp-util dev-racket/memoize dev-racket/pict-abbrevs dev-racket/require-typed-check >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/bennn/gtp-checkup/archive/304e03ff9bb94a7870340c3a9a195d017523a2c5.tar.gz -> gtp-checkup-2021.10.25.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4ca7fef24a98c9850ee324cf0168966f	gh	835cf29b98967cd5809582a98586b7db
 _md5_=33ace5c3fc15a1015cb2726e6d398aff

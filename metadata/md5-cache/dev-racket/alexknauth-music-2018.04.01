@@ -1,15 +1,16 @@
-BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=dev-racket/agile dev-racket/collections-lib dev-racket/graph dev-racket/reprovide-lang dev-racket/rsound dev-racket/txexpr dev-racket/unstable-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Some stuff for representing music and music theory
 EAPI=8
 HOMEPAGE=https://github.com/AlexKnauth/music
 INHERIT=racket gh
+IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/agile dev-racket/collections-lib dev-racket/graph dev-racket/reprovide-lang dev-racket/rsound dev-racket/txexpr dev-racket/unstable-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/music/archive/b4489c27d7c0f7116d769344c787fa76b479e5fa.tar.gz -> alexknauth-music-2018.04.01.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4ca7fef24a98c9850ee324cf0168966f	gh	835cf29b98967cd5809582a98586b7db
 _md5_=95dc62e91f6dddbf0df3d71764e62446

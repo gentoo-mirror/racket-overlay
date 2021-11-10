@@ -1,15 +1,16 @@
-BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=dev-racket/argo dev-racket/beautiful-racket-lib dev-racket/br-parser-tools-lib dev-racket/brag-lib dev-racket/dotenv dev-racket/http dev-racket/json-pointer dev-racket/misc1 dev-racket/net-cookies-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Language for testing JSON-based HTTP APIs
 EAPI=8
 HOMEPAGE=https://github.com/vicampo/riposte
 INHERIT=racket gh
+IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/argo dev-racket/beautiful-racket-lib dev-racket/br-parser-tools-lib dev-racket/brag-lib dev-racket/dotenv dev-racket/http dev-racket/json-pointer dev-racket/misc1 dev-racket/net-cookies-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/vicampo/riposte/archive/73ae0b0086d3e8a8d38df095533d9f0a8ea6b31b.tar.gz -> riposte-2021.10.13.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4ca7fef24a98c9850ee324cf0168966f	gh	835cf29b98967cd5809582a98586b7db
 _md5_=643a6670a9fdd669eae81cd6c002b15a

@@ -1,15 +1,16 @@
-BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=dev-racket/fancy-app dev-racket/lens dev-racket/point-free dev-racket/predicates dev-racket/reprovide-lang >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the generic-syntax-expanders Racket package
 EAPI=8
 HOMEPAGE=https://github.com/jackfirth/generic-syntax-expanders
 INHERIT=racket gh
+IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/fancy-app dev-racket/lens dev-racket/point-free dev-racket/predicates dev-racket/reprovide-lang >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/generic-syntax-expanders/archive/6d3b41875095d0f18d6e1d88bf7a8ed3981fe999.tar.gz -> generic-syntax-expanders-2017.08.15.tar.gz
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4ca7fef24a98c9850ee324cf0168966f	gh	835cf29b98967cd5809582a98586b7db
 _md5_=abe7cace4f300de6902bad5d599e925d

@@ -1,15 +1,16 @@
-BDEPEND=sys-apps/racket-compiler sys-apps/racket-where
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
 DEPEND=dev-racket/mcfly dev-racket/overeasy >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Levenshtein Distance Metric
 EAPI=8
 HOMEPAGE=http://www.neilvandyke.org/racket/
 INHERIT=racket
+IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 PROPERTIES=live
 RDEPEND=dev-racket/mcfly dev-racket/overeasy >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9010ce4be167b306b5f0da3f316a8c3b
+_eclasses_=xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4ca7fef24a98c9850ee324cf0168966f
 _md5_=eb0efa0d194648588205504cb715ad5d

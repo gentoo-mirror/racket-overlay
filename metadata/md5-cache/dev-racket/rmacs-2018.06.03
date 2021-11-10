@@ -12,5 +12,5 @@ RDEPEND=dev-racket/ansi dev-racket/diff-merge dev-racket/unix-signals >=dev-sche
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/tonyg/rmacs/archive/8c99dd5dfa22f1f34707bbe957de268dc6a7a632.tar.gz -> rmacs-2018.06.03.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fd3e661caef5e9be812dfc0388bc8890	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4f7bd106ba3181b65b51668d5be4786e	gh	835cf29b98967cd5809582a98586b7db
 _md5_=f61128959e17083f62ceafb23190039f

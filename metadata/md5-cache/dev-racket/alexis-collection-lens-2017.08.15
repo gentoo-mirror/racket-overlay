@@ -12,5 +12,5 @@ RDEPEND=dev-racket/alexis-collections dev-racket/cover dev-racket/cover-coverall
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lexi-lambda/alexis-collection-lens/archive/4f91587e8a5728b02c1ea9af9ac7476baf39b928.tar.gz -> alexis-collection-lens-2017.08.15.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fd3e661caef5e9be812dfc0388bc8890	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4f7bd106ba3181b65b51668d5be4786e	gh	835cf29b98967cd5809582a98586b7db
 _md5_=3639f3d45052992cfb5bbc89302807b2

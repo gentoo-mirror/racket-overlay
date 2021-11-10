@@ -12,5 +12,5 @@ RDEPEND=dev-racket/rebellion >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/rpn/archive/74ef351cae43bb64ba35a937f7a2ea664a82abdd.tar.gz -> rpn-2020.05.31.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fd3e661caef5e9be812dfc0388bc8890	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4f7bd106ba3181b65b51668d5be4786e	gh	835cf29b98967cd5809582a98586b7db
 _md5_=542350e3e8dfd8f8f1f47b0efc820b02

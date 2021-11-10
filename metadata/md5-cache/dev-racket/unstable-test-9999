@@ -12,5 +12,5 @@ PROPERTIES=live
 RDEPEND=dev-racket/unstable-contract-lib dev-racket/unstable-debug-lib dev-racket/unstable-lib dev-racket/unstable-list-lib dev-racket/unstable-options-lib dev-racket/unstable-parameter-group-lib dev-racket/unstable2d >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fd3e661caef5e9be812dfc0388bc8890
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4f7bd106ba3181b65b51668d5be4786e
 _md5_=8de4a63ccac3077ac2e64f46bcc65671

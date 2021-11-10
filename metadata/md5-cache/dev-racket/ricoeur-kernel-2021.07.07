@@ -12,5 +12,5 @@ RDEPEND=dev-racket/adjutor dev-racket/functional-lib dev-racket/gregor dev-racke
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://bitbucket.org/digitalricoeur/ricoeur-kernel/get/1192906c24f8714cc179131ca921887ccdd5a2aa.tar.gz -> ricoeur-kernel-2021.07.07.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fd3e661caef5e9be812dfc0388bc8890	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4f7bd106ba3181b65b51668d5be4786e	gh	835cf29b98967cd5809582a98586b7db
 _md5_=48a841d00f1ce5c9af416b9cbaabe7f0

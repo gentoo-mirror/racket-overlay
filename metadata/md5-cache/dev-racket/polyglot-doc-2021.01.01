@@ -12,5 +12,5 @@ RDEPEND=dev-racket/aws dev-racket/css-expr dev-racket/file-watchers dev-racket/m
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/zyrolasting/polyglot/archive/d27ca7fe90fd4ba2a6c5bcd921fce89e72d2c408.tar.gz -> polyglot-doc-2021.01.01.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fd3e661caef5e9be812dfc0388bc8890	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4f7bd106ba3181b65b51668d5be4786e	gh	835cf29b98967cd5809582a98586b7db
 _md5_=660321745b77e66d1bfac067f474f244

@@ -12,5 +12,5 @@ RDEPEND=dev-racket/2htdp-typed dev-racket/unstable-contract-lib dev-racket/unsta
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/maueroats/picturing-programs-typed/archive/82dd9c1938c0fa9fdb5ea95849f7ca6f3a082edd.tar.gz -> picturing-programs-typed-2019.05.18.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fd3e661caef5e9be812dfc0388bc8890	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4f7bd106ba3181b65b51668d5be4786e	gh	835cf29b98967cd5809582a98586b7db
 _md5_=11d7e5c7c137ced63634364b32fabc2c

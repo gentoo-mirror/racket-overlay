@@ -12,5 +12,5 @@ RDEPEND=dev-racket/beautiful-racket dev-racket/beautiful-racket-lib dev-racket/b
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/robertkleffner/glossolalia/archive/2f7d6c2865267aaee4709ca6640243b89ecf6c6d.tar.gz -> glossolalia-2020.08.04.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fd3e661caef5e9be812dfc0388bc8890	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4f7bd106ba3181b65b51668d5be4786e	gh	835cf29b98967cd5809582a98586b7db
 _md5_=8ed86bb0a2697881d141d6062cd8216d

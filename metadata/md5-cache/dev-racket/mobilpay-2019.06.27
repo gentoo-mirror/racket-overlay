@@ -12,5 +12,5 @@ RDEPEND=dev-racket/crypto-lib dev-racket/gregor-lib >=dev-scheme/racket-8.1:=[-m
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/mobilpay/archive/0c75ab1a28c834035fb1d661e3e0390338b9f34a.tar.gz -> mobilpay-2019.06.27.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fd3e661caef5e9be812dfc0388bc8890	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4f7bd106ba3181b65b51668d5be4786e	gh	835cf29b98967cd5809582a98586b7db
 _md5_=5a0876f24599fdee1b43fb28a7b2c1fe

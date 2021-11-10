@@ -58,7 +58,7 @@ esac
 # @DESCRIPTION:
 # This variable toggles whether to enable building
 # documentation using scribble.
-# Keep in mind we install into "/usr/share/doc/${PF}".
+# System documentation is installed into "/usr/share/doc/${PF}".
 #
 # @CODE
 # SCRBL_DOCS=ON
@@ -80,7 +80,8 @@ esac
 
 # @ECLASS-VARIABLE: SCRBL_DOC_DIR
 # @DESCRIPTION:
-# This variable contains the temporary scribble documentation build directory.
+# This variable contains the temporary scribble system documentation
+# build directory.
 #
 # @CODE
 # SCRBL_DOC_DIR="${WORKDIR}/${P}_scrbl_docs"
@@ -168,7 +169,7 @@ function racket_environment_prepare() {
 # placed "info.rkt" file that defines the collection you want.
 
 function racket_fix_collection() {
-	if [ -f ./info.rkt ]; then
+	if [[ -f ./info.rkt ]]; then
 		if ! grep 'define collection' ./info.rkt >/dev/null; then
 			ewarn "adding a collection definition to info.rkt"
 
@@ -184,7 +185,7 @@ function racket_fix_collection() {
 # with the package.
 
 function racket_clean_directory() {
-	if [ -d ".git" ]; then
+	if [[ -d ".git" ]]; then
 		rm -r ".git" || die "failed to remove unnecessary '.git' directory"
 	fi
 }
@@ -258,13 +259,14 @@ function racket_compile_directory() {
 }
 
 
-# @FUNCTION: scribble_docs
+# @FUNCTION: scribble_system_docs
 # @DESCRIPTION:
+# Render documentation that will be installed into system doc directories.
 # Compile the documentation using scribble.
 # Output to html, latex, markdown and text formats.
 
-function scribble_docs() {
-	ebegin "Building documentation"
+function scribble_system_docs() {
+	ebegin "Building system-wide documentation"
 
 	local doctype
 	for doctype in html latex markdown pdf text; do
@@ -277,7 +279,34 @@ function scribble_docs() {
 			 --${doctype} --dest "${SCRBL_DOC_DIR}/${doctype}" {} \;
 	done
 
-	eend $? "scribble_docs: building documentation failed" || die
+	eend $? "scribble_system_docs: building documentation failed" || die
+}
+
+
+# @FUNCTION: scribble_package_docs
+# @DESCRIPTION:
+# Render documentation that will be installed into the package directory.
+# Compile the documentation using scribble.
+# Output to html, latex, markdown and text formats.
+
+function scribble_package_docs() {
+	local pkg="${1:-${RACKET_PN}}"
+	local raco_opts=(
+		--avoid-main
+		--doc-index
+		--force
+		--force-user-docs
+		--jobs "$(makeopts_jobs)"
+		--no-launcher
+		--no-pkg-deps
+		--pkgs "${pkg}"
+	)
+
+	ebegin "Building package-local documentation"
+
+	raco setup "${raco_opts[@]}"
+
+	eend $? "scribble_package_docs: building documentation failed" || die
 }
 
 
@@ -293,9 +322,10 @@ function racket_src_compile() {
 	racket_temporary_install
 	racket_compile_directory
 
-	if [ ${do_scrbl} -eq 1 ]; then
+	if [[ ${do_scrbl} -eq 1 ]]; then
 		if use doc; then
-			scribble_docs
+			scribble_package_docs
+			scribble_system_docs
 		fi
 	fi
 }
@@ -354,7 +384,7 @@ function racket_src_install() {
 	cp -r "${S}" "${inst_dir}/${RACKET_PN}" ||
 		die "racket_src_install failed"
 
-	if [ ${do_scrbl} -eq 1 ]; then
+	if [[ ${do_scrbl} -eq 1 ]]; then
 		if use doc; then
 			einfo "Installing documentation for ${P}"
 			insinto "/usr/share/doc/${PF}"
@@ -426,9 +456,13 @@ function racket_pkg_postinst() {
 		--deps force
 		--force
 		--jobs "$(makeopts_jobs)"
-		--no-docs
 		--scope installation
 	)
+	if [[ ${do_scrbl} -eq 1 ]]; then
+		! use doc && raco_opts+=( --no-docs )
+	else
+		raco_opts+=( --no-docs )
+	fi
 	eraco pkg install "${raco_opts[@]}"
 
 	popd >/dev/null || die "couldn't popd"

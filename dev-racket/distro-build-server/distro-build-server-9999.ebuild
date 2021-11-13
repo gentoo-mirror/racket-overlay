@@ -3,25 +3,20 @@
 
 EAPI=8
 
-PROPERTIES=live
+GH_DOM="github.com"
+GH_REPO="racket/distro-build"
 
-inherit racket
+inherit racket gh
 
 DESCRIPTION="server-side part of distro-build"
-HOMEPAGE="http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/empty.zip"
-S="${WORKDIR}/${PN}"
+HOMEPAGE="https://github.com/racket/distro-build"
+S="${S}/distro-build-server"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
-KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/distro-build-client
 	dev-racket/plt-web-lib
 	dev-racket/remote-shell-lib"
 DEPEND="${RDEPEND}"
-
-src_unpack() {
-	wget -O "${T}/distro-build-server.zip" "http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/empty.zip"
-	unpack "${T}/distro-build-server.zip"
-}

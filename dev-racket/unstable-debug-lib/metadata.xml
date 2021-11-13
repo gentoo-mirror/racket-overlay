@@ -3,6 +3,7 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/empty.zip</bugs-to>
+    <bugs-to>https://github.com/racket/unstable-debug-lib</bugs-to>
+    <remote-id type="github">racket/unstable-debug-lib</remote-id>
   </upstream>
 </pkgmetadata>

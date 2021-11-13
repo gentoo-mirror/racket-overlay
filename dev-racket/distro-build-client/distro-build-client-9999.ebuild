@@ -3,20 +3,15 @@
 
 EAPI=8
 
-PROPERTIES=live
+GH_DOM="github.com"
+GH_REPO="racket/distro-build"
 
-inherit racket
+inherit racket gh
 
 DESCRIPTION="client-side part of distro-build"
-HOMEPAGE="http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/empty.zip"
-S="${WORKDIR}/${PN}"
+HOMEPAGE="https://github.com/racket/distro-build"
+S="${S}/distro-build-client"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
-KEYWORDS="~amd64"
 RESTRICT="mirror"
-
-src_unpack() {
-	wget -O "${T}/distro-build-client.zip" "http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/empty.zip"
-	unpack "${T}/distro-build-client.zip"
-}

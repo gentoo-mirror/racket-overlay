@@ -3,24 +3,19 @@
 
 EAPI=8
 
-PROPERTIES=live
+GH_DOM="github.com"
+GH_REPO="racket/unstable"
 
-inherit racket
+inherit racket gh
 
 DESCRIPTION="Experimental libraries"
-HOMEPAGE="http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/empty.zip"
-S="${WORKDIR}/${PN}"
+HOMEPAGE="https://github.com/racket/unstable"
+S="${S}/unstable"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
-KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/unstable-doc
 	dev-racket/unstable-lib"
 DEPEND="${RDEPEND}"
-
-src_unpack() {
-	wget -O "${T}/unstable.zip" "http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/empty.zip"
-	unpack "${T}/unstable.zip"
-}

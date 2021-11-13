@@ -3,24 +3,19 @@
 
 EAPI=8
 
-PROPERTIES=live
+GH_DOM="github.com"
+GH_REPO="racket/unstable-flonum"
 
-inherit racket
+inherit racket gh
 
 DESCRIPTION="Experimental libraries for flonum computations (documentation)"
-HOMEPAGE="http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/empty.zip"
-S="${WORKDIR}/${PN}"
+HOMEPAGE="https://github.com/racket/unstable-flonum"
+S="${S}/unstable-flonum-doc"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
-KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/unstable
 	dev-racket/unstable-flonum-lib"
 DEPEND="${RDEPEND}"
-
-src_unpack() {
-	wget -O "${T}/unstable-flonum-doc.zip" "http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/empty.zip"
-	unpack "${T}/unstable-flonum-doc.zip"
-}

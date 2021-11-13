@@ -1,6 +1,6 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/reprovide-lang dev-racket/ppict dev-racket/graph dev-racket/portaudio dev-racket/opengl dev-racket/bitsyntax >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/bitsyntax dev-racket/graph dev-racket/opengl dev-racket/portaudio dev-racket/ppict dev-racket/reprovide-lang >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=The latest and greatest build of Video. This build will occasionally fail.
 EAPI=8
 HOMEPAGE=https://github.com/videolang/video
@@ -8,9 +8,9 @@ INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/reprovide-lang dev-racket/ppict dev-racket/graph dev-racket/portaudio dev-racket/opengl dev-racket/bitsyntax >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/bitsyntax dev-racket/graph dev-racket/opengl dev-racket/portaudio dev-racket/ppict dev-racket/reprovide-lang >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/videolang/video/archive/3c69669063c56ff8d269768589cb9506a33315e5.tar.gz -> video-unstable-2019.11.17.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4f7bd106ba3181b65b51668d5be4786e	gh	835cf29b98967cd5809582a98586b7db
-_md5_=bb8d5e991eccee1afe81a1890214fdfd
+_md5_=6d3b9d8d20f148b5515f846aaab4bfe4

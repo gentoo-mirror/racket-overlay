@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Unix tools inspired Procedure Interface for Racket. Core.
+EAPI=8
+HOMEPAGE=https://gitlab.com/xgqt/racket-upi
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://gitlab.com/xgqt/racket-upi/-/archive/1124c0d1d298c873f4f7db3240bf84337394ea15.tar.gz -> upi-lib-2021.11.11.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4f7bd106ba3181b65b51668d5be4786e	gh	835cf29b98967cd5809582a98586b7db
+_md5_=b53f7e12ce30a160eeca76c7f76441b3

@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/crypto dev-racket/pk dev-racket/syrup >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Goblins is a lightweight actor model library.
+EAPI=8
+HOMEPAGE=https://gitlab.com/spritely/goblins
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/crypto dev-racket/pk dev-racket/syrup >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://gitlab.com/spritely/goblins/-/archive/2a1cb549f4263ff8e7993f6bee8d768303e6c2cf.tar.gz -> goblins-2021.11.09.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4f7bd106ba3181b65b51668d5be4786e	gh	835cf29b98967cd5809582a98586b7db
+_md5_=fd350b033ec31dd3a05493c84c787215

@@ -11,6 +11,6 @@ LICENSE=all-rights-reserved
 RDEPEND=dev-racket/threading-doc dev-racket/threading-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/lexi-lambda/threading/archive/abed5715993ec2e53d201d55c3c9b57be30874fc.tar.gz -> threading-2019.12.12.tar.gz
+SRC_URI=https://github.com/lexi-lambda/threading/archive/13a34f14fe073c328e5cc083c616a602a79afa58.tar.gz -> threading-2019.12.12.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4f7bd106ba3181b65b51668d5be4786e	gh	835cf29b98967cd5809582a98586b7db
-_md5_=cfd54ed60de76c3786cf4f5a7bb04e9b
+_md5_=f8fce78ec2c3200a780f3a0b8b45243b

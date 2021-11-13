@@ -1,6 +1,6 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/collections-lib dev-racket/relation dev-racket/social-contract dev-racket/scribble-abbrevs dev-racket/cover dev-racket/cover-coveralls dev-racket/collections-doc >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/collections-doc dev-racket/collections-lib dev-racket/cover dev-racket/cover-coveralls dev-racket/scribble-abbrevs dev-racket/social-contract >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Utilities for working with generators
 EAPI=8
 HOMEPAGE=https://github.com/countvajhula/generator-util
@@ -8,9 +8,9 @@ INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/collections-lib dev-racket/relation dev-racket/social-contract dev-racket/scribble-abbrevs dev-racket/cover dev-racket/cover-coveralls dev-racket/collections-doc >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/collections-doc dev-racket/collections-lib dev-racket/cover dev-racket/cover-coveralls dev-racket/scribble-abbrevs dev-racket/social-contract >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/countvajhula/generator-util/archive/68b53d805f5f83db4c8dd9fa42734882eb61576a.tar.gz -> generator-util-2021.08.26.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4f7bd106ba3181b65b51668d5be4786e	gh	835cf29b98967cd5809582a98586b7db
-_md5_=c22eb0532db43c75323326677f2e57cb
+_md5_=b4da87205b9a36f62998b2e7bece5bf5

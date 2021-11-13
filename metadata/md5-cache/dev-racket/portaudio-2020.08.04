@@ -11,6 +11,6 @@ LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/jbclements/portaudio/archive/74dfaf1d6317a9f5479ae5492e874e9e73888a46.tar.gz -> portaudio-2020.08.04.tar.gz
+SRC_URI=https://github.com/jbclements/portaudio/archive/77a03c86054a5d7a26ed0082215b61162eb8b651.tar.gz -> portaudio-2020.08.04.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4f7bd106ba3181b65b51668d5be4786e	gh	835cf29b98967cd5809582a98586b7db
-_md5_=dd46fa8e0d0d2f07e2fa178b27d48162
+_md5_=12644786e32977c6bc7ecfaa0816532b

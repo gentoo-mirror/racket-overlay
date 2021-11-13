@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/distro-build-client dev-racket/distro-build-server >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=implementation (no documentation) part of distro-build
+EAPI=8
+HOMEPAGE=https://github.com/racket/distro-build
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/distro-build-client dev-racket/distro-build-server >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/racket/distro-build/archive/f1d8176e42e864816637efc926a3b671bfe63f10.tar.gz -> distro-build-lib-2021.10.27.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4f7bd106ba3181b65b51668d5be4786e	gh	835cf29b98967cd5809582a98586b7db
+_md5_=f1fa705cb9a3cf15550b8030ebedb824

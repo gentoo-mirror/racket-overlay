@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/rackcheck dev-racket/smtp-server >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=An implementation of RFC5321 for Racket. (tests only)
+EAPI=8
+HOMEPAGE=https://github.com/Bogdanp/racket-smtp-server
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/rackcheck dev-racket/smtp-server >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/Bogdanp/racket-smtp-server/archive/68b012d48970e83859ff5010500f31793c59c7aa.tar.gz -> smtp-server-test-2021.11.09.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4f7bd106ba3181b65b51668d5be4786e	gh	835cf29b98967cd5809582a98586b7db
+_md5_=134f163c6f46de115df1c15a93829938

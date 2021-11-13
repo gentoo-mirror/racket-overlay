@@ -1,0 +1,15 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install postinst prepare prerm test unpack
+DEPEND=dev-racket/alexis-util dev-racket/datatype dev-racket/extensible-parser-specifications dev-racket/hyper-literate dev-racket/multi-id dev-racket/phc-toolkit dev-racket/remember dev-racket/scribble-enhanced dev-racket/scribble-math dev-racket/threading dev-racket/trivial dev-racket/type-expander dev-racket/typed-struct-props dev-racket/xlist >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Documentation for phc-adt (and rendering of the literate programming)
+EAPI=8
+HOMEPAGE=https://github.com/jsmaniac/phc-adt
+INHERIT=racket gh
+IUSE=doc
+LICENSE=all-rights-reserved
+PROPERTIES=live
+RDEPEND=dev-racket/alexis-util dev-racket/datatype dev-racket/extensible-parser-specifications dev-racket/hyper-literate dev-racket/multi-id dev-racket/phc-toolkit dev-racket/remember dev-racket/scribble-enhanced dev-racket/scribble-math dev-racket/threading dev-racket/trivial dev-racket/type-expander dev-racket/typed-struct-props dev-racket/xlist >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4f7bd106ba3181b65b51668d5be4786e	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
+_md5_=629de095f7c30a686f4c51d7d7879ef2

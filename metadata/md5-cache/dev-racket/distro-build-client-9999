@@ -1,16 +1,15 @@
-BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
 DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=client-side part of distro-build
 EAPI=8
-HOMEPAGE=http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/empty.zip
-INHERIT=racket
+HOMEPAGE=https://github.com/racket/distro-build
+INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 PROPERTIES=live
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4f7bd106ba3181b65b51668d5be4786e
-_md5_=8e54f2c502f48f7d0a0bbdefb84fda5b
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4f7bd106ba3181b65b51668d5be4786e	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
+_md5_=f60d0a34ca1aaaee5c276a4cceb92e7a

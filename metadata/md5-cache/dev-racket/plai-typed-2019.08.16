@@ -11,6 +11,6 @@ LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/mflatt/plai-typed/archive/e11e7e4cd655b958296055f490ea8eadf5ea5ce7.tar.gz -> plai-typed-2019.08.16.tar.gz
+SRC_URI=https://github.com/mflatt/plai-typed/archive/419102db1e44b74dea9daf7a75e9b0e2b9c97d05.tar.gz -> plai-typed-2019.08.16.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4f7bd106ba3181b65b51668d5be4786e	gh	835cf29b98967cd5809582a98586b7db
-_md5_=168ec835efd41bdad902aa0221641776
+_md5_=6c6d7591f1e672451c2e1012b03a9807

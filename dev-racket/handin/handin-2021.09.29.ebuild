@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="plt/handin"
-GH_COMMIT="3c31daccf0f61bb06aa65e36d72acc0ef2f453da"
+GH_COMMIT="48f73430d7cd1e981dacd00cf51e5815889bbb05"
 
 inherit racket gh
 

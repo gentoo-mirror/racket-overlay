@@ -3,24 +3,19 @@
 
 EAPI=8
 
-PROPERTIES=live
+GH_DOM="github.com"
+GH_REPO="racket/remote-shell"
 
-inherit racket
+inherit racket gh
 
 DESCRIPTION="Tools for running on remote and virtual-machine hosts"
-HOMEPAGE="http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/empty.zip"
-S="${WORKDIR}/${PN}"
+HOMEPAGE="https://github.com/racket/remote-shell"
+S="${S}/remote-shell"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
-KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/remote-shell-doc
 	dev-racket/remote-shell-lib"
 DEPEND="${RDEPEND}"
-
-src_unpack() {
-	wget -O "${T}/remote-shell.zip" "http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/empty.zip"
-	unpack "${T}/remote-shell.zip"
-}

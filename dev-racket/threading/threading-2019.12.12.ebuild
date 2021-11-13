@@ -5,12 +5,13 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="lexi-lambda/threading"
-GH_COMMIT="abed5715993ec2e53d201d55c3c9b57be30874fc"
+GH_COMMIT="13a34f14fe073c328e5cc083c616a602a79afa58"
 
 inherit racket gh
 
 DESCRIPTION="the threading Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/threading"
+S="${S}/threading"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

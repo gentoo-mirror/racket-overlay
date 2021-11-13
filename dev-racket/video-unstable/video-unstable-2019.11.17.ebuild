@@ -17,10 +17,10 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/reprovide-lang
-	dev-racket/ppict
+RDEPEND="dev-racket/bitsyntax
 	dev-racket/graph
-	dev-racket/portaudio
 	dev-racket/opengl
-	dev-racket/bitsyntax"
+	dev-racket/portaudio
+	dev-racket/ppict
+	dev-racket/reprovide-lang"
 DEPEND="${RDEPEND}"

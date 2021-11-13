@@ -3,20 +3,14 @@
 
 EAPI=8
 
-PROPERTIES=live
+GH_DOM="github.com"
+GH_REPO="racket/unstable-latent-contract-lib"
 
-inherit racket
+inherit racket gh
 
 DESCRIPTION="Experimental libraries for contracts at definitions"
-HOMEPAGE="http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/empty.zip"
-S="${WORKDIR}/${PN}"
+HOMEPAGE="https://github.com/racket/unstable-latent-contract-lib"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
-KEYWORDS="~amd64"
 RESTRICT="mirror"
-
-src_unpack() {
-	wget -O "${T}/unstable-latent-contract-lib.zip" "http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/empty.zip"
-	unpack "${T}/unstable-latent-contract-lib.zip"
-}

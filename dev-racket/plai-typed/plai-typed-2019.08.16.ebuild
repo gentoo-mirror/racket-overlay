@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="mflatt/plai-typed"
-GH_COMMIT="e11e7e4cd655b958296055f490ea8eadf5ea5ce7"
+GH_COMMIT="419102db1e44b74dea9daf7a75e9b0e2b9c97d05"
 
 inherit racket gh
 

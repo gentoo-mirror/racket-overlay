@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="jbclements/portaudio"
-GH_COMMIT="74dfaf1d6317a9f5479ae5492e874e9e73888a46"
+GH_COMMIT="77a03c86054a5d7a26ed0082215b61162eb8b651"
 
 inherit racket gh
 

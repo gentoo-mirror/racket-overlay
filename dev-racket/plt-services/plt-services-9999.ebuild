@@ -3,20 +3,15 @@
 
 EAPI=8
 
-PROPERTIES=live
+GH_DOM="github.com"
+GH_REPO="racket/racket"
 
-inherit racket
+inherit racket gh
 
 DESCRIPTION="the plt-services Racket package"
-HOMEPAGE="http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/empty.zip"
-S="${WORKDIR}/${PN}"
+HOMEPAGE="https://github.com/racket/racket"
+S="${S}/pkgs/plt-services"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
-KEYWORDS="~amd64"
 RESTRICT="mirror"
-
-src_unpack() {
-	wget -O "${T}/plt-services.zip" "http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/empty.zip"
-	unpack "${T}/plt-services.zip"
-}

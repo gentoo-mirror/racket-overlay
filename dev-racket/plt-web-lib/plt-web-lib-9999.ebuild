@@ -3,20 +3,15 @@
 
 EAPI=8
 
-PROPERTIES=live
+GH_DOM="github.com"
+GH_REPO="racket/plt-web"
 
-inherit racket
+inherit racket gh
 
 DESCRIPTION="PLT web page style and generation"
-HOMEPAGE="http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/empty.zip"
-S="${WORKDIR}/${PN}"
+HOMEPAGE="https://github.com/racket/plt-web"
+S="${S}/plt-web-lib"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
-KEYWORDS="~amd64"
 RESTRICT="mirror"
-
-src_unpack() {
-	wget -O "${T}/plt-web-lib.zip" "http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/empty.zip"
-	unpack "${T}/plt-web-lib.zip"
-}

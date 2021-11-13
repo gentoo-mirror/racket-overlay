@@ -10,6 +10,7 @@ inherit racket gh
 
 DESCRIPTION="the threading Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/threading"
+S="${S}/threading"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

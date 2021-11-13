@@ -3,17 +3,17 @@
 
 EAPI=8
 
-PROPERTIES=live
+GH_DOM="github.com"
+GH_REPO="racket/unstable"
 
-inherit racket
+inherit racket gh
 
 DESCRIPTION="tests for unstable"
-HOMEPAGE="http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/empty.zip"
-S="${WORKDIR}/${PN}"
+HOMEPAGE="https://github.com/racket/unstable"
+S="${S}/unstable-test"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
-KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/unstable-contract-lib
@@ -24,8 +24,3 @@ RDEPEND="dev-racket/unstable-contract-lib
 	dev-racket/unstable-parameter-group-lib
 	dev-racket/unstable2d"
 DEPEND="${RDEPEND}"
-
-src_unpack() {
-	wget -O "${T}/unstable-test.zip" "http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/empty.zip"
-	unpack "${T}/unstable-test.zip"
-}

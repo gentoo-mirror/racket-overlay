@@ -3,24 +3,19 @@
 
 EAPI=8
 
-PROPERTIES=live
+GH_DOM="github.com"
+GH_REPO="racket/distro-build"
 
-inherit racket
+inherit racket gh
 
 DESCRIPTION="Tools for constructing a distribution of Racket"
-HOMEPAGE="http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/empty.zip"
-S="${WORKDIR}/${PN}"
+HOMEPAGE="https://github.com/racket/distro-build"
+S="${S}/distro-build"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
-KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/distro-build-doc
 	dev-racket/distro-build-lib"
 DEPEND="${RDEPEND}"
-
-src_unpack() {
-	wget -O "${T}/distro-build.zip" "http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/empty.zip"
-	unpack "${T}/distro-build.zip"
-}

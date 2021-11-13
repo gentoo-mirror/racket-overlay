@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="jbclements/RSound"
-GH_COMMIT="39580725993288d4f8495fd988f3d99e8db60613"
+GH_COMMIT="c699db1ffae4cf0185c46bdc059d7879d40614ce"
 
 inherit racket gh
 

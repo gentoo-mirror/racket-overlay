@@ -3,17 +3,17 @@
 
 EAPI=8
 
-PROPERTIES=live
+GH_DOM="github.com"
+GH_REPO="racket/unstable"
 
-inherit racket
+inherit racket gh
 
 DESCRIPTION="implementation (no documentation) part of unstable"
-HOMEPAGE="http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/empty.zip"
-S="${WORKDIR}/${PN}"
+HOMEPAGE="https://github.com/racket/unstable"
+S="${S}/unstable-lib"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
-KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/automata-lib
@@ -23,8 +23,3 @@ RDEPEND="dev-racket/automata-lib
 	dev-racket/temp-c-lib
 	dev-racket/unstable-macro-testing-lib"
 DEPEND="${RDEPEND}"
-
-src_unpack() {
-	wget -O "${T}/unstable-lib.zip" "http://racket-packages.s3-us-west-2.amazonaws.com/pkgs/empty.zip"
-	unpack "${T}/unstable-lib.zip"
-}

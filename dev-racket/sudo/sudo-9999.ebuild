@@ -8,7 +8,7 @@ PROPERTIES=live
 inherit racket
 
 DESCRIPTION="Sudo Command Processes"
-HOMEPAGE="http://www.neilvandyke.org/racket/"
+HOMEPAGE="https://pkgs.racket-lang.org/package/sudo"
 S="${WORKDIR}/${PN}"
 
 LICENSE="all-rights-reserved"

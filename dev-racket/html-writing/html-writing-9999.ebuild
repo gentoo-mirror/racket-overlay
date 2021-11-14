@@ -8,7 +8,7 @@ PROPERTIES=live
 inherit racket
 
 DESCRIPTION="Writing HTML from SXML"
-HOMEPAGE="http://www.neilvandyke.org/racket/"
+HOMEPAGE="https://pkgs.racket-lang.org/package/html-writing"
 S="${WORKDIR}/${PN}"
 
 LICENSE="all-rights-reserved"

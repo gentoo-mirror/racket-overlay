@@ -8,7 +8,7 @@ PROPERTIES=live
 inherit racket
 
 DESCRIPTION="Racket Web Server html-template Support"
-HOMEPAGE="http://www.neilvandyke.org/racket/"
+HOMEPAGE="https://pkgs.racket-lang.org/package/rws-html-template"
 S="${WORKDIR}/${PN}"
 
 LICENSE="all-rights-reserved"

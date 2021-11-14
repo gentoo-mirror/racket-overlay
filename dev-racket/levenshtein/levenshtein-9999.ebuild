@@ -8,7 +8,7 @@ PROPERTIES=live
 inherit racket
 
 DESCRIPTION="Levenshtein Distance Metric"
-HOMEPAGE="http://www.neilvandyke.org/racket/"
+HOMEPAGE="https://pkgs.racket-lang.org/package/levenshtein"
 S="${WORKDIR}/${PN}"
 
 LICENSE="all-rights-reserved"

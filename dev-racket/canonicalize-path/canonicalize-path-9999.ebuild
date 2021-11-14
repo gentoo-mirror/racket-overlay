@@ -8,7 +8,7 @@ PROPERTIES=live
 inherit racket
 
 DESCRIPTION="the canonicalize-path Racket package"
-HOMEPAGE="http://www.neilvandyke.org/racket/"
+HOMEPAGE="https://pkgs.racket-lang.org/package/canonicalize-path"
 S="${WORKDIR}/${PN}"
 
 LICENSE="all-rights-reserved"

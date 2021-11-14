@@ -8,7 +8,7 @@ PROPERTIES=live
 inherit racket
 
 DESCRIPTION="SAU CPTR-405 W20 handin plugin for DrRacket"
-HOMEPAGE="http://computing.southern.edu/rordonez/class/CPTR-405/"
+HOMEPAGE="https://pkgs.racket-lang.org/package/sau-cptr-405"
 S="${WORKDIR}/${PN}"
 
 LICENSE="all-rights-reserved"

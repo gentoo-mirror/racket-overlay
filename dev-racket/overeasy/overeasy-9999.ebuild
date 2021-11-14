@@ -8,7 +8,7 @@ PROPERTIES=live
 inherit racket
 
 DESCRIPTION="Racket Language Test Engine"
-HOMEPAGE="http://www.neilvandyke.org/racket/"
+HOMEPAGE="https://pkgs.racket-lang.org/package/overeasy"
 S="${WORKDIR}/${PN}"
 
 LICENSE="all-rights-reserved"

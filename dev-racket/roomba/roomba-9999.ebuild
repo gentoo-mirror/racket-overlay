@@ -8,7 +8,7 @@ PROPERTIES=live
 inherit racket
 
 DESCRIPTION="iRobot Roomba/Create Interface"
-HOMEPAGE="http://www.neilvandyke.org/racket/"
+HOMEPAGE="https://pkgs.racket-lang.org/package/roomba"
 S="${WORKDIR}/${PN}"
 
 LICENSE="all-rights-reserved"

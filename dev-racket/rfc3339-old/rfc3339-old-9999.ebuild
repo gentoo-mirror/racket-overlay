@@ -8,7 +8,7 @@ PROPERTIES=live
 inherit racket
 
 DESCRIPTION="RFC 3339 Timestamps"
-HOMEPAGE="http://www.neilvandyke.org/racket/"
+HOMEPAGE="https://pkgs.racket-lang.org/package/rfc3339-old"
 S="${WORKDIR}/${PN}"
 
 LICENSE="all-rights-reserved"

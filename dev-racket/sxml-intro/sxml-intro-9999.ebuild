@@ -8,7 +8,7 @@ PROPERTIES=live
 inherit racket
 
 DESCRIPTION="SXML in Racket: Tools for XML and HTML"
-HOMEPAGE="http://www.neilvandyke.org/racket/"
+HOMEPAGE="https://pkgs.racket-lang.org/package/sxml-intro"
 S="${WORKDIR}/${PN}"
 
 LICENSE="all-rights-reserved"

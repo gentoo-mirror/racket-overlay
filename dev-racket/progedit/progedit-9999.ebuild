@@ -8,7 +8,7 @@ PROPERTIES=live
 inherit racket
 
 DESCRIPTION="Programmatic File Editing"
-HOMEPAGE="http://www.neilvandyke.org/racket/"
+HOMEPAGE="https://pkgs.racket-lang.org/package/progedit"
 S="${WORKDIR}/${PN}"
 
 LICENSE="all-rights-reserved"

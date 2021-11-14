@@ -8,7 +8,7 @@ PROPERTIES=live
 inherit racket
 
 DESCRIPTION="Lightweight Operator Console for Racket Server Processes"
-HOMEPAGE="http://www.neilvandyke.org/racket/"
+HOMEPAGE="https://pkgs.racket-lang.org/package/rackonsole"
 S="${WORKDIR}/${PN}"
 
 LICENSE="all-rights-reserved"

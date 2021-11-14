@@ -12,5 +12,5 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jubnzv/nix.rkt/archive/a0e4107110c15880606b6098b97b73654e4cb50a.tar.gz -> nix-2019.02.27.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	e85cd3a6ac77978ef83c26a5581ccc0d	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4433f7d97589bcb880bd6618fa0949f5	gh	835cf29b98967cd5809582a98586b7db
 _md5_=bd34b49fa067a6b8a39c2877be2141fe

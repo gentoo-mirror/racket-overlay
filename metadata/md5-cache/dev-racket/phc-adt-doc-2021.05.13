@@ -12,5 +12,5 @@ RDEPEND=dev-racket/alexis-util dev-racket/datatype dev-racket/extensible-parser-
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jsmaniac/phc-adt/archive/36c1047c4899d1b478cc6052f9b2e71168aeefb5.tar.gz -> phc-adt-doc-2021.05.13.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	e85cd3a6ac77978ef83c26a5581ccc0d	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4433f7d97589bcb880bd6618fa0949f5	gh	835cf29b98967cd5809582a98586b7db
 _md5_=d04afaa011ae0c001b0009a9dce9c89b

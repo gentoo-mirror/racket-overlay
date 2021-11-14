@@ -12,5 +12,5 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/trajafri/r-linq/archive/e41a733b91fc32001d09fe8ff25a0b2c0a06e34c.tar.gz -> r-linq-2021.08.21.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	e85cd3a6ac77978ef83c26a5581ccc0d	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4433f7d97589bcb880bd6618fa0949f5	gh	835cf29b98967cd5809582a98586b7db
 _md5_=e79ea59da935dd76c78d081f6cb1d346

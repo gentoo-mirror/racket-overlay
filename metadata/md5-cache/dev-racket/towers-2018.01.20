@@ -12,5 +12,5 @@ RDEPEND=dev-racket/bazaar dev-racket/towers-lib >=dev-scheme/racket-8.1:=[-minim
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Metaxal/towers/archive/e1224228b5b5b514c7063b44810c1bdd5f8d5d14.tar.gz -> towers-2018.01.20.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	e85cd3a6ac77978ef83c26a5581ccc0d	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4433f7d97589bcb880bd6618fa0949f5	gh	835cf29b98967cd5809582a98586b7db
 _md5_=0786d00e05de1e7ec17491f14dcf5a6f

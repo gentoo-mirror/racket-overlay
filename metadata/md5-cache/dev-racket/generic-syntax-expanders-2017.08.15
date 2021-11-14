@@ -12,5 +12,5 @@ RDEPEND=dev-racket/fancy-app dev-racket/lens dev-racket/point-free dev-racket/pr
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/generic-syntax-expanders/archive/6d3b41875095d0f18d6e1d88bf7a8ed3981fe999.tar.gz -> generic-syntax-expanders-2017.08.15.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	e85cd3a6ac77978ef83c26a5581ccc0d	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4433f7d97589bcb880bd6618fa0949f5	gh	835cf29b98967cd5809582a98586b7db
 _md5_=abe7cace4f300de6902bad5d599e925d

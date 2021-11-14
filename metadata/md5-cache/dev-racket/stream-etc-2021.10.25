@@ -12,5 +12,5 @@ RDEPEND=dev-racket/chk-lib dev-racket/threading-doc >=dev-scheme/racket-8.1:=[-m
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/camoy/stream-etc/archive/7f3a39fb4aa356b9efd9925f0afa914238bd87dc.tar.gz -> stream-etc-2021.10.25.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	e85cd3a6ac77978ef83c26a5581ccc0d	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4433f7d97589bcb880bd6618fa0949f5	gh	835cf29b98967cd5809582a98586b7db
 _md5_=f50e09f7871de4131e028070ecbbe6c5

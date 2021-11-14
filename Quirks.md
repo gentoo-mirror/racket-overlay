@@ -3,6 +3,10 @@
 | name               | reason                |
 |--------------------|-----------------------|
 | Ibkre              | depends on live       |
+| egg-herbie         | binary                |
+| egg-herbie-linux   | binary                |
+| egg-herbie-osx     | binary                |
+| egg-herbie-windows | binary                |
 | optimization-coach | malformed source      |
 | qi                 | relation circular dep |
 

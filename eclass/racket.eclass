@@ -97,18 +97,14 @@ RDEPEND+="${RACKET_DEPEND}"
 DEPEND+="${RACKET_DEPEND}"
 
 # - racket-where (for `racket_pkg_prerm') - no additional BDEPEND
-# - racket-compiler (for `racket_compile_directory') - racket-where
 # - other - racket-compiler and racket-where
 case "${PN}"
 in
 	"racket-where" )
 		true
 		;;
-	"racket-compiler" )
-		BDEPEND+=" sys-apps/racket-where "
-		;;
 	* )
-		BDEPEND+=" sys-apps/racket-compiler sys-apps/racket-where "
+		BDEPEND+=" sys-apps/racket-where "
 		;;
 esac
 
@@ -263,20 +259,6 @@ function racket_temporary_install() {
 }
 
 
-# @FUNCTION: racket_compile_directory
-# @DESCRIPTION:
-# Compile the package source in current directory.
-
-function racket_compile_directory() {
-	ebegin "Compiling source"
-
-	# Has to be given absolute path to current directory
-	racket-compiler "$(pwd)"
-
-	eend $? "racket_compile_directory: compiling source failed" || die
-}
-
-
 # @FUNCTION: scribble_system_docs
 # @DESCRIPTION:
 # Render documentation that will be installed into system doc directories.
@@ -305,12 +287,11 @@ function scribble_system_docs() {
 # @DESCRIPTION:
 # Default src_compile:
 #
-# Executes `racket_temporary_install' and `racket_compile_directory'.
+# Executes `racket_temporary_install' and conditionally `scribble_system_docs'.
 
 function racket_src_compile() {
 	einfo "Running Racket src_compile"
 
-	racket_compile_directory
 	racket_temporary_install
 
 	if [[ ${do_scrbl} -eq 1 ]] && use doc; then

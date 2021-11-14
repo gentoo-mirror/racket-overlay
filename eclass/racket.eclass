@@ -389,7 +389,6 @@ function racket_src_install() {
 			einfo "Installing documentation for ${P}"
 			insinto "/usr/share/doc/${PF}"
 			doins -r "${SCRBL_DOC_DIR}"/*
-			docompress -x "/usr/share/doc/${PF}"
 		fi
 	fi
 }

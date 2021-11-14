@@ -12,5 +12,5 @@ RDEPEND=dev-racket/distro-build-client dev-racket/plt-web-lib dev-racket/remote-
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/racket/distro-build/archive/f1d8176e42e864816637efc926a3b671bfe63f10.tar.gz -> distro-build-server-2021.10.27.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	3332bed6b3f4e1512924726b100cb547	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fe23490e28c54d6f7b4a7b44c1ee0b8c	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=7a62bbb984244e1301bc28a1644815aa

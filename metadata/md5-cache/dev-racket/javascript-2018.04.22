@@ -12,5 +12,5 @@ RDEPEND=dev-racket/in-new-directory dev-racket/parameter dev-racket/pprint dev-r
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/samth/javascript.plt/archive/327c2de5e09f885b682f80524ff3c12ef6c47543.tar.gz -> javascript-2018.04.22.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	3332bed6b3f4e1512924726b100cb547	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fe23490e28c54d6f7b4a7b44c1ee0b8c	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=37550b04377a32d823ca1595fa951d9b

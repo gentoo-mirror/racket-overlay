@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="Metaxal/racket-paint"
-GH_COMMIT="78dc733cf48c7d46d8a03ab1dc11abd483775eab"
+GH_COMMIT="d43cd4efd35aaca7c67ca3b45a0e5275c1d07322"
 
 inherit racket gh
 

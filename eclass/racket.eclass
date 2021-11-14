@@ -248,6 +248,7 @@ function racket_temporary_install() {
 		--batch
 		--deps force
 		--force
+		--jobs "$(makeopts_jobs)"
 		--name "${pkg}"
 		--no-cache
 		--scope user
@@ -327,6 +328,7 @@ function racket_src_compile() {
 function raco_test() {
 	local raco_opts=(
 		--drdr
+		--jobs "$(makeopts_jobs)"
 		--no-run-if-absent
 		--submodule test
 	)

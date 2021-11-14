@@ -1,9 +1,9 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
-DESCRIPTION=Racket bindings to common UNIX APIs.
+DESCRIPTION=Sudoku solver that can also show the solution process as a GraphViz dot file
 EAPI=8
-HOMEPAGE=https://github.com/jubnzv/nix.rkt
+HOMEPAGE=https://git.sr.ht/~sschwarzer/sudoku-solver
 INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
@@ -11,6 +11,6 @@ LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/jubnzv/nix.rkt/archive/a0e4107110c15880606b6098b97b73654e4cb50a.tar.gz -> nix-2019.02.27.tar.gz
+SRC_URI=https://git.sr.ht/~sschwarzer/sudoku-solver/archive/edee3367d5007364d4a2b2a4ab15d80d7c9f4596.tar.gz -> sudoku-solver-2021.11.14.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	3332bed6b3f4e1512924726b100cb547	gh	835cf29b98967cd5809582a98586b7db
-_md5_=bd34b49fa067a6b8a39c2877be2141fe
+_md5_=5a0a47131068fd78cbb903a9b591759b

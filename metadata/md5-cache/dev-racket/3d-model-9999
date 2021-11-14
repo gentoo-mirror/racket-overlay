@@ -3,7 +3,7 @@ DEFINED_PHASES=compile install postinst prepare prerm test unpack
 DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=3d-model vertex/tri representaion library
 EAPI=8
-HOMEPAGE=http://code_man.cybnet.ch/racket/
+HOMEPAGE=https://pkgs.racket-lang.org/package/3d-model
 INHERIT=racket
 IUSE=doc
 KEYWORDS=~amd64
@@ -13,4 +13,4 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	3332bed6b3f4e1512924726b100cb547
-_md5_=5e95da43341781c020616a6d5496272a
+_md5_=091b38e038dbfe290847cd4fe4a51978

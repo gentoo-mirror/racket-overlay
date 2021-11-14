@@ -1,9 +1,9 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
-DESCRIPTION=Flexibly distributes software. Does not have the same limits as raco pkg.
+DESCRIPTION=An implementation of RFC5321 for Racket. (docs & implementation)
 EAPI=8
-HOMEPAGE=https://github.com/zyrolasting/xiden
+HOMEPAGE=https://github.com/Bogdanp/racket-smtp-server
 INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
@@ -11,6 +11,6 @@ LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/zyrolasting/xiden/archive/18c4155639e5f48316aee99f36b7adc27779bd5d.tar.gz -> xiden-2021.08.28.tar.gz
+SRC_URI=https://github.com/Bogdanp/racket-smtp-server/archive/9f61c83b7024bf6782bb35f6319e9e99b5417cd4.tar.gz -> smtp-server-2021.11.14.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	3332bed6b3f4e1512924726b100cb547	gh	835cf29b98967cd5809582a98586b7db
-_md5_=9baa7c0a47aa40a262ff9250f4c69432
+_md5_=f29748e9d28b8a82c4e8e8e6bbd1de09

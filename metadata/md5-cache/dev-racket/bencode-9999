@@ -3,7 +3,7 @@ DEFINED_PHASES=compile install postinst prepare prerm test unpack
 DEPEND=dev-racket/mcfly dev-racket/overeasy >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=BitTorrent Bencode Decoding
 EAPI=8
-HOMEPAGE=http://www.neilvandyke.org/racket/
+HOMEPAGE=https://pkgs.racket-lang.org/package/bencode
 INHERIT=racket
 IUSE=doc
 KEYWORDS=~amd64
@@ -13,4 +13,4 @@ RDEPEND=dev-racket/mcfly dev-racket/overeasy >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	3332bed6b3f4e1512924726b100cb547
-_md5_=e547657a3a00cf2696a19612d2693340
+_md5_=553f90239f6eee59d756208e82d8b6b3

@@ -3,7 +3,7 @@ DEFINED_PHASES=compile install postinst prepare prerm test unpack
 DEPEND=dev-racket/reprovide-lang >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the snack Racket package
 EAPI=8
-HOMEPAGE=https://www.cs.toronto.edu/~gfb/racket-pkgs/
+HOMEPAGE=https://pkgs.racket-lang.org/package/snack
 INHERIT=racket
 IUSE=doc
 KEYWORDS=~amd64
@@ -13,4 +13,4 @@ RDEPEND=dev-racket/reprovide-lang >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	3332bed6b3f4e1512924726b100cb547
-_md5_=ccbc3f1047bf44eeceb10273bb1e3580
+_md5_=0d4fe3785f5b75ce61716a7e04211fa6

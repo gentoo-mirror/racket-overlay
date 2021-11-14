@@ -3,7 +3,7 @@ DEFINED_PHASES=compile install postinst prepare prerm test unpack
 DEPEND=dev-racket/html-writing dev-racket/mcfly dev-racket/overeasy >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=HTML-Writing Template Language in SXML
 EAPI=8
-HOMEPAGE=http://www.neilvandyke.org/racket/
+HOMEPAGE=https://pkgs.racket-lang.org/package/html-template
 INHERIT=racket
 IUSE=doc
 KEYWORDS=~amd64
@@ -13,4 +13,4 @@ RDEPEND=dev-racket/html-writing dev-racket/mcfly dev-racket/overeasy >=dev-schem
 RESTRICT=mirror
 SLOT=0
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	3332bed6b3f4e1512924726b100cb547
-_md5_=fb98b52f2a81b258da0420e2ea5505d3
+_md5_=129bff0f1779ef116235644d2cd83a3a

@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Download template apps to get started building new projects with Racket
+EAPI=8
+HOMEPAGE=https://github.com/nixin72/from-template
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/nixin72/from-template/archive/81b899abdbe5850efff8ad7bd3617aaa5cb726a7.tar.gz -> from-template-2021.11.14.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	3332bed6b3f4e1512924726b100cb547	gh	835cf29b98967cd5809582a98586b7db
+_md5_=ef87c2429d3a64732ce1cad205a5fe9d

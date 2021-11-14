@@ -1,6 +1,6 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/egg-herbie dev-racket/fpbench dev-racket/regraph dev-racket/rival >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/fpbench dev-racket/regraph dev-racket/rival >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=A tool for automatically improving the accuracy of floating point expressions
 EAPI=8
 HOMEPAGE=https://github.com/uwplse/herbie
@@ -8,9 +8,9 @@ INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/egg-herbie dev-racket/fpbench dev-racket/regraph dev-racket/rival >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/fpbench dev-racket/regraph dev-racket/rival >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/uwplse/herbie/archive/8e29e90fccb360a9e19019cc534a635a30afcc66.tar.gz -> herbie-2021.07.24.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	3332bed6b3f4e1512924726b100cb547	gh	835cf29b98967cd5809582a98586b7db
-_md5_=d658182486323e2fee455cc0372e8a55
+_md5_=a1dbfb394549ccae34ebff74fa2bdc01

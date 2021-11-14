@@ -3,7 +3,7 @@ DEFINED_PHASES=compile install postinst prepare prerm test unpack
 DEPEND=dev-racket/html-template dev-racket/mcfly >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Racket Web Server html-template Support
 EAPI=8
-HOMEPAGE=http://www.neilvandyke.org/racket/
+HOMEPAGE=https://pkgs.racket-lang.org/package/rws-html-template
 INHERIT=racket
 IUSE=doc
 KEYWORDS=~amd64
@@ -13,4 +13,4 @@ RDEPEND=dev-racket/html-template dev-racket/mcfly >=dev-scheme/racket-8.1:=[-min
 RESTRICT=mirror
 SLOT=0
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	3332bed6b3f4e1512924726b100cb547
-_md5_=b4bf5cb09c28b9d5cb7640bc68e7800f
+_md5_=3981334b3a72fe1931ac615caf643cc6

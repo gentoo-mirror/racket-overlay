@@ -1,7 +1,6 @@
 # Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-
 # @ECLASS: gh.eclass
 # @MAINTAINER:
 # src_prepare group
@@ -39,7 +38,6 @@
 # SLOT="0"
 # @CODE
 
-
 # Variables documentation
 
 # @ECLASS-VARIABLE: GH_DOM
@@ -76,12 +74,8 @@
 # GH_COMMIT="ad4c54b0b8cf299f50ac48ee3188e8429e749e6e"
 # @CODE
 
-
 # check EAPI
-case "${EAPI}" in
-	0 | 1 | 2 | 3 | 4 | 5 | 6 )
-		die "EAPI: ${EAPI} too old"
-		;;
+case ${EAPI} in
 	7 | 8 )
 		;;
 	* )
@@ -102,10 +96,9 @@ if [ -z "${GH_REPO}" ]; then
 	die "GH_REPO variable is empty"
 fi
 
-
 # Definitions
 
-case "${PV}" in
+case ${PV} in
 	*9999* )
 		# PROPERTIES+=" live"  # git-r3 already sets this
 		inherit git-r3

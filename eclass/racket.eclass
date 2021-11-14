@@ -1,7 +1,6 @@
 # Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-
 # @ECLASS: racket.eclass
 # @MAINTAINER:
 # src_prepare group
@@ -13,16 +12,9 @@
 # @DESCRIPTION:
 # This eclass is used in Racket packages ebuilds
 
-
-# Inherits
 inherit multiprocessing xdg-utils
 
-
-case "${EAPI}"
-in
-	[0-6] )
-		die "EAPI: ${EAPI} too old"
-		;;
+case ${EAPI} in
 	7 | 8 )
 		true
 		;;
@@ -30,7 +22,6 @@ in
 		die "EAPI: ${EAPI} not supported"
 		;;
 esac
-
 
 # @ECLASS-VARIABLE: RACKET_PN
 # @DESCRIPTION:
@@ -40,7 +31,6 @@ esac
 # RACKET_PN="mypkg"
 # @CODE
 : ${RACKET_PN:=${PN}}
-
 
 # @ECLASS-VARIABLE: RACKET_REQ_USE
 # @DEFAULT_UNSET
@@ -52,7 +42,6 @@ esac
 # RACKET_REQ_USE="X"
 # RACKET_REQ_USE="X,bc"
 # @CODE
-
 
 # @ECLASS-VARIABLE: SCRBL_DOCS
 # @DESCRIPTION:
@@ -66,17 +55,16 @@ esac
 # @CODE
 : ${SCRBL_DOCS:="ON"}
 
-case "${SCRBL_DOCS}" in
+case ${SCRBL_DOCS} in
 	1 | [Tt][Rr][Uu][Ee] | [Oo][Nn] )
-		IUSE+="doc"
 		do_scrbl=1
+		IUSE+="doc"
 		BDEPEND+=" doc? ( dev-texlive/texlive-fontsextra ) "
 		;;
 	* )
 		do_scrbl=0
 		;;
 esac
-
 
 # @ECLASS-VARIABLE: SCRBL_DOC_DIR
 # @DESCRIPTION:
@@ -88,18 +76,15 @@ esac
 # @CODE
 : ${SCRBL_DOC_DIR:="${WORKDIR}/${P}_scrbl_docs"}
 
-
 # Dependencies
-RACKET_DEPEND="
+RDEPEND="
 	>=dev-scheme/racket-8.1:=[-minimal${RACKET_REQ_USE:+,${RACKET_REQ_USE}}]
 "
-RDEPEND+="${RACKET_DEPEND}"
-DEPEND+="${RACKET_DEPEND}"
+DEPEND="${RDEPEND}"
 
 # - racket-where (for `racket_pkg_prerm') - no additional BDEPEND
 # - other - racket-compiler and racket-where
-case "${PN}"
-in
+case ${PN} in
 	"racket-where" )
 		true
 		;;
@@ -108,18 +93,7 @@ in
 		;;
 esac
 
-
-# Exported functions
-export_functions=(
-	src_prepare
-	src_compile
-	src_test
-	src_install
-	pkg_postinst
-	pkg_prerm
-)
-EXPORT_FUNCTIONS "${export_functions[@]}"
-
+EXPORT_FUNCTIONS src_prepare src_compile src_test src_install pkg_postinst pkg_prerm
 
 # @FUNCTION: racket_environment_prepare
 # @DESCRIPTION:
@@ -132,8 +106,7 @@ EXPORT_FUNCTIONS "${export_functions[@]}"
 # RACKET_PKGS_DIR = /usr/share/racket/pkgs/
 # RACKET_P_DIR = ${EPREFIX}/usr/share/racket/pkgs/${RACKET_PN}
 # @CODE
-
-function racket_environment_prepare() {
+racket_environment_prepare() {
 	einfo "Preparing the environment for Racket"
 
 	command -v raco >/dev/null || die "raco is missing"
@@ -156,17 +129,15 @@ function racket_environment_prepare() {
 	export RACKET_P_DIR="${EPREFIX}/${RACKET_PKGS_DIR}/${RACKET_PN}"
 }
 
-
 # @FUNCTION: racket_fix_collection
 # @DESCRIPTION:
 # If "info.rkt" exists in current directory, then check if it defines
 # a collection, if not then add '(define collection "${PN}")' to "info.rkt"
 # WARNING!: Check what is ${S}, it should be the highest (lowest depth)
 # placed "info.rkt" file that defines the collection you want.
-
-function racket_fix_collection() {
-	if [[ -f ./info.rkt ]]; then
-		if ! grep 'define collection' ./info.rkt >/dev/null; then
+racket_fix_collection() {
+	if [[ -f ./info.rkt ]] ; then
+		if ! grep 'define collection' ./info.rkt >/dev/null ; then
 			ewarn "adding a collection definition to info.rkt"
 			echo "(define collection \"${RACKET_PN}\")" >> ./info.rkt ||
 				die "failed to add a collection definition to info.rkt"
@@ -174,18 +145,15 @@ function racket_fix_collection() {
 	fi
 }
 
-
 # @FUNCTION: racket_clean_directory
 # @DESCRIPTION:
 # Removes '.git' directory if it exists so that it is not merged
 # with the package.
-
-function racket_clean_directory() {
-	if [[ -d ".git" ]]; then
+racket_clean_directory() {
+	if [[ -d ".git" ]] ; then
 		rm -r ".git" || die "failed to remove unnecessary '.git' directory"
 	fi
 }
-
 
 # @FUNCTION: racket_src_prepare
 # @DESCRIPTION:
@@ -194,8 +162,7 @@ function racket_clean_directory() {
 # In addition to `default'
 # executes: `racket_environment_prepare', `racket_fix_collection'
 # and `racket_clean_directory'.
-
-function racket_src_prepare() {
+racket_src_prepare() {
 	einfo "Running Racket src_prepare"
 
 	racket_environment_prepare
@@ -207,24 +174,20 @@ function racket_src_prepare() {
 	default
 }
 
-
 # @FUNCTION: eraco
 # @USAGE: [arg] ...
 # @DESCRIPTION:
 # Racket's raco command wrapper.
-
-function eraco() {
+eraco() {
 	echo "Raco: ${*}"
 	raco "${@}" || die "ERROR: \"raco ${*}\" failed"
 }
-
 
 # @FUNCTION: raco_docs_switch
 # @DESCRIPTION:
 # Based on whether do_scrbl=1 and USE=doc documentation is enabled
 # by not passing the --no-docs switch.
-
-function raco_docs_switch() {
+raco_docs_switch() {
 	if [[ ${do_scrbl} -eq 1 ]] && use doc ; then
 		echo ''
 	else
@@ -232,13 +195,11 @@ function raco_docs_switch() {
 	fi
 }
 
-
 # @FUNCTION: racket_temporary_install
 # @USAGE: [pkg_name]
 # @DESCRIPTION:
 # Install package to portage's HOME directory.
-
-function racket_temporary_install() {
+racket_temporary_install() {
 	local pkg="${1:-${RACKET_PN}}"
 	local raco_opts=(
 		--batch
@@ -258,18 +219,16 @@ function racket_temporary_install() {
 	eend $? "racket_temporary_install: temporary installation failed" || die
 }
 
-
 # @FUNCTION: scribble_system_docs
 # @DESCRIPTION:
 # Render documentation that will be installed into system doc directories.
 # Compile the documentation using scribble.
 # Output to html, latex, markdown and text formats.
-
-function scribble_system_docs() {
+scribble_system_docs() {
 	ebegin "Building system-wide documentation"
 
 	local doctype
-	for doctype in html latex markdown pdf text; do
+	for doctype in html latex markdown pdf text ; do
 		echo "Creating ${doctype} documentation in ${SCRBL_DOC_DIR}/${doctype}"
 
 		mkdir -p "${SCRBL_DOC_DIR}/${doctype}" ||
@@ -282,31 +241,27 @@ function scribble_system_docs() {
 	eend $? "scribble_system_docs: building documentation failed" || die
 }
 
-
 # @FUNCTION: racket_src_compile
 # @DESCRIPTION:
 # Default src_compile:
 #
 # Executes `racket_temporary_install' and conditionally `scribble_system_docs'.
-
-function racket_src_compile() {
+racket_src_compile() {
 	einfo "Running Racket src_compile"
 
 	racket_temporary_install
 
-	if [[ ${do_scrbl} -eq 1 ]] && use doc; then
+	if [[ ${do_scrbl} -eq 1 ]] && use doc ; then
 		scribble_system_docs
 	fi
 }
-
 
 # @FUNCTION: raco_test
 # @DESCRIPTION:
 # Invokes 'raco test .' with '--submodule test' option causing it to look for
 # test submodules in files in current package directory (recursively)
 # and execute those tests.
-
-function raco_test() {
+raco_test() {
 	local raco_opts=(
 		--drdr
 		--jobs "$(makeopts_jobs)"
@@ -321,30 +276,25 @@ function raco_test() {
 	eend $? "raco_test: testing package failed" || die
 }
 
-
 # @FUNCTION: racket_src_test
 # @DESCRIPTION:
 # Default src_test:
 #
 # Executes `raco_test'.
-
-function racket_src_test() {
+racket_src_test() {
 	einfo "Running Racket src_test"
 
 	raco_test
 }
 
-
 # @FUNCTION: racket_copy_launchers
 # @DESCRIPTION:
 #
 # Try to find any launchers created in "PLTUSERHOME" - copy them to the image.
-
-function racket_copy_launchers() {
+racket_copy_launchers() {
 	find ${PLTUSERHOME} -type d -name "bin" -exec cp -r {} "${D}/usr" \; ||
 		die "failed to copy found launchers"
 }
-
 
 # @FUNCTION: racket_src_install
 # @DESCRIPTION:
@@ -352,22 +302,19 @@ function racket_copy_launchers() {
 #
 # Installs miscellaneous docs with `einstalldocs'
 # and then installs the compiled racket package files.
-
-function racket_src_install() {
+racket_src_install() {
 	einfo "Running Racket src_install"
 
 	local inst_dir="${D}${RACKET_PKGS_DIR}"
 
-	mkdir -p "${inst_dir}" ||
-		die "racket_src_install failed"
-	cp -r "${S}" "${inst_dir}/${RACKET_PN}" ||
-		die "racket_src_install failed"
+	mkdir -p "${inst_dir}" || die
+	cp -r "${S}" "${inst_dir}/${RACKET_PN}" || die
 
 	einstalldocs
 	racket_copy_launchers
 
-	if [[ ${do_scrbl} -eq 1 ]]; then
-		if use doc; then
+	if [[ ${do_scrbl} -eq 1 ]] ; then
+		if use doc ; then
 			einfo "Installing documentation for ${P}"
 			insinto "/usr/share/doc/${PF}"
 			doins -r "${SCRBL_DOC_DIR}"/*
@@ -375,13 +322,11 @@ function racket_src_install() {
 	fi
 }
 
-
 # @FUNCTION: raco_remove
 # @USAGE: [pkg_name]
 # @DESCRIPTION:
 # Remove a package installed in 'installation' scope
-
-function raco_remove() {
+raco_remove() {
 	local pkg="${1:-${RACKET_PN}}"
 	local raco_opts=(
 		--batch
@@ -395,10 +340,9 @@ function raco_remove() {
 
 	eraco pkg remove "${raco_opts[@]}" "${pkg}"
 
-	einfo "raco has removed ${pkg}"
 	eend $? "raco_remove: removing ${pkg} failed" || die
+	einfo "raco has removed ${pkg}"
 }
-
 
 # @FUNCTION: racket_pkg_prerm
 # @DESCRIPTION:
@@ -406,15 +350,13 @@ function raco_remove() {
 #
 # If we have Racket available remove the pkg using `raco_remove'
 # if it is installed to properly update pkg databases.
-
-function racket_pkg_prerm() {
+racket_pkg_prerm() {
 	einfo "Running Racket pkg_prerm"
 
-	if has_version "dev-scheme/racket" && racket-where "${RACKET_PN}"; then
+	if has_version "dev-scheme/racket" && racket-where "${RACKET_PN}" ; then
 		raco_remove
 	fi
 }
-
 
 # @FUNCTION: racket_pkg_postinst
 # @DESCRIPTION:
@@ -422,13 +364,11 @@ function racket_pkg_prerm() {
 #
 # Removes old pkg (with the same name) and then installs the pkg
 # in 'installation' scope.
-
-function racket_pkg_postinst() {
+racket_pkg_postinst() {
 	einfo "Running Racket pkg_postinst"
 
 	# Go to a system directory where the pkg is installed
-	pushd "${RACKET_P_DIR}" >/dev/null ||
-		die "couldn't pushd into ${P_RACKET_DIR}"
+	pushd "${RACKET_P_DIR}" >/dev/null || die
 
 	# Final step: install with raco - this creates launchers
 	# and updates racket package databases
@@ -442,5 +382,5 @@ function racket_pkg_postinst() {
 	)
 	eraco pkg install "${raco_opts[@]}"
 
-	popd >/dev/null || die "couldn't popd"
+	popd >/dev/null || die
 }

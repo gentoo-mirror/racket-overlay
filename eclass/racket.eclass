@@ -213,6 +213,7 @@ function racket_src_prepare() {
 
 
 # @FUNCTION: eraco
+# @USAGE: [arg] ...
 # @DESCRIPTION:
 # Racket's raco command wrapper.
 
@@ -222,7 +223,22 @@ function eraco() {
 }
 
 
+# @FUNCTION: raco_docs_switch
+# @DESCRIPTION:
+# Based on whether do_scrbl=1 and USE=doc documentation is enabled
+# by not passing the --no-docs switch.
+
+function raco_docs_switch() {
+	if [[ ${do_scrbl} -eq 1 ]] && use doc ; then
+		echo ''
+	else
+		echo '--no-docs'
+	fi
+}
+
+
 # @FUNCTION: racket_temporary_install
+# @USAGE: [pkg_name]
 # @DESCRIPTION:
 # Install package to portage's HOME directory.
 
@@ -233,8 +249,9 @@ function racket_temporary_install() {
 		--deps force
 		--force
 		--name "${pkg}"
-		--no-setup
+		--no-cache
 		--scope user
+		$(raco_docs_switch)
 	)
 
 	ebegin "Temporarily installing ${pkg}"
@@ -283,33 +300,6 @@ function scribble_system_docs() {
 }
 
 
-# @FUNCTION: scribble_package_docs
-# @DESCRIPTION:
-# Render documentation that will be installed into the package directory.
-# Compile the documentation using scribble.
-# Output to html, latex, markdown and text formats.
-
-function scribble_package_docs() {
-	local pkg="${1:-${RACKET_PN}}"
-	local raco_opts=(
-		--avoid-main
-		--doc-index
-		--force
-		--force-user-docs
-		--jobs "$(makeopts_jobs)"
-		--no-launcher
-		--no-pkg-deps
-		--pkgs "${pkg}"
-	)
-
-	ebegin "Building package-local documentation"
-
-	raco setup "${raco_opts[@]}"
-
-	eend $? "scribble_package_docs: building documentation failed" || die
-}
-
-
 # @FUNCTION: racket_src_compile
 # @DESCRIPTION:
 # Default src_compile:
@@ -319,14 +309,11 @@ function scribble_package_docs() {
 function racket_src_compile() {
 	einfo "Running Racket src_compile"
 
-	racket_temporary_install
 	racket_compile_directory
+	racket_temporary_install
 
-	if [[ ${do_scrbl} -eq 1 ]]; then
-		if use doc; then
-			scribble_package_docs
-			scribble_system_docs
-		fi
+	if [[ ${do_scrbl} -eq 1 ]] && use doc; then
+		scribble_system_docs
 	fi
 }
 
@@ -365,6 +352,17 @@ function racket_src_test() {
 }
 
 
+# @FUNCTION: racket_copy_launchers
+# @DESCRIPTION:
+#
+# Try to find any launchers created in "PLTUSERHOME" - copy them to the image.
+
+function racket_copy_launchers() {
+	find ${PLTUSERHOME} -type d -name "bin" -exec cp -r {} "${D}/usr" \; ||
+		die "failed to copy found launchers"
+}
+
+
 # @FUNCTION: racket_src_install
 # @DESCRIPTION:
 # Default src_install:
@@ -375,14 +373,15 @@ function racket_src_test() {
 function racket_src_install() {
 	einfo "Running Racket src_install"
 
-	einstalldocs
-
 	local inst_dir="${D}${RACKET_PKGS_DIR}"
 
 	mkdir -p "${inst_dir}" ||
 		die "racket_src_install failed"
 	cp -r "${S}" "${inst_dir}/${RACKET_PN}" ||
 		die "racket_src_install failed"
+
+	einstalldocs
+	racket_copy_launchers
 
 	if [[ ${do_scrbl} -eq 1 ]]; then
 		if use doc; then
@@ -456,12 +455,8 @@ function racket_pkg_postinst() {
 		--force
 		--jobs "$(makeopts_jobs)"
 		--scope installation
+		$(raco_docs_switch)
 	)
-	if [[ ${do_scrbl} -eq 1 ]]; then
-		! use doc && raco_opts+=( --no-docs )
-	else
-		raco_opts+=( --no-docs )
-	fi
 	eraco pkg install "${raco_opts[@]}"
 
 	popd >/dev/null || die "couldn't popd"

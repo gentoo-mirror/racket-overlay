@@ -96,7 +96,6 @@ RACKET_DEPEND="
 RDEPEND+="${RACKET_DEPEND}"
 DEPEND+="${RACKET_DEPEND}"
 
-# CONSIDER: do we have to depend on racket for build-time too?
 # - racket-where (for `racket_pkg_prerm') - no additional BDEPEND
 # - racket-compiler (for `racket_compile_directory') - racket-where
 # - other - racket-compiler and racket-where
@@ -132,9 +131,9 @@ EXPORT_FUNCTIONS "${export_functions[@]}"
 # This function sets the following variables:
 #
 # @CODE
+# PLTUSERHOME = ${HOME}/pltuserhome (temporary created by Portage)
 # RACKET_PREFIX = /usr/share/racket/
 # RACKET_PKGS_DIR = /usr/share/racket/pkgs/
-# PLTUSERHOME = ${HOME} (temporary created by Portage)
 # RACKET_P_DIR = ${EPREFIX}/usr/share/racket/pkgs/${RACKET_PN}
 # @CODE
 
@@ -145,18 +144,19 @@ function racket_environment_prepare() {
 
 	xdg_environment_reset
 
-	export RACKET_PREFIX="/usr/share/racket"
-
-	# Where the ebuild merges the packages
-	export RACKET_PKGS_DIR="${RACKET_PREFIX}/pkgs"
-
 	# The location of temporary portage PLTUSERHOME
 	# this in most cases will be /var/tmp/portage/homedir
 	# While this is /root or /home/<user> we are in trouble
 	export PLTUSERHOME="${HOME}/pltuserhome"
 	mkdir -p "${PLTUSERHOME}" || die
 
-	# Where the package will be merged
+	# Main Racket installtion directory
+	export RACKET_PREFIX="/usr/share/racket"
+
+	# Where the ebuild merges the packages to
+	export RACKET_PKGS_DIR="${RACKET_PREFIX}/pkgs"
+
+	# Where the single package will be merged
 	export RACKET_P_DIR="${EPREFIX}/${RACKET_PKGS_DIR}/${RACKET_PN}"
 }
 
@@ -172,8 +172,8 @@ function racket_fix_collection() {
 	if [[ -f ./info.rkt ]]; then
 		if ! grep 'define collection' ./info.rkt >/dev/null; then
 			ewarn "adding a collection definition to info.rkt"
-
-			echo "(define collection \"${RACKET_PN}\")" >> ./info.rkt
+			echo "(define collection \"${RACKET_PN}\")" >> ./info.rkt ||
+				die "failed to add a collection definition to info.rkt"
 		fi
 	fi
 }

@@ -2,7 +2,4 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 
 <pkgmetadata>
-  <upstream>
-    <bugs-to>http://www.neilvandyke.org/racket/</bugs-to>
-  </upstream>
 </pkgmetadata>

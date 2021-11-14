@@ -8,7 +8,7 @@ PROPERTIES=live
 inherit racket
 
 DESCRIPTION="Number Formatting"
-HOMEPAGE="http://www.neilvandyke.org/racket/"
+HOMEPAGE="https://pkgs.racket-lang.org/package/numformat-old"
 S="${WORKDIR}/${PN}"
 
 LICENSE="all-rights-reserved"

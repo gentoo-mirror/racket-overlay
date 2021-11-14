@@ -4,13 +4,13 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="jubnzv/nix.rkt"
-GH_COMMIT="a0e4107110c15880606b6098b97b73654e4cb50a"
+GH_REPO="Metaxal/racket-paint"
+GH_COMMIT="d43cd4efd35aaca7c67ca3b45a0e5275c1d07322"
 
 inherit racket gh
 
-DESCRIPTION="Racket bindings to common UNIX APIs."
-HOMEPAGE="https://github.com/jubnzv/nix.rkt"
+DESCRIPTION="A simple paint program"
+HOMEPAGE="https://github.com/Metaxal/racket-paint"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

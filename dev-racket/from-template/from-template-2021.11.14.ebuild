@@ -4,13 +4,13 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="zyrolasting/xiden"
-GH_COMMIT="18c4155639e5f48316aee99f36b7adc27779bd5d"
+GH_REPO="nixin72/from-template"
+GH_COMMIT="81b899abdbe5850efff8ad7bd3617aaa5cb726a7"
 
 inherit racket gh
 
-DESCRIPTION="Flexibly distributes software. Does not have the same limits as raco pkg."
-HOMEPAGE="https://github.com/zyrolasting/xiden"
+DESCRIPTION="Download template apps to get started building new projects with Racket"
+HOMEPAGE="https://github.com/nixin72/from-template"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

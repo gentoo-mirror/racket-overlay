@@ -8,7 +8,7 @@ PROPERTIES=live
 inherit racket
 
 DESCRIPTION="the tightlight Racket package"
-HOMEPAGE="https://www.cs.toronto.edu/~gfb/racket-pkgs/"
+HOMEPAGE="https://pkgs.racket-lang.org/package/tightlight"
 S="${WORKDIR}/${PN}"
 
 LICENSE="all-rights-reserved"

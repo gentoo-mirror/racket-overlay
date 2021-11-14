@@ -8,7 +8,7 @@ PROPERTIES=live
 inherit racket
 
 DESCRIPTION="A parser for a wiki syntax (a mild extension of WikiCreole)"
-HOMEPAGE="http://nxg.me.uk/dist/squicky/"
+HOMEPAGE="https://pkgs.racket-lang.org/package/squicky"
 S="${WORKDIR}/${PN}"
 
 LICENSE="all-rights-reserved"

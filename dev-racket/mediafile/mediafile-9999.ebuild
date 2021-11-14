@@ -8,7 +8,7 @@ PROPERTIES=live
 inherit racket
 
 DESCRIPTION="Media File Metadata Utilities"
-HOMEPAGE="http://www.neilvandyke.org/racket/"
+HOMEPAGE="https://pkgs.racket-lang.org/package/mediafile"
 S="${WORKDIR}/${PN}"
 
 LICENSE="all-rights-reserved"

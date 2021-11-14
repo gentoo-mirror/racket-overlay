@@ -8,7 +8,7 @@ PROPERTIES=live
 inherit racket
 
 DESCRIPTION="the snack Racket package"
-HOMEPAGE="https://www.cs.toronto.edu/~gfb/racket-pkgs/"
+HOMEPAGE="https://pkgs.racket-lang.org/package/snack"
 S="${WORKDIR}/${PN}"
 
 LICENSE="all-rights-reserved"

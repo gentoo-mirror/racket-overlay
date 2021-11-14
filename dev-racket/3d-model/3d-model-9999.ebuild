@@ -8,7 +8,7 @@ PROPERTIES=live
 inherit racket
 
 DESCRIPTION="3d-model vertex/tri representaion library"
-HOMEPAGE="http://code_man.cybnet.ch/racket/"
+HOMEPAGE="https://pkgs.racket-lang.org/package/3d-model"
 S="${WORKDIR}/${PN}"
 
 LICENSE="all-rights-reserved"

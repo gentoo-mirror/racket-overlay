@@ -8,7 +8,7 @@ PROPERTIES=live
 inherit racket
 
 DESCRIPTION="BitTorrent Bencode Decoding"
-HOMEPAGE="http://www.neilvandyke.org/racket/"
+HOMEPAGE="https://pkgs.racket-lang.org/package/bencode"
 S="${WORKDIR}/${PN}"
 
 LICENSE="all-rights-reserved"

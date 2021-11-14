@@ -8,7 +8,7 @@ PROPERTIES=live
 inherit racket
 
 DESCRIPTION="Permissive Parsing of HTML to SXML"
-HOMEPAGE="http://www.neilvandyke.org/racket/"
+HOMEPAGE="https://pkgs.racket-lang.org/package/html-parsing"
 S="${WORKDIR}/${PN}"
 
 LICENSE="all-rights-reserved"

@@ -8,7 +8,7 @@ PROPERTIES=live
 inherit racket
 
 DESCRIPTION="Precious Metals Market Info. Access"
-HOMEPAGE="http://www.neilvandyke.org/racket/"
+HOMEPAGE="https://pkgs.racket-lang.org/package/kitco"
 S="${WORKDIR}/${PN}"
 
 LICENSE="all-rights-reserved"

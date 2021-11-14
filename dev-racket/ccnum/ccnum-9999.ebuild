@@ -8,7 +8,7 @@ PROPERTIES=live
 inherit racket
 
 DESCRIPTION="Credit Card Number Utilities"
-HOMEPAGE="http://www.neilvandyke.org/racket/"
+HOMEPAGE="https://pkgs.racket-lang.org/package/ccnum"
 S="${WORKDIR}/${PN}"
 
 LICENSE="all-rights-reserved"

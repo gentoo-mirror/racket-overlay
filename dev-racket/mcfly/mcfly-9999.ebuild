@@ -8,7 +8,7 @@ PROPERTIES=live
 inherit racket
 
 DESCRIPTION="Embedded Package Documentation Runtime"
-HOMEPAGE="http://www.neilvandyke.org/racket/"
+HOMEPAGE="https://pkgs.racket-lang.org/package/mcfly"
 S="${WORKDIR}/${PN}"
 
 LICENSE="all-rights-reserved"

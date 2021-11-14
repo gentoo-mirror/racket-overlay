@@ -8,7 +8,7 @@ PROPERTIES=live
 inherit racket
 
 DESCRIPTION="Character-cell Terminal Interface"
-HOMEPAGE="http://www.neilvandyke.org/racket/"
+HOMEPAGE="https://pkgs.racket-lang.org/package/charterm"
 S="${WORKDIR}/${PN}"
 
 LICENSE="all-rights-reserved"

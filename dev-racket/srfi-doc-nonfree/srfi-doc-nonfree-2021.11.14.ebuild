@@ -4,13 +4,14 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="zyrolasting/xiden"
-GH_COMMIT="fc38a9f436e8c074008fb296d268d4f6c154e4c7"
+GH_REPO="racket/srfi"
+GH_COMMIT="e32d29b30e91f392a391cfc1fdcb9edfda9b4883"
 
 inherit racket gh
 
-DESCRIPTION="Flexibly distributes software. Does not have the same limits as raco pkg."
-HOMEPAGE="https://github.com/zyrolasting/xiden"
+DESCRIPTION="the srfi-doc-nonfree Racket package"
+HOMEPAGE="https://github.com/racket/srfi"
+S="${S}/srfi-doc-nonfree"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

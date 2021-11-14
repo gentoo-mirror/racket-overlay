@@ -8,7 +8,7 @@ PROPERTIES=live
 inherit racket
 
 DESCRIPTION="JSON Parsing, Folding, and Conversion"
-HOMEPAGE="http://www.neilvandyke.org/racket/"
+HOMEPAGE="https://pkgs.racket-lang.org/package/json-parsing"
 S="${WORKDIR}/${PN}"
 
 LICENSE="all-rights-reserved"

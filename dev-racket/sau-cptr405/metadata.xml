@@ -2,7 +2,4 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 
 <pkgmetadata>
-  <upstream>
-    <bugs-to>http://computing.southern.edu/rordonez/class/CPTR-405/</bugs-to>
-  </upstream>
 </pkgmetadata>

@@ -2,7 +2,4 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 
 <pkgmetadata>
-  <upstream>
-    <bugs-to>https://chust.org/repos/racket-protobuf/uv/protobuf-1.1.3.zip</bugs-to>
-  </upstream>
 </pkgmetadata>

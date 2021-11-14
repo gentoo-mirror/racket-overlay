@@ -18,8 +18,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/egg-herbie
-	dev-racket/fpbench
+RDEPEND="dev-racket/fpbench
 	dev-racket/regraph
 	dev-racket/rival"
 DEPEND="${RDEPEND}"

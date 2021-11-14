@@ -8,7 +8,7 @@ PROPERTIES=live
 inherit racket
 
 DESCRIPTION="Prototype-Delegation Object Model"
-HOMEPAGE="http://www.neilvandyke.org/racket/"
+HOMEPAGE="https://pkgs.racket-lang.org/package/protobj"
 S="${WORKDIR}/${PN}"
 
 LICENSE="all-rights-reserved"

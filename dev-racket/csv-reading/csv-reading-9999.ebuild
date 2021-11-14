@@ -8,7 +8,7 @@ PROPERTIES=live
 inherit racket
 
 DESCRIPTION="Comma-Separated Value (CSV) Parsing"
-HOMEPAGE="https://www.neilvandyke.org/racket/"
+HOMEPAGE="https://pkgs.racket-lang.org/package/csv-reading"
 S="${WORKDIR}/${PN}"
 
 LICENSE="all-rights-reserved"

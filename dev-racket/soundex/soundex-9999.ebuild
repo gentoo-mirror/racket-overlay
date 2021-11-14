@@ -8,7 +8,7 @@ PROPERTIES=live
 inherit racket
 
 DESCRIPTION="Soundex Index Keying"
-HOMEPAGE="http://www.neilvandyke.org/racket/"
+HOMEPAGE="https://pkgs.racket-lang.org/package/soundex"
 S="${WORKDIR}/${PN}"
 
 LICENSE="all-rights-reserved"

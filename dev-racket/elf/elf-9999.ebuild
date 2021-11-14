@@ -8,7 +8,7 @@ PROPERTIES=live
 inherit racket
 
 DESCRIPTION="Unix executable and linking format read/writing"
-HOMEPAGE="http://code_man.cybnet.ch/racket/"
+HOMEPAGE="https://pkgs.racket-lang.org/package/elf"
 S="${WORKDIR}/${PN}"
 
 LICENSE="all-rights-reserved"

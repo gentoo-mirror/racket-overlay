@@ -8,7 +8,7 @@ PROPERTIES=live
 inherit racket
 
 DESCRIPTION="Spelling Numbers as English"
-HOMEPAGE="http://www.neilvandyke.org/racket/"
+HOMEPAGE="https://pkgs.racket-lang.org/package/numspell"
 S="${WORKDIR}/${PN}"
 
 LICENSE="all-rights-reserved"

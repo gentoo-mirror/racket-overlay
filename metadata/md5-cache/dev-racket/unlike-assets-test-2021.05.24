@@ -1,4 +1,4 @@
-BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=dev-racket/unlike-assets-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=(OLD EDITION) Tests for unlike-assets
@@ -12,5 +12,5 @@ RDEPEND=dev-racket/unlike-assets-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/zyrolasting/unlike-assets/archive/7fb08d6902d34399c96a325d68fd27f1ff84813b.tar.gz -> unlike-assets-test-2021.05.24.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4433f7d97589bcb880bd6618fa0949f5	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	3332bed6b3f4e1512924726b100cb547	gh	835cf29b98967cd5809582a98586b7db
 _md5_=b670ba39bd3570409670bea25c807025

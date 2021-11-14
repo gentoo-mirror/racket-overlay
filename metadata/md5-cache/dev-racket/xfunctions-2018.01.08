@@ -1,4 +1,4 @@
-BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=dev-racket/xfunctions-doc dev-racket/xfunctions-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Extended Functional Combinators
@@ -12,5 +12,5 @@ RDEPEND=dev-racket/xfunctions-doc dev-racket/xfunctions-lib >=dev-scheme/racket-
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/wesleybits/xfunctions/archive/a8c545d55ee1d9df715ccc44fb22eec463e0f206.tar.gz -> xfunctions-2018.01.08.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4433f7d97589bcb880bd6618fa0949f5	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	3332bed6b3f4e1512924726b100cb547	gh	835cf29b98967cd5809582a98586b7db
 _md5_=3a61eb53cc0061e0b06c0d814699792d

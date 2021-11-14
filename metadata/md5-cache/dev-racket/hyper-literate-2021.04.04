@@ -1,4 +1,4 @@
-BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=dev-racket/debug-scopes dev-racket/scribble-enhanced dev-racket/sexp-diff dev-racket/tr-immutable dev-racket/typed-map-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the hyper-literate Racket package
@@ -12,5 +12,5 @@ RDEPEND=dev-racket/debug-scopes dev-racket/scribble-enhanced dev-racket/sexp-dif
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jsmaniac/hyper-literate/archive/24fd9ca7ca9b96e3072d37306dc79edf24ba4ef1.tar.gz -> hyper-literate-2021.04.04.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4433f7d97589bcb880bd6618fa0949f5	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	3332bed6b3f4e1512924726b100cb547	gh	835cf29b98967cd5809582a98586b7db
 _md5_=f72763fcc540da2cc70fe644eb2cf7fa

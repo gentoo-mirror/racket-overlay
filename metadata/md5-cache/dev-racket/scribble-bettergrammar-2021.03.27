@@ -1,4 +1,4 @@
-BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=dev-racket/scribble-bettergrammar-doc dev-racket/scribble-bettergrammar-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the scribble-bettergrammar Racket package
@@ -12,5 +12,5 @@ RDEPEND=dev-racket/scribble-bettergrammar-doc dev-racket/scribble-bettergrammar-
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/wilbowma/scribble-bettergrammar/archive/e7abc41d989f7c777d4e1c2b20b30569177c75f5.tar.gz -> scribble-bettergrammar-2021.03.27.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4433f7d97589bcb880bd6618fa0949f5	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	3332bed6b3f4e1512924726b100cb547	gh	835cf29b98967cd5809582a98586b7db
 _md5_=94a97bf5ac96a769c49bc4937fdc5e85

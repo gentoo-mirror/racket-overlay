@@ -1,4 +1,4 @@
-BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=dev-racket/_-exp dev-racket/adjutor dev-racket/functional-doc dev-racket/functional-lib dev-racket/gregor-doc dev-racket/gregor-lib dev-racket/icns dev-racket/nanopass dev-racket/reprovide-lang-lib dev-racket/ricoeur-kernel dev-racket/roman-numeral dev-racket/sql dev-racket/todo-list >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Digital Ricoeur library for TEI XML files
@@ -12,5 +12,5 @@ RDEPEND=dev-racket/_-exp dev-racket/adjutor dev-racket/functional-doc dev-racket
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://bitbucket.org/digitalricoeur/tei-utils/get/545c192aff9138d05bdd1aeb97d0f145508b84a8.tar.gz -> ricoeur-tei-utils-2021.07.07.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4433f7d97589bcb880bd6618fa0949f5	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	3332bed6b3f4e1512924726b100cb547	gh	835cf29b98967cd5809582a98586b7db
 _md5_=c11373c3628710772b592191b6284ae1

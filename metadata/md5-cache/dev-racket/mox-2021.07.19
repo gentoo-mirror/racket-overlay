@@ -1,4 +1,4 @@
-BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=dev-racket/graphics dev-racket/w3s dev-racket/digimon >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Open XML for Microsoft Office
@@ -12,5 +12,5 @@ RDEPEND=dev-racket/graphics dev-racket/w3s dev-racket/digimon >=dev-scheme/racke
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/wargrey/mox/archive/2d7fd6945e4d3eeec076be759f966b0deeb85a3d.tar.gz -> mox-2021.07.19.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4433f7d97589bcb880bd6618fa0949f5	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	3332bed6b3f4e1512924726b100cb547	gh	835cf29b98967cd5809582a98586b7db
 _md5_=96d4b51123f7545dd2105a8266c80259

@@ -1,4 +1,4 @@
-BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=dev-racket/html-parsing dev-racket/html-writing dev-racket/nanopass >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the urlang Racket package
@@ -12,5 +12,5 @@ RDEPEND=dev-racket/html-parsing dev-racket/html-writing dev-racket/nanopass >=de
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/soegaard/urlang/archive/8708eab79bf1f56372744bbcca6e75c7fe106e64.tar.gz -> urlang-2021.10.04.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4433f7d97589bcb880bd6618fa0949f5	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	3332bed6b3f4e1512924726b100cb547	gh	835cf29b98967cd5809582a98586b7db
 _md5_=356c22ad1a6de4a2985dbd3a35333a63

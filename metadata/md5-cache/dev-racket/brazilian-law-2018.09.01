@@ -1,4 +1,4 @@
-BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=dev-racket/curly-fn-lib dev-racket/functional-lib dev-racket/megaparsack dev-racket/txexpr >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the brazilian-law Racket package
@@ -12,5 +12,5 @@ RDEPEND=dev-racket/curly-fn-lib dev-racket/functional-lib dev-racket/megaparsack
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/OAB-exams/brazilian-law-parser/archive/912433fd9755e309d7e681fa2c74cff5e692a6d8.tar.gz -> brazilian-law-2018.09.01.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4433f7d97589bcb880bd6618fa0949f5	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	3332bed6b3f4e1512924726b100cb547	gh	835cf29b98967cd5809582a98586b7db
 _md5_=589be7391782eb839b262f7412689940

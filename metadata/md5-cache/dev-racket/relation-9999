@@ -1,4 +1,4 @@
-BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
 DEPEND=dev-racket/collections-lib dev-racket/describe dev-racket/functional-lib dev-racket/arguments dev-racket/point-free dev-racket/threading-lib dev-racket/mischief dev-racket/social-contract dev-racket/qi dev-racket/kw-utils dev-racket/typed-stack dev-racket/version-case dev-racket/scribble-abbrevs dev-racket/algebraic dev-racket/sugar dev-racket/fancy-app dev-racket/collections-doc dev-racket/functional-doc dev-racket/rackjure dev-racket/threading-doc dev-racket/cover dev-racket/cover-coveralls >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Generic interfaces and convenient utilities for using relations.
@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=dev-racket/collections-lib dev-racket/describe dev-racket/functional-lib dev-racket/arguments dev-racket/point-free dev-racket/threading-lib dev-racket/mischief dev-racket/social-contract dev-racket/qi dev-racket/kw-utils dev-racket/typed-stack dev-racket/version-case dev-racket/scribble-abbrevs dev-racket/algebraic dev-racket/sugar dev-racket/fancy-app dev-racket/collections-doc dev-racket/functional-doc dev-racket/rackjure dev-racket/threading-doc dev-racket/cover dev-racket/cover-coveralls >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4433f7d97589bcb880bd6618fa0949f5	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	3332bed6b3f4e1512924726b100cb547	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	835cf29b98967cd5809582a98586b7db
 _md5_=68c3ebddc4e42bc9e56ce799b68f7128

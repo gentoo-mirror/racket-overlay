@@ -1,4 +1,4 @@
-BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=dev-racket/doc-coverage dev-racket/morsel-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=documentation for morsel-lib
@@ -12,5 +12,5 @@ RDEPEND=dev-racket/doc-coverage dev-racket/morsel-lib >=dev-scheme/racket-8.1:=[
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/default-kramer/morsel/archive/10cf376f07755f066cbbfc2d242c104f103b33da.tar.gz -> morsel-doc-2020.06.22.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4433f7d97589bcb880bd6618fa0949f5	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	3332bed6b3f4e1512924726b100cb547	gh	835cf29b98967cd5809582a98586b7db
 _md5_=235b17a40ded90fd3db9c8ea2c7a947c

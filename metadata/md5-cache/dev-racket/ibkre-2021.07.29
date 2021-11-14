@@ -1,4 +1,4 @@
-BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=dev-racket/opt dev-racket/bitsyntax dev-racket/syndicate >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=IBK Actor/Syndicate Library
@@ -11,5 +11,5 @@ RDEPEND=dev-racket/opt dev-racket/bitsyntax dev-racket/syndicate >=dev-scheme/ra
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/RayRacine/ibkre/-/archive/9874511b6c5b920ffdbe4e40c6ac2cdeec4a9b8c.tar.gz -> ibkre-2021.07.29.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4433f7d97589bcb880bd6618fa0949f5	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	3332bed6b3f4e1512924726b100cb547	gh	835cf29b98967cd5809582a98586b7db
 _md5_=92d395ed028615089c4e6715f16aab4b

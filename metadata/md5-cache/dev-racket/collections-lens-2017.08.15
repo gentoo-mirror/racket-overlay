@@ -1,4 +1,4 @@
-BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-compiler sys-apps/racket-where
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=dev-racket/collections dev-racket/curly-fn dev-racket/lens-common dev-racket/lens-doc >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Lenses for generic collections
@@ -12,5 +12,5 @@ RDEPEND=dev-racket/collections dev-racket/curly-fn dev-racket/lens-common dev-ra
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lexi-lambda/collections-lens/archive/73556daf4885558ea6a66a5def8ad668c0fcf4c3.tar.gz -> collections-lens-2017.08.15.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4433f7d97589bcb880bd6618fa0949f5	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	3332bed6b3f4e1512924726b100cb547	gh	835cf29b98967cd5809582a98586b7db
 _md5_=cabf123f75935c6c8ea002f32d1e7726

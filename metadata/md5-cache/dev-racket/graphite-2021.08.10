@@ -12,5 +12,5 @@ RDEPEND=dev-racket/graphite-tutorial dev-racket/graphite-doc dev-racket/graphite
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/ralsei/graphite/archive/89f24af3a7d83019de362b52c07f15ce32aa73b1.tar.gz -> graphite-2021.08.10.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4f7bd106ba3181b65b51668d5be4786e	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	e85cd3a6ac77978ef83c26a5581ccc0d	gh	835cf29b98967cd5809582a98586b7db
 _md5_=915d359c58410c9e093486b3a2d309fc

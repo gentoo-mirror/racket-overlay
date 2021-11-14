@@ -12,5 +12,5 @@ RDEPEND=dev-racket/beautiful-racket-lib dev-racket/debug dev-racket/fontland dev
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mbutterick/quad/archive/9060de1330853dc206bbf57d75a1d261b7bc4816.tar.gz -> quad-2021.05.19.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4f7bd106ba3181b65b51668d5be4786e	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	e85cd3a6ac77978ef83c26a5581ccc0d	gh	835cf29b98967cd5809582a98586b7db
 _md5_=c80a342cb043c5e46bcac443c7d96ebe

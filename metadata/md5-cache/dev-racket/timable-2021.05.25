@@ -12,5 +12,5 @@ RDEPEND=dev-racket/scribble-rainbow-delimiters dev-racket/gregor >=dev-scheme/ra
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/yanyingwang/timable/archive/05eab1f2a33c8c7d217d203ed6615cb66a24ea61.tar.gz -> timable-2021.05.25.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4f7bd106ba3181b65b51668d5be4786e	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	e85cd3a6ac77978ef83c26a5581ccc0d	gh	835cf29b98967cd5809582a98586b7db
 _md5_=e27fa13bd94305be264221e6a68f5c99

@@ -12,5 +12,5 @@ RDEPEND=dev-racket/http123-lib dev-racket/net-cookies-doc dev-racket/net-cookies
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/rmculpepper/racket-http123/archive/d261bbe08f9b32c02cb89741d9797f7e5631191b.tar.gz -> http123-2021.11.01.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4f7bd106ba3181b65b51668d5be4786e	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	e85cd3a6ac77978ef83c26a5581ccc0d	gh	835cf29b98967cd5809582a98586b7db
 _md5_=e37a42c5fef788b9f01295b05ff3c75b

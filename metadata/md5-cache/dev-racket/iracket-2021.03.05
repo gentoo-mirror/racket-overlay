@@ -12,5 +12,5 @@ RDEPEND=dev-racket/sha dev-racket/uuid dev-racket/zeromq-r-lib >=dev-scheme/rack
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/rmculpepper/iracket/archive/9af0e87d61565a9ecb41119c481e7e36c0c5287d.tar.gz -> iracket-2021.03.05.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	4f7bd106ba3181b65b51668d5be4786e	gh	835cf29b98967cd5809582a98586b7db
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	e85cd3a6ac77978ef83c26a5581ccc0d	gh	835cf29b98967cd5809582a98586b7db
 _md5_=6b7677198bc60c9a870b6d7bdf7903ea

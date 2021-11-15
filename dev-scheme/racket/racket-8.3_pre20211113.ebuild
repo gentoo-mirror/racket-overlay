@@ -12,7 +12,7 @@
 EAPI=8
 
 PLT_V_MAJOR="$(ver_cut 1-2)"
-PLT_V_MINOR="0.6"
+PLT_V_MINOR="0.7"
 PLT_V="${PLT_V_MAJOR}.${PLT_V_MINOR}"
 
 case "${PV##*_}"
@@ -21,7 +21,7 @@ in
 	p* ) PLT_SNAP_DATE="${PV##*_p}" ;;
 	* ) PLT_SNAP_DATE="" ;;
 esac
-PLT_SNAP_HASH="dd3e38ac4c"
+PLT_SNAP_HASH="93f6fdc724"
 PLT_SNAP="${PLT_SNAP_DATE}-${PLT_SNAP_HASH}"
 
 PLT_HOST="https://plt.cs.northwestern.edu"

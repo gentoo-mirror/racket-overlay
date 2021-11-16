@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/component-doc dev-racket/component-lib dev-racket/gregor-doc dev-racket/gregor-lib dev-racket/koyo-lib dev-racket/libargon2 dev-racket/srfi-doc-nonfree >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=A web application toolkit (docs only).
+EAPI=8
+HOMEPAGE=https://github.com/Bogdanp/koyo
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/component-doc dev-racket/component-lib dev-racket/gregor-doc dev-racket/gregor-lib dev-racket/koyo-lib dev-racket/libargon2 dev-racket/srfi-doc-nonfree >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/Bogdanp/koyo/archive/4ebcc2530a67aa0891c0d024ce3434fe8d10d3af.tar.gz -> koyo-doc-2021.11.15.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fe23490e28c54d6f7b4a7b44c1ee0b8c	gh	7310922752774a331ac8a69cc9cb2caf
+_md5_=e08da73e7d2cf2e183bc25c889985840

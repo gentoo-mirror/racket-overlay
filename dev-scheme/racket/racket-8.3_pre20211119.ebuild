@@ -46,7 +46,7 @@ SLOT="0/${PLT_V}"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
 IUSE="X +chez +doc +futures +jit minimal +places +threads"
-REQUIRED_USE="chez? ( threads ) futures? ( jit )"
+REQUIRED_USE="futures? ( jit threads ) chez? ( threads ) places? ( threads )"
 
 DEPEND="
 	!dev-tex/slatex

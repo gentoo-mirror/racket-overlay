@@ -15,8 +15,7 @@ PLT_V_MAJOR="$(ver_cut 1-2)"
 PLT_V_MINOR="0.7"
 PLT_V="${PLT_V_MAJOR}.${PLT_V_MINOR}"
 
-case "${PV##*_}"
-in
+case "${PV##*_}" in
 	pre* ) PLT_SNAP_DATE="${PV##*_pre}" ;;
 	p* ) PLT_SNAP_DATE="${PV##*_p}" ;;
 	* ) PLT_SNAP_DATE="" ;;

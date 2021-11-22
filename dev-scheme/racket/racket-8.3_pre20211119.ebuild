@@ -15,8 +15,7 @@ PLT_V_MAJOR="$(ver_cut 1-2)"
 PLT_V_MINOR="0.8"
 PLT_V="${PLT_V_MAJOR}.${PLT_V_MINOR}"
 
-case "${PV##*_}"
-in
+case "${PV##*_}" in
 	pre* ) PLT_SNAP_DATE="${PV##*_pre}" ;;
 	p* ) PLT_SNAP_DATE="${PV##*_p}" ;;
 	* ) PLT_SNAP_DATE="" ;;
@@ -47,7 +46,7 @@ SLOT="0/${PLT_V}"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
 IUSE="X +chez +doc +futures +jit minimal +places +threads"
-REQUIRED_USE="futures? ( jit )"
+REQUIRED_USE="chez? ( threads ) futures? ( jit )"
 
 DEPEND="
 	!dev-tex/slatex

@@ -307,6 +307,19 @@ racket_copy_launchers() {
 		die "failed to copy found launchers"
 }
 
+# @FUNCTION: racket_maybe_install_system_docs
+# @DESCRIPTION:
+# Install documentation from SCRBL_DOC_DIR.
+racket_maybe_install_system_docs() {
+	if [[ ${do_scrbl} -eq 1 ]] ; then
+		if use doc ; then
+			einfo "Installing documentation for ${P}"
+			insinto "/usr/share/doc/${PF}"
+			doins -r "${SCRBL_DOC_DIR}"/*
+		fi
+	fi
+}
+
 # @FUNCTION: racket_src_install
 # @DESCRIPTION:
 # Default src_install:
@@ -317,16 +330,10 @@ racket_src_install() {
 	einfo "Running Racket src_install"
 
 	einstalldocs
+
 	racket_copy_package
 	racket_copy_launchers
-
-	if [[ ${do_scrbl} -eq 1 ]] ; then
-		if use doc ; then
-			einfo "Installing documentation for ${P}"
-			insinto "/usr/share/doc/${PF}"
-			doins -r "${SCRBL_DOC_DIR}"/*
-		fi
-	fi
+	racket_maybe_install_system_docs
 }
 
 # @FUNCTION: raco_remove

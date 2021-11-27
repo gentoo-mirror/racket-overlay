@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://gitlab.com/src_prepare/racket/racket-maints</bugs-to>
+    <remote-id type="gitlab">src_prepare/racket/racket-maints</remote-id>
+  </upstream>
+</pkgmetadata>

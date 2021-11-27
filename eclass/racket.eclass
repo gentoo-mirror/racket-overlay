@@ -287,13 +287,37 @@ racket_src_test() {
 	raco_test
 }
 
+# @FUNCTION: racket_copy_package
+# @USAGE: [dir]
+# @DESCRIPTION:
+# Copy given directory to ${D}/${RACKET_PKGS_DIR}/${RACKET_PN}
+racket_copy_package(){
+	local dir="${1:-.}"
+	local inst_dir="${D}${RACKET_PKGS_DIR}"
+
+	mkdir -p "${inst_dir}" || die
+	cp -r . "${inst_dir}/${RACKET_PN}" || die
+}
+
 # @FUNCTION: racket_copy_launchers
 # @DESCRIPTION:
-#
 # Try to find any launchers created in "PLTUSERHOME" - copy them to the image.
 racket_copy_launchers() {
 	find ${PLTUSERHOME} -type d -name "bin" -exec cp -r {} "${D}/usr" \; ||
 		die "failed to copy found launchers"
+}
+
+# @FUNCTION: racket_maybe_install_system_docs
+# @DESCRIPTION:
+# Install documentation from SCRBL_DOC_DIR.
+racket_maybe_install_system_docs() {
+	if [[ ${do_scrbl} -eq 1 ]] ; then
+		if use doc ; then
+			einfo "Installing documentation for ${P}"
+			insinto "/usr/share/doc/${PF}"
+			doins -r "${SCRBL_DOC_DIR}"/*
+		fi
+	fi
 }
 
 # @FUNCTION: racket_src_install
@@ -305,21 +329,11 @@ racket_copy_launchers() {
 racket_src_install() {
 	einfo "Running Racket src_install"
 
-	local inst_dir="${D}${RACKET_PKGS_DIR}"
-
-	mkdir -p "${inst_dir}" || die
-	cp -r "${S}" "${inst_dir}/${RACKET_PN}" || die
-
 	einstalldocs
-	racket_copy_launchers
 
-	if [[ ${do_scrbl} -eq 1 ]] ; then
-		if use doc ; then
-			einfo "Installing documentation for ${P}"
-			insinto "/usr/share/doc/${PF}"
-			doins -r "${SCRBL_DOC_DIR}"/*
-		fi
-	fi
+	racket_copy_package
+	racket_copy_launchers
+	racket_maybe_install_system_docs
 }
 
 # @FUNCTION: raco_remove

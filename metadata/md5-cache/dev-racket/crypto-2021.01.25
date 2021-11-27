@@ -12,5 +12,5 @@ RDEPEND=dev-racket/crypto-doc dev-racket/crypto-lib >=dev-scheme/racket-8.1:=[-m
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/rmculpepper/crypto/archive/fec745e8af7e3f4d5eaf83407dde2817de4c2eb0.tar.gz -> crypto-2021.01.25.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fe23490e28c54d6f7b4a7b44c1ee0b8c	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	f525af6a0d1d8ecd23358c788512a177	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=a3e6c837998c4dbd7fa73bd47f1ce46e

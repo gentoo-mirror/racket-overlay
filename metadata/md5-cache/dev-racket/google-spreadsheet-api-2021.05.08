@@ -12,5 +12,5 @@ RDEPEND=dev-racket/crypto dev-racket/net-jwt dev-racket/scribble-code-examples >
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/car.margiotta/google-spreadsheet-api/-/archive/081c8a9543b5d1f0a5329de62c87eec5f12e8b9c.tar.gz -> google-spreadsheet-api-2021.05.08.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fe23490e28c54d6f7b4a7b44c1ee0b8c	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	f525af6a0d1d8ecd23358c788512a177	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=f75b261005c96197c7c0132943f7f8ac

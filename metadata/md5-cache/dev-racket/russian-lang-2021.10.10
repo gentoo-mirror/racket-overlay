@@ -12,5 +12,5 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Kalimehtar/russian-lang/archive/40fd71df08965ee4b274e8da4fc16895f86ed6a5.tar.gz -> russian-lang-2021.10.10.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fe23490e28c54d6f7b4a7b44c1ee0b8c	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	f525af6a0d1d8ecd23358c788512a177	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=cba96c53d3915633983d1618127dc2f9

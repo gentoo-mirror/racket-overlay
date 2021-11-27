@@ -12,5 +12,5 @@ RDEPEND=dev-racket/br-parser-tools-lib dev-racket/brag >=dev-scheme/racket-8.1:=
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/alehed/rex/archive/e3b41f706b4b72ea5f168b0f2a2600d77ee07ea0.tar.gz -> rex-2018.06.13.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fe23490e28c54d6f7b4a7b44c1ee0b8c	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	f525af6a0d1d8ecd23358c788512a177	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=8ee37000a6edfb28145967842fe9d232

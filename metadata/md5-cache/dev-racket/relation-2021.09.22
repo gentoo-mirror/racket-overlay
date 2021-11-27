@@ -12,5 +12,5 @@ RDEPEND=dev-racket/cover-coveralls dev-racket/cover dev-racket/threading-doc dev
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/countvajhula/relation/archive/a3d8230300b2fd4c5be921561c884ac9118dc270.tar.gz -> relation-2021.09.22.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fe23490e28c54d6f7b4a7b44c1ee0b8c	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	f525af6a0d1d8ecd23358c788512a177	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=a6bb6d234efa2e413438bdb757093d71

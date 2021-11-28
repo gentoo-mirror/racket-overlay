@@ -65,5 +65,9 @@ pages:
 
   image: racket/racket:8.2-full
 
+  before_script:
+    - apt-get update
+    - apt-get install -y make sqlite3
+
   script:
     - make doc

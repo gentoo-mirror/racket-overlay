@@ -63,8 +63,16 @@ Unmask packages in racket-overlay and a recent version of Racket (at least 8.1)
 
 @codeblock{
  mkdir -p /etc/portage/package.accept_keywords
- echo '*/*::racket-overlay' >> /etc/portage/package.accept_keywords/racket-overlay.conf
+ echo 'dev-racket/*::racket-overlay' >> /etc/portage/package.accept_keywords/racket-overlay.conf
+ echo 'sys-apps/*::racket-overlay' >> /etc/portage/package.accept_keywords/racket-overlay.conf
  echo '>=dev-scheme/racket-8.1::gentoo' >> /etc/portage/package.accept_keywords/racket-overlay.conf
+}
+
+If you want to try experimental snapshots of Racket also
+unmask dev-scheme/racket from this overlay.
+
+@codeblock{
+ echo 'dev-scheme/racket::racket-overlay' >> /etc/portage/package.accept_keywords/racket-overlay.conf
 }
 
 Check out a example

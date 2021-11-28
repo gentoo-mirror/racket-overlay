@@ -345,10 +345,6 @@ dev-racket/effection-lib 2021.03.12 9999: A library for custom side effects. (li
 dev-racket/effection-test 2021.03.12 9999: A library for custom side effects. (test)
 dev-racket/effects 2019.05.21 9999: Delimited-continuation-based effects for Racket
 dev-racket/egal 2017.08.15 9999: Henry Baker's egal
-dev-racket/egg-herbie 2021.07.24 2021.08.07 2021.09.18 9999: An egg interface for Herbie.
-dev-racket/egg-herbie-linux 9999: the egg-herbie-linux Racket package
-dev-racket/egg-herbie-osx 9999: the egg-herbie-osx Racket package
-dev-racket/egg-herbie-windows 9999: the egg-herbie-windows Racket package
 dev-racket/ejs 2018.11.14 9999: the ejs Racket package
 dev-racket/ekans 2020.12.30 9999: the ekans Racket package
 dev-racket/elasticsearch 2018.09.24 9999: the elasticsearch Racket package

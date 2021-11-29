@@ -12,5 +12,5 @@ RDEPEND=dev-racket/file-watchers dev-racket/from-template dev-racket/try-catch-f
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/racket-tw/sauron/archive/b93d8d8c41830a6e987ab8774178bd83555ddbc0.tar.gz -> sauron-2021.11.05.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	f525af6a0d1d8ecd23358c788512a177	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	63fd5313e8f01f11e2818e71c11ec9c1	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=b6431d11b38b29eae5755c1117691890

@@ -12,5 +12,5 @@ RDEPEND=dev-racket/pict-abbrevs dev-racket/ppict dev-racket/rackunit-abbrevs >=d
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/gradual-typing-performance/gtp-pict/-/archive/7de896b161fea193b72adb255deff4f44241e97d.tar.gz -> gtp-pict-2021.10.25.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	f525af6a0d1d8ecd23358c788512a177	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	63fd5313e8f01f11e2818e71c11ec9c1	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=2ea8ba29f0e3403528d50f50c0710838

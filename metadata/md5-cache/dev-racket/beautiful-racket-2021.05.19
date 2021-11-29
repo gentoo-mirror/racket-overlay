@@ -12,5 +12,5 @@ RDEPEND=dev-racket/beautiful-racket-demo dev-racket/beautiful-racket-lib dev-rac
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mbutterick/beautiful-racket/archive/b0d133f4ba4149ea506d8b0dbd3845c915efdd06.tar.gz -> beautiful-racket-2021.05.19.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	f525af6a0d1d8ecd23358c788512a177	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	63fd5313e8f01f11e2818e71c11ec9c1	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=eac1e387249b45b7498b619629657c70

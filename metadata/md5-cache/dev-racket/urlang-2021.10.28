@@ -12,5 +12,5 @@ RDEPEND=dev-racket/html-parsing dev-racket/html-writing dev-racket/nanopass >=de
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/soegaard/urlang/archive/41cc57439d01a0305c9984c3f7fadf8cccac2572.tar.gz -> urlang-2021.10.28.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	f525af6a0d1d8ecd23358c788512a177	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	63fd5313e8f01f11e2818e71c11ec9c1	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=b1abe6e0e9bbaf59b08bbe96c04eb631

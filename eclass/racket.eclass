@@ -376,8 +376,7 @@ racket_pkg_prerm() {
 # @DESCRIPTION:
 # Default pkg_postinst:
 #
-# Removes old pkg (with the same name) and then installs the pkg
-# in 'installation' scope.
+# Installs the package in the "Racket way" in 'installation' scope.
 racket_pkg_postinst() {
 	einfo "Running Racket pkg_postinst"
 

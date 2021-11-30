@@ -15,12 +15,8 @@
 inherit multiprocessing xdg-utils
 
 case ${EAPI} in
-	7 | 8 )
-		true
-		;;
-	* )
-		die "EAPI: ${EAPI} not supported"
-		;;
+	7 | 8 )  true  ;;
+	* )  die "EAPI: ${EAPI} not supported"  ;;
 esac
 
 # @ECLASS-VARIABLE: RACKET_PN
@@ -85,12 +81,8 @@ DEPEND="${RDEPEND}"
 # - racket-where (for `racket_pkg_prerm') - no additional BDEPEND
 # - other - racket-compiler and racket-where
 case ${PN} in
-	"racket-where" )
-		true
-		;;
-	* )
-		BDEPEND+=" sys-apps/racket-where "
-		;;
+	"racket-where" )  true  ;;
+	* )  BDEPEND+=" sys-apps/racket-where "  ;;
 esac
 
 EXPORT_FUNCTIONS src_prepare src_compile src_test src_install pkg_postinst pkg_prerm

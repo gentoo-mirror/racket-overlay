@@ -14,3 +14,6 @@ HOMEPAGE="https://github.com/nixin72/from-template"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/http-easy"
+DEPEND="${RDEPEND}"

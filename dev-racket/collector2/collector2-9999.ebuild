@@ -19,5 +19,6 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/counter
 	dev-racket/ebuild-lib
 	dev-racket/ebuild-templates
-	dev-racket/threading-lib"
+	dev-racket/threading-lib
+	dev-racket/upi-lib"
 DEPEND="${RDEPEND}"

@@ -3,13 +3,13 @@
 
 EAPI=8
 
-GH_DOM="github.com"
-GH_REPO="shenlebantongying/awesome-list"
+GH_DOM="gitlab.com"
+GH_REPO="slbtty/awesome-list"
 
 inherit racket gh
 
 DESCRIPTION="Extra list processing functions & macros borrowed from various sources."
-HOMEPAGE="https://github.com/shenlebantongying/awesome-list"
+HOMEPAGE="https://gitlab.com/slbtty/awesome-list"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

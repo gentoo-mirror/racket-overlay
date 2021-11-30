@@ -3,7 +3,7 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/shenlebantongying/awesome-list</bugs-to>
-    <remote-id type="github">shenlebantongying/awesome-list</remote-id>
+    <bugs-to>https://gitlab.com/slbtty/awesome-list</bugs-to>
+    <remote-id type="gitlab">slbtty/awesome-list</remote-id>
   </upstream>
 </pkgmetadata>

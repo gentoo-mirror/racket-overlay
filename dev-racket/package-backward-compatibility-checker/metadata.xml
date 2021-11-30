@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/capfredf/pkg-backward-comp-check</bugs-to>
+    <remote-id type="github">capfredf/pkg-backward-comp-check</remote-id>
+  </upstream>
+</pkgmetadata>

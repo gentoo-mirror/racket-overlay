@@ -14,3 +14,7 @@ HOMEPAGE="https://github.com/Metaxal/racket-paint"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/global
+	dev-racket/search-list-box"
+DEPEND="${RDEPEND}"

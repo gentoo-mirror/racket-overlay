@@ -8,18 +8,16 @@ GH_REPO="countvajhula/qi"
 
 inherit racket gh
 
-DESCRIPTION="Another way to structure computations"
+DESCRIPTION="A general-purpose functional DSL."
 HOMEPAGE="https://github.com/countvajhula/qi"
+S="${S}/qi"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/mischief
-	dev-racket/fancy-app
-	dev-racket/typed-stack
-	dev-racket/adjutor
-	dev-racket/scribble-abbrevs
-	dev-racket/cover
-	dev-racket/cover-coveralls"
+RDEPEND="dev-racket/qi-doc
+	dev-racket/qi-lib
+	dev-racket/qi-quickscripts
+	dev-racket/qi-test"
 DEPEND="${RDEPEND}"

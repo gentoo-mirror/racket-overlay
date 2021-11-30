@@ -1,15 +1,15 @@
 # Packages that require manual care
 
-| name               | reason                |
-|--------------------|-----------------------|
-| Ibkre              | depends on live       |
-| egg-herbie         | binary                |
-| egg-herbie-linux   | binary                |
-| egg-herbie-osx     | binary                |
-| egg-herbie-windows | binary                |
-| nix                | upstream gone         |
-| optimization-coach | malformed source      |
-| qi                 | relation circular dep |
+| name               | reason                     |
+|--------------------|----------------------------|
+| Ibkre              | depends on live            |
+| egg-herbie         | binary                     |
+| egg-herbie-linux   | binary                     |
+| egg-herbie-osx     | binary                     |
+| egg-herbie-windows | binary                     |
+| nix                | upstream gone              |
+| optimization-coach | malformed source           |
+| qi                 | circular deps (use qi-lib) |
 
 Wehn using collectro exclude those packages from being generated
 with `-e` option, ie.: `-e Ibkre`.

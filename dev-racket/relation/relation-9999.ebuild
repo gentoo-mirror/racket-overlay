@@ -15,26 +15,26 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/collections-lib
-	dev-racket/describe
-	dev-racket/functional-lib
+RDEPEND="dev-racket/algebraic
 	dev-racket/arguments
-	dev-racket/point-free
-	dev-racket/threading-lib
-	dev-racket/mischief
-	dev-racket/social-contract
-	dev-racket/qi
-	dev-racket/kw-utils
-	dev-racket/typed-stack
-	dev-racket/version-case
-	dev-racket/scribble-abbrevs
-	dev-racket/algebraic
-	dev-racket/sugar
-	dev-racket/fancy-app
 	dev-racket/collections-doc
-	dev-racket/functional-doc
-	dev-racket/rackjure
-	dev-racket/threading-doc
+	dev-racket/collections-lib
 	dev-racket/cover
-	dev-racket/cover-coveralls"
+	dev-racket/cover-coveralls
+	dev-racket/describe
+	dev-racket/fancy-app
+	dev-racket/functional-doc
+	dev-racket/functional-lib
+	dev-racket/kw-utils
+	dev-racket/mischief
+	dev-racket/point-free
+	dev-racket/qi
+	dev-racket/rackjure
+	dev-racket/scribble-abbrevs
+	dev-racket/social-contract
+	dev-racket/sugar
+	dev-racket/threading-doc
+	dev-racket/threading-lib
+	dev-racket/typed-stack
+	dev-racket/version-case"
 DEPEND="${RDEPEND}"

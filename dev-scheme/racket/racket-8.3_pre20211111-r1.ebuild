@@ -24,6 +24,7 @@ PLT_SNAP_HASH="adf096e75f"
 PLT_SNAP="${PLT_SNAP_DATE}-${PLT_SNAP_HASH}"
 
 PLT_HOST="https://plt.cs.northwestern.edu"
+PLT_SOURCES="${PLT_HOST}/snapshots/${PLT_SNAP}/installers"
 
 inherit desktop optfeature xdg-utils
 
@@ -31,8 +32,8 @@ DESCRIPTION="General purpose, multi-paradigm Lisp-Scheme programming language"
 HOMEPAGE="https://racket-lang.org/"
 
 SRC_URI="
-	minimal? ( ${PLT_HOST}/snapshots/${PLT_SNAP}/installers/racket-minimal-${PLT_V}-src-builtpkgs.tgz -> ${P}-minimal.tgz )
-	!minimal? ( ${PLT_HOST}/snapshots/${PLT_SNAP}/installers/racket-test-${PLT_V}-src-builtpkgs.tgz -> ${P}.tgz )
+	minimal? ( ${PLT_SOURCES}/racket-minimal-${PLT_V}-src-builtpkgs.tgz -> ${P}-minimal.tgz )
+	!minimal? ( ${PLT_SOURCES}/racket-test-${PLT_V}-src-builtpkgs.tgz -> ${P}.tgz )
 "
 S="${WORKDIR}/racket-${PLT_V}/src"
 

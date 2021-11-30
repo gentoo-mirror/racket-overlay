@@ -12,5 +12,5 @@ RDEPEND=dev-racket/collections-doc dev-racket/collections-lib >=dev-scheme/racke
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lexi-lambda/racket-collections/archive/c4822fc200b0488922cd6e86b4f2ea7cf8c565da.tar.gz -> collections-2020.08.16.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	63fd5313e8f01f11e2818e71c11ec9c1	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1d2dcc984e5e59a3663213892eb0a014	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=c6550e4167a9f643d878a3ab7c9dcdb7

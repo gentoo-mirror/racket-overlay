@@ -12,5 +12,5 @@ RDEPEND=dev-racket/quickcheck >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/HiPhish/MsgPack.rkt/-/archive/64a60986b149703ff9436877da1dd3e86c6e4094.tar.gz -> msgpack-2021.05.08.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	63fd5313e8f01f11e2818e71c11ec9c1	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1d2dcc984e5e59a3663213892eb0a014	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=9c12e3b115a06d12068675cc76a647ab

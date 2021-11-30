@@ -12,5 +12,5 @@ RDEPEND=dev-racket/lang-file >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/multi-file-lang/archive/0975cc27e0003050597da7d9f1fc5e9eac341fc7.tar.gz -> multi-file-lang-2019.12.02.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	63fd5313e8f01f11e2818e71c11ec9c1	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1d2dcc984e5e59a3663213892eb0a014	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=40f49645310cd2f5b3d60a6f2ef94aa2

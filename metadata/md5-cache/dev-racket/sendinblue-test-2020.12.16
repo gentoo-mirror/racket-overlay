@@ -12,5 +12,5 @@ RDEPEND=dev-racket/sendinblue >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/sxn/racket-sendinblue/archive/caa2e2afb3c2e43849aed92bcb73deadf0d0d20c.tar.gz -> sendinblue-test-2020.12.16.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	63fd5313e8f01f11e2818e71c11ec9c1	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1d2dcc984e5e59a3663213892eb0a014	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=ab40eac908738e7fb3fd0def19e3e60a

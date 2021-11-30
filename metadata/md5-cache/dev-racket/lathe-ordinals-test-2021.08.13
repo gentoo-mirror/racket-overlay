@@ -12,5 +12,5 @@ RDEPEND=dev-racket/lathe-ordinals-lib dev-racket/parendown-lib >=dev-scheme/rack
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lathe/lathe-ordinals-for-racket/archive/f9f7b132a7e40a323a39a7c52c4280ae68f33889.tar.gz -> lathe-ordinals-test-2021.08.13.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	63fd5313e8f01f11e2818e71c11ec9c1	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1d2dcc984e5e59a3663213892eb0a014	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=1c5947713d10478fd49e6b7d2d96fc2c

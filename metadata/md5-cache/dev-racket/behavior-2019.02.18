@@ -12,5 +12,5 @@ RDEPEND=dev-racket/cover-coveralls dev-racket/scribble-math >=dev-scheme/racket-
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/johnstonskj/behavior/archive/72103db75c07d52d9027b34f0960532e235f9c10.tar.gz -> behavior-2019.02.18.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	63fd5313e8f01f11e2818e71c11ec9c1	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1d2dcc984e5e59a3663213892eb0a014	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=0f156c4597934a66551006146d7995aa

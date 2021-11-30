@@ -12,5 +12,5 @@ RDEPEND=dev-racket/chk-lib dev-racket/syntax-classes-lib >=dev-scheme/racket-8.1
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/camoy/struct-set/archive/a0dae7d2fd5e7e94930fb6acca134fe44154781f.tar.gz -> struct-set-2021.08.19.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	63fd5313e8f01f11e2818e71c11ec9c1	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1d2dcc984e5e59a3663213892eb0a014	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=d021152b793bc644fc72a00f9ac60f80

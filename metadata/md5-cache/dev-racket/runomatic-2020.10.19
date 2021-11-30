@@ -12,5 +12,5 @@ RDEPEND=dev-racket/gregor dev-racket/html-parsing dev-racket/request dev-racket/
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/winny-/runomatic/archive/1043169259980f6092ba2aa13d370c13953c5955.tar.gz -> runomatic-2020.10.19.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	63fd5313e8f01f11e2818e71c11ec9c1	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1d2dcc984e5e59a3663213892eb0a014	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=2a38f11aaec4797fcfea5a099ed568dd

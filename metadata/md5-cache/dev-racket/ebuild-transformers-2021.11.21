@@ -12,5 +12,5 @@ RDEPEND=dev-racket/ebuild-lib dev-racket/upi-lib >=dev-scheme/racket-8.1:=[-mini
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/xgqt/racket-ebuild/-/archive/b20335fe966ea60fd6c6e595ba0b276d9ef0ccef.tar.gz -> ebuild-transformers-2021.11.21.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	63fd5313e8f01f11e2818e71c11ec9c1	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1d2dcc984e5e59a3663213892eb0a014	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=8c9cb2eae1c2c387c6b8012e2f6cc5ab

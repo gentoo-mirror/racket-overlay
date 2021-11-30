@@ -12,5 +12,5 @@ RDEPEND=dev-racket/relation dev-racket/cover-coveralls dev-racket/cover dev-rack
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/countvajhula/ionic/archive/be903771808eba7a62864d8a942f402571610cbb.tar.gz -> ionic-2021.09.22.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	63fd5313e8f01f11e2818e71c11ec9c1	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1d2dcc984e5e59a3663213892eb0a014	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=df4cf73de1c02ba8a68356f24aa8cd2c

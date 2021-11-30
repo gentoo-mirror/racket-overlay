@@ -12,5 +12,5 @@ RDEPEND=dev-racket/linux-shared-libraries dev-racket/scribble-math >=dev-scheme/
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/soegaard/sci/archive/274cc201bc0289560522375a50aae88b4c9b1465.tar.gz -> sci-2021.07.14.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	63fd5313e8f01f11e2818e71c11ec9c1	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1d2dcc984e5e59a3663213892eb0a014	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=a0578fc04bdb2b7ebdfc9032ad8b1fcd

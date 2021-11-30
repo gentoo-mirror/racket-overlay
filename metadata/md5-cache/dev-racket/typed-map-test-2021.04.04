@@ -12,5 +12,5 @@ RDEPEND=dev-racket/aful dev-racket/typed-map-lib >=dev-scheme/racket-8.1:=[-mini
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jsmaniac/typed-map/archive/7a70650b6f8e1222fe1e4ebd2fb6b9b2489301e2.tar.gz -> typed-map-test-2021.04.04.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	63fd5313e8f01f11e2818e71c11ec9c1	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1d2dcc984e5e59a3663213892eb0a014	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=274334d9d4771d2af16c1c5cc8a938ad

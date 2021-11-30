@@ -12,5 +12,5 @@ RDEPEND=dev-racket/hygienic-quote-lang dev-racket/unstable-lib dev-racket/unstab
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/quote-bad/archive/f7b81540acad204535b993806aca04a4692ec4d5.tar.gz -> quote-bad-2017.08.15.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	63fd5313e8f01f11e2818e71c11ec9c1	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1d2dcc984e5e59a3663213892eb0a014	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=2937983e496f425934d856e26254c5e6

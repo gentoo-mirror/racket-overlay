@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/drcomplete-base >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=A DrRacket plugin for autocomplete for class method names
+EAPI=8
+HOMEPAGE=https://github.com/yjqww6/drcomplete
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/drcomplete-base >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/yjqww6/drcomplete/archive/b652e06b3551fab846035b1ff88053dae60ddc81.tar.gz -> drcomplete-method-names-2021.11.17.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	63fd5313e8f01f11e2818e71c11ec9c1	gh	7310922752774a331ac8a69cc9cb2caf
+_md5_=3d63e137523fa45b86e473bce89ea075

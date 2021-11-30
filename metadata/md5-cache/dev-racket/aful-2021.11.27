@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/hygienic-reader-extension dev-racket/phc-toolkit dev-racket/rackjure dev-racket/scribble-code-examples dev-racket/scribble-enhanced >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=A fork of #lang afl which also supports #lang aflu/unhygienic.
+EAPI=8
+HOMEPAGE=https://github.com/jsmaniac/aful
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/hygienic-reader-extension dev-racket/phc-toolkit dev-racket/rackjure dev-racket/scribble-code-examples dev-racket/scribble-enhanced >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/jsmaniac/aful/archive/e7f7270bdb70708f58bbda27ffad07509085e5fe.tar.gz -> aful-2021.11.27.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	63fd5313e8f01f11e2818e71c11ec9c1	gh	7310922752774a331ac8a69cc9cb2caf
+_md5_=5938ba3569ec08df6e208d8d6b0ed0d2

@@ -12,5 +12,5 @@ RDEPEND=dev-racket/gtp-util dev-racket/require-typed-check dev-racket/scribble-a
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/bennn/gtp-benchmarks/archive/3522931324939d4801f001211b4306f9028a9041.tar.gz -> gtp-benchmarks-2021.10.25.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1d2dcc984e5e59a3663213892eb0a014	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	98ce57323a0af3cd12ff9f1cfab20915	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=df75b6bddcbda2a9b9dfe2e5027fd3b5

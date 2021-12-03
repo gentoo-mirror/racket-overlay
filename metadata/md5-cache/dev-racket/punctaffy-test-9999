@@ -1,6 +1,6 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/lathe-comforts-lib dev-racket/parendown dev-racket/punctaffy-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/lathe-comforts-lib dev-racket/parendown-lib dev-racket/punctaffy-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the punctaffy-test Racket package
 EAPI=8
 HOMEPAGE=https://github.com/lathe/punctaffy-for-racket
@@ -8,8 +8,8 @@ INHERIT=racket gh
 IUSE=doc
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/lathe-comforts-lib dev-racket/parendown dev-racket/punctaffy-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/lathe-comforts-lib dev-racket/parendown-lib dev-racket/punctaffy-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1d2dcc984e5e59a3663213892eb0a014	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=f4a404cf0d295462baf380caf059b7c1
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	98ce57323a0af3cd12ff9f1cfab20915	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	7310922752774a331ac8a69cc9cb2caf
+_md5_=f84521b106b39db568a5beab6e65771a

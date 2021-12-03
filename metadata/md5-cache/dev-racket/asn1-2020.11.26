@@ -12,5 +12,5 @@ RDEPEND=dev-racket/asn1-doc dev-racket/asn1-lib >=dev-scheme/racket-8.1:=[-minim
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/rmculpepper/asn1/archive/3afe9706302fcc6763f8d61622dee83ab6fa0c26.tar.gz -> asn1-2020.11.26.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1d2dcc984e5e59a3663213892eb0a014	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	98ce57323a0af3cd12ff9f1cfab20915	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=e9cf5d79197e2ce76fffe37ee66624e0

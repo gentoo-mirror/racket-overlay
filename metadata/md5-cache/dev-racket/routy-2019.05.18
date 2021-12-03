@@ -12,5 +12,5 @@ RDEPEND=dev-racket/racket-route-match dev-racket/response-ext >=dev-scheme/racke
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Junker/routy/archive/2c48b4649ee102c8f175cae59bf5eeb6d6a041c9.tar.gz -> routy-2019.05.18.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1d2dcc984e5e59a3663213892eb0a014	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	98ce57323a0af3cd12ff9f1cfab20915	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=61868e27e0d070f8bf1c0aaeb095cb92

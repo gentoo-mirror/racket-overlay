@@ -12,5 +12,5 @@ RDEPEND=dev-racket/beautiful-racket-lib dev-racket/brag dev-racket/ejs dev-racke
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jessealama/argo/archive/ee49d60a8d73b32e8323a1324503f1d9c1022e5f.tar.gz -> argo-2021.05.04.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1d2dcc984e5e59a3663213892eb0a014	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	98ce57323a0af3cd12ff9f1cfab20915	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=142873eb5d2131201f0cf03f54986abd

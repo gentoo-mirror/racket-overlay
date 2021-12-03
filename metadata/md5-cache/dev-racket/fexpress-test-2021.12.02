@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/fexpress-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=A compilation-friendly fexpr language. (test)
+EAPI=8
+HOMEPAGE=https://github.com/rocketnia/fexpress
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/fexpress-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/rocketnia/fexpress/archive/33700289f2891183f0c7fd4b8580434be20b14d3.tar.gz -> fexpress-test-2021.12.02.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	98ce57323a0af3cd12ff9f1cfab20915	gh	7310922752774a331ac8a69cc9cb2caf
+_md5_=7deb28bbb4597ff1b099cec56ad0f184

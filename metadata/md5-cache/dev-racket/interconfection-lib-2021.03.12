@@ -12,5 +12,5 @@ RDEPEND=dev-racket/lathe-comforts-lib dev-racket/parendown-lib >=dev-scheme/rack
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lathe/interconfection-for-racket/archive/bcd0c4229a05491923550b50c003d432be982028.tar.gz -> interconfection-lib-2021.03.12.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1d2dcc984e5e59a3663213892eb0a014	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	98ce57323a0af3cd12ff9f1cfab20915	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=72e632f568f2d9c57f92cb5d6c09bd8e

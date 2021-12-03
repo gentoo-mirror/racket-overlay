@@ -12,5 +12,5 @@ RDEPEND=dev-racket/lathe-morphisms-doc dev-racket/lathe-morphisms-lib >=dev-sche
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lathe/lathe-morphisms-for-racket/archive/422f0c5f5c5bc58d950d54886f26eb27d56d3061.tar.gz -> lathe-morphisms-2021.03.12.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1d2dcc984e5e59a3663213892eb0a014	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	98ce57323a0af3cd12ff9f1cfab20915	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=8bc4e8e6f680e10d7b279f226c4e20c3

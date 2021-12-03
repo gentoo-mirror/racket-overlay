@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/text-table >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Unicode tables rendering with ECMA-48 Select Graphic Rendition codes support
+EAPI=8
+HOMEPAGE=https://gitlab.com/racketeer/uni-table
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/text-table >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://gitlab.com/racketeer/uni-table/-/archive/39c90eae091afa7d09f70748883074f4939edf00.tar.gz -> uni-table-2021.11.30.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	98ce57323a0af3cd12ff9f1cfab20915	gh	7310922752774a331ac8a69cc9cb2caf
+_md5_=2143b9024ecf20281947ff0a86a6ef4e

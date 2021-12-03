@@ -12,5 +12,5 @@ RDEPEND=dev-racket/distro-build-client dev-racket/distro-build-server >=dev-sche
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/racket/distro-build/archive/f1d8176e42e864816637efc926a3b671bfe63f10.tar.gz -> distro-build-doc-2021.10.27.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1d2dcc984e5e59a3663213892eb0a014	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	98ce57323a0af3cd12ff9f1cfab20915	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=8dc0d620d6e43acbd75f6d63cb64f79b

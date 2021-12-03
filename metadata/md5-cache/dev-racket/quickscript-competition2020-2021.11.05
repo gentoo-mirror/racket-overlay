@@ -12,5 +12,5 @@ RDEPEND=dev-racket/markdown dev-racket/quickscript dev-racket/search-list-box >=
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Quickscript-Competiton/July2020entries/archive/4fca3a6eac86a3af944d4e3763395d31705b59b1.tar.gz -> quickscript-competition2020-2021.11.05.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1d2dcc984e5e59a3663213892eb0a014	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	98ce57323a0af3cd12ff9f1cfab20915	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=f4b738521b978b816133b78a4323ce01

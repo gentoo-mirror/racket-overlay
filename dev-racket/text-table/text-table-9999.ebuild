@@ -8,7 +8,7 @@ GH_REPO="Metaxal/text-table"
 
 inherit racket gh
 
-DESCRIPTION="A simple package to display text tables with utf-8 frames."
+DESCRIPTION="A simple package to display text tables with unicode frames."
 HOMEPAGE="https://github.com/Metaxal/text-table"
 
 LICENSE="all-rights-reserved"

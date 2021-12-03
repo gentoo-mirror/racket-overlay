@@ -9,7 +9,7 @@ GH_COMMIT="e7064b0a86c54e959d14ff31c2b9bbe2e44efccb"
 
 inherit racket gh
 
-DESCRIPTION="A simple package to display text tables with utf-8 frames."
+DESCRIPTION="A simple package to display text tables with unicode frames."
 HOMEPAGE="https://github.com/Metaxal/text-table"
 
 LICENSE="all-rights-reserved"

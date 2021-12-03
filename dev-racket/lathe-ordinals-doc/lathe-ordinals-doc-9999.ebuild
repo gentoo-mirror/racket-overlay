@@ -16,8 +16,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/lathe-comforts-doc
-	dev-racket/lathe-comforts-lib
+RDEPEND="dev-racket/lathe-comforts-lib
 	dev-racket/lathe-ordinals-lib
 	dev-racket/parendown-lib"
 DEPEND="${RDEPEND}"

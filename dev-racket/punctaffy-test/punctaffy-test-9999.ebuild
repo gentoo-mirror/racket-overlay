@@ -17,6 +17,6 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/lathe-comforts-lib
-	dev-racket/parendown
+	dev-racket/parendown-lib
 	dev-racket/punctaffy-lib"
 DEPEND="${RDEPEND}"

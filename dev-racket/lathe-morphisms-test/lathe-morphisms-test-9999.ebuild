@@ -16,6 +16,5 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/lathe-morphisms-lib
-	dev-racket/parendown-lib"
+RDEPEND="dev-racket/parendown-lib"
 DEPEND="${RDEPEND}"

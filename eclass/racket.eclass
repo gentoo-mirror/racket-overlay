@@ -364,19 +364,15 @@ racket_pkg_prerm() {
 	fi
 }
 
-# @FUNCTION: racket_pkg_postinst
+# @FUNCTION: raco_install
+# @USAGE: [dir]
 # @DESCRIPTION:
-# Default pkg_postinst:
-#
-# Installs the package in the "Racket way" in 'installation' scope.
-racket_pkg_postinst() {
-	einfo "Running Racket pkg_postinst"
-
-	# Go to a system directory where the pkg is installed
-	pushd "${RACKET_P_DIR}" >/dev/null || die
-
-	# Final step: install with raco - this creates launchers
-	# and updates racket package databases
+# Only to be used in pkg_postinst.
+# Installs the package in the "Racket way" in the 'installation' scope.
+# Optional argument "dir" selects a directory from which (compiled)
+# sources will be installed, it defaults to RACKET_P_DIR.
+raco_install() {
+	local dir="${1:-${RACKET_P_DIR}}"
 	local raco_opts=(
 		--batch
 		--deps force
@@ -385,7 +381,23 @@ racket_pkg_postinst() {
 		--scope installation
 		$(raco_docs_switch)
 	)
+
+	pushd "${dir}" >/dev/null || die
+	ebegin "Installing package from ${dir} in installation scope"
+
 	eraco pkg install "${raco_opts[@]}"
 
+	eend $? "raco_install: installing from ${dir} in installation scope failed" || die
 	popd >/dev/null || die
+}
+
+# @FUNCTION: racket_pkg_postinst
+# @DESCRIPTION:
+# Default pkg_postinst:
+#
+# Runs raco_install without arguments (thus "dir" defaults to RACKET_P_DIR).
+racket_pkg_postinst() {
+	einfo "Running Racket pkg_postinst"
+
+	raco_install
 }

@@ -26,7 +26,7 @@ PLT_SNAP="${PLT_SNAP_DATE}-${PLT_SNAP_HASH}"
 PLT_HOST="https://plt.cs.northwestern.edu"
 PLT_SOURCES="${PLT_HOST}/snapshots/${PLT_SNAP}/installers"
 
-inherit desktop optfeature xdg-utils
+inherit desktop optfeature
 
 DESCRIPTION="General purpose, multi-paradigm Lisp-Scheme programming language"
 HOMEPAGE="https://racket-lang.org/"
@@ -49,21 +49,12 @@ LICENSE="
 SLOT="0/${PLT_V}"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
-IUSE="X +chez +doc +futures +jit minimal +places +threads"
-REQUIRED_USE="chez? ( threads ) futures? ( jit threads ) places? ( threads )"
+IUSE="+chez +doc +futures +jit minimal +places +threads"
+REQUIRED_USE="chez? ( futures places ) futures? ( jit threads ) places? ( threads )"
 
 DEPEND="
 	dev-db/sqlite:3
 	dev-libs/libffi:=
-	X? (
-		dev-util/desktop-file-utils
-		media-libs/libpng:0
-		virtual/jpeg:0
-		x11-libs/cairo[X]
-		x11-libs/gtk+:3[X]
-		x11-libs/pango[X]
-		x11-misc/shared-mime-info
-	)
 "
 RDEPEND="${DEPEND}"
 
@@ -77,17 +68,9 @@ PKGDB=(
 	/usr/share/racket/pkgs/pkgs.rktd
 )
 
-post_X_update() {
-	if use X && ! use minimal; then
-		xdg_desktop_database_update
-		xdg_icon_cache_update
-	fi
-}
-
 src_prepare() {
 	# Prepare the environment
 	unset PLTADDONDIR PLTCOLLECTS PLTCONFIGDIR PLTUSERHOME
-	xdg_environment_reset
 
 	default
 
@@ -110,18 +93,21 @@ src_configure() {
 		--disable-shared
 		--disable-strip
 		--docdir="${EPREFIX}/usr/share/doc/${PF}"
-		--enable-float
-		--enable-foreign
-		--enable-libffi
 		--enable-libs
 		$(usex chez "--enable-cs --enable-csonly" "--enable-bc --enable-bconly")
-		$(use_enable X gracket)
 		$(use_enable doc docs)
-		$(use_enable futures)
-		$(use_enable jit)
-		$(use_enable places)
-		$(use_enable threads pthread)
 	)
+	# Some options are togglable only for the BC version (are forced in CS)
+	! use chez && myconf+=(
+			--enable-float
+			--enable-foreign
+			--enable-gracket
+			--enable-libffi
+			$(use_enable futures)
+			$(use_enable jit)
+			$(use_enable places)
+			$(use_enable threads pthread)
+		)
 	econf "${myconf[@]}"
 }
 
@@ -141,7 +127,7 @@ src_install() {
 	fi
 
 	# Create missing desktop files and icon
-	if use X && ! use minimal; then
+	if ! use minimal; then
 		newicon "${ED}/usr/share/racket/drracket-exe-icon.png" "racket.png"
 		make_desktop_entry "gracket" "GRacket" "racket" "Development;Education;"
 		make_desktop_entry "plt-games" "PLT Games" "racket" "Education;Game;"
@@ -151,11 +137,11 @@ src_install() {
 pkg_preinst() {
 	# If we are merging the same SLOT check if package
 	# database files exist and do not overwrite them
-	if has_version "${CATEGORY}/${PN}:${SLOT}" ; then
+	if has_version "${CATEGORY}/${PN}:${SLOT}"; then
 		echo "We are installing the same SLOT: ${SLOT}"
 		local rktd
-		for rktd in "${PKGDB[@]}" ; do
-			if [[ -f "${EROOT}/${rktd}" ]] ; then
+		for rktd in "${PKGDB[@]}"; do
+			if [[ -f "${EROOT}/${rktd}" ]]; then
 				einfo "Keeping old file: ${rktd}"
 				mv "${ED}"/${rktd} "${ED}"/${rktd}.bak ||
 					die "failed to create a backup of ${rktd}"
@@ -167,14 +153,8 @@ pkg_preinst() {
 }
 
 pkg_postinst() {
-	post_X_update
-
-	optfeature "readline editing features in REPL" dev-libs/libedit
+	optfeature "readline editing features in REPL" dev-libs/libedit sys-libs/readline
 	optfeature "generating PDF files using Scribble" dev-texlive/texlive-fontsextra
-}
-
-pkg_postrm() {
-	post_X_update
 }
 
 pkg_config() {

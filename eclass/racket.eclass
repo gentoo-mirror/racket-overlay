@@ -35,8 +35,8 @@ esac
 # to the dev-scheme/racket DEPEND requirement.
 #
 # @CODE
-# RACKET_REQ_USE="X"
-# RACKET_REQ_USE="X,bc"
+# RACKET_REQ_USE="chez"
+# RACKET_REQ_USE="doc,chez"
 # @CODE
 
 # @ECLASS-VARIABLE: SCRBL_DOCS

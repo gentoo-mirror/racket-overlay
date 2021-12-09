@@ -1,15 +1,15 @@
-DEFINED_PHASES=config configure install postinst postrm preinst prepare
-DEPEND=dev-db/sqlite:3 dev-libs/libffi:= X? ( dev-util/desktop-file-utils media-libs/libpng:0 virtual/jpeg:0 x11-libs/cairo[X] x11-libs/gtk+:3[X] x11-libs/pango[X] x11-misc/shared-mime-info )
+DEFINED_PHASES=config configure install postinst preinst prepare
+DEPEND=dev-db/sqlite:3 dev-libs/libffi:=
 DESCRIPTION=General purpose, multi-paradigm Lisp-Scheme programming language
 EAPI=8
 HOMEPAGE=https://racket-lang.org/
-INHERIT=desktop optfeature xdg-utils
-IUSE=X +chez +doc +futures +jit minimal +places +threads
+INHERIT=desktop optfeature
+IUSE=+chez +doc +futures +jit minimal +places +threads
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=|| ( MIT Apache-2.0 ) chez? ( Apache-2.0 ) !chez? ( LGPL-3 )
-RDEPEND=dev-db/sqlite:3 dev-libs/libffi:= X? ( dev-util/desktop-file-utils media-libs/libpng:0 virtual/jpeg:0 x11-libs/cairo[X] x11-libs/gtk+:3[X] x11-libs/pango[X] x11-misc/shared-mime-info )
-REQUIRED_USE=chez? ( threads ) futures? ( jit threads ) places? ( threads )
+RDEPEND=dev-db/sqlite:3 dev-libs/libffi:=
+REQUIRED_USE=chez? ( futures places ) futures? ( jit threads ) places? ( threads )
 SLOT=0/8.3.0.8
 SRC_URI=minimal? ( https://plt.cs.northwestern.edu/snapshots/20211127-7b443fd8fe/installers/racket-minimal-8.3.0.8-src-builtpkgs.tgz -> racket-8.3_p20211127-minimal.tgz ) !minimal? ( https://plt.cs.northwestern.edu/snapshots/20211127-7b443fd8fe/installers/racket-test-8.3.0.8-src-builtpkgs.tgz -> racket-8.3_p20211127.tgz )
-_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	optfeature	30ce9dec2b8943338c9b015bd32bac6a	xdg-utils	4f29a8b760a594a212abe9c2ba957c31
-_md5_=dfecf5438b2932ab116f1ba72bb02e19
+_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	optfeature	30ce9dec2b8943338c9b015bd32bac6a
+_md5_=e3807f9ddbfab21c7e54d3e09714cce6

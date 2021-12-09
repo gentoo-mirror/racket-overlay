@@ -12,5 +12,5 @@ RDEPEND=dev-racket/gregor-lib dev-racket/sentry-lib dev-racket/threading-lib >=d
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/racket-sentry/archive/b47a725c6797b9021eff714d4d81d6583600bd6a.tar.gz -> sentry-test-2021.11.12.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	98ce57323a0af3cd12ff9f1cfab20915	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=f54f826d6ff58d75fb3bfa4392700de0

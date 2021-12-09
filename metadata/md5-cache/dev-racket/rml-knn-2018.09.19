@@ -12,5 +12,5 @@ RDEPEND=dev-racket/cover-coveralls dev-racket/rml-core >=dev-scheme/racket-8.1:=
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/johnstonskj/rml-knn/archive/83e3755c56b1c486b9fc1663b4ef21b2254b9634.tar.gz -> rml-knn-2018.09.19.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	98ce57323a0af3cd12ff9f1cfab20915	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=fe466f4ea2317a8711b59ff2a71ab048

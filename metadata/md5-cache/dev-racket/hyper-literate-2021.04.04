@@ -12,5 +12,5 @@ RDEPEND=dev-racket/debug-scopes dev-racket/scribble-enhanced dev-racket/sexp-dif
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jsmaniac/hyper-literate/archive/24fd9ca7ca9b96e3072d37306dc79edf24ba4ef1.tar.gz -> hyper-literate-2021.04.04.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	98ce57323a0af3cd12ff9f1cfab20915	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=f72763fcc540da2cc70fe644eb2cf7fa

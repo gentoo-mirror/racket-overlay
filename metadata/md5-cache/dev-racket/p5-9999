@@ -1,0 +1,15 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install postinst prepare prerm test unpack
+DEPEND=dev-racket/urlang >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Uses urlang to give p5.js better syntax.
+EAPI=8
+HOMEPAGE=https://github.com/a11ce/racket-p5
+INHERIT=racket gh
+IUSE=doc
+LICENSE=all-rights-reserved
+PROPERTIES=live
+RDEPEND=dev-racket/urlang >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	7310922752774a331ac8a69cc9cb2caf
+_md5_=e4009bed4f72c6ff752f31c2ccd5f2b7

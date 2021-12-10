@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/a11ce/racket-p5</bugs-to>
+    <remote-id type="github">a11ce/racket-p5</remote-id>
+  </upstream>
+</pkgmetadata>

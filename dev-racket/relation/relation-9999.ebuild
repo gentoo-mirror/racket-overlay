@@ -28,7 +28,7 @@ RDEPEND="dev-racket/algebraic
 	dev-racket/kw-utils
 	dev-racket/mischief
 	dev-racket/point-free
-	dev-racket/qi
+	dev-racket/qi-lib
 	dev-racket/rackjure
 	dev-racket/scribble-abbrevs
 	dev-racket/social-contract

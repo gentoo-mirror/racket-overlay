@@ -17,11 +17,13 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/fancy-app
+	dev-racket/from-template
 	dev-racket/qi-lib
 	dev-racket/qi-quickscripts
 	dev-racket/quickscript
 	dev-racket/quickscript-extra
 	dev-racket/relation
 	dev-racket/scribble-abbrevs
+	dev-racket/scribble-math
 	dev-racket/threading-doc"
 DEPEND="${RDEPEND}"

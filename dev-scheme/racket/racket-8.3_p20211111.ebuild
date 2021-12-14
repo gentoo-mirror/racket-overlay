@@ -68,6 +68,46 @@ PKGDB=(
 	/usr/share/racket/pkgs/pkgs.rktd
 )
 
+# Following USE flags modify PKGDB, so we cannot keep PKGDB
+# if we install Racket and one of those USE flags changed.
+# Practically change of "chez" flag will not affect PKGDB,
+# but it has different bytecode compilation method which
+# makes it incompatible (on amd64: "ta6le" vs "racket").
+pkguse_unchanged() {
+	local pkguses=( chez futures minimal places )
+	local unchanged=yes
+	local changed=( )
+
+	if has_version "${CATEGORY}/${PN}"; then
+		local pkguse
+		for pkguse in "${pkguses[@]}"; do
+			if (
+				use ${pkguse} && ! has_version "${CATEGORY}/${PN}[${pkguse}]"
+			) || (
+				! use ${pkguse} && has_version "${CATEGORY}/${PN}[${pkguse}]"
+			); then
+				changed+=( ${pkguse} )
+				unchanged=no
+			fi
+		done
+	fi
+
+	if [[ ${unchanged} = yes ]]; then
+		return 0
+	else
+		ewarn "Changed USE flags: ${changed[@]}"
+		return 1
+	fi
+}
+
+pkg_pretend() {
+	if has_version "${CATEGORY}/${PN}:${SLOT}" && ! pkguse_unchanged; then
+		ewarn "We are installing same SLOT (${SLOT}), but critical USE flags have"
+		ewarn "changed, because of this Racket package database files cannot be kept!"
+		ewarn "Any additional Racket packages will have to be reinstalled manually."
+	fi
+}
+
 src_prepare() {
 	# Prepare the environment
 	unset PLTADDONDIR PLTCOLLECTS PLTCONFIGDIR PLTUSERHOME
@@ -137,7 +177,7 @@ src_install() {
 pkg_preinst() {
 	# If we are merging the same SLOT check if package
 	# database files exist and do not overwrite them
-	if has_version "${CATEGORY}/${PN}:${SLOT}"; then
+	if has_version "${CATEGORY}/${PN}:${SLOT}" && pkguse_unchanged; then
 		echo "We are installing the same SLOT: ${SLOT}"
 		local rktd
 		for rktd in "${PKGDB[@]}"; do

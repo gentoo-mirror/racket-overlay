@@ -141,7 +141,7 @@ pkg_preinst() {
 		echo "We are installing the same SLOT: ${SLOT}"
 		local rktd
 		for rktd in "${PKGDB[@]}"; do
-			if [[ -f "${EROOT}/${rktd}" ]]; then
+			if [[ -f "${EROOT}"/${rktd} ]] && [[ -f "${ED}"/${rktd} ]]; then
 				einfo "Keeping old file: ${rktd}"
 				mv "${ED}"/${rktd} "${ED}"/${rktd}.bak ||
 					die "failed to create a backup of ${rktd}"
@@ -161,8 +161,8 @@ pkg_config() {
 	einfo "Swapping package database backup files"
 
 	for rktd in "${PKGDB[@]}"; do
-		mv "${EROOT}"/${rktd} "${EROOT}"/${rktd}.pkg_config || die
-		mv "${EROOT}"/${rktd}.bak "${EROOT}"/${rktd} || die
-		mv "${EROOT}"/${rktd}.pkg_config "${EROOT}"/${rktd}.bak || die
+		mv "${EROOT}"/${rktd} "${EROOT}"/${rktd}.pkg_config
+		mv "${EROOT}"/${rktd}.bak "${EROOT}"/${rktd}
+		mv "${EROOT}"/${rktd}.pkg_config "${EROOT}"/${rktd}.bak
 	done
 }

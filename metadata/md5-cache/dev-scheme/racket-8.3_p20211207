@@ -12,4 +12,4 @@ REQUIRED_USE=chez? ( futures places ) futures? ( jit threads ) places? ( threads
 SLOT=0/8.3.0.10
 SRC_URI=minimal? ( https://plt.cs.northwestern.edu/snapshots/20211207-2a842c9aa0/installers/racket-minimal-8.3.0.10-src-builtpkgs.tgz -> racket-8.3_p20211207-minimal.tgz ) !minimal? ( https://plt.cs.northwestern.edu/snapshots/20211207-2a842c9aa0/installers/racket-test-8.3.0.10-src-builtpkgs.tgz -> racket-8.3_p20211207.tgz )
 _eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	optfeature	30ce9dec2b8943338c9b015bd32bac6a
-_md5_=30653e015fedb92bd9ba7eef9c11e572
+_md5_=8fe862e559fb6024b6e2e8dde7f245be

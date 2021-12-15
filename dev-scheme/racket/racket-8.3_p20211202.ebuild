@@ -20,7 +20,7 @@ case "${PV##*_}" in
 	p* ) PLT_SNAP_DATE="${PV##*_p}" ;;
 	* ) PLT_SNAP_DATE="" ;;
 esac
-PLT_SNAP_HASH="64f9c35848"
+PLT_SNAP_HASH="50d38828fa"
 PLT_SNAP="${PLT_SNAP_DATE}-${PLT_SNAP_HASH}"
 
 PLT_HOST="https://plt.cs.northwestern.edu"

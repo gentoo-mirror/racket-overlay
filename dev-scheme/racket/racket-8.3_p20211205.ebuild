@@ -100,6 +100,19 @@ pkguse_unchanged() {
 	fi
 }
 
+# If we have any pkgs not included in Racket main distribution (outsiders),
+# then we have to re-setup them or during installation other pkgs will want
+# to recompile parts of "outsider" pkgs they depend upon (and fail).
+resetup_outsiders() {
+	local outsiders=( $(raco pkg show -i | grep 'link' | sed 's|link.*||g') )
+	if [[ -n "${outsiders[@]}" ]]; then
+		ebegin "Running \"raco setup\" for outsider packages"
+		echo "Outsiders: ${outsiders[@]}"
+		raco setup --all-users --force --no-docs --no-user --pkgs "${outsiders[@]}"
+		eend 0  # do not fail
+	fi
+}
+
 pkg_pretend() {
 	if has_version "${CATEGORY}/${PN}:${SLOT}" && ! pkguse_unchanged; then
 		ewarn "We are installing same SLOT (${SLOT}), but critical USE flags have"
@@ -193,6 +206,8 @@ pkg_preinst() {
 }
 
 pkg_postinst() {
+	resetup_outsiders
+
 	optfeature "readline editing features in REPL" dev-libs/libedit sys-libs/readline
 	optfeature "generating PDF files using Scribble" dev-texlive/texlive-fontsextra
 }

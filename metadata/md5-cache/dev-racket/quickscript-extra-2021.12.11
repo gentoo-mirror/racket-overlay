@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/quickscript dev-racket/search-list-box >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Some scripts for DrRacket's Quickscript.
+EAPI=8
+HOMEPAGE=https://github.com/Metaxal/quickscript-extra
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/quickscript dev-racket/search-list-box >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/Metaxal/quickscript-extra/archive/f58829709a22e560a3fa4ad0cbdd24c0d3d7314f.tar.gz -> quickscript-extra-2021.12.11.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
+_md5_=10404e195e96c2e1748663931c3b11cc

@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/crypto-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Cryptography library
+EAPI=8
+HOMEPAGE=https://github.com/rmculpepper/crypto
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/crypto-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/rmculpepper/crypto/archive/a626d0f32fea0e1025faad119c345ed023d64a79.tar.gz -> crypto-doc-2021.12.15.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
+_md5_=bb0d38cdb9ad1678bdb15f8b55876792

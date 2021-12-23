@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/parendown-lib dev-racket/sew-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=A meta-language for assembling a file with custom preprocessing logic. (doc)
+EAPI=8
+HOMEPAGE=https://github.com/lathe/sew-for-racket
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/parendown-lib dev-racket/sew-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/lathe/sew-for-racket/archive/a986cdb7386623f0796c5941319c49823154d2a2.tar.gz -> sew-doc-2021.12.23.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
+_md5_=25891bbbf5c3f7606ebe3300d3601588

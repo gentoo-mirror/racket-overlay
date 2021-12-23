@@ -10,6 +10,6 @@ LICENSE=|| ( MIT Apache-2.0 ) chez? ( Apache-2.0 ) !chez? ( LGPL-3 )
 RDEPEND=dev-db/sqlite:3 dev-libs/libffi:=
 REQUIRED_USE=chez? ( futures places ) futures? ( jit threads ) places? ( threads )
 SLOT=0/8.3.0.10
-SRC_URI=minimal? ( https://plt.cs.northwestern.edu/snapshots/20211212-0a8b68b286/installers/racket-minimal-8.3.0.10-src-builtpkgs.tgz -> racket-8.3_p20211212-minimal.tgz ) !minimal? ( https://plt.cs.northwestern.edu/snapshots/20211212-0a8b68b286/installers/racket-test-8.3.0.10-src-builtpkgs.tgz -> racket-8.3_p20211212.tgz )
+SRC_URI=minimal? ( https://plt.cs.northwestern.edu/snapshots/20211221-045f0350ba/installers/racket-minimal-8.3.0.10-src-builtpkgs.tgz -> racket-8.3_p20211221-minimal.tgz ) !minimal? ( https://plt.cs.northwestern.edu/snapshots/20211221-045f0350ba/installers/racket-test-8.3.0.10-src-builtpkgs.tgz -> racket-8.3_p20211221.tgz )
 _eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	optfeature	30ce9dec2b8943338c9b015bd32bac6a
-_md5_=afabef7fa30656ca83a125891b7f3b20
+_md5_=3d89383894ae553fd319edc0acc1f7f4

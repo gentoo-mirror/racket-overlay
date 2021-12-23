@@ -8,7 +8,7 @@ GH_REPO="spritely/goblins"
 
 inherit racket gh
 
-DESCRIPTION="Goblins is a lightweight actor model library."
+DESCRIPTION="Goblins is a transactional, distributed actor model environment"
 HOMEPAGE="https://gitlab.com/spritely/goblins"
 S="${S}/goblins"
 

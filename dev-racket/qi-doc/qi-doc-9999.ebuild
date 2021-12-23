@@ -19,6 +19,7 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/fancy-app
 	dev-racket/from-template
 	dev-racket/qi-lib
+	dev-racket/qi-probe
 	dev-racket/qi-quickscripts
 	dev-racket/quickscript
 	dev-racket/quickscript-extra

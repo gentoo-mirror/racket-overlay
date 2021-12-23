@@ -15,7 +15,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/file-watchers
+RDEPEND="dev-racket/drcomplete
+	dev-racket/file-watchers
 	dev-racket/from-template
 	dev-racket/try-catch-finally-lib"
 DEPEND="${RDEPEND}"

@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/bengreenman/pict-abbrevs/-/archive/2d2fd74ab6e76ecef0ef5131173d0fa4def30bad.tar.gz -> pict-abbrevs-2021.10.25.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=ff4ffce168021ae5036fdf7ad5bb6c40
+_md5_=6ca4afe4e35458f33837557cc80e4b54

@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jeapostrophe/mm/archive/9b733818036f340181cb5f5d5083e481f4709cd9.tar.gz -> mm-2017.08.15.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=07814aa77aa10c672c48dcadc87ea63a
+_md5_=f6537c0f8a1b051f5a4393f23c32d5a1

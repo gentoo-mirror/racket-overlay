@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Metaxal/define2/archive/c9760f29b27e45c6fa9edee37d6275214745e8f8.tar.gz -> define2-2021.03.12.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=6d1ec661c052cb5c384ab4328dfba22e
+_md5_=0a1c95bdbf9f1d6f9d3a958a17efac06

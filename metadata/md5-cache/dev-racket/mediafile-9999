@@ -13,4 +13,4 @@ RDEPEND=dev-racket/canonicalize-path dev-racket/mcfly dev-racket/overeasy >=dev-
 RESTRICT=mirror
 SLOT=0
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9
-_md5_=dd7b06fb803d4f7d30127003cc3b0c2c
+_md5_=e1efc05aabdd52f09819322395b55569

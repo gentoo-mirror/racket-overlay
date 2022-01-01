@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/simmone/racket-simple-svg/archive/d2fa88b5c0b801bbd6169274237a0edb63998c76.tar.gz -> simple-svg-2021.02.12.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=f4f063c47258fa7ea36a1fbe362d9d50
+_md5_=1e3167bf9917e0b75095f239f92fe5e6

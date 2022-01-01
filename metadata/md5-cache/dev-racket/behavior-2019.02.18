@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/johnstonskj/behavior/archive/72103db75c07d52d9027b34f0960532e235f9c10.tar.gz -> behavior-2019.02.18.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=0f156c4597934a66551006146d7995aa
+_md5_=265855031e8f42de50e64f90fb4c2aae

@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/greghendershott/echonest/archive/fd7d6511231bb4304cfd10260825e86ac33c3ddc.tar.gz -> echonest-2017.08.15.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=0cafb06b66f92bdd1bea87d9b58ed9f0
+_md5_=d4f8e6df08c823cee40babcf5e7dac04

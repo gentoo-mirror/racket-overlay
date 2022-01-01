@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/parnikkapore/rkt-boincrpc/archive/f05dc275c2dac7196b65058f26af9ca9e074aef6.tar.gz -> boincrpc-2021.06.25.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=85652a64121bfad7367ca3562171b31e
+_md5_=80ecf606b5ecb61843a6ceb8108e01bd

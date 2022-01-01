@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lathe/lathe-ordinals-for-racket/archive/717efe9c0f91052095ac267e4f9b4b355053fab5.tar.gz -> lathe-ordinals-2021.12.02.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=226124f9175f1e2f3a4652dfd24e9aca
+_md5_=bd1d94e7f6106ad670d9967769c1f9fd

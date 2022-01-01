@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/RayRacine/date/-/archive/57d7adbbc09dffc26337bff1b1a3597c872be8ea.tar.gz -> date-2021.05.08.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=ef2434b7a371db545459696485d62d22
+_md5_=e85ffb4655415d82dc2288ec9de39095

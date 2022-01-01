@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/HeladoDeBrownie/jen/archive/8af59d936c0218d4460eebcbeabc52aae1b6d58e.tar.gz -> jen-doc-2020.01.07.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=dbfc7a12cfc5abd71ba2b937e7dcdbea
+_md5_=1f7e290400075f9fb0a681eb4a8e97b6

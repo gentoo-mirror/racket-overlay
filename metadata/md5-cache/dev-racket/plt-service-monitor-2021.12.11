@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/racket/plt-service-monitor/archive/2046a570e2037891897fa81b3050f5df4964557f.tar.gz -> plt-service-monitor-2021.12.11.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=39d7171ca30554b641f40174a09af7f7
+_md5_=94bf8ce8cb226be273e2ac9e50df6acf

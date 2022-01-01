@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jbclements/sxml/archive/d3b8570cf7287c4e06636e17634f0f5c39203d52.tar.gz -> sxml-2021.02.18.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=aa50104bc64ce812232f9520894bca63
+_md5_=db4fc9682a671e7ccce0882b5c6c78bc

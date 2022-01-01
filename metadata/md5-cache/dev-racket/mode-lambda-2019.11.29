@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jeapostrophe/mode-lambda/archive/64b5ae81f457ded7664458cd9935ce7d3ebfc449.tar.gz -> mode-lambda-2019.11.29.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=a8dead2af5b078037f6e00207389e35c
+_md5_=b25afd5c366e11d79abfdae5a0bbf3a1

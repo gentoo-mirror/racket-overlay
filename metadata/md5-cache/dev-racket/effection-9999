@@ -12,4 +12,4 @@ RDEPEND=dev-racket/effection-doc dev-racket/effection-lib >=dev-scheme/racket-8.
 RESTRICT=mirror
 SLOT=0
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=12f5ab8612887fa87b5f312a54ea1c5e
+_md5_=cd2204a848842c1e00b0fa10e11c6729

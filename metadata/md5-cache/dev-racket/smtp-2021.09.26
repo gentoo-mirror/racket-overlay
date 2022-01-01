@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/yanyingwang/smtp/archive/87b1cb20e0ade41273248f7cf0a02258a8bd19a6.tar.gz -> smtp-2021.09.26.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=efef12f5bc02450c418f759b9faf5e2d
+_md5_=8613fc0b51549d09cb9baef1e96ab267

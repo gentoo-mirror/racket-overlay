@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/soegaard/minipascal/archive/646c1cedefc3d269db43b9d186d892655d4efb78.tar.gz -> minipascal-2021.09.26.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=1caae9ade1001c14e4a1bb9a2b58777e
+_md5_=41ba4577ca4266640d162406ae67cf60

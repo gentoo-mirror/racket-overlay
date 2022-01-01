@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/pnwamk/pie/archive/77d183629f3d09f2d0b79a5bcd3b16e92ecf5f19.tar.gz -> pie-a-let-mode-2020.04.07.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=c85727723b7b9414b182a2f9934ceb82
+_md5_=d3fc476e117e929225e64295ff4f614c

@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jeapostrophe/non-det/archive/e26cdb7cb8152df912e239323fad8bb6b3a8b05f.tar.gz -> non-det-2017.12.04.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=609f5d24c4f7f8122ddcce9a4b8250d2
+_md5_=3a18d89d8922695110c81658ec248bf8

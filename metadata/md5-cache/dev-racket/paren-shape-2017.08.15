@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/paren-shape/archive/0ad6a34d3e93088e3e6c5a69b78a0724d5f4290f.tar.gz -> paren-shape-2017.08.15.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=f02be86a68a38c99fbe8f1eca49e35b1
+_md5_=1917c16780195be37c0c435497978a79

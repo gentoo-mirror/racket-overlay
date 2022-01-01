@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jbclements/gnucash/archive/701dee030a70b778f6de9dae428d6287aecd7a5a.tar.gz -> gnucash-2020.08.04.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=6d57ba72a50ec3b4a3cbb96689ea6c69
+_md5_=7a367425dae98415b24004d0a613acd9

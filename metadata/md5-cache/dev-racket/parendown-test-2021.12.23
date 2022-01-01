@@ -11,6 +11,6 @@ LICENSE=all-rights-reserved
 RDEPEND=dev-racket/parendown-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/lathe/parendown-for-racket/archive/78fc9ce24cbc7a40624344ab1bbaec770d4ee50d.tar.gz -> parendown-test-2021.12.23.tar.gz
+SRC_URI=https://github.com/lathe/parendown-for-racket/archive/5af0eaa8fbbb060a7f5bb4b240e72fe56a6536b3.tar.gz -> parendown-test-2021.12.23.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=b4a8479868686ca4a696490edd4d06ce
+_md5_=c79dfeb79b73dd01e2dc2075b9eb7c69

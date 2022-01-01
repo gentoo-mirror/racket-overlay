@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://git.sr.ht/~sschwarzer/sudoku-solver/archive/edee3367d5007364d4a2b2a4ab15d80d7c9f4596.tar.gz -> sudoku-solver-2021.11.14.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=5a0a47131068fd78cbb903a9b591759b
+_md5_=b7137aa62d9e45e1bbcff4ef5829db16

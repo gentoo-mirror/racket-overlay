@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/whichxjy/rockstar-rkt/archive/47723774e7ec6995eedd8fba27856b58ab056f71.tar.gz -> rockstar-2019.09.25.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=435c1c77ee30a91b68525b4a6a938b36
+_md5_=92c76261a7e749d73d39bdef374e3f3d

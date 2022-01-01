@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/thoughtstem/ratchet/archive/6dcd99e9ad43e37feeae41838282ce3b94945ca1.tar.gz -> ratchet-2019.12.09.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=b60c7501110f373e1857885fb232488d
+_md5_=bbc7864b5805411bb8be236f1a70b83d

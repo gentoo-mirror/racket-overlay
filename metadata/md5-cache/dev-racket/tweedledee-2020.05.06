@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/zyrolasting/tweedledee/archive/f0919e3816b448cea75db7d9121f355a9fe4edec.tar.gz -> tweedledee-2020.05.06.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=7ea62e5e3bf649bcdea8a7dfc0fa0166
+_md5_=f87b4e85b6642b01b8fad4c383e8d979

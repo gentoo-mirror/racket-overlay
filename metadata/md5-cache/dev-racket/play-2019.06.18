@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/pleiad/play/archive/34a145ffb815110bec33a48004e8897e48d11f51.tar.gz -> play-2019.06.18.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=4e788eb94b0ca6e7163519be8b6d1ef0
+_md5_=fdef3e1a3c5fe020b09cd18151c0e779

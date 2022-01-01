@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/marionette/archive/38a54e39af6ad1756dd3c3b0943e4ae515e4d317.tar.gz -> marionette-doc-2021.12.09.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=799e7207275b44e52fd4684e5eca2371
+_md5_=499998ee42e98a16b784d65f82ad4462

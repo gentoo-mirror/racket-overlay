@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mcdejonge/rs-l/archive/43616cd03e53b0109826736b461086b7146ed971.tar.gz -> rs-l-2020.06.06.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=4a09e9b095228809260e487894683944
+_md5_=ca16d4a64b894f88be2dd7518594abb7

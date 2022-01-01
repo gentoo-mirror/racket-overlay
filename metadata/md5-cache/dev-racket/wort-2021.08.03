@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/robertkleffner/wort/archive/433130f0f6f1fa90d7ed21b857d03bce856656b0.tar.gz -> wort-2021.08.03.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=1f0c2a4cd509b882a9da16ce8bd75393
+_md5_=767d698243291ad9b1c7067354ec77fe

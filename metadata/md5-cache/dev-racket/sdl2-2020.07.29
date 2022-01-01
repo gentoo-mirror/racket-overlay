@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lockie/racket-sdl2/archive/a25bfa28e32c60f8219eb712255fa5b07e3a8ad5.tar.gz -> sdl2-2020.07.29.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=c369aa5ae3fc9629056b4323fbce5861
+_md5_=50c9108e40753754b7d092a36fc8cbf0

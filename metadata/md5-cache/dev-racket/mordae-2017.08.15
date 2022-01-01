@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mordae/racket-mordae/archive/01d86a7453241f438b01a37f991a28feeb43df8e.tar.gz -> mordae-2017.08.15.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=5469b2999788288d7fc5a82a0bfa6eac
+_md5_=392cb14ec144d8f26ab49ed85a84ff6b

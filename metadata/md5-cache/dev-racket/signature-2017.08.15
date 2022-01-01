@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/thinkmoore/signature/archive/c8be60858474259d27f94b23214f7397d9653eb1.tar.gz -> signature-2017.08.15.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=effba54145bef0307b91e1689d0f91c8
+_md5_=7d427353db04da40864e4cb6bea5bef0

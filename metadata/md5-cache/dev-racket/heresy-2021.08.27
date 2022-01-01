@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jarcane/heresy/archive/5456b2b9a5fe37c342b45e29f455954eb9ba41a6.tar.gz -> heresy-2021.08.27.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=27b6c257f968829f38e9bc509cea7256
+_md5_=ebe0be8992481a8f709915bb54fd1d66

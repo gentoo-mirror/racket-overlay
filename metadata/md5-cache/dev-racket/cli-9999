@@ -12,4 +12,4 @@ RDEPEND=dev-racket/cover dev-racket/cover-coveralls dev-racket/mischief dev-rack
 RESTRICT=mirror
 SLOT=0
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=6e1dad36126ec904e365ba8667ba18f6
+_md5_=1b25fea59a7f6c54edd452d77e7522a6

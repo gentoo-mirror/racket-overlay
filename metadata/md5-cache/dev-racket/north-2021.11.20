@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/racket-north/archive/8de16ba702477aa2f075450cc94e81510b34c4d1.tar.gz -> north-2021.11.20.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=c51cb853c466ea8a63c10c67770af89c
+_md5_=aeb8d03261ef29d9fe16e717c3163323

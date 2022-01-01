@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Metaxal/search-list-box/archive/725fbb6111677b8b7ca0f79d5b7adeb4ed4a773d.tar.gz -> search-list-box-2021.11.25.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=077b01503557492a9f1ec1433775156e
+_md5_=fff0179a62ae1521b16067cc922eedd1

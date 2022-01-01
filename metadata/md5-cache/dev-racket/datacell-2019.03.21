@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/florence/datacell/archive/fe91d9251542df5f9edb41fb457fb6c7f548d425.tar.gz -> datacell-2019.03.21.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=7f6d6fd849e3df8dede32fb2e21c8b14
+_md5_=171cc469c17ad2010b64f21a3d906cb2

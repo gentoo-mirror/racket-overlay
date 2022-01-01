@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lexi-lambda/threading/archive/13a34f14fe073c328e5cc083c616a602a79afa58.tar.gz -> threading-doc-2019.12.12.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=b55037744898f26978aa4438acc79ae1
+_md5_=9a0b85d4b4545e1e200a9de0980003ee

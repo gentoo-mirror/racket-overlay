@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/arclanguage/anarki/archive/e1c9fd448c3c8588a2f65f5e1c77b1af689d5ba5.tar.gz -> anarki-2021.12.09.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=54e30cc1ab6c9277160c4789305e83be
+_md5_=ef2aadf4fe0bdbdec6dd863b8f4499f4

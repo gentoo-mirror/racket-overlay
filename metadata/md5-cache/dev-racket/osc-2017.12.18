@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jbclements/osc/archive/18caebb14eefe3482976e738654aee2f18c5f88d.tar.gz -> osc-2017.12.18.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=85a1a89d43cc3b78a2a5adc21cbd3478
+_md5_=45da6bdb7275ca07912b10707a02b244

@@ -12,4 +12,4 @@ RDEPEND=dev-racket/gregor-lib dev-racket/sentry-lib dev-racket/threading-lib >=d
 RESTRICT=mirror
 SLOT=0
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=47c189ae24b7efe35a13d82256d40618
+_md5_=75c2aca31cf0def0ea1ccb3d691699b0

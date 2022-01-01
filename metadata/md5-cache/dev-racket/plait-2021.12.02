@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mflatt/plait/archive/8d842132a11ab7c7621c428c609dcddc2769d145.tar.gz -> plait-2021.12.02.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=2e696755a97a38a7e86aedb5a509624a
+_md5_=89cd98c309ac954e3fe24b689cd810e4

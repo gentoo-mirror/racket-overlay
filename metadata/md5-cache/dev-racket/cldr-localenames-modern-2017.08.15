@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/97jaz/cldr-localenames-modern/archive/f9f3e8d9245764a309542816acf40fe147b473a3.tar.gz -> cldr-localenames-modern-2017.08.15.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=2c19d9e5f44457312b94428f431d8344
+_md5_=e64c630fb39a1977c2a4db69e3baa669

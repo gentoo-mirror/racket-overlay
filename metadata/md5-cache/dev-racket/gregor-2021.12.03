@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/97jaz/gregor/archive/983dd8d5d0d8fedc8e2b940b775b7b502f4fb231.tar.gz -> gregor-2021.12.03.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=74f48e1a97754be9e749b06d8d79eef4
+_md5_=7559504ee64dd4ed8161efa9321696b5

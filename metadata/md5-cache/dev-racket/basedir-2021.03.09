@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/willghatch/racket-basedir/archive/ef95b1eeb9b4e0df491680e5caa98eeadf64dfa1.tar.gz -> basedir-2021.03.09.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=566fda9c3629f5f2b55a629b3a76378c
+_md5_=72a19c1fe43d17522d8a8535c2d6d191

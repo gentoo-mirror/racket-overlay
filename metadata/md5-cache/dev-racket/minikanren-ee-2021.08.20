@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/michaelballantyne/minikanren-ee/archive/6197816f2660c43acb7352bbbe1af2886d234aca.tar.gz -> minikanren-ee-2021.08.20.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=5e67cfa4da72946c1cdb7d35f0c9de87
+_md5_=99eeac5bd8751b5bb53f2cbccff49801

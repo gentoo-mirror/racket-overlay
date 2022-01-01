@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/shawsumma/lure/archive/aa0f0dde617dbe616dc1bb3f2c9e456d6023dae6.tar.gz -> lua-2021.07.28.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=56fb66f69fb1cd613bb8bf12845f5b95
+_md5_=d622e7cf7664dd6d1d6c3fe6647cd2fd

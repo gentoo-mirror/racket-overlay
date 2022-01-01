@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/koyo-sentry/archive/f04efd69d239347bc44cba1587deb1bc3d5ba8c7.tar.gz -> koyo-sentry-2020.05.10.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=614fe64b646455914cd64e8462ca95fd
+_md5_=0e4f10448c64b5575b36e6bf02081b0a

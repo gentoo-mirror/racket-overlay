@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/racket-geoip/archive/bcc9bbb2905d0ef93f8c9cc35ed0bb4a6f31285b.tar.gz -> geoip-lib-2021.05.31.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=1a709cfa893c72c1d84ef5cdd762f1b0
+_md5_=1210b15bfdb19346a4a69f0ae966fb87

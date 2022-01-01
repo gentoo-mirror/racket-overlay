@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/racket-tw/k/archive/b0003f47901b1949cee3be7415cda740cc620632.tar.gz -> k-2021.12.11.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=6e4e5ae83dd89896946171afc6ba3b37
+_md5_=8e4cde1bad5ddf0b1ce38d0e4f329ced

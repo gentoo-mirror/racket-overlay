@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/otherjoel/splitflap/archive/4ca438a99e3837b04c5e55ecf93d3b6b5819f16a.tar.gz -> splitflap-2021.11.23.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=9111d4e4e5e37bb1c8ad6cd9ab8e6ea7
+_md5_=5d2fc74f5d82b9d846862312edf62bf7

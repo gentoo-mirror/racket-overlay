@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/simmone/racket-simple-xml/archive/5d23bf407c8cfa5da6a5a0aa324229852dcc485a.tar.gz -> simple-xml-2021.07.03.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=7463747f951a493cd1b45cd754941203
+_md5_=ffb1774bb9e643fdc0f14844313b9b0a

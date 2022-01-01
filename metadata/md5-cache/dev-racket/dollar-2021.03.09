@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/rogerkeays/racket-dollar/archive/16fa7aec4e1cef43a7b678dc798b1a9c20a87bb6.tar.gz -> dollar-2021.03.09.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=cf486d554a69987948aee4b27a248e46
+_md5_=473bdc480173bbe9a08b740f5f40cce0

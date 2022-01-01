@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 # NOTICE: Maintainers, while bumping Racket using this ebuild
@@ -12,15 +12,15 @@
 EAPI=8
 
 PLT_V_MAJOR="$(ver_cut 1-2)"
-PLT_V_MINOR="0.10"
+PLT_V_MINOR="0.11"
 PLT_V="${PLT_V_MAJOR}.${PLT_V_MINOR}"
 
 case "${PV##*_}" in
-	pre* ) PLT_SNAP_DATE="${PV##*_pre}" ;;
-	p* ) PLT_SNAP_DATE="${PV##*_p}" ;;
-	* ) PLT_SNAP_DATE="" ;;
+	pre* )  PLT_SNAP_DATE="${PV##*_pre}"  ;;
+	p*   )  PLT_SNAP_DATE="${PV##*_p}"    ;;
+	*    )  PLT_SNAP_DATE=""              ;;
 esac
-PLT_SNAP_HASH="045f0350ba"
+PLT_SNAP_HASH="8a3a9c086b"
 PLT_SNAP="${PLT_SNAP_DATE}-${PLT_SNAP_HASH}"
 
 PLT_HOST="https://plt.cs.northwestern.edu"

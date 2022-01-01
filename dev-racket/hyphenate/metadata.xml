@@ -3,7 +3,7 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/mbutterick/hyphenate</bugs-to>
-    <remote-id type="github">mbutterick/hyphenate</remote-id>
+    <bugs-to>https://github.com/mbutterick/typesetting</bugs-to>
+    <remote-id type="github">mbutterick/typesetting</remote-id>
   </upstream>
 </pkgmetadata>

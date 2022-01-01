@@ -3,7 +3,7 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://gitlab.com/car.margiotta/dice-parser</bugs-to>
-    <remote-id type="gitlab">car.margiotta/dice-parser</remote-id>
+    <bugs-to>https://github.com/cmargiotta/dice-parser</bugs-to>
+    <remote-id type="github">cmargiotta/dice-parser</remote-id>
   </upstream>
 </pkgmetadata>

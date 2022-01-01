@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -21,6 +21,5 @@ RDEPEND="dev-racket/component-doc
 	dev-racket/gregor-doc
 	dev-racket/gregor-lib
 	dev-racket/koyo-lib
-	dev-racket/libargon2
-	dev-racket/srfi-doc-nonfree"
+	dev-racket/libargon2"
 DEPEND="${RDEPEND}"

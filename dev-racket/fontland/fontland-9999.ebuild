@@ -1,15 +1,16 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="mbutterick/fontland"
+GH_REPO="mbutterick/typesetting"
 
 inherit racket gh
 
 DESCRIPTION="font processing [in development]"
-HOMEPAGE="https://github.com/mbutterick/fontland"
+HOMEPAGE="https://github.com/mbutterick/typesetting"
+S="${S}/fontland"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

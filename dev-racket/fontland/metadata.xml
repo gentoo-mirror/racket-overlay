@@ -3,7 +3,7 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/mbutterick/fontland</bugs-to>
-    <remote-id type="github">mbutterick/fontland</remote-id>
+    <bugs-to>https://github.com/mbutterick/typesetting</bugs-to>
+    <remote-id type="github">mbutterick/typesetting</remote-id>
   </upstream>
 </pkgmetadata>

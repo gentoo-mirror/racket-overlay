@@ -1,11 +1,11 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="lathe/parendown-for-racket"
-GH_COMMIT="78fc9ce24cbc7a40624344ab1bbaec770d4ee50d"
+GH_COMMIT="5af0eaa8fbbb060a7f5bb4b240e72fe56a6536b3"
 
 inherit racket gh
 

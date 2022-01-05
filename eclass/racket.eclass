@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 # @ECLASS: racket.eclass
@@ -295,8 +295,13 @@ racket_copy_package(){
 # @DESCRIPTION:
 # Try to find any launchers created in "PLTUSERHOME" - copy them to the image.
 racket_copy_launchers() {
-	find ${PLTUSERHOME} -type d -name "bin" -exec cp -r {} "${D}/usr" \; ||
+	find "${PLTUSERHOME}" -type d -name "bin" -exec cp -r {} "${D}/usr" \; ||
 		die "failed to copy found launchers"
+
+	# Found out in https://bugs.gentoo.org/830617#c8
+	find "${PLTUSERHOME}" -type f -name "readline-lib.rkt" \
+		 -exec cp {} "${D}/${RACKET_PREFIX}" \; ||
+		die "failed to copy readline-lib.rkt"
 }
 
 # @FUNCTION: racket_maybe_install_system_docs

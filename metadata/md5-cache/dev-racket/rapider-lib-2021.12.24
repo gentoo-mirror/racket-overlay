@@ -12,5 +12,5 @@ RDEPEND=dev-racket/gregor dev-racket/html-parsing dev-racket/sxml >=dev-scheme/r
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/nuty/rapider/archive/909ea324095c89bdd568f73428ce306aa313d7d4.tar.gz -> rapider-lib-2021.12.24.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	316a534828b26ca937c32fda46fa9ff1	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=0b88cba1729418f16a2e1f2518ac4d28

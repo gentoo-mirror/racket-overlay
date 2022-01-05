@@ -12,5 +12,5 @@ RDEPEND=dev-racket/css-tools dev-racket/csv-reading dev-racket/frog dev-racket/g
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/racket/racket-lang-org/archive/717c01a1670b4005088b45c17f2b326593d101d9.tar.gz -> racket-lang-org-2021.11.18.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	316a534828b26ca937c32fda46fa9ff1	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=be31d95fdeb74c9a89452b72cb8235ea

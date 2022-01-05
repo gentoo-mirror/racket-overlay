@@ -12,5 +12,5 @@ RDEPEND=dev-racket/plai-lazy dev-racket/plai-typed dev-racket/plai-typed-s-exp-m
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mflatt/uu-cs5510/archive/d6736f807b31f637e141ae97d28d65e8e10465aa.tar.gz -> uu-cs5510-2017.08.15.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	9166001f241535dcbb1c419c234a7cc9	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	316a534828b26ca937c32fda46fa9ff1	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=577669af3ff071d873c9d013ef3128ab

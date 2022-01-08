@@ -10,7 +10,13 @@ inherit racket gh
 
 DESCRIPTION="k theorem prover"
 HOMEPAGE="https://github.com/racket-tw/k"
+S="${S}/k"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/k-core
+	dev-racket/k-example
+	dev-racket/k-test"
+DEPEND="${RDEPEND}"

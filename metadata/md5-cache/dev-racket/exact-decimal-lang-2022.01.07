@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=a lang-extension that reads decimals as exact rationals
+EAPI=8
+HOMEPAGE=https://github.com/AlexKnauth/exact-decimal-lang
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/AlexKnauth/exact-decimal-lang/archive/434723f8675944bc3884c6a19327ce5ff68d5f70.tar.gz -> exact-decimal-lang-2022.01.07.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	316a534828b26ca937c32fda46fa9ff1	gh	7310922752774a331ac8a69cc9cb2caf
+_md5_=852bdfddba06d5e4392e91d4709b68b5

@@ -1,15 +1,15 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/al2-test-runner >=dev-scheme/racket-8.1:=[-minimal]
-DESCRIPTION=the todo-txt Racket package
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=core library for memoize
 EAPI=8
-HOMEPAGE=https://git.sr.ht/~sschwarzer/todo-txt
+HOMEPAGE=https://github.com/jbclements/memoize
 INHERIT=racket gh
 IUSE=doc
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/al2-test-runner >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	316a534828b26ca937c32fda46fa9ff1	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=62bd01c543923b71be6d4d8052215f46
+_md5_=2eb7b249ec068875717b0214cde23e1e

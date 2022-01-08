@@ -14,3 +14,6 @@ HOMEPAGE="https://git.sr.ht/~sschwarzer/todo-txt"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/al2-test-runner"
+DEPEND="${RDEPEND}"

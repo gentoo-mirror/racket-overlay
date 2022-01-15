@@ -16,5 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/k-core"
+RDEPEND="dev-racket/k-core
+	dev-racket/k-lib"
 DEPEND="${RDEPEND}"

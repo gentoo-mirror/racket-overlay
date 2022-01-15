@@ -16,8 +16,10 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/fancy-app
+RDEPEND="dev-racket/debug
+	dev-racket/fancy-app
 	dev-racket/from-template
+	dev-racket/mischief
 	dev-racket/qi-lib
 	dev-racket/qi-probe
 	dev-racket/qi-quickscripts

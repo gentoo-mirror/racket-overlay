@@ -18,5 +18,6 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/drcomplete
 	dev-racket/file-watchers
 	dev-racket/from-template
+	dev-racket/raco-invoke
 	dev-racket/try-catch-finally-lib"
 DEPEND="${RDEPEND}"

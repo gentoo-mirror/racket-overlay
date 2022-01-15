@@ -9,7 +9,7 @@ KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=|| ( MIT Apache-2.0 ) chez? ( Apache-2.0 ) !chez? ( LGPL-3 )
 RDEPEND=dev-db/sqlite:3 dev-libs/libffi:=
 REQUIRED_USE=chez? ( futures places ) futures? ( jit threads ) places? ( threads )
-SLOT=0/8.3.0.11
-SRC_URI=minimal? ( https://plt.cs.northwestern.edu/snapshots/20211230-8a3a9c086b/installers/racket-minimal-8.3.0.11-src-builtpkgs.tgz -> racket-8.3_p20211230-minimal.tgz ) !minimal? ( https://plt.cs.northwestern.edu/snapshots/20211230-8a3a9c086b/installers/racket-test-8.3.0.11-src-builtpkgs.tgz -> racket-8.3_p20211230.tgz )
+SLOT=0/8.4.0.2
+SRC_URI=minimal? ( https://plt.cs.northwestern.edu/snapshots/20220112-4cde8daa7e/installers/racket-minimal-8.4.0.2-src-builtpkgs.tgz -> racket-8.4_pre20220112-minimal.tgz ) !minimal? ( https://plt.cs.northwestern.edu/snapshots/20220112-4cde8daa7e/installers/racket-test-8.4.0.2-src-builtpkgs.tgz -> racket-8.4_pre20220112.tgz )
 _eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	optfeature	30ce9dec2b8943338c9b015bd32bac6a	readme.gentoo-r1	eebd0164fe61f4f7b64a683e83fdceb1
-_md5_=925aec62b62cd7b40b6d54990db55e46
+_md5_=ee199e05558ce75c83e271ed6f922812

@@ -1529,7 +1529,7 @@ dev-racket/zkanren 2018.03.23 9999: -
 dev-racket/zmq 2017.08.15 9999: Minimal Racket ZeroMQ Bindings
 dev-racket/zordoz 2020.03.29 2021.10.25 9999: Explorer for .zo bytecode files
 dev-racket/zubat 2020.12.30 9999: the zubat Racket package
-dev-scheme/racket 8.3_p20211111 8.3_p20211202 8.3_p20211216 8.3_p20211230: General purpose, multi-paradigm Lisp-Scheme programming language
+dev-scheme/racket 8.3_p20211111 8.3_p20211202 8.3_p20211216 8.3_p20220106 8.4_pre20220112: General purpose, multi-paradigm Lisp-Scheme programming language
 sys-apps/racket-compiler 0.0.0 0.1.0 1.0.0: Small tool to compile Racket source code
 sys-apps/racket-maints 1.1.0 9999: Racket Maintenance Scripts
 sys-apps/racket-where 0.1.0 0.1.1 1.0.0: Small tool to find Racket packages

@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/cairo-lib dev-racket/cairo-test >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=the cairo Racket package
+EAPI=8
+HOMEPAGE=https://github.com/soegaard/cairo
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/cairo-lib dev-racket/cairo-test >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/soegaard/cairo/archive/94d7dd033032d74279a79e1000577c164e1177b7.tar.gz -> cairo-2022.01.12.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	316a534828b26ca937c32fda46fa9ff1	gh	7310922752774a331ac8a69cc9cb2caf
+_md5_=980531ee77a2365b8dabd47490d5fb99

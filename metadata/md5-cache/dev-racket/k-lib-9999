@@ -1,15 +1,15 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
-DESCRIPTION=umask - set default permissions on unix-like systems
+DEPEND=dev-racket/k-core >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=libraries of k theorem prover
 EAPI=8
-HOMEPAGE=https://github.com/winny-/umask
+HOMEPAGE=https://github.com/racket-tw/k
 INHERIT=racket gh
 IUSE=doc
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/k-core >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	316a534828b26ca937c32fda46fa9ff1	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=495ea3158699abf81e4a3cee969d1fa5
+_md5_=4ee914a8f407317314dcb88635fd613c

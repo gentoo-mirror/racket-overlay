@@ -10,7 +10,13 @@ inherit racket gh
 
 DESCRIPTION="Memoization for functions"
 HOMEPAGE="https://github.com/jbclements/memoize"
+S="${S}/memoize"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/memoize-doc
+	dev-racket/memoize-lib
+	dev-racket/memoize-test"
+DEPEND="${RDEPEND}"

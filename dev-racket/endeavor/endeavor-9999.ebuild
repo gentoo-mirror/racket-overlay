@@ -4,12 +4,13 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="winny-/umask"
+GH_REPO="sunarch/endeavor"
 
 inherit racket gh
 
-DESCRIPTION="umask - set default permissions on unix-like systems"
-HOMEPAGE="https://github.com/winny-/umask"
+DESCRIPTION="((status pre-alpha) (phase design))"
+HOMEPAGE="https://github.com/sunarch/endeavor"
+S="${S}/endeavor"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

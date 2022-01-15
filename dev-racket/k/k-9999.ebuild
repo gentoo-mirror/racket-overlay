@@ -17,6 +17,7 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/k-core
+	dev-racket/k-doc
 	dev-racket/k-example
-	dev-racket/k-test"
+	dev-racket/k-lib"
 DEPEND="${RDEPEND}"

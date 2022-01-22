@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/damien-mattei/Scheme-PLUS-for-Racket</bugs-to>
+    <remote-id type="github">damien-mattei/Scheme-PLUS-for-Racket</remote-id>
+  </upstream>
+</pkgmetadata>

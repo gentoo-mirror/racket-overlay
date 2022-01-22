@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/rackjure dev-racket/unstable-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=A functional Lisp dialect with BASIC-inspired syntax
+EAPI=8
+HOMEPAGE=https://github.com/jarcane/heresy
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/rackjure dev-racket/unstable-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/jarcane/heresy/archive/5b7a6c6eb9c2aebf0f2f6e10ae9e56f5f9c7ac48.tar.gz -> heresy-2022.01.22.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	316a534828b26ca937c32fda46fa9ff1	gh	7310922752774a331ac8a69cc9cb2caf
+_md5_=1a5e18c144624e3435e3c054f142e0a0

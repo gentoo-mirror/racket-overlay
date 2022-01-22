@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/mischief dev-racket/qi-lib dev-racket/version-case >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=A circuit tester style debugger for Qi.
+EAPI=8
+HOMEPAGE=https://github.com/countvajhula/qi
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/mischief dev-racket/qi-lib dev-racket/version-case >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/countvajhula/qi/archive/7a10f8e2320ef9041e77507d12a00cecffa2c702.tar.gz -> qi-probe-2022.01.18.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	316a534828b26ca937c32fda46fa9ff1	gh	7310922752774a331ac8a69cc9cb2caf
+_md5_=96510fb70b9bea429c84ca63d8569cf2

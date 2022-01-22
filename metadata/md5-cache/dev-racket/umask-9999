@@ -1,15 +1,15 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
-DESCRIPTION=the lti-freq-domain-toolbox Racket package
+DEPEND=dev-racket/umask-doc dev-racket/umask-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=umask - set default permissions on unix-like systems
 EAPI=8
-HOMEPAGE=https://github.com/istefanis/lti-freq-domain-toolbox
+HOMEPAGE=https://github.com/winny-/umask
 INHERIT=racket gh
 IUSE=doc
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/umask-doc dev-racket/umask-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	316a534828b26ca937c32fda46fa9ff1	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=6d8afd22f32a2a38767c08bd11b2b91a
+_md5_=34dfee8ae7c9ecd66c15859557f248be

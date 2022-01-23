@@ -18,13 +18,38 @@
 # Licensed under the GNU GPL v2 License
 
 
-doc:
-	cd ./scribblings && sh ./build.sh
+RACKET  := racket
+REPOMAN := repoman
+SH      := sh
+
+C2FLAGS := --create --directory $(PWD) --verbose
+
+
+all: regen-gentoo test
+
+
+ebuilds:
+	$(RACKET) -l collector2 -- $(C2FLAGS)
+
+manifests:
+	GENTOO_MIRRORS="" $(REPOMAN) manifest
+
+regen-gentoo: ebuilds manifests
+
+
+clean-public:
 	if [ -d ./public ] ; then rm -dr ./public ; fi
+
+public:
+	cd ./scribblings && $(SH) ./build.sh
 	cp -r ./scribblings/doc/racket-overlay ./public
 
+regen-public: clean-public public
+
+
 test:
-	repoman -dxv full
+	$(REPOMAN) --include-dev --xmlparse --verbose full
+
 
 submodules:
-	sh ./3rd_party/scripts/src/update-submodules
+	$(SH) ./3rd_party/scripts/src/update-submodules

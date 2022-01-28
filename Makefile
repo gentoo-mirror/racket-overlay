@@ -22,7 +22,11 @@ RACKET  := racket
 REPOMAN := repoman
 SH      := sh
 
-C2FLAGS := --create --directory $(PWD) --verbose
+# i.e.: C2EXCL="-e pkg1 -e pkg2"
+C2EXCL  :=
+C2FLAGS := --create --directory $(PWD) --verbose $(C2EXCL)
+
+NPROC   := $(shell nproc)
 
 
 all: regen-gentoo test
@@ -48,7 +52,7 @@ regen-public: clean-public public
 
 
 test:
-	$(REPOMAN) --include-dev --xmlparse --verbose full
+	$(REPOMAN) --include-dev --xmlparse --jobs $(NPROC) --verbose full
 
 
 submodules:

@@ -16,5 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/binfmt"
+RDEPEND="dev-racket/binfmt
+	dev-racket/rackcheck"
 DEPEND="${RDEPEND}"

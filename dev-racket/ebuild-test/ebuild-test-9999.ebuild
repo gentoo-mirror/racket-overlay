@@ -17,5 +17,6 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/ebuild-lib
-	dev-racket/ebuild-templates"
+	dev-racket/ebuild-templates
+	dev-racket/ebuild-transformers"
 DEPEND="${RDEPEND}"

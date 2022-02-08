@@ -4,13 +4,12 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="deepmind/deepmind-research"
+GH_REPO="Metaxal/satore"
 
 inherit racket gh
 
 DESCRIPTION="the satore Racket package"
-HOMEPAGE="https://github.com/deepmind/deepmind-research"
-S="${S}/satore"
+HOMEPAGE="https://github.com/Metaxal/satore"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

@@ -15,7 +15,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/drcomplete
+RDEPEND="dev-racket/curly-fn-lib
+	dev-racket/drcomplete
 	dev-racket/file-watchers
 	dev-racket/from-template
 	dev-racket/raco-invoke

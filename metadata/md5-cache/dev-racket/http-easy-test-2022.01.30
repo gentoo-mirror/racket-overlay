@@ -12,5 +12,5 @@ RDEPEND=dev-racket/http-easy dev-racket/net-cookies-lib dev-racket/resource-pool
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/racket-http-easy/archive/7fb4b354df593cf1f10a1ad35359fb487328f3f0.tar.gz -> http-easy-test-2022.01.30.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	daec42eaab3660fc1bbfff64110b9fa5	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1f9870727958aa1eb25b1b06ef7644ee	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=0bd5c8af9a6602cfa5527d56fc41d2a9

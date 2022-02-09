@@ -12,5 +12,5 @@ RDEPEND=dev-racket/bazaar dev-racket/define2 dev-racket/global dev-racket/text-t
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Metaxal/satore/archive/60f91754bc9fd827c75f02a638ca7362142be1c3.tar.gz -> satore-2022.02.07.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	daec42eaab3660fc1bbfff64110b9fa5	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1f9870727958aa1eb25b1b06ef7644ee	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=126d0a46ea130dfdeba999afa5f80ba0

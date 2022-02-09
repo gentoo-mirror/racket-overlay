@@ -12,5 +12,5 @@ RDEPEND=dev-racket/lang-file-lib dev-racket/syntax-macro-lang >=dev-scheme/racke
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/reprovide-lang/archive/49c4c867964ddff42c5c61fe8a7e814851ed8a0c.tar.gz -> reprovide-lang-lib-2019.07.16.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	daec42eaab3660fc1bbfff64110b9fa5	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1f9870727958aa1eb25b1b06ef7644ee	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=9d12bd661a5abea2a932e2bf1a9b2359

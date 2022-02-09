@@ -12,5 +12,5 @@ RDEPEND=dev-racket/ebuild-lib dev-racket/ebuild-templates dev-racket/ebuild-tool
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/xgqt/racket-ebuild/-/archive/83a9870ac3c2f1ee9a27fcfe8ff3446da2a02890.tar.gz -> ebuild-doc-2022.01.26.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	daec42eaab3660fc1bbfff64110b9fa5	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1f9870727958aa1eb25b1b06ef7644ee	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=a6a7b39daa20f33e568cd5ef0363e415

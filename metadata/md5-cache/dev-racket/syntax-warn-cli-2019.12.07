@@ -12,5 +12,5 @@ RDEPEND=dev-racket/syntax-warn-base dev-racket/syntax-warn-lang >=dev-scheme/rac
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/syntax-warn/archive/f17fdd3179aeab8e5275a24e7d091d3ca42960a9.tar.gz -> syntax-warn-cli-2019.12.07.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	daec42eaab3660fc1bbfff64110b9fa5	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1f9870727958aa1eb25b1b06ef7644ee	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=0519fa46a9a436132bb1eee6b4161917

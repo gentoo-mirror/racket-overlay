@@ -12,5 +12,5 @@ RDEPEND=dev-racket/lathe-comforts-doc dev-racket/lathe-comforts-lib dev-racket/l
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lathe/lathe-ordinals-for-racket/archive/f9f7b132a7e40a323a39a7c52c4280ae68f33889.tar.gz -> lathe-ordinals-doc-2021.08.13.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	daec42eaab3660fc1bbfff64110b9fa5	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1f9870727958aa1eb25b1b06ef7644ee	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=3882437a02f92fd759f232fda1426c6d

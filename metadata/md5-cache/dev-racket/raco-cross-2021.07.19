@@ -12,5 +12,5 @@ RDEPEND=dev-racket/raco-cross-doc dev-racket/raco-cross-lib >=dev-scheme/racket-
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/racket/raco-cross/archive/79de8356d20ec79b4fed58c32f4ab45dbfbf485c.tar.gz -> raco-cross-2021.07.19.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	daec42eaab3660fc1bbfff64110b9fa5	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1f9870727958aa1eb25b1b06ef7644ee	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=5eb283feb8624279d2cd175bccc8a01f

@@ -12,5 +12,5 @@ RDEPEND=dev-racket/_-exp dev-racket/adjutor dev-racket/functional-doc dev-racket
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://bitbucket.org/digitalricoeur/tei-utils/get/545c192aff9138d05bdd1aeb97d0f145508b84a8.tar.gz -> ricoeur-tei-utils-2021.07.07.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	daec42eaab3660fc1bbfff64110b9fa5	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1f9870727958aa1eb25b1b06ef7644ee	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=dc8bc2adb82908fb3c5787768063c716

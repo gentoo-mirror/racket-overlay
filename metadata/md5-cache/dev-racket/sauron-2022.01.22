@@ -12,5 +12,5 @@ RDEPEND=dev-racket/drcomplete dev-racket/file-watchers dev-racket/from-template 
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/racket-tw/sauron/archive/18ef75a481b437de339e1170240b1d56778e3975.tar.gz -> sauron-2022.01.22.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	daec42eaab3660fc1bbfff64110b9fa5	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1f9870727958aa1eb25b1b06ef7644ee	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=fa9b2ed66f6367493647e87e5fcc5f36

@@ -12,5 +12,5 @@ RDEPEND=dev-racket/chk-lib dev-racket/latex-utils dev-racket/private-in dev-rack
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/camoy/redex-etc/archive/ee18a8030f9d3358004fd89e7c3b34fdc1d64145.tar.gz -> redex-etc-2021.10.05.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	daec42eaab3660fc1bbfff64110b9fa5	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1f9870727958aa1eb25b1b06ef7644ee	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=34b9f6f312f804b4262ab0a5c024f4df

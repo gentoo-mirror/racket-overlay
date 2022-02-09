@@ -12,5 +12,5 @@ RDEPEND=dev-racket/fancy-app dev-racket/lens-data dev-racket/reprovide-lang-lib 
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/lens/archive/733db7744921409b69ddc78ae5b23ffaa6b91e37.tar.gz -> lens-common-2019.09.10.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	daec42eaab3660fc1bbfff64110b9fa5	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1f9870727958aa1eb25b1b06ef7644ee	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=8123c7fca87c991710583b1be2a64310

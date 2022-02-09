@@ -12,5 +12,5 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/thoughtstem/english/archive/b03f3b203fdbc11780291e09a528ff0590b5802b.tar.gz -> english-2020.02.20.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	316a534828b26ca937c32fda46fa9ff1	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	daec42eaab3660fc1bbfff64110b9fa5	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=0df0b5961aadeb6eb49afeb3e95cd252

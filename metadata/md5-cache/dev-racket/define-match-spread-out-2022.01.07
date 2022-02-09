@@ -12,5 +12,5 @@ RDEPEND=dev-racket/defpat dev-racket/scribble-code-examples dev-racket/unstable-
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/define-match-spread-out/archive/9cba18f354fc03a84e2c26d5ae6cdcdc36d4d960.tar.gz -> define-match-spread-out-2022.01.07.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	316a534828b26ca937c32fda46fa9ff1	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	daec42eaab3660fc1bbfff64110b9fa5	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=9185fcb2b64926b4eade56e28da69190

@@ -12,5 +12,5 @@ RDEPEND=dev-racket/umask-doc dev-racket/umask-lib >=dev-scheme/racket-8.1:=[-min
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/winny-/umask/archive/4ff4091fa7b7147b85aaea84b45f6f04c000d84e.tar.gz -> umask-2022.02.04.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	316a534828b26ca937c32fda46fa9ff1	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	daec42eaab3660fc1bbfff64110b9fa5	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=778de0cbb4d7f9477d577896ec9910c9

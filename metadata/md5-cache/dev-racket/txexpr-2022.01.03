@@ -12,5 +12,5 @@ RDEPEND=dev-racket/sugar >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mbutterick/txexpr/archive/a49498717cb8149ed12684c16dff79dc4742370b.tar.gz -> txexpr-2022.01.03.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	316a534828b26ca937c32fda46fa9ff1	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	daec42eaab3660fc1bbfff64110b9fa5	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=78faaab9b49c63087f84341dbe2275d2

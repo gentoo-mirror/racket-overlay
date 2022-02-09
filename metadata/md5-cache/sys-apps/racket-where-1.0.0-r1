@@ -1,15 +1,13 @@
-BDEPEND=doc? ( dev-texlive/texlive-fontsextra )
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Small tool to find Racket packages
 EAPI=8
 HOMEPAGE=https://gitlab.com/src_prepare/racket/racket-where
 INHERIT=racket
-IUSE=doc
 KEYWORDS=~amd64
 LICENSE=GPL-3
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://gitlab.com/src_prepare/racket/racket-where/-/archive/1.0.0/racket-where-1.0.0.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	316a534828b26ca937c32fda46fa9ff1
-_md5_=ab8f5925eb813d826cfc6027b13ea361
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	daec42eaab3660fc1bbfff64110b9fa5
+_md5_=cd22f41a34c036c453e10a71a0cab7f9

@@ -12,5 +12,5 @@ RDEPEND=dev-racket/vela-docs dev-racket/vela-lib >=dev-scheme/racket-8.1:=[-mini
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/nuty/vela/archive/5998a2cf7101a9b98d91fce11c4c1d86f0f5a274.tar.gz -> vela-2020.05.18.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	316a534828b26ca937c32fda46fa9ff1	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	daec42eaab3660fc1bbfff64110b9fa5	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=6edfc9d54945be893fc594220f80d8fc

@@ -12,5 +12,5 @@ RDEPEND=dev-racket/package-analysis dev-racket/pkg-build dev-racket/raco-static-
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/capfredf/pkg-backward-comp-check/archive/04cf32339cc9e539effd83f4a32eec398a7f50e7.tar.gz -> package-backward-compatibility-checker-2021.12.02.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	316a534828b26ca937c32fda46fa9ff1	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	daec42eaab3660fc1bbfff64110b9fa5	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=3ee24186879a5a6752e9c370ca9be702

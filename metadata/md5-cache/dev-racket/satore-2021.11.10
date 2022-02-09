@@ -12,5 +12,5 @@ RDEPEND=dev-racket/bazaar dev-racket/define2 dev-racket/global dev-racket/text-t
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/deepmind/deepmind-research/archive/2c7c401024c42c4fb1aa20a8b0471d2e6b480906.tar.gz -> satore-2021.11.10.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	316a534828b26ca937c32fda46fa9ff1	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	daec42eaab3660fc1bbfff64110b9fa5	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=46a9c148db544bcbfef87461cc23907e

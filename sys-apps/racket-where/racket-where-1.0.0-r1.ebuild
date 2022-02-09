@@ -1,7 +1,9 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
+
+SCRBL_DOCS=FALSE
 
 inherit racket
 
@@ -21,21 +23,23 @@ LICENSE="GPL-3"
 SLOT="0"
 
 do_compile() {
+	pushd "${1}" >/dev/null || die
+
 	sh ./${PN}/compile.sh || die "compilation failed"
+
+	popd >/dev/null || die
 }
 
 src_compile() {
-	do_compile
+	do_compile .
+	racket_temporary_install
 }
 
 pkg_prerm() {
-	if has_version "dev-scheme/racket"; then
+	if has_version "dev-scheme/racket" ; then
 		# Ensure that the bytecode is up to date; otherwise this step will
 		# fail if updating "dev-scheme/racket" to a different version (PV).
-		pushd "${RACKET_P_DIR}" >/dev/null || die "pushd failed"
-		do_compile
-		popd >/dev/null || die "popd failed"
-
+		do_compile "${RACKET_P_DIR}"
 		racket_pkg_prerm
 	fi
 }

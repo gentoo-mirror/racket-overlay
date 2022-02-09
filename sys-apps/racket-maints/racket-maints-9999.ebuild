@@ -1,8 +1,9 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
+SCRBL_DOCS=FALSE
 PYTHON_COMPAT=( python3_{8..10} )
 
 inherit distutils-r1 racket
@@ -20,6 +21,7 @@ fi
 
 LICENSE="GPL-3"
 SLOT="0"
+RESTRICT="test"
 
 RDEPEND="
 	dev-racket/threading-lib
@@ -30,47 +32,35 @@ DEPEND="${RDEPEND}"
 src_prepare() {
 	default
 
-	pushd ./src/python >/dev/null || die
+	cd "${S}"/src/python || die
 	distutils-r1_src_prepare
-	popd >/dev/null || die
 
-	pushd ./src/racket >/dev/null || die
+	cd "${S}"/src/racket || die
 	racket_src_prepare
-	popd >/dev/null || die
 }
 
 src_configure() {
-	pushd ./src/python >/dev/null || die
+	cd "${S}"/src/python || die
 	distutils-r1_src_configure
-	popd >/dev/null || die
 }
 
 src_compile() {
-	pushd ./src/python >/dev/null || die
+	cd "${S}"/src/python || die
 	distutils-r1_src_compile
-	popd >/dev/null || die
 
-	pushd ./src/racket >/dev/null || die
+	cd "${S}"/src/racket || die
 	racket_src_compile
-	popd >/dev/null || die
 }
 
 src_install() {
 	einstalldocs
 
-	pushd ./src/python >/dev/null || die
+	cd "${S}"/src/python || die
 	distutils-r1_src_install
-	popd >/dev/null || die
 
-	pushd ./src/racket >/dev/null || die
+	cd "${S}"/src/racket || die
 	racket_src_install
-	popd >/dev/null || die
 
-	pushd ./src/shell >/dev/null || die
+	cd "${S}"/src/shell || die
 	emake DESTDIR="${D}" install
-	popd >/dev/null || die
-}
-
-src_test() {
-	:
 }

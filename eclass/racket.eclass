@@ -218,8 +218,12 @@ scribble_system_docs() {
 		mkdir -p "${SCRBL_DOC_DIR}/${doctype}" ||
 			die "failed to create ${SCRBL_DOC_DIR}/${doctype}"
 
-		find . -name "*.scrbl" -exec scribble --quiet \
-			 --${doctype} --dest "${SCRBL_DOC_DIR}/${doctype}" {} \;
+		local scrbl_opts=(
+			--${doctype}
+			--dest "${SCRBL_DOC_DIR}/${doctype}"
+			--quiet
+		)
+		find . -name "*.scrbl" -exec scribble "${scrbl_opts[@]}" {} \;
 	done
 
 	eend $? "scribble_system_docs: building documentation failed" || die

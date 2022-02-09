@@ -99,8 +99,9 @@ EXPORT_FUNCTIONS src_prepare src_compile src_test src_install pkg_postinst pkg_p
 # RACKET_P_DIR = ${EPREFIX}/usr/share/racket/pkgs/${RACKET_PN}
 # @CODE
 racket_environment_prepare() {
-	einfo "Preparing the environment for Racket"
-
+	if ! [[ ${PN} == "racket-where" ]] ; then
+		command -v racket-where >/dev/null || die "racket-where is missing"
+	fi
 	command -v raco >/dev/null || die "raco is missing"
 
 	xdg_environment_reset
@@ -121,6 +122,16 @@ racket_environment_prepare() {
 	export RACKET_P_DIR="${EPREFIX}/${RACKET_PKGS_DIR}/${RACKET_PN}"
 }
 
+# @FUNCTION: racket_clean_directory
+# @DESCRIPTION:
+# Removes '.git' directory if it exists so that it is not merged
+# with the package.
+racket_clean_directory() {
+	if [[ -d ".git" ]] ; then
+		rm -r ".git" || die "failed to remove unnecessary '.git' directory"
+	fi
+}
+
 # @FUNCTION: racket_fix_collection
 # @DESCRIPTION:
 # If "info.rkt" exists in current directory, then check if it defines
@@ -137,42 +148,28 @@ racket_fix_collection() {
 	fi
 }
 
-# @FUNCTION: racket_clean_directory
-# @DESCRIPTION:
-# Removes '.git' directory if it exists so that it is not merged
-# with the package.
-racket_clean_directory() {
-	if [[ -d ".git" ]] ; then
-		rm -r ".git" || die "failed to remove unnecessary '.git' directory"
-	fi
-}
-
 # @FUNCTION: racket_src_prepare
 # @DESCRIPTION:
 # Default src_prepare:
 #
 # In addition to `default'
-# executes: `racket_environment_prepare', `racket_fix_collection'
-# and `racket_clean_directory'.
+# executes: `racket_environment_prepare', `racket_clean_directory'
+# and `racket_fix_collection'.
 racket_src_prepare() {
-	einfo "Running Racket src_prepare"
-
 	racket_environment_prepare
 	racket_clean_directory
 	racket_fix_collection
-
-	einfo "prepared for Racket ${RACKET_PN} package"
-
 	default
 }
 
 # @FUNCTION: eraco
 # @USAGE: [arg] ...
 # @DESCRIPTION:
-# Racket's raco command wrapper.
+# Wrapper for the Racket's raco command.
 eraco() {
-	echo "Raco: ${*}"
-	raco "${@}" || die "ERROR: \"raco ${*}\" failed"
+	ebegin "Invoking \"raco ${*}\""
+	raco "${@}"
+	eend $? "\"raco ${*}\" failed" || die
 }
 
 # @FUNCTION: raco_docs_switch
@@ -203,12 +200,7 @@ racket_temporary_install() {
 		--scope user
 		$(raco_docs_switch)
 	)
-
-	ebegin "Temporarily installing ${pkg}"
-
 	eraco pkg install "${raco_opts[@]}"
-
-	eend $? "racket_temporary_install: temporary installation failed" || die
 }
 
 # @FUNCTION: scribble_system_docs
@@ -239,8 +231,6 @@ scribble_system_docs() {
 #
 # Executes `racket_temporary_install' and conditionally `scribble_system_docs'.
 racket_src_compile() {
-	einfo "Running Racket src_compile"
-
 	racket_temporary_install
 
 	if [[ ${do_scrbl} -eq 1 ]] && use doc ; then
@@ -260,12 +250,7 @@ raco_test() {
 		--no-run-if-absent
 		--submodule test
 	)
-
-	ebegin "Testing package"
-
 	eraco test "${raco_opts[@]}" .
-
-	eend $? "raco_test: testing package failed" || die
 }
 
 # @FUNCTION: racket_src_test
@@ -274,8 +259,6 @@ raco_test() {
 #
 # Executes `raco_test'.
 racket_src_test() {
-	einfo "Running Racket src_test"
-
 	raco_test
 }
 
@@ -324,13 +307,10 @@ racket_maybe_install_system_docs() {
 # Installs miscellaneous docs with `einstalldocs'
 # and then installs the compiled racket package files.
 racket_src_install() {
-	einfo "Running Racket src_install"
-
-	einstalldocs
-
 	racket_copy_package
 	racket_copy_launchers
 	racket_maybe_install_system_docs
+	einstalldocs
 }
 
 # @FUNCTION: raco_remove
@@ -346,13 +326,7 @@ raco_remove() {
 		--no-trash
 		--scope installation
 	)
-
-	ebegin "Removing ${pkg}"
-
 	eraco pkg remove "${raco_opts[@]}" "${pkg}"
-
-	eend $? "raco_remove: removing ${pkg} failed" || die
-	einfo "raco has removed ${pkg}"
 }
 
 # @FUNCTION: racket_pkg_prerm
@@ -362,8 +336,6 @@ raco_remove() {
 # If we have Racket available remove the pkg using `raco_remove'
 # if it is installed to properly update pkg databases.
 racket_pkg_prerm() {
-	einfo "Running Racket pkg_prerm"
-
 	if has_version "dev-scheme/racket" && racket-where "${RACKET_PN}" ; then
 		raco_remove
 	fi
@@ -378,6 +350,8 @@ racket_pkg_prerm() {
 # sources will be installed, it defaults to RACKET_P_DIR.
 raco_install() {
 	local dir="${1:-${RACKET_P_DIR}}"
+	pushd "${dir}" >/dev/null || die
+
 	local raco_opts=(
 		--batch
 		--deps force
@@ -386,13 +360,8 @@ raco_install() {
 		--scope installation
 		$(raco_docs_switch)
 	)
-
-	pushd "${dir}" >/dev/null || die
-	ebegin "Installing package from ${dir} in installation scope"
-
 	eraco pkg install "${raco_opts[@]}"
 
-	eend $? "raco_install: installing from ${dir} in installation scope failed" || die
 	popd >/dev/null || die
 }
 
@@ -402,7 +371,5 @@ raco_install() {
 #
 # Runs raco_install without arguments (thus "dir" defaults to RACKET_P_DIR).
 racket_pkg_postinst() {
-	einfo "Running Racket pkg_postinst"
-
 	raco_install
 }

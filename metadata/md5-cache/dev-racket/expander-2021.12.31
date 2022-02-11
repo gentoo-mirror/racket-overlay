@@ -12,5 +12,5 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/racket/racket/archive/5ab18340dd8110ed1c4bb8d31209e8df1930b454.tar.gz -> expander-2021.12.31.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1f9870727958aa1eb25b1b06ef7644ee	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	e86ea715896422e2b70cdbccff8114ce	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=173d501579b4cb1724621d223608b5e9

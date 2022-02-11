@@ -12,5 +12,5 @@ RDEPEND=dev-racket/lathe-comforts-lib dev-racket/parendown-lib >=dev-scheme/rack
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lathe/lathe-morphisms-for-racket/archive/8740323def1f028f11c4769122504882e6d08be2.tar.gz -> lathe-morphisms-lib-2021.12.02.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1f9870727958aa1eb25b1b06ef7644ee	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	e86ea715896422e2b70cdbccff8114ce	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=2bb6de3476c1be502d6541e9ab7b56d8

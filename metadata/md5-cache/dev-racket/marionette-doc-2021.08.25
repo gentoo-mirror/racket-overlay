@@ -12,5 +12,5 @@ RDEPEND=dev-racket/marionette-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/marionette/archive/e537fbe6876337921c9340574ffea4fd5520c575.tar.gz -> marionette-doc-2021.08.25.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1f9870727958aa1eb25b1b06ef7644ee	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	e86ea715896422e2b70cdbccff8114ce	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=20850c3cc1dc8d9719992850a0ef0985

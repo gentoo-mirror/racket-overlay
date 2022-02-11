@@ -12,5 +12,5 @@ RDEPEND=dev-racket/lathe-comforts-lib dev-racket/parendown-lib dev-racket/reprov
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lathe/interconfection-for-racket/archive/fc28969ac94ab3d7277b4b8771ecdc6c9bffc513.tar.gz -> interconfection-lib-2022.02.08.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1f9870727958aa1eb25b1b06ef7644ee	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	e86ea715896422e2b70cdbccff8114ce	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=57275d028f196dbc99be983bf31174f1

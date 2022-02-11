@@ -12,5 +12,5 @@ RDEPEND=dev-racket/alexis-util dev-racket/generic-syntax-expanders dev-racket/ph
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jsmaniac/extensible-parser-specifications/archive/616130a74b83cf7790257150655949698a7a3913.tar.gz -> extensible-parser-specifications-2021.11.27.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1f9870727958aa1eb25b1b06ef7644ee	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	e86ea715896422e2b70cdbccff8114ce	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=e36dd2970530669812bfdf50ef846bb2

@@ -12,5 +12,5 @@ RDEPEND=dev-racket/rackjure dev-racket/unstable-lib >=dev-scheme/racket-8.1:=[-m
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jarcane/heresy/archive/5456b2b9a5fe37c342b45e29f455954eb9ba41a6.tar.gz -> heresy-2021.08.27.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1f9870727958aa1eb25b1b06ef7644ee	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	e86ea715896422e2b70cdbccff8114ce	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=ebe0be8992481a8f709915bb54fd1d66

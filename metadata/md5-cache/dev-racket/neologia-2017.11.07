@@ -12,5 +12,5 @@ RDEPEND=dev-racket/beautiful-racket dev-racket/beautiful-racket-lib dev-racket/b
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/robertkleffner/neologia/archive/92d6ccde9041dc07b5c0db1849b4e1c65cb3cf2d.tar.gz -> neologia-2017.11.07.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1f9870727958aa1eb25b1b06ef7644ee	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	e86ea715896422e2b70cdbccff8114ce	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=7c2cd1a0c7d7aac3db56c1a9377dd5fc

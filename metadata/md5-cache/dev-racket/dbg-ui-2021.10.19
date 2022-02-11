@@ -12,5 +12,5 @@ RDEPEND=dev-racket/dbg dev-racket/gui-easy-lib >=dev-scheme/racket-8.1:=[-minima
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/racket-dbg/archive/29ac5a2225746872feacd84bd3fe1f34342b7d93.tar.gz -> dbg-ui-2021.10.19.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1f9870727958aa1eb25b1b06ef7644ee	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	e86ea715896422e2b70cdbccff8114ce	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=8b77b8212ed9bea431327aac0d65ed27

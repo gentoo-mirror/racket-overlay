@@ -12,5 +12,5 @@ RDEPEND=dev-racket/al2-test-runner dev-racket/raco-cross-lib >=dev-scheme/racket
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://git.sr.ht/~sschwarzer/raco-exe-multitarget/archive/4da4e5a099cab3bcb8c68c062af197aca24f767a.tar.gz -> raco-exe-multitarget-2022.01.08.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1f9870727958aa1eb25b1b06ef7644ee	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	e86ea715896422e2b70cdbccff8114ce	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=f8157e4884e7d0e6f90e73271473fdef

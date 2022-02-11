@@ -12,5 +12,5 @@ RDEPEND=dev-racket/lens-lib dev-racket/macrotypes-lib >=dev-scheme/racket-8.1:=[
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/stchang/macrotypes/archive/220552416edf5646d796668176a473e4271205b2.tar.gz -> turnstile-lib-2021.04.16.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1f9870727958aa1eb25b1b06ef7644ee	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	e86ea715896422e2b70cdbccff8114ce	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=34d417128f5e5c943c17d241367993eb

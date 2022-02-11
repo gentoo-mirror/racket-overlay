@@ -12,5 +12,5 @@ RDEPEND=dev-racket/deta-lib dev-racket/gregor-lib dev-racket/threading-lib >=dev
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/deta/archive/79870b296fd178a25f69ad8dd11907475721e0cf.tar.gz -> deta-test-2021.11.20.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1f9870727958aa1eb25b1b06ef7644ee	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	e86ea715896422e2b70cdbccff8114ce	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=f4c9c205c665d505d810fb3d924023bb

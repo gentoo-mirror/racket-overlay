@@ -12,5 +12,5 @@ RDEPEND=dev-racket/lang-file dev-racket/scribble-code-examples >=dev-scheme/rack
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/syntax-sloc/archive/cd75518812385d7075d53a158fa76cc0ffb45803.tar.gz -> syntax-sloc-2022.01.08.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1f9870727958aa1eb25b1b06ef7644ee	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	e86ea715896422e2b70cdbccff8114ce	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=ff9c2b3887b3ffe97b9acbdb7d9255d9

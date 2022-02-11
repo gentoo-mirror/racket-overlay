@@ -12,5 +12,5 @@ RDEPEND=dev-racket/scribble-rainbow-delimiters dev-racket/uuid dev-racket/gregor
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/yanyingwang/smtp/archive/91cb0328d39e2acd024881fd997b1404dce4103f.tar.gz -> smtp-2021.07.13.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	1f9870727958aa1eb25b1b06ef7644ee	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	e86ea715896422e2b70cdbccff8114ce	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=d8dd90874131b70ebd2c0d2a8462b565

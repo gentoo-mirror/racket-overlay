@@ -398,6 +398,7 @@ raco_system_setup() {
 		--jobs "$(makeopts_jobs)"
 		--no-docs
 		--no-pkg-deps
+		--only
 		--pkgs "${pkg}"
 	)
 	eraco setup "${raco_opts[@]}"

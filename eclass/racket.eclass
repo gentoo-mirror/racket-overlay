@@ -51,6 +51,17 @@ esac
 # @CODE
 : ${SCRBL_DOCS:="ON"}
 
+# @ECLASS-VARIABLE: RACO_SETUP
+# @DESCRIPTION:
+# This variable toggles whether to run "raco setup" after the package is merged.
+# You probably want this, except for cases of resolving circular dependencies.
+#
+# @CODE
+# RACO_SETUP=ON
+# RACO_SETUP=OFF
+# @CODE
+: ${RACO_SETUP:="ON"}
+
 case ${SCRBL_DOCS} in
 	1 | [Tt][Rr][Uu][Ee] | [Oo][Nn] )
 		do_scrbl=1
@@ -184,23 +195,38 @@ raco_docs_switch() {
 	fi
 }
 
-# @FUNCTION: racket_temporary_install
-# @USAGE: [pkg_name]
+# @FUNCTION: raco_install
+# @USAGE: [arg] ...
 # @DESCRIPTION:
-# Install package to portage's HOME directory.
-racket_temporary_install() {
-	local pkg="${1:-${RACKET_PN}}"
+# Calls "raco pkg install" with given options.
+raco_install() {
 	local raco_opts=(
 		--batch
 		--deps force
 		--force
 		--jobs "$(makeopts_jobs)"
-		--name "${pkg}"
 		--no-cache
-		--scope user
-		$(raco_docs_switch)
 	)
-	eraco pkg install "${raco_opts[@]}"
+	eraco pkg install "${raco_opts[@]}" "${@}"
+}
+
+# @FUNCTION: raco_bare_install
+# @USAGE: scope [pkg_name]
+# @DESCRIPTION:
+# Install package to portage's HOME directory without setup.
+raco_bare_install() {
+	local scope="${1}"
+	local pkg="${2:-${RACKET_PN}}"
+	raco_install --name "${pkg}" --no-docs --no-setup --scope "${scope}"
+}
+
+# @FUNCTION: raco_temporary_install
+# @USAGE: [pkg_name]
+# @DESCRIPTION:
+# Install package to portage's HOME directory.
+raco_temporary_install() {
+	local pkg="${1:-${RACKET_PN}}"
+	raco_install --name "${pkg}" --scope user $(raco_docs_switch)
 }
 
 # @FUNCTION: scribble_system_docs
@@ -233,9 +259,9 @@ scribble_system_docs() {
 # @DESCRIPTION:
 # Default src_compile:
 #
-# Executes `racket_temporary_install' and conditionally `scribble_system_docs'.
+# Executes `raco_temporary_install' and conditionally `scribble_system_docs'.
 racket_src_compile() {
-	racket_temporary_install
+	raco_temporary_install
 
 	if [[ ${do_scrbl} -eq 1 ]] && use doc ; then
 		scribble_system_docs
@@ -345,35 +371,54 @@ racket_pkg_prerm() {
 	fi
 }
 
-# @FUNCTION: raco_install
+# @FUNCTION: raco_system_install
 # @USAGE: [dir]
 # @DESCRIPTION:
 # Only to be used in pkg_postinst.
 # Installs the package in the "Racket way" in the 'installation' scope.
 # Optional argument "dir" selects a directory from which (compiled)
 # sources will be installed, it defaults to RACKET_P_DIR.
-raco_install() {
+raco_system_install() {
 	local dir="${1:-${RACKET_P_DIR}}"
 	pushd "${dir}" >/dev/null || die
+	raco_bare_install installation
+	popd >/dev/null || die
+}
 
+# @FUNCTION: raco_system_setup
+# @USAGE: [pkg_name]
+# @DESCRIPTION:
+# Calls "raco setup".
+# Optional argument "pkg_name" selects the package to setup.
+raco_system_setup() {
+	local pkg="${1:-${RACKET_PN}}"
 	local raco_opts=(
-		--batch
-		--deps force
+		--all-users
 		--force
 		--jobs "$(makeopts_jobs)"
-		--scope installation
-		$(raco_docs_switch)
+		--no-docs
+		--no-pkg-deps
+		--pkgs "${pkg}"
 	)
-	eraco pkg install "${raco_opts[@]}"
-
-	popd >/dev/null || die
+	eraco setup "${raco_opts[@]}"
 }
 
 # @FUNCTION: racket_pkg_postinst
 # @DESCRIPTION:
 # Default pkg_postinst:
 #
-# Runs raco_install without arguments (thus "dir" defaults to RACKET_P_DIR).
+# Runs raco_system_install, "dir" defaults to RACKET_P_DIR
+# and raco_system_setup if RACO_SETUP is ON (the default),
+# "pkg_name" defaults to RACKET_PN.
 racket_pkg_postinst() {
-	raco_install
+	raco_system_install
+
+	case ${RACO_SETUP} in
+		1 | [Tt][Rr][Uu][Ee] | [Oo][Nn] )
+			raco_system_setup
+			;;
+		* )
+			einfo "Skipping \"raco_system_setup\"!"
+			;;
+	esac
 }

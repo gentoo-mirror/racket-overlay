@@ -344,11 +344,11 @@ racket_src_install() {
 }
 
 # @FUNCTION: raco_remove
-# @USAGE: [pkg_name]
+# @USAGE: [pkg_name] ...
 # @DESCRIPTION:
 # Remove a package installed in 'installation' scope
 raco_remove() {
-	local pkg="${1:-${RACKET_PN}}"
+	local pkg="${@:-${RACKET_PN}}"
 	local raco_opts=(
 		--batch
 		--force
@@ -356,7 +356,7 @@ raco_remove() {
 		--no-trash
 		--scope installation
 	)
-	eraco pkg remove "${raco_opts[@]}" "${pkg}"
+	eraco pkg remove "${raco_opts[@]}" ${pkg}
 }
 
 # @FUNCTION: racket_pkg_prerm
@@ -386,12 +386,12 @@ raco_system_install() {
 }
 
 # @FUNCTION: raco_system_setup
-# @USAGE: [pkg_name]
+# @USAGE: [pkg_name] ...
 # @DESCRIPTION:
 # Calls "raco setup".
 # Optional argument "pkg_name" selects the package to setup.
 raco_system_setup() {
-	local pkg="${1:-${RACKET_PN}}"
+	local pkg="${@:-${RACKET_PN}}"
 	local raco_opts=(
 		--all-users
 		--force
@@ -399,7 +399,7 @@ raco_system_setup() {
 		--no-docs
 		--no-pkg-deps
 		--only
-		--pkgs "${pkg}"
+		--pkgs ${pkg}
 	)
 	eraco setup "${raco_opts[@]}"
 }

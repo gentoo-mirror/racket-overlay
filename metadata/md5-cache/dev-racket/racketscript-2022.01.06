@@ -12,5 +12,5 @@ RDEPEND=dev-racket/racketscript-compiler dev-racket/racketscript-doc dev-racket/
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/racketscript/racketscript/archive/d2dc0ba5f613e59af862d08152170a23f63637c6.tar.gz -> racketscript-2022.01.06.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fc7b875ddd53af3f17bb8b306734cd69	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	6d82196be6c6d967aade76dc4f67f5ce	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=2db1e3403ef297b01bd99d3253ec30a2

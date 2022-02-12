@@ -12,5 +12,5 @@ RDEPEND=dev-racket/binary-class >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Kalimehtar/binary-class-mp3/archive/bc10152d1bc6cd1ed7be7bec0e8d3f1ae0bf7977.tar.gz -> binary-class-mp3-2017.08.15.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fc7b875ddd53af3f17bb8b306734cd69	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	6d82196be6c6d967aade76dc4f67f5ce	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=0b9756b6aed987997c4e0cf6619b83d9

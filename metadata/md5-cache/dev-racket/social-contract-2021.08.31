@@ -12,5 +12,5 @@ RDEPEND=dev-racket/adjutor dev-racket/collections-doc dev-racket/collections-lib
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/countvajhula/social-contract/archive/ea92ab0a5bcb342eb969a34fb3c7f981cc79de60.tar.gz -> social-contract-2021.08.31.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fc7b875ddd53af3f17bb8b306734cd69	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	6d82196be6c6d967aade76dc4f67f5ce	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=d14d5789abc0e6db7667e63da38c66dc

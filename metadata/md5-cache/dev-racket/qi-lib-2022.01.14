@@ -12,5 +12,5 @@ RDEPEND=dev-racket/adjutor dev-racket/fancy-app dev-racket/mischief dev-racket/t
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/countvajhula/qi/archive/90a43b83237846bacd4fbd3ed895e4bf0f2a5724.tar.gz -> qi-lib-2022.01.14.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fc7b875ddd53af3f17bb8b306734cd69	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	6d82196be6c6d967aade76dc4f67f5ce	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=6d27dfb69bb7d0fd400a6265f3ed144a

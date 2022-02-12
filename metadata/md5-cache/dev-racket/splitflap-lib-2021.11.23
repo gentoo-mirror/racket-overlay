@@ -12,5 +12,5 @@ RDEPEND=dev-racket/gregor-lib dev-racket/txexpr >=dev-scheme/racket-8.1:=[-minim
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/otherjoel/splitflap/archive/4ca438a99e3837b04c5e55ecf93d3b6b5819f16a.tar.gz -> splitflap-lib-2021.11.23.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	e86ea715896422e2b70cdbccff8114ce	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fc7b875ddd53af3f17bb8b306734cd69	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=95e921b174d7fc566c1d5ed051280ebc

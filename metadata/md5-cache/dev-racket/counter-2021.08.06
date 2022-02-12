@@ -12,5 +12,5 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/xgqt/scheme-counter/-/archive/61be8583e75ec1e44ccd577651d764636c51a123.tar.gz -> counter-2021.08.06.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	e86ea715896422e2b70cdbccff8114ce	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fc7b875ddd53af3f17bb8b306734cd69	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=2eb6386542d86137021f8499ed5af9c2

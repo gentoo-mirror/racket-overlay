@@ -12,5 +12,5 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/tonyg/racket-rfc6455/archive/abdf0099c6930986a4ea9f352b9fb34ba73afea5.tar.gz -> rfc6455-2019.07.14.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	e86ea715896422e2b70cdbccff8114ce	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fc7b875ddd53af3f17bb8b306734cd69	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=40ffb20cfead831ee025699bb18dc91b

@@ -12,5 +12,5 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jeapostrophe/ring-buffer/archive/e93665407487ca0d31e1dadebc570371044f0c27.tar.gz -> ring-buffer-2019.02.02.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	e86ea715896422e2b70cdbccff8114ce	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fc7b875ddd53af3f17bb8b306734cd69	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=ca8740ccbc6232bf390238a955f8815e

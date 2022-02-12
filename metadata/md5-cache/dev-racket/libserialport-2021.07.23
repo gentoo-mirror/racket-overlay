@@ -12,5 +12,5 @@ RDEPEND=dev-racket/misc1 dev-racket/mordae dev-racket/unstable-lib >=dev-scheme/
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mordae/racket-libserialport/archive/b0c01e64796ac2306138022f98b0d654907610ca.tar.gz -> libserialport-2021.07.23.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	e86ea715896422e2b70cdbccff8114ce	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	fc7b875ddd53af3f17bb8b306734cd69	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=0d02b0a3575e1d1f142320fd2f1bebf1

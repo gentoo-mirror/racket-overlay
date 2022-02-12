@@ -36,7 +36,7 @@ esac
 #
 # @CODE
 # RACKET_REQ_USE="chez"
-# RACKET_REQ_USE="doc,chez"
+# RACKET_REQ_USE="chez,doc"
 # @CODE
 
 # @ECLASS-VARIABLE: SCRBL_DOCS

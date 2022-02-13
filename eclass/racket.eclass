@@ -396,8 +396,8 @@ raco_system_setup() {
 		--all-users
 		--force
 		--jobs "$(makeopts_jobs)"
-		--no-docs
 		--no-pkg-deps
+		$(raco_docs_switch)
 		--only
 		--pkgs ${pkg}
 	)

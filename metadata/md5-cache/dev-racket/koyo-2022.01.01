@@ -12,5 +12,5 @@ RDEPEND=dev-racket/koyo-doc dev-racket/koyo-lib >=dev-scheme/racket-8.1:=[-minim
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/koyo/archive/7645212e87f70e6ec3f773945a40d8bcdc9f07db.tar.gz -> koyo-2022.01.01.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	6d82196be6c6d967aade76dc4f67f5ce	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	a586538cfb738e2d200dc6e5c3c79bc2	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=bc120acec5c314796dc203fd96a5c2eb

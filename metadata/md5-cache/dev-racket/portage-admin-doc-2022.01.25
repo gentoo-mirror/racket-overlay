@@ -12,5 +12,5 @@ RDEPEND=dev-racket/portage-admin-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/xgqt/racket-portage-admin/-/archive/75a72d3d8e5c0b6aa66194067492ee670a01e3c9.tar.gz -> portage-admin-doc-2022.01.25.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	6d82196be6c6d967aade76dc4f67f5ce	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	a586538cfb738e2d200dc6e5c3c79bc2	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=8d190ff2913052c41812ed68d1f0cd98

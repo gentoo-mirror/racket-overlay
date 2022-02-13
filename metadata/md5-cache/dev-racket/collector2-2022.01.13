@@ -12,5 +12,5 @@ RDEPEND=dev-racket/counter dev-racket/ebuild-lib dev-racket/ebuild-templates dev
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/src_prepare/racket/collector2/-/archive/7636967586e0229c45e74e2355371fc943668882.tar.gz -> collector2-2022.01.13.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	6d82196be6c6d967aade76dc4f67f5ce	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	a586538cfb738e2d200dc6e5c3c79bc2	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=2ca0bf220e7b75bade46dcba68c4ca46

@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=dev-racket/automata-doc dev-racket/markparam-doc dev-racket/temp-c-doc dev-racket/unstable-contract-lib dev-racket/unstable-debug-lib dev-racket/unstable-lib dev-racket/unstable-list-lib dev-racket/unstable-macro-testing-lib dev-racket/unstable-options-lib dev-racket/unstable-parameter-group-lib dev-racket/unstable-pretty-lib dev-racket/unstable2d >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	6d82196be6c6d967aade76dc4f67f5ce	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	a586538cfb738e2d200dc6e5c3c79bc2	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=e7c1bcef96ae69b9ff75185c563a7cba

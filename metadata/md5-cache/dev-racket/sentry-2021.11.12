@@ -12,5 +12,5 @@ RDEPEND=dev-racket/sentry-doc dev-racket/sentry-lib >=dev-scheme/racket-8.1:=[-m
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/racket-sentry/archive/b47a725c6797b9021eff714d4d81d6583600bd6a.tar.gz -> sentry-2021.11.12.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	6d82196be6c6d967aade76dc4f67f5ce	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	a586538cfb738e2d200dc6e5c3c79bc2	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=c112a5618323ebd53cf6348bc9ade5ec

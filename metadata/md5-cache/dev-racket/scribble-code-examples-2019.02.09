@@ -12,5 +12,5 @@ RDEPEND=dev-racket/scribble-code-examples-lib >=dev-scheme/racket-8.1:=[-minimal
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/scribble-code-examples/archive/18166292d8d491881cf5ac98352c23bd5ebec312.tar.gz -> scribble-code-examples-2019.02.09.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	6d82196be6c6d967aade76dc4f67f5ce	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	a586538cfb738e2d200dc6e5c3c79bc2	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=7adbe9d5dbef7dc061331e03730d01ba

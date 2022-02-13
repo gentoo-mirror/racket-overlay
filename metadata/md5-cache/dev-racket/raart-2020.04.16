@@ -12,5 +12,5 @@ RDEPEND=dev-racket/ansi dev-racket/lux dev-racket/reprovide-lang dev-racket/stru
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jeapostrophe/raart/archive/9d82f2f8ad0052c2f4a6a75a00d957b9806f33df.tar.gz -> raart-2020.04.16.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	6d82196be6c6d967aade76dc4f67f5ce	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	a586538cfb738e2d200dc6e5c3c79bc2	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=3c132b55bce82d6e7730d6364830f3ac

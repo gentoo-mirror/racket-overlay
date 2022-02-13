@@ -12,5 +12,5 @@ RDEPEND=dev-racket/remote-shell-doc dev-racket/remote-shell-lib >=dev-scheme/rac
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/racket/remote-shell/archive/002cc96693bb7ca24e50614bae36d8070eacbd14.tar.gz -> remote-shell-2021.10.09.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	a586538cfb738e2d200dc6e5c3c79bc2	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	489bc6f08717e63b91b91e72c6021531	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=a1c3b51b53540432dd76791a06c03e26

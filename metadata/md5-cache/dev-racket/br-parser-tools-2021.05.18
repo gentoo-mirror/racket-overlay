@@ -12,5 +12,5 @@ RDEPEND=dev-racket/br-parser-tools-doc dev-racket/br-parser-tools-lib >=dev-sche
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mbutterick/br-parser-tools/archive/9b2d7cc759b40fd556a398e181ca0fd070885904.tar.gz -> br-parser-tools-2021.05.18.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	a586538cfb738e2d200dc6e5c3c79bc2	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	489bc6f08717e63b91b91e72c6021531	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=61c320ff0c3ee4fc6c7d289d6b41d39a

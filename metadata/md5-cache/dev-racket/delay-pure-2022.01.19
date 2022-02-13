@@ -12,5 +12,5 @@ RDEPEND=dev-racket/phc-toolkit dev-racket/type-expander dev-racket/version-case 
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jsmaniac/delay-pure/archive/919a52ef1897db51eb2c0c1307d7149db40ccfd6.tar.gz -> delay-pure-2022.01.19.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	a586538cfb738e2d200dc6e5c3c79bc2	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	489bc6f08717e63b91b91e72c6021531	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=fe0aadc8a340fa728a1e6be1dc7fed9b

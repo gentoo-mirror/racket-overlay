@@ -12,5 +12,5 @@ RDEPEND=dev-racket/binary-class dev-racket/fast-convert >=dev-scheme/racket-8.1:
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Kalimehtar/binary-class-dbf/archive/751ed1b7e44f6894d7bdc468727bfc854677338b.tar.gz -> binary-class-dbf-2017.08.15.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	a586538cfb738e2d200dc6e5c3c79bc2	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	489bc6f08717e63b91b91e72c6021531	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=51a4ee7dad83259e209f96fdb8142c04

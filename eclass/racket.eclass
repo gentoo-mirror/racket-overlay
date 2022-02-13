@@ -135,12 +135,15 @@ racket_environment_prepare() {
 
 # @FUNCTION: racket_clean_directory
 # @DESCRIPTION:
-# Removes '.git' directory if it exists so that it is not merged
+# Removes '.git*' directories if they exist so that they are not merged
 # with the package.
 racket_clean_directory() {
-	if [[ -d ".git" ]] ; then
-		rm -r ".git" || die "failed to remove unnecessary '.git' directory"
-	fi
+	local d
+	for d in ./.git* ; do
+		if [[ -d "${d}" ]] ; then
+			rm -r "${d}" || die "failed to remove unnecessary ${d} directory"
+		fi
+	done
 }
 
 # @FUNCTION: racket_fix_collection

@@ -3,15 +3,16 @@
 
 EAPI=8
 
-GH_DOM="github.com"
-GH_REPO="ralsei/graphite"
-GH_COMMIT="58a7bc54345e9b0bc5ac080401757f76d3999b0c"
+MAIN_PH=58a7bc54345e9b0bc5ac080401757f76d3999b0c
+AUX_PH=58a7bc54345e9b0bc5ac080401757f76d3999b0c
 
-inherit racket gh
+inherit racket
 
 DESCRIPTION="A guided tour for Graphite"
-HOMEPAGE="https://github.com/ralsei/graphite"
-S="${S}/graphite-tutorial"
+HOMEPAGE="https://pkgs.racket-lang.org/package/graphite-tutorial"
+SRC_URI="https://github.com/ralsei/graphite/archive/${MAIN_PH}.tar.gz -> ${P}.tar.gz
+	https://github.com/ralsei/graphite/archive/${AUX_PH}.tar.gz -> ${PN}_aux_graphite-doc-${PV}.tar.gz"
+S="${WORKDIR}/graphite-${MAIN_PH}/graphite-tutorial"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
@@ -19,10 +20,29 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/data-frame
-	dev-racket/graphite-doc
 	dev-racket/graphite-lib
 	dev-racket/sawzall-doc
 	dev-racket/sawzall-lib
 	dev-racket/threading-doc
 	dev-racket/threading-lib"
 DEPEND="${RDEPEND}"
+PDEPEND="dev-racket/graphite-doc"
+
+src_compile() {
+	pushd "${WORKDIR}/graphite-${AUX_PH}/graphite-doc" >/dev/null || die
+	raco_bare_install user graphite-doc
+	popd >/dev/null || die
+
+	racket_src_compile
+}
+pkg_prerm() {
+	if has_version "dev-scheme/racket" && racket-where "${RACKET_PN}" ; then
+		raco_remove "${RACKET_PN}" graphite-doc
+	fi
+}
+pkg_postinst() {
+	raco_system_install
+
+	has_version dev-racket/graphite-doc &&
+		raco_system_setup "${RACKET_PN}" graphite-doc
+}

@@ -2,8 +2,4 @@
 <!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 
 <pkgmetadata>
-  <upstream>
-    <bugs-to>https://github.com/lexi-lambda/racket-collections</bugs-to>
-    <remote-id type="github">lexi-lambda/racket-collections</remote-id>
-  </upstream>
 </pkgmetadata>

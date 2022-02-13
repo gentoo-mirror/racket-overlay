@@ -3,21 +3,41 @@
 
 EAPI=8
 
-GH_DOM="github.com"
-GH_REPO="lexi-lambda/racket-collections"
-GH_COMMIT="c4822fc200b0488922cd6e86b4f2ea7cf8c565da"
+MAIN_PH=c4822fc200b0488922cd6e86b4f2ea7cf8c565da
+AUX_PH=be2285cd3da0e2fffe651a8ab723185bb669425d
 
-inherit racket gh
+inherit racket
 
 DESCRIPTION="the collections-doc Racket package"
-HOMEPAGE="https://github.com/lexi-lambda/racket-collections"
-S="${S}/collections-doc"
+HOMEPAGE="https://pkgs.racket-lang.org/package/collections-doc"
+SRC_URI="https://github.com/lexi-lambda/racket-collections/archive/${MAIN_PH}.tar.gz -> ${P}.tar.gz
+	https://github.com/lexi-lambda/functional/archive/${AUX_PH}.tar.gz -> ${PN}_aux_functional-doc-${PV}.tar.gz"
+S="${WORKDIR}/racket-collections-${MAIN_PH}/collections-doc"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/collections-lib
-	dev-racket/functional-doc"
+RDEPEND="dev-racket/collections-lib"
 DEPEND="${RDEPEND}"
+PDEPEND="dev-racket/functional-doc"
+
+src_compile() {
+	pushd "${WORKDIR}/functional-${AUX_PH}/functional-doc" >/dev/null || die
+	raco_bare_install user functional-doc
+	popd >/dev/null || die
+
+	racket_src_compile
+}
+pkg_prerm() {
+	if has_version "dev-scheme/racket" && racket-where "${RACKET_PN}" ; then
+		raco_remove "${RACKET_PN}" functional-doc
+	fi
+}
+pkg_postinst() {
+	raco_system_install
+
+	has_version dev-racket/functional-doc &&
+		raco_system_setup "${RACKET_PN}" functional-doc
+}

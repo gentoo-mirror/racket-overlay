@@ -3,22 +3,42 @@
 
 EAPI=8
 
-GH_DOM="github.com"
-GH_REPO="lexi-lambda/functional"
-GH_COMMIT="be2285cd3da0e2fffe651a8ab723185bb669425d"
+MAIN_PH=be2285cd3da0e2fffe651a8ab723185bb669425d
+AUX_PH=c4822fc200b0488922cd6e86b4f2ea7cf8c565da
 
-inherit racket gh
+inherit racket
 
 DESCRIPTION="the functional-lib Racket package"
-HOMEPAGE="https://github.com/lexi-lambda/functional"
-S="${S}/functional-lib"
+HOMEPAGE="https://pkgs.racket-lang.org/package/functional-lib"
+SRC_URI="https://github.com/lexi-lambda/functional/archive/${MAIN_PH}.tar.gz -> ${P}.tar.gz
+	https://github.com/lexi-lambda/racket-collections/archive/${AUX_PH}.tar.gz -> ${PN}_aux_collections-lib-${PV}.tar.gz"
+S="${WORKDIR}/functional-${MAIN_PH}/functional-lib"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/collections-lib
-	dev-racket/curly-fn-lib
+RDEPEND="dev-racket/curly-fn-lib
 	dev-racket/static-rename-lib"
 DEPEND="${RDEPEND}"
+PDEPEND="dev-racket/collections-lib"
+
+src_compile() {
+	pushd "${WORKDIR}/racket-collections-${AUX_PH}/collections-lib" >/dev/null || die
+	raco_bare_install user collections-lib
+	popd >/dev/null || die
+
+	racket_src_compile
+}
+pkg_prerm() {
+	if has_version "dev-scheme/racket" && racket-where "${RACKET_PN}" ; then
+		raco_remove "${RACKET_PN}" collections-lib
+	fi
+}
+pkg_postinst() {
+	raco_system_install
+
+	has_version dev-racket/collections-lib &&
+		raco_system_setup "${RACKET_PN}" collections-lib
+}

@@ -3,15 +3,16 @@
 
 EAPI=8
 
-GH_DOM="github.com"
-GH_REPO="jackfirth/lens"
-GH_COMMIT="733db7744921409b69ddc78ae5b23ffaa6b91e37"
+MAIN_PH=733db7744921409b69ddc78ae5b23ffaa6b91e37
+AUX_PH=733db7744921409b69ddc78ae5b23ffaa6b91e37
 
-inherit racket gh
+inherit racket
 
 DESCRIPTION="Base lens constructors and additional combinators"
-HOMEPAGE="https://github.com/jackfirth/lens"
-S="${S}/lens-common"
+HOMEPAGE="https://pkgs.racket-lang.org/package/lens-common"
+SRC_URI="https://github.com/jackfirth/lens/archive/${MAIN_PH}.tar.gz -> ${P}.tar.gz
+	https://github.com/jackfirth/lens/archive/${AUX_PH}.tar.gz -> ${PN}_aux_lens-data-${PV}.tar.gz"
+S="${WORKDIR}/lens-${MAIN_PH}/lens-common"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
@@ -19,7 +20,26 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/fancy-app
-	dev-racket/lens-data
 	dev-racket/reprovide-lang-lib
 	dev-racket/sweet-exp-lib"
 DEPEND="${RDEPEND}"
+PDEPEND="dev-racket/lens-data"
+
+src_compile() {
+	pushd "${WORKDIR}/lens-${AUX_PH}/lens-data" >/dev/null || die
+	raco_bare_install user lens-data
+	popd >/dev/null || die
+
+	racket_src_compile
+}
+pkg_prerm() {
+	if has_version "dev-scheme/racket" && racket-where "${RACKET_PN}" ; then
+		raco_remove "${RACKET_PN}" lens-data
+	fi
+}
+pkg_postinst() {
+	raco_system_install
+
+	has_version dev-racket/lens-data &&
+		raco_system_setup "${RACKET_PN}" lens-data
+}

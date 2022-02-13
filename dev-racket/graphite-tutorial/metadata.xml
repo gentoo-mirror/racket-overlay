@@ -2,8 +2,4 @@
 <!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 
 <pkgmetadata>
-  <upstream>
-    <bugs-to>https://github.com/ralsei/graphite</bugs-to>
-    <remote-id type="github">ralsei/graphite</remote-id>
-  </upstream>
 </pkgmetadata>

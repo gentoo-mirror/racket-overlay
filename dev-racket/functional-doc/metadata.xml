@@ -2,8 +2,4 @@
 <!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 
 <pkgmetadata>
-  <upstream>
-    <bugs-to>https://github.com/lexi-lambda/functional</bugs-to>
-    <remote-id type="github">lexi-lambda/functional</remote-id>
-  </upstream>
 </pkgmetadata>

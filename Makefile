@@ -36,7 +36,7 @@ ebuilds:
 	$(RACKET) -l collector2 -- $(C2FLAGS)
 
 manifests:
-	GENTOO_MIRRORS="" $(REPOMAN) manifest
+	GENTOO_MIRRORS="" $(REPOMAN) -j $(NPROC) manifest
 
 regen-gentoo: ebuilds manifests
 

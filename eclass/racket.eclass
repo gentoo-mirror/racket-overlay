@@ -352,7 +352,7 @@ raco_remove() {
 	local raco_opts=(
 		--batch
 		--force
-		--no-docs
+		--no-docs  # CONSIDER: use $(raco_docs_switch) here?
 		--no-trash
 		--scope installation
 	)

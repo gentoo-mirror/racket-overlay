@@ -3,14 +3,16 @@
 
 EAPI=8
 
-GH_DOM="github.com"
-GH_REPO="jsmaniac/subtemplate"
-GH_COMMIT="a3292113bb0d7dd8dc2114702b90e76f23963496"
+MAIN_PH=a3292113bb0d7dd8dc2114702b90e76f23963496
+AUX_PH=d35e84905fdbbef4309edca0a138cd77066be185
 
-inherit racket gh
+inherit racket
 
 DESCRIPTION="the subtemplate Racket package"
-HOMEPAGE="https://github.com/jsmaniac/subtemplate"
+HOMEPAGE="https://pkgs.racket-lang.org/package/subtemplate"
+SRC_URI="https://github.com/jsmaniac/subtemplate/archive/${MAIN_PH}.tar.gz -> ${P}.tar.gz
+	https://github.com/jsmaniac/stxparse-info/archive/${AUX_PH}.tar.gz -> ${PN}_aux_stxparse-info-${PV}.tar.gz"
+S="${WORKDIR}/subtemplate-${MAIN_PH}/"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
@@ -23,6 +25,25 @@ RDEPEND="dev-racket/alexis-util
 	dev-racket/phc-toolkit
 	dev-racket/scope-operations
 	dev-racket/scribble-math
-	dev-racket/stxparse-info
 	dev-racket/version-case"
 DEPEND="${RDEPEND}"
+PDEPEND="dev-racket/stxparse-info"
+
+src_compile() {
+	pushd "${WORKDIR}/stxparse-info-${AUX_PH}/" >/dev/null || die
+	raco_bare_install user stxparse-info
+	popd >/dev/null || die
+
+	racket_src_compile
+}
+pkg_prerm() {
+	if has_version "dev-scheme/racket" && racket-where "${RACKET_PN}" ; then
+		raco_remove "${RACKET_PN}" stxparse-info
+	fi
+}
+pkg_postinst() {
+	raco_system_install
+
+	has_version dev-racket/stxparse-info &&
+		raco_system_setup "${RACKET_PN}" stxparse-info
+}

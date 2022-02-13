@@ -2,8 +2,4 @@
 <!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 
 <pkgmetadata>
-  <upstream>
-    <bugs-to>https://github.com/wargrey/graphics</bugs-to>
-    <remote-id type="github">wargrey/graphics</remote-id>
-  </upstream>
 </pkgmetadata>

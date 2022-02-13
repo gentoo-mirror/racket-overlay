@@ -2,8 +2,4 @@
 <!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 
 <pkgmetadata>
-  <upstream>
-    <bugs-to>https://github.com/jsmaniac/stxparse-info</bugs-to>
-    <remote-id type="github">jsmaniac/stxparse-info</remote-id>
-  </upstream>
 </pkgmetadata>

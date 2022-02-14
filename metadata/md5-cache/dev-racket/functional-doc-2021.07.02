@@ -14,4 +14,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lexi-lambda/functional/archive/be2285cd3da0e2fffe651a8ab723185bb669425d.tar.gz -> functional-doc-2021.07.02.tar.gz https://github.com/lexi-lambda/racket-collections/archive/c4822fc200b0488922cd6e86b4f2ea7cf8c565da.tar.gz -> functional-doc_aux_collections-doc-2021.07.02.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	489bc6f08717e63b91b91e72c6021531
-_md5_=060d53d3b9fb5458df25e84e8b170f61
+_md5_=3e3ec536f438db03c0e507e8d67ac856

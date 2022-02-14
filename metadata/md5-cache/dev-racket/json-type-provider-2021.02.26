@@ -14,4 +14,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/philnguyen/json-type-provider/archive/f96d3f212519f4ff2aef828e7b891971b82babb8.tar.gz -> json-type-provider-2021.02.26.tar.gz https://github.com/philnguyen/json-type-provider/archive/f96d3f212519f4ff2aef828e7b891971b82babb8.tar.gz -> json-type-provider_aux_json-type-provider-2021.02.26.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	489bc6f08717e63b91b91e72c6021531
-_md5_=ca8f70977e77031bc907d0ae449736f9
+_md5_=bd3823a6baac127e57f450c7f8b42399

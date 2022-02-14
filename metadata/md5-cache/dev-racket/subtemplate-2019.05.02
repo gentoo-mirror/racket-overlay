@@ -14,4 +14,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jsmaniac/subtemplate/archive/a3292113bb0d7dd8dc2114702b90e76f23963496.tar.gz -> subtemplate-2019.05.02.tar.gz https://github.com/jsmaniac/stxparse-info/archive/d35e84905fdbbef4309edca0a138cd77066be185.tar.gz -> subtemplate_aux_stxparse-info-2019.05.02.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	489bc6f08717e63b91b91e72c6021531
-_md5_=4160eef6bbc88f5dadf43fd639c9197a
+_md5_=5b71155675391fb34afc256d6919324a

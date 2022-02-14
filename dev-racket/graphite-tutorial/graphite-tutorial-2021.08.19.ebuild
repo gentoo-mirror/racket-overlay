@@ -35,11 +35,13 @@ src_compile() {
 
 	racket_src_compile
 }
+
 pkg_prerm() {
 	if has_version "dev-scheme/racket" && racket-where "${RACKET_PN}" ; then
 		raco_remove "${RACKET_PN}" graphite-doc
 	fi
 }
+
 pkg_postinst() {
 	raco_system_install
 

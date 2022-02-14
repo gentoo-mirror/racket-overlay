@@ -28,11 +28,13 @@ src_compile() {
 
 	racket_src_compile
 }
+
 pkg_prerm() {
 	if has_version "dev-scheme/racket" && racket-where "${RACKET_PN}" ; then
 		raco_remove "${RACKET_PN}" json-type-provider
 	fi
 }
+
 pkg_postinst() {
 	raco_system_install
 

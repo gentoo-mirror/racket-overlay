@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -21,6 +21,7 @@ RDEPEND="dev-racket/alexis-util
 	dev-racket/extensible-parser-specifications
 	dev-racket/hyper-literate
 	dev-racket/multi-id
+	dev-racket/phc-adt-lib
 	dev-racket/phc-toolkit
 	dev-racket/remember
 	dev-racket/scribble-enhanced

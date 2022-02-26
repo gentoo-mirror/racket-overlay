@@ -16,7 +16,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/memoize
+RDEPEND="dev-racket/memoize-lib
 	dev-racket/net-cookies-doc
 	dev-racket/net-cookies-lib
 	dev-racket/resource-pool-lib"

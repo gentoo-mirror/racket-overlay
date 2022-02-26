@@ -19,5 +19,6 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/component-lib
 	dev-racket/crypto-lib
 	dev-racket/gregor-lib
+	dev-racket/mime-type-lib
 	dev-racket/raco-invoke"
 DEPEND="${RDEPEND}"

@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/gtp-util dev-racket/rackunit-abbrevs dev-racket/reprovide-lang dev-racket/scribble-abbrevs >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Plots for gradual typing performance
+EAPI=8
+HOMEPAGE=https://github.com/bennn/gtp-plot
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/gtp-util dev-racket/rackunit-abbrevs dev-racket/reprovide-lang dev-racket/scribble-abbrevs >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/bennn/gtp-plot/archive/939c39dc7f355063eaa1b8759fe622b7280a9406.tar.gz -> gtp-plot-2022.02.20.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	489bc6f08717e63b91b91e72c6021531	gh	7310922752774a331ac8a69cc9cb2caf
+_md5_=a5ed61f3e4d9daf1006d131cfd3ea7b1

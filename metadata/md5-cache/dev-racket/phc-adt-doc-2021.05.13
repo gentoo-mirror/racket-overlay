@@ -1,6 +1,6 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/alexis-util dev-racket/datatype dev-racket/extensible-parser-specifications dev-racket/hyper-literate dev-racket/multi-id dev-racket/phc-toolkit dev-racket/remember dev-racket/scribble-enhanced dev-racket/scribble-math dev-racket/threading dev-racket/trivial dev-racket/type-expander dev-racket/typed-struct-props dev-racket/xlist >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/alexis-util dev-racket/datatype dev-racket/extensible-parser-specifications dev-racket/hyper-literate dev-racket/multi-id dev-racket/phc-adt-lib dev-racket/phc-toolkit dev-racket/remember dev-racket/scribble-enhanced dev-racket/scribble-math dev-racket/threading dev-racket/trivial dev-racket/type-expander dev-racket/typed-struct-props dev-racket/xlist >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Documentation for phc-adt (and rendering of the literate programming)
 EAPI=8
 HOMEPAGE=https://github.com/jsmaniac/phc-adt
@@ -8,9 +8,9 @@ INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/alexis-util dev-racket/datatype dev-racket/extensible-parser-specifications dev-racket/hyper-literate dev-racket/multi-id dev-racket/phc-toolkit dev-racket/remember dev-racket/scribble-enhanced dev-racket/scribble-math dev-racket/threading dev-racket/trivial dev-racket/type-expander dev-racket/typed-struct-props dev-racket/xlist >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/alexis-util dev-racket/datatype dev-racket/extensible-parser-specifications dev-racket/hyper-literate dev-racket/multi-id dev-racket/phc-adt-lib dev-racket/phc-toolkit dev-racket/remember dev-racket/scribble-enhanced dev-racket/scribble-math dev-racket/threading dev-racket/trivial dev-racket/type-expander dev-racket/typed-struct-props dev-racket/xlist >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jsmaniac/phc-adt/archive/36c1047c4899d1b478cc6052f9b2e71168aeefb5.tar.gz -> phc-adt-doc-2021.05.13.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	489bc6f08717e63b91b91e72c6021531	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=d04afaa011ae0c001b0009a9dce9c89b
+_md5_=93572c85c091b28f52a5df16efd099c7

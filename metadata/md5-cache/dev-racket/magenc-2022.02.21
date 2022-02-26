@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/crypto-lib dev-racket/csexp dev-racket/sql >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Symmetric encryption for magnet URIs (code and docs)
+EAPI=8
+HOMEPAGE=https://gitlab.com/dustyweb/magenc
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/crypto-lib dev-racket/csexp dev-racket/sql >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://gitlab.com/dustyweb/magenc/-/archive/f5e011cb3f4fa060623764a4a80860e31ebca9fc.tar.gz -> magenc-2022.02.21.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	489bc6f08717e63b91b91e72c6021531	gh	7310922752774a331ac8a69cc9cb2caf
+_md5_=b5fe48160b6722fdae4ff1f92935ed5c

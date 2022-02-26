@@ -1,6 +1,6 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/functional-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/curly-fn-lib dev-racket/functional-lib dev-racket/match-plus >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=The programming language Lua. Targeting version 5.3.5 (Currently unstable)
 EAPI=8
 HOMEPAGE=https://github.com/shawsumma/lure
@@ -8,8 +8,8 @@ INHERIT=racket gh
 IUSE=doc
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/functional-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/curly-fn-lib dev-racket/functional-lib dev-racket/match-plus >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	489bc6f08717e63b91b91e72c6021531	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=797bddc3d998bd96c7e3b50b47f00bd6
+_md5_=50f415554e3ab5d6d601f86b12434e16

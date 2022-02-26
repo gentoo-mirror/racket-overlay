@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test unpack
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Eli's PL course plugin
+EAPI=8
+HOMEPAGE=https://pkgs.racket-lang.org/package/pl
+INHERIT=racket
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+PROPERTIES=live
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	489bc6f08717e63b91b91e72c6021531
+_md5_=e3f11d053d73f3b73256a4a2ae9c9a13

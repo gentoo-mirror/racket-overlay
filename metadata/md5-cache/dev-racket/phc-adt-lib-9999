@@ -1,6 +1,6 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/scribble-math dev-racket/scribble-enhanced dev-racket/datatype dev-racket/generic-bind dev-racket/xlist dev-racket/match-string dev-racket/typed-struct-props dev-racket/alexis-util dev-racket/extensible-parser-specifications dev-racket/type-expander dev-racket/remember dev-racket/phc-toolkit dev-racket/multi-id dev-racket/hyper-literate >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/alexis-util dev-racket/datatype dev-racket/extensible-parser-specifications dev-racket/generic-bind dev-racket/hyper-literate dev-racket/match-string dev-racket/multi-id dev-racket/phc-toolkit dev-racket/remember dev-racket/scribble-enhanced dev-racket/scribble-math dev-racket/type-expander dev-racket/typed-struct-props dev-racket/xlist >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Implementation of phc-adt
 EAPI=8
 HOMEPAGE=https://github.com/jsmaniac/phc-adt
@@ -8,8 +8,8 @@ INHERIT=racket gh
 IUSE=doc
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/scribble-math dev-racket/scribble-enhanced dev-racket/datatype dev-racket/generic-bind dev-racket/xlist dev-racket/match-string dev-racket/typed-struct-props dev-racket/alexis-util dev-racket/extensible-parser-specifications dev-racket/type-expander dev-racket/remember dev-racket/phc-toolkit dev-racket/multi-id dev-racket/hyper-literate >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/alexis-util dev-racket/datatype dev-racket/extensible-parser-specifications dev-racket/generic-bind dev-racket/hyper-literate dev-racket/match-string dev-racket/multi-id dev-racket/phc-toolkit dev-racket/remember dev-racket/scribble-enhanced dev-racket/scribble-math dev-racket/type-expander dev-racket/typed-struct-props dev-racket/xlist >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	489bc6f08717e63b91b91e72c6021531	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	7310922752774a331ac8a69cc9cb2caf
-_md5_=347897f7375048eb49ef9ffc753eed73
+_md5_=ecd049ac489aed1aea6697722aed4d90

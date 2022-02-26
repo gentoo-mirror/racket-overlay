@@ -4,7 +4,7 @@
 EAPI=8
 
 MAIN_PH=1b345df0a0ac0714ff95b5569a59b87dc38f87c4
-AUX_PH=57d09f638b2d73e8f36bf358540f3ba2f3ff8ce1
+AUX_PH=051c2bb49cedbccbd8979b8b1c90a17ef16e5400
 
 inherit racket
 
@@ -30,11 +30,13 @@ src_compile() {
 
 	racket_src_compile
 }
+
 pkg_prerm() {
 	if has_version "dev-scheme/racket" && racket-where "${RACKET_PN}" ; then
 		raco_remove "${RACKET_PN}" graphics
 	fi
 }
+
 pkg_postinst() {
 	raco_system_install
 

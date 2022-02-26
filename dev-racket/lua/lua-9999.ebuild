@@ -15,5 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/functional-lib"
+RDEPEND="dev-racket/curly-fn-lib
+	dev-racket/functional-lib
+	dev-racket/match-plus"
 DEPEND="${RDEPEND}"

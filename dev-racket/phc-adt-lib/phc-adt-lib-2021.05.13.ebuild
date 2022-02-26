@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -18,18 +18,18 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/scribble-math
-	dev-racket/scribble-enhanced
+RDEPEND="dev-racket/alexis-util
 	dev-racket/datatype
-	dev-racket/generic-bind
-	dev-racket/xlist
-	dev-racket/match-string
-	dev-racket/typed-struct-props
-	dev-racket/alexis-util
 	dev-racket/extensible-parser-specifications
-	dev-racket/type-expander
-	dev-racket/remember
-	dev-racket/phc-toolkit
+	dev-racket/generic-bind
+	dev-racket/hyper-literate
+	dev-racket/match-string
 	dev-racket/multi-id
-	dev-racket/hyper-literate"
+	dev-racket/phc-toolkit
+	dev-racket/remember
+	dev-racket/scribble-enhanced
+	dev-racket/scribble-math
+	dev-racket/type-expander
+	dev-racket/typed-struct-props
+	dev-racket/xlist"
 DEPEND="${RDEPEND}"

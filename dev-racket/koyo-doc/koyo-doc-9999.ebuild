@@ -21,5 +21,7 @@ RDEPEND="dev-racket/component-doc
 	dev-racket/gregor-doc
 	dev-racket/gregor-lib
 	dev-racket/koyo-lib
-	dev-racket/libargon2"
+	dev-racket/libargon2
+	dev-racket/mime-type
+	dev-racket/mime-type-lib"
 DEPEND="${RDEPEND}"

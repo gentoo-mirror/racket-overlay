@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/r7rs-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=An implementation of R7RS as a #lang
+EAPI=8
+HOMEPAGE=https://github.com/lexi-lambda/racket-r7rs
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/r7rs-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/lexi-lambda/racket-r7rs/archive/a66868651dfee41e0c66887efa8201f7dcb23fb1.tar.gz -> r7rs-2022.02.28.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	489bc6f08717e63b91b91e72c6021531	gh	7310922752774a331ac8a69cc9cb2caf
+_md5_=d2f975925c07c24e9b1a4c1746350942

@@ -21,7 +21,9 @@ RDEPEND="dev-racket/arguments
 	dev-racket/cover
 	dev-racket/cover-coveralls
 	dev-racket/functional-doc
+	dev-racket/mischief
 	dev-racket/relation
 	dev-racket/scribble-abbrevs
-	dev-racket/social-contract"
+	dev-racket/social-contract
+	dev-racket/version-case"
 DEPEND="${RDEPEND}"

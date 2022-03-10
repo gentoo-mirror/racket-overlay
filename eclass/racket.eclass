@@ -51,6 +51,17 @@ esac
 # @CODE
 : ${SCRBL_DOCS:="ON"}
 
+case ${SCRBL_DOCS} in
+	1 | [Tt][Rr][Uu][Ee] | [Oo][Nn] )
+		_do_scrbl=1
+		IUSE+="doc"
+		BDEPEND+=" doc? ( dev-texlive/texlive-fontsextra ) "
+		;;
+	* )
+		_do_scrbl=0
+		;;
+esac
+
 # @ECLASS-VARIABLE: RACO_SETUP
 # @DESCRIPTION:
 # This variable toggles whether to run "raco setup" after the package is merged.
@@ -61,17 +72,6 @@ esac
 # RACO_SETUP=OFF
 # @CODE
 : ${RACO_SETUP:="ON"}
-
-case ${SCRBL_DOCS} in
-	1 | [Tt][Rr][Uu][Ee] | [Oo][Nn] )
-		do_scrbl=1
-		IUSE+="doc"
-		BDEPEND+=" doc? ( dev-texlive/texlive-fontsextra ) "
-		;;
-	* )
-		do_scrbl=0
-		;;
-esac
 
 # @ECLASS-VARIABLE: SCRBL_DOC_DIR
 # @DESCRIPTION:
@@ -188,10 +188,10 @@ eraco() {
 
 # @FUNCTION: raco_docs_switch
 # @DESCRIPTION:
-# Based on whether do_scrbl=1 and USE=doc documentation is enabled
+# Based on whether _do_scrbl=1 and USE=doc documentation is enabled
 # by not passing the --no-docs switch.
 raco_docs_switch() {
-	if [[ ${do_scrbl} -eq 1 ]] && use doc ; then
+	if [[ ${_do_scrbl} -eq 1 ]] && use doc ; then
 		echo ''
 	else
 		echo '--no-docs'
@@ -266,7 +266,7 @@ scribble_system_docs() {
 racket_src_compile() {
 	raco_temporary_install
 
-	if [[ ${do_scrbl} -eq 1 ]] && use doc ; then
+	if [[ ${_do_scrbl} -eq 1 ]] && use doc ; then
 		scribble_system_docs
 	fi
 }
@@ -324,7 +324,7 @@ racket_copy_launchers() {
 # @DESCRIPTION:
 # Install documentation from SCRBL_DOC_DIR.
 racket_maybe_install_system_docs() {
-	if [[ ${do_scrbl} -eq 1 ]] ; then
+	if [[ ${_do_scrbl} -eq 1 ]] ; then
 		if use doc ; then
 			einfo "Installing documentation for ${P}"
 			insinto "/usr/share/doc/${PF}"

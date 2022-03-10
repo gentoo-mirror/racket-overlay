@@ -12,5 +12,5 @@ RDEPEND=dev-racket/parendown-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lathe/lathe-morphisms-for-racket/archive/07e4a0c299e1f015e531acf51393e6f8fd8d7354.tar.gz -> lathe-morphisms-test-2022.01.24.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	489bc6f08717e63b91b91e72c6021531	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	a0634b4179dc106969be1ef458bc37e5	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=93a254b05c19fdca50e929dcc0f88f31

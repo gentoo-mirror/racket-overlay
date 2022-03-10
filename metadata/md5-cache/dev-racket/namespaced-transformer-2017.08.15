@@ -12,5 +12,5 @@ RDEPEND=dev-racket/namespaced-transformer-doc dev-racket/namespaced-transformer-
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lexi-lambda/namespaced-transformer/archive/4cdc1bdae09a07b78f23665267f2c7df4be5a7f6.tar.gz -> namespaced-transformer-2017.08.15.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	489bc6f08717e63b91b91e72c6021531	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	a0634b4179dc106969be1ef458bc37e5	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=67265473e258a36ee58246a625cae1a5

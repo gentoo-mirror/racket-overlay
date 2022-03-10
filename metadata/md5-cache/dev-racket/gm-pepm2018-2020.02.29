@@ -12,5 +12,5 @@ RDEPEND=dev-racket/html-parsing dev-racket/rackunit-abbrevs dev-racket/sxml dev-
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/nuprl/retic_performance/archive/621211c2f40251ce5364c33e72e4067e34a32013.tar.gz -> gm-pepm2018-2020.02.29.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	489bc6f08717e63b91b91e72c6021531	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	a0634b4179dc106969be1ef458bc37e5	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=0631b7f819fed730df194e013620a764

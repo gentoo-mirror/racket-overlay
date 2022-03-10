@@ -12,5 +12,5 @@ RDEPEND=dev-racket/basedir dev-racket/linea dev-racket/shell-pipeline dev-racket
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/willghatch/racket-rash/archive/c85dda5fc7c387fd6e9207ae0b3fcd5b5ce208e7.tar.gz -> rash-2021.11.20.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	489bc6f08717e63b91b91e72c6021531	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	a0634b4179dc106969be1ef458bc37e5	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=330e1c3d3895744a12b6e36707d9105f

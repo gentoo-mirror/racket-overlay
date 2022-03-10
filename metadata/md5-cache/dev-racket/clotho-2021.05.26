@@ -12,5 +12,5 @@ RDEPEND=dev-racket/version-string-with-git-hash >=dev-scheme/racket-8.1:=[-minim
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.flux.utah.edu/xsmith/clotho/-/archive/7cc309787f07286e3b1411346f4e85e4bec09098.tar.gz -> clotho-2021.05.26.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	489bc6f08717e63b91b91e72c6021531	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	a0634b4179dc106969be1ef458bc37e5	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=f79952039d208f161769f124a307dfe8

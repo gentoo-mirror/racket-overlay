@@ -12,5 +12,5 @@ RDEPEND=dev-racket/doc-coverage dev-racket/morsel-lib >=dev-scheme/racket-8.1:=[
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/default-kramer/morsel/archive/10cf376f07755f066cbbfc2d242c104f103b33da.tar.gz -> morsel-doc-2020.06.22.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	489bc6f08717e63b91b91e72c6021531	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	a0634b4179dc106969be1ef458bc37e5	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=6a911191d8d4557af2662f7405556c4d

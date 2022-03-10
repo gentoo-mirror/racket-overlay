@@ -12,5 +12,5 @@ RDEPEND=dev-racket/brag dev-racket/lathe-comforts-doc dev-racket/lathe-comforts-
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lathe/punctaffy-for-racket/archive/398569d856c9b1079e7029beb5b3826d1000ad94.tar.gz -> punctaffy-doc-2022.02.14.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	489bc6f08717e63b91b91e72c6021531	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	a0634b4179dc106969be1ef458bc37e5	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=e0e77a80e06e1df19957caba74fc5b67

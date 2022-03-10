@@ -12,5 +12,5 @@ RDEPEND=dev-racket/hash-lambda dev-racket/heresy dev-racket/kw-utils dev-racket/
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/my-object/archive/5a6ee970bad2ab86d2d69e1dbf2f7bb158e88963.tar.gz -> alexknauth-my-object-2021.11.27.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	489bc6f08717e63b91b91e72c6021531	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	a0634b4179dc106969be1ef458bc37e5	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=c9a869c756789ffd9f44bc3e75d1a78f

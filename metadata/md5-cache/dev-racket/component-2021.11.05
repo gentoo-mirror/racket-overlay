@@ -12,5 +12,5 @@ RDEPEND=dev-racket/component-doc dev-racket/component-lib >=dev-scheme/racket-8.
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/racket-component/archive/1c2a0ec582caaa15c7bfeab0dd25bd2f58c99c7f.tar.gz -> component-2021.11.05.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	489bc6f08717e63b91b91e72c6021531	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	a0634b4179dc106969be1ef458bc37e5	gh	7310922752774a331ac8a69cc9cb2caf
 _md5_=23235d73f732925205e19406c1c351d2

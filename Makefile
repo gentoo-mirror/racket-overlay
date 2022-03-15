@@ -1,42 +1,42 @@
-# This file is part of racket-overlay.
-
-# racket-overlay is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-
-# racket-overlay is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.	See the
-# GNU General Public License for more details.
-
-# You should have received a copy of the GNU General Public License
-# along with racket-overlay.  If not, see <https://www.gnu.org/licenses/>.
-
 # Original author: Maciej Barć <xgqt@riseup.net>
 # Copyright (c) 2021, src_prepare group
 # Licensed under the GNU GPL v2 License
 
 
-RACKET  := racket
-REPOMAN := repoman
-SH      := sh
+RACKET              := racket
+SH                  := sh
+
+NPROC               := $(shell nproc)
 
 # i.e.: C2EXCL="-e pkg1 -e pkg2"
-C2EXCL  :=
-C2FLAGS := --create --directory $(PWD) --verbose $(C2EXCL)
+COLLECTOR2_EXCLUDE  :=
+COLLECTOR2_AUX      := --create --directory $(PWD) --verbose
+COLLECTOR2_FLAGS    := $(COLLECTOR2_AUX) $(COLLECTOR2_EXCLUDE)
 
-NPROC   := $(shell nproc)
+PKGDEV              := pkgdev
+PKGCHECK            := pkgcheck
+
+MANIFEST            := $(PKGDEV) manifest
+SCAN                := $(PKGCHECK) scan
+
+MANIFEST_FLAGS      := --verbose
+
+SCAN_AUX            := --jobs $(NPROC) --verbose
+SCAN_EXIT_ON        := error
+SCAN_KEYWORDS       := -MatchingChksums,-RedundantVersion
+SCAN_PROFILES       := default/linux/amd64/17.1
+SCAN_CHECKS         := --exit=$(SCAN_EXIT_ON) --keywords=$(SCAN_KEYWORDS) --profiles=$(SCAN_PROFILES)
+SCAN_FLAGS          := $(SCAN_AUX) $(SCAN_CHECKS)
 
 
 all: regen-gentoo test
 
 
 ebuilds:
-	$(RACKET) -l collector2 -- $(C2FLAGS)
+	$(RACKET) -l collector2 -- $(COLLECTOR2_FLAGS)
 
 manifests:
-	GENTOO_MIRRORS="" $(REPOMAN) -j $(NPROC) manifest
+	$(MANIFEST) $(MANIFEST_FLAGS) $(PWD)
 
 regen-gentoo: ebuilds manifests
 
@@ -52,7 +52,7 @@ regen-public: clean-public public
 
 
 test:
-	$(REPOMAN) --include-dev --xmlparse --jobs $(NPROC) --verbose full
+	$(SCAN) $(SCAN_FLAGS) $(PWD)
 
 
 submodules:

@@ -6,7 +6,7 @@
 RACKET              := racket
 SH                  := sh
 
-NPROC               := $(shell nproc)
+NPROC               := $(shell nproc || echo 1)
 
 # i.e.: C2EXCL="-e pkg1 -e pkg2"
 COLLECTOR2_EXCLUDE  :=
@@ -21,7 +21,7 @@ SCAN                := $(PKGCHECK) scan
 
 MANIFEST_FLAGS      := --verbose
 
-SCAN_AUX            := --jobs $(NPROC) --verbose
+SCAN_AUX            := --jobs=$(NPROC) --verbose
 SCAN_EXIT_ON        := error
 SCAN_KEYWORDS       := -MatchingChksums,-RedundantVersion
 SCAN_PROFILES       := default/linux/amd64/17.1

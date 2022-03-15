@@ -32,6 +32,8 @@ SCAN_FLAGS          := $(SCAN_AUX) $(SCAN_CHECKS)
 all: regen-gentoo test
 
 
+# Regenerate
+
 ebuilds:
 	$(RACKET) -l collector2 -- $(COLLECTOR2_FLAGS)
 
@@ -41,19 +43,27 @@ manifests:
 regen-gentoo: ebuilds manifests
 
 
-clean-public:
-	if [ -d ./public ] ; then rm -dr ./public ; fi
-
-public:
-	cd ./scribblings && $(SH) ./build.sh
-	cp -r ./scribblings/doc/racket-overlay ./public
-
-regen-public: clean-public public
-
+# Test
 
 test:
 	$(SCAN) $(SCAN_FLAGS) $(PWD)
 
+
+# Documentation
+
+scribblings/doc:
+	cd $(PWD)/scribblings && $(SH) ./build.sh
+
+public: scribblings/doc
+	cp -r $(PWD)/scribblings/doc/racket-overlay $(PWD)/public
+
+regen-public:
+	if [ -d $(PWD)/public ]          ; then rm -dr $(PWD)/public          ; fi
+	if [ -d $(PWD)/scribblings/doc ] ; then rm -dr $(PWD)/scribblings/doc ; fi
+	$(MAKE) public
+
+
+# Auxiliary
 
 submodules:
 	$(SH) ./3rd_party/scripts/src/update-submodules

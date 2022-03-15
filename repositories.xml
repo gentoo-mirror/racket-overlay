@@ -7,7 +7,7 @@
     <description lang="en">Racket packages overlay by src_prepare group</description>
     <homepage>https://gitlab.com/src_prepare/racket/racket-overlay</homepage>
     <owner type="person">
-      <email>xgqt@riseup.net</email>
+      <email>xgqt@gentoo.org</email>
       <name>Maciej Barć</name>
     </owner>
     <source type="git">https://gitlab.com/src_prepare/racket/racket-overlay.git</source>

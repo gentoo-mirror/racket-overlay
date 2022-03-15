@@ -6,7 +6,7 @@
 RACKET              := racket
 SH                  := sh
 
-NPROC               := $(shell nproc)
+NPROC               := $(shell nproc || echo 1)
 
 # i.e.: C2EXCL="-e pkg1 -e pkg2"
 COLLECTOR2_EXCLUDE  :=
@@ -21,16 +21,22 @@ SCAN                := $(PKGCHECK) scan
 
 MANIFEST_FLAGS      := --verbose
 
-SCAN_AUX            := --jobs $(NPROC) --verbose
+SCAN_AUX            := --jobs=$(NPROC) --verbose
 SCAN_EXIT_ON        := error
 SCAN_KEYWORDS       := -MatchingChksums,-RedundantVersion
 SCAN_PROFILES       := default/linux/amd64/17.1
 SCAN_CHECKS         := --exit=$(SCAN_EXIT_ON) --keywords=$(SCAN_KEYWORDS) --profiles=$(SCAN_PROFILES)
 SCAN_FLAGS          := $(SCAN_AUX) $(SCAN_CHECKS)
 
+DOC_SOURCE_DIR      := $(PWD)/scribblings
+DOC_BUILT_DIR       := $(DOC_SOURCE_DIR)/doc
+DOC_PUBLIC_DIR      := $(PWD)/public
+
 
 all: regen-gentoo test
 
+
+# Regenerate
 
 ebuilds:
 	$(RACKET) -l collector2 -- $(COLLECTOR2_FLAGS)
@@ -41,19 +47,27 @@ manifests:
 regen-gentoo: ebuilds manifests
 
 
-clean-public:
-	if [ -d ./public ] ; then rm -dr ./public ; fi
-
-public:
-	cd ./scribblings && $(SH) ./build.sh
-	cp -r ./scribblings/doc/racket-overlay ./public
-
-regen-public: clean-public public
-
+# Test
 
 test:
 	$(SCAN) $(SCAN_FLAGS) $(PWD)
 
+
+# Documentation
+
+scribblings/doc:
+	cd $(PWD)/scribblings && $(SH) ./build.sh
+
+public: scribblings/doc
+	cp -r $(PWD)/scribblings/doc/racket-overlay $(PWD)/public
+
+regen-public:
+	if [ -d $(DOC_BUILT_DIR)  ] ; then rm -dr $(DOC_BUILT_DIR)  ; fi
+	if [ -d $(DOC_PUBLIC_DIR) ] ; then rm -dr $(DOC_PUBLIC_DIR) ; fi
+	$(MAKE) public
+
+
+# Auxiliary
 
 submodules:
 	$(SH) ./3rd_party/scripts/src/update-submodules

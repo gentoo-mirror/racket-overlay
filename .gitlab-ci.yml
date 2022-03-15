@@ -54,4 +54,4 @@ pages:
     - apt-get install -y make sqlite3
 
   script:
-    - make doc
+    - make public

@@ -28,6 +28,10 @@ SCAN_PROFILES       := default/linux/amd64/17.1
 SCAN_CHECKS         := --exit=$(SCAN_EXIT_ON) --keywords=$(SCAN_KEYWORDS) --profiles=$(SCAN_PROFILES)
 SCAN_FLAGS          := $(SCAN_AUX) $(SCAN_CHECKS)
 
+DOC_SOURCE_DIR      := $(PWD)/scribblings
+DOC_BUILT_DIR       := $(DOC_SOURCE_DIR)/doc
+DOC_PUBLIC_DIR      := $(PWD)/public
+
 
 all: regen-gentoo test
 
@@ -58,8 +62,8 @@ public: scribblings/doc
 	cp -r $(PWD)/scribblings/doc/racket-overlay $(PWD)/public
 
 regen-public:
-	if [ -d $(PWD)/public ]          ; then rm -dr $(PWD)/public          ; fi
-	if [ -d $(PWD)/scribblings/doc ] ; then rm -dr $(PWD)/scribblings/doc ; fi
+	if [ -d $(DOC_BUILT_DIR)  ] ; then rm -dr $(DOC_BUILT_DIR)  ; fi
+	if [ -d $(DOC_PUBLIC_DIR) ] ; then rm -dr $(DOC_PUBLIC_DIR) ; fi
 	$(MAKE) public
 
 

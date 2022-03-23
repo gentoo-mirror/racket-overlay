@@ -19,7 +19,7 @@ case ${EAPI} in
 	* )  die "EAPI: ${EAPI} not supported"  ;;
 esac
 
-# @ECLASS-VARIABLE: RACKET_PN
+# @ECLASS_VARIABLE: RACKET_PN
 # @DESCRIPTION:
 # This variable controls the name under which the pkg will be installed.
 #
@@ -28,7 +28,7 @@ esac
 # @CODE
 : ${RACKET_PN:=${PN}}
 
-# @ECLASS-VARIABLE: RACKET_REQ_USE
+# @ECLASS_VARIABLE: RACKET_REQ_USE
 # @DEFAULT_UNSET
 # @DESCRIPTION:
 # This variable contains a string of USE flags that will be appended
@@ -39,7 +39,7 @@ esac
 # RACKET_REQ_USE="chez,doc"
 # @CODE
 
-# @ECLASS-VARIABLE: SCRBL_DOCS
+# @ECLASS_VARIABLE: SCRBL_DOCS
 # @DESCRIPTION:
 # This variable toggles whether to enable building
 # documentation using scribble.
@@ -62,7 +62,7 @@ case ${SCRBL_DOCS} in
 		;;
 esac
 
-# @ECLASS-VARIABLE: RACO_SETUP
+# @ECLASS_VARIABLE: RACO_SETUP
 # @DESCRIPTION:
 # This variable toggles whether to run "raco setup" after the package is merged.
 # You probably want this, except for cases of resolving circular dependencies.
@@ -73,7 +73,7 @@ esac
 # @CODE
 : ${RACO_SETUP:="ON"}
 
-# @ECLASS-VARIABLE: SCRBL_DOC_DIR
+# @ECLASS_VARIABLE: SCRBL_DOC_DIR
 # @DESCRIPTION:
 # This variable contains the temporary scribble system documentation
 # build directory.

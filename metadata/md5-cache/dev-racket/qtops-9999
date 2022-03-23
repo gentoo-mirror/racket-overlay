@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	a0634b4179dc106969be1ef458bc37e5	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	d0e05562116480be75cd31023475702d	git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	gh	57cb0727c341e650abebf298a01db9da
 _md5_=1434550a6eeb859c8b367a19766aa592

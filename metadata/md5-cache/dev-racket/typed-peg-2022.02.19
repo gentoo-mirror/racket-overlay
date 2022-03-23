@@ -12,5 +12,5 @@ RDEPEND=dev-racket/peg-gen dev-racket/pprint dev-racket/rackcheck >=dev-scheme/r
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lives-group/typed-peg/archive/6bec91624e21d3d54bf2becdcd2080318bfb6de5.tar.gz -> typed-peg-2022.02.19.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	a0634b4179dc106969be1ef458bc37e5	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
 _md5_=b6e54036ad2ab341cbe64baee1d27027

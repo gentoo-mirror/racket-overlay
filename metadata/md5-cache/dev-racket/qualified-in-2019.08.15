@@ -12,5 +12,5 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/michaelmmacleod/qualified-in/archive/779feda6a5fe30ff861971c894ae4a301c334150.tar.gz -> qualified-in-2019.08.15.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	a0634b4179dc106969be1ef458bc37e5	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
 _md5_=233e7ed9a87d3bd56fe709f81024a331

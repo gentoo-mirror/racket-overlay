@@ -12,5 +12,5 @@ RDEPEND=dev-racket/hygienic-reader-extension dev-racket/sweet-exp >=dev-scheme/r
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/postfix-dot-notation/archive/584ed69de73775e261ecdb7607fc14d9790500ef.tar.gz -> postfix-dot-notation-2017.08.15.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	a0634b4179dc106969be1ef458bc37e5	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
 _md5_=1de2e3b3c5d54591688511bcb2500d1e

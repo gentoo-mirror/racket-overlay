@@ -12,5 +12,5 @@ RDEPEND=dev-racket/with-cache dev-racket/syntax-sloc dev-racket/scribble-abbrevs
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/bennn/gtp-benchmarks/archive/4f9e9b35aaa530211bd8af78733107146b12de1b.tar.gz -> gtp-benchmarks-2021.07.11.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	a0634b4179dc106969be1ef458bc37e5	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
 _md5_=a681ad64a2899e355fcbcc0db7c6db6a

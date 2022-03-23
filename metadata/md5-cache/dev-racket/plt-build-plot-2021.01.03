@@ -12,5 +12,5 @@ RDEPEND=dev-racket/aws dev-racket/plt-service-monitor dev-racket/plt-web-lib dev
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/racket/plt-build-plot/archive/e8c000f6611833f183f598c9d34380ff9d1bfc96.tar.gz -> plt-build-plot-2021.01.03.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	a0634b4179dc106969be1ef458bc37e5	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
 _md5_=36284d3ff23fe2d134077a4afcb88562

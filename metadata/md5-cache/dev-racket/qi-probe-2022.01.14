@@ -12,5 +12,5 @@ RDEPEND=dev-racket/mischief dev-racket/qi-lib dev-racket/version-case >=dev-sche
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/countvajhula/qi/archive/90a43b83237846bacd4fbd3ed895e4bf0f2a5724.tar.gz -> qi-probe-2022.01.14.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	a0634b4179dc106969be1ef458bc37e5	gh	7310922752774a331ac8a69cc9cb2caf
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
 _md5_=0430eb6e2d36f137cb3eee974ba38941

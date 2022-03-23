@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 # @ECLASS: gh.eclass
@@ -40,7 +40,7 @@
 
 # Variables documentation
 
-# @ECLASS-VARIABLE: GH_DOM
+# @ECLASS_VARIABLE: GH_DOM
 # @DEFAULT_UNSET
 # @DESCRIPTION:
 # This variable contains Git hosting domain.
@@ -53,7 +53,7 @@
 # GH_DOM="github.com"
 # @CODE
 
-# @ECLASS-VARIABLE: GH_REPO
+# @ECLASS_VARIABLE: GH_REPO
 # @REQUIRED
 # @DESCRIPTION:
 # This variable contains a git repository in the Git hosting domain.
@@ -63,7 +63,7 @@
 # GH_REPO="gentoo/guru"
 # @CODE
 
-# @ECLASS-VARIABLE: GH_COMMIT
+# @ECLASS_VARIABLE: GH_COMMIT
 # @DEFAULT_UNSET
 # @DESCRIPTION:
 # This variable contains a commit SHA sum of the snapshot.

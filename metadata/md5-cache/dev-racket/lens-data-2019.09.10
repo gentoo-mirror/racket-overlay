@@ -13,5 +13,5 @@ RDEPEND=dev-racket/fancy-app dev-racket/kw-make-struct-lib dev-racket/reprovide-
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/lens/archive/733db7744921409b69ddc78ae5b23ffaa6b91e37.tar.gz -> lens-data-2019.09.10.tar.gz https://github.com/jackfirth/lens/archive/733db7744921409b69ddc78ae5b23ffaa6b91e37.tar.gz -> lens-data_aux_lens-common-2019.09.10.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	d0e05562116480be75cd31023475702d
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d
 _md5_=fffc8e0ed4f9ff21ab2cfa51bf84ed98

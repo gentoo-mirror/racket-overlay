@@ -12,5 +12,5 @@ RDEPEND=dev-racket/crypto-lib dev-racket/otp-lib >=dev-scheme/racket-8.1:=[-mini
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/yilinwei/otp/archive/f0446d60c3491afaf0b2e7c283561a475a24f269.tar.gz -> typed-otp-lib-2021.11.17.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
 _md5_=84e38af7aa4079dcba51c42f074c5998

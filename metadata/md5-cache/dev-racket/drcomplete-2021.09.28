@@ -12,5 +12,5 @@ RDEPEND=dev-racket/drcomplete-auto dev-racket/drcomplete-filename dev-racket/drc
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/yjqww6/drcomplete/archive/eed4628a9553e103e062006655a16f5dc68ee7cd.tar.gz -> drcomplete-2021.09.28.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
 _md5_=f8a384d3b07b61aeb48844393c954bf0

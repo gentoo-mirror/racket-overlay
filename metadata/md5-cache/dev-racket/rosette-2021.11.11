@@ -12,5 +12,5 @@ RDEPEND=dev-racket/custom-load dev-racket/rfc6455 >=dev-scheme/racket-8.1:=[-min
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/emina/rosette/archive/2e2896db371d5edca5171ac16a9ced07fc4cb016.tar.gz -> rosette-2021.11.11.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
 _md5_=949f33cf085d0263362a153a1a1d5487

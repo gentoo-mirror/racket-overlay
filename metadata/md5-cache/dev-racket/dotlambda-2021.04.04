@@ -12,5 +12,5 @@ RDEPEND=dev-racket/chain-module-begin dev-racket/debug-scopes dev-racket/typed-m
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jsmaniac/dotlambda/archive/96cfe93ab611db377a4a68f4b0a7e483ebf506a6.tar.gz -> dotlambda-2021.04.04.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
 _md5_=ea8f99b582446c63e2fcfb4a1a35419a

@@ -12,5 +12,5 @@ RDEPEND=dev-racket/hygienic-reader-extension dev-racket/rackjure dev-racket/scri
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/afl/archive/a51e609615f7645d773a726b225d3356b751d017.tar.gz -> afl-2022.01.07.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
 _md5_=4218875cd1753c2fc09b82952c4949bd

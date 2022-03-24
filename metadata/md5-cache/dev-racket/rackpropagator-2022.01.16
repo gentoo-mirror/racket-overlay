@@ -12,5 +12,5 @@ RDEPEND=dev-racket/rackpropagator-doc dev-racket/rackpropagator-lib >=dev-scheme
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/ots22/rackpropagator/archive/cfa841b5cfebd3829011c8e039e8ec43fc40226d.tar.gz -> rackpropagator-2022.01.16.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
 _md5_=7d3b8cce0bdefb21f48a0ee79d8eedf0

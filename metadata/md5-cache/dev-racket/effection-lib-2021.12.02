@@ -12,5 +12,5 @@ RDEPEND=dev-racket/interconfection-lib dev-racket/lathe-comforts-lib dev-racket/
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/rocketnia/effection/archive/314897d7fe9873006167f1e586387db82903cfa7.tar.gz -> effection-lib-2021.12.02.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
 _md5_=04242f82f9222a8a45a67596c11c3b81

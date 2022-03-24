@@ -12,5 +12,5 @@ RDEPEND=dev-racket/gregor-doc dev-racket/gregor-lib dev-racket/splitflap-lib dev
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/otherjoel/splitflap/archive/3cfa018ebf73ef612469cfba8c673513e39d2921.tar.gz -> splitflap-doc-2022.01.14.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
 _md5_=4e051d285a09d6bfa27a3bafd61ecb25

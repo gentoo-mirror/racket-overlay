@@ -12,5 +12,5 @@ RDEPEND=dev-racket/collections-doc dev-racket/collections-lib dev-racket/cover d
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/countvajhula/generator-util/archive/d19ae099449a998f268d5c2a8c99d68c93d7b024.tar.gz -> generator-util-2021.11.16.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
 _md5_=ae67188c35690028d859a10b62e8e2c5

@@ -12,5 +12,5 @@ RDEPEND=dev-racket/distro-build-client dev-racket/distro-build-server >=dev-sche
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/racket/distro-build/archive/d85654550c68ca8de37ce11116eb2a57bc5e988f.tar.gz -> distro-build-lib-2022.01.26.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
 _md5_=af7ad72da3b64aef091302422c1edb9b

@@ -4,7 +4,7 @@
 # Original author: Maciej Barć <xgqt@riseup.net>
 # Copyright (c) 2021, src_prepare group
 # Licensed under the GNU GPL v2 License
-# SPDX-License-Identifier: GPL-3.0-only
+# SPDX-License-Identifier: GPL-2.0
 
 
 stages:

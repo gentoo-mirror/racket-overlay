@@ -19,5 +19,6 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/ebuild-lib
 	dev-racket/ebuild-templates
 	dev-racket/ebuild-tools
-	dev-racket/ebuild-transformers"
+	dev-racket/ebuild-transformers
+	dev-racket/ziptie-git"
 DEPEND="${RDEPEND}"

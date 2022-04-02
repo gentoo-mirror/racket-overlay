@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/css-tools dev-racket/csv-reading dev-racket/frog dev-racket/graph dev-racket/gregor-lib dev-racket/plt-web-lib dev-racket/pollen dev-racket/ppict dev-racket/s3-sync dev-racket/sugar dev-racket/txexpr >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Sources for http://racket-lang.org
+EAPI=8
+HOMEPAGE=https://github.com/racket/racket-lang-org
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/css-tools dev-racket/csv-reading dev-racket/frog dev-racket/graph dev-racket/gregor-lib dev-racket/plt-web-lib dev-racket/pollen dev-racket/ppict dev-racket/s3-sync dev-racket/sugar dev-racket/txexpr >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/racket/racket-lang-org/archive/0928aa8160e277a0ca1601e164584feac1f5b923.tar.gz -> racket-lang-org-2022.03.31.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_md5_=8dbd15f97fbd87931b43bbc7b45cc2db

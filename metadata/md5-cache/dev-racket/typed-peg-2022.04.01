@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/peg-gen dev-racket/pprint dev-racket/rackcheck >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=the typed-peg Racket package
+EAPI=8
+HOMEPAGE=https://github.com/lives-group/typed-peg
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/peg-gen dev-racket/pprint dev-racket/rackcheck >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/lives-group/typed-peg/archive/d01ad2d4b7df082979829c2f17df8bcb76c5b0f6.tar.gz -> typed-peg-2022.04.01.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_md5_=bd682a45756c2675e304ed67944d7718

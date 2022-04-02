@@ -1,15 +1,15 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/ebuild-lib dev-racket/ebuild-templates dev-racket/ebuild-transformers dev-racket/upi-lib dev-racket/ziptie-git >=dev-scheme/racket-8.1:=[-minimal]
-DESCRIPTION=Library to ease automatic ebuild creation. Tools.
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Dallas (implementation)
 EAPI=8
-HOMEPAGE=https://gitlab.com/xgqt/racket-ebuild
+HOMEPAGE=https://github.com/jessealama/dallas
 INHERIT=racket gh
 IUSE=doc
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/ebuild-lib dev-racket/ebuild-templates dev-racket/ebuild-transformers dev-racket/upi-lib dev-racket/ziptie-git >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	git-r3	b9ac6f96d2a88edb5b351df634dc5e53	gh	57cb0727c341e650abebf298a01db9da
-_md5_=45efeebcbbbef6416bef9be99633234d
+_md5_=304a9f32777614ed26dc64897ff34104

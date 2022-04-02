@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/collections-doc dev-racket/collections-lib dev-racket/cover dev-racket/cover-coveralls dev-racket/relation dev-racket/scribble-abbrevs dev-racket/social-contract >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Utilities for working with generators
+EAPI=8
+HOMEPAGE=https://github.com/countvajhula/generator-util
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/collections-doc dev-racket/collections-lib dev-racket/cover dev-racket/cover-coveralls dev-racket/relation dev-racket/scribble-abbrevs dev-racket/social-contract >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/countvajhula/generator-util/archive/2de885130984bd6880a5e1017d0b3783e64b3877.tar.gz -> generator-util-2022.03.11.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_md5_=eae727abcddcd4d44b94ddec9a2f85bf

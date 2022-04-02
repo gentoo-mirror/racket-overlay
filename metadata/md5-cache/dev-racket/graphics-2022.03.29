@@ -1,17 +1,17 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=dev-racket/digimon >=dev-scheme/racket-8.1:=[-minimal]
-DESCRIPTION=W3 Standards Implemented in Typed Racket
+DESCRIPTION=Essential computer graphics for Typed Racket
 EAPI=8
-HOMEPAGE=https://pkgs.racket-lang.org/package/w3s
+HOMEPAGE=https://pkgs.racket-lang.org/package/graphics
 INHERIT=racket
 IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-PDEPEND=dev-racket/graphics
+PDEPEND=dev-racket/w3s
 RDEPEND=dev-racket/digimon >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/wargrey/w3s/archive/1b345df0a0ac0714ff95b5569a59b87dc38f87c4.tar.gz -> w3s-2022.02.12.tar.gz https://github.com/wargrey/graphics/archive/3b46bc26f00145a2488c9adbc06deb7fbec98fb1.tar.gz -> w3s_aux_graphics-2022.02.12.tar.gz
+SRC_URI=https://github.com/wargrey/graphics/archive/3b46bc26f00145a2488c9adbc06deb7fbec98fb1.tar.gz -> graphics-2022.03.29.tar.gz https://github.com/wargrey/w3s/archive/1b345df0a0ac0714ff95b5569a59b87dc38f87c4.tar.gz -> graphics_aux_w3s-2022.03.29.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d
-_md5_=eb3f04061ed10631894dd13188692151
+_md5_=03c4e83c1282cec43deb87eb4a9a511b

@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/digimon dev-racket/graphics dev-racket/w3s >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Open XML for Microsoft Office
+EAPI=8
+HOMEPAGE=https://github.com/wargrey/mox
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/digimon dev-racket/graphics dev-racket/w3s >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/wargrey/mox/archive/a4b52a9fde6b5c007aedb0ee6aeef8d5b30006a0.tar.gz -> mox-2022.03.15.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_md5_=7cee1ff253f8d9238c9214dfb7cff01d

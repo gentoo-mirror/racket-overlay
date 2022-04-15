@@ -1,6 +1,6 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/beautiful-racket dev-racket/brag-lib dev-racket/threading-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/beautiful-racket dev-racket/br-parser-tools dev-racket/brag-lib dev-racket/threading-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=A simple stack language
 EAPI=8
 HOMEPAGE=https://github.com/barrel-lang/barrel
@@ -8,8 +8,8 @@ INHERIT=racket gh
 IUSE=doc
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/beautiful-racket dev-racket/brag-lib dev-racket/threading-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/beautiful-racket dev-racket/br-parser-tools dev-racket/brag-lib dev-racket/threading-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	git-r3	b9ac6f96d2a88edb5b351df634dc5e53	gh	57cb0727c341e650abebf298a01db9da
-_md5_=d13fd4346432b4f2352c534259c8aa78
+_md5_=6074e48f305ada34bd3e7bd86c954666

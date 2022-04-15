@@ -62,7 +62,7 @@ dev-racket/aws 2021.02.16 9999: the aws Racket package
 dev-racket/axe 2017.08.15 9999: Handy utilities(macros/functions) for racket
 dev-racket/azelf 2022.02.05 2022.02.09 2022.03.19 9999: the azelf Racket package
 dev-racket/backport-template-pr1514 2021.03.05 9999: the backport-template-pr1514 Racket package
-dev-racket/barrel 2022.04.01 2022.04.12 9999: A simple stack language
+dev-racket/barrel 2022.04.01 2022.04.12 2022.04.15 9999: A simple stack language
 dev-racket/base32 2019.01.19 9999: Provides encoding to and from Crockford's Base32 encoding.
 dev-racket/base58 2020.08.19 9999: Provides Base58Check encoding and decoding functions.
 dev-racket/base64 2021.03.14 9999: the base64 Racket package
@@ -293,12 +293,12 @@ dev-racket/dirname 2021.07.29 2021.08.06 9999: Basename and dirname functions
 dev-racket/disassemble 2020.12.14 9999: Disassembler for JIT-compiled functions.
 dev-racket/disposable 2017.10.28 9999: the disposable Racket package
 dev-racket/disposable-test 2017.10.28 9999: Tests for the disposable package
-dev-racket/distro-build 2021.12.10 2022.01.20 2022.01.26 9999: Tools for constructing a distribution of Racket
-dev-racket/distro-build-client 2021.12.10 2022.01.20 2022.01.26 9999: client-side part of distro-build
-dev-racket/distro-build-doc 2021.12.10 2022.01.20 2022.01.26 9999: documentation part of distro-build
-dev-racket/distro-build-lib 2021.12.10 2022.01.20 2022.01.26 9999: implementation (no documentation) part of distro-build
-dev-racket/distro-build-server 2021.12.10 2022.01.20 2022.01.26 9999: server-side part of distro-build
-dev-racket/distro-build-test 2021.12.10 2022.01.20 2022.01.26 9999: Tests for distro-build
+dev-racket/distro-build 2022.01.20 2022.01.26 2022.04.15 9999: Tools for constructing a distribution of Racket
+dev-racket/distro-build-client 2022.01.20 2022.01.26 2022.04.15 9999: client-side part of distro-build
+dev-racket/distro-build-doc 2022.01.20 2022.01.26 2022.04.15 9999: documentation part of distro-build
+dev-racket/distro-build-lib 2022.01.20 2022.01.26 2022.04.15 9999: implementation (no documentation) part of distro-build
+dev-racket/distro-build-server 2022.01.20 2022.01.26 2022.04.15 9999: server-side part of distro-build
+dev-racket/distro-build-test 2022.01.20 2022.01.26 2022.04.15 9999: Tests for distro-build
 dev-racket/dlm-read 2017.08.15 9999: the dlm-read Racket package
 dev-racket/dm 2017.08.15 9999: Linux Device Mapper bindings for Racket.
 dev-racket/doc-coverage 2020.07.21 9999: the doc-coverage Racket package
@@ -569,7 +569,7 @@ dev-racket/image-colors 2020.01.23 9999: For doing basic pixel operations on 2ht
 dev-racket/impl-excl 2020.08.04 9999: the impl-excl Racket package
 dev-racket/in-covid 2022.03.14 9999: Indiana COVID data analysis
 dev-racket/in-new-directory 2017.08.15 9999: Run things in new directories
-dev-racket/in-out-logged 2021.09.29 2022.01.13 2022.04.13 9999: the in-out-logged Racket package
+dev-racket/in-out-logged 2022.01.13 2022.04.13 2022.04.15 9999: the in-out-logged Racket package
 dev-racket/inexact-number-lang 2019.01.21 2022.01.07 9999: A lang-extension that reads every number as inexact
 dev-racket/infix 2017.12.18 9999: Infix Expressions
 dev-racket/infix-syntax 2018.09.25 9999: Expansion-time parsing of infix expressions.
@@ -828,9 +828,6 @@ dev-racket/natural-cli 2020.05.06 9999: Easily write large command-line interfac
 dev-racket/neo4j-lib 2021.05.24 9999: Neo4j interface
 dev-racket/neologia 2017.11.07 9999: A language for creating and managing dictionaries and lexicons
 dev-racket/nested-hash 2018.11.24 9999: Functions to allow for easy nested hash setting and getting.
-dev-racket/net-cookies 2019.11.07 2021.10.10 9999: RFC6265-compliant cookie handling for client and server
-dev-racket/net-cookies-doc 2019.11.07 2021.10.10 9999: RFC6265-compliant cookie handling for client and server (doc)
-dev-racket/net-cookies-lib 2019.11.07 2021.10.10 9999: RFC6265-compliant cookie handling for client and server (lib)
 dev-racket/net-cookies-test 2019.11.07 2021.10.10 9999: RFC6265-compliant cookie handling for client and server (test)
 dev-racket/net-ip 2020.10.07 9999: IP address utilities (implementation and docs).
 dev-racket/net-ip-doc 2020.10.07 9999: IP address utilities (docs only).
@@ -1001,12 +998,12 @@ dev-racket/pydrnlp 2021.07.07 9999: NLP Library for Digital Ricoeur
 dev-racket/python 2017.08.15 9999: An implementation of the Python programming language for Racket
 dev-racket/python-tokenizer 2017.08.15 9999: A fairly direct translation of tokenize.py
 dev-racket/qcr 2022.04.14 9999: A small chat room on tcp.
-dev-racket/qi 2022.01.18 2022.01.24 2022.04.06 9999: A general-purpose functional DSL.
-dev-racket/qi-doc 2022.01.18 2022.01.24 2022.04.06 9999: A general-purpose functional DSL. [docs only]
-dev-racket/qi-lib 2022.01.18 2022.01.24 2022.04.06 9999: A general-purpose functional DSL. [implementation only]
-dev-racket/qi-probe 2022.01.18 2022.01.24 2022.04.06 9999: A circuit tester style debugger for Qi.
+dev-racket/qi 2022.01.24 2022.04.06 2022.04.15 9999: A general-purpose functional DSL.
+dev-racket/qi-doc 2022.01.24 2022.04.06 2022.04.15 9999: A general-purpose functional DSL. [docs only]
+dev-racket/qi-lib 2022.01.24 2022.04.06 2022.04.15 9999: A general-purpose functional DSL. [implementation only]
+dev-racket/qi-probe 2022.01.24 2022.04.06 2022.04.15 9999: A circuit tester style debugger for Qi.
 dev-racket/qi-quickscripts 2021.11.17 2022.02.14 2022.04.12 9999: DrRacket integration scripts for the Qi language.
-dev-racket/qi-test 2022.01.18 2022.01.24 2022.04.06 9999: A general-purpose functional DSL. [tests only]
+dev-racket/qi-test 2022.01.24 2022.04.06 2022.04.15 9999: A general-purpose functional DSL. [tests only]
 dev-racket/qiniu-sdk 2018.07.25 9999: A simple library for qiniu.com
 dev-racket/qresults-list 2020.01.18 9999: enhanced list-box% control
 dev-racket/qtops 2020.10.04 9999: Perform operations on things with qualities
@@ -1015,7 +1012,6 @@ dev-racket/quad-tree 2017.08.15 9999: the quad-tree Racket package
 dev-racket/qualified-in 2019.08.15 9999: the qualified-in Racket package
 dev-racket/quaternion 2017.10.13 9999: the Quaternion Racket package
 dev-racket/quickcheck 2020.07.13 9999: Quickcheck Clone
-dev-racket/quickscript 2021.10.12 2021.10.31 2022.02.25 9999: the quickscript Racket package
 dev-racket/quickscript-competition2020 2021.02.01 2021.10.31 2021.11.05 9999: Scripts from the Quickscript Competition July 2020
 dev-racket/quickscript-extra 2021.11.10 2021.12.11 2022.02.23 9999: Some scripts for DrRacket's Quickscript.
 dev-racket/quickscript-test 2021.04.17 2021.07.30 2022.02.25 9999: Tests for the quickscript package
@@ -1057,10 +1053,10 @@ dev-racket/racket-spider 2020.01.01 9999: lightweight http client
 dev-racket/racket-to 2018.05.04 9999: the racket-to Racket package
 dev-racket/racket-to-python 2018.05.22 9999: the racket-to-python Racket package
 dev-racket/racketcon2018-web-devel-workshop 2019.01.27 9999: Material for the web development workshop held at RacketCon 2018
-dev-racket/racketscript 2022.01.06 2022.01.11 2022.01.19 9999: A lightweight Racket to JavaScript compiler with some batteries included
-dev-racket/racketscript-compiler 2022.01.06 2022.01.11 2022.01.19 9999: A Racket to JavaScript compiler
-dev-racket/racketscript-doc 2022.01.06 2022.01.11 2022.01.19 9999: Documentation for racketscript.
-dev-racket/racketscript-extras 2022.01.06 2022.01.11 2022.01.19 9999: Goodies for RacketScript
+dev-racket/racketscript 2022.01.11 2022.01.19 2022.04.15 9999: A lightweight Racket to JavaScript compiler with some batteries included
+dev-racket/racketscript-compiler 2022.01.11 2022.01.19 2022.04.15 9999: A Racket to JavaScript compiler
+dev-racket/racketscript-doc 2022.01.11 2022.01.19 2022.04.15 9999: Documentation for racketscript.
+dev-racket/racketscript-extras 2022.01.11 2022.01.19 2022.04.15 9999: Goodies for RacketScript
 dev-racket/racketui 2020.08.12 2021.10.23 9999: Automated web forms UI generator (especially for HtDP)
 dev-racket/rackjure 2021.02.16 9999: Some Clojure-inspired idioms.
 dev-racket/rackonsole 9999: Lightweight Operator Console for Racket Server Processes
@@ -1591,6 +1587,7 @@ dev-racket/zkanren 2018.03.23 9999: -
 dev-racket/zmq 2017.08.15 9999: Minimal Racket ZeroMQ Bindings
 dev-racket/zordoz 2020.03.29 2021.10.25 9999: Explorer for .zo bytecode files
 dev-racket/zubat 2020.12.30 9999: the zubat Racket package
+dev-racket/zuo-doc 2022.04.15 9999: Documentation for the Zuo language
 dev-scheme/racket 8.3_p20211111 8.3_p20211202 8.3_p20211216 8.3_p20220106 8.4_pre20220112: General purpose, multi-paradigm Lisp-Scheme programming language
 sys-apps/racket-compiler 1.0.0: Small tool to compile Racket source code
 sys-apps/racket-maints 1.1.0-r1 9999: Racket Maintenance Scripts

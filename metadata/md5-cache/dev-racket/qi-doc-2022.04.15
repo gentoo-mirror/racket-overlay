@@ -11,6 +11,6 @@ LICENSE=all-rights-reserved
 RDEPEND=dev-racket/debug dev-racket/deta-doc dev-racket/fancy-app dev-racket/from-template dev-racket/megaparsack-doc dev-racket/mischief dev-racket/qi-lib dev-racket/qi-probe dev-racket/qi-quickscripts dev-racket/quickscript-extra dev-racket/relation dev-racket/sawzall-doc dev-racket/scribble-abbrevs dev-racket/scribble-math dev-racket/social-contract dev-racket/threading-doc dev-racket/tmux-vim-demo >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/countvajhula/qi/archive/d4a74a25f38b5258fd868e32b4f4a2aadbc96027.tar.gz -> qi-doc-2022.04.06.tar.gz
+SRC_URI=https://github.com/countvajhula/qi/archive/1bf1841fde392804a638329c2bd331fcf70de9f9.tar.gz -> qi-doc-2022.04.15.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
-_md5_=51a6ca1d7e888e212fd16761b9ec41ab
+_md5_=e6da86ec2bfb91337407384e24298e13

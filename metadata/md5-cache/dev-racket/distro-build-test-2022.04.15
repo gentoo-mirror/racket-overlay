@@ -11,6 +11,6 @@ LICENSE=all-rights-reserved
 RDEPEND=dev-racket/remote-shell-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/racket/distro-build/archive/110480e5b297bd957aefd4e63cd3ce890b4526cf.tar.gz -> distro-build-test-2021.12.10.tar.gz
+SRC_URI=https://github.com/racket/distro-build/archive/49c1c92d3833977a80b2fb39201429e7523ed665.tar.gz -> distro-build-test-2022.04.15.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
-_md5_=644c23f847e3385583253b03b72f60ff
+_md5_=bbe3d924b0a36ace6c0267db2dd03a1e

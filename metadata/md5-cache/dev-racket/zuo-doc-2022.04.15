@@ -1,9 +1,9 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
-DESCRIPTION=RFC6265-compliant cookie handling for client and server (lib)
+DESCRIPTION=Documentation for the Zuo language
 EAPI=8
-HOMEPAGE=https://github.com/RenaissanceBug/racket-cookies
+HOMEPAGE=https://github.com/racket/racket
 INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
@@ -11,6 +11,6 @@ LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/RenaissanceBug/racket-cookies/archive/f6b1a4ab18d09fae70f903663304ecaeb5f1041b.tar.gz -> net-cookies-lib-2019.11.07.tar.gz
+SRC_URI=https://github.com/racket/racket/archive/cf725b4bf55413d0ca29a8919c63a998a0734296.tar.gz -> zuo-doc-2022.04.15.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
-_md5_=5c365f64d40fb7d523ae9dc007cfaee1
+_md5_=566655a0d9e0b7c8d1ea0213503b2d37

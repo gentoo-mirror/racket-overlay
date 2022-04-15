@@ -11,6 +11,6 @@ LICENSE=all-rights-reserved
 RDEPEND=dev-racket/anaphoric dev-racket/graph-lib dev-racket/threading >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/racketscript/racketscript/archive/d2dc0ba5f613e59af862d08152170a23f63637c6.tar.gz -> racketscript-compiler-2022.01.06.tar.gz
+SRC_URI=https://github.com/racketscript/racketscript/archive/ff15cc68556ae0da2f8f5041178203526603dd74.tar.gz -> racketscript-compiler-2022.04.15.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
-_md5_=3fc1baaad41c66eaf2dae776fe0f3653
+_md5_=6ba8be45580c76b04b6ddf920fe3151d

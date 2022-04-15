@@ -1,16 +1,16 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/racketscript-compiler dev-racket/scribble-enhanced >=dev-scheme/racket-8.1:=[-minimal]
-DESCRIPTION=Documentation for racketscript.
+DEPEND=dev-racket/racketscript-compiler >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Goodies for RacketScript
 EAPI=8
 HOMEPAGE=https://github.com/racketscript/racketscript
 INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/racketscript-compiler dev-racket/scribble-enhanced >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/racketscript-compiler >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/racketscript/racketscript/archive/d2dc0ba5f613e59af862d08152170a23f63637c6.tar.gz -> racketscript-doc-2022.01.06.tar.gz
+SRC_URI=https://github.com/racketscript/racketscript/archive/ff15cc68556ae0da2f8f5041178203526603dd74.tar.gz -> racketscript-extras-2022.04.15.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
-_md5_=936563656a8aab71554974a2de43bd2d
+_md5_=41a79747156f3e8591562b7e0917f211

@@ -4,19 +4,19 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racket/racket"
-GH_COMMIT="cf725b4bf55413d0ca29a8919c63a998a0734296"
+GH_REPO="racket/distro-build"
+GH_COMMIT="49c1c92d3833977a80b2fb39201429e7523ed665"
 
 inherit racket gh
 
-DESCRIPTION="Racket build and contribution documentation"
-HOMEPAGE="https://github.com/racket/racket"
-S="${S}/pkgs/racket-build-guide"
+DESCRIPTION="Tests for distro-build"
+HOMEPAGE="https://github.com/racket/distro-build"
+S="${S}/distro-build-test"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/distro-build-doc"
+RDEPEND="dev-racket/remote-shell-lib"
 DEPEND="${RDEPEND}"

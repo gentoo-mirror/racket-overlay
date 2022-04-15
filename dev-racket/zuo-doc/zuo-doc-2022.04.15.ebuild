@@ -9,9 +9,9 @@ GH_COMMIT="cf725b4bf55413d0ca29a8919c63a998a0734296"
 
 inherit racket gh
 
-DESCRIPTION="the plt-services Racket package"
+DESCRIPTION="Documentation for the Zuo language"
 HOMEPAGE="https://github.com/racket/racket"
-S="${S}/pkgs/plt-services"
+S="${S}/racket/src/zuo/zuo-doc"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

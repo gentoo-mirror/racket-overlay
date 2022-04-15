@@ -5,6 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="barrel-lang/barrel"
+GH_COMMIT="0c1c7d876bd784cf7e74e999a893dfee533db6d4"
 
 inherit racket gh
 
@@ -14,6 +15,7 @@ S="${S}/barrel"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
+KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/beautiful-racket

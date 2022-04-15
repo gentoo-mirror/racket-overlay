@@ -4,13 +4,14 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="Metaxal/quickscript"
-GH_COMMIT="24912978e7b104449e801cf0a8469b8f363aa170"
+GH_REPO="racket/distro-build"
+GH_COMMIT="49c1c92d3833977a80b2fb39201429e7523ed665"
 
 inherit racket gh
 
-DESCRIPTION="the quickscript Racket package"
-HOMEPAGE="https://github.com/Metaxal/quickscript"
+DESCRIPTION="client-side part of distro-build"
+HOMEPAGE="https://github.com/racket/distro-build"
+S="${S}/distro-build-client"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

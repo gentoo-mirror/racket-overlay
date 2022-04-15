@@ -4,13 +4,15 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="Metaxal/quickscript"
+GH_REPO="dstorrs/in-out-logged"
+GH_COMMIT="0854345e55490cd185ff0a8c8bc325208e7461de"
 
 inherit racket gh
 
-DESCRIPTION="the quickscript Racket package"
-HOMEPAGE="https://github.com/Metaxal/quickscript"
+DESCRIPTION="the in-out-logged Racket package"
+HOMEPAGE="https://github.com/dstorrs/in-out-logged"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
+KEYWORDS="~amd64"
 RESTRICT="mirror"

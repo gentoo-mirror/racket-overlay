@@ -15,6 +15,3 @@ S="${S}/net-cookies-test"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
-
-RDEPEND="dev-racket/net-cookies-lib"
-DEPEND="${RDEPEND}"

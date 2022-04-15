@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="countvajhula/qi"
-GH_COMMIT="7a10f8e2320ef9041e77507d12a00cecffa2c702"
+GH_COMMIT="1bf1841fde392804a638329c2bd331fcf70de9f9"
 
 inherit racket gh
 
@@ -19,17 +19,20 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/debug
+	dev-racket/deta-doc
 	dev-racket/fancy-app
 	dev-racket/from-template
+	dev-racket/megaparsack-doc
 	dev-racket/mischief
 	dev-racket/qi-lib
 	dev-racket/qi-probe
 	dev-racket/qi-quickscripts
-	dev-racket/quickscript
 	dev-racket/quickscript-extra
 	dev-racket/relation
+	dev-racket/sawzall-doc
 	dev-racket/scribble-abbrevs
 	dev-racket/scribble-math
+	dev-racket/social-contract
 	dev-racket/threading-doc
 	dev-racket/tmux-vim-demo"
 DEPEND="${RDEPEND}"

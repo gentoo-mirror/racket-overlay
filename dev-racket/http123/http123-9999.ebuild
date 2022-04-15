@@ -16,7 +16,5 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/http123-lib
-	dev-racket/net-cookies-doc
-	dev-racket/net-cookies-lib"
+RDEPEND="dev-racket/http123-lib"
 DEPEND="${RDEPEND}"

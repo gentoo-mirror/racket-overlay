@@ -24,6 +24,5 @@ RDEPEND="dev-racket/argo
 	dev-racket/dotenv
 	dev-racket/http
 	dev-racket/json-pointer
-	dev-racket/misc1
-	dev-racket/net-cookies-lib"
+	dev-racket/misc1"
 DEPEND="${RDEPEND}"

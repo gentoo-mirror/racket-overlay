@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=core of k theorem prover
+EAPI=8
+HOMEPAGE=https://github.com/racket-tw/k
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/racket-tw/k/archive/b67b753a06f0a74786ac7280f9c51c026248ded7.tar.gz -> k-core-2022.04.12.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_md5_=c1c6b6cb639e4210ad315b7e677375ac

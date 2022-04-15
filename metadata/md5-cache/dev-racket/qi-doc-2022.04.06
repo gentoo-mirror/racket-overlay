@@ -1,15 +1,16 @@
-BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile install postinst prepare prerm test unpack
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
 DEPEND=dev-racket/debug dev-racket/deta-doc dev-racket/fancy-app dev-racket/from-template dev-racket/megaparsack-doc dev-racket/mischief dev-racket/qi-lib dev-racket/qi-probe dev-racket/qi-quickscripts dev-racket/quickscript dev-racket/quickscript-extra dev-racket/relation dev-racket/sawzall-doc dev-racket/scribble-abbrevs dev-racket/scribble-math dev-racket/social-contract dev-racket/threading-doc dev-racket/tmux-vim-demo >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=A general-purpose functional DSL. [docs only]
 EAPI=8
 HOMEPAGE=https://github.com/countvajhula/qi
 INHERIT=racket gh
 IUSE=doc
+KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-PROPERTIES=live
 RDEPEND=dev-racket/debug dev-racket/deta-doc dev-racket/fancy-app dev-racket/from-template dev-racket/megaparsack-doc dev-racket/mischief dev-racket/qi-lib dev-racket/qi-probe dev-racket/qi-quickscripts dev-racket/quickscript dev-racket/quickscript-extra dev-racket/relation dev-racket/sawzall-doc dev-racket/scribble-abbrevs dev-racket/scribble-math dev-racket/social-contract dev-racket/threading-doc dev-racket/tmux-vim-demo >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	git-r3	b9ac6f96d2a88edb5b351df634dc5e53	gh	57cb0727c341e650abebf298a01db9da
-_md5_=5650e4828da2add4af5847bf556802f3
+SRC_URI=https://github.com/countvajhula/qi/archive/d4a74a25f38b5258fd868e32b4f4a2aadbc96027.tar.gz -> qi-doc-2022.04.06.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_md5_=7e668a2e6183f65858eb109f496439ab

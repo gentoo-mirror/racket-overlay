@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/br-parser-tools-lib dev-racket/brag-lib dev-racket/fancy-app dev-racket/rebellion >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=An experimental refactoring tool built on top of syntax-parse.
+EAPI=8
+HOMEPAGE=https://github.com/jackfirth/resyntax
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/br-parser-tools-lib dev-racket/brag-lib dev-racket/fancy-app dev-racket/rebellion >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/jackfirth/resyntax/archive/3fa4aa1ffb30a3cb278ae34ea80645c52f6dd1cc.tar.gz -> resyntax-2022.04.12.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_md5_=c29dd38bfe8f7577fd6d47901ff01b8e

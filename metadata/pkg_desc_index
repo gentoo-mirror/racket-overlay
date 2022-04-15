@@ -828,7 +828,6 @@ dev-racket/natural-cli 2020.05.06 9999: Easily write large command-line interfac
 dev-racket/neo4j-lib 2021.05.24 9999: Neo4j interface
 dev-racket/neologia 2017.11.07 9999: A language for creating and managing dictionaries and lexicons
 dev-racket/nested-hash 2018.11.24 9999: Functions to allow for easy nested hash setting and getting.
-dev-racket/net-cookies-test 2019.11.07 2021.10.10 9999: RFC6265-compliant cookie handling for client and server (test)
 dev-racket/net-ip 2020.10.07 9999: IP address utilities (implementation and docs).
 dev-racket/net-ip-doc 2020.10.07 9999: IP address utilities (docs only).
 dev-racket/net-ip-lib 2020.10.07 9999: IP address utilities (implementation only).

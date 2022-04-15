@@ -1,6 +1,6 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/misc1 dev-racket/json-pointer dev-racket/dotenv dev-racket/argo dev-racket/http dev-racket/beautiful-racket-lib dev-racket/net-cookies-lib dev-racket/brag-lib dev-racket/br-parser-tools-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/misc1 dev-racket/json-pointer dev-racket/dotenv dev-racket/argo dev-racket/http dev-racket/beautiful-racket-lib dev-racket/brag-lib dev-racket/br-parser-tools-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Language for testing JSON-based HTTP APIs
 EAPI=8
 HOMEPAGE=https://github.com/vicampo/riposte
@@ -8,9 +8,9 @@ INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/misc1 dev-racket/json-pointer dev-racket/dotenv dev-racket/argo dev-racket/http dev-racket/beautiful-racket-lib dev-racket/net-cookies-lib dev-racket/brag-lib dev-racket/br-parser-tools-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/misc1 dev-racket/json-pointer dev-racket/dotenv dev-racket/argo dev-racket/http dev-racket/beautiful-racket-lib dev-racket/brag-lib dev-racket/br-parser-tools-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/vicampo/riposte/archive/0a71e54539cb40b574f84674769792444691a8cf.tar.gz -> riposte-2021.02.11.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
-_md5_=45c8d051b50b5b5558ed31ebeaedb1b6
+_md5_=e7568e0d3db3be9446539701b38eb04f

@@ -1,6 +1,6 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/memoize dev-racket/net-cookies-doc dev-racket/net-cookies-lib dev-racket/resource-pool-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/memoize dev-racket/resource-pool-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=A high-level HTTP client.
 EAPI=8
 HOMEPAGE=https://github.com/Bogdanp/racket-http-easy
@@ -8,9 +8,9 @@ INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/memoize dev-racket/net-cookies-doc dev-racket/net-cookies-lib dev-racket/resource-pool-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/memoize dev-racket/resource-pool-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/racket-http-easy/archive/7fb4b354df593cf1f10a1ad35359fb487328f3f0.tar.gz -> http-easy-2022.01.30.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
-_md5_=fe0fc27ef3c83ea8535cec4f4f1f0451
+_md5_=517e9e5a9fc9c719618d0ec8c709558c

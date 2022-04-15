@@ -1,6 +1,6 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/quickscript >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=DrRacket integration scripts for the Qi language
 EAPI=8
 HOMEPAGE=https://github.com/spdegabrielle/qi-quickscripts
@@ -8,9 +8,9 @@ INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/quickscript >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/spdegabrielle/qi-quickscripts/archive/4ff7f89157061e7d327299ef60aaae6528007361.tar.gz -> qi-quickscripts-2022.02.14.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
-_md5_=db3a6a478bf2f4ae7cb6d11c39a63f94
+_md5_=5c109b3f9dcd752d65f0f823213cdeba

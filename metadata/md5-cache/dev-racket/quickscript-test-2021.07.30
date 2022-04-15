@@ -1,6 +1,6 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/quickscript >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Tests for the quickscript package
 EAPI=8
 HOMEPAGE=https://github.com/Metaxal/quickscript-test
@@ -8,9 +8,9 @@ INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/quickscript >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Metaxal/quickscript-test/archive/595b3aa04c2ffd34117ff044ecd760d8db55fbca.tar.gz -> quickscript-test-2021.07.30.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
-_md5_=5beef25d7ad3288dc1319e13482f4ae5
+_md5_=3877d4f91c6d5225c2943ca80a636d97

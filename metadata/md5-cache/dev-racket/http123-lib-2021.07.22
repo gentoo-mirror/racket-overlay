@@ -1,6 +1,6 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/binaryio-lib dev-racket/scramble-lib dev-racket/net-cookies-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/binaryio-lib dev-racket/scramble-lib >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=HTTP client with support for HTTP/1.1 and HTTP/2.
 EAPI=8
 HOMEPAGE=https://github.com/rmculpepper/racket-http123
@@ -8,9 +8,9 @@ INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/binaryio-lib dev-racket/scramble-lib dev-racket/net-cookies-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/binaryio-lib dev-racket/scramble-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/rmculpepper/racket-http123/archive/8dc1e79f3788994ac6866c3c5e53b6ccb95887f2.tar.gz -> http123-lib-2021.07.22.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
-_md5_=e4da550451810911335710291046525c
+_md5_=b2189f103fa0f9ee1c02d0fe2355ed38

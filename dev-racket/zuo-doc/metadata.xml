@@ -3,7 +3,7 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/Metaxal/quickscript</bugs-to>
-    <remote-id type="github">Metaxal/quickscript</remote-id>
+    <bugs-to>https://github.com/racket/racket</bugs-to>
+    <remote-id type="github">racket/racket</remote-id>
   </upstream>
 </pkgmetadata>

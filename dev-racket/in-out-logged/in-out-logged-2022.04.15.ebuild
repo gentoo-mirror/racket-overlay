@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="dstorrs/in-out-logged"
-GH_COMMIT="a8c43f6a037debc876a8d150e6801c84bc867c93"
+GH_COMMIT="0854345e55490cd185ff0a8c8bc325208e7461de"
 
 inherit racket gh
 

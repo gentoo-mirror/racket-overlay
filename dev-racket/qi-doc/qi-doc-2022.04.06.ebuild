@@ -27,7 +27,6 @@ RDEPEND="dev-racket/debug
 	dev-racket/qi-lib
 	dev-racket/qi-probe
 	dev-racket/qi-quickscripts
-	dev-racket/quickscript
 	dev-racket/quickscript-extra
 	dev-racket/relation
 	dev-racket/sawzall-doc

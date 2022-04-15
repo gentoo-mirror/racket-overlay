@@ -5,13 +5,13 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="racket/distro-build"
-GH_COMMIT="110480e5b297bd957aefd4e63cd3ce890b4526cf"
+GH_COMMIT="49c1c92d3833977a80b2fb39201429e7523ed665"
 
 inherit racket gh
 
-DESCRIPTION="documentation part of distro-build"
+DESCRIPTION="server-side part of distro-build"
 HOMEPAGE="https://github.com/racket/distro-build"
-S="${S}/distro-build-doc"
+S="${S}/distro-build-server"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
@@ -19,5 +19,6 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/distro-build-client
-	dev-racket/distro-build-server"
+	dev-racket/plt-web-lib
+	dev-racket/remote-shell-lib"
 DEPEND="${RDEPEND}"

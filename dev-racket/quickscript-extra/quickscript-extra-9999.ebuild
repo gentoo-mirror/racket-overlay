@@ -15,6 +15,5 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/quickscript
-	dev-racket/search-list-box"
+RDEPEND="dev-racket/search-list-box"
 DEPEND="${RDEPEND}"

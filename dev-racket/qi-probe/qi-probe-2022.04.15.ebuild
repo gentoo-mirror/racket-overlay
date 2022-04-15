@@ -5,21 +5,20 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="countvajhula/qi"
-GH_COMMIT="7a10f8e2320ef9041e77507d12a00cecffa2c702"
+GH_COMMIT="1bf1841fde392804a638329c2bd331fcf70de9f9"
 
 inherit racket gh
 
-DESCRIPTION="A general-purpose functional DSL. [tests only]"
+DESCRIPTION="A circuit tester style debugger for Qi."
 HOMEPAGE="https://github.com/countvajhula/qi"
-S="${S}/qi-test"
+S="${S}/qi-probe"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/cover
-	dev-racket/cover-coveralls
+RDEPEND="dev-racket/mischief
 	dev-racket/qi-lib
-	dev-racket/relation"
+	dev-racket/version-case"
 DEPEND="${RDEPEND}"

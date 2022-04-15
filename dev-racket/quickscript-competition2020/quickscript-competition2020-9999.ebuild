@@ -16,6 +16,5 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/markdown
-	dev-racket/quickscript
 	dev-racket/search-list-box"
 DEPEND="${RDEPEND}"

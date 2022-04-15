@@ -5,19 +5,18 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="racketscript/racketscript"
-GH_COMMIT="d2dc0ba5f613e59af862d08152170a23f63637c6"
+GH_COMMIT="ff15cc68556ae0da2f8f5041178203526603dd74"
 
 inherit racket gh
 
-DESCRIPTION="Documentation for racketscript."
+DESCRIPTION="Goodies for RacketScript"
 HOMEPAGE="https://github.com/racketscript/racketscript"
-S="${S}/racketscript-doc"
+S="${S}/racketscript-extras"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/racketscript-compiler
-	dev-racket/scribble-enhanced"
+RDEPEND="dev-racket/racketscript-compiler"
 DEPEND="${RDEPEND}"

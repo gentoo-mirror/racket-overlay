@@ -14,6 +14,3 @@ HOMEPAGE="https://github.com/spdegabrielle/Qi-Quickscripts"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
-
-RDEPEND="dev-racket/quickscript"
-DEPEND="${RDEPEND}"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/Antigen-1/qcr</bugs-to>
+    <remote-id type="github">Antigen-1/qcr</remote-id>
+  </upstream>
+</pkgmetadata>

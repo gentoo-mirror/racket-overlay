@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -23,7 +23,6 @@ RDEPEND="dev-racket/misc1
 	dev-racket/argo
 	dev-racket/http
 	dev-racket/beautiful-racket-lib
-	dev-racket/net-cookies-lib
 	dev-racket/brag-lib
 	dev-racket/br-parser-tools-lib"
 DEPEND="${RDEPEND}"

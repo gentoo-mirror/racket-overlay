@@ -19,6 +19,5 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/http-easy
-	dev-racket/net-cookies-lib
 	dev-racket/resource-pool-lib"
 DEPEND="${RDEPEND}"

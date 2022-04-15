@@ -19,7 +19,5 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/memoize
-	dev-racket/net-cookies-doc
-	dev-racket/net-cookies-lib
 	dev-racket/resource-pool-lib"
 DEPEND="${RDEPEND}"

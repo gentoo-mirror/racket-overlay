@@ -13,5 +13,6 @@
 | qi                 | circular deps (use qi-lib) |
 | quickscript        | in main-distribution       |
 
-Wehn using collectro exclude those packages from being generated
-with `-e` option, ie.: `-e Ibkre`.
+When using Collector2 exclude those packages from being generated
+with either `-E`  or `-e` option, ie.: `-e Ibkre`.
+See the Collector2 help page for detailed explanation of the options.

@@ -4,12 +4,12 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="spdegabrielle/qi-quickscripts"
+GH_REPO="spdegabrielle/Qi-Quickscripts"
 
 inherit racket gh
 
-DESCRIPTION="DrRacket integration scripts for the Qi language"
-HOMEPAGE="https://github.com/spdegabrielle/qi-quickscripts"
+DESCRIPTION="DrRacket integration scripts for the Qi language."
+HOMEPAGE="https://github.com/spdegabrielle/Qi-Quickscripts"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

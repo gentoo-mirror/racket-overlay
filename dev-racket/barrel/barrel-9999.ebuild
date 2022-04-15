@@ -17,5 +17,6 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/beautiful-racket
-	dev-racket/brag-lib"
+	dev-racket/brag-lib
+	dev-racket/threading-lib"
 DEPEND="${RDEPEND}"

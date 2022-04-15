@@ -17,8 +17,10 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/debug
+	dev-racket/deta-doc
 	dev-racket/fancy-app
 	dev-racket/from-template
+	dev-racket/megaparsack-doc
 	dev-racket/mischief
 	dev-racket/qi-lib
 	dev-racket/qi-probe
@@ -26,8 +28,10 @@ RDEPEND="dev-racket/debug
 	dev-racket/quickscript
 	dev-racket/quickscript-extra
 	dev-racket/relation
+	dev-racket/sawzall-doc
 	dev-racket/scribble-abbrevs
 	dev-racket/scribble-math
+	dev-racket/social-contract
 	dev-racket/threading-doc
 	dev-racket/tmux-vim-demo"
 DEPEND="${RDEPEND}"

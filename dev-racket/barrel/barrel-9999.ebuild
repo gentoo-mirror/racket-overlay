@@ -19,5 +19,6 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/beautiful-racket
 	dev-racket/br-parser-tools
 	dev-racket/brag-lib
+	dev-racket/control
 	dev-racket/threading-lib"
 DEPEND="${RDEPEND}"

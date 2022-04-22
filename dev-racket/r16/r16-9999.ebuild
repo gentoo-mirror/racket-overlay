@@ -3,13 +3,13 @@
 
 EAPI=8
 
-GH_DOM="github.com"
-GH_REPO="williewillus/r16"
+GH_DOM="git.sr.ht"
+GH_REPO="~williewillus/r16"
 
 inherit racket gh
 
-DESCRIPTION="A Discord trick bot in Racket"
-HOMEPAGE="https://github.com/williewillus/r16"
+DESCRIPTION="Community-Driven Interactive Code Evaluation"
+HOMEPAGE="https://git.sr.ht/~williewillus/r16"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

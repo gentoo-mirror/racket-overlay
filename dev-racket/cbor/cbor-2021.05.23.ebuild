@@ -3,14 +3,14 @@
 
 EAPI=8
 
-GH_DOM="github.com"
-GH_REPO="williewillus/racket-rfc8949"
+GH_DOM="git.sr.ht"
+GH_REPO="~williewillus/racket-rfc8949"
 GH_COMMIT="fa0335296db25aa137da79d653b6cb9759c507c0"
 
 inherit racket gh
 
 DESCRIPTION="Implementation of Concise Binary Object Representation (RFC 8949) for Racket."
-HOMEPAGE="https://github.com/williewillus/racket-rfc8949"
+HOMEPAGE="https://git.sr.ht/~williewillus/racket-rfc8949"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

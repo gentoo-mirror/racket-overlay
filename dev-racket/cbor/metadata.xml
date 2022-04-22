@@ -3,7 +3,6 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/williewillus/racket-rfc8949</bugs-to>
-    <remote-id type="github">williewillus/racket-rfc8949</remote-id>
+    <bugs-to>https://git.sr.ht/~williewillus/racket-rfc8949</bugs-to>
   </upstream>
 </pkgmetadata>

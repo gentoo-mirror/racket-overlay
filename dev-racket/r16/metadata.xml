@@ -3,7 +3,6 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/williewillus/r16</bugs-to>
-    <remote-id type="github">williewillus/r16</remote-id>
+    <bugs-to>https://git.sr.ht/~williewillus/r16</bugs-to>
   </upstream>
 </pkgmetadata>

@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/ebuild-lib dev-racket/ebuild-templates dev-racket/ebuild-transformers >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Library to ease automatic ebuild creation. Tests.
+EAPI=8
+HOMEPAGE=https://gitlab.com/xgqt/racket-ebuild
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/ebuild-lib dev-racket/ebuild-templates dev-racket/ebuild-transformers >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://gitlab.com/xgqt/racket-ebuild/-/archive/265f7b37faf58cfe7d80b7be2765fb22e6342f10.tar.gz -> ebuild-test-2022.04.18.tar.gz
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_md5_=d6c913adf32047a112ff3e3ca7a15785

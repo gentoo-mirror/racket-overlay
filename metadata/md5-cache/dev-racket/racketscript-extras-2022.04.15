@@ -11,6 +11,6 @@ LICENSE=all-rights-reserved
 RDEPEND=dev-racket/racketscript-compiler >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/racketscript/racketscript/archive/ff15cc68556ae0da2f8f5041178203526603dd74.tar.gz -> racketscript-extras-2022.04.15.tar.gz
+SRC_URI=https://github.com/racketscript/racketscript/archive/69bb893694c60a99fb975941d459cf0dd8180ac0.tar.gz -> racketscript-extras-2022.04.15.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
-_md5_=41a79747156f3e8591562b7e0917f211
+_md5_=2c53d4b8107b5b5ad88cbfae29df3ce1

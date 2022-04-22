@@ -1,16 +1,16 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
-DESCRIPTION=Implementation of Concise Binary Object Representation (RFC 8949) for Racket.
+DEPEND=dev-racket/asn1-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=ASN.1 library
 EAPI=8
-HOMEPAGE=https://git.sr.ht/~williewillus/racket-rfc8949
+HOMEPAGE=https://github.com/rmculpepper/asn1
 INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/asn1-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://git.sr.ht/~williewillus/racket-rfc8949/archive/fa0335296db25aa137da79d653b6cb9759c507c0.tar.gz -> cbor-2021.05.23.tar.gz
+SRC_URI=https://github.com/rmculpepper/asn1/archive/3cd32b61a68b40ec03bed98cd0c4d4d4f72cacf2.tar.gz -> asn1-doc-2022.04.16.tar.gz
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
-_md5_=4285a7c065cee032b348f310609d80d2
+_md5_=878d48d97da8cfc2af605b21f952cad0

@@ -3,7 +3,7 @@ DEFINED_PHASES=compile install postinst prepare prerm test unpack
 DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Implementation of Concise Binary Object Representation (RFC 8949) for Racket.
 EAPI=8
-HOMEPAGE=https://github.com/williewillus/racket-rfc8949
+HOMEPAGE=https://git.sr.ht/~williewillus/racket-rfc8949
 INHERIT=racket gh
 IUSE=doc
 LICENSE=all-rights-reserved
@@ -12,4 +12,4 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	git-r3	b9ac6f96d2a88edb5b351df634dc5e53	gh	57cb0727c341e650abebf298a01db9da
-_md5_=077aa487c4b02b1e0fcd3fd263be1181
+_md5_=11ec11ff34cb881ea1c3e5d25598d463

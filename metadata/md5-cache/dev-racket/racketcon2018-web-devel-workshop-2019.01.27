@@ -12,5 +12,5 @@ RDEPEND=dev-racket/css-expr dev-racket/html-parsing dev-racket/http dev-racket/t
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jessealama/racketcon-2018-web-devel-workshop/archive/e377a8f4fd9d6ef3b097ef1507ff3e16e0e260dc.tar.gz -> racketcon2018-web-devel-workshop-2019.01.27.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
 _md5_=b8f225b2b22ec0918c5a34b157200e24

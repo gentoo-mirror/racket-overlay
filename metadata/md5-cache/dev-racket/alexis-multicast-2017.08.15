@@ -12,5 +12,5 @@ RDEPEND=dev-racket/alexis-util dev-racket/cover dev-racket/cover-coveralls >=dev
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lexi-lambda/racket-alexis/archive/0268afb688231e0d6d76ded3291538dd5d3db37c.tar.gz -> alexis-multicast-2017.08.15.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
 _md5_=0c9fe84399e01154d63b5f2149243242

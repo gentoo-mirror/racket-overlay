@@ -12,5 +12,5 @@ RDEPEND=dev-racket/cover dev-racket/cover-coveralls dev-racket/mischief dev-rack
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/countvajhula/cli/archive/20892b61a9c5fb0977d93fb9b7bbac77ea0fd882.tar.gz -> cli-2021.11.16.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
 _md5_=f5905b85fac74eb4f54c633ae2787972

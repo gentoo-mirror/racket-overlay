@@ -12,5 +12,5 @@ RDEPEND=dev-racket/compose-app dev-racket/fancy-app dev-racket/gregor-doc dev-ra
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/racket-retry/archive/2a6ba58ab5f14707305e75063c3ee4519fc6dc7d.tar.gz -> retry-2017.12.05.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
 _md5_=e69ab73503c8675a30c9af1d642c4e67

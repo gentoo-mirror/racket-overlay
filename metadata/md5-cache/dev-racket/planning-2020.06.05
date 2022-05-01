@@ -12,5 +12,5 @@ RDEPEND=dev-racket/chess dev-racket/fancy-app dev-racket/point-free dev-racket/r
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/planning/archive/b880f85effd4520e14b815d1dbe0ff7e71f4aaf8.tar.gz -> planning-2020.06.05.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
 _md5_=b0b233ee43c11c9d6c6c2c584207a0d9

@@ -13,5 +13,5 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/philnguyen/json-type-provider/archive/f96d3f212519f4ff2aef828e7b891971b82babb8.tar.gz -> json-type-provider-2021.02.26.tar.gz https://github.com/philnguyen/json-type-provider/archive/f96d3f212519f4ff2aef828e7b891971b82babb8.tar.gz -> json-type-provider_aux_json-type-provider-2021.02.26.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d
 _md5_=bd3823a6baac127e57f450c7f8b42399

@@ -12,5 +12,5 @@ RDEPEND=dev-racket/component-lib dev-racket/gregor-lib dev-racket/koyo-lib dev-r
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/koyo/archive/5911a724553ad3053bfacfcfc67a015fc8f3f897.tar.gz -> koyo-test-2022.03.03.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
 _md5_=94d1f73debbb8f0edbfda1e16d2a21c7

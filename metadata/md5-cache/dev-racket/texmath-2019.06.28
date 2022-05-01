@@ -12,5 +12,5 @@ RDEPEND=dev-racket/functional-lib dev-racket/megaparsack-lib >=dev-scheme/racket
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/dedbox/racket-texmath/archive/9c775542b5473ed6aeedc7c45ecc6726fbd483fc.tar.gz -> texmath-2019.06.28.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
 _md5_=5bb1f04f3761d379331ba7e38a48c247

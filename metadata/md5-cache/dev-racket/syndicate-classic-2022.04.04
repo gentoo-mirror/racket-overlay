@@ -12,5 +12,5 @@ RDEPEND=dev-racket/automata dev-racket/auxiliary-macro-context dev-racket/macrot
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/tonyg/syndicate/archive/d2e753d30346f867685b492e2415d2612365f9cd.tar.gz -> syndicate-classic-2022.04.04.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
 _md5_=a613050bba117436c030cf17890033f2

@@ -12,5 +12,5 @@ RDEPEND=dev-racket/kw-make-struct dev-racket/linea dev-racket/quickcheck >=dev-s
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/willghatch/racket-chido-parse/archive/2c0ff3616c696a17b4c0761f44ef1331b4dc4595.tar.gz -> chido-parse-2021.12.03.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
 _md5_=0f15f77ee1f9e48b366a27523d11bb94

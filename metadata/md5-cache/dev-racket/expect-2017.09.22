@@ -12,5 +12,5 @@ RDEPEND=dev-racket/arguments dev-racket/doc-coverage dev-racket/fancy-app dev-ra
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/racket-expect/archive/9530df30537ae05400b6a3add9619e5f697dca52.tar.gz -> expect-2017.09.22.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
 _md5_=609abc78bcf9c5403fd856eb18e7dcb7

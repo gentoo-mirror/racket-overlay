@@ -12,5 +12,5 @@ RDEPEND=dev-racket/automata-doc dev-racket/markparam-doc dev-racket/temp-c-doc d
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/racket/unstable/archive/99149bf1a6a82b2309cc04e363a87ed36972b64b.tar.gz -> unstable-doc-2019.10.24.tar.gz
-_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
 _md5_=33cf57ce83a65887f3e274f9d1c3b339

@@ -33,13 +33,13 @@ src_compile() {
 }
 
 pkg_prerm() {
-	if has_version "dev-scheme/racket" && racket-where "${RACKET_PN}" ; then
+	if [[ -z "${REPLACED_BY_VERSION}" ]] && racket-where collections-lib ; then
 		raco_remove "${RACKET_PN}" collections-lib
 	fi
 }
 
 pkg_postinst() {
-	raco_system_install
+	! racket-where "${RACKET_PN}" && raco_system_install
 
 	has_version dev-racket/collections-lib &&
 		raco_system_setup "${RACKET_PN}" collections-lib

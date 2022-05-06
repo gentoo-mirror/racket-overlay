@@ -4,7 +4,7 @@
 EAPI=8
 
 MAIN_PH=3b46bc26f00145a2488c9adbc06deb7fbec98fb1
-AUX_PH=c904bfdb03914a9ff21971d87a01c82131c5b892
+AUX_PH=bae440cabc880e15c6673afc2a7b196cb0a9ca8a
 
 inherit racket
 
@@ -32,13 +32,13 @@ src_compile() {
 }
 
 pkg_prerm() {
-	if has_version "dev-scheme/racket" && racket-where "${RACKET_PN}" ; then
+	if [[ -z "${REPLACED_BY_VERSION}" ]] && racket-where w3s ; then
 		raco_remove "${RACKET_PN}" w3s
 	fi
 }
 
 pkg_postinst() {
-	raco_system_install
+	! racket-where "${RACKET_PN}" && raco_system_install
 
 	has_version dev-racket/w3s &&
 		raco_system_setup "${RACKET_PN}" w3s

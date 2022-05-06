@@ -21,6 +21,6 @@ RDEPEND="dev-racket/cldr-bcp47
 	dev-racket/cldr-dates-modern
 	dev-racket/cldr-localenames-modern
 	dev-racket/cldr-numbers-modern
-	dev-racket/memoize
+	dev-racket/memoize-lib
 	dev-racket/tzinfo"
 DEPEND="${RDEPEND}"

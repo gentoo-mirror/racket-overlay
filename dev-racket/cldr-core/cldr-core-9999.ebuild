@@ -15,5 +15,5 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/memoize"
+RDEPEND="dev-racket/memoize-lib"
 DEPEND="${RDEPEND}"

@@ -4,12 +4,12 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="barrel-lang/barrel"
+GH_REPO="the-cellar/barrel"
 
 inherit racket gh
 
-DESCRIPTION="A simple stack language"
-HOMEPAGE="https://github.com/barrel-lang/barrel"
+DESCRIPTION="An esoteric golfing lang"
+HOMEPAGE="https://github.com/the-cellar/barrel"
 S="${S}/barrel"
 
 LICENSE="all-rights-reserved"

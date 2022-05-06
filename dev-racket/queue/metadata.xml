@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/dstorrs/racket-queue</bugs-to>
+    <remote-id type="github">dstorrs/racket-queue</remote-id>
+  </upstream>
+</pkgmetadata>

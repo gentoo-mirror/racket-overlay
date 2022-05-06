@@ -8,7 +8,7 @@ GH_REPO="spdegabrielle/Qi-Quickscripts"
 
 inherit racket gh
 
-DESCRIPTION="DrRacket integration scripts for the Qi language."
+DESCRIPTION="DrRacket integration scripts for the Qi language"
 HOMEPAGE="https://github.com/spdegabrielle/Qi-Quickscripts"
 
 LICENSE="all-rights-reserved"

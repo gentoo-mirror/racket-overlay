@@ -19,5 +19,6 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/asn1-lib
 	dev-racket/base64-lib
 	dev-racket/binaryio-lib
-	dev-racket/gmp-lib"
+	dev-racket/gmp-lib
+	dev-racket/scramble-lib"
 DEPEND="${RDEPEND}"

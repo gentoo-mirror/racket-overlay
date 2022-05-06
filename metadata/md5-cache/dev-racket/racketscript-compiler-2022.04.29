@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/anaphoric dev-racket/graph-lib dev-racket/threading >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=A Racket to JavaScript compiler
+EAPI=8
+HOMEPAGE=https://github.com/racketscript/racketscript
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/anaphoric dev-racket/graph-lib dev-racket/threading >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/racketscript/racketscript/archive/11400fdd9d11541e7dd40c536c015677a7fa4181.tar.gz -> racketscript-compiler-2022.04.29.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_md5_=d02b61ad09b45fad8c5b7b5ced0f234c

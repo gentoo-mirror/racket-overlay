@@ -14,4 +14,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/lens/archive/733db7744921409b69ddc78ae5b23ffaa6b91e37.tar.gz -> lens-data-2019.09.10.tar.gz https://github.com/jackfirth/lens/archive/733db7744921409b69ddc78ae5b23ffaa6b91e37.tar.gz -> lens-data_aux_lens-common-2019.09.10.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d
-_md5_=fffc8e0ed4f9ff21ab2cfa51bf84ed98
+_md5_=2834995c8c189a3a92ea27ea3f92ce85

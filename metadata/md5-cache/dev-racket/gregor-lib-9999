@@ -1,6 +1,6 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/cldr-bcp47 dev-racket/cldr-core dev-racket/cldr-dates-modern dev-racket/cldr-localenames-modern dev-racket/cldr-numbers-modern dev-racket/memoize dev-racket/tzinfo >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/cldr-bcp47 dev-racket/cldr-core dev-racket/cldr-dates-modern dev-racket/cldr-localenames-modern dev-racket/cldr-numbers-modern dev-racket/memoize-lib dev-racket/tzinfo >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Code part of the gregor date and time library
 EAPI=8
 HOMEPAGE=https://github.com/97jaz/gregor
@@ -8,8 +8,8 @@ INHERIT=racket gh
 IUSE=doc
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/cldr-bcp47 dev-racket/cldr-core dev-racket/cldr-dates-modern dev-racket/cldr-localenames-modern dev-racket/cldr-numbers-modern dev-racket/memoize dev-racket/tzinfo >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/cldr-bcp47 dev-racket/cldr-core dev-racket/cldr-dates-modern dev-racket/cldr-localenames-modern dev-racket/cldr-numbers-modern dev-racket/memoize-lib dev-racket/tzinfo >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	git-r3	b9ac6f96d2a88edb5b351df634dc5e53	gh	57cb0727c341e650abebf298a01db9da
-_md5_=782d9df36ca17a8352b9ffd277a4ddf2
+_md5_=20930b9c01a6d9ef9c50d19e8a447969

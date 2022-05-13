@@ -3,6 +3,7 @@
 # Licensed under the GNU GPL v2 License
 
 
+EGENCACHE           := egencache
 RACKET              := racket
 SH                  := sh
 
@@ -20,6 +21,10 @@ MANIFEST            := $(PKGDEV) manifest
 SCAN                := $(PKGCHECK) scan
 
 MANIFEST_FLAGS      := --verbose
+
+EGENCACHE_AUX       := --jobs $(NPROC) --load-average $(NPROC) --verbose
+EGENCACHE_REPO      := racket-overlay      # TODO: Use this DIRECTORY (ifdef?).
+EGENCACHE_FLAGS     := $(EGENCACHE_AUX) --update --repo $(EGENCACHE_REPO)
 
 SCAN_AUX            := --jobs=$(NPROC) --verbose
 SCAN_EXIT_ON        := error
@@ -46,6 +51,14 @@ manifests:
 
 regen-gentoo: ebuilds manifests
 
+egencache:
+	$(EGENCACHE) $(EGENCACHE_FLAGS)
+
+clean-metadata-cache:
+	rm -r $(PWD)/metadata/md5-cache
+
+clean: clean-metadata-cache
+
 
 # Test
 
@@ -56,7 +69,7 @@ test:
 # Documentation
 
 scribblings/doc:
-	cd $(PWD)/scribblings && $(SH) ./build.sh
+	cd $(PWD)/scribblings && $(SH) $(PWD)/build.sh
 
 public: scribblings/doc
 	cp -r $(PWD)/scribblings/doc/racket-overlay $(PWD)/public
@@ -70,4 +83,4 @@ regen-public:
 # Auxiliary
 
 submodules:
-	$(SH) ./3rd_party/scripts/src/update-submodules
+	$(SH) $(PWD)/3rd_party/scripts/src/update-submodules

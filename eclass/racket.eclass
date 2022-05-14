@@ -320,11 +320,16 @@ raco_remove() {
 # @DESCRIPTION:
 # Default pkg_prerm:
 #
-# If we have Racket available remove the pkg using `raco_remove'
-# if it is installed to properly update pkg databases.
+# If we are removing (not updating) the package, then
+# if we have Racket available remove the pkg using `raco_remove'
+# (if it is installed) to properly update pkg databases.
 racket_pkg_prerm() {
-	if has_version "dev-scheme/racket" && racket-where "${RACKET_PN}" ; then
-		raco_remove
+	if [[ -z "${REPLACED_BY_VERSION}" ]] ; then
+		if has_version "dev-scheme/racket" && racket-where "${RACKET_PN}" ; then
+			raco_remove
+		fi
+	else
+		echo "Package \"${RACKET_PN}\" is being upgraded or reinstalled, not removing it."
 	fi
 }
 
@@ -332,14 +337,22 @@ racket_pkg_prerm() {
 # @USAGE: [dir]
 # @DESCRIPTION:
 # Only to be used in pkg_postinst.
-# Installs the package in the "Racket way" in the 'installation' scope.
+# If the package is not already installed, then
+# installs the package in the "Racket way" in the 'installation' scope.
 # Optional argument "dir" selects a directory from which (compiled)
 # sources will be installed, it defaults to RACKET_P_DIR.
 raco_system_install() {
-	local dir="${1:-${RACKET_P_DIR}}"
-	pushd "${dir}" >/dev/null || die
-	raco_bare_install installation
-	popd >/dev/null || die
+	# This could have also been accomplished by using "REPLACING_VERSIONS"
+	# > [[ -z "${REPLACING_VERSIONS}" ]]
+	# but we have "racket-where", so let's use it!
+	if racket-where "${RACKET_PN}"; then
+		echo "Package \"${RACKET_PN}\" is already installed."
+	else
+		local dir="${1:-${RACKET_P_DIR}}"
+		pushd "${dir}" >/dev/null || die
+		raco_bare_install installation
+		popd >/dev/null || die
+	fi
 }
 
 # @FUNCTION: raco_system_setup

@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/struct-plus-plus dev-racket/test-more >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=An amortized O(1) queue struct
+EAPI=8
+HOMEPAGE=https://github.com/dstorrs/racket-queue
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/struct-plus-plus dev-racket/test-more >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/dstorrs/racket-queue/archive/98ebd99a4d3d849aef90c31ed9e874126aedde84.tar.gz -> queue-2022.05.11.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_md5_=4948b16438b2f4ae2d89fd769529a74d

@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/raco-cross-lib >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=documentation part of raco-cross
+EAPI=8
+HOMEPAGE=https://github.com/racket/raco-cross
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/raco-cross-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/racket/raco-cross/archive/97e2d68fc6ff451f79fb82dd2b81495a2afa7b23.tar.gz -> raco-cross-doc-2022.05.09.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_md5_=693b3e472b967083c9ec77e76e5adbbb

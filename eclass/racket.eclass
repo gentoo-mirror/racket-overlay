@@ -337,8 +337,12 @@ racket_pkg_prerm() {
 # @USAGE: [dir]
 # @DESCRIPTION:
 # Only to be used in pkg_postinst.
-# If the package is not already installed, then
-# installs the package in the "Racket way" in the 'installation' scope.
+#
+# Install the package in the "installation" scope
+# if it is the first time that package is being installed.
+# In other words, if the package is not already installed, then
+# install the package in "the Racket way" in the "installation" scope.
+#
 # Optional argument "dir" selects a directory from which (compiled)
 # sources will be installed, it defaults to RACKET_P_DIR.
 raco_system_install() {

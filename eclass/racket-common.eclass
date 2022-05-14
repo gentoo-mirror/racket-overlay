@@ -8,9 +8,9 @@
 # Maciej Barć <xgqt@riseup.net>
 # Tom Gillespie <tgbugs@gmail.com>
 # @SUPPORTED_EAPIS: 7 8
-# @BLURB: Common configuration eclass for Racket packages
+# @BLURB: Common configuration eclass for compiling Racket sources.
 # @DESCRIPTION:
-# This eclass is used in Racket packages ebuilds
+# This eclass is used in packages that need to compile Racket source code.
 
 inherit multiprocessing xdg-utils
 

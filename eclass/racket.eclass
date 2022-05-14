@@ -132,11 +132,12 @@ racket_clean_directory() {
 # WARNING!: Check what is ${S}, it should be the highest (lowest depth)
 # placed "info.rkt" file that defines the collection you want.
 racket_fix_collection() {
-	if [[ -f ./info.rkt ]] ; then
-		if ! grep 'define collection' ./info.rkt >/dev/null ; then
-			ewarn "adding a collection definition to info.rkt"
-			echo "(define collection \"${RACKET_PN}\")" >> ./info.rkt ||
-				die "failed to add a collection definition to info.rkt"
+	local info_file="$(pwd)"/info.rkt
+	if [[ -f "${info_file}" ]] ; then
+		if ! grep 'define collection' "${info_file}" >/dev/null ; then
+			ewarn "Adding collection definition to \"${info_file}\"."
+			echo "(define collection \"${RACKET_PN}\")" >> "${info_file}" ||
+				die "Failed to add collection definition to \"${info_file}\"."
 		fi
 	fi
 }

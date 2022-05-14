@@ -27,7 +27,8 @@
 
 # About
 
-Experimental Gentoo overlay with Racket packages from the Racket Package Catalog
+Experimental Gentoo overlay with Racket packages from the
+[Racket Package Catalog](https://pkgs.racket-lang.org/).
 
 
 # HowTo

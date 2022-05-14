@@ -12,5 +12,5 @@ RDEPEND=dev-racket/multimethod-doc dev-racket/multimethod-lib >=dev-scheme/racke
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lexi-lambda/racket-multimethod/archive/8a0903ebaedd919971c382eeb785f05080c7a8d6.tar.gz -> multimethod-2017.08.15.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	be9c8ce70c2d14e5236cb870d8821abd	racket	4fa7e310f03c24a850ee8d35edc29bb3	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	be9c8ce70c2d14e5236cb870d8821abd	racket	6ce9ee1ba75f423c61e5ea3564ba1cae	gh	57cb0727c341e650abebf298a01db9da
 _md5_=f9495d8a8531cf1374d8793a3dc2e254

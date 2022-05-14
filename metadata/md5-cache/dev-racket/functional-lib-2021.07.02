@@ -13,5 +13,5 @@ RDEPEND=dev-racket/curly-fn-lib dev-racket/static-rename-lib >=dev-scheme/racket
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lexi-lambda/functional/archive/be2285cd3da0e2fffe651a8ab723185bb669425d.tar.gz -> functional-lib-2021.07.02.tar.gz https://github.com/lexi-lambda/racket-collections/archive/c4822fc200b0488922cd6e86b4f2ea7cf8c565da.tar.gz -> functional-lib_aux_collections-lib-2021.07.02.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	be9c8ce70c2d14e5236cb870d8821abd	racket	4fa7e310f03c24a850ee8d35edc29bb3
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	be9c8ce70c2d14e5236cb870d8821abd	racket	6ce9ee1ba75f423c61e5ea3564ba1cae
 _md5_=96bcd0f2a19db376f8bfec19ed0752cd

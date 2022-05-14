@@ -12,5 +12,5 @@ RDEPEND=>=dev-scheme/racket-8.1:= >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/theia-ide/racket-language-server/archive/e397a130676504fc8b053e6b1f48d49b77b9ad98.tar.gz -> racket-language-server-2020.04.10.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	be9c8ce70c2d14e5236cb870d8821abd	racket	4fa7e310f03c24a850ee8d35edc29bb3	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	be9c8ce70c2d14e5236cb870d8821abd	racket	6ce9ee1ba75f423c61e5ea3564ba1cae	gh	57cb0727c341e650abebf298a01db9da
 _md5_=7177be3327a692fff55f67783193a266

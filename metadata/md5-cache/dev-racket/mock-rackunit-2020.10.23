@@ -12,5 +12,5 @@ RDEPEND=dev-racket/mock dev-racket/sweet-exp >=dev-scheme/racket-8.1:= >=dev-sch
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/racket-mock/archive/5e8e2a1dd125e5e437510c87dabf903d0ec25749.tar.gz -> mock-rackunit-2020.10.23.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	be9c8ce70c2d14e5236cb870d8821abd	racket	4fa7e310f03c24a850ee8d35edc29bb3	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	be9c8ce70c2d14e5236cb870d8821abd	racket	6ce9ee1ba75f423c61e5ea3564ba1cae	gh	57cb0727c341e650abebf298a01db9da
 _md5_=0095bfd2b82d8e46860a21be68341bf8

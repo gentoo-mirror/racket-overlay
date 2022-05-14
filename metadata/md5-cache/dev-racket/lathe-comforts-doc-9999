@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=dev-racket/lathe-comforts-lib dev-racket/parendown-doc dev-racket/parendown-lib dev-racket/reprovide-lang-lib >=dev-scheme/racket-8.1:= >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	be9c8ce70c2d14e5236cb870d8821abd	racket	4fa7e310f03c24a850ee8d35edc29bb3	git-r3	b9ac6f96d2a88edb5b351df634dc5e53	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	be9c8ce70c2d14e5236cb870d8821abd	racket	6ce9ee1ba75f423c61e5ea3564ba1cae	git-r3	b9ac6f96d2a88edb5b351df634dc5e53	gh	57cb0727c341e650abebf298a01db9da
 _md5_=d888b2112f2d1a5fb1a2b25a6aea4c50

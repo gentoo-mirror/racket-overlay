@@ -1,6 +1,6 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=>=dev-scheme/racket-8.1:= >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Profile that measures time spent in language/library features
 EAPI=8
 HOMEPAGE=https://github.com/stamourv/feature-profile
@@ -8,9 +8,9 @@ INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=>=dev-scheme/racket-8.1:= >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/stamourv/feature-profile/archive/cc96e3aa8efe71c013f662c60e2b0d9231b27f97.tar.gz -> feature-profile-2017.09.02.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	be9c8ce70c2d14e5236cb870d8821abd	racket	4fa7e310f03c24a850ee8d35edc29bb3	gh	57cb0727c341e650abebf298a01db9da
 _md5_=9a4619d64b49ab4f748f10b2803699c0

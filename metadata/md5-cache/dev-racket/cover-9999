@@ -1,6 +1,6 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/cover-doc dev-racket/cover-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/cover-doc dev-racket/cover-lib >=dev-scheme/racket-8.1:= >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=A code coverage tool
 EAPI=8
 HOMEPAGE=https://github.com/florence/cover
@@ -8,8 +8,8 @@ INHERIT=racket gh
 IUSE=doc
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/cover-doc dev-racket/cover-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/cover-doc dev-racket/cover-lib >=dev-scheme/racket-8.1:= >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	git-r3	b9ac6f96d2a88edb5b351df634dc5e53	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	be9c8ce70c2d14e5236cb870d8821abd	racket	4fa7e310f03c24a850ee8d35edc29bb3	git-r3	b9ac6f96d2a88edb5b351df634dc5e53	gh	57cb0727c341e650abebf298a01db9da
 _md5_=6b0348d4c927b204b716441b9c23aa50

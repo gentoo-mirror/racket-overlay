@@ -1,6 +1,6 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=>=dev-scheme/racket-8.1:= >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Alternative MPFR interface for emulating IEEE-754 floating-point numbers
 EAPI=8
 HOMEPAGE=https://github.com/bksaiki/generic-flonum
@@ -8,9 +8,9 @@ INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=>=dev-scheme/racket-8.1:= >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/bksaiki/generic-flonum/archive/490cd103437876ff98413f34f2b8c845f89fa2ea.tar.gz -> generic-flonum-2021.10.31.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	be9c8ce70c2d14e5236cb870d8821abd	racket	4fa7e310f03c24a850ee8d35edc29bb3	gh	57cb0727c341e650abebf298a01db9da
 _md5_=a7496031da4c5c1f1ae8fa6d278d85eb

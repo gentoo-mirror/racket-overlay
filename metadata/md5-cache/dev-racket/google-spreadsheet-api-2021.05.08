@@ -1,6 +1,6 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/crypto dev-racket/net-jwt dev-racket/scribble-code-examples >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/crypto dev-racket/net-jwt dev-racket/scribble-code-examples >=dev-scheme/racket-8.1:= >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Racket interface for Google Spreadsheet APIs
 EAPI=8
 HOMEPAGE=https://gitlab.com/car.margiotta/google-spreadsheet-api
@@ -8,9 +8,9 @@ INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/crypto dev-racket/net-jwt dev-racket/scribble-code-examples >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/crypto dev-racket/net-jwt dev-racket/scribble-code-examples >=dev-scheme/racket-8.1:= >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/car.margiotta/google-spreadsheet-api/-/archive/081c8a9543b5d1f0a5329de62c87eec5f12e8b9c.tar.gz -> google-spreadsheet-api-2021.05.08.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	be9c8ce70c2d14e5236cb870d8821abd	racket	4fa7e310f03c24a850ee8d35edc29bb3	gh	57cb0727c341e650abebf298a01db9da
 _md5_=06fb9ad3116833efe4b73789b1f9932f

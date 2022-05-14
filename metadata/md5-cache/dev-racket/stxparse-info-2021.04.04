@@ -1,6 +1,6 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/auto-syntax-e dev-racket/version-case >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/auto-syntax-e dev-racket/version-case >=dev-scheme/racket-8.1:= >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=the stxparse-info Racket package
 EAPI=8
 HOMEPAGE=https://pkgs.racket-lang.org/package/stxparse-info
@@ -9,9 +9,9 @@ IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 PDEPEND=dev-racket/subtemplate
-RDEPEND=dev-racket/auto-syntax-e dev-racket/version-case >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/auto-syntax-e dev-racket/version-case >=dev-scheme/racket-8.1:= >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jsmaniac/stxparse-info/archive/d35e84905fdbbef4309edca0a138cd77066be185.tar.gz -> stxparse-info-2021.04.04.tar.gz https://github.com/jsmaniac/subtemplate/archive/a3292113bb0d7dd8dc2114702b90e76f23963496.tar.gz -> stxparse-info_aux_subtemplate-2021.04.04.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	be9c8ce70c2d14e5236cb870d8821abd	racket	4fa7e310f03c24a850ee8d35edc29bb3
 _md5_=ec47216c9e75f16430a61c57e4145a2c

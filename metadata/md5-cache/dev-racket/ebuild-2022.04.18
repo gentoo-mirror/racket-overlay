@@ -1,6 +1,6 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/ebuild-doc dev-racket/ebuild-lib dev-racket/ebuild-templates dev-racket/ebuild-test dev-racket/ebuild-tools dev-racket/ebuild-transformers >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/ebuild-doc dev-racket/ebuild-lib dev-racket/ebuild-templates dev-racket/ebuild-test dev-racket/ebuild-tools dev-racket/ebuild-transformers >=dev-scheme/racket-8.1:= >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Library to ease automatic ebuild creation. Metapackage.
 EAPI=8
 HOMEPAGE=https://gitlab.com/xgqt/racket-ebuild
@@ -8,9 +8,9 @@ INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/ebuild-doc dev-racket/ebuild-lib dev-racket/ebuild-templates dev-racket/ebuild-test dev-racket/ebuild-tools dev-racket/ebuild-transformers >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/ebuild-doc dev-racket/ebuild-lib dev-racket/ebuild-templates dev-racket/ebuild-test dev-racket/ebuild-tools dev-racket/ebuild-transformers >=dev-scheme/racket-8.1:= >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/xgqt/racket-ebuild/-/archive/265f7b37faf58cfe7d80b7be2765fb22e6342f10.tar.gz -> ebuild-2022.04.18.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	be9c8ce70c2d14e5236cb870d8821abd	racket	4fa7e310f03c24a850ee8d35edc29bb3	gh	57cb0727c341e650abebf298a01db9da
 _md5_=2b569a89eb87a330b1789b862f16fa72

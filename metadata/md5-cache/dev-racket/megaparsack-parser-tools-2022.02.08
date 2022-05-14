@@ -1,6 +1,6 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/functional-lib dev-racket/megaparsack-lib >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/functional-lib dev-racket/megaparsack-lib >=dev-scheme/racket-8.1:= >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=helpers for using megaparsack with parser-tools
 EAPI=8
 HOMEPAGE=https://github.com/lexi-lambda/megaparsack
@@ -8,9 +8,9 @@ INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/functional-lib dev-racket/megaparsack-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/functional-lib dev-racket/megaparsack-lib >=dev-scheme/racket-8.1:= >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lexi-lambda/megaparsack/archive/0ccdee4270da0337700ac62aa106735d0d879695.tar.gz -> megaparsack-parser-tools-2022.02.08.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	be9c8ce70c2d14e5236cb870d8821abd	racket	4fa7e310f03c24a850ee8d35edc29bb3	gh	57cb0727c341e650abebf298a01db9da
 _md5_=a454f369853d81059167b306ec5a7236

@@ -1598,4 +1598,4 @@ dev-racket/zuo-doc 2022.04.20 2022.05.05 2022.05.13 9999: Documentation for the 
 dev-scheme/racket 8.3_p20211111 8.3_p20211202 8.3_p20211216 8.3_p20220106 8.4_pre20220112: General purpose, multi-paradigm Lisp-Scheme programming language
 sys-apps/racket-compiler 1.0.0: Small tool to compile Racket source code
 sys-apps/racket-maints 1.1.0-r1 9999: Racket Maintenance Scripts
-sys-apps/racket-where 1.0.0-r1: Small tool to find Racket packages
+sys-apps/racket-where 1.0.0-r2: Small tool to find Racket packages

@@ -1,6 +1,6 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/bitsyntax dev-racket/crypto dev-racket/word >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/bitsyntax dev-racket/crypto dev-racket/word >=dev-scheme/racket-8.1:= >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Implementation of the Bluetooth CSR Mesh protocol.
 EAPI=8
 HOMEPAGE=https://gitlab.com/RayRacine/csrmesh
@@ -8,9 +8,9 @@ INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/bitsyntax dev-racket/crypto dev-racket/word >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/bitsyntax dev-racket/crypto dev-racket/word >=dev-scheme/racket-8.1:= >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/RayRacine/csrmesh/-/archive/d7cc04b2bbfd45c71bf086bf5075de9ccd81415f.tar.gz -> csrmesh-2021.05.08.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	be9c8ce70c2d14e5236cb870d8821abd	racket	4fa7e310f03c24a850ee8d35edc29bb3	gh	57cb0727c341e650abebf298a01db9da
 _md5_=11b40f2ec4a4b6ec22ba6cb7607ffe52

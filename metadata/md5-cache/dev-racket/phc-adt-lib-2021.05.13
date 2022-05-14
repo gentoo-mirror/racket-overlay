@@ -1,6 +1,6 @@
 BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/alexis-util dev-racket/datatype dev-racket/extensible-parser-specifications dev-racket/generic-bind dev-racket/hyper-literate dev-racket/match-string dev-racket/multi-id dev-racket/phc-toolkit dev-racket/remember dev-racket/scribble-enhanced dev-racket/scribble-math dev-racket/type-expander dev-racket/typed-struct-props dev-racket/xlist >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/alexis-util dev-racket/datatype dev-racket/extensible-parser-specifications dev-racket/generic-bind dev-racket/hyper-literate dev-racket/match-string dev-racket/multi-id dev-racket/phc-toolkit dev-racket/remember dev-racket/scribble-enhanced dev-racket/scribble-math dev-racket/type-expander dev-racket/typed-struct-props dev-racket/xlist >=dev-scheme/racket-8.1:= >=dev-scheme/racket-8.1:=[-minimal]
 DESCRIPTION=Implementation of phc-adt
 EAPI=8
 HOMEPAGE=https://github.com/jsmaniac/phc-adt
@@ -8,9 +8,9 @@ INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/alexis-util dev-racket/datatype dev-racket/extensible-parser-specifications dev-racket/generic-bind dev-racket/hyper-literate dev-racket/match-string dev-racket/multi-id dev-racket/phc-toolkit dev-racket/remember dev-racket/scribble-enhanced dev-racket/scribble-math dev-racket/type-expander dev-racket/typed-struct-props dev-racket/xlist >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/alexis-util dev-racket/datatype dev-racket/extensible-parser-specifications dev-racket/generic-bind dev-racket/hyper-literate dev-racket/match-string dev-racket/multi-id dev-racket/phc-toolkit dev-racket/remember dev-racket/scribble-enhanced dev-racket/scribble-math dev-racket/type-expander dev-racket/typed-struct-props dev-racket/xlist >=dev-scheme/racket-8.1:= >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jsmaniac/phc-adt/archive/36c1047c4899d1b478cc6052f9b2e71168aeefb5.tar.gz -> phc-adt-lib-2021.05.13.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket	d0e05562116480be75cd31023475702d	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	be9c8ce70c2d14e5236cb870d8821abd	racket	4fa7e310f03c24a850ee8d35edc29bb3	gh	57cb0727c341e650abebf298a01db9da
 _md5_=791b7625518320e6dbe0b8485e739fd2

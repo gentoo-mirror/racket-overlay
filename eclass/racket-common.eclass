@@ -60,7 +60,7 @@ eraco() {
 # @DESCRIPTION:
 # Check if required commands exist.
 # Clean the environment for building racket packages.
-# Set the "PLTUSERHOME" variable fro building using Portage.
+# Set the "PLTUSERHOME" variable for building using Portage.
 # This function sets the following variables:
 #
 # @CODE

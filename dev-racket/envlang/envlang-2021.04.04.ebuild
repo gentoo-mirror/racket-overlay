@@ -18,7 +18,6 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/hyper-literate
-	dev-racket/phc-toolkit
 	dev-racket/polysemy
 	dev-racket/reprovide-lang-lib"
 DEPEND="${RDEPEND}"

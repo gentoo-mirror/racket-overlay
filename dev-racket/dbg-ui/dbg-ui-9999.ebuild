@@ -16,6 +16,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/dbg
+RDEPEND="dev-racket/canvas-list
+	dev-racket/dbg
 	dev-racket/gui-easy-lib"
 DEPEND="${RDEPEND}"

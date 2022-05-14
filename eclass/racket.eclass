@@ -12,7 +12,7 @@
 # @DESCRIPTION:
 # This eclass is used in Racket packages ebuilds
 
-inherit multiprocessing xdg-utils
+inherit multiprocessing racket-common
 
 case ${EAPI} in
 	7 | 8 )  true  ;;
@@ -27,17 +27,6 @@ esac
 # RACKET_PN="mypkg"
 # @CODE
 : ${RACKET_PN:=${PN}}
-
-# @ECLASS_VARIABLE: RACKET_REQ_USE
-# @DEFAULT_UNSET
-# @DESCRIPTION:
-# This variable contains a string of USE flags that will be appended
-# to the dev-scheme/racket DEPEND requirement.
-#
-# @CODE
-# RACKET_REQ_USE="chez"
-# RACKET_REQ_USE="chez,doc"
-# @CODE
 
 # @ECLASS_VARIABLE: SCRBL_DOCS
 # @DESCRIPTION:
@@ -84,9 +73,7 @@ esac
 : ${SCRBL_DOC_DIR:="${WORKDIR}/${P}_scrbl_docs"}
 
 # Dependencies
-RDEPEND="
-	>=dev-scheme/racket-8.1:=[-minimal${RACKET_REQ_USE:+,${RACKET_REQ_USE}}]
-"
+RDEPEND=">=dev-scheme/racket-8.1:=[-minimal]"
 DEPEND="${RDEPEND}"
 
 # - racket-where (for `racket_pkg_prerm') - no additional BDEPEND
@@ -104,7 +91,6 @@ EXPORT_FUNCTIONS src_prepare src_compile src_test src_install pkg_postinst pkg_p
 # This function sets the following variables:
 #
 # @CODE
-# PLTUSERHOME = ${HOME}/pltuserhome (temporary created by Portage)
 # RACKET_PREFIX = /usr/share/racket/
 # RACKET_PKGS_DIR = /usr/share/racket/pkgs/
 # RACKET_P_DIR = ${EPREFIX}/usr/share/racket/pkgs/${RACKET_PN}
@@ -113,15 +99,8 @@ racket_environment_prepare() {
 	if ! [[ ${PN} == "racket-where" ]] ; then
 		command -v racket-where >/dev/null || die "racket-where is missing"
 	fi
-	command -v raco >/dev/null || die "raco is missing"
 
-	xdg_environment_reset
-
-	# The location of temporary portage PLTUSERHOME
-	# this in most cases will be /var/tmp/portage/homedir
-	# While this is /root or /home/<user> we are in trouble
-	export PLTUSERHOME="${HOME}/pltuserhome"
-	mkdir -p "${PLTUSERHOME}" || die
+	racket_clean_environment
 
 	# Main Racket installtion directory
 	export RACKET_PREFIX="/usr/share/racket"
@@ -174,16 +153,6 @@ racket_src_prepare() {
 	racket_clean_directory
 	racket_fix_collection
 	default
-}
-
-# @FUNCTION: eraco
-# @USAGE: [arg] ...
-# @DESCRIPTION:
-# Wrapper for the Racket's raco command.
-eraco() {
-	ebegin "Invoking \"raco ${*}\""
-	raco "${@}"
-	eend $? "\"raco ${*}\" failed" || die
 }
 
 # @FUNCTION: raco_docs_switch
@@ -271,21 +240,6 @@ racket_src_compile() {
 	fi
 }
 
-# @FUNCTION: raco_test
-# @DESCRIPTION:
-# Invokes 'raco test .' with '--submodule test' option causing it to look for
-# test submodules in files in current package directory (recursively)
-# and execute those tests.
-raco_test() {
-	local raco_opts=(
-		--drdr
-		--jobs "$(makeopts_jobs)"
-		--no-run-if-absent
-		--submodule test
-	)
-	eraco test "${raco_opts[@]}" .
-}
-
 # @FUNCTION: racket_src_test
 # @DESCRIPTION:
 # Default src_test:
@@ -366,11 +320,16 @@ raco_remove() {
 # @DESCRIPTION:
 # Default pkg_prerm:
 #
-# If we have Racket available remove the pkg using `raco_remove'
-# if it is installed to properly update pkg databases.
+# If we are removing (not updating) the package, then
+# if we have Racket available remove the pkg using `raco_remove'
+# (if it is installed) to properly update pkg databases.
 racket_pkg_prerm() {
-	if has_version "dev-scheme/racket" && racket-where "${RACKET_PN}" ; then
-		raco_remove
+	if [[ -z "${REPLACED_BY_VERSION}" ]] ; then
+		if has_version "dev-scheme/racket" && racket-where "${RACKET_PN}" ; then
+			raco_remove
+		fi
+	else
+		echo "Package \"${RACKET_PN}\" is being upgraded or reinstalled, not removing it."
 	fi
 }
 
@@ -378,14 +337,26 @@ racket_pkg_prerm() {
 # @USAGE: [dir]
 # @DESCRIPTION:
 # Only to be used in pkg_postinst.
-# Installs the package in the "Racket way" in the 'installation' scope.
+#
+# Install the package in the "installation" scope
+# if it is the first time that package is being installed.
+# In other words, if the package is not already installed, then
+# install the package in "the Racket way" in the "installation" scope.
+#
 # Optional argument "dir" selects a directory from which (compiled)
 # sources will be installed, it defaults to RACKET_P_DIR.
 raco_system_install() {
-	local dir="${1:-${RACKET_P_DIR}}"
-	pushd "${dir}" >/dev/null || die
-	raco_bare_install installation
-	popd >/dev/null || die
+	# This could have also been accomplished by using "REPLACING_VERSIONS"
+	# > [[ -z "${REPLACING_VERSIONS}" ]]
+	# but we have "racket-where", so let's use it!
+	if racket-where "${RACKET_PN}"; then
+		echo "Package \"${RACKET_PN}\" is already installed."
+	else
+		local dir="${1:-${RACKET_P_DIR}}"
+		pushd "${dir}" >/dev/null || die
+		raco_bare_install installation
+		popd >/dev/null || die
+	fi
 }
 
 # @FUNCTION: raco_system_setup

@@ -15,24 +15,23 @@ if [[ "${PV}" == *9999* ]]; then
 	EGIT_REPO_URI="https://gitlab.com/src_prepare/racket/${PN}.git"
 else
 	SRC_URI="https://gitlab.com/src_prepare/racket/${PN}/-/archive/${PV}/${P}.tar.gz"
-	KEYWORDS="~amd64"
+	KEYWORDS="~amd64 ~x86"
 fi
-S="${S}/src"
 
 LICENSE="GPL-3"
 SLOT="0"
 
+S="${S}/src"
+
 do_compile() {
 	pushd "${1}" >/dev/null || die
-
 	sh ./${PN}/compile.sh || die "compilation failed"
-
 	popd >/dev/null || die
 }
 
 src_compile() {
 	do_compile .
-	racket_temporary_install
+	raco_temporary_install
 }
 
 pkg_prerm() {

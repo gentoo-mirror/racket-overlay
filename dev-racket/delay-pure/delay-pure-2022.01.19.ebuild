@@ -17,7 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/phc-toolkit
-	dev-racket/type-expander
+RDEPEND="dev-racket/type-expander
 	dev-racket/version-case"
 DEPEND="${RDEPEND}"

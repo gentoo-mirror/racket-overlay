@@ -15,3 +15,6 @@ S="${S}/k-core"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/syntax-classes-lib"
+DEPEND="${RDEPEND}"

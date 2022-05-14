@@ -16,6 +16,5 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/aful
-	dev-racket/typed-map-lib"
+RDEPEND="dev-racket/typed-map-lib"
 DEPEND="${RDEPEND}"

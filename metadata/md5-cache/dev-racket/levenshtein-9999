@@ -1,6 +1,6 @@
-BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/mcfly dev-racket/overeasy >=dev-scheme/racket-8.1:= >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/mcfly dev-racket/overeasy
 DESCRIPTION=Levenshtein Distance Metric
 EAPI=8
 HOMEPAGE=https://pkgs.racket-lang.org/package/levenshtein
@@ -9,8 +9,8 @@ IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/mcfly dev-racket/overeasy >=dev-scheme/racket-8.1:= >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/mcfly dev-racket/overeasy >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	be9c8ce70c2d14e5236cb870d8821abd	racket	6ce9ee1ba75f423c61e5ea3564ba1cae
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6
 _md5_=24c42e1bdeee4319db5cd8d9ce54bb65

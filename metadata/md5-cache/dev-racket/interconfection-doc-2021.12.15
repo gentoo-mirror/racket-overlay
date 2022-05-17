@@ -1,6 +1,6 @@
-BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/interconfection-lib dev-racket/lathe-comforts-doc dev-racket/lathe-comforts-lib dev-racket/parendown-lib >=dev-scheme/racket-8.1:= >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/interconfection-lib dev-racket/lathe-comforts-doc dev-racket/lathe-comforts-lib dev-racket/parendown-lib
 DESCRIPTION=A library for building extensible systems, especially module systems. (doc)
 EAPI=8
 HOMEPAGE=https://github.com/lathe/interconfection-for-racket
@@ -8,9 +8,9 @@ INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/interconfection-lib dev-racket/lathe-comforts-doc dev-racket/lathe-comforts-lib dev-racket/parendown-lib >=dev-scheme/racket-8.1:= >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/interconfection-lib dev-racket/lathe-comforts-doc dev-racket/lathe-comforts-lib dev-racket/parendown-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lathe/interconfection-for-racket/archive/c87e0bf1bab7c3f28900d8a5c7fc3fd7b1df8125.tar.gz -> interconfection-doc-2021.12.15.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	be9c8ce70c2d14e5236cb870d8821abd	racket	6ce9ee1ba75f423c61e5ea3564ba1cae	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
 _md5_=f700981584ad25e1add8e75064baafdb

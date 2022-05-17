@@ -1,6 +1,6 @@
-BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/racket-cord dev-racket/threading-doc dev-racket/threading-lib >=dev-scheme/racket-8.1:= >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/racket-cord dev-racket/threading-doc dev-racket/threading-lib
 DESCRIPTION=A Discord trick bot in Racket
 EAPI=8
 HOMEPAGE=https://github.com/williewillus/r16
@@ -8,9 +8,9 @@ INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/racket-cord dev-racket/threading-doc dev-racket/threading-lib >=dev-scheme/racket-8.1:= >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/racket-cord dev-racket/threading-doc dev-racket/threading-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/williewillus/r16/archive/4869f1b7ac4f84079207e537924b61393715a4c7.tar.gz -> r16-2022.03.18.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	be9c8ce70c2d14e5236cb870d8821abd	racket	6ce9ee1ba75f423c61e5ea3564ba1cae	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
 _md5_=32fa115159f823e7f0c7c6351a418d8d

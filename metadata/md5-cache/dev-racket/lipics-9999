@@ -1,6 +1,6 @@
-BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/sha >=dev-scheme/racket-8.1:= >=dev-scheme/racket-8.1:=[-minimal]
+DEPEND=dev-racket/sha
 DESCRIPTION=Scribble languages for the LIPIcs paper format
 EAPI=8
 HOMEPAGE=https://github.com/takikawa/lipics-scribble
@@ -8,8 +8,8 @@ INHERIT=racket gh
 IUSE=doc
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/sha >=dev-scheme/racket-8.1:= >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/sha >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	be9c8ce70c2d14e5236cb870d8821abd	racket	6ce9ee1ba75f423c61e5ea3564ba1cae	git-r3	b9ac6f96d2a88edb5b351df634dc5e53	gh	57cb0727c341e650abebf298a01db9da
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	git-r3	b9ac6f96d2a88edb5b351df634dc5e53	gh	3f48f311ff3938a762eedf34a670f7f9
 _md5_=0f7981c6242d611bde1d9936502d6683

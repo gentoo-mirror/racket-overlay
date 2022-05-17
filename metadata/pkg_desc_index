@@ -929,7 +929,6 @@ dev-racket/pkg-build 2021.04.29 9999: Build server for pkgs
 dev-racket/pkg-dep-draw 2017.08.15 9999: the pkg-dep-draw Racket package
 dev-racket/pkg-push 2019.10.24 9999: the pkg-push Racket package
 dev-racket/pl 9999: Eli's PL course plugin
-dev-racket/plai-dynamic 9999: the plai-dynamic Racket package
 dev-racket/plai-lazy 2017.08.15 9999: A lazy variant of the plai language
 dev-racket/plai-typed 2019.08.16 9999: the plai-typed Racket package
 dev-racket/plai-typed-s-exp-match 2017.08.15 9999: Simple S-expression matcher for use with plai-typed
@@ -1488,8 +1487,6 @@ dev-racket/ulid 2020.04.05 9999: Universally unique lexicographically sortable i
 dev-racket/umask 2022.01.16 2022.02.04 2022.02.12 9999: umask - set default permissions on unix-like systems
 dev-racket/umask-doc 2022.01.16 2022.02.04 2022.02.12 9999: Documentation for umask
 dev-racket/umask-lib 2022.01.16 2022.02.04 2022.02.12 9999: Library code portion of the umask collection
-dev-racket/unb-cs2613 9999: Racket packages for UNB CS2613
-dev-racket/unb-cs4613 9999: Handin client + metapackage for UNB Fredericton CS4613
 dev-racket/uni-table 2021.12.15 2021.12.29 2022.02.22 9999: Unicode tables rendering with ECMA-48 Select Graphic Rendition codes support
 dev-racket/unicode-properties 2017.12.18 9999: the unicode-properties Racket package
 dev-racket/unix-signals 2021.02.19 9999: Sending and handling Unix signals from Racket

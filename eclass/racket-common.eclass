@@ -24,6 +24,7 @@ esac
 
 # @ECLASS_VARIABLE: RACKET_REQ_USE
 # @DEFAULT_UNSET
+# @PRE_INHERIT
 # @DESCRIPTION:
 # This variable contains a string of USE flags that will be appended
 # to the dev-scheme/racket DEPEND requirement.
@@ -32,14 +33,12 @@ esac
 # RACKET_REQ_USE="chez"
 # RACKET_REQ_USE="chez,doc"
 # @CODE
-
-# Dependencies
 if [[ -n "${RACKET_REQ_USE}" ]] ; then
 	RDEPEND=">=dev-scheme/racket-8.1:=[${RACKET_REQ_USE}]"
 else
 	RDEPEND=">=dev-scheme/racket-8.1:="
 fi
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"
 
 # @FUNCTION: racket_check_raco
 # @DESCRIPTION:

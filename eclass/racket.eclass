@@ -15,6 +15,14 @@
 if [[ -z ${_RACKET_ECLASS} ]]; then
 _RACKET_ECLASS=1
 
+
+# @ECLASS_VARIABLE: RACKET_REQ_USE
+# @INTERNAL
+# @DESCRIPTION:
+# This variable contains a string of USE flags that will be appended
+# to the dev-scheme/racket DEPEND requirement.
+RACKET_REQ_USE+="${RACKET_REQ_USE:+,}-minimal"
+
 inherit multiprocessing racket-common
 
 case ${EAPI} in
@@ -32,6 +40,7 @@ esac
 : ${RACKET_PN:=${PN}}
 
 # @ECLASS_VARIABLE: SCRBL_DOCS
+# @PRE_INHERIT
 # @DESCRIPTION:
 # This variable toggles whether to enable building
 # documentation using scribble.
@@ -75,17 +84,12 @@ esac
 # @CODE
 : ${SCRBL_DOC_DIR:="${WORKDIR}/${P}_scrbl_docs"}
 
-# Dependencies
-RDEPEND=">=dev-scheme/racket-8.1:=[-minimal]"
-DEPEND="${RDEPEND}"
-
 # - racket-where (for `racket_pkg_prerm') - no additional BDEPEND
 # - other - racket-compiler and racket-where
 case ${PN} in
 	"racket-where" )  true  ;;
 	* )  BDEPEND+=" sys-apps/racket-where "  ;;
 esac
-
 
 # @FUNCTION: racket_environment_prepare
 # @DESCRIPTION:

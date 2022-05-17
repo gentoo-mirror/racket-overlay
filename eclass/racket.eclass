@@ -12,6 +12,9 @@
 # @DESCRIPTION:
 # This eclass is used in Racket packages ebuilds
 
+if [[ -z ${_RACKET_ECLASS} ]]; then
+_RACKET_ECLASS=1
+
 inherit multiprocessing racket-common
 
 case ${EAPI} in
@@ -83,7 +86,6 @@ case ${PN} in
 	* )  BDEPEND+=" sys-apps/racket-where "  ;;
 esac
 
-EXPORT_FUNCTIONS src_prepare src_compile src_test src_install pkg_postinst pkg_prerm
 
 # @FUNCTION: racket_environment_prepare
 # @DESCRIPTION:
@@ -438,3 +440,7 @@ racket_pkg_postinst() {
 			;;
 	esac
 }
+
+fi
+
+EXPORT_FUNCTIONS src_prepare src_compile src_test src_install pkg_postinst pkg_prerm

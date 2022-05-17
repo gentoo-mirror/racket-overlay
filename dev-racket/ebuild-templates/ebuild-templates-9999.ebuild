@@ -16,5 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/ebuild-lib"
+RDEPEND="dev-racket/ebuild-lib
+	dev-racket/threading-lib"
 DEPEND="${RDEPEND}"

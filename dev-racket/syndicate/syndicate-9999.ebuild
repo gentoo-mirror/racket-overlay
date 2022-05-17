@@ -17,8 +17,7 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/auxiliary-macro-context
-	dev-racket/bitsyntax
 	dev-racket/preserves
-	dev-racket/rfc6455
+	dev-racket/sha
 	dev-racket/struct-defaults"
 DEPEND="${RDEPEND}"

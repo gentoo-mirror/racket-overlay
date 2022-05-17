@@ -10,8 +10,11 @@
 | net-cookies        | in main-distribution       |
 | nix                | upstream gone              |
 | optimization-coach | malformed source           |
+| plai-dynamic       | unknown GH DOM, 404 web    |
 | qi                 | circular deps (use qi-lib) |
 | quickscript        | in main-distribution       |
+| unb-cs2613         | unknown GH DOM, 404 web    |
+| unb-cs4613         | unknown GH DOM, 404 web    |
 
 When using Collector2 exclude those packages from being generated
 with either `-E`  or `-e` option, ie.: `-e Ibkre`.

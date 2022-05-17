@@ -12,6 +12,9 @@
 # @DESCRIPTION:
 # This eclass is used in packages that need to compile Racket source code.
 
+if [[ -z ${_RACKET_COMMON_ECLASS} ]]; then
+_RACKET_COMMON_ECLASS=1
+
 inherit multiprocessing xdg-utils
 
 case ${EAPI} in
@@ -21,6 +24,7 @@ esac
 
 # @ECLASS_VARIABLE: RACKET_REQ_USE
 # @DEFAULT_UNSET
+# @PRE_INHERIT
 # @DESCRIPTION:
 # This variable contains a string of USE flags that will be appended
 # to the dev-scheme/racket DEPEND requirement.
@@ -29,19 +33,19 @@ esac
 # RACKET_REQ_USE="chez"
 # RACKET_REQ_USE="chez,doc"
 # @CODE
-
-# Dependencies
 if [[ -n "${RACKET_REQ_USE}" ]] ; then
 	RDEPEND=">=dev-scheme/racket-8.1:=[${RACKET_REQ_USE}]"
 else
 	RDEPEND=">=dev-scheme/racket-8.1:="
 fi
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"
 
 # @FUNCTION: racket_check_raco
 # @DESCRIPTION:
 # Check if the "raco" command exists.
 racket_check_raco() {
+	debug-print-function ${FUNCNAME} "$@"
+
 	command -v raco >/dev/null || die "raco is missing"
 }
 
@@ -50,6 +54,8 @@ racket_check_raco() {
 # @DESCRIPTION:
 # Wrapper for the Racket's "raco" command.
 eraco() {
+	debug-print-function ${FUNCNAME} "$@"
+
 	racket_check_raco
 	ebegin "Invoking \"raco ${*}\""
 	raco "${@}"
@@ -67,6 +73,8 @@ eraco() {
 # PLTUSERHOME = ${HOME}/pltuserhome (temporary created by Portage)
 # @CODE
 racket_clean_environment() {
+	debug-print-function ${FUNCNAME} "$@"
+
 	racket_check_raco
 	xdg_environment_reset
 
@@ -83,6 +91,8 @@ racket_clean_environment() {
 # test submodules in files in current package directory (recursively)
 # and execute those tests.
 raco_test() {
+	debug-print-function ${FUNCNAME} "$@"
+
 	local raco_opts=(
 		--drdr
 		--jobs "$(makeopts_jobs)"
@@ -91,3 +101,5 @@ raco_test() {
 	)
 	eraco test "${raco_opts[@]}" .
 }
+
+fi

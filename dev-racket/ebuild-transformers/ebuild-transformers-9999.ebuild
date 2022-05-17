@@ -17,5 +17,6 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/ebuild-lib
-	dev-racket/threading-lib"
+	dev-racket/threading-lib
+	dev-racket/upi-lib"
 DEPEND="${RDEPEND}"

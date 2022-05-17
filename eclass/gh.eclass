@@ -20,7 +20,7 @@
 # (this ebuild will have files: x11-27112020.ebuild and x11-99999999.ebuild)
 #
 # @CODE
-# EAPI=7
+# EAPI=8
 #
 # GH_REPO="kazzmir/${PN}-racket"
 #
@@ -38,23 +38,55 @@
 # SLOT="0"
 # @CODE
 
-# Variables documentation
+case ${EAPI} in
+	7 | 8 )
+		;;
+	* )
+		die "EAPI: ${EAPI} not supported"
+		;;
+esac
 
 # @ECLASS_VARIABLE: GH_DOM
-# @DEFAULT_UNSET
+# @PRE_INHERIT
 # @DESCRIPTION:
-# This variable contains Git hosting domain.
-# Supported domains are github.com and gitlab.com
-# If your domain is unsupported you will have to define SRC_URI yourself.
+# This variable contains the Git hosting domain.
 # Defaults to github.com if unset.
-#
-# Example:
-# @CODE
-# GH_DOM="github.com"
-# @CODE
+: ${GH_DOM:="github.com"}
+
+# @ECLASS_VARIABLE: GH_TYPE
+# @PRE_INHERIT
+# @DESCRIPTION:
+# This variable contains the Git platform type.
+# Supported platform types are bitbucket, gitea, github, gitlab, sourcehut.
+# The value of GH_TYPE is derived from GH_DOM if unset.
+
+# TODO: add cgit?
+if [[ -z "${GH_TYPE}" ]]; then
+	case "${GH_DOM}" in
+		*bitbucket* )
+			GH_TYPE="bitbucket"
+			;;
+		codeberg.org | git.marvid.fr | git.syndicate-lang.org )
+			GH_TYPE="gitea"
+			;;
+		github.com )
+			GH_TYPE="github"
+			;;
+		*gitlab* | git.uwaterloo.ca )
+			GH_TYPE="gitlab"
+			;;
+		git.sr.ht )
+			GH_TYPE="sourcehut"
+			;;
+		* )
+			die "Couldn't derive a GH_TYPE from Git domain ${GH_DOM}"
+			;;
+	esac
+fi
 
 # @ECLASS_VARIABLE: GH_REPO
 # @REQUIRED
+# @PRE_INHERIT
 # @DESCRIPTION:
 # This variable contains a git repository in the Git hosting domain.
 #
@@ -63,7 +95,10 @@
 # GH_REPO="gentoo/guru"
 # @CODE
 
+[[ -n "${GH_REPO}" ]] || die "GH_REPO variable is empty"
+
 # @ECLASS_VARIABLE: GH_COMMIT
+# @PRE_INHERIT
 # @DEFAULT_UNSET
 # @DESCRIPTION:
 # This variable contains a commit SHA sum of the snapshot.
@@ -74,30 +109,6 @@
 # GH_COMMIT="ad4c54b0b8cf299f50ac48ee3188e8429e749e6e"
 # @CODE
 
-# check EAPI
-case ${EAPI} in
-	7 | 8 )
-		;;
-	* )
-		die "EAPI: ${EAPI} not supported"
-		;;
-esac
-
-# Check if GH_DOM is set
-if [ -z "${GH_DOM}" ]; then
-	if [ -n "${EBUILD_PHASE_FUNC}" ]; then
-		ewarn "GH_DOM variable is empty, defaulting to github.com"
-	fi
-	GH_DOM="github.com"
-fi
-
-# Check if GH_REPO is set
-if [ -z "${GH_REPO}" ]; then
-	die "GH_REPO variable is empty"
-fi
-
-# Definitions
-
 case ${PV} in
 	*9999* )
 		# PROPERTIES+=" live"  # git-r3 already sets this
@@ -106,40 +117,29 @@ case ${PV} in
 		;;
 	* )
 		# Check if GH_COMMIT is set
-		if [ -z "${GH_COMMIT}" ]; then
+		if [[ -z "${GH_COMMIT}" ]]; then
 			die "GH_COMMIT variable is empty"
 		fi
 
-		# Construct SRC_URI
-		case "${GH_DOM}" in
-			*codeberg* | *git.sr.ht* | *github* )
-				SRC_URI="https://${GH_DOM}/${GH_REPO}/archive/${GH_COMMIT}.tar.gz -> ${P}.tar.gz"
-				;;
-			*bitbucket* )
+		case "${GH_TYPE}" in
+			bitbucket )
 				SRC_URI="https://${GH_DOM}/${GH_REPO}/get/${GH_COMMIT}.tar.gz -> ${P}.tar.gz"
-				;;
-			*gitlab* )
-				SRC_URI="https://${GH_DOM}/${GH_REPO}/-/archive/${GH_COMMIT}.tar.gz -> ${P}.tar.gz"
-				;;
-			* )
-				if [ -n "${EBUILD_PHASE_FUNC}" ]; then
-					ewarn "Git hosting domain ${GH_DOM} is unsupported"
-				fi
-				;;
-		esac
-
-		# Construct S
-		case "${GH_DOM}" in
-			*codeberg* )
-				S="${WORKDIR}/${PN}"
-				;;
-			*bitbucket* )
-				#               user        -  repo        -  cropped_sha
 				S="${WORKDIR}/${GH_REPO%%/*}-${GH_REPO##*/}-${GH_COMMIT:0:12}"
 				;;
-			* )
-				# concatenate WORKDIR, the basename of GH_REPO and GH_COMMIT
+			gitea )
+				SRC_URI="https://${GH_DOM}/${GH_REPO}/archive/${GH_COMMIT}.tar.gz -> ${P}.tar.gz"
+				S="${WORKDIR}/${PN}"
+				;;
+			github | sourcehut )
+				SRC_URI="https://${GH_DOM}/${GH_REPO}/archive/${GH_COMMIT}.tar.gz -> ${P}.tar.gz"
 				S="${WORKDIR}/${GH_REPO##*/}-${GH_COMMIT}"
+				;;
+			gitlab )
+				SRC_URI="https://${GH_DOM}/${GH_REPO}/-/archive/${GH_COMMIT}.tar.gz -> ${P}.tar.gz"
+				S="${WORKDIR}/${GH_REPO##*/}-${GH_COMMIT}"
+				;;
+			* )
+				die "Git hosting type \"${GH_TYPE}\" is unsupported"
 				;;
 		esac
 esac

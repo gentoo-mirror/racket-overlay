@@ -1,0 +1,16 @@
+BDEPEND=doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/ebuild-doc dev-racket/ebuild-lib dev-racket/ebuild-templates dev-racket/ebuild-test dev-racket/ebuild-tools dev-racket/ebuild-transformers >=dev-scheme/racket-8.1:= >=dev-scheme/racket-8.1:=[-minimal]
+DESCRIPTION=Library to ease automatic ebuild creation. Metapackage.
+EAPI=8
+HOMEPAGE=https://gitlab.com/xgqt/racket-ebuild
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/ebuild-doc dev-racket/ebuild-lib dev-racket/ebuild-templates dev-racket/ebuild-test dev-racket/ebuild-tools dev-racket/ebuild-transformers >=dev-scheme/racket-8.1:= >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://gitlab.com/xgqt/racket-ebuild/-/archive/dc24c2c8a15664a40203cd0a9ab75679e36b43c1.tar.gz -> ebuild-2022.05.17.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	be9c8ce70c2d14e5236cb870d8821abd	racket	6ce9ee1ba75f423c61e5ea3564ba1cae	gh	57cb0727c341e650abebf298a01db9da
+_md5_=ae80a90f031e9fa5627caad6b82b1b9f

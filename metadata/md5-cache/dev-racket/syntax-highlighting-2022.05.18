@@ -1,8 +1,8 @@
 BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DESCRIPTION=A library for constructing and executing signed distance functions.
+DESCRIPTION=the syntax-highlighting Racket package
 EAPI=8
-HOMEPAGE=https://github.com/aeva/tangerine
+HOMEPAGE=https://github.com/zyrolasting/syntax-highlighting
 INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
@@ -10,6 +10,6 @@ LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/aeva/tangerine/archive/956c7c8867dab9729a565a97667ba6f77fd2acbb.tar.gz -> tangerine-2022.05.03.tar.gz
+SRC_URI=https://github.com/zyrolasting/syntax-highlighting/archive/44eec676564ee45d631870e494796ed55a55434f.tar.gz -> syntax-highlighting-2022.05.18.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=69be060cd3c35cf8b64e712c35db8e81
+_md5_=cf56e9dda6bb6c028439255a18496d39

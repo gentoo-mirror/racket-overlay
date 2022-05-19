@@ -1,0 +1,16 @@
+BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/find-parent-dir dev-racket/frog dev-racket/sxml
+DESCRIPTION=Convert ljdump/ljmigrate files for Frog
+EAPI=8
+HOMEPAGE=https://github.com/ebzzry/livefrog
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/find-parent-dir dev-racket/frog dev-racket/sxml >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/ebzzry/livefrog/archive/953ff927c1dba43a016dfb4b330429fa8178f6a5.tar.gz -> livefrog-2022.05.18.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
+_md5_=5ce977d9f990f13fdb6dea3aa303f5d3

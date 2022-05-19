@@ -1,16 +1,16 @@
 BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/qi-doc dev-racket/qi-lib dev-racket/qi-probe dev-racket/qi-quickscripts dev-racket/qi-test
-DESCRIPTION=A general-purpose functional DSL.
+DEPEND=dev-racket/mischief dev-racket/qi-lib
+DESCRIPTION=A circuit tester style debugger for Qi.
 EAPI=8
 HOMEPAGE=https://github.com/countvajhula/qi
 INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/qi-doc dev-racket/qi-lib dev-racket/qi-probe dev-racket/qi-quickscripts dev-racket/qi-test >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/mischief dev-racket/qi-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/countvajhula/qi/archive/d8dbb5c6a0da8012ecbdd686f9cb19f8da0c7856.tar.gz -> qi-2022.05.06.tar.gz
+SRC_URI=https://github.com/countvajhula/qi/archive/761e8d3cc1edff646a525e6f2bc94105f7845c2c.tar.gz -> qi-probe-2022.05.19.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=3269ccf212b247c57171d225861e4c50
+_md5_=6386a81a50d7fad0a78cc007233fb4b0

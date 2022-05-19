@@ -1,15 +1,16 @@
 BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DESCRIPTION=the ziptie-git Racket package
+DEPEND=dev-racket/handy dev-racket/syntax-classes-lib dev-racket/try-catch
+DESCRIPTION=the struct-plus-plus Racket package
 EAPI=8
-HOMEPAGE=https://gitlab.com/xgqt/racket-ziptie
+HOMEPAGE=https://github.com/dstorrs/struct-plus-plus
 INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/handy dev-racket/syntax-classes-lib dev-racket/try-catch >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://gitlab.com/xgqt/racket-ziptie/-/archive/284b55706a749cf79ef81dd71b59350ed3e386e7.tar.gz -> ziptie-git-2022.03.23.tar.gz
+SRC_URI=https://github.com/dstorrs/struct-plus-plus/archive/55e8bf5aa9799978645a8e3be962df866be34a80.tar.gz -> struct-plus-plus-2022.05.19.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=6f48882440dad945cb8fd778acb88282
+_md5_=4cdf167c6269e489229ab09980dae40f

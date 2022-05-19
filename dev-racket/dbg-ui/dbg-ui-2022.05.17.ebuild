@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-dbg"
-GH_COMMIT="29ac5a2225746872feacd84bd3fe1f34342b7d93"
+GH_COMMIT="407ccf29ebf77dcbdf06577697db419bc80c24ad"
 
 inherit racket gh
 
@@ -18,6 +18,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/dbg
+RDEPEND="dev-racket/canvas-list
+	dev-racket/dbg
 	dev-racket/gui-easy-lib"
 DEPEND="${RDEPEND}"

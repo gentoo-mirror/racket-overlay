@@ -1,22 +1,22 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="tgbugs/laundry"
-GH_COMMIT="5a396bef98d9a3cd9ee929f21cd47612dd6cb1ac"
+GH_COMMIT="b35920bef4e1e117a0f4e4461b06294c9bcfb1b1"
 
 inherit racket gh
 
-DESCRIPTION="Org mode as #lang org and DrRacket support."
+DESCRIPTION="Org mode for Racket."
 HOMEPAGE="https://github.com/tgbugs/laundry"
-S="${S}/org"
+S="${S}/laundry"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/laundry"
+RDEPEND="dev-racket/brag"
 DEPEND="${RDEPEND}"

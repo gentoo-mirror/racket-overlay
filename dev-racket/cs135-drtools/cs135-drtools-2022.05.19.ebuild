@@ -4,14 +4,13 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racket/racket"
-GH_COMMIT="c9b96077d914fadb7242966a1fbb64746086a90e"
+GH_REPO="Raymo111/cs135-drtools"
+GH_COMMIT="f7895018e28894a09f363cc55fa118cb2a02076b"
 
 inherit racket gh
 
-DESCRIPTION="the plt-services Racket package"
-HOMEPAGE="https://github.com/racket/racket"
-S="${S}/pkgs/plt-services"
+DESCRIPTION="DrRacket Tools for CS 135 course at UWaterloo."
+HOMEPAGE="https://github.com/Raymo111/cs135-drtools"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

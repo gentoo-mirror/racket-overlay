@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="gitlab.com"
 GH_REPO="xgqt/racket-ziptie"
-GH_COMMIT="284b55706a749cf79ef81dd71b59350ed3e386e7"
+GH_COMMIT="bee78e540656affb42fb33debd234a03a248dbe4"
 
 inherit racket gh
 

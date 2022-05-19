@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="aeva/tangerine"
-GH_COMMIT="956c7c8867dab9729a565a97667ba6f77fd2acbb"
+GH_COMMIT="e7aa196ad5d8935976c7f520060b89c79d562c9d"
 
 inherit racket gh
 

@@ -4,14 +4,14 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racket/racket"
-GH_COMMIT="c9b96077d914fadb7242966a1fbb64746086a90e"
+GH_REPO="Bogdanp/racket-dbg"
+GH_COMMIT="407ccf29ebf77dcbdf06577697db419bc80c24ad"
 
 inherit racket gh
 
-DESCRIPTION="Documentation for the Zuo language"
-HOMEPAGE="https://github.com/racket/racket"
-S="${S}/racket/src/zuo/zuo-doc"
+DESCRIPTION="Remote debugging client and server implementation."
+HOMEPAGE="https://github.com/Bogdanp/racket-dbg"
+S="${S}/dbg"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

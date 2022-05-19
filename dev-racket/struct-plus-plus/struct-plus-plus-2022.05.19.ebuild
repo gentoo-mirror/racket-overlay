@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="dstorrs/struct-plus-plus"
-GH_COMMIT="3eedd45e202fc3f874111a288acf30410a768fc1"
+GH_COMMIT="55e8bf5aa9799978645a8e3be962df866be34a80"
 
 inherit racket gh
 

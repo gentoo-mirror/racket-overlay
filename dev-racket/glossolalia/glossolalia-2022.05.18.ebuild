@@ -5,6 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="robertkleffner/glossolalia"
+GH_COMMIT="528eefa533d4f06b29b73c35a8ad294aafd35db2"
 
 inherit racket gh
 
@@ -13,6 +14,7 @@ HOMEPAGE="https://github.com/robertkleffner/glossolalia"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
+KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/beautiful-racket

@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="racket/racket"
-GH_COMMIT="c9b96077d914fadb7242966a1fbb64746086a90e"
+GH_COMMIT="59d22816bedb719b721b4f764ae0e477971ea0d8"
 
 inherit racket gh
 

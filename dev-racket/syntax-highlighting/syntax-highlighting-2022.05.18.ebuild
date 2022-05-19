@@ -4,14 +4,13 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="Bogdanp/racket-dbg"
-GH_COMMIT="29ac5a2225746872feacd84bd3fe1f34342b7d93"
+GH_REPO="zyrolasting/syntax-highlighting"
+GH_COMMIT="44eec676564ee45d631870e494796ed55a55434f"
 
 inherit racket gh
 
-DESCRIPTION="Remote debugging client and server implementation."
-HOMEPAGE="https://github.com/Bogdanp/racket-dbg"
-S="${S}/dbg"
+DESCRIPTION="the syntax-highlighting Racket package"
+HOMEPAGE="https://github.com/zyrolasting/syntax-highlighting"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

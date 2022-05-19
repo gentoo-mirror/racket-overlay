@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="gitlab.com"
 GH_REPO="src_prepare/racket/collector2"
-GH_COMMIT="84b98add7c0cc6f1c7228f2fdf02f887229b664e"
+GH_COMMIT="be1caa4fe584943f1f6397d8bde02a06c4ce6e9e"
 
 inherit racket gh
 

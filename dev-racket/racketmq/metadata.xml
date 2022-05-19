@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://git.syndicate-lang.org/syndicate-lang/racketmq-2017</bugs-to>
+  </upstream>
+</pkgmetadata>

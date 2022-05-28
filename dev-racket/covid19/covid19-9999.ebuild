@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/http-client
 	dev-racket/scribble-rainbow-delimiters"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

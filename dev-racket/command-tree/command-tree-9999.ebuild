@@ -8,7 +8,7 @@ GH_REPO="euhmeuh/command-tree"
 
 inherit racket gh
 
-DESCRIPTION="the command-tree Racket package"
+DESCRIPTION="The command-tree Racket package"
 HOMEPAGE="https://github.com/euhmeuh/command-tree"
 
 LICENSE="all-rights-reserved"

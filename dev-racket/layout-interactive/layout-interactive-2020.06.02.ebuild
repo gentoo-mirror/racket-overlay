@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/layout"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

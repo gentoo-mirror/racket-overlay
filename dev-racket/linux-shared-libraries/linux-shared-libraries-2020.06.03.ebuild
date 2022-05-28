@@ -9,7 +9,7 @@ GH_COMMIT="f49d1bd6794437482c46d351c71313070e0244d5"
 
 inherit racket gh
 
-DESCRIPTION="the linux-shared-libraries Racket package"
+DESCRIPTION="The linux-shared-libraries Racket package"
 HOMEPAGE="https://github.com/soegaard/linux-shared-libraries"
 
 LICENSE="all-rights-reserved"

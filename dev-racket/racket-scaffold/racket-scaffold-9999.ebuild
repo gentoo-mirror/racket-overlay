@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/cover-coveralls
 	dev-racket/dali"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

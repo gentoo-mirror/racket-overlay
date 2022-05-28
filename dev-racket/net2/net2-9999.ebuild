@@ -8,7 +8,7 @@ GH_REPO="jackfirth/racket-net2"
 
 inherit racket gh
 
-DESCRIPTION="the net2 Racket package"
+DESCRIPTION="The net2 Racket package"
 HOMEPAGE="https://github.com/jackfirth/racket-net2"
 
 LICENSE="all-rights-reserved"
@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/disposable
 	dev-racket/reprovide-lang"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

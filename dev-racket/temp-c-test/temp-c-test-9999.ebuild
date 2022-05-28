@@ -17,4 +17,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/temp-c-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

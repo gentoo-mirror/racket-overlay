@@ -8,7 +8,7 @@ GH_REPO="jbclements/unicode-props"
 
 inherit racket gh
 
-DESCRIPTION="the unicode-properties Racket package"
+DESCRIPTION="The unicode-properties Racket package"
 HOMEPAGE="https://github.com/jbclements/unicode-props"
 
 LICENSE="all-rights-reserved"

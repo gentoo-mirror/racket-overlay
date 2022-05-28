@@ -19,4 +19,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/sexp-diff-doc
 	dev-racket/sexp-diff-lib
 	dev-racket/sexp-diff-test"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

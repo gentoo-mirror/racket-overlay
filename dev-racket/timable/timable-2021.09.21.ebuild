@@ -9,7 +9,7 @@ GH_COMMIT="873950a99dbc5dd036147c55185b8376347bca88"
 
 inherit racket gh
 
-DESCRIPTION="the timable Racket package"
+DESCRIPTION="The timable Racket package"
 HOMEPAGE="https://github.com/yanyingwang/timable"
 
 LICENSE="all-rights-reserved"
@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/gregor
 	dev-racket/scribble-rainbow-delimiters"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

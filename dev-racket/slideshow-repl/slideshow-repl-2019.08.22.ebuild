@@ -9,7 +9,7 @@ GH_COMMIT="e8d3f8fb08322cd1aa9553c1c0079d7bebb3e823"
 
 inherit racket gh
 
-DESCRIPTION="the slideshow-repl Racket package"
+DESCRIPTION="The slideshow-repl Racket package"
 HOMEPAGE="https://github.com/mflatt/slideshow-repl"
 
 LICENSE="all-rights-reserved"

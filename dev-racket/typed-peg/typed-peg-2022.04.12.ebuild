@@ -8,7 +8,7 @@ AUX_PH=7194d2b44f229c11ff60ae9837e3561c9d8b4988
 
 inherit racket
 
-DESCRIPTION="the typed-peg Racket package"
+DESCRIPTION="The typed-peg Racket package"
 HOMEPAGE="https://pkgs.racket-lang.org/package/typed-peg"
 SRC_URI="https://github.com/lives-group/typed-peg/archive/${MAIN_PH}.tar.gz -> ${P}.tar.gz
 	https://github.com/lives-group/pegwfgen/archive/${AUX_PH}.tar.gz -> ${PN}_aux_peg-gen-${PV}.tar.gz"
@@ -21,7 +21,7 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/pprint
 	dev-racket/rackcheck"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"
 PDEPEND="dev-racket/peg-gen"
 
 src_compile() {

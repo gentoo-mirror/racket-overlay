@@ -8,7 +8,7 @@ GH_REPO="Junker/racket-route-match"
 
 inherit racket gh
 
-DESCRIPTION="the racket-route-match Racket package"
+DESCRIPTION="The racket-route-match Racket package"
 HOMEPAGE="https://github.com/Junker/racket-route-match"
 
 LICENSE="all-rights-reserved"

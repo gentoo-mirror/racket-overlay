@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/lang-file
 	dev-racket/ppict"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

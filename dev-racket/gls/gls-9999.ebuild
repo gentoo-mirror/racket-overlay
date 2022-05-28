@@ -8,7 +8,7 @@ GH_REPO="Kalimehtar/gls"
 
 inherit racket gh
 
-DESCRIPTION="the gls Racket package"
+DESCRIPTION="The gls Racket package"
 HOMEPAGE="https://github.com/Kalimehtar/gls"
 
 LICENSE="all-rights-reserved"

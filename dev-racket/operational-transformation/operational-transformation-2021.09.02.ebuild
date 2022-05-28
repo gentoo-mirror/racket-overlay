@@ -9,7 +9,7 @@ GH_COMMIT="685d60091bff0428c2ec3cd8c4f63c8ef8b28de5"
 
 inherit racket gh
 
-DESCRIPTION="the operational-transformation Racket package"
+DESCRIPTION="The operational-transformation Racket package"
 HOMEPAGE="https://github.com/tonyg/racket-operational-transformation"
 S="${S}/operational-transformation"
 
@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/operational-transformation-demo
 	dev-racket/operational-transformation-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

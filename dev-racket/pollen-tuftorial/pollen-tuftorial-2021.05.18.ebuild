@@ -22,4 +22,4 @@ RDEPEND="dev-racket/css-tools
 	dev-racket/pollen
 	dev-racket/sugar
 	dev-racket/txexpr"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

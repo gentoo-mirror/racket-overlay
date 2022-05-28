@@ -9,7 +9,7 @@ GH_COMMIT="e687a8eaf4ef62b97ad5d37f6fd09cb684c7d101"
 
 inherit racket gh
 
-DESCRIPTION="the _ Racket package"
+DESCRIPTION="The _ Racket package"
 HOMEPAGE="https://github.com/LeifAndersen/racket-_"
 
 LICENSE="all-rights-reserved"

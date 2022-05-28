@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/sawzall-doc
 	dev-racket/sawzall-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

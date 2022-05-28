@@ -8,7 +8,7 @@ GH_REPO="jackfirth/lens"
 
 inherit racket gh
 
-DESCRIPTION="the lens-lib Racket package"
+DESCRIPTION="The lens-lib Racket package"
 HOMEPAGE="https://github.com/jackfirth/lens"
 S="${S}/lens-lib"
 
@@ -20,4 +20,4 @@ RDEPEND="dev-racket/lens-common
 	dev-racket/lens-data
 	dev-racket/reprovide-lang-lib
 	dev-racket/sweet-exp-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

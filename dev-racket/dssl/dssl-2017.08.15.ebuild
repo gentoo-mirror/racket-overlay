@@ -9,7 +9,7 @@ GH_COMMIT="bb5040d0a608a3b6f7f16d6ae725b24388f6aa6c"
 
 inherit racket gh
 
-DESCRIPTION="the dssl Racket package"
+DESCRIPTION="The dssl Racket package"
 HOMEPAGE="https://github.com/tov/dssl"
 
 LICENSE="all-rights-reserved"

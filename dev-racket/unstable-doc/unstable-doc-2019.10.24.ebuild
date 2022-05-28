@@ -30,4 +30,4 @@ RDEPEND="dev-racket/automata-doc
 	dev-racket/unstable-parameter-group-lib
 	dev-racket/unstable-pretty-lib
 	dev-racket/unstable2d"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

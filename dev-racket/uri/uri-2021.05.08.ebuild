@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/opt
 	dev-racket/string-util"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

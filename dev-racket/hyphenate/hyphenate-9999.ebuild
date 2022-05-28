@@ -8,7 +8,7 @@ GH_REPO="mbutterick/typesetting"
 
 inherit racket gh
 
-DESCRIPTION="the hyphenate Racket package"
+DESCRIPTION="The hyphenate Racket package"
 HOMEPAGE="https://github.com/mbutterick/typesetting"
 S="${S}/hyphenate"
 
@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/sugar
 	dev-racket/txexpr"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

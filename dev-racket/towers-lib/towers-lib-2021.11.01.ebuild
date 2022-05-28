@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/bazaar
 	dev-racket/text-table"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

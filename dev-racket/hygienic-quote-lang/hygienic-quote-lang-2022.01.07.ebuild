@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/hygienic-reader-extension"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -20,4 +20,4 @@ RDEPEND="dev-racket/component-lib
 	dev-racket/gregor-lib
 	dev-racket/koyo-lib
 	dev-racket/libargon2"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

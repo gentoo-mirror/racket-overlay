@@ -8,7 +8,7 @@ GH_REPO="jsmaniac/scribble-math"
 
 inherit racket gh
 
-DESCRIPTION="the scribble-math Racket package"
+DESCRIPTION="The scribble-math Racket package"
 HOMEPAGE="https://github.com/jsmaniac/scribble-math"
 
 LICENSE="all-rights-reserved"

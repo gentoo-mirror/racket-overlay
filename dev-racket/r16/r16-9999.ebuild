@@ -19,4 +19,4 @@ RDEPEND="dev-racket/dbg
 	dev-racket/racket-cord
 	dev-racket/threading-doc
 	dev-racket/threading-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

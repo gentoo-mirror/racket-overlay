@@ -19,4 +19,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/graphite-doc
 	dev-racket/graphite-lib
 	dev-racket/graphite-tutorial"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

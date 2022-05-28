@@ -9,7 +9,7 @@ GH_COMMIT="97e3365d8b4343d7ec23df3fa9640fd865d66841"
 
 inherit racket gh
 
-DESCRIPTION="the zubat Racket package"
+DESCRIPTION="The zubat Racket package"
 HOMEPAGE="https://github.com/kalxd/zubat"
 
 LICENSE="all-rights-reserved"
@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/html-parsing
 	dev-racket/sxml"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

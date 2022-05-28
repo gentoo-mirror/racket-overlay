@@ -20,4 +20,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/misc1
 	dev-racket/rtnl
 	dev-racket/sysfs"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -9,7 +9,7 @@ GH_COMMIT="1a24bbd37532767edba1d95c26fb07b308797580"
 
 inherit racket gh
 
-DESCRIPTION="the azelf Racket package"
+DESCRIPTION="The azelf Racket package"
 HOMEPAGE="https://github.com/kalxd/azelf"
 
 LICENSE="all-rights-reserved"

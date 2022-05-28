@@ -8,7 +8,7 @@ GH_REPO="samth/gradual-typing-bib"
 
 inherit racket gh
 
-DESCRIPTION="the gradual-typing-bib Racket package"
+DESCRIPTION="The gradual-typing-bib Racket package"
 HOMEPAGE="https://github.com/samth/gradual-typing-bib"
 
 LICENSE="all-rights-reserved"

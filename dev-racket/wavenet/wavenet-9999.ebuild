@@ -18,4 +18,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/hash-view
 	dev-racket/hash-view-lib
 	dev-racket/http-easy"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

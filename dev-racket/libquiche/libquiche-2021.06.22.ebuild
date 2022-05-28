@@ -9,7 +9,7 @@ GH_COMMIT="26aa3ade5feaa8819648c10057ca064c4ec64d85"
 
 inherit racket gh
 
-DESCRIPTION="the libquiche Racket package"
+DESCRIPTION="The libquiche Racket package"
 HOMEPAGE="https://github.com/parnikkapore/rkt-libquiche"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/reprovide-lang-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

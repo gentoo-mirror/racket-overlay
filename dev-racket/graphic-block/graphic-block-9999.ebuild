@@ -8,7 +8,7 @@ GH_REPO="djholtby/uwaterloo-racket"
 
 inherit racket gh
 
-DESCRIPTION="the graphic-block Racket package"
+DESCRIPTION="The graphic-block Racket package"
 HOMEPAGE="https://git.uwaterloo.ca/djholtby/uwaterloo-racket"
 S="${S}/graphic-block"
 

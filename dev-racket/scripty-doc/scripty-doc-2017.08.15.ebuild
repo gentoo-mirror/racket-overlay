@@ -9,7 +9,7 @@ GH_COMMIT="09a0e2fd24dfcd5942177d4a328821534ee60ded"
 
 inherit racket gh
 
-DESCRIPTION="the scripty-doc Racket package"
+DESCRIPTION="The scripty-doc Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/scripty"
 S="${S}/scripty-doc"
 
@@ -19,4 +19,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/scripty-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

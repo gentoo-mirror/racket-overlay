@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/al2-test-runner
 	dev-racket/raco-exe-multitarget"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

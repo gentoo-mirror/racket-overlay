@@ -8,7 +8,7 @@ GH_REPO="pnwamk/define-with-spec"
 
 inherit racket gh
 
-DESCRIPTION="the define-with-spec Racket package"
+DESCRIPTION="The define-with-spec Racket package"
 HOMEPAGE="https://github.com/pnwamk/define-with-spec"
 
 LICENSE="all-rights-reserved"

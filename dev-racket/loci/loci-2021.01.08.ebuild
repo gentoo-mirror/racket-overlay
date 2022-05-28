@@ -9,7 +9,7 @@ GH_COMMIT="ce063c7e45d5abb7c187766b3ab7045ef2f84099"
 
 inherit racket gh
 
-DESCRIPTION="the loci Racket package"
+DESCRIPTION="The loci Racket package"
 HOMEPAGE="https://github.com/pmatos/racket-loci"
 
 LICENSE="all-rights-reserved"

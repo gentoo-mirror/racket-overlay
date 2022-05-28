@@ -19,7 +19,7 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/html-writing
 	dev-racket/mcfly
 	dev-racket/overeasy"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"
 
 src_unpack() {
 	wget -O "${T}/html-template.zip" "http://www.neilvandyke.org/racket/html-template.zip"

@@ -8,7 +8,7 @@ GH_REPO="mflatt/slideshow-repl"
 
 inherit racket gh
 
-DESCRIPTION="the slideshow-repl Racket package"
+DESCRIPTION="The slideshow-repl Racket package"
 HOMEPAGE="https://github.com/mflatt/slideshow-repl"
 
 LICENSE="all-rights-reserved"

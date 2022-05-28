@@ -8,7 +8,7 @@ GH_REPO="dbenoit17/dynamic-ffi"
 
 inherit racket gh
 
-DESCRIPTION="the dynamic-ffi Racket package"
+DESCRIPTION="The dynamic-ffi Racket package"
 HOMEPAGE="https://github.com/dbenoit17/dynamic-ffi"
 
 LICENSE="all-rights-reserved"

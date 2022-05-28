@@ -9,7 +9,7 @@ GH_COMMIT="5ea8f32528bcf1ed4393cf9a054920936c27a556"
 
 inherit racket gh
 
-DESCRIPTION="the scope-operations Racket package"
+DESCRIPTION="The scope-operations Racket package"
 HOMEPAGE="https://github.com/jsmaniac/scope-operations"
 
 LICENSE="all-rights-reserved"

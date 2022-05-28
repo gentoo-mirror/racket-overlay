@@ -9,7 +9,7 @@ GH_COMMIT="20c6533176bd47c56aa94287fada6909b87ff03a"
 
 inherit racket gh
 
-DESCRIPTION="the nevermore Racket package"
+DESCRIPTION="The nevermore Racket package"
 HOMEPAGE="https://github.com/Bogdanp/nevermore"
 
 LICENSE="all-rights-reserved"

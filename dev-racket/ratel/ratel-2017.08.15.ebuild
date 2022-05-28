@@ -9,7 +9,7 @@ GH_COMMIT="c28e0d56e9f1babad8293ab50c1f30cb3fd4df67"
 
 inherit racket gh
 
-DESCRIPTION="the ratel Racket package"
+DESCRIPTION="The ratel Racket package"
 HOMEPAGE="https://github.com/198d/ratel"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/threading"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

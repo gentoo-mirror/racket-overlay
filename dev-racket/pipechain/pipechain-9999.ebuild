@@ -8,7 +8,7 @@ GH_REPO="slaymaker1907/pipechain"
 
 inherit racket gh
 
-DESCRIPTION="the pipechain Racket package"
+DESCRIPTION="The pipechain Racket package"
 HOMEPAGE="https://github.com/slaymaker1907/pipechain"
 
 LICENSE="all-rights-reserved"

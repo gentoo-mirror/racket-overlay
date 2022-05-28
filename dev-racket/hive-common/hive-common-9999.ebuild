@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/thread-utils"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

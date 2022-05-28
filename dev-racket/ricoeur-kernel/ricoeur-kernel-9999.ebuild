@@ -19,4 +19,4 @@ RDEPEND="dev-racket/adjutor
 	dev-racket/functional-lib
 	dev-racket/gregor
 	dev-racket/reprovide-lang"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

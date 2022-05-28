@@ -19,4 +19,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/custom-load"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

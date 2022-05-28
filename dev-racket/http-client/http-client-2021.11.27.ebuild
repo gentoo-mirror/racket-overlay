@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/html-parsing
 	dev-racket/scribble-rainbow-delimiters"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

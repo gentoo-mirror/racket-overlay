@@ -9,7 +9,7 @@ GH_COMMIT="ed983737b383bc527e54f6db7044df503baf2a14"
 
 inherit racket gh
 
-DESCRIPTION="the magic-loader Racket package"
+DESCRIPTION="The magic-loader Racket package"
 HOMEPAGE="https://github.com/thoughtstem/magic-loader"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/comm-panel"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

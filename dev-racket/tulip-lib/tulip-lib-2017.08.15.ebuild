@@ -9,7 +9,7 @@ GH_COMMIT="1613cfd4d7e8dbc8ceb86cf33479375147f42b2f"
 
 inherit racket gh
 
-DESCRIPTION="the tulip-lib Racket package"
+DESCRIPTION="The tulip-lib Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/racket-tulip"
 S="${S}/tulip-lib"
 
@@ -22,4 +22,4 @@ RDEPEND="dev-racket/curly-fn
 	dev-racket/functional-lib
 	dev-racket/megaparsack-lib
 	dev-racket/megaparsack-parser-tools"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

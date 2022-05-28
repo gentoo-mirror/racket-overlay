@@ -8,7 +8,7 @@ GH_REPO="dstorrs/struct-plus-plus"
 
 inherit racket gh
 
-DESCRIPTION="the struct-plus-plus Racket package"
+DESCRIPTION="The struct-plus-plus Racket package"
 HOMEPAGE="https://github.com/dstorrs/struct-plus-plus"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/handy
 	dev-racket/syntax-classes-lib
 	dev-racket/try-catch"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

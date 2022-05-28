@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/reed-solomon
 	dev-racket/simple-svg"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

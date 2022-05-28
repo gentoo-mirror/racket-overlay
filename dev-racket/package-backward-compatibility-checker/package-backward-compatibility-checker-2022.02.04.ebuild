@@ -22,4 +22,4 @@ RDEPEND="dev-racket/package-analysis
 	dev-racket/raco-static-web
 	dev-racket/rebellion
 	dev-racket/remote-shell"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/automata-doc
 	dev-racket/automata-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

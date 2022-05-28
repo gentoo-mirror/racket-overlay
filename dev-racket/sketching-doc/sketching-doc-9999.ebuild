@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/cairo-lib
 	dev-racket/sketching-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

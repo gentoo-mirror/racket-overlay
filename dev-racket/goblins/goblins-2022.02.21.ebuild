@@ -21,4 +21,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/crypto
 	dev-racket/pk
 	dev-racket/syrup"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

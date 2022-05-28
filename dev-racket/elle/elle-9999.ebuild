@@ -8,7 +8,7 @@ GH_REPO="tail-reversion/elle"
 
 inherit racket gh
 
-DESCRIPTION="the elle Racket package"
+DESCRIPTION="The elle Racket package"
 HOMEPAGE="https://github.com/tail-reversion/elle"
 S="${S}/elle"
 
@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/elle-doc
 	dev-racket/elle-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

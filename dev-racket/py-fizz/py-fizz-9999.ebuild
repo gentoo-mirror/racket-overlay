@@ -8,7 +8,7 @@ GH_REPO="thoughtstem/py-fizz"
 
 inherit racket gh
 
-DESCRIPTION="the py-fizz Racket package"
+DESCRIPTION="The py-fizz Racket package"
 HOMEPAGE="https://github.com/thoughtstem/py-fizz"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/racket-to-python"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

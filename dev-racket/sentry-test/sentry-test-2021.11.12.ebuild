@@ -21,4 +21,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/gregor-lib
 	dev-racket/sentry-lib
 	dev-racket/threading-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

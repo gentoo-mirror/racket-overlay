@@ -9,7 +9,7 @@ GH_COMMIT="8a232dac0405edf13067397364c9dbd702addca6"
 
 inherit racket gh
 
-DESCRIPTION="the java-processing Racket package"
+DESCRIPTION="The java-processing Racket package"
 HOMEPAGE="https://github.com/thoughtstem/java-processing"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/racket-to"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

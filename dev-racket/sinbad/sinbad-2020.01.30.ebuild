@@ -9,7 +9,7 @@ GH_COMMIT="44b3e0881514bbfb7cc91780262968748b9f92eb"
 
 inherit racket gh
 
-DESCRIPTION="the sinbad Racket package"
+DESCRIPTION="The sinbad Racket package"
 HOMEPAGE="https://github.com/berry-cs/sinbad-rkt"
 S="${S}/sinbad"
 
@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/csv-reading
 	dev-racket/sxml"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

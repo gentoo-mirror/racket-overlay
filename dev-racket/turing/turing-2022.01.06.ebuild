@@ -9,7 +9,7 @@ GH_COMMIT="a5ecb87a22eccb6cdcf271eb408c3efffe4635c7"
 
 inherit racket gh
 
-DESCRIPTION="the turing Racket package"
+DESCRIPTION="The turing Racket package"
 HOMEPAGE="https://github.com/curiousyogurt/turing"
 
 LICENSE="all-rights-reserved"

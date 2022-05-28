@@ -21,4 +21,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/otp-doc
 	dev-racket/otp-lib
 	dev-racket/typed-otp-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

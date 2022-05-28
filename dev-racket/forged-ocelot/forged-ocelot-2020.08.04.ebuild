@@ -9,7 +9,7 @@ GH_COMMIT="f28a7012348b9096ede5cb1da64ef6544686b205"
 
 inherit racket gh
 
-DESCRIPTION="the forged-ocelot Racket package"
+DESCRIPTION="The forged-ocelot Racket package"
 HOMEPAGE="https://github.com/cemcutting/forged-ocelot"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/rosette"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

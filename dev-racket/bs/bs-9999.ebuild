@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/brag
 	dev-racket/crypto-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

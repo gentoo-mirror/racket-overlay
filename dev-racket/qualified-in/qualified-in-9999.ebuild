@@ -8,7 +8,7 @@ GH_REPO="michaelmmacleod/qualified-in"
 
 inherit racket gh
 
-DESCRIPTION="the qualified-in Racket package"
+DESCRIPTION="The qualified-in Racket package"
 HOMEPAGE="https://github.com/michaelmmacleod/qualified-in"
 
 LICENSE="all-rights-reserved"

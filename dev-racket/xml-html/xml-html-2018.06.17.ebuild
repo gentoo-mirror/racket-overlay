@@ -9,7 +9,7 @@ GH_COMMIT="b4d38ef693d5dc1397c0a7dd822153617c41ea16"
 
 inherit racket gh
 
-DESCRIPTION="none"
+DESCRIPTION="The xml-html Racket package"
 HOMEPAGE="https://github.com/zaoqi/xml-html"
 
 LICENSE="all-rights-reserved"

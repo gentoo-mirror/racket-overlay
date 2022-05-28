@@ -9,7 +9,7 @@ GH_COMMIT="bc442055764128efb06badeac8b4bfd026475106"
 
 inherit racket gh
 
-DESCRIPTION="the pdf-read Racket package"
+DESCRIPTION="The pdf-read Racket package"
 HOMEPAGE="https://github.com/gcr/pdf-read"
 
 LICENSE="all-rights-reserved"

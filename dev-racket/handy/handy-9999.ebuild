@@ -8,7 +8,7 @@ GH_REPO="dstorrs/racket-dstorrs-libs"
 
 inherit racket gh
 
-DESCRIPTION="the handy Racket package"
+DESCRIPTION="The handy Racket package"
 HOMEPAGE="https://github.com/dstorrs/racket-dstorrs-libs"
 
 LICENSE="all-rights-reserved"
@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/html-parsing
 	dev-racket/sxml"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

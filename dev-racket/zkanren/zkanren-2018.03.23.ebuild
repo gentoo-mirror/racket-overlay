@@ -9,7 +9,7 @@ GH_COMMIT="82c936ed11fa703b3b26895b3a2d7b7f379a8c35"
 
 inherit racket gh
 
-DESCRIPTION="-"
+DESCRIPTION="The zKanren Racket package"
 HOMEPAGE="https://github.com/the-language/zKanren2"
 
 LICENSE="all-rights-reserved"

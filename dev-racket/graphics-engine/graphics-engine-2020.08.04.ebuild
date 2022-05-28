@@ -21,4 +21,4 @@ RDEPEND="dev-racket/glm
 	dev-racket/glsl
 	dev-racket/opengl
 	dev-racket/reprovide-lang-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

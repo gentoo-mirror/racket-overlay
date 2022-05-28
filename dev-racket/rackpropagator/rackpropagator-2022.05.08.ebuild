@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/rackpropagator-doc
 	dev-racket/rackpropagator-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

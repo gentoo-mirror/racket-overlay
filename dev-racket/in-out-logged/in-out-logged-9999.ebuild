@@ -8,7 +8,7 @@ GH_REPO="dstorrs/in-out-logged"
 
 inherit racket gh
 
-DESCRIPTION="the in-out-logged Racket package"
+DESCRIPTION="The in-out-logged Racket package"
 HOMEPAGE="https://github.com/dstorrs/in-out-logged"
 
 LICENSE="all-rights-reserved"

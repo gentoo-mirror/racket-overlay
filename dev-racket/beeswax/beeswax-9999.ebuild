@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/pollen
 	dev-racket/sugar"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

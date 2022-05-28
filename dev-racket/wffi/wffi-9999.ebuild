@@ -8,7 +8,7 @@ GH_REPO="greghendershott/wffi"
 
 inherit racket gh
 
-DESCRIPTION="the wffi Racket package"
+DESCRIPTION="The wffi Racket package"
 HOMEPAGE="https://github.com/greghendershott/wffi"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/http"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

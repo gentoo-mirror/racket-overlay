@@ -23,4 +23,4 @@ RDEPEND="dev-racket/bitsyntax
 	dev-racket/portaudio
 	dev-racket/ppict
 	dev-racket/reprovide-lang"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

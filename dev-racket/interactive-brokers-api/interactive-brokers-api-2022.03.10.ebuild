@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/binaryio
 	dev-racket/gregor-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -9,7 +9,7 @@ GH_COMMIT="50f1ff9866a3ef116471eb1a483c1992480dcd45"
 
 inherit racket gh
 
-DESCRIPTION="the static-rename Racket package"
+DESCRIPTION="The static-rename Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/racket-static-rename"
 S="${S}/static-rename"
 
@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/static-rename-doc
 	dev-racket/static-rename-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

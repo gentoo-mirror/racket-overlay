@@ -8,7 +8,7 @@ GH_REPO="ricky-escobar/sparse"
 
 inherit racket gh
 
-DESCRIPTION="the sparse Racket package"
+DESCRIPTION="The sparse Racket package"
 HOMEPAGE="https://github.com/ricky-escobar/sparse"
 
 LICENSE="all-rights-reserved"

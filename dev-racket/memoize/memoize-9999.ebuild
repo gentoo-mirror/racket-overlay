@@ -19,4 +19,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/memoize-doc
 	dev-racket/memoize-lib
 	dev-racket/memoize-test"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

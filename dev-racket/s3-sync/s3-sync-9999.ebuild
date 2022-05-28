@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/aws
 	dev-racket/http"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -9,7 +9,7 @@ GH_COMMIT="5285e29483cbb19bbc832b2c67f524ade6ff00f9"
 
 inherit racket gh
 
-DESCRIPTION="the otp-doc Racket package"
+DESCRIPTION="The otp-doc Racket package"
 HOMEPAGE="https://github.com/yilinwei/otp"
 S="${S}/otp-doc"
 
@@ -21,4 +21,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/crypto-doc
 	dev-racket/crypto-lib
 	dev-racket/otp-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

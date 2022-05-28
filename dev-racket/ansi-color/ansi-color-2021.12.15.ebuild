@@ -9,7 +9,7 @@ GH_COMMIT="20363d90fcef9219580ec0d6a78eea834df39d21"
 
 inherit racket gh
 
-DESCRIPTION="the ansi-color Racket package"
+DESCRIPTION="The ansi-color Racket package"
 HOMEPAGE="https://github.com/renatoathaydes/ansi-color"
 
 LICENSE="all-rights-reserved"

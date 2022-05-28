@@ -8,7 +8,7 @@ GH_REPO="dented42/racket-quad-tree"
 
 inherit racket gh
 
-DESCRIPTION="the quad-tree Racket package"
+DESCRIPTION="The quad-tree Racket package"
 HOMEPAGE="https://github.com/dented42/racket-quad-tree"
 S="${S}/quad-tree"
 

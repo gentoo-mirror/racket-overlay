@@ -19,4 +19,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/jen-doc
 	dev-racket/jen-lib
 	dev-racket/jen-samples"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

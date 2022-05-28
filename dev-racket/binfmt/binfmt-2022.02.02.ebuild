@@ -9,7 +9,7 @@ GH_COMMIT="bfed5dc03ebdc80983f3f114b5df925551abfcaf"
 
 inherit racket gh
 
-DESCRIPTION="the binfmt Racket package"
+DESCRIPTION="The binfmt Racket package"
 HOMEPAGE="https://github.com/Bogdanp/racket-binfmt"
 S="${S}/binfmt"
 

@@ -8,7 +8,7 @@ GH_REPO="lexi-lambda/racket-multimethod"
 
 inherit racket gh
 
-DESCRIPTION="the multimethod-lib Racket package"
+DESCRIPTION="The multimethod-lib Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/racket-multimethod"
 S="${S}/multimethod-lib"
 
@@ -17,4 +17,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/rackunit-spec"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

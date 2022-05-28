@@ -8,7 +8,7 @@ GH_REPO="rpless/cover-coveralls"
 
 inherit racket gh
 
-DESCRIPTION="the cover-coveralls Racket package"
+DESCRIPTION="The cover-coveralls Racket package"
 HOMEPAGE="https://github.com/rpless/cover-coveralls"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/cover-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

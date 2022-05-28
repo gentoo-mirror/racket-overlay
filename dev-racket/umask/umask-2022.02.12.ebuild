@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/umask-doc
 	dev-racket/umask-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

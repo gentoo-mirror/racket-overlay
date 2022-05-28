@@ -8,7 +8,7 @@ GH_REPO="lexi-lambda/syntax-classes"
 
 inherit racket gh
 
-DESCRIPTION="the syntax-classes-test Racket package"
+DESCRIPTION="The syntax-classes-test Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/syntax-classes"
 S="${S}/syntax-classes-test"
 
@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/rackunit-spec
 	dev-racket/syntax-classes-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

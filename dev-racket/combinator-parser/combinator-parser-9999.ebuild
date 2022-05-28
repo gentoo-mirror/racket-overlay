@@ -8,7 +8,7 @@ GH_REPO="takikawa/combinator-parser"
 
 inherit racket gh
 
-DESCRIPTION="the combinator-parser Racket package"
+DESCRIPTION="The combinator-parser Racket package"
 HOMEPAGE="https://github.com/takikawa/combinator-parser"
 
 LICENSE="all-rights-reserved"

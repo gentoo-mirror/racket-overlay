@@ -9,7 +9,7 @@ GH_COMMIT="ceb8282535b0a14073fd1c420fcdfbcb44fe4913"
 
 inherit racket gh
 
-DESCRIPTION="the racket-immutable Racket package"
+DESCRIPTION="The racket-immutable Racket package"
 HOMEPAGE="https://github.com/AlexKnauth/racket-immutable"
 
 LICENSE="all-rights-reserved"

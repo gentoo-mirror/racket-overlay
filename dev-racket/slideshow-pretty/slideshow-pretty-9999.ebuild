@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/slideshow-latex"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

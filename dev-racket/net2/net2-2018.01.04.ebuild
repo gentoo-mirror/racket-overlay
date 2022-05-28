@@ -9,7 +9,7 @@ GH_COMMIT="b4247d52177120ff246b60c400b070dc962ee24b"
 
 inherit racket gh
 
-DESCRIPTION="the net2 Racket package"
+DESCRIPTION="The net2 Racket package"
 HOMEPAGE="https://github.com/jackfirth/racket-net2"
 
 LICENSE="all-rights-reserved"
@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/disposable
 	dev-racket/reprovide-lang"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

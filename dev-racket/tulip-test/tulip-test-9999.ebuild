@@ -8,7 +8,7 @@ GH_REPO="lexi-lambda/racket-tulip"
 
 inherit racket gh
 
-DESCRIPTION="the tulip-test Racket package"
+DESCRIPTION="The tulip-test Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/racket-tulip"
 S="${S}/tulip-test"
 
@@ -17,4 +17,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/tulip-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

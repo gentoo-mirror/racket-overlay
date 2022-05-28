@@ -8,7 +8,7 @@ GH_REPO="lexi-lambda/racket-curly-fn"
 
 inherit racket gh
 
-DESCRIPTION="the curly-fn-doc Racket package"
+DESCRIPTION="The curly-fn-doc Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/racket-curly-fn"
 S="${S}/curly-fn-doc"
 
@@ -20,4 +20,4 @@ RDEPEND="dev-racket/curly-fn-lib
 	dev-racket/namespaced-transformer-doc
 	dev-racket/namespaced-transformer-lib
 	dev-racket/scribble-code-examples"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

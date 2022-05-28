@@ -8,7 +8,7 @@ GH_REPO="Metaxal/define2"
 
 inherit racket gh
 
-DESCRIPTION="the define2 Racket package"
+DESCRIPTION="The define2 Racket package"
 HOMEPAGE="https://github.com/Metaxal/define2"
 
 LICENSE="all-rights-reserved"

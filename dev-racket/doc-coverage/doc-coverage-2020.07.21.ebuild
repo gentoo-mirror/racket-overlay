@@ -9,7 +9,7 @@ GH_COMMIT="b1c0e9f3fd3a25e260f8905e6c8211dacf532b25"
 
 inherit racket gh
 
-DESCRIPTION="the doc-coverage Racket package"
+DESCRIPTION="The doc-coverage Racket package"
 HOMEPAGE="https://github.com/jackfirth/doc-coverage"
 S="${S}/doc-coverage"
 
@@ -19,4 +19,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/reprovide-lang-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

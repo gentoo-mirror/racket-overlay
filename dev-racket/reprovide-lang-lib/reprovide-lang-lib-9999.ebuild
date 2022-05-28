@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/lang-file-lib
 	dev-racket/syntax-macro-lang"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

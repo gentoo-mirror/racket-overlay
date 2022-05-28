@@ -17,4 +17,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/gui-easy-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

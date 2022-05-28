@@ -9,7 +9,7 @@ GH_COMMIT="3a5dd35d43f3be52fb9743361adcb53eabcb8a3a"
 
 inherit racket gh
 
-DESCRIPTION="the command-tree Racket package"
+DESCRIPTION="The command-tree Racket package"
 HOMEPAGE="https://github.com/euhmeuh/command-tree"
 
 LICENSE="all-rights-reserved"

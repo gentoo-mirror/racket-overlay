@@ -23,4 +23,4 @@ RDEPEND="dev-racket/afl
 	dev-racket/postfix-dot-notation
 	dev-racket/scribble-code-examples
 	dev-racket/sweet-exp"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

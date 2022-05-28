@@ -8,7 +8,7 @@ GH_REPO="racket/string-constants"
 
 inherit racket gh
 
-DESCRIPTION="the string-constants-lib-lgpl Racket package"
+DESCRIPTION="The string-constants-lib-lgpl Racket package"
 HOMEPAGE="https://github.com/racket/string-constants"
 S="${S}/string-constants-lib-lgpl"
 

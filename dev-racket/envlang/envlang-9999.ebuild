@@ -18,4 +18,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/hyper-literate
 	dev-racket/polysemy
 	dev-racket/reprovide-lang-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

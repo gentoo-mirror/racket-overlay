@@ -9,7 +9,7 @@ GH_COMMIT="cbcdd5b15542bf6f45907e6a6ba2932f0c4cd501"
 
 inherit racket gh
 
-DESCRIPTION="the rktermios Racket package"
+DESCRIPTION="The rktermios Racket package"
 HOMEPAGE="https://gitlab.com/racketeer/rktermios"
 
 LICENSE="all-rights-reserved"

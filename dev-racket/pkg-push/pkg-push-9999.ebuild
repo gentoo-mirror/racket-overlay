@@ -8,7 +8,7 @@ GH_REPO="racket/pkg-push"
 
 inherit racket gh
 
-DESCRIPTION="the pkg-push Racket package"
+DESCRIPTION="The pkg-push Racket package"
 HOMEPAGE="https://github.com/racket/pkg-push"
 
 LICENSE="all-rights-reserved"
@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/aws
 	dev-racket/http"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -8,7 +8,7 @@ GH_REPO="zaoqi/xml-html"
 
 inherit racket gh
 
-DESCRIPTION="none"
+DESCRIPTION="The xml-html Racket package"
 HOMEPAGE="https://github.com/zaoqi/xml-html"
 
 LICENSE="all-rights-reserved"

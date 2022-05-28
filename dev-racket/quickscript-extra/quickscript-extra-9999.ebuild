@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/search-list-box"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

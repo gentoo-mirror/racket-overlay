@@ -8,7 +8,7 @@ GH_REPO="eeide/racr"
 
 inherit racket gh
 
-DESCRIPTION="the racr Racket package"
+DESCRIPTION="The racr Racket package"
 HOMEPAGE="https://github.com/eeide/racr"
 
 LICENSE="all-rights-reserved"

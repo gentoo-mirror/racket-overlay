@@ -8,7 +8,7 @@ GH_REPO="wilbowma/cur"
 
 inherit racket gh
 
-DESCRIPTION="the cur-test Racket package"
+DESCRIPTION="The cur-test Racket package"
 HOMEPAGE="https://github.com/wilbowma/cur"
 S="${S}/cur-test"
 
@@ -20,4 +20,4 @@ RDEPEND="dev-racket/chk-lib
 	dev-racket/cur-lib
 	dev-racket/rackunit-macrotypes-lib
 	dev-racket/sweet-exp-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

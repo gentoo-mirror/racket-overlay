@@ -8,7 +8,7 @@ GH_REPO="jsmaniac/polysemy"
 
 inherit racket gh
 
-DESCRIPTION="the polysemy Racket package"
+DESCRIPTION="The polysemy Racket package"
 HOMEPAGE="https://github.com/jsmaniac/polysemy"
 
 LICENSE="all-rights-reserved"

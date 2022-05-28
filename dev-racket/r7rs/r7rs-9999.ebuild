@@ -17,4 +17,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/r7rs-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

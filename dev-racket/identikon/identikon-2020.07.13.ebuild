@@ -20,4 +20,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/css-tools
 	dev-racket/quickcheck
 	dev-racket/sugar"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

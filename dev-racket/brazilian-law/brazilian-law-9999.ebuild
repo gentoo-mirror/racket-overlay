@@ -8,7 +8,7 @@ GH_REPO="OAB-exams/brazilian-law-parser"
 
 inherit racket gh
 
-DESCRIPTION="the brazilian-law Racket package"
+DESCRIPTION="The brazilian-law Racket package"
 HOMEPAGE="https://github.com/OAB-exams/brazilian-law-parser"
 
 LICENSE="all-rights-reserved"
@@ -19,4 +19,4 @@ RDEPEND="dev-racket/curly-fn-lib
 	dev-racket/functional-lib
 	dev-racket/megaparsack
 	dev-racket/txexpr"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -8,7 +8,7 @@ GH_REPO="pleiad/cc4101-handin-client"
 
 inherit racket gh
 
-DESCRIPTION="the cc4101-handin Racket package"
+DESCRIPTION="The cc4101-handin Racket package"
 HOMEPAGE="https://github.com/pleiad/cc4101-handin-client"
 
 LICENSE="all-rights-reserved"

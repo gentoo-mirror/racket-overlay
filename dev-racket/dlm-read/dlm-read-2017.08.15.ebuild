@@ -9,7 +9,7 @@ GH_COMMIT="9ae0487b315e762d311ea0e14b72a9bd2de27470"
 
 inherit racket gh
 
-DESCRIPTION="the dlm-read Racket package"
+DESCRIPTION="The dlm-read Racket package"
 HOMEPAGE="https://github.com/LeifAndersen/racket-dlm-read"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/csv-reading"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

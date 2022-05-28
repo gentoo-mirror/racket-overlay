@@ -9,7 +9,7 @@ GH_COMMIT="c2d1359b05567fb9352178cedeba2dfc30ddc9ca"
 
 inherit racket gh
 
-DESCRIPTION="the java Racket package"
+DESCRIPTION="The java Racket package"
 HOMEPAGE="https://github.com/jbclements/java"
 
 LICENSE="all-rights-reserved"
@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/dherman-struct
 	dev-racket/io"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

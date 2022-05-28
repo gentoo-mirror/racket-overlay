@@ -8,7 +8,7 @@ GH_REPO="yilinwei/otp"
 
 inherit racket gh
 
-DESCRIPTION="the otp-lib Racket package"
+DESCRIPTION="The otp-lib Racket package"
 HOMEPAGE="https://github.com/yilinwei/otp"
 S="${S}/otp-lib"
 
@@ -17,4 +17,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/crypto-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/neuron-doc
 	dev-racket/neuron-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -24,4 +24,4 @@ RDEPEND="dev-racket/beautiful-racket-lib
 	dev-racket/json-pointer
 	dev-racket/sugar
 	dev-racket/uri-template"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

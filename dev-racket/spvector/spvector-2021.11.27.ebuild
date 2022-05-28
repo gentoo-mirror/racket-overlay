@@ -9,7 +9,7 @@ GH_COMMIT="aba0ba4f4d8df27dc17252b984eca2f76f4ae414"
 
 inherit racket gh
 
-DESCRIPTION="the spvector Racket package"
+DESCRIPTION="The spvector Racket package"
 HOMEPAGE="https://github.com/jeapostrophe/spvector"
 
 LICENSE="all-rights-reserved"

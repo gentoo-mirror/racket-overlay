@@ -9,7 +9,7 @@ GH_COMMIT="cab12c9d480d16fdc1447caa55b50fff4a59bcdc"
 
 inherit racket gh
 
-DESCRIPTION="the todo-txt Racket package"
+DESCRIPTION="The todo-txt Racket package"
 HOMEPAGE="https://git.sr.ht/~sschwarzer/todo-txt"
 
 LICENSE="all-rights-reserved"
@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/al2-test-runner
 	dev-racket/raco-exe-multitarget"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

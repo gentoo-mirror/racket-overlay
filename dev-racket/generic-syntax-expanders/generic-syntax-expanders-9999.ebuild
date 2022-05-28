@@ -8,7 +8,7 @@ GH_REPO="jackfirth/generic-syntax-expanders"
 
 inherit racket gh
 
-DESCRIPTION="the generic-syntax-expanders Racket package"
+DESCRIPTION="The generic-syntax-expanders Racket package"
 HOMEPAGE="https://github.com/jackfirth/generic-syntax-expanders"
 
 LICENSE="all-rights-reserved"
@@ -20,4 +20,4 @@ RDEPEND="dev-racket/fancy-app
 	dev-racket/point-free
 	dev-racket/predicates
 	dev-racket/reprovide-lang"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

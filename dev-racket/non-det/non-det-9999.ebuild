@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/chk-lib
 	dev-racket/text-table"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -8,7 +8,7 @@ GH_REPO="spritely/aurie"
 
 inherit racket gh
 
-DESCRIPTION="the aurie Racket package"
+DESCRIPTION="The aurie Racket package"
 HOMEPAGE="https://gitlab.com/spritely/aurie"
 S="${S}/aurie"
 
@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/goblins
 	dev-racket/syrup"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

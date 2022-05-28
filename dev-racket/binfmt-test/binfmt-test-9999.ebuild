@@ -8,7 +8,7 @@ GH_REPO="Bogdanp/racket-binfmt"
 
 inherit racket gh
 
-DESCRIPTION="the binfmt-test Racket package"
+DESCRIPTION="The binfmt-test Racket package"
 HOMEPAGE="https://github.com/Bogdanp/racket-binfmt"
 S="${S}/binfmt-test"
 
@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/binfmt
 	dev-racket/rackcheck"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

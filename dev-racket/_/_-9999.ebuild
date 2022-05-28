@@ -8,7 +8,7 @@ GH_REPO="LeifAndersen/racket-_"
 
 inherit racket gh
 
-DESCRIPTION="the _ Racket package"
+DESCRIPTION="The _ Racket package"
 HOMEPAGE="https://github.com/LeifAndersen/racket-_"
 
 LICENSE="all-rights-reserved"

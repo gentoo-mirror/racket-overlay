@@ -9,7 +9,7 @@ GH_COMMIT="1613cfd4d7e8dbc8ceb86cf33479375147f42b2f"
 
 inherit racket gh
 
-DESCRIPTION="the tulip Racket package"
+DESCRIPTION="The tulip Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/racket-tulip"
 S="${S}/tulip"
 
@@ -19,4 +19,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/tulip-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

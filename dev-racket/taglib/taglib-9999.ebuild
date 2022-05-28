@@ -8,7 +8,7 @@ GH_REPO="takikawa/taglib-racket"
 
 inherit racket gh
 
-DESCRIPTION="the taglib Racket package"
+DESCRIPTION="The taglib Racket package"
 HOMEPAGE="https://github.com/takikawa/taglib-racket"
 
 LICENSE="all-rights-reserved"

@@ -21,4 +21,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/racketscript-compiler
 	dev-racket/racketscript-doc
 	dev-racket/racketscript-extras"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/plt-web-lib
 	dev-racket/remote-shell-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

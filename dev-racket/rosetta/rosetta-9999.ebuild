@@ -8,7 +8,7 @@ GH_REPO="aptmcl/rosetta"
 
 inherit racket gh
 
-DESCRIPTION="the rosetta Racket package"
+DESCRIPTION="The rosetta Racket package"
 HOMEPAGE="https://github.com/aptmcl/rosetta"
 
 LICENSE="all-rights-reserved"

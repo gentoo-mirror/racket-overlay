@@ -23,4 +23,4 @@ RDEPEND="dev-racket/aws
 	dev-racket/markdown
 	dev-racket/txexpr
 	dev-racket/unlike-assets-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

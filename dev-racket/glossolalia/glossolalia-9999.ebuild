@@ -8,7 +8,7 @@ GH_REPO="robertkleffner/glossolalia"
 
 inherit racket gh
 
-DESCRIPTION="the glossolalia Racket package"
+DESCRIPTION="The glossolalia Racket package"
 HOMEPAGE="https://github.com/robertkleffner/glossolalia"
 
 LICENSE="all-rights-reserved"
@@ -20,4 +20,4 @@ RDEPEND="dev-racket/beautiful-racket
 	dev-racket/beautiful-racket-macro
 	dev-racket/br-parser-tools-lib
 	dev-racket/brag"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

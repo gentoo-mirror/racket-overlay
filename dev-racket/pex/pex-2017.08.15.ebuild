@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/libserialport
 	dev-racket/mordae"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

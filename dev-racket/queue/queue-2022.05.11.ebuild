@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/struct-plus-plus
 	dev-racket/test-more"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

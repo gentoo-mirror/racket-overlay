@@ -23,4 +23,4 @@ RDEPEND="dev-racket/deta-lib
 	dev-racket/gregor-lib
 	dev-racket/threading-doc
 	dev-racket/threading-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

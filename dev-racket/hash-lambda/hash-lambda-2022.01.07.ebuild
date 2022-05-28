@@ -21,4 +21,4 @@ RDEPEND="dev-racket/kw-utils
 	dev-racket/mutable-match-lambda
 	dev-racket/unstable-lib
 	dev-racket/unstable-list-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

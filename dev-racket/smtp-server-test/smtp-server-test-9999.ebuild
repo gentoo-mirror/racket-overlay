@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/rackcheck
 	dev-racket/smtp-server"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

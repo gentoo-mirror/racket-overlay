@@ -9,7 +9,7 @@ GH_COMMIT="418eb21a7f2d2fea3aeaf0b7179532800d298d1c"
 
 inherit racket gh
 
-DESCRIPTION="the raco-invoke Racket package"
+DESCRIPTION="The raco-invoke Racket package"
 HOMEPAGE="https://github.com/Bogdanp/raco-invoke"
 
 LICENSE="all-rights-reserved"

@@ -8,7 +8,7 @@ GH_REPO="zyrolasting/fuzzy-search"
 
 inherit racket gh
 
-DESCRIPTION="the fuzzy-search Racket package"
+DESCRIPTION="The fuzzy-search Racket package"
 HOMEPAGE="https://github.com/zyrolasting/fuzzy-search"
 
 LICENSE="all-rights-reserved"

@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/bazaar"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

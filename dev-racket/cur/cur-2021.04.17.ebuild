@@ -21,4 +21,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/cur-doc
 	dev-racket/cur-lib
 	dev-racket/cur-test"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

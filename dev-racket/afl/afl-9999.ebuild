@@ -18,4 +18,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/hygienic-reader-extension
 	dev-racket/rackjure
 	dev-racket/scribble-code-examples"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

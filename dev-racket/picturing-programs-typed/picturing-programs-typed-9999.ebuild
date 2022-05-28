@@ -8,7 +8,7 @@ GH_REPO="maueroats/picturing-programs-typed"
 
 inherit racket gh
 
-DESCRIPTION="the picturing-programs-typed Racket package"
+DESCRIPTION="The picturing-programs-typed Racket package"
 HOMEPAGE="https://github.com/maueroats/picturing-programs-typed"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/2htdp-typed
 	dev-racket/unstable-contract-lib
 	dev-racket/unstable-list-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

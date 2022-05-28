@@ -9,7 +9,7 @@ GH_COMMIT="4820beb8aeedaf183520307f976f794e0e9bd055"
 
 inherit racket gh
 
-DESCRIPTION="the syntax-implicits Racket package"
+DESCRIPTION="The syntax-implicits Racket package"
 HOMEPAGE="https://github.com/willghatch/racket-syntax-implicits"
 
 LICENSE="all-rights-reserved"

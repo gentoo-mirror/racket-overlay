@@ -18,7 +18,7 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/mcfly
 	dev-racket/overeasy"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"
 
 src_unpack() {
 	wget -O "${T}/csv-reading.zip" "https://www.neilvandyke.org/racket/csv-reading.zip"

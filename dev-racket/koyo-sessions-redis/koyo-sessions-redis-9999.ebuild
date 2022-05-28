@@ -19,4 +19,4 @@ RDEPEND="dev-racket/koyo-doc
 	dev-racket/koyo-lib
 	dev-racket/redis-doc
 	dev-racket/redis-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

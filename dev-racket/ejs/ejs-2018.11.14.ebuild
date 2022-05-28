@@ -9,7 +9,7 @@ GH_COMMIT="6b8e74c48e98e1db0a02ddfe72eb44be9070112f"
 
 inherit racket gh
 
-DESCRIPTION="the ejs Racket package"
+DESCRIPTION="The ejs Racket package"
 HOMEPAGE="https://github.com/jessealama/ejs"
 
 LICENSE="all-rights-reserved"

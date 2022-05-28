@@ -8,7 +8,7 @@ GH_REPO="LiberalArtist/_-exp"
 
 inherit racket gh
 
-DESCRIPTION="the _-exp Racket package"
+DESCRIPTION="The _-exp Racket package"
 HOMEPAGE="https://github.com/LiberalArtist/_-exp"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/adjutor"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

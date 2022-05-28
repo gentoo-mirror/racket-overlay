@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/automata
 	dev-racket/temp-c-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

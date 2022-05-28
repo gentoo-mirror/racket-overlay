@@ -9,7 +9,7 @@ GH_COMMIT="cf2a5bd0c3243b4dd3a72093ae5eee8e8291a41d"
 
 inherit racket gh
 
-DESCRIPTION="ProfessorJ"
+DESCRIPTION="The profj Racket package"
 HOMEPAGE="https://github.com/mflatt/profj"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/combinator-parser"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

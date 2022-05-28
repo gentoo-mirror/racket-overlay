@@ -9,7 +9,7 @@ GH_COMMIT="a66868651dfee41e0c66887efa8201f7dcb23fb1"
 
 inherit racket gh
 
-DESCRIPTION="the r7rs-lib Racket package"
+DESCRIPTION="The r7rs-lib Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/racket-r7rs"
 S="${S}/r7rs-lib"
 

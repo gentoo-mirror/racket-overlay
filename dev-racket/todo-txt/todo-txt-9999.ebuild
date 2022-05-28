@@ -8,7 +8,7 @@ GH_REPO="~sschwarzer/todo-txt"
 
 inherit racket gh
 
-DESCRIPTION="the todo-txt Racket package"
+DESCRIPTION="The todo-txt Racket package"
 HOMEPAGE="https://git.sr.ht/~sschwarzer/todo-txt"
 
 LICENSE="all-rights-reserved"
@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/al2-test-runner
 	dev-racket/raco-exe-multitarget"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

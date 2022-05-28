@@ -8,7 +8,7 @@ GH_REPO="jsmaniac/typed-worklist"
 
 inherit racket gh
 
-DESCRIPTION="the typed-worklist Racket package"
+DESCRIPTION="The typed-worklist Racket package"
 HOMEPAGE="https://github.com/jsmaniac/typed-worklist"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/type-expander"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

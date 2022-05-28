@@ -8,7 +8,7 @@ GH_REPO="Bogdanp/racket-libargon2"
 
 inherit racket gh
 
-DESCRIPTION="the libargon2 Racket package"
+DESCRIPTION="The libargon2 Racket package"
 HOMEPAGE="https://github.com/Bogdanp/racket-libargon2"
 S="${S}/libargon2"
 

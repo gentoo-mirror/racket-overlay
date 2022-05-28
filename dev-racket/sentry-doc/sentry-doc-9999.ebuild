@@ -19,4 +19,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/gregor-doc
 	dev-racket/gregor-lib
 	dev-racket/sentry-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

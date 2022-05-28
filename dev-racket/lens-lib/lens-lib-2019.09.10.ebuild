@@ -9,7 +9,7 @@ GH_COMMIT="733db7744921409b69ddc78ae5b23ffaa6b91e37"
 
 inherit racket gh
 
-DESCRIPTION="the lens-lib Racket package"
+DESCRIPTION="The lens-lib Racket package"
 HOMEPAGE="https://github.com/jackfirth/lens"
 S="${S}/lens-lib"
 
@@ -22,4 +22,4 @@ RDEPEND="dev-racket/lens-common
 	dev-racket/lens-data
 	dev-racket/reprovide-lang-lib
 	dev-racket/sweet-exp-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

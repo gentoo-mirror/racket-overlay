@@ -8,7 +8,7 @@ GH_REPO="jackrosenthal/sdraw-racket"
 
 inherit racket gh
 
-DESCRIPTION="the sdraw Racket package"
+DESCRIPTION="The sdraw Racket package"
 HOMEPAGE="https://github.com/jackrosenthal/sdraw-racket"
 
 LICENSE="all-rights-reserved"

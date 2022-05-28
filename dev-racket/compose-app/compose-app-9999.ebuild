@@ -8,7 +8,7 @@ GH_REPO="jackfirth/compose-app"
 
 inherit racket gh
 
-DESCRIPTION="the compose-app Racket package"
+DESCRIPTION="The compose-app Racket package"
 HOMEPAGE="https://github.com/jackfirth/compose-app"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/fancy-app"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

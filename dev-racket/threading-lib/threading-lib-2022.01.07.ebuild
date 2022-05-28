@@ -9,7 +9,7 @@ GH_COMMIT="199c8e240146baf3ef2ef2838d7d9e242b90be4e"
 
 inherit racket gh
 
-DESCRIPTION="the threading-lib Racket package"
+DESCRIPTION="The threading-lib Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/threading"
 S="${S}/threading-lib"
 

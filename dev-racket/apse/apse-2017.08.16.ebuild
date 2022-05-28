@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/lux
 	dev-racket/mode-lambda"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

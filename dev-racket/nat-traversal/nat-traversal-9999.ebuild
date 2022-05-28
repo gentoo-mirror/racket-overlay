@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/bitsyntax"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -8,7 +8,7 @@ GH_REPO="nihirash/holy"
 
 inherit racket gh
 
-DESCRIPTION="the HoLy Racket package"
+DESCRIPTION="The HoLy Racket package"
 HOMEPAGE="https://github.com/nihirash/holy"
 
 LICENSE="all-rights-reserved"

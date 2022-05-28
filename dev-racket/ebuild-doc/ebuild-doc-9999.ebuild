@@ -21,4 +21,4 @@ RDEPEND="dev-racket/ebuild-lib
 	dev-racket/ebuild-tools
 	dev-racket/ebuild-transformers
 	dev-racket/ziptie-git"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/xfunctions-doc
 	dev-racket/xfunctions-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

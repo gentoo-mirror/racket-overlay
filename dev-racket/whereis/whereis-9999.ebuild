@@ -8,7 +8,7 @@ GH_REPO="rmculpepper/racket-whereis"
 
 inherit racket gh
 
-DESCRIPTION="the whereis Racket package"
+DESCRIPTION="The whereis Racket package"
 HOMEPAGE="https://github.com/rmculpepper/racket-whereis"
 
 LICENSE="all-rights-reserved"

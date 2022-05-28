@@ -26,4 +26,4 @@ RDEPEND="dev-racket/arguments
 	dev-racket/scribble-abbrevs
 	dev-racket/social-contract
 	dev-racket/version-case"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

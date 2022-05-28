@@ -8,7 +8,7 @@ GH_REPO="jsmaniac/anaphoric"
 
 inherit racket gh
 
-DESCRIPTION="the anaphoric Racket package"
+DESCRIPTION="The anaphoric Racket package"
 HOMEPAGE="https://github.com/jsmaniac/anaphoric"
 
 LICENSE="all-rights-reserved"

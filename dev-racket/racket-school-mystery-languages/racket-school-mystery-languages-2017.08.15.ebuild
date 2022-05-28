@@ -9,7 +9,7 @@ GH_COMMIT="757295f338d9d3937046782f9c910f8e39d42ef8"
 
 inherit racket gh
 
-DESCRIPTION="the racket-school-mystery-languages Racket package"
+DESCRIPTION="The racket-school-mystery-languages Racket package"
 HOMEPAGE="https://github.com/justinpombrio/RacketSchool"
 
 LICENSE="all-rights-reserved"

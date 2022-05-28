@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/ansi-color
 	dev-racket/c-utils"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

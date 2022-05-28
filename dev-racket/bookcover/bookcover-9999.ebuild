@@ -8,7 +8,7 @@ GH_REPO="otherjoel/bookcover"
 
 inherit racket gh
 
-DESCRIPTION="the bookcover Racket package"
+DESCRIPTION="The bookcover Racket package"
 HOMEPAGE="https://github.com/otherjoel/bookcover"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/beautiful-racket-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -18,4 +18,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/crypto
 	dev-racket/net-jwt
 	dev-racket/scribble-code-examples"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

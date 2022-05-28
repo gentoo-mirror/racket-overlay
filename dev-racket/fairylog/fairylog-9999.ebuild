@@ -8,7 +8,7 @@ GH_REPO="pezipink/fairylog"
 
 inherit racket gh
 
-DESCRIPTION="the Fairylog Racket package"
+DESCRIPTION="The Fairylog Racket package"
 HOMEPAGE="https://github.com/pezipink/fairylog"
 
 LICENSE="all-rights-reserved"

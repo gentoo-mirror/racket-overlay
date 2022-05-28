@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/racketscript-compiler
 	dev-racket/scribble-enhanced"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

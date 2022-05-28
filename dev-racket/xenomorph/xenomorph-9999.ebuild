@@ -19,4 +19,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/beautiful-racket-lib
 	dev-racket/debug
 	dev-racket/sugar"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

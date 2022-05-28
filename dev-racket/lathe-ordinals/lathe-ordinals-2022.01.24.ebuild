@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/lathe-ordinals-doc
 	dev-racket/lathe-ordinals-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

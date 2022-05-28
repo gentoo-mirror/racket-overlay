@@ -21,4 +21,4 @@ RDEPEND="dev-racket/drcomplete-auto
 	dev-racket/drcomplete-module
 	dev-racket/drcomplete-required
 	dev-racket/drcomplete-user-defined"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

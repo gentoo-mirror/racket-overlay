@@ -8,7 +8,7 @@ GH_REPO="jackfirth/syntax-warn"
 
 inherit racket gh
 
-DESCRIPTION="the syntax-warn Racket package"
+DESCRIPTION="The syntax-warn Racket package"
 HOMEPAGE="https://github.com/jackfirth/syntax-warn"
 S="${S}/syntax-warn"
 
@@ -20,4 +20,4 @@ RDEPEND="dev-racket/syntax-warn-base
 	dev-racket/syntax-warn-cli
 	dev-racket/syntax-warn-doc
 	dev-racket/syntax-warn-lang"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

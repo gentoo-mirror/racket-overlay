@@ -9,7 +9,7 @@ GH_COMMIT="4ec0b094709d83d54cb1de69209ecfd6a642573d"
 
 inherit racket gh
 
-DESCRIPTION="the pidec Racket package"
+DESCRIPTION="The pidec Racket package"
 HOMEPAGE="https://github.com/logc/pidec"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/while-loop"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

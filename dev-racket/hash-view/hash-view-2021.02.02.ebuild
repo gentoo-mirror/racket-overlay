@@ -19,4 +19,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/hash-view-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

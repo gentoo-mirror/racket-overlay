@@ -18,4 +18,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/ansi
 	dev-racket/diff-merge
 	dev-racket/unix-signals"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

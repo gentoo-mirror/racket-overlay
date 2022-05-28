@@ -8,7 +8,7 @@ GH_REPO="kalxd/ekans"
 
 inherit racket gh
 
-DESCRIPTION="the ekans Racket package"
+DESCRIPTION="The ekans Racket package"
 HOMEPAGE="https://github.com/kalxd/ekans"
 
 LICENSE="all-rights-reserved"

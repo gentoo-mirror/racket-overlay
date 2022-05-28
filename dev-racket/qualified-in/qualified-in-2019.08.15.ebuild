@@ -9,7 +9,7 @@ GH_COMMIT="779feda6a5fe30ff861971c894ae4a301c334150"
 
 inherit racket gh
 
-DESCRIPTION="the qualified-in Racket package"
+DESCRIPTION="The qualified-in Racket package"
 HOMEPAGE="https://github.com/michaelmmacleod/qualified-in"
 
 LICENSE="all-rights-reserved"

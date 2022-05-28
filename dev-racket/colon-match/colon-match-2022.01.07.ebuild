@@ -9,7 +9,7 @@ GH_COMMIT="e5799f8e6f523cd252ca64beb01e1ae9e673dc34"
 
 inherit racket gh
 
-DESCRIPTION="the colon-match Racket package"
+DESCRIPTION="The colon-match Racket package"
 HOMEPAGE="https://github.com/AlexKnauth/colon-match"
 
 LICENSE="all-rights-reserved"

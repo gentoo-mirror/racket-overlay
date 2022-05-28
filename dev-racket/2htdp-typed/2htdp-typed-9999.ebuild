@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/unstable-contract-lib
 	dev-racket/unstable-list-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

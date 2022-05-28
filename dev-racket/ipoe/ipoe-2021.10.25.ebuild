@@ -24,4 +24,4 @@ RDEPEND="dev-racket/basedir
 	dev-racket/rackunit-abbrevs
 	dev-racket/reprovide-lang
 	dev-racket/sxml"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

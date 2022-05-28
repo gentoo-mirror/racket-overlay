@@ -9,7 +9,7 @@ GH_COMMIT="42072a907d65bbfd09077592a20bfb130fc5a35a"
 
 inherit racket gh
 
-DESCRIPTION="the iu-pict Racket package"
+DESCRIPTION="The iu-pict Racket package"
 HOMEPAGE="https://github.com/david-christiansen/iu-pict"
 
 LICENSE="all-rights-reserved"

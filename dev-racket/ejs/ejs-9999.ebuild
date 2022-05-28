@@ -8,7 +8,7 @@ GH_REPO="jessealama/ejs"
 
 inherit racket gh
 
-DESCRIPTION="the ejs Racket package"
+DESCRIPTION="The ejs Racket package"
 HOMEPAGE="https://github.com/jessealama/ejs"
 
 LICENSE="all-rights-reserved"

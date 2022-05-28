@@ -9,7 +9,7 @@ GH_COMMIT="4cdc1bdae09a07b78f23665267f2c7df4be5a7f6"
 
 inherit racket gh
 
-DESCRIPTION="the namespaced-transformer Racket package"
+DESCRIPTION="The namespaced-transformer Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/namespaced-transformer"
 S="${S}/namespaced-transformer"
 
@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/namespaced-transformer-doc
 	dev-racket/namespaced-transformer-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

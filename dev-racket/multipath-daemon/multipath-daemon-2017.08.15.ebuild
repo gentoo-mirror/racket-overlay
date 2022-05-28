@@ -9,7 +9,7 @@ GH_COMMIT="4d8a2644d2641e9d263e83caef28b3bf6af63b88"
 
 inherit racket gh
 
-DESCRIPTION="the multipath-daemon Racket package"
+DESCRIPTION="The multipath-daemon Racket package"
 HOMEPAGE="https://github.com/mordae/racket-multipath-daemon"
 
 LICENSE="all-rights-reserved"
@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/misc1
 	dev-racket/unstable-doc"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

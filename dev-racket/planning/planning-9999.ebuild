@@ -19,4 +19,4 @@ RDEPEND="dev-racket/chess
 	dev-racket/fancy-app
 	dev-racket/point-free
 	dev-racket/rebellion"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -20,4 +20,4 @@ RDEPEND="dev-racket/ebuild-lib
 	dev-racket/ebuild-templates
 	dev-racket/ebuild-transformers
 	dev-racket/threading-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

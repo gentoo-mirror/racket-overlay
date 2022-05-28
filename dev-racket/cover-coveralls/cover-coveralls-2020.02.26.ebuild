@@ -9,7 +9,7 @@ GH_COMMIT="a5bb101d934e72f49b3f583707c58b921d61c07c"
 
 inherit racket gh
 
-DESCRIPTION="the cover-coveralls Racket package"
+DESCRIPTION="The cover-coveralls Racket package"
 HOMEPAGE="https://github.com/rpless/cover-coveralls"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/cover-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

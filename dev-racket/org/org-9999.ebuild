@@ -8,7 +8,7 @@ GH_REPO="tgbugs/laundry"
 
 inherit racket gh
 
-DESCRIPTION="Org mode as #lang org and DrRacket support."
+DESCRIPTION="Org mode as #lang org."
 HOMEPAGE="https://github.com/tgbugs/laundry"
 S="${S}/org"
 
@@ -17,4 +17,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/laundry"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

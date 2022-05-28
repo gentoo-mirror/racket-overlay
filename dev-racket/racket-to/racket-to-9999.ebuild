@@ -8,7 +8,7 @@ GH_REPO="thoughtstem/racket-to"
 
 inherit racket gh
 
-DESCRIPTION="the racket-to Racket package"
+DESCRIPTION="The racket-to Racket package"
 HOMEPAGE="https://github.com/thoughtstem/racket-to"
 
 LICENSE="all-rights-reserved"

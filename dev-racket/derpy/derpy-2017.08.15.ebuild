@@ -24,4 +24,4 @@ RDEPEND="dev-racket/cuecore
 	dev-racket/pex
 	dev-racket/tesira
 	dev-racket/zmq"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

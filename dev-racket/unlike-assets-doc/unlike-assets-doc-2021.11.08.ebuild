@@ -21,4 +21,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/graph-lib
 	dev-racket/kinda-ferpy
 	dev-racket/unlike-assets-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

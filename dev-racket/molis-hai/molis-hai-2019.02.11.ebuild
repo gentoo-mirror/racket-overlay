@@ -9,7 +9,7 @@ GH_COMMIT="6a335ec73c144f9d8ac538752ca8e6fd0b3b3cce"
 
 inherit racket gh
 
-DESCRIPTION="the molis-hai Racket package"
+DESCRIPTION="The molis-hai Racket package"
 HOMEPAGE="https://github.com/jbclements/molis-hai"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/pfds"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -9,7 +9,7 @@ GH_COMMIT="70274401f177b1001ea15169c9032e466bf8efc9"
 
 inherit racket gh
 
-DESCRIPTION="the crystal Racket package"
+DESCRIPTION="The crystal Racket package"
 HOMEPAGE="https://gitlab.com/spritely/crystal"
 S="${S}/crystal"
 
@@ -22,4 +22,4 @@ RDEPEND="dev-racket/crypto-lib
 	dev-racket/csexp
 	dev-racket/html-writing
 	dev-racket/magenc"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

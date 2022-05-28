@@ -18,7 +18,7 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/mcfly
 	dev-racket/overeasy"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"
 
 src_unpack() {
 	wget -O "${T}/cpuinfo.zip" "http://www.neilvandyke.org/racket/cpuinfo.zip"

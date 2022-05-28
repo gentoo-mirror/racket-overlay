@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/libuuid
 	dev-racket/misc1"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

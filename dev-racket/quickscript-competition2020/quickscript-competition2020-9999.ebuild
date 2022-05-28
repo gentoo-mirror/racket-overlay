@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/markdown
 	dev-racket/search-list-box"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

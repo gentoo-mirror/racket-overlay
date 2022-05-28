@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/parendown-doc
 	dev-racket/parendown-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

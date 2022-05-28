@@ -18,4 +18,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/al2-test-runner
 	dev-racket/geoid
 	dev-racket/http-easy"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

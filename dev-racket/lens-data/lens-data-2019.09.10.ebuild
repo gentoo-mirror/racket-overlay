@@ -25,7 +25,7 @@ RDEPEND="dev-racket/fancy-app
 	dev-racket/struct-update-lib
 	dev-racket/sweet-exp-lib
 	dev-racket/syntax-classes-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"
 PDEPEND="dev-racket/lens-common"
 
 src_compile() {

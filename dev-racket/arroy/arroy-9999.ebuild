@@ -8,7 +8,7 @@ GH_REPO="jeapostrophe/arroy"
 
 inherit racket gh
 
-DESCRIPTION="the arroy Racket package"
+DESCRIPTION="The arroy Racket package"
 HOMEPAGE="https://github.com/jeapostrophe/arroy"
 
 LICENSE="all-rights-reserved"

@@ -9,7 +9,7 @@ GH_COMMIT="4ec05adf44019ff153e867612d3eeee7ea586082"
 
 inherit racket gh
 
-DESCRIPTION="the rs Racket package"
+DESCRIPTION="The rs Racket package"
 HOMEPAGE="https://github.com/mcdejonge/rs"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/rtmidi"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

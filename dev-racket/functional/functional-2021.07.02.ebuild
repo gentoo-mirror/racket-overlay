@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/functional-doc
 	dev-racket/functional-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

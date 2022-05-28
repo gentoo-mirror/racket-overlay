@@ -9,7 +9,7 @@ GH_COMMIT="96591d338f423f741f712150d0e20da93500f1e8"
 
 inherit racket gh
 
-DESCRIPTION="the Quaternion Racket package"
+DESCRIPTION="The Quaternion Racket package"
 HOMEPAGE="https://github.com/APOS80/Quaternion"
 
 LICENSE="all-rights-reserved"

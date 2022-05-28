@@ -8,7 +8,7 @@ GH_REPO="Bogdanp/marionette"
 
 inherit racket gh
 
-DESCRIPTION="the marionette-test Racket package"
+DESCRIPTION="The marionette-test Racket package"
 HOMEPAGE="https://github.com/Bogdanp/marionette"
 S="${S}/marionette-test"
 
@@ -17,4 +17,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/marionette-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

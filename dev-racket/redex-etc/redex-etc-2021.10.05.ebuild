@@ -21,4 +21,4 @@ RDEPEND="dev-racket/chk-lib
 	dev-racket/latex-utils
 	dev-racket/private-in
 	dev-racket/unstable-redex"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

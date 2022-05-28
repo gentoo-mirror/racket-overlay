@@ -9,7 +9,7 @@ GH_COMMIT="57d7adbbc09dffc26337bff1b1a3597c872be8ea"
 
 inherit racket gh
 
-DESCRIPTION="the date Racket package"
+DESCRIPTION="The date Racket package"
 HOMEPAGE="https://gitlab.com/RayRacine/date"
 
 LICENSE="all-rights-reserved"

@@ -8,7 +8,7 @@ GH_REPO="soegaard/cairo"
 
 inherit racket gh
 
-DESCRIPTION="the cairo-test Racket package"
+DESCRIPTION="The cairo-test Racket package"
 HOMEPAGE="https://github.com/soegaard/cairo"
 S="${S}/cairo-test"
 
@@ -17,4 +17,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/cairo-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -21,4 +21,4 @@ RDEPEND="dev-racket/lux
 	dev-racket/ppict
 	dev-racket/unstable-doc
 	dev-racket/unstable-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

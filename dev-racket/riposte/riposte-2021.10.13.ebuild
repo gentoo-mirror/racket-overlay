@@ -25,4 +25,4 @@ RDEPEND="dev-racket/argo
 	dev-racket/http
 	dev-racket/json-pointer
 	dev-racket/misc1"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

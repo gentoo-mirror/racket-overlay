@@ -9,7 +9,7 @@ GH_COMMIT="f145ca1c07a2f142037634824b08105e9d07a116"
 
 inherit racket gh
 
-DESCRIPTION="the extenor Racket package"
+DESCRIPTION="The extenor Racket package"
 HOMEPAGE="https://github.com/willghatch/racket-extenor"
 
 LICENSE="all-rights-reserved"

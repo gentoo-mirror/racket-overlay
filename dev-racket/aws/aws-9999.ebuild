@@ -8,7 +8,7 @@ GH_REPO="greghendershott/aws"
 
 inherit racket gh
 
-DESCRIPTION="the aws Racket package"
+DESCRIPTION="The aws Racket package"
 HOMEPAGE="https://github.com/greghendershott/aws"
 
 LICENSE="all-rights-reserved"
@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/http
 	dev-racket/sha"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -20,4 +20,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/lux
 	dev-racket/opengl
 	dev-racket/reprovide-lang-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

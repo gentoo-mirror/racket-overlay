@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/x64asm-doc
 	dev-racket/x64asm-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

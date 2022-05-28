@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/redex-abbrevs-doc
 	dev-racket/redex-abbrevs-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

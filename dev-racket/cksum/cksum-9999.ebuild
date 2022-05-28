@@ -8,7 +8,7 @@ GH_REPO="jeroanan/cksum"
 
 inherit racket gh
 
-DESCRIPTION="the cksum Racket package"
+DESCRIPTION="The cksum Racket package"
 HOMEPAGE="https://github.com/jeroanan/cksum"
 
 LICENSE="all-rights-reserved"

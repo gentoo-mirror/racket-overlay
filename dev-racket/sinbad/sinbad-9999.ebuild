@@ -8,7 +8,7 @@ GH_REPO="berry-cs/sinbad-rkt"
 
 inherit racket gh
 
-DESCRIPTION="the sinbad Racket package"
+DESCRIPTION="The sinbad Racket package"
 HOMEPAGE="https://github.com/berry-cs/sinbad-rkt"
 S="${S}/sinbad"
 
@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/csv-reading
 	dev-racket/sxml"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

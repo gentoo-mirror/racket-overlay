@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/net-ip-doc
 	dev-racket/net-ip-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

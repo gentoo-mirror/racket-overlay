@@ -9,7 +9,7 @@ GH_COMMIT="1b7050a848a853313abb5cdd4a0bfcb6705e5f9f"
 
 inherit racket gh
 
-DESCRIPTION="the define-with-spec Racket package"
+DESCRIPTION="The define-with-spec Racket package"
 HOMEPAGE="https://github.com/pnwamk/define-with-spec"
 
 LICENSE="all-rights-reserved"

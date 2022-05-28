@@ -3,7 +3,7 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/failed-dragon-slayer/racket-llvm</bugs-to>
-    <remote-id type="github">failed-dragon-slayer/racket-llvm</remote-id>
+    <bugs-to>https://github.com/dannypsnl/racket-llvm</bugs-to>
+    <remote-id type="github">dannypsnl/racket-llvm</remote-id>
   </upstream>
 </pkgmetadata>

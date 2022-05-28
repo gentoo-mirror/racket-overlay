@@ -7,7 +7,7 @@ PROPERTIES=live
 
 inherit racket
 
-DESCRIPTION="the canonicalize-path Racket package"
+DESCRIPTION="The canonicalize-path Racket package"
 HOMEPAGE="https://pkgs.racket-lang.org/package/canonicalize-path"
 S="${WORKDIR}/${PN}"
 
@@ -18,7 +18,7 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/mcfly
 	dev-racket/overeasy"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"
 
 src_unpack() {
 	wget -O "${T}/canonicalize-path.zip" "http://www.neilvandyke.org/racket/canonicalize-path.zip"

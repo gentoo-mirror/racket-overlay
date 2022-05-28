@@ -8,7 +8,7 @@ GH_REPO="AlexKnauth/syntax-macro-lang"
 
 inherit racket gh
 
-DESCRIPTION="the syntax-macro-lang Racket package"
+DESCRIPTION="The syntax-macro-lang Racket package"
 HOMEPAGE="https://github.com/AlexKnauth/syntax-macro-lang"
 
 LICENSE="all-rights-reserved"

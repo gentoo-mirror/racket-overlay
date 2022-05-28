@@ -9,7 +9,7 @@ GH_COMMIT="fe71542609bd707d4fd6d842d74c164ae2b2adff"
 
 inherit racket gh
 
-DESCRIPTION="the ragg Racket package"
+DESCRIPTION="The ragg Racket package"
 HOMEPAGE="https://github.com/jbclements/ragg"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/python-tokenizer"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

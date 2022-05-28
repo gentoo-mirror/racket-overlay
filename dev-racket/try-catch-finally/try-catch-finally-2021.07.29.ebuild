@@ -19,4 +19,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/try-catch-finally-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

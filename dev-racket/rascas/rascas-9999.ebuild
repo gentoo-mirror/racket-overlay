@@ -8,7 +8,7 @@ GH_REPO="Metaxal/rascas"
 
 inherit racket gh
 
-DESCRIPTION="the rascas Racket package"
+DESCRIPTION="The rascas Racket package"
 HOMEPAGE="https://github.com/Metaxal/rascas"
 
 LICENSE="all-rights-reserved"

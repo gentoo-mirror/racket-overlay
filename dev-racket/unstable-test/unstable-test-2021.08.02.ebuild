@@ -25,4 +25,4 @@ RDEPEND="dev-racket/unstable-contract-lib
 	dev-racket/unstable-options-lib
 	dev-racket/unstable-parameter-group-lib
 	dev-racket/unstable2d"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

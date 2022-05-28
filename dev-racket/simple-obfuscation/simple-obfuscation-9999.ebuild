@@ -8,7 +8,7 @@ GH_REPO="rfindler/simple-obfuscation"
 
 inherit racket gh
 
-DESCRIPTION="the simple-obfuscation Racket package"
+DESCRIPTION="The simple-obfuscation Racket package"
 HOMEPAGE="https://github.com/rfindler/simple-obfuscation"
 
 LICENSE="all-rights-reserved"

@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/shlex"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

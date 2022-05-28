@@ -8,7 +8,7 @@ GH_REPO="rmculpepper/racket-base64"
 
 inherit racket gh
 
-DESCRIPTION="the base64-lib Racket package"
+DESCRIPTION="The base64-lib Racket package"
 HOMEPAGE="https://github.com/rmculpepper/racket-base64"
 S="${S}/base64-lib"
 

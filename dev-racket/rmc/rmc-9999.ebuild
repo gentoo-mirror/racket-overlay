@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/chk
 	dev-racket/pprint"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

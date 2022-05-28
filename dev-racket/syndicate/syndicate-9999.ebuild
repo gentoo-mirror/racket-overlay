@@ -8,7 +8,7 @@ GH_REPO="syndicate-lang/syndicate-rkt"
 
 inherit racket gh
 
-DESCRIPTION="the syndicate Racket package"
+DESCRIPTION="The syndicate Racket package"
 HOMEPAGE="https://git.syndicate-lang.org/syndicate-lang/syndicate-rkt"
 S="${S}/syndicate"
 
@@ -20,4 +20,4 @@ RDEPEND="dev-racket/auxiliary-macro-context
 	dev-racket/preserves
 	dev-racket/sha
 	dev-racket/struct-defaults"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

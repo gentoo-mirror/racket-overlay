@@ -20,4 +20,4 @@ RDEPEND="dev-racket/ansi
 	dev-racket/reprovide-lang
 	dev-racket/struct-define
 	dev-racket/unix-signals"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

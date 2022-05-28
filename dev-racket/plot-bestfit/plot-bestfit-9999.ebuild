@@ -8,7 +8,7 @@ GH_REPO="florence/plot-bestfit"
 
 inherit racket gh
 
-DESCRIPTION="the plot-bestfit Racket package"
+DESCRIPTION="The plot-bestfit Racket package"
 HOMEPAGE="https://github.com/florence/plot-bestfit"
 
 LICENSE="all-rights-reserved"

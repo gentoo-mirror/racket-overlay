@@ -9,7 +9,7 @@ GH_COMMIT="4d62bc0e767dc524ff2b8ac42cd0bb22aea3436c"
 
 inherit racket gh
 
-DESCRIPTION="the scribble-bettergrammar-lib Racket package"
+DESCRIPTION="The scribble-bettergrammar-lib Racket package"
 HOMEPAGE="https://github.com/wilbowma/scribble-bettergrammar"
 S="${S}/scribble-bettergrammar-lib"
 
@@ -19,4 +19,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/sexp-diff-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

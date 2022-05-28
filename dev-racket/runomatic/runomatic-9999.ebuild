@@ -19,4 +19,4 @@ RDEPEND="dev-racket/gregor
 	dev-racket/html-parsing
 	dev-racket/request
 	dev-racket/sxml"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

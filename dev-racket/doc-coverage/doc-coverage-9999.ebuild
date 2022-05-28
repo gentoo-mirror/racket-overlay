@@ -8,7 +8,7 @@ GH_REPO="jackfirth/doc-coverage"
 
 inherit racket gh
 
-DESCRIPTION="the doc-coverage Racket package"
+DESCRIPTION="The doc-coverage Racket package"
 HOMEPAGE="https://github.com/jackfirth/doc-coverage"
 S="${S}/doc-coverage"
 
@@ -17,4 +17,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/reprovide-lang-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

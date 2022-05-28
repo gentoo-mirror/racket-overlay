@@ -9,7 +9,7 @@ GH_COMMIT="0c574bc88dc9de870063589cc49a7ad41899fc67"
 
 inherit racket gh
 
-DESCRIPTION="the literify Racket package"
+DESCRIPTION="The literify Racket package"
 HOMEPAGE="https://github.com/kflu/literify"
 
 LICENSE="all-rights-reserved"

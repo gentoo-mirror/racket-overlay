@@ -23,4 +23,4 @@ RDEPEND="dev-racket/in-new-directory
 	dev-racket/set
 	dev-racket/unstable-contract-lib
 	dev-racket/unstable-doc"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -20,4 +20,4 @@ RDEPEND="dev-racket/hash-lambda
 	dev-racket/kw-utils
 	dev-racket/lens
 	dev-racket/unstable-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

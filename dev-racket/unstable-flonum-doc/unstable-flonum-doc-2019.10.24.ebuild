@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/unstable
 	dev-racket/unstable-flonum-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -8,7 +8,7 @@ GH_REPO="AlexKnauth/reconstruct-template"
 
 inherit racket gh
 
-DESCRIPTION="the reconstruct-template Racket package"
+DESCRIPTION="The reconstruct-template Racket package"
 HOMEPAGE="https://github.com/AlexKnauth/reconstruct-template"
 
 LICENSE="all-rights-reserved"

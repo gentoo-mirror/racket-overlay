@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/distro-build-client
 	dev-racket/distro-build-server"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

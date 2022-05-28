@@ -22,4 +22,4 @@ RDEPEND="dev-racket/automata-lib
 	dev-racket/staged-slide
 	dev-racket/temp-c-lib
 	dev-racket/unstable-macro-testing-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

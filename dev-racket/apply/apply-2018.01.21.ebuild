@@ -9,7 +9,7 @@ GH_COMMIT="1d7d138179cd02e2b10eab29748d08b76d91c69d"
 
 inherit racket gh
 
-DESCRIPTION="the apply Racket package"
+DESCRIPTION="The apply Racket package"
 HOMEPAGE="https://github.com/zaoqil/apply"
 S="${S}/apply"
 

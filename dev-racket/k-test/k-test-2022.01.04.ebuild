@@ -9,7 +9,7 @@ GH_COMMIT="ecc83f37452f82c095ba1a79bcc991aea55637cf"
 
 inherit racket gh
 
-DESCRIPTION="Test of k"
+DESCRIPTION="The k-test Racket package"
 HOMEPAGE="https://github.com/racket-tw/k"
 S="${S}/k-test"
 

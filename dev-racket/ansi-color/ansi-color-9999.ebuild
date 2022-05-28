@@ -8,7 +8,7 @@ GH_REPO="renatoathaydes/ansi-color"
 
 inherit racket gh
 
-DESCRIPTION="the ansi-color Racket package"
+DESCRIPTION="The ansi-color Racket package"
 HOMEPAGE="https://github.com/renatoathaydes/ansi-color"
 
 LICENSE="all-rights-reserved"

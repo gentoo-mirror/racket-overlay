@@ -20,4 +20,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/sha
 	dev-racket/uuid
 	dev-racket/zeromq-r-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

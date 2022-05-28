@@ -8,7 +8,7 @@ GH_REPO="willghatch/racket-extenor"
 
 inherit racket gh
 
-DESCRIPTION="the extenor Racket package"
+DESCRIPTION="The extenor Racket package"
 HOMEPAGE="https://github.com/willghatch/racket-extenor"
 
 LICENSE="all-rights-reserved"

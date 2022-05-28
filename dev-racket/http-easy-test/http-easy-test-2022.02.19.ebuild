@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/http-easy
 	dev-racket/resource-pool-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

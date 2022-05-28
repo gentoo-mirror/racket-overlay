@@ -9,7 +9,7 @@ GH_COMMIT="c9800e602f0e58bf6e0273d7dbdb86d28f9047cb"
 
 inherit racket gh
 
-DESCRIPTION="the racket-route-match Racket package"
+DESCRIPTION="The racket-route-match Racket package"
 HOMEPAGE="https://github.com/Junker/racket-route-match"
 
 LICENSE="all-rights-reserved"

@@ -9,7 +9,7 @@ GH_COMMIT="bc59bd53462a72ed3e67ec2555e94e871bc7e314"
 
 inherit racket gh
 
-DESCRIPTION="the multiscope Racket package"
+DESCRIPTION="The multiscope Racket package"
 HOMEPAGE="https://github.com/michaelballantyne/multiscope"
 
 LICENSE="all-rights-reserved"

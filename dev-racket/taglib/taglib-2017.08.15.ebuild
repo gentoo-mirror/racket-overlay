@@ -9,7 +9,7 @@ GH_COMMIT="69b0494bac4cf2d4c6b99701c7b586bdb827a0a3"
 
 inherit racket gh
 
-DESCRIPTION="the taglib Racket package"
+DESCRIPTION="The taglib Racket package"
 HOMEPAGE="https://github.com/takikawa/taglib-racket"
 
 LICENSE="all-rights-reserved"

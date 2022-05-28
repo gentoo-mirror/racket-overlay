@@ -8,7 +8,7 @@ GH_REPO="Kalimehtar/multicolumn"
 
 inherit racket gh
 
-DESCRIPTION="the multicolumn Racket package"
+DESCRIPTION="The multicolumn Racket package"
 HOMEPAGE="https://github.com/Kalimehtar/multicolumn"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/stretchable-snip"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

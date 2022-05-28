@@ -9,7 +9,7 @@ GH_COMMIT="44eec676564ee45d631870e494796ed55a55434f"
 
 inherit racket gh
 
-DESCRIPTION="the syntax-highlighting Racket package"
+DESCRIPTION="The syntax-highlighting Racket package"
 HOMEPAGE="https://github.com/zyrolasting/syntax-highlighting"
 
 LICENSE="all-rights-reserved"

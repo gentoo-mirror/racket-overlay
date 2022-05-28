@@ -8,7 +8,7 @@ GH_REPO="LeifAndersen/racket-compiler-goodies"
 
 inherit racket gh
 
-DESCRIPTION="the compiler-goodies Racket package"
+DESCRIPTION="The compiler-goodies Racket package"
 HOMEPAGE="https://github.com/LeifAndersen/racket-compiler-goodies"
 
 LICENSE="all-rights-reserved"

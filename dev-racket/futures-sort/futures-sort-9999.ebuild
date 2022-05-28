@@ -8,7 +8,7 @@ GH_REPO="dzoep/futures-sort"
 
 inherit racket gh
 
-DESCRIPTION="the futures-sort Racket package"
+DESCRIPTION="The futures-sort Racket package"
 HOMEPAGE="https://github.com/dzoep/futures-sort"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/scribble-math"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

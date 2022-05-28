@@ -8,7 +8,7 @@ GH_REPO="RayRacine/opt"
 
 inherit racket gh
 
-DESCRIPTION="the opt Racket package"
+DESCRIPTION="The opt Racket package"
 HOMEPAGE="https://gitlab.com/RayRacine/opt"
 
 LICENSE="all-rights-reserved"

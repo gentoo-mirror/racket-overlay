@@ -9,7 +9,7 @@ GH_COMMIT="cb47dd8b081ad14800fd668898f6f938a4a40e91"
 
 inherit racket gh
 
-DESCRIPTION="the remember Racket package"
+DESCRIPTION="The remember Racket package"
 HOMEPAGE="https://github.com/jsmaniac/remember"
 
 LICENSE="all-rights-reserved"
@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/hyper-literate
 	dev-racket/scribble-enhanced"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

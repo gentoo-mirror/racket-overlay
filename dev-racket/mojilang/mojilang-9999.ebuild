@@ -8,7 +8,7 @@ GH_REPO="a11ce/esAsm"
 
 inherit racket gh
 
-DESCRIPTION="the mojilang Racket package"
+DESCRIPTION="The mojilang Racket package"
 HOMEPAGE="https://github.com/a11ce/esAsm"
 S="${S}/mojilang"
 
@@ -17,4 +17,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/esasm"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

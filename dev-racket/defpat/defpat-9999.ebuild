@@ -21,4 +21,4 @@ RDEPEND="dev-racket/generic-bind
 	dev-racket/sweet-exp
 	dev-racket/unstable-lib
 	dev-racket/unstable-list-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

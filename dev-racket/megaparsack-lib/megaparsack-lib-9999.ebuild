@@ -8,7 +8,7 @@ GH_REPO="lexi-lambda/megaparsack"
 
 inherit racket gh
 
-DESCRIPTION="the megaparsack-lib Racket package"
+DESCRIPTION="The megaparsack-lib Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/megaparsack"
 S="${S}/megaparsack-lib"
 
@@ -19,4 +19,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/curly-fn-lib
 	dev-racket/functional-lib
 	dev-racket/match-plus"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

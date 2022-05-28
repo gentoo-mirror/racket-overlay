@@ -8,7 +8,7 @@ GH_REPO="jackfirth/racket-disposable"
 
 inherit racket gh
 
-DESCRIPTION="the disposable Racket package"
+DESCRIPTION="The disposable Racket package"
 HOMEPAGE="https://github.com/jackfirth/racket-disposable"
 S="${S}/disposable"
 
@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/arguments
 	dev-racket/reprovide-lang"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

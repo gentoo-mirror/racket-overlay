@@ -9,7 +9,7 @@ GH_COMMIT="bfed5dc03ebdc80983f3f114b5df925551abfcaf"
 
 inherit racket gh
 
-DESCRIPTION="the binfmt-test Racket package"
+DESCRIPTION="The binfmt-test Racket package"
 HOMEPAGE="https://github.com/Bogdanp/racket-binfmt"
 S="${S}/binfmt-test"
 
@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/binfmt
 	dev-racket/rackcheck"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

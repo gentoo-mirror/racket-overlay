@@ -29,4 +29,4 @@ RDEPEND="dev-racket/basedir
 	dev-racket/request
 	dev-racket/sha
 	dev-racket/syntax-classes"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

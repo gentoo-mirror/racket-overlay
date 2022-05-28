@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/laramie-doc
 	dev-racket/laramie-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

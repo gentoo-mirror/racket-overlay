@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/expeditor-doc
 	dev-racket/expeditor-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

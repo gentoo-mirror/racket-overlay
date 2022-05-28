@@ -19,7 +19,7 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/canonicalize-path
 	dev-racket/mcfly
 	dev-racket/overeasy"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"
 
 src_unpack() {
 	wget -O "${T}/mediafile.zip" "http://www.neilvandyke.org/racket/mediafile.zip"

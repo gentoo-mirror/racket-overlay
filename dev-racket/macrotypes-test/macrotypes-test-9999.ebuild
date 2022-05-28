@@ -8,7 +8,7 @@ GH_REPO="stchang/macrotypes"
 
 inherit racket gh
 
-DESCRIPTION="the macrotypes-test Racket package"
+DESCRIPTION="The macrotypes-test Racket package"
 HOMEPAGE="https://github.com/stchang/macrotypes"
 S="${S}/macrotypes-test"
 
@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/macrotypes-example
 	dev-racket/rackunit-macrotypes-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

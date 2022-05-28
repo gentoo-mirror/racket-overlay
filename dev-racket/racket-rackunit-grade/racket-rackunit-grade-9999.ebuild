@@ -8,7 +8,7 @@ GH_REPO="ifigueroap/racket-rackunit-grade"
 
 inherit racket gh
 
-DESCRIPTION="the racket-rackunit-grade Racket package"
+DESCRIPTION="The racket-rackunit-grade Racket package"
 HOMEPAGE="https://github.com/ifigueroap/racket-rackunit-grade"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/doc-coverage"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

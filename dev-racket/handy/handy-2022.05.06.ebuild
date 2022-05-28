@@ -9,7 +9,7 @@ GH_COMMIT="30ad54e5b4eebf44f3c880df1b5ade45b22128d3"
 
 inherit racket gh
 
-DESCRIPTION="the handy Racket package"
+DESCRIPTION="The handy Racket package"
 HOMEPAGE="https://github.com/dstorrs/racket-dstorrs-libs"
 
 LICENSE="all-rights-reserved"
@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/html-parsing
 	dev-racket/sxml"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

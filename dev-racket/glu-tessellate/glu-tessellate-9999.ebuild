@@ -8,7 +8,7 @@ GH_REPO="mflatt/glu-tessellate"
 
 inherit racket gh
 
-DESCRIPTION="the glu-tessellate Racket package"
+DESCRIPTION="The glu-tessellate Racket package"
 HOMEPAGE="https://github.com/mflatt/glu-tessellate"
 
 LICENSE="all-rights-reserved"

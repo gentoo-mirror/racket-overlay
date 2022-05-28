@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/deta-doc
 	dev-racket/deta-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -8,7 +8,7 @@ GH_REPO="AlexKnauth/my-cond"
 
 inherit racket gh
 
-DESCRIPTION="the my-cond Racket package"
+DESCRIPTION="The my-cond Racket package"
 HOMEPAGE="https://github.com/AlexKnauth/my-cond"
 
 LICENSE="all-rights-reserved"
@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/sweet-exp
 	dev-racket/sweet-exp-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

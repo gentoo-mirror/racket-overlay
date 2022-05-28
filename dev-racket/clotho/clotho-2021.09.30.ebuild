@@ -19,4 +19,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/version-string-with-git-hash"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

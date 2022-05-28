@@ -8,7 +8,7 @@ GH_REPO="johnstonskj/racket-parquet"
 
 inherit racket gh
 
-DESCRIPTION="the parquet Racket package"
+DESCRIPTION="The parquet Racket package"
 HOMEPAGE="https://github.com/johnstonskj/racket-parquet"
 
 LICENSE="all-rights-reserved"
@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/cover-coveralls
 	dev-racket/thrift"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

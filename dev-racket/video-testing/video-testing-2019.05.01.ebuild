@@ -9,7 +9,7 @@ GH_COMMIT="aa958b5ab250c8a202b24444935255d773608ea6"
 
 inherit racket gh
 
-DESCRIPTION="the video-testing Racket package"
+DESCRIPTION="The video-testing Racket package"
 HOMEPAGE="https://github.com/videolang/video"
 
 LICENSE="all-rights-reserved"
@@ -23,4 +23,4 @@ RDEPEND="dev-racket/bitsyntax
 	dev-racket/portaudio
 	dev-racket/ppict
 	dev-racket/reprovide-lang"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

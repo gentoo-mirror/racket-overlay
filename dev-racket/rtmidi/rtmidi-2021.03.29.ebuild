@@ -9,7 +9,7 @@ GH_COMMIT="11879d2e6a3eea7d1766d58123fe89363831313f"
 
 inherit racket gh
 
-DESCRIPTION="the rtmidi Racket package"
+DESCRIPTION="The rtmidi Racket package"
 HOMEPAGE="https://github.com/jbclements/rtmidi"
 
 LICENSE="all-rights-reserved"

@@ -9,7 +9,7 @@ GH_COMMIT="220552416edf5646d796668176a473e4271205b2"
 
 inherit racket gh
 
-DESCRIPTION="the turnstile-test Racket package"
+DESCRIPTION="The turnstile-test Racket package"
 HOMEPAGE="https://github.com/stchang/macrotypes"
 S="${S}/turnstile-test"
 
@@ -21,4 +21,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/rackunit-macrotypes-lib
 	dev-racket/turnstile-example
 	dev-racket/turnstile-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

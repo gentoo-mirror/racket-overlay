@@ -8,7 +8,7 @@ GH_REPO="jiujiu1123/defensive-to-contracts"
 
 inherit racket gh
 
-DESCRIPTION="the defensive-to-contracts Racket package"
+DESCRIPTION="The defensive-to-contracts Racket package"
 HOMEPAGE="https://github.com/jiujiu1123/defensive-to-contracts"
 
 LICENSE="all-rights-reserved"

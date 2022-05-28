@@ -8,7 +8,7 @@ GH_REPO="zyrolasting/denxi"
 
 inherit racket gh
 
-DESCRIPTION="the denxi Racket package"
+DESCRIPTION="The denxi Racket package"
 HOMEPAGE="https://github.com/zyrolasting/denxi"
 
 LICENSE="all-rights-reserved"

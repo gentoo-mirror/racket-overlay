@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/collections-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -8,7 +8,7 @@ GH_REPO="tonyg/racket-operational-transformation"
 
 inherit racket gh
 
-DESCRIPTION="the operational-transformation Racket package"
+DESCRIPTION="The operational-transformation Racket package"
 HOMEPAGE="https://github.com/tonyg/racket-operational-transformation"
 S="${S}/operational-transformation"
 
@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/operational-transformation-demo
 	dev-racket/operational-transformation-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

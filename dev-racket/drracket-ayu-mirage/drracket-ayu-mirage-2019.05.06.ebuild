@@ -9,7 +9,7 @@ GH_COMMIT="5271740c3f0089e3958647353c24b73a3a80e401"
 
 inherit racket gh
 
-DESCRIPTION="the drracket-ayu-mirage Racket package"
+DESCRIPTION="The drracket-ayu-mirage Racket package"
 HOMEPAGE="https://github.com/oransimhony/drracket-ayu-mirage"
 
 LICENSE="all-rights-reserved"

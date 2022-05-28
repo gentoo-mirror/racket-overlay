@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/lathe-morphisms-doc
 	dev-racket/lathe-morphisms-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

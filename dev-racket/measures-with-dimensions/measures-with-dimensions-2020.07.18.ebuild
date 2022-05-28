@@ -23,4 +23,4 @@ RDEPEND="dev-racket/colon-match
 	dev-racket/sweet-exp
 	dev-racket/threading
 	dev-racket/unstable-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -19,4 +19,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/syntax-classes"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -9,7 +9,7 @@ GH_COMMIT="e6574beb88937357cb73e834dacf10ceb1805495"
 
 inherit racket gh
 
-DESCRIPTION="the HoLy Racket package"
+DESCRIPTION="The HoLy Racket package"
 HOMEPAGE="https://github.com/nihirash/holy"
 
 LICENSE="all-rights-reserved"

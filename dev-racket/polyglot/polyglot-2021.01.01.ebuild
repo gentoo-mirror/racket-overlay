@@ -9,7 +9,7 @@ GH_COMMIT="d27ca7fe90fd4ba2a6c5bcd921fce89e72d2c408"
 
 inherit racket gh
 
-DESCRIPTION="the polyglot Racket package"
+DESCRIPTION="The polyglot Racket package"
 HOMEPAGE="https://github.com/zyrolasting/polyglot"
 S="${S}/polyglot"
 
@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/polyglot-doc
 	dev-racket/polyglot-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

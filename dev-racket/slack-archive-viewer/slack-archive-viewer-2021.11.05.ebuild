@@ -24,4 +24,4 @@ RDEPEND="dev-racket/beeswax
 	dev-racket/sass
 	dev-racket/sugar
 	dev-racket/txexpr"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

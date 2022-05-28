@@ -8,7 +8,7 @@ GH_REPO="tov/dssl"
 
 inherit racket gh
 
-DESCRIPTION="the dssl Racket package"
+DESCRIPTION="The dssl Racket package"
 HOMEPAGE="https://github.com/tov/dssl"
 
 LICENSE="all-rights-reserved"

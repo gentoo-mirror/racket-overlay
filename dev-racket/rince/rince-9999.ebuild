@@ -8,7 +8,7 @@ GH_REPO="lwhjp/rince"
 
 inherit racket gh
 
-DESCRIPTION="the rince Racket package"
+DESCRIPTION="The rince Racket package"
 HOMEPAGE="https://github.com/lwhjp/rince"
 
 LICENSE="all-rights-reserved"
@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/c-utils
 	dev-racket/turnstile-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

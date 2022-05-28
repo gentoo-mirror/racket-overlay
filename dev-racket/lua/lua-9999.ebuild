@@ -18,4 +18,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/curly-fn-lib
 	dev-racket/functional-lib
 	dev-racket/match-plus"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

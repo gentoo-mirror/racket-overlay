@@ -9,7 +9,7 @@ GH_COMMIT="cebf78ef1dafd5dc93485c41cf7f6eaab3e60efb"
 
 inherit racket gh
 
-DESCRIPTION="the plaitypus Racket package"
+DESCRIPTION="The plaitypus Racket package"
 HOMEPAGE="https://github.com/stamourv/plaitypus"
 
 LICENSE="all-rights-reserved"

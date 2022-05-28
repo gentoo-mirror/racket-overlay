@@ -8,7 +8,7 @@ GH_REPO="samth/object-backtrace"
 
 inherit racket gh
 
-DESCRIPTION="the object-backtrace Racket package"
+DESCRIPTION="The object-backtrace Racket package"
 HOMEPAGE="https://github.com/samth/object-backtrace"
 
 LICENSE="all-rights-reserved"

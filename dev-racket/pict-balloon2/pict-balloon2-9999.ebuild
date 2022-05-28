@@ -8,7 +8,7 @@ GH_REPO="mflatt/pict-balloon2"
 
 inherit racket gh
 
-DESCRIPTION="the pict-balloon2 Racket package"
+DESCRIPTION="The pict-balloon2 Racket package"
 HOMEPAGE="https://github.com/mflatt/pict-balloon2"
 
 LICENSE="all-rights-reserved"

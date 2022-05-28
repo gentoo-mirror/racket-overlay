@@ -8,7 +8,7 @@ GH_REPO="thinkmoore/drracket-cyberpunk"
 
 inherit racket gh
 
-DESCRIPTION="the drracket-cyberpunk Racket package"
+DESCRIPTION="The drracket-cyberpunk Racket package"
 HOMEPAGE="https://github.com/thinkmoore/drracket-cyberpunk"
 
 LICENSE="all-rights-reserved"

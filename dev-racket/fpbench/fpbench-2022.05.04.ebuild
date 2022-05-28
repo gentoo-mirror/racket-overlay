@@ -9,7 +9,7 @@ GH_COMMIT="40952f5e05b3b263d624203678e570d1bfea2aac"
 
 inherit racket gh
 
-DESCRIPTION="the fpbench Racket package"
+DESCRIPTION="The fpbench Racket package"
 HOMEPAGE="https://github.com/FPBench/FPBench"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/generic-flonum"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

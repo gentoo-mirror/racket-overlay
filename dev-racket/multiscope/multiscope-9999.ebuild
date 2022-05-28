@@ -8,7 +8,7 @@ GH_REPO="michaelballantyne/multiscope"
 
 inherit racket gh
 
-DESCRIPTION="the multiscope Racket package"
+DESCRIPTION="The multiscope Racket package"
 HOMEPAGE="https://github.com/michaelballantyne/multiscope"
 
 LICENSE="all-rights-reserved"

@@ -9,7 +9,7 @@ GH_COMMIT="deac3a4bf937e1217ec54c5439710712b227fc5a"
 
 inherit racket gh
 
-DESCRIPTION="the nanopass Racket package"
+DESCRIPTION="The nanopass Racket package"
 HOMEPAGE="https://github.com/nanopass/nanopass-framework-racket"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/unstable-pretty-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

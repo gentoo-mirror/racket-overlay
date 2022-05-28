@@ -9,7 +9,7 @@ GH_COMMIT="c76caf3721c09d68c5871a64481b15be72293259"
 
 inherit racket gh
 
-DESCRIPTION="the racket-to Racket package"
+DESCRIPTION="The racket-to Racket package"
 HOMEPAGE="https://github.com/thoughtstem/racket-to"
 
 LICENSE="all-rights-reserved"

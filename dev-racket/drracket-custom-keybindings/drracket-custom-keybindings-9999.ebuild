@@ -8,7 +8,7 @@ GH_REPO="aowens-21/drracket-custom-keybindings"
 
 inherit racket gh
 
-DESCRIPTION="the drracket-custom-keybindings Racket package"
+DESCRIPTION="The drracket-custom-keybindings Racket package"
 HOMEPAGE="https://github.com/aowens-21/drracket-custom-keybindings"
 
 LICENSE="all-rights-reserved"

@@ -8,7 +8,7 @@ GH_REPO="parnikkapore/rkt-boincrpc"
 
 inherit racket gh
 
-DESCRIPTION="the boincrpc Racket package"
+DESCRIPTION="The boincrpc Racket package"
 HOMEPAGE="https://github.com/parnikkapore/rkt-boincrpc"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/libquiche"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

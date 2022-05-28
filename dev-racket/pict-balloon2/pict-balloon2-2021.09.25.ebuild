@@ -9,7 +9,7 @@ GH_COMMIT="ebe574301cf52c9fc4495c6f502e91ab9e87975a"
 
 inherit racket gh
 
-DESCRIPTION="the pict-balloon2 Racket package"
+DESCRIPTION="The pict-balloon2 Racket package"
 HOMEPAGE="https://github.com/mflatt/pict-balloon2"
 
 LICENSE="all-rights-reserved"

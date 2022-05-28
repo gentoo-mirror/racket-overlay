@@ -8,7 +8,7 @@ GH_REPO="mbutterick/beautiful-racket"
 
 inherit racket gh
 
-DESCRIPTION="the beautiful-racket Racket package"
+DESCRIPTION="The beautiful-racket Racket package"
 HOMEPAGE="https://github.com/mbutterick/beautiful-racket"
 S="${S}/beautiful-racket"
 
@@ -19,4 +19,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/beautiful-racket-demo
 	dev-racket/beautiful-racket-lib
 	dev-racket/br-parser-tools-doc"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

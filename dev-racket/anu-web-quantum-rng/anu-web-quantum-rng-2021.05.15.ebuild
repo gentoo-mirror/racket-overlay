@@ -9,7 +9,7 @@ GH_COMMIT="e8de6a730ecdf8665dfa0e01540b199d51d2667a"
 
 inherit racket gh
 
-DESCRIPTION="the ANU-Web-Quantum-RNG Racket package"
+DESCRIPTION="The ANU-Web-Quantum-RNG Racket package"
 HOMEPAGE="https://bitbucket.org/Tetsumi/anu-web-quantum-rng"
 
 LICENSE="all-rights-reserved"

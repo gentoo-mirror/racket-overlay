@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/lathe-comforts-doc
 	dev-racket/lathe-comforts-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

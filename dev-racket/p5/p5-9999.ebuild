@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/urlang"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

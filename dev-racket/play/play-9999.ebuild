@@ -8,7 +8,7 @@ GH_REPO="pleiad/play"
 
 inherit racket gh
 
-DESCRIPTION="the play Racket package"
+DESCRIPTION="The play Racket package"
 HOMEPAGE="https://github.com/pleiad/play"
 
 LICENSE="all-rights-reserved"

@@ -8,7 +8,7 @@ AUX_PH=c4822fc200b0488922cd6e86b4f2ea7cf8c565da
 
 inherit racket
 
-DESCRIPTION="the functional-doc Racket package"
+DESCRIPTION="The functional-doc Racket package"
 HOMEPAGE="https://pkgs.racket-lang.org/package/functional-doc"
 SRC_URI="https://github.com/lexi-lambda/functional/archive/${MAIN_PH}.tar.gz -> ${P}.tar.gz
 	https://github.com/lexi-lambda/racket-collections/archive/${AUX_PH}.tar.gz -> ${PN}_aux_collections-doc-${PV}.tar.gz"
@@ -21,7 +21,7 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/collections-lib
 	dev-racket/functional-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"
 PDEPEND="dev-racket/collections-doc"
 
 src_compile() {

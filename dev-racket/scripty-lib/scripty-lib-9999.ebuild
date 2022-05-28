@@ -8,7 +8,7 @@ GH_REPO="lexi-lambda/scripty"
 
 inherit racket gh
 
-DESCRIPTION="the scripty-lib Racket package"
+DESCRIPTION="The scripty-lib Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/scripty"
 S="${S}/scripty-lib"
 

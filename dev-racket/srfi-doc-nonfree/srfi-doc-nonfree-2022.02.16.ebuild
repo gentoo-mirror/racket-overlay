@@ -9,7 +9,7 @@ GH_COMMIT="7243029b135741ce08ae30f877e2f49a2a460b22"
 
 inherit racket gh
 
-DESCRIPTION="the srfi-doc-nonfree Racket package"
+DESCRIPTION="The srfi-doc-nonfree Racket package"
 HOMEPAGE="https://github.com/racket/srfi"
 S="${S}/srfi-doc-nonfree"
 

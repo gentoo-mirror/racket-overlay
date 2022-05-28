@@ -21,4 +21,4 @@ RDEPEND="dev-racket/curly-fn-lib
 	dev-racket/from-template
 	dev-racket/raco-invoke
 	dev-racket/try-catch-finally-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

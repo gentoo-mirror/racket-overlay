@@ -9,7 +9,7 @@ GH_COMMIT="bd48368028d2b0e69ba96399d2771d163d40cf46"
 
 inherit racket gh
 
-DESCRIPTION="the bluetooth-socket Racket package"
+DESCRIPTION="The bluetooth-socket Racket package"
 HOMEPAGE="https://gitlab.com/RayRacine/bluetooth-socket"
 
 LICENSE="all-rights-reserved"

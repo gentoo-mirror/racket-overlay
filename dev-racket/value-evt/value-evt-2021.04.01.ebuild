@@ -9,7 +9,7 @@ GH_COMMIT="10c3b0cc46f7fface88d2609c6de29ed5cea5767"
 
 inherit racket gh
 
-DESCRIPTION="the value-evt Racket package"
+DESCRIPTION="The value-evt Racket package"
 HOMEPAGE="https://github.com/dstorrs/value-evt"
 
 LICENSE="all-rights-reserved"

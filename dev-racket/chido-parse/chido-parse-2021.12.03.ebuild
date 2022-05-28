@@ -20,4 +20,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/kw-make-struct
 	dev-racket/linea
 	dev-racket/quickcheck"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

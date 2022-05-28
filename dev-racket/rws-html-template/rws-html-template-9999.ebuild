@@ -18,7 +18,7 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/html-template
 	dev-racket/mcfly"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"
 
 src_unpack() {
 	wget -O "${T}/rws-html-template.zip" "http://www.neilvandyke.org/racket/rws-html-template.zip"

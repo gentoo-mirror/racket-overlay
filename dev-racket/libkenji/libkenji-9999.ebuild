@@ -8,7 +8,7 @@ GH_REPO="quantum1423/libkenji"
 
 inherit racket gh
 
-DESCRIPTION="the libkenji Racket package"
+DESCRIPTION="The libkenji Racket package"
 HOMEPAGE="https://github.com/quantum1423/libkenji"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/pfds"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

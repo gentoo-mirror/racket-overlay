@@ -9,7 +9,7 @@ GH_COMMIT="919a52ef1897db51eb2c0c1307d7149db40ccfd6"
 
 inherit racket gh
 
-DESCRIPTION="the delay-pure Racket package"
+DESCRIPTION="The delay-pure Racket package"
 HOMEPAGE="https://github.com/jsmaniac/delay-pure"
 
 LICENSE="all-rights-reserved"
@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/type-expander
 	dev-racket/version-case"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

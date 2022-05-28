@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/doc-coverage
 	dev-racket/morsel-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

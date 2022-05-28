@@ -9,7 +9,7 @@ GH_COMMIT="31fb17fb7c8aaa96c49dcd1ca9094d0dffa775c8"
 
 inherit racket gh
 
-DESCRIPTION="the typed-worklist Racket package"
+DESCRIPTION="The typed-worklist Racket package"
 HOMEPAGE="https://github.com/jsmaniac/typed-worklist"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/type-expander"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

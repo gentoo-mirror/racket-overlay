@@ -8,7 +8,7 @@ GH_REPO="the-language/zKanren2"
 
 inherit racket gh
 
-DESCRIPTION="-"
+DESCRIPTION="The zKanren Racket package"
 HOMEPAGE="https://github.com/the-language/zKanren2"
 
 LICENSE="all-rights-reserved"

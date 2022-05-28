@@ -9,7 +9,7 @@ GH_COMMIT="0550ef11664f106002e2cf75fa22e5eb636364f1"
 
 inherit racket gh
 
-DESCRIPTION="the fltest Racket package"
+DESCRIPTION="The fltest Racket package"
 HOMEPAGE="https://github.com/samth/fltest"
 
 LICENSE="all-rights-reserved"

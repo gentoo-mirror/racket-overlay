@@ -18,4 +18,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/gregor-lib
 	dev-racket/scribble-rainbow-delimiters
 	dev-racket/uuid"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

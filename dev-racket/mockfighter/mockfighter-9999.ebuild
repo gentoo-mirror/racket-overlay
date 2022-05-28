@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/stockfighter-racket"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

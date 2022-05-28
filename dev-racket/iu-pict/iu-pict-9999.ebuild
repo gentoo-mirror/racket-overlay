@@ -8,7 +8,7 @@ GH_REPO="david-christiansen/iu-pict"
 
 inherit racket gh
 
-DESCRIPTION="the iu-pict Racket package"
+DESCRIPTION="The iu-pict Racket package"
 HOMEPAGE="https://github.com/david-christiansen/iu-pict"
 
 LICENSE="all-rights-reserved"

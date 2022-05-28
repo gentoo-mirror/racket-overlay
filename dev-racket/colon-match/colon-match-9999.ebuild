@@ -8,7 +8,7 @@ GH_REPO="AlexKnauth/colon-match"
 
 inherit racket gh
 
-DESCRIPTION="the colon-match Racket package"
+DESCRIPTION="The colon-match Racket package"
 HOMEPAGE="https://github.com/AlexKnauth/colon-match"
 
 LICENSE="all-rights-reserved"

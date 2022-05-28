@@ -8,7 +8,7 @@ GH_REPO="xuchunyang/pinyin"
 
 inherit racket gh
 
-DESCRIPTION="the pinyin Racket package"
+DESCRIPTION="The pinyin Racket package"
 HOMEPAGE="https://github.com/xuchunyang/pinyin"
 
 LICENSE="all-rights-reserved"

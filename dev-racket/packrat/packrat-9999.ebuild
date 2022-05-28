@@ -8,7 +8,7 @@ GH_REPO="simonhaines/packrat"
 
 inherit racket gh
 
-DESCRIPTION="the Packrat Racket package"
+DESCRIPTION="The Packrat Racket package"
 HOMEPAGE="https://github.com/simonhaines/packrat"
 
 LICENSE="all-rights-reserved"

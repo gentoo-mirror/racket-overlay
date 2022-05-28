@@ -9,7 +9,7 @@ GH_COMMIT="e64f938862f47f0e8bab8d6f406a8fa6a203e435"
 
 inherit racket gh
 
-DESCRIPTION="the combinator-parser Racket package"
+DESCRIPTION="The combinator-parser Racket package"
 HOMEPAGE="https://github.com/takikawa/combinator-parser"
 
 LICENSE="all-rights-reserved"

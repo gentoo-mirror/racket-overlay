@@ -9,7 +9,7 @@ GH_COMMIT="c9b25df034fa32ed0dbd7028510ad23182db3626"
 
 inherit racket gh
 
-DESCRIPTION="the syndicate-classic Racket package"
+DESCRIPTION="The syndicate-classic Racket package"
 HOMEPAGE="https://github.com/tonyg/syndicate"
 S="${S}/racket"
 
@@ -27,4 +27,4 @@ RDEPEND="dev-racket/automata
 	dev-racket/struct-defaults
 	dev-racket/turnstile-example
 	dev-racket/turnstile-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

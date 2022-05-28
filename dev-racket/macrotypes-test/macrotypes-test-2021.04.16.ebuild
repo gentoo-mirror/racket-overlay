@@ -9,7 +9,7 @@ GH_COMMIT="220552416edf5646d796668176a473e4271205b2"
 
 inherit racket gh
 
-DESCRIPTION="the macrotypes-test Racket package"
+DESCRIPTION="The macrotypes-test Racket package"
 HOMEPAGE="https://github.com/stchang/macrotypes"
 S="${S}/macrotypes-test"
 
@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/macrotypes-example
 	dev-racket/rackunit-macrotypes-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

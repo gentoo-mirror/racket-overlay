@@ -9,7 +9,7 @@ GH_COMMIT="de08fadc1b1d73362c7b6d83f0dd9a4c9dc36743"
 
 inherit racket gh
 
-DESCRIPTION="the traces Racket package"
+DESCRIPTION="The traces Racket package"
 HOMEPAGE="https://github.com/philnguyen/traces"
 S="${S}/traces"
 

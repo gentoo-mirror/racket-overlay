@@ -20,4 +20,4 @@ RDEPEND="dev-racket/aws
 	dev-racket/markdown
 	dev-racket/polyglot-lib
 	dev-racket/unlike-assets-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

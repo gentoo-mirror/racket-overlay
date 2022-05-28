@@ -9,7 +9,7 @@ GH_COMMIT="92526d7ced3b4cf7b5323752f20d8f36752e69b6"
 
 inherit racket gh
 
-DESCRIPTION="the racket-rackunit-grade Racket package"
+DESCRIPTION="The racket-rackunit-grade Racket package"
 HOMEPAGE="https://github.com/ifigueroap/racket-rackunit-grade"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/doc-coverage"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

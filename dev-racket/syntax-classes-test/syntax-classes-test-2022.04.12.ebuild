@@ -9,7 +9,7 @@ GH_COMMIT="4d64d35259d69ee8d5c90f475fe777c66d54c8fd"
 
 inherit racket gh
 
-DESCRIPTION="the syntax-classes-test Racket package"
+DESCRIPTION="The syntax-classes-test Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/syntax-classes"
 S="${S}/syntax-classes-test"
 
@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/rackunit-spec
 	dev-racket/syntax-classes-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

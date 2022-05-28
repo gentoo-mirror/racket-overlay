@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/functional-lib
 	dev-racket/megaparsack-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

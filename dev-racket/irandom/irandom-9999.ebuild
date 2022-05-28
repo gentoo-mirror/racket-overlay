@@ -8,7 +8,7 @@ GH_REPO="hkrish/irandom"
 
 inherit racket gh
 
-DESCRIPTION="the irandom Racket package"
+DESCRIPTION="The irandom Racket package"
 HOMEPAGE="https://github.com/hkrish/irandom"
 
 LICENSE="all-rights-reserved"

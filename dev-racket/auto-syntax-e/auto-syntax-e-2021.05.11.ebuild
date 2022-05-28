@@ -9,7 +9,7 @@ GH_COMMIT="5488c6902ec6189f69f950ab4d5616e9d6718d34"
 
 inherit racket gh
 
-DESCRIPTION="the auto-syntax-e Racket package"
+DESCRIPTION="The auto-syntax-e Racket package"
 HOMEPAGE="https://github.com/jsmaniac/auto-syntax-e"
 
 LICENSE="all-rights-reserved"

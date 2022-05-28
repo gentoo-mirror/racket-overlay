@@ -9,7 +9,7 @@ GH_COMMIT="09a0e2fd24dfcd5942177d4a328821534ee60ded"
 
 inherit racket gh
 
-DESCRIPTION="the scripty-lib Racket package"
+DESCRIPTION="The scripty-lib Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/scripty"
 S="${S}/scripty-lib"
 

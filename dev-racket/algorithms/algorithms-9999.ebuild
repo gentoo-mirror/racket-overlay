@@ -8,7 +8,7 @@ GH_REPO="codereport/racket-algorithms"
 
 inherit racket gh
 
-DESCRIPTION="the algorithms Racket package"
+DESCRIPTION="The algorithms Racket package"
 HOMEPAGE="https://github.com/codereport/racket-algorithms"
 
 LICENSE="all-rights-reserved"

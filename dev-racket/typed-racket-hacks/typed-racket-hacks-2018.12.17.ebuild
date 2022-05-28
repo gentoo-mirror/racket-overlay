@@ -9,7 +9,7 @@ GH_COMMIT="6d462852a29abb4406d53db2587e9d463b90b2ae"
 
 inherit racket gh
 
-DESCRIPTION="the typed-racket-hacks Racket package"
+DESCRIPTION="The typed-racket-hacks Racket package"
 HOMEPAGE="https://github.com/philnguyen/typed-racket-hacks"
 S="${S}/typed-racket-hacks"
 
@@ -19,4 +19,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/set-extras"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

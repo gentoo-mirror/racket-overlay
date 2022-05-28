@@ -8,7 +8,7 @@ GH_REPO="johnstonskj/rml-decisiontrees"
 
 inherit racket gh
 
-DESCRIPTION="the rml-decisiontrees Racket package"
+DESCRIPTION="The rml-decisiontrees Racket package"
 HOMEPAGE="https://github.com/johnstonskj/rml-decisiontrees"
 
 LICENSE="all-rights-reserved"
@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/cover-coveralls
 	dev-racket/rml-core"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

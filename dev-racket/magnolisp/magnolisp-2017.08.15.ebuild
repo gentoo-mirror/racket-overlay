@@ -9,7 +9,7 @@ GH_COMMIT="191d529486e688e5dda2be677ad8fe3b654e0d4f"
 
 inherit racket gh
 
-DESCRIPTION="Magnolisp"
+DESCRIPTION="The magnolisp Racket package"
 HOMEPAGE="https://github.com/bldl/magnolisp"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/unstable-debug-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

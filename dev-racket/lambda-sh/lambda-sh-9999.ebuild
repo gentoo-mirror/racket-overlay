@@ -8,7 +8,7 @@ GH_REPO="wargrey/lambda-shell"
 
 inherit racket gh
 
-DESCRIPTION="the lambda-sh Racket package"
+DESCRIPTION="The lambda-sh Racket package"
 HOMEPAGE="https://github.com/wargrey/lambda-shell"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/digimon"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

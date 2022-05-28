@@ -8,7 +8,7 @@ GH_REPO="racketeer/rktermios"
 
 inherit racket gh
 
-DESCRIPTION="the rktermios Racket package"
+DESCRIPTION="The rktermios Racket package"
 HOMEPAGE="https://gitlab.com/racketeer/rktermios"
 
 LICENSE="all-rights-reserved"

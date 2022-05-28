@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/collections-doc
 	dev-racket/collections-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

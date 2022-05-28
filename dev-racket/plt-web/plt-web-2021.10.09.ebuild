@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/plt-web-doc
 	dev-racket/plt-web-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

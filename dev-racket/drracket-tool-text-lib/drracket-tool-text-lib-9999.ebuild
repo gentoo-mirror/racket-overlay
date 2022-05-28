@@ -8,7 +8,7 @@ GH_REPO="racket/drracket"
 
 inherit racket gh
 
-DESCRIPTION="the drracket-tool-text-lib Racket package"
+DESCRIPTION="The drracket-tool-text-lib Racket package"
 HOMEPAGE="https://github.com/racket/drracket"
 S="${S}/drracket-tool-text-lib"
 

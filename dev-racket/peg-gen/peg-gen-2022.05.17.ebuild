@@ -22,7 +22,7 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/algorithms
 	dev-racket/cover-lib
 	dev-racket/rackcheck"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"
 PDEPEND="dev-racket/typed-peg"
 
 src_compile() {

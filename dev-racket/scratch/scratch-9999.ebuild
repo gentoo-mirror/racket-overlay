@@ -8,7 +8,7 @@ GH_REPO="LeifAndersen/racket-scratch"
 
 inherit racket gh
 
-DESCRIPTION="the scratch Racket package"
+DESCRIPTION="The scratch Racket package"
 HOMEPAGE="https://github.com/LeifAndersen/racket-scratch"
 
 LICENSE="all-rights-reserved"
@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/reprovide-lang
 	dev-racket/with-cache"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

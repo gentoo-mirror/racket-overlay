@@ -8,7 +8,7 @@ GH_REPO="thoughtstem/java-processing"
 
 inherit racket gh
 
-DESCRIPTION="the java-processing Racket package"
+DESCRIPTION="The java-processing Racket package"
 HOMEPAGE="https://github.com/thoughtstem/java-processing"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/racket-to"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -20,4 +20,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/mischief
 	dev-racket/quickcheck
 	dev-racket/rosette"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

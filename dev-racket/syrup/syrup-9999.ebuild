@@ -8,7 +8,7 @@ GH_REPO="spritely/syrup"
 
 inherit racket gh
 
-DESCRIPTION="the syrup Racket package"
+DESCRIPTION="The syrup Racket package"
 HOMEPAGE="https://gitlab.com/spritely/syrup"
 S="${S}/impls/racket/syrup"
 

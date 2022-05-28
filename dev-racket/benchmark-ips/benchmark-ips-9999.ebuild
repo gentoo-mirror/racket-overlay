@@ -8,7 +8,7 @@ GH_REPO="zenspider/benchmark-ips-racket"
 
 inherit racket gh
 
-DESCRIPTION="the benchmark-ips Racket package"
+DESCRIPTION="The benchmark-ips Racket package"
 HOMEPAGE="https://github.com/zenspider/benchmark-ips-racket"
 
 LICENSE="all-rights-reserved"

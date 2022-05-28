@@ -9,7 +9,7 @@ GH_COMMIT="96cfe93ab611db377a4a68f4b0a7e483ebf506a6"
 
 inherit racket gh
 
-DESCRIPTION="the dotlambda Racket package"
+DESCRIPTION="The dotlambda Racket package"
 HOMEPAGE="https://github.com/jsmaniac/dotlambda"
 
 LICENSE="all-rights-reserved"
@@ -20,4 +20,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/chain-module-begin
 	dev-racket/debug-scopes
 	dev-racket/typed-map-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

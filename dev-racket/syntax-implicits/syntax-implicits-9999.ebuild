@@ -8,7 +8,7 @@ GH_REPO="willghatch/racket-syntax-implicits"
 
 inherit racket gh
 
-DESCRIPTION="the syntax-implicits Racket package"
+DESCRIPTION="The syntax-implicits Racket package"
 HOMEPAGE="https://github.com/willghatch/racket-syntax-implicits"
 
 LICENSE="all-rights-reserved"

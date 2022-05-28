@@ -9,7 +9,7 @@ GH_COMMIT="75df2e111928317ff61e9b82c2aaac664ddd0d6b"
 
 inherit racket gh
 
-DESCRIPTION="the values-plus Racket package"
+DESCRIPTION="The values-plus Racket package"
 HOMEPAGE="https://github.com/mflatt/values-plus"
 
 LICENSE="all-rights-reserved"

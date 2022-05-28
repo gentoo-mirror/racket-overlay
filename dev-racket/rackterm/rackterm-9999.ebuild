@@ -8,7 +8,7 @@ GH_REPO="willghatch/rackterm"
 
 inherit racket gh
 
-DESCRIPTION="the rackterm Racket package"
+DESCRIPTION="The rackterm Racket package"
 HOMEPAGE="https://github.com/willghatch/rackterm"
 
 LICENSE="all-rights-reserved"

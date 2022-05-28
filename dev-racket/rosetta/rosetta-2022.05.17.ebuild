@@ -9,7 +9,7 @@ GH_COMMIT="e3435944472cee0e8af5bcbf36edb19b5ab0cb83"
 
 inherit racket gh
 
-DESCRIPTION="the rosetta Racket package"
+DESCRIPTION="The rosetta Racket package"
 HOMEPAGE="https://github.com/aptmcl/rosetta"
 
 LICENSE="all-rights-reserved"

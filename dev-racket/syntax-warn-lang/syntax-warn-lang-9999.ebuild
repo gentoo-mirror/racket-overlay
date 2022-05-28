@@ -17,4 +17,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/syntax-warn-base"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

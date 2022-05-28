@@ -8,7 +8,7 @@ GH_REPO="lexi-lambda/syntax-classes"
 
 inherit racket gh
 
-DESCRIPTION="the syntax-classes-lib Racket package"
+DESCRIPTION="The syntax-classes-lib Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/syntax-classes"
 S="${S}/syntax-classes-lib"
 

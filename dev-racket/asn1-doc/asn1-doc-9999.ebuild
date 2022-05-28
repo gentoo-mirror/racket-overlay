@@ -17,4 +17,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/asn1-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

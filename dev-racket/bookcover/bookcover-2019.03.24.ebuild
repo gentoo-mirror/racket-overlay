@@ -9,7 +9,7 @@ GH_COMMIT="824cdc44d35cc2c418074e4eaf12bbb0e516342f"
 
 inherit racket gh
 
-DESCRIPTION="the bookcover Racket package"
+DESCRIPTION="The bookcover Racket package"
 HOMEPAGE="https://github.com/otherjoel/bookcover"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/beautiful-racket-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

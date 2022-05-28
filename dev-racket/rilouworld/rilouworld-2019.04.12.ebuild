@@ -21,4 +21,4 @@ RDEPEND="dev-racket/anaphoric
 	dev-racket/lux
 	dev-racket/mode-lambda
 	dev-racket/reprovide-lang"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

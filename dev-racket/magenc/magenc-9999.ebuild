@@ -19,4 +19,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/crypto-lib
 	dev-racket/csexp
 	dev-racket/sql"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

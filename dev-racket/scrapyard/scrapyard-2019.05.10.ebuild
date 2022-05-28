@@ -20,4 +20,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/html-parsing
 	dev-racket/sxml
 	dev-racket/txexpr"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

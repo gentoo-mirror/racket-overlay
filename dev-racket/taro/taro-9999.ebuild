@@ -8,7 +8,7 @@ GH_REPO="orreksu/taro"
 
 inherit racket gh
 
-DESCRIPTION="Taro lang"
+DESCRIPTION="The taro Racket package"
 HOMEPAGE="https://github.com/orreksu/taro"
 
 LICENSE="all-rights-reserved"

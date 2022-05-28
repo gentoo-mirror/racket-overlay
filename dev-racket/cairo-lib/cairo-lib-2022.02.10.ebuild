@@ -9,7 +9,7 @@ GH_COMMIT="c31a089e749b4854ab4f63e427881f79bca615d2"
 
 inherit racket gh
 
-DESCRIPTION="the cairo-lib Racket package"
+DESCRIPTION="The cairo-lib Racket package"
 HOMEPAGE="https://github.com/soegaard/cairo"
 S="${S}/cairo-lib"
 

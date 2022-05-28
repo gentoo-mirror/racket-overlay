@@ -9,7 +9,7 @@ GH_COMMIT="f6ff1afe75ae97994b351a9dc189c0e31d06fdf6"
 
 inherit racket gh
 
-DESCRIPTION="the simple-obfuscation Racket package"
+DESCRIPTION="The simple-obfuscation Racket package"
 HOMEPAGE="https://github.com/rfindler/simple-obfuscation"
 
 LICENSE="all-rights-reserved"

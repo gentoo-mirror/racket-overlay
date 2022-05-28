@@ -26,4 +26,4 @@ RDEPEND="dev-racket/beautiful-racket-lib
 	dev-racket/sugar
 	dev-racket/txexpr
 	dev-racket/words"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

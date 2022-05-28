@@ -8,7 +8,7 @@ GH_REPO="lexi-lambda/megaparsack"
 
 inherit racket gh
 
-DESCRIPTION="the megaparsack-doc Racket package"
+DESCRIPTION="The megaparsack-doc Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/megaparsack"
 S="${S}/megaparsack-doc"
 
@@ -20,4 +20,4 @@ RDEPEND="dev-racket/functional-doc
 	dev-racket/functional-lib
 	dev-racket/megaparsack-lib
 	dev-racket/megaparsack-parser-tools"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

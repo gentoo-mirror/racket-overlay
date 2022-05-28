@@ -24,4 +24,4 @@ RDEPEND="dev-racket/doc-coverage
 	dev-racket/lens-unstable
 	dev-racket/reprovide-lang-lib
 	dev-racket/sweet-exp-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

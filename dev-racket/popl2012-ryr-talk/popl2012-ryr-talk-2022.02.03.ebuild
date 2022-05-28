@@ -9,7 +9,7 @@ GH_COMMIT="9da05129de004cc1df0ccfbd821e8542a9155021"
 
 inherit racket gh
 
-DESCRIPTION="the popl-2012-ryr-talk Racket package"
+DESCRIPTION="The popl-2012-ryr-talk Racket package"
 HOMEPAGE="https://github.com/rfindler/popl-2012-ryr-talk"
 
 LICENSE="all-rights-reserved"

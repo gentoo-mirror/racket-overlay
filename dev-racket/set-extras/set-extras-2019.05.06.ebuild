@@ -9,7 +9,7 @@ GH_COMMIT="7feeb7a3a6b05c2e9ce39a0ff31eae25e150119d"
 
 inherit racket gh
 
-DESCRIPTION="the set-extras Racket package"
+DESCRIPTION="The set-extras Racket package"
 HOMEPAGE="https://github.com/philnguyen/set-extras"
 S="${S}/set-extras"
 

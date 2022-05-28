@@ -8,7 +8,7 @@ GH_REPO="dstorrs/racket-test-more"
 
 inherit racket gh
 
-DESCRIPTION="the test-more Racket package"
+DESCRIPTION="The test-more Racket package"
 HOMEPAGE="https://github.com/dstorrs/racket-test-more"
 
 LICENSE="all-rights-reserved"

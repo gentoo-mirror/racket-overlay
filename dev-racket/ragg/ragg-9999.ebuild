@@ -8,7 +8,7 @@ GH_REPO="jbclements/ragg"
 
 inherit racket gh
 
-DESCRIPTION="the ragg Racket package"
+DESCRIPTION="The ragg Racket package"
 HOMEPAGE="https://github.com/jbclements/ragg"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/python-tokenizer"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

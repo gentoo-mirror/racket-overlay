@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/raco-cross-doc
 	dev-racket/raco-cross-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

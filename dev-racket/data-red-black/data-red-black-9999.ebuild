@@ -8,7 +8,7 @@ GH_REPO="dyoo/data-red-black"
 
 inherit racket gh
 
-DESCRIPTION="the data-red-black Racket package"
+DESCRIPTION="The data-red-black Racket package"
 HOMEPAGE="https://github.com/dyoo/data-red-black"
 
 LICENSE="all-rights-reserved"

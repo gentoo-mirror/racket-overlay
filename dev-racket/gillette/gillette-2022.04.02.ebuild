@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/gillette-doc
 	dev-racket/gillette-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

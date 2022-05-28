@@ -8,7 +8,7 @@ GH_REPO="Bogdanp/racket-libsqlite3"
 
 inherit racket gh
 
-DESCRIPTION="the libsqlite3 Racket package"
+DESCRIPTION="The libsqlite3 Racket package"
 HOMEPAGE="https://github.com/Bogdanp/racket-libsqlite3"
 S="${S}/libsqlite3"
 

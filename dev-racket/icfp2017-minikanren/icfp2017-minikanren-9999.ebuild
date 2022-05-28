@@ -8,7 +8,7 @@ GH_REPO="AlexKnauth/icfp2017-artifact-auas7pp"
 
 inherit racket gh
 
-DESCRIPTION="the icfp2017-minikanren Racket package"
+DESCRIPTION="The icfp2017-minikanren Racket package"
 HOMEPAGE="https://github.com/AlexKnauth/icfp2017-artifact-auas7pp"
 S="${S}/src"
 

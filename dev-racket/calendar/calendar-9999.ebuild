@@ -8,7 +8,7 @@ GH_REPO="LeifAndersen/racket-calendar"
 
 inherit racket gh
 
-DESCRIPTION="the calendar Racket package"
+DESCRIPTION="The calendar Racket package"
 HOMEPAGE="https://github.com/LeifAndersen/racket-calendar"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/gregor-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

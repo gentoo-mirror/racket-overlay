@@ -8,7 +8,7 @@ GH_REPO="spdegabrielle/table-panel"
 
 inherit racket gh
 
-DESCRIPTION="the table-panel Racket package"
+DESCRIPTION="The table-panel Racket package"
 HOMEPAGE="https://github.com/spdegabrielle/table-panel"
 
 LICENSE="all-rights-reserved"

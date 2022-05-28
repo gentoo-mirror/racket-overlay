@@ -9,7 +9,7 @@ GH_COMMIT="843d3e224fd874b9c463b74cb5ef13d8a0b5766a"
 
 inherit racket gh
 
-DESCRIPTION="the disposable Racket package"
+DESCRIPTION="The disposable Racket package"
 HOMEPAGE="https://github.com/jackfirth/racket-disposable"
 S="${S}/disposable"
 
@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/arguments
 	dev-racket/reprovide-lang"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

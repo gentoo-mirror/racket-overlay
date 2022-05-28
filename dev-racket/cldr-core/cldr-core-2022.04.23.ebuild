@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/memoize-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

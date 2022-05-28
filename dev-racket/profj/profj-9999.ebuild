@@ -8,7 +8,7 @@ GH_REPO="mflatt/profj"
 
 inherit racket gh
 
-DESCRIPTION="ProfessorJ"
+DESCRIPTION="The profj Racket package"
 HOMEPAGE="https://github.com/mflatt/profj"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/combinator-parser"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

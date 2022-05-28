@@ -9,7 +9,7 @@ GH_COMMIT="b8a4e9998428f4f0b1d083d74d9730e8369f0110"
 
 inherit racket gh
 
-DESCRIPTION="the x64asm-doc Racket package"
+DESCRIPTION="The x64asm-doc Racket package"
 HOMEPAGE="https://github.com/yjqww6/racket-x64asm"
 S="${S}/x64asm-doc"
 
@@ -19,4 +19,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/x64asm-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

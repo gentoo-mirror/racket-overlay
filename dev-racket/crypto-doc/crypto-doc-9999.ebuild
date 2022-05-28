@@ -17,5 +17,6 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/crypto-lib
+	dev-racket/scramble
 	dev-racket/scramble-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

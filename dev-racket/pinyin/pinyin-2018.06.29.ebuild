@@ -9,7 +9,7 @@ GH_COMMIT="568e626f8be36c311f40d3f6771cf4f4d1cee677"
 
 inherit racket gh
 
-DESCRIPTION="the pinyin Racket package"
+DESCRIPTION="The pinyin Racket package"
 HOMEPAGE="https://github.com/xuchunyang/pinyin"
 
 LICENSE="all-rights-reserved"

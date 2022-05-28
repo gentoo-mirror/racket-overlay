@@ -8,7 +8,7 @@ GH_REPO="zyrolasting/syntax-highlighting"
 
 inherit racket gh
 
-DESCRIPTION="the syntax-highlighting Racket package"
+DESCRIPTION="The syntax-highlighting Racket package"
 HOMEPAGE="https://github.com/zyrolasting/syntax-highlighting"
 
 LICENSE="all-rights-reserved"

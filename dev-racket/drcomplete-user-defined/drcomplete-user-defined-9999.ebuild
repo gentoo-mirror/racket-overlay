@@ -17,4 +17,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/drcomplete-base"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

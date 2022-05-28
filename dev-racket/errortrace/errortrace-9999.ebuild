@@ -8,7 +8,7 @@ GH_REPO="racket/errortrace"
 
 inherit racket gh
 
-DESCRIPTION="the errortrace Racket package"
+DESCRIPTION="The errortrace Racket package"
 HOMEPAGE="https://github.com/racket/errortrace"
 S="${S}/errortrace"
 

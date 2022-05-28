@@ -17,4 +17,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/operational-transformation-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

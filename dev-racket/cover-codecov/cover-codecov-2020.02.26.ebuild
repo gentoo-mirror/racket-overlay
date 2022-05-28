@@ -9,7 +9,7 @@ GH_COMMIT="b1a9de60da3c33894ddd6fcc3e26e8e6b614f708"
 
 inherit racket gh
 
-DESCRIPTION="the cover-codecov Racket package"
+DESCRIPTION="The cover-codecov Racket package"
 HOMEPAGE="https://github.com/florence/cover-codecov"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/cover-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

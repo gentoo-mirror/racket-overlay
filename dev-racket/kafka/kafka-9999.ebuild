@@ -19,4 +19,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/kafka-lib
 	dev-racket/sasl-doc
 	dev-racket/sasl-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

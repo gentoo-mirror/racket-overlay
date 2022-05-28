@@ -20,4 +20,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/pict-abbrevs
 	dev-racket/ppict
 	dev-racket/rackunit-abbrevs"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

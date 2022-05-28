@@ -8,7 +8,7 @@ GH_REPO="jsmaniac/multi-id"
 
 inherit racket gh
 
-DESCRIPTION="the multi-id Racket package"
+DESCRIPTION="The multi-id Racket package"
 HOMEPAGE="https://github.com/jsmaniac/multi-id"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/hyper-literate
 	dev-racket/scribble-enhanced
 	dev-racket/type-expander"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/x11"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -9,7 +9,7 @@ GH_COMMIT="d40156bce42088aea1a742d6cce4c8697318db70"
 
 inherit racket gh
 
-DESCRIPTION="the commonmark-lib Racket package"
+DESCRIPTION="The commonmark-lib Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/racket-commonmark"
 S="${S}/commonmark-lib"
 
@@ -19,4 +19,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/threading-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/scribble-math >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/scribble-math
 DESCRIPTION=Interface to GNU GSL Numerical Integration.
 EAPI=8
 HOMEPAGE=https://github.com/petterpripp/gsl-integration
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/petterpripp/gsl-integration/archive/09a045e3bb451c82a52b3a155a07d112fcb6b688.tar.gz -> gsl-integration-2021.08.31.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=7813a80e529849ca47a01a7a2f058438
+_md5_=db60bdd6b76378bd3e1d7dc13aee84a9

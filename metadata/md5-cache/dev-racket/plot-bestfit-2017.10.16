@@ -1,6 +1,6 @@
 BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DESCRIPTION=the plot-bestfit Racket package
+DESCRIPTION=The plot-bestfit Racket package
 EAPI=8
 HOMEPAGE=https://github.com/florence/plot-bestfit
 INHERIT=racket gh
@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/florence/plot-bestfit/archive/dd6ffbef2626d7cc7e6802389ce53d57d36bb21d.tar.gz -> plot-bestfit-2017.10.16.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=9b7fb5880956232ced5d71f60a53a564
+_md5_=8b009dd2c3dfb0c42bf6ec951f7fd95e

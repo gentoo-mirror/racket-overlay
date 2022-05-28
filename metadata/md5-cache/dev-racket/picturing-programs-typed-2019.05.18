@@ -1,7 +1,6 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/2htdp-typed dev-racket/unstable-contract-lib dev-racket/unstable-list-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/2htdp-typed dev-racket/unstable-contract-lib dev-racket/unstable-list-lib
-DESCRIPTION=the picturing-programs-typed Racket package
+DESCRIPTION=The picturing-programs-typed Racket package
 EAPI=8
 HOMEPAGE=https://github.com/maueroats/picturing-programs-typed
 INHERIT=racket gh
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/maueroats/picturing-programs-typed/archive/82dd9c1938c0fa9fdb5ea95849f7ca6f3a082edd.tar.gz -> picturing-programs-typed-2019.05.18.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=6e43dd2488f19fda02cfc68dc0c1d820
+_md5_=26025a73e5cfbce1ba35399a1f829683

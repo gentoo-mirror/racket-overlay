@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/beautiful-racket-lib dev-racket/brag dev-racket/ejs dev-racket/http dev-racket/json-pointer dev-racket/sugar dev-racket/uri-template >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/beautiful-racket-lib dev-racket/brag dev-racket/ejs dev-racket/http dev-racket/json-pointer dev-racket/sugar dev-racket/uri-template
 DESCRIPTION=Validate JSON data using JSON Schema.
 EAPI=8
 HOMEPAGE=https://github.com/jessealama/argo
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jessealama/argo/archive/ee49d60a8d73b32e8323a1324503f1d9c1022e5f.tar.gz -> argo-2021.05.04.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=c2afa6d2742a0d37264d050f8cdbbbf0
+_md5_=edb8a06f83615f8485738abf9bb3f7d5

@@ -1,6 +1,6 @@
 BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DESCRIPTION=the racket-lambda-runtime Racket package
+DESCRIPTION=The racket-lambda-runtime Racket package
 EAPI=8
 HOMEPAGE=https://github.com/johnnyodonnell/racket-lambda-runtime
 INHERIT=racket gh
@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/johnnyodonnell/racket-lambda-runtime/archive/7edded99cf5165140fa650af0025d0843bf520c2.tar.gz -> racket-lambda-runtime-2022.05.17.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=6509fef8c7f11cfa225a329ec79a3a6a
+_md5_=04ed396d6a4f51e58413365ae619b304

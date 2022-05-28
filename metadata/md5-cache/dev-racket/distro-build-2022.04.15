@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/distro-build-doc dev-racket/distro-build-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/distro-build-doc dev-racket/distro-build-lib
 DESCRIPTION=Tools for constructing a distribution of Racket
 EAPI=8
 HOMEPAGE=https://github.com/racket/distro-build
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/racket/distro-build/archive/49c1c92d3833977a80b2fb39201429e7523ed665.tar.gz -> distro-build-2022.04.15.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=2233e2269d34d102ca8c4ce4297ec79f
+_md5_=b1f2ecfc792f7988204f5d35307f303a

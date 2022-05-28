@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/argo dev-racket/beautiful-racket-lib dev-racket/br-parser-tools-lib dev-racket/brag-lib dev-racket/dotenv dev-racket/http dev-racket/json-pointer dev-racket/misc1 >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/argo dev-racket/beautiful-racket-lib dev-racket/br-parser-tools-lib dev-racket/brag-lib dev-racket/dotenv dev-racket/http dev-racket/json-pointer dev-racket/misc1
 DESCRIPTION=Language for testing JSON-based HTTP APIs
 EAPI=8
 HOMEPAGE=https://github.com/vicampo/riposte
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/vicampo/riposte/archive/73ae0b0086d3e8a8d38df095533d9f0a8ea6b31b.tar.gz -> riposte-2021.10.13.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=ec23af6a54e2cc1acbfc83f5264d6fbc
+_md5_=2e8a553cc7916d91c339566cbe3e0cf0

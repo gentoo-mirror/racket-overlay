@@ -1,7 +1,6 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/ee-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/ee-lib
-DESCRIPTION=the minikanren-ee Racket package
+DESCRIPTION=The minikanren-ee Racket package
 EAPI=8
 HOMEPAGE=https://github.com/michaelballantyne/minikanren-ee
 INHERIT=racket gh
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/michaelballantyne/minikanren-ee/archive/f8e8e45fb1db72eefc91af327e93be02a7cd1324.tar.gz -> minikanren-ee-2022.04.29.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=127a45ea442d5b717cc7c3e2126767a1
+_md5_=f62aafd481102bd6db1c589a935a36a0

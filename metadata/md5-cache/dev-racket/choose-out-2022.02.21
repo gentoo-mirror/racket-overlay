@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/scribble-abbrevs >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/scribble-abbrevs
 DESCRIPTION=Conditional provide (choose during expansion of importing module)
 EAPI=8
 HOMEPAGE=https://gitlab.com/bengreenman/choose-out
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/bengreenman/choose-out/-/archive/55d3e0349408733337381a307ada0e89b88ae699.tar.gz -> choose-out-2022.02.21.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=48c7ccef444cfe98e8787dda460cc37e
+_md5_=6dfe96d736ae0cbe8a1e00b4eea316a2

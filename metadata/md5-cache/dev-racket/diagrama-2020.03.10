@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/diagrama-doc dev-racket/diagrama-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/diagrama-doc dev-racket/diagrama-lib
 DESCRIPTION=A diagram drawing library, implementation
 EAPI=8
 HOMEPAGE=https://github.com/florence/diagrama
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/florence/diagrama/archive/291f244843d7226df4b7cb763bc3d6b1e98af71b.tar.gz -> diagrama-2020.03.10.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=429c7b3dea31573ecc03fb4322c11fdc
+_md5_=03c26d4939a0aa527dec937348d8c151

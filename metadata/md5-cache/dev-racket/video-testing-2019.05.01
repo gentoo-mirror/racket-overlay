@@ -1,7 +1,6 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/bitsyntax dev-racket/graph dev-racket/opengl dev-racket/portaudio dev-racket/ppict dev-racket/reprovide-lang >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/bitsyntax dev-racket/graph dev-racket/opengl dev-racket/portaudio dev-racket/ppict dev-racket/reprovide-lang
-DESCRIPTION=the video-testing Racket package
+DESCRIPTION=The video-testing Racket package
 EAPI=8
 HOMEPAGE=https://github.com/videolang/video
 INHERIT=racket gh
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/videolang/video/archive/aa958b5ab250c8a202b24444935255d773608ea6.tar.gz -> video-testing-2019.05.01.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=0b4aa5c6fbe6454fbbd0bf541f1e7326
+_md5_=51e9af8341f9ae3716a4d887c0b8e6f6

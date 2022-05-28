@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/dbg dev-racket/racket-cord dev-racket/threading-doc dev-racket/threading-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Community-Driven Interactive Code Evaluation
+EAPI=8
+HOMEPAGE=https://git.sr.ht/~williewillus/r16
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/dbg dev-racket/racket-cord dev-racket/threading-doc dev-racket/threading-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://git.sr.ht/~williewillus/r16/archive/f07f1c990d7a148e6bb5f4b6f36d2b7ba563e56e.tar.gz -> r16-2022.05.20.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
+_md5_=308fbd128d16e7b11eb08a6d111bc310

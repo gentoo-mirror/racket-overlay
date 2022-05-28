@@ -1,7 +1,6 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/http11 dev-racket/string-util dev-racket/uri >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/http11 dev-racket/string-util dev-racket/uri
-DESCRIPTION=the http11-server Racket package
+DESCRIPTION=The http11-server Racket package
 EAPI=8
 HOMEPAGE=https://gitlab.com/RayRacine/http11-server
 INHERIT=racket gh
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/RayRacine/http11-server/-/archive/f45e745600995225fb492adc86bc31597b6b9b3d.tar.gz -> http11-server-2022.03.03.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=254f132bbac764f274e001b292259bff
+_md5_=4bf4e7b578cbd92ba2a70fb574f4067c

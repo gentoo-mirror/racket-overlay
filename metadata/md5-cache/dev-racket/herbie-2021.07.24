@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/fpbench dev-racket/regraph dev-racket/rival >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/fpbench dev-racket/regraph dev-racket/rival
 DESCRIPTION=A tool for automatically improving the accuracy of floating point expressions
 EAPI=8
 HOMEPAGE=https://github.com/uwplse/herbie
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/uwplse/herbie/archive/8e29e90fccb360a9e19019cc534a635a30afcc66.tar.gz -> herbie-2021.07.24.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=4a30b35fa436526fe05ff5ab652f5555
+_md5_=655a9a31f74664d1d213dfbcda28b2eb

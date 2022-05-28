@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/cover-coveralls dev-racket/http >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/cover-coveralls dev-racket/http
 DESCRIPTION=Support for the Apache Thrift messaging framework
 EAPI=8
 HOMEPAGE=https://github.com/johnstonskj/racket-thrift
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/johnstonskj/racket-thrift/archive/bbed34e6af97167ec5e9327c7c6ad739e331e793.tar.gz -> thrift-2018.12.05.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=5d266e1094e3f558c5447efbe004e5a2
+_md5_=b0ba653cd5a269f9d9951a166a717618

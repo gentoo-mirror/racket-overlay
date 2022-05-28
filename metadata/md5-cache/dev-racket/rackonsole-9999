@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/charterm dev-racket/gdbdump dev-racket/mcfly dev-racket/overeasy >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/charterm dev-racket/gdbdump dev-racket/mcfly dev-racket/overeasy
 DESCRIPTION=Lightweight Operator Console for Racket Server Processes
 EAPI=8
 HOMEPAGE=https://pkgs.racket-lang.org/package/rackonsole
@@ -13,4 +12,4 @@ RDEPEND=dev-racket/charterm dev-racket/gdbdump dev-racket/mcfly dev-racket/overe
 RESTRICT=mirror
 SLOT=0
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6
-_md5_=b5bf429da6e9938b1f1ee859aca81442
+_md5_=7fc4dd8dad94e6b40996f9b6d27f681d

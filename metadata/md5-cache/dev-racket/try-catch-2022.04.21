@@ -1,7 +1,6 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/syntax-classes-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/syntax-classes-lib
-DESCRIPTION=the try-catch Racket package
+DESCRIPTION=The try-catch Racket package
 EAPI=8
 HOMEPAGE=https://github.com/dstorrs/try-catch
 INHERIT=racket gh
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/dstorrs/try-catch/archive/878adb4d3e7ae9af320f0331a67ddedea9b4746e.tar.gz -> try-catch-2022.04.21.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=7e5a0f23cd383318ac36ea67180d7875
+_md5_=2fe093c3d844ba8a45627de9e9509567

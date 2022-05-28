@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=dev-racket/dallas-doc dev-racket/dallas-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/dallas-doc dev-racket/dallas-lib
 DESCRIPTION=Experimental RDBMS based on the Darwen & Date's D language
 EAPI=8
 HOMEPAGE=https://github.com/jessealama/dallas
@@ -12,4 +11,4 @@ RDEPEND=dev-racket/dallas-doc dev-racket/dallas-lib >=dev-scheme/racket-8.1:=[-m
 RESTRICT=mirror
 SLOT=0
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	git-r3	b9ac6f96d2a88edb5b351df634dc5e53	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=5c0a6056b5b0fc32c3cd73ce2b9c0c53
+_md5_=4e21ba118d2cdb5b3c1b2994c5057af2

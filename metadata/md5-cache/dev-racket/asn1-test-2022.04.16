@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/asn1-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/asn1-lib
 DESCRIPTION=ASN.1 library
 EAPI=8
 HOMEPAGE=https://github.com/rmculpepper/asn1
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/rmculpepper/asn1/archive/3cd32b61a68b40ec03bed98cd0c4d4d4f72cacf2.tar.gz -> asn1-test-2022.04.16.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=8cf3d205fcae80999183115f218806c3
+_md5_=ed0d893fc4adf9ac5177427a17a01911

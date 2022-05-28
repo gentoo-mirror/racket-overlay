@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/cover dev-racket/doc-coverage dev-racket/fancy-app dev-racket/lens dev-racket/sweet-exp >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/cover dev-racket/doc-coverage dev-racket/fancy-app dev-racket/lens dev-racket/sweet-exp
 DESCRIPTION=Library for easing things between start and stop values fluidly
 EAPI=8
 HOMEPAGE=https://github.com/jackfirth/racket-ease
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/racket-ease/archive/3a7149ded68be348611e346742feac85fca6d74f.tar.gz -> jack-ease-2017.08.15.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=2a6d73363ca7a3ffb633b74a374e218f
+_md5_=abeba675ec0561fa4dcd1b015bff4d8a

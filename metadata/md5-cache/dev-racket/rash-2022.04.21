@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/basedir dev-racket/linea dev-racket/shell-pipeline dev-racket/udelim >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/basedir dev-racket/linea dev-racket/shell-pipeline dev-racket/udelim
 DESCRIPTION=The Reckless Racket Shell. For interactions and scripting.
 EAPI=8
 HOMEPAGE=https://github.com/willghatch/racket-rash
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/willghatch/racket-rash/archive/116529759e06c850b5078a369637c2fcbda5cd92.tar.gz -> rash-2022.04.21.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=29c9f30184430406920698c3fb765326
+_md5_=5b7b185e990f4c132dd56c6f5442f007

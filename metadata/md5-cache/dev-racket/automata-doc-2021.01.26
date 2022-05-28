@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/automata-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/automata-lib
 DESCRIPTION=a library for defining efficient automata using match patterns
 EAPI=8
 HOMEPAGE=https://github.com/jeapostrophe/automata
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jeapostrophe/automata/archive/6abe851b83b18fcdcb8f2b19ab87cdabc90c71ce.tar.gz -> automata-doc-2021.01.26.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=5f0fb760494dfecd70b614e4dc580871
+_md5_=676071292bd5de393154a99af7e969ee

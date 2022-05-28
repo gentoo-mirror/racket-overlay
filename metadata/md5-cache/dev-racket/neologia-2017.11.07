@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/beautiful-racket dev-racket/beautiful-racket-lib dev-racket/br-parser-tools-lib dev-racket/brag >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/beautiful-racket dev-racket/beautiful-racket-lib dev-racket/br-parser-tools-lib dev-racket/brag
 DESCRIPTION=A language for creating and managing dictionaries and lexicons
 EAPI=8
 HOMEPAGE=https://github.com/robertkleffner/neologia
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/robertkleffner/neologia/archive/92d6ccde9041dc07b5c0db1849b4e1c65cb3cf2d.tar.gz -> neologia-2017.11.07.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=7c2cd1a0c7d7aac3db56c1a9377dd5fc
+_md5_=f6913c4debe1369ec65a65705bf06c86

@@ -1,7 +1,6 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/beautiful-racket dev-racket/beautiful-racket-lib dev-racket/beautiful-racket-macro dev-racket/br-parser-tools-lib dev-racket/brag >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/beautiful-racket dev-racket/beautiful-racket-lib dev-racket/beautiful-racket-macro dev-racket/br-parser-tools-lib dev-racket/brag
-DESCRIPTION=the glossolalia Racket package
+DESCRIPTION=The glossolalia Racket package
 EAPI=8
 HOMEPAGE=https://github.com/robertkleffner/glossolalia
 INHERIT=racket gh
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/robertkleffner/glossolalia/archive/528eefa533d4f06b29b73c35a8ad294aafd35db2.tar.gz -> glossolalia-2022.05.18.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=614fd5a4b7d5b9615cf803101b7b6411
+_md5_=7b8073925337a17461583127b6e398a6

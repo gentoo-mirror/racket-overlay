@@ -1,6 +1,6 @@
 BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DESCRIPTION=the slideshow-repl Racket package
+DESCRIPTION=The slideshow-repl Racket package
 EAPI=8
 HOMEPAGE=https://github.com/mflatt/slideshow-repl
 INHERIT=racket gh
@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mflatt/slideshow-repl/archive/e8d3f8fb08322cd1aa9553c1c0079d7bebb3e823.tar.gz -> slideshow-repl-2019.08.22.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=a84e30d49c522298c864feb4c64b21a3
+_md5_=3aab109af9a751d4df6dd53d0d934bc1

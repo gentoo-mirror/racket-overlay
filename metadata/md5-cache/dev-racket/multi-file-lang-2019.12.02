@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/lang-file >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/lang-file
 DESCRIPTION=a #lang language for multiple files in one
 EAPI=8
 HOMEPAGE=https://github.com/AlexKnauth/multi-file-lang
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/multi-file-lang/archive/0975cc27e0003050597da7d9f1fc5e9eac341fc7.tar.gz -> multi-file-lang-2019.12.02.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=43b6fb7ba018a6bf8870ab4d56a471d5
+_md5_=72f8602554f4ef179209f7a29a12e47e

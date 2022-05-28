@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/data-frame dev-racket/graphite-lib dev-racket/sawzall-doc dev-racket/sawzall-lib dev-racket/threading-doc dev-racket/threading-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/data-frame dev-racket/graphite-lib dev-racket/sawzall-doc dev-racket/sawzall-lib dev-racket/threading-doc dev-racket/threading-lib
 DESCRIPTION=A guided tour for Graphite
 EAPI=8
 HOMEPAGE=https://pkgs.racket-lang.org/package/graphite-tutorial
@@ -14,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/ralsei/graphite/archive/58a7bc54345e9b0bc5ac080401757f76d3999b0c.tar.gz -> graphite-tutorial-2021.08.19.tar.gz https://github.com/ralsei/graphite/archive/58a7bc54345e9b0bc5ac080401757f76d3999b0c.tar.gz -> graphite-tutorial_aux_graphite-doc-2021.08.19.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6
-_md5_=aeba56495714cc626b36e87d597b5a7c
+_md5_=c15d58360491a56fc9fab22b54a9a78e

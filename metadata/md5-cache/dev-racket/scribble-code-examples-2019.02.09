@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/scribble-code-examples-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/scribble-code-examples-lib
 DESCRIPTION=A scribble examples form that works with non-s-exp languages
 EAPI=8
 HOMEPAGE=https://github.com/AlexKnauth/scribble-code-examples
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/scribble-code-examples/archive/18166292d8d491881cf5ac98352c23bd5ebec312.tar.gz -> scribble-code-examples-2019.02.09.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=7adbe9d5dbef7dc061331e03730d01ba
+_md5_=366b9823ded123c939b956aea1315aec

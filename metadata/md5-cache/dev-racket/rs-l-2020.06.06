@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/rs >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/rs
 DESCRIPTION=Library with loop and event tools for rs (the Racket Sequencer)
 EAPI=8
 HOMEPAGE=https://github.com/mcdejonge/rs-l
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mcdejonge/rs-l/archive/43616cd03e53b0109826736b461086b7146ed971.tar.gz -> rs-l-2020.06.06.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=ca16d4a64b894f88be2dd7518594abb7
+_md5_=75e0f899d7de322d46edc7fce179e4d5

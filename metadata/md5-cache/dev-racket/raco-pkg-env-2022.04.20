@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/raco-pkg-env-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/raco-pkg-env-lib
 DESCRIPTION=virtualenv like tool for Racket
 EAPI=8
 HOMEPAGE=https://github.com/samdphillips/raco-pkg-env
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/samdphillips/raco-pkg-env/archive/54fd0fc98f8fdd1f1e3bc914a411bc2e6ff553db.tar.gz -> raco-pkg-env-2022.04.20.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=bb1450df61a24e922f6d3863dfca321b
+_md5_=c9db258f39979bbc683bef4d0efa8071

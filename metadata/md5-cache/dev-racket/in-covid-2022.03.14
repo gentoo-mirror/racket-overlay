@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/data-frame dev-racket/fancy-app dev-racket/graphite-lib dev-racket/gregor-lib dev-racket/http-easy dev-racket/sawzall-lib dev-racket/threading-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/data-frame dev-racket/fancy-app dev-racket/graphite-lib dev-racket/gregor-lib dev-racket/http-easy dev-racket/sawzall-lib dev-racket/threading-lib
 DESCRIPTION=Indiana COVID data analysis
 EAPI=8
 HOMEPAGE=https://github.com/samth/in-covid
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/samth/in-covid/archive/69475f04fa150050dc955f8cca1ddcf49536a78d.tar.gz -> in-covid-2022.03.14.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=a47f67476add167f42e5f15098f127bd
+_md5_=95eea0fd69f958675100d358e1bec604

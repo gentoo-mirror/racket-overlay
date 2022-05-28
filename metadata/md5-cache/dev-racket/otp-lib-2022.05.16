@@ -1,7 +1,6 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/crypto-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/crypto-lib
-DESCRIPTION=the otp-lib Racket package
+DESCRIPTION=The otp-lib Racket package
 EAPI=8
 HOMEPAGE=https://github.com/yilinwei/otp
 INHERIT=racket gh
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/yilinwei/otp/archive/5285e29483cbb19bbc832b2c67f524ade6ff00f9.tar.gz -> otp-lib-2022.05.16.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=2da3f7f1f07605ab0a9aeff7629dd9d8
+_md5_=15b411fbc2f5c8452979bf79dbaee1cc

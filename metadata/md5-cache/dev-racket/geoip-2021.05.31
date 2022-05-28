@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/geoip-doc dev-racket/geoip-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/geoip-doc dev-racket/geoip-lib
 DESCRIPTION=Geolocation based on MaxMind's GeoIP databases. (docs and implementation)
 EAPI=8
 HOMEPAGE=https://github.com/Bogdanp/racket-geoip
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/racket-geoip/archive/bcc9bbb2905d0ef93f8c9cc35ed0bb4a6f31285b.tar.gz -> geoip-2021.05.31.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=5c9df1bb4fc0799204d508b770ec9f4e
+_md5_=e14a3930380d51fee0f200adb9fa7b2e

@@ -1,7 +1,6 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=dev-racket/graphic-block dev-racket/htdp-trace >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/graphic-block dev-racket/htdp-trace
-DESCRIPTION=the uwaterloo-racket-tools Racket package
+DESCRIPTION=The uwaterloo-racket-tools Racket package
 EAPI=8
 HOMEPAGE=https://git.uwaterloo.ca/djholtby/uwaterloo-racket
 INHERIT=racket gh
@@ -12,4 +11,4 @@ RDEPEND=dev-racket/graphic-block dev-racket/htdp-trace >=dev-scheme/racket-8.1:=
 RESTRICT=mirror
 SLOT=0
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	git-r3	b9ac6f96d2a88edb5b351df634dc5e53	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=e9cc22fb438e972d39bb38ab27e9f273
+_md5_=4b3b7ffba2c72000ef7c10357fc55d45

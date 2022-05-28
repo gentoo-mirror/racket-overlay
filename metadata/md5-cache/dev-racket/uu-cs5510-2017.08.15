@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/plai-lazy dev-racket/plai-typed dev-racket/plai-typed-s-exp-match >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/plai-lazy dev-racket/plai-typed dev-racket/plai-typed-s-exp-match
 DESCRIPTION=Utah CS 5510 homework submission plugin for DrRacket
 EAPI=8
 HOMEPAGE=https://github.com/mflatt/uu-cs5510
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mflatt/uu-cs5510/archive/d6736f807b31f637e141ae97d28d65e8e10465aa.tar.gz -> uu-cs5510-2017.08.15.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=577669af3ff071d873c9d013ef3128ab
+_md5_=a25b664963b1c354800bd2c1f74c6926

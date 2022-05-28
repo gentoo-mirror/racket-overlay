@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/plt-web-lib dev-racket/remote-shell-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/plt-web-lib dev-racket/remote-shell-lib
 DESCRIPTION=Build server for pkgs
 EAPI=8
 HOMEPAGE=https://github.com/racket/pkg-build
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/racket/pkg-build/archive/fcbdf97462d32bb217d5e86a6e6619ffe511c3e2.tar.gz -> pkg-build-2021.04.29.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=27977ae44cf13daea3b1e750f4a63741
+_md5_=46dd7ef807e01e78be2dcaa9bce501ec

@@ -1,7 +1,6 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/struct-update-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/struct-update-lib
-DESCRIPTION=the struct-update-doc Racket package
+DESCRIPTION=The struct-update-doc Racket package
 EAPI=8
 HOMEPAGE=https://github.com/lexi-lambda/struct-update
 INHERIT=racket gh
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lexi-lambda/struct-update/archive/8ce456cde8764ae27c348123ec9e01e76826d536.tar.gz -> struct-update-doc-2017.08.15.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=6cdc9174cf33e4b8736cbbdfc653dd01
+_md5_=e6306e5357e839547f4740dfa0ca6568

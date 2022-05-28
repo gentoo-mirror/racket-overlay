@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/x64asm-doc dev-racket/x64asm-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/x64asm-doc dev-racket/x64asm-lib
 DESCRIPTION=a simple x64 assembler written in Typed Racket
 EAPI=8
 HOMEPAGE=https://github.com/yjqww6/racket-x64asm
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/yjqww6/racket-x64asm/archive/b8a4e9998428f4f0b1d083d74d9730e8369f0110.tar.gz -> x64asm-2021.04.06.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=c6ca21ccac0ebe870447d7427ad00e79
+_md5_=94f5ddf1fbca321c329b769f84cfad33

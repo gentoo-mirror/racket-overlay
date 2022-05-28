@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/mcfly dev-racket/overeasy >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/mcfly dev-racket/overeasy
 DESCRIPTION=Sudo Command Processes
 EAPI=8
 HOMEPAGE=https://pkgs.racket-lang.org/package/sudo
@@ -13,4 +12,4 @@ RDEPEND=dev-racket/mcfly dev-racket/overeasy >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6
-_md5_=e128231b18634c88ec6d6a1f6d6cadbd
+_md5_=6deafccffbe051df02b288f0e85a520b

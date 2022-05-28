@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/while-loop >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/while-loop
 DESCRIPTION=A fairly direct translation of tokenize.py
 EAPI=8
 HOMEPAGE=https://github.com/jbclements/python-tokenizer
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jbclements/python-tokenizer/archive/beadda52525c78f4b3aa0c8adcf42bf5e1033c5a.tar.gz -> python-tokenizer-2017.08.15.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=4c72c3849f2f15d03113f88ac6204ed0
+_md5_=cc11d32c32a6cd8178351a2d9751580c

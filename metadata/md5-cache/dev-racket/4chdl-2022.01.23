@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/http-easy >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/http-easy
 DESCRIPTION=4chan image downloader and library to interact with the JSON API.
 EAPI=8
 HOMEPAGE=https://github.com/winny-/4chdl
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/winny-/4chdl/archive/9b0fe3b0e3ac69755cac70d583e80ffb19b1ff2f.tar.gz -> 4chdl-2022.01.23.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=bd253626be6d466ce7ea4c25618cb148
+_md5_=4ef90ee1c0bcdfca36c7d7688a305f8d

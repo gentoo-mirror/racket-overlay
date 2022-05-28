@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/gregor-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/gregor-lib
 DESCRIPTION=Chief runs Procfile-based applications. Like foreman, but written in Racket.
 EAPI=8
 HOMEPAGE=https://github.com/Bogdanp/racket-chief
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/racket-chief/archive/2760de55dc3eb546c138a4198b1e3928675577b7.tar.gz -> chief-2021.10.17.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=3351d86c90ee84595714a6cf92381cee
+_md5_=76d97baaa33e0a754526f338b61567fe

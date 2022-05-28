@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/job-queue-doc dev-racket/job-queue-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/job-queue-doc dev-racket/job-queue-lib
 DESCRIPTION=A library for managing sets of workers and their jobs.
 EAPI=8
 HOMEPAGE=https://github.com/jeapostrophe/job-queue
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jeapostrophe/job-queue/archive/0a2c349636aa88b06c9c299ef201494df648b164.tar.gz -> job-queue-2017.08.15.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=1bbc5d06b5560dbdb534d03b055d12f3
+_md5_=6d89495186c4b51685ad4bc67826d844

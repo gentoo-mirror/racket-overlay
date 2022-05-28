@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/generic-bind dev-racket/reprovide-lang dev-racket/scribble-code-examples dev-racket/sweet-exp dev-racket/unstable-lib dev-racket/unstable-list-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/generic-bind dev-racket/reprovide-lang dev-racket/scribble-code-examples dev-racket/sweet-exp dev-racket/unstable-lib dev-racket/unstable-list-lib
 DESCRIPTION=a version of define for defining functions with match-patterns as arguments
 EAPI=8
 HOMEPAGE=https://github.com/AlexKnauth/defpat
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/defpat/archive/12cf5babc38f7f8ae9e0be0dac92a724b3c12204.tar.gz -> defpat-2022.01.07.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=7e1ff4c44eab811722735b1d6e0d1c90
+_md5_=025292e9d37abe1fa8ab3e08922492f6

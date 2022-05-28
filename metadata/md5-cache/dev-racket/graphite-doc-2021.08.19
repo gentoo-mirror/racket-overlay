@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/data-frame dev-racket/graphite-lib dev-racket/gregor dev-racket/loess dev-racket/simple-polynomial >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/data-frame dev-racket/graphite-lib dev-racket/gregor dev-racket/loess dev-racket/simple-polynomial
 DESCRIPTION=Documentation for Graphite
 EAPI=8
 HOMEPAGE=https://pkgs.racket-lang.org/package/graphite-doc
@@ -14,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/ralsei/graphite/archive/58a7bc54345e9b0bc5ac080401757f76d3999b0c.tar.gz -> graphite-doc-2021.08.19.tar.gz https://github.com/ralsei/graphite/archive/58a7bc54345e9b0bc5ac080401757f76d3999b0c.tar.gz -> graphite-doc_aux_graphite-tutorial-2021.08.19.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6
-_md5_=eb34fbebb7674b3366fb60c226527ecb
+_md5_=ad38dbb3951f1c5e4e3c8caecc21f93e

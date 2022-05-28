@@ -1,7 +1,6 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/crypto-lib dev-racket/csexp dev-racket/html-writing dev-racket/magenc >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/crypto-lib dev-racket/csexp dev-racket/html-writing dev-racket/magenc
-DESCRIPTION=the crystal Racket package
+DESCRIPTION=The crystal Racket package
 EAPI=8
 HOMEPAGE=https://gitlab.com/spritely/crystal
 INHERIT=racket gh
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/spritely/crystal/-/archive/70274401f177b1001ea15169c9032e466bf8efc9.tar.gz -> crystal-2021.05.08.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=c6f9c66dbb2fa6f1a585b7586b1a7124
+_md5_=c86cdbc7ba9e5017063677dbafcd96b6

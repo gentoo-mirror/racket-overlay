@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/unstable-contract-lib dev-racket/unstable-debug-lib dev-racket/unstable-lib dev-racket/unstable-list-lib dev-racket/unstable-options-lib dev-racket/unstable-parameter-group-lib dev-racket/unstable2d >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/unstable-contract-lib dev-racket/unstable-debug-lib dev-racket/unstable-lib dev-racket/unstable-list-lib dev-racket/unstable-options-lib dev-racket/unstable-parameter-group-lib dev-racket/unstable2d
 DESCRIPTION=tests for unstable
 EAPI=8
 HOMEPAGE=https://github.com/racket/unstable
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/racket/unstable/archive/99149bf1a6a82b2309cc04e363a87ed36972b64b.tar.gz -> unstable-test-2021.08.02.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=b596272fa2a87a6c85d2cb2c3e2023b7
+_md5_=35b57b19f5757163c4a262efa58f0750

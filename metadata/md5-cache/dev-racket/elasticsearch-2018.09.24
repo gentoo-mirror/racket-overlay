@@ -1,6 +1,6 @@
 BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DESCRIPTION=the elasticsearch Racket package
+DESCRIPTION=The elasticsearch Racket package
 EAPI=8
 HOMEPAGE=https://github.com/vishesh/elasticsearch.rkt
 INHERIT=racket gh
@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/vishesh/elasticsearch.rkt/archive/160e2be024a21e7b043b93a5d45eaaca8e3713a1.tar.gz -> elasticsearch-2018.09.24.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=b72d2c44f1d51fbfba0fab9283f2b77d
+_md5_=52fd616a0fc22af279c520207e0d2289

@@ -1,6 +1,6 @@
 BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DESCRIPTION=the try Racket package
+DESCRIPTION=The try Racket package
 EAPI=8
 HOMEPAGE=https://gitlab.com/RayRacine/try
 INHERIT=racket gh
@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/RayRacine/try/-/archive/b73f3053ac6930443bbbc6a12cfd947e1b4d9413.tar.gz -> try-2021.05.08.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=35d3ea08bd9841d970a0521a5c725e1d
+_md5_=303b33be640f18d9f62773fee9087119

@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/aws dev-racket/plt-service-monitor dev-racket/plt-web-lib dev-racket/s3-sync >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/aws dev-racket/plt-service-monitor dev-racket/plt-web-lib dev-racket/s3-sync
 DESCRIPTION=tools to record and plot raco setup memory use
 EAPI=8
 HOMEPAGE=https://github.com/racket/plt-build-plot
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/racket/plt-build-plot/archive/e8c000f6611833f183f598c9d34380ff9d1bfc96.tar.gz -> plt-build-plot-2021.01.03.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=36284d3ff23fe2d134077a4afcb88562
+_md5_=22ce940543b273de2b5b5962320deecf

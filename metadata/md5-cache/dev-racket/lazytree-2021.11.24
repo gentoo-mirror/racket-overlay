@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/collections-doc dev-racket/collections-lib dev-racket/cover dev-racket/cover-coveralls dev-racket/functional-doc dev-racket/relation dev-racket/scribble-abbrevs dev-racket/social-contract >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/collections-doc dev-racket/collections-lib dev-racket/cover dev-racket/cover-coveralls dev-racket/functional-doc dev-racket/relation dev-racket/scribble-abbrevs dev-racket/social-contract
 DESCRIPTION=Lightweight, general-purpose utilities for working with tree-structured data.
 EAPI=8
 HOMEPAGE=https://github.com/countvajhula/lazytree
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/countvajhula/lazytree/archive/1ee7e05d00e8d8ac06d9f85a91d59075898704e5.tar.gz -> lazytree-2021.11.24.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=85d5d91ea38f238e740f3acbe8ce4c35
+_md5_=046c9e9451a3ebb71316b2e69173a8b3

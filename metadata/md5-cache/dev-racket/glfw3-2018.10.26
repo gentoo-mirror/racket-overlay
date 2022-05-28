@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/disposable dev-racket/fixture >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/disposable dev-racket/fixture
 DESCRIPTION=GLFW wrapper for Racket
 EAPI=8
 HOMEPAGE=https://github.com/BourgondAries/rkt-glfw
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/BourgondAries/rkt-glfw/archive/e52613f60f25aeac7f035b1f11a79401a770af35.tar.gz -> glfw3-2018.10.26.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=af0294b49b4f962d65a7cf84e62c695f
+_md5_=868fada5a5daf6171743db7f62d7c60b

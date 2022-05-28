@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=dev-racket/drcomplete-auto dev-racket/drcomplete-filename dev-racket/drcomplete-module dev-racket/drcomplete-required dev-racket/drcomplete-user-defined >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/drcomplete-auto dev-racket/drcomplete-filename dev-racket/drcomplete-module dev-racket/drcomplete-required dev-racket/drcomplete-user-defined
 DESCRIPTION=The package assembles drcomplete plugins
 EAPI=8
 HOMEPAGE=https://github.com/yjqww6/drcomplete
@@ -12,4 +11,4 @@ RDEPEND=dev-racket/drcomplete-auto dev-racket/drcomplete-filename dev-racket/drc
 RESTRICT=mirror
 SLOT=0
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	git-r3	b9ac6f96d2a88edb5b351df634dc5e53	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=ec958e76a760e37fc02c0597cc3ed46c
+_md5_=828dc9a17ac50acaf3f9a20ba75f5608

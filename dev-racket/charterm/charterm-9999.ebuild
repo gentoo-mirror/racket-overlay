@@ -17,7 +17,7 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/mcfly"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"
 
 src_unpack() {
 	wget -O "${T}/charterm.zip" "http://www.neilvandyke.org/racket/charterm.zip"

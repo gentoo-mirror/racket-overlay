@@ -9,7 +9,7 @@ GH_COMMIT="87053a6ba8e12c15823395149fe74a62ebb77fee"
 
 inherit racket gh
 
-DESCRIPTION="the elle Racket package"
+DESCRIPTION="The elle Racket package"
 HOMEPAGE="https://github.com/tail-reversion/elle"
 S="${S}/elle"
 
@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/elle-doc
 	dev-racket/elle-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/racket-route-match
 	dev-racket/response-ext"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -8,7 +8,7 @@ GH_REPO="spritely/crystal"
 
 inherit racket gh
 
-DESCRIPTION="the crystal Racket package"
+DESCRIPTION="The crystal Racket package"
 HOMEPAGE="https://gitlab.com/spritely/crystal"
 S="${S}/crystal"
 
@@ -20,4 +20,4 @@ RDEPEND="dev-racket/crypto-lib
 	dev-racket/csexp
 	dev-racket/html-writing
 	dev-racket/magenc"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

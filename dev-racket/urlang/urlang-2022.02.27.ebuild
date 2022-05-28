@@ -9,7 +9,7 @@ GH_COMMIT="eb64ef883dd4013a59da69914e1f8f288c0c3379"
 
 inherit racket gh
 
-DESCRIPTION="the urlang Racket package"
+DESCRIPTION="The urlang Racket package"
 HOMEPAGE="https://github.com/soegaard/urlang"
 
 LICENSE="all-rights-reserved"
@@ -20,4 +20,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/html-parsing
 	dev-racket/html-writing
 	dev-racket/nanopass"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -21,4 +21,4 @@ RDEPEND="dev-racket/basedir
 	dev-racket/memoize
 	dev-racket/pict-abbrevs
 	dev-racket/require-typed-check"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

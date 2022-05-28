@@ -19,7 +19,7 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/mcfly
 	dev-racket/overeasy
 	dev-racket/sudo"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"
 
 src_unpack() {
 	wget -O "${T}/parted.zip" "http://www.neilvandyke.org/racket/parted.zip"

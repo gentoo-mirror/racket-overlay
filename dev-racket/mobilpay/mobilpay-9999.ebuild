@@ -8,7 +8,7 @@ GH_REPO="Bogdanp/mobilpay"
 
 inherit racket gh
 
-DESCRIPTION="the mobilpay Racket package"
+DESCRIPTION="The mobilpay Racket package"
 HOMEPAGE="https://github.com/Bogdanp/mobilpay"
 
 LICENSE="all-rights-reserved"
@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/crypto-lib
 	dev-racket/gregor-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

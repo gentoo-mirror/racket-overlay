@@ -8,7 +8,7 @@ GH_REPO="lexi-lambda/racket-curly-fn"
 
 inherit racket gh
 
-DESCRIPTION="the curly-fn-lib Racket package"
+DESCRIPTION="The curly-fn-lib Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/racket-curly-fn"
 S="${S}/curly-fn-lib"
 
@@ -17,4 +17,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/namespaced-transformer-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

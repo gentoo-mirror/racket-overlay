@@ -23,4 +23,4 @@ RDEPEND="dev-racket/beautiful-racket-lib
 	dev-racket/gregor
 	dev-racket/sugar
 	dev-racket/with-cache"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

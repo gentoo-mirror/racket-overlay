@@ -9,7 +9,7 @@ GH_COMMIT="24fd9ca7ca9b96e3072d37306dc79edf24ba4ef1"
 
 inherit racket gh
 
-DESCRIPTION="the hyper-literate Racket package"
+DESCRIPTION="The hyper-literate Racket package"
 HOMEPAGE="https://github.com/jsmaniac/hyper-literate"
 
 LICENSE="all-rights-reserved"
@@ -22,4 +22,4 @@ RDEPEND="dev-racket/debug-scopes
 	dev-racket/sexp-diff
 	dev-racket/tr-immutable
 	dev-racket/typed-map-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

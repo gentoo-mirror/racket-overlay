@@ -9,7 +9,7 @@ GH_COMMIT="57abd235fcb8c7505990f8e9731c01c716324ee5"
 
 inherit racket gh
 
-DESCRIPTION="the asm Racket package"
+DESCRIPTION="The asm Racket package"
 HOMEPAGE="https://github.com/lwhjp/racket-asm"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/binutils"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

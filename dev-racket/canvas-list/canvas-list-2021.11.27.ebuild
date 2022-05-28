@@ -9,7 +9,7 @@ GH_COMMIT="8d101e6ede48be4c77673dddc32442f55a42f5c2"
 
 inherit racket gh
 
-DESCRIPTION="the canvas-list Racket package"
+DESCRIPTION="The canvas-list Racket package"
 HOMEPAGE="https://github.com/massung/racket-canvas-list"
 
 LICENSE="all-rights-reserved"

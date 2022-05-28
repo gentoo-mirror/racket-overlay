@@ -9,7 +9,7 @@ GH_COMMIT="94a16a6875ac585a10fc488b1bf48052172d5668"
 
 inherit racket gh
 
-DESCRIPTION="the aws Racket package"
+DESCRIPTION="The aws Racket package"
 HOMEPAGE="https://github.com/greghendershott/aws"
 
 LICENSE="all-rights-reserved"
@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/http
 	dev-racket/sha"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

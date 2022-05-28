@@ -9,7 +9,7 @@ GH_COMMIT="44225da9b3cd1f883beef9c03f20431f80239530"
 
 inherit racket gh
 
-DESCRIPTION="the comm-panel Racket package"
+DESCRIPTION="The comm-panel Racket package"
 HOMEPAGE="https://github.com/thoughtstem/comm-panel"
 
 LICENSE="all-rights-reserved"
@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/aws
 	dev-racket/happy-names"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

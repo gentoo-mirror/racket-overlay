@@ -9,7 +9,7 @@ GH_COMMIT="4836ccd6b7febb98270822c9993f2e44ed9b16e4"
 
 inherit racket gh
 
-DESCRIPTION="the irregex Racket package"
+DESCRIPTION="The irregex Racket package"
 HOMEPAGE="https://github.com/jbclements/irregex"
 
 LICENSE="all-rights-reserved"

@@ -8,7 +8,7 @@ GH_REPO="macrotypefunctors/serialize-syntax-introducer"
 
 inherit racket gh
 
-DESCRIPTION="the serialize-syntax-introducer Racket package"
+DESCRIPTION="The serialize-syntax-introducer Racket package"
 HOMEPAGE="https://github.com/macrotypefunctors/serialize-syntax-introducer"
 
 LICENSE="all-rights-reserved"

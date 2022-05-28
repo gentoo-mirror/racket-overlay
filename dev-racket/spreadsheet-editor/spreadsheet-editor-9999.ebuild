@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/table-panel"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

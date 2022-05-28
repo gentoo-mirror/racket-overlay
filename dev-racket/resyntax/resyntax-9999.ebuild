@@ -19,4 +19,4 @@ RDEPEND="dev-racket/br-parser-tools-lib
 	dev-racket/brag-lib
 	dev-racket/fancy-app
 	dev-racket/rebellion"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

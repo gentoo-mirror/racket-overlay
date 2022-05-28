@@ -20,4 +20,4 @@ RDEPEND="dev-racket/megaparsack-doc
 	dev-racket/megaparsack-lib
 	dev-racket/megaparsack-parser
 	dev-racket/megaparsack-parser-tools"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

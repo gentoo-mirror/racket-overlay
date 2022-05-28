@@ -26,4 +26,4 @@ RDEPEND="dev-racket/component-doc
 	dev-racket/libargon2
 	dev-racket/mime-type
 	dev-racket/mime-type-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

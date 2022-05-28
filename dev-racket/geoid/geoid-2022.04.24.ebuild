@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/al2-test-runner"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

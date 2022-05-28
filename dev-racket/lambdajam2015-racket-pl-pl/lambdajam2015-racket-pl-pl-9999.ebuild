@@ -8,7 +8,7 @@ GH_REPO="rfindler/lambdajam-2015-racket-pl-pl"
 
 inherit racket gh
 
-DESCRIPTION="the lambdajam-2015-racket-pl-pl Racket package"
+DESCRIPTION="The lambdajam-2015-racket-pl-pl Racket package"
 HOMEPAGE="https://github.com/rfindler/lambdajam-2015-racket-pl-pl"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/lang-slide"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

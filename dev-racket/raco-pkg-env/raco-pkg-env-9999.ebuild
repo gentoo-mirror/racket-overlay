@@ -17,4 +17,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/raco-pkg-env-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

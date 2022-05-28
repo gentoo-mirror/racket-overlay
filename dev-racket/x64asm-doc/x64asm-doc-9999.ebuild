@@ -8,7 +8,7 @@ GH_REPO="yjqww6/racket-x64asm"
 
 inherit racket gh
 
-DESCRIPTION="the x64asm-doc Racket package"
+DESCRIPTION="The x64asm-doc Racket package"
 HOMEPAGE="https://github.com/yjqww6/racket-x64asm"
 S="${S}/x64asm-doc"
 
@@ -17,4 +17,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/x64asm-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

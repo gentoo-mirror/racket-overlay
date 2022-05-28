@@ -8,7 +8,7 @@ GH_REPO="jbclements/java"
 
 inherit racket gh
 
-DESCRIPTION="the java Racket package"
+DESCRIPTION="The java Racket package"
 HOMEPAGE="https://github.com/jbclements/java"
 
 LICENSE="all-rights-reserved"
@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/dherman-struct
 	dev-racket/io"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

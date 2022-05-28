@@ -22,4 +22,4 @@ RDEPEND="dev-racket/graph-lib
 	dev-racket/racket-poppler
 	dev-racket/unstable-latent-contract-lib
 	dev-racket/unstable-parameter-group-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

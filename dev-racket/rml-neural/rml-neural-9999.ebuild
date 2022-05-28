@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/cover-coveralls
 	dev-racket/scribble-math"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

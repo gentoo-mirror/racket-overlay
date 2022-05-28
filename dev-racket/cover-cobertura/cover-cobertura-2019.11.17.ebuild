@@ -9,7 +9,7 @@ GH_COMMIT="2a63c5ef4544b3c6ca928c596ae81e4490f14c14"
 
 inherit racket gh
 
-DESCRIPTION="the cover-cobertura Racket package"
+DESCRIPTION="The cover-cobertura Racket package"
 HOMEPAGE="https://github.com/EFanZh/cover-cobertura"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/cover"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

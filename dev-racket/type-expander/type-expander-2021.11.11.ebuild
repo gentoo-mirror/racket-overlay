@@ -23,4 +23,4 @@ RDEPEND="dev-racket/auto-syntax-e
 	dev-racket/mutable-match-lambda
 	dev-racket/scribble-enhanced
 	dev-racket/version-case"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/linux-shared-libraries
 	dev-racket/scribble-math"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

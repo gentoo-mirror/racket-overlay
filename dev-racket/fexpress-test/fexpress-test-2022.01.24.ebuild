@@ -19,4 +19,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/fexpress-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

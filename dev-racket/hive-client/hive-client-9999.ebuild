@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/hive-common"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

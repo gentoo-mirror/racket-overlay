@@ -8,7 +8,7 @@ GH_REPO="thoughtstem/define-assets-from"
 
 inherit racket gh
 
-DESCRIPTION="the define-assets-from Racket package"
+DESCRIPTION="The define-assets-from Racket package"
 HOMEPAGE="https://github.com/thoughtstem/define-assets-from"
 
 LICENSE="all-rights-reserved"

@@ -8,7 +8,7 @@ GH_REPO="philnguyen/typed-racket-hacks"
 
 inherit racket gh
 
-DESCRIPTION="the typed-racket-hacks Racket package"
+DESCRIPTION="The typed-racket-hacks Racket package"
 HOMEPAGE="https://github.com/philnguyen/typed-racket-hacks"
 S="${S}/typed-racket-hacks"
 
@@ -17,4 +17,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/set-extras"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

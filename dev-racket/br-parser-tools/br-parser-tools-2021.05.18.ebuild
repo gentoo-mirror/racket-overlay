@@ -9,7 +9,7 @@ GH_COMMIT="9b2d7cc759b40fd556a398e181ca0fd070885904"
 
 inherit racket gh
 
-DESCRIPTION="the br-parser-tools Racket package"
+DESCRIPTION="The br-parser-tools Racket package"
 HOMEPAGE="https://github.com/mbutterick/br-parser-tools"
 S="${S}/br-parser-tools"
 
@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/br-parser-tools-doc
 	dev-racket/br-parser-tools-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

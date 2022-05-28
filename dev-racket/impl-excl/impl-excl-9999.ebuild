@@ -8,7 +8,7 @@ GH_REPO="philnguyen/impl-excl"
 
 inherit racket gh
 
-DESCRIPTION="the impl-excl Racket package"
+DESCRIPTION="The impl-excl Racket package"
 HOMEPAGE="https://github.com/philnguyen/impl-excl"
 S="${S}/impl-excl"
 
@@ -17,4 +17,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/set-extras"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

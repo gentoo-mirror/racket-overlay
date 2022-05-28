@@ -8,7 +8,7 @@ GH_REPO="v-nys/repeated-application"
 
 inherit racket gh
 
-DESCRIPTION="the repeated-application Racket package"
+DESCRIPTION="The repeated-application Racket package"
 HOMEPAGE="https://github.com/v-nys/repeated-application"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/sugar"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -22,4 +22,4 @@ RDEPEND="dev-racket/beautiful-racket-lib
 	dev-racket/png-image
 	dev-racket/sugar
 	dev-racket/xenomorph"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

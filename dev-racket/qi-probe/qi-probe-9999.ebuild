@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/mischief
 	dev-racket/qi-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

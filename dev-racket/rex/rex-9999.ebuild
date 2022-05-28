@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/br-parser-tools-lib
 	dev-racket/brag"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

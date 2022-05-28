@@ -8,7 +8,7 @@ GH_REPO="jbclements/simply-scheme"
 
 inherit racket gh
 
-DESCRIPTION="the simply-scheme Racket package"
+DESCRIPTION="The simply-scheme Racket package"
 HOMEPAGE="https://github.com/jbclements/simply-scheme"
 
 LICENSE="all-rights-reserved"

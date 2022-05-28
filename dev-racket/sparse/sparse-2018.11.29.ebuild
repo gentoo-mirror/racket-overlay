@@ -9,7 +9,7 @@ GH_COMMIT="0d713dd9524c5bbba7fbebe49f44cbe9aab70275"
 
 inherit racket gh
 
-DESCRIPTION="the sparse Racket package"
+DESCRIPTION="The sparse Racket package"
 HOMEPAGE="https://github.com/ricky-escobar/sparse"
 
 LICENSE="all-rights-reserved"

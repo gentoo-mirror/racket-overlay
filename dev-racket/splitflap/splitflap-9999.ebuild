@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/splitflap-doc
 	dev-racket/splitflap-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

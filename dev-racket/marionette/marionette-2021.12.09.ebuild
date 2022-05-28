@@ -9,7 +9,7 @@ GH_COMMIT="38a54e39af6ad1756dd3c3b0943e4ae515e4d317"
 
 inherit racket gh
 
-DESCRIPTION="the marionette Racket package"
+DESCRIPTION="The marionette Racket package"
 HOMEPAGE="https://github.com/Bogdanp/marionette"
 S="${S}/marionette"
 
@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/marionette-doc
 	dev-racket/marionette-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

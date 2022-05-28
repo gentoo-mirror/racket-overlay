@@ -8,7 +8,7 @@ GH_REPO="johnstonskj/rml-core"
 
 inherit racket gh
 
-DESCRIPTION="the rml-core Racket package"
+DESCRIPTION="The rml-core Racket package"
 HOMEPAGE="https://github.com/johnstonskj/rml-core"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/cover-coveralls
 	dev-racket/csv-reading
 	dev-racket/mcfly"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

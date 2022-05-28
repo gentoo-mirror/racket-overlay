@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/sketching-doc
 	dev-racket/sketching-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -9,7 +9,7 @@ GH_COMMIT="f447a68836248573a828acc04f11a8669040e126"
 
 inherit racket gh
 
-DESCRIPTION="the bleir-sandbox Racket package"
+DESCRIPTION="The bleir-sandbox Racket package"
 HOMEPAGE="https://github.com/rebcabin/bleir-sandbox"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/beautiful-racket-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

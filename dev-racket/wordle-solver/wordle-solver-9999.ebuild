@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/define2
 	dev-racket/global"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -9,7 +9,7 @@ GH_COMMIT="02016d0ca3bdd76d69c9d376ae84936a63c5ca6e"
 
 inherit racket gh
 
-DESCRIPTION="the search-upward Racket package"
+DESCRIPTION="The search-upward Racket package"
 HOMEPAGE="https://github.com/zyrolasting/search-upward"
 
 LICENSE="all-rights-reserved"

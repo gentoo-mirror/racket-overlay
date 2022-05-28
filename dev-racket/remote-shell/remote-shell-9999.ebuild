@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/remote-shell-doc
 	dev-racket/remote-shell-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

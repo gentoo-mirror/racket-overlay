@@ -20,4 +20,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/pretty-format
 	dev-racket/reprovide-lang
 	dev-racket/scribble-enhanced"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

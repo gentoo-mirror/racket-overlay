@@ -9,7 +9,7 @@ GH_COMMIT="65d2ccc304b2f1d81423f78f9330a314497f8aae"
 
 inherit racket gh
 
-DESCRIPTION="the drracket-cyberpunk Racket package"
+DESCRIPTION="The drracket-cyberpunk Racket package"
 HOMEPAGE="https://github.com/thinkmoore/drracket-cyberpunk"
 
 LICENSE="all-rights-reserved"

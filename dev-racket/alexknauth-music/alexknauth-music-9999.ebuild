@@ -22,4 +22,4 @@ RDEPEND="dev-racket/agile
 	dev-racket/rsound
 	dev-racket/txexpr
 	dev-racket/unstable-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -20,4 +20,4 @@ RDEPEND="dev-racket/find-parent-dir
 	dev-racket/reprovide-lang-lib
 	dev-racket/threading-doc
 	dev-racket/threading-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

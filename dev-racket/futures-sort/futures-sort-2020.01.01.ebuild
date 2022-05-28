@@ -9,7 +9,7 @@ GH_COMMIT="dc1914f60b192897855989d4b87846eaa95aa777"
 
 inherit racket gh
 
-DESCRIPTION="the futures-sort Racket package"
+DESCRIPTION="The futures-sort Racket package"
 HOMEPAGE="https://github.com/dzoep/futures-sort"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/scribble-math"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

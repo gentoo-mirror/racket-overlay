@@ -8,7 +8,7 @@ GH_REPO="jsmaniac/scope-operations"
 
 inherit racket gh
 
-DESCRIPTION="the scope-operations Racket package"
+DESCRIPTION="The scope-operations Racket package"
 HOMEPAGE="https://github.com/jsmaniac/scope-operations"
 
 LICENSE="all-rights-reserved"

@@ -8,7 +8,7 @@ GH_REPO="jbclements/rtmidi"
 
 inherit racket gh
 
-DESCRIPTION="the rtmidi Racket package"
+DESCRIPTION="The rtmidi Racket package"
 HOMEPAGE="https://github.com/jbclements/rtmidi"
 
 LICENSE="all-rights-reserved"

@@ -8,7 +8,7 @@ GH_REPO="philnguyen/traces"
 
 inherit racket gh
 
-DESCRIPTION="the traces Racket package"
+DESCRIPTION="The traces Racket package"
 HOMEPAGE="https://github.com/philnguyen/traces"
 S="${S}/traces"
 

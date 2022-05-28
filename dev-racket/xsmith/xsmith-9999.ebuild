@@ -20,4 +20,4 @@ RDEPEND="dev-racket/clotho
 	dev-racket/memoize
 	dev-racket/pprint
 	dev-racket/racr"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

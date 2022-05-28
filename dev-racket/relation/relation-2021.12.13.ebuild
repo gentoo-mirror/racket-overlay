@@ -39,4 +39,4 @@ RDEPEND="dev-racket/algebraic
 	dev-racket/threading-lib
 	dev-racket/typed-stack
 	dev-racket/version-case"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -8,7 +8,7 @@ GH_REPO="lexi-lambda/racket-tulip"
 
 inherit racket gh
 
-DESCRIPTION="the tulip-lib Racket package"
+DESCRIPTION="The tulip-lib Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/racket-tulip"
 S="${S}/tulip-lib"
 
@@ -20,4 +20,4 @@ RDEPEND="dev-racket/curly-fn
 	dev-racket/functional-lib
 	dev-racket/megaparsack-lib
 	dev-racket/megaparsack-parser-tools"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

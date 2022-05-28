@@ -8,7 +8,7 @@ GH_REPO="jsmaniac/backport-template-pr1514"
 
 inherit racket gh
 
-DESCRIPTION="the backport-template-pr1514 Racket package"
+DESCRIPTION="The backport-template-pr1514 Racket package"
 HOMEPAGE="https://github.com/jsmaniac/backport-template-pr1514"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/version-case"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

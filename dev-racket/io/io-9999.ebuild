@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/in-new-directory"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

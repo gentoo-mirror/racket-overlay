@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/superc"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

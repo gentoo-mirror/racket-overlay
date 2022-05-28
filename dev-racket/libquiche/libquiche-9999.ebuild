@@ -8,7 +8,7 @@ GH_REPO="parnikkapore/rkt-libquiche"
 
 inherit racket gh
 
-DESCRIPTION="the libquiche Racket package"
+DESCRIPTION="The libquiche Racket package"
 HOMEPAGE="https://github.com/parnikkapore/rkt-libquiche"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/reprovide-lang-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

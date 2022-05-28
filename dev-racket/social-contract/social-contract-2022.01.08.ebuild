@@ -28,4 +28,4 @@ RDEPEND="dev-racket/adjutor
 	dev-racket/mischief
 	dev-racket/scribble-abbrevs
 	dev-racket/version-case"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

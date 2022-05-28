@@ -20,4 +20,4 @@ RDEPEND="dev-racket/cover
 	dev-racket/cover-coveralls
 	dev-racket/qi-lib
 	dev-racket/relation"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -8,7 +8,7 @@ GH_REPO="oransimhony/drracket-ayu-mirage"
 
 inherit racket gh
 
-DESCRIPTION="the drracket-ayu-mirage Racket package"
+DESCRIPTION="The drracket-ayu-mirage Racket package"
 HOMEPAGE="https://github.com/oransimhony/drracket-ayu-mirage"
 
 LICENSE="all-rights-reserved"

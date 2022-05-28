@@ -9,7 +9,7 @@ GH_COMMIT="160e2be024a21e7b043b93a5d45eaaca8e3713a1"
 
 inherit racket gh
 
-DESCRIPTION="the elasticsearch Racket package"
+DESCRIPTION="The elasticsearch Racket package"
 HOMEPAGE="https://github.com/vishesh/elasticsearch.rkt"
 
 LICENSE="all-rights-reserved"

@@ -8,7 +8,7 @@ GH_REPO="gcr/pdf-read"
 
 inherit racket gh
 
-DESCRIPTION="the pdf-read Racket package"
+DESCRIPTION="The pdf-read Racket package"
 HOMEPAGE="https://github.com/gcr/pdf-read"
 
 LICENSE="all-rights-reserved"

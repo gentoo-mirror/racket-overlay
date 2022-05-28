@@ -9,7 +9,7 @@ GH_COMMIT="ce32c918dd9c96c8366270a3127f5a42e3d2638f"
 
 inherit racket gh
 
-DESCRIPTION="the k-infix Racket package"
+DESCRIPTION="The k-infix Racket package"
 HOMEPAGE="https://github.com/BourgondAries/k-infix"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/memoize"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

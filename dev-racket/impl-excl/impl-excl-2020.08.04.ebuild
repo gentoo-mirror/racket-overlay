@@ -9,7 +9,7 @@ GH_COMMIT="2be491f8acb71ec6115d96070382e1f5f2d3a2a0"
 
 inherit racket gh
 
-DESCRIPTION="the impl-excl Racket package"
+DESCRIPTION="The impl-excl Racket package"
 HOMEPAGE="https://github.com/philnguyen/impl-excl"
 S="${S}/impl-excl"
 
@@ -19,4 +19,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/set-extras"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

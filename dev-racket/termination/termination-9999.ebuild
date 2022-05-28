@@ -20,4 +20,4 @@ RDEPEND="dev-racket/bnf
 	dev-racket/set-extras
 	dev-racket/traces
 	dev-racket/unreachable"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

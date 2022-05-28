@@ -20,4 +20,4 @@ RDEPEND="dev-racket/ansi-color
 	dev-racket/file-watchers
 	dev-racket/graph-lib
 	dev-racket/kinda-ferpy"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

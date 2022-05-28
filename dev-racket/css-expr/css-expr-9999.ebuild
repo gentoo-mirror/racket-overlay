@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/nanopass"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

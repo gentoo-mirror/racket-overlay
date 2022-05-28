@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/formatted-string"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

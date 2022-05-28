@@ -9,7 +9,7 @@ GH_COMMIT="dd6ffbef2626d7cc7e6802389ce53d57d36bb21d"
 
 inherit racket gh
 
-DESCRIPTION="the plot-bestfit Racket package"
+DESCRIPTION="The plot-bestfit Racket package"
 HOMEPAGE="https://github.com/florence/plot-bestfit"
 
 LICENSE="all-rights-reserved"

@@ -9,7 +9,7 @@ GH_COMMIT="19a26155d832d1102003ddd67dcd40c2fb1c5325"
 
 inherit racket gh
 
-DESCRIPTION="the parquet Racket package"
+DESCRIPTION="The parquet Racket package"
 HOMEPAGE="https://github.com/johnstonskj/racket-parquet"
 
 LICENSE="all-rights-reserved"
@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/cover-coveralls
 	dev-racket/thrift"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

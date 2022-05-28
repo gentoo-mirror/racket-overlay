@@ -9,7 +9,7 @@ GH_COMMIT="419102db1e44b74dea9daf7a75e9b0e2b9c97d05"
 
 inherit racket gh
 
-DESCRIPTION="the plai-typed Racket package"
+DESCRIPTION="The plai-typed Racket package"
 HOMEPAGE="https://github.com/mflatt/plai-typed"
 
 LICENSE="all-rights-reserved"

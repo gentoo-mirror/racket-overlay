@@ -8,7 +8,7 @@ GH_REPO="RayRacine/try"
 
 inherit racket gh
 
-DESCRIPTION="the try Racket package"
+DESCRIPTION="The try Racket package"
 HOMEPAGE="https://gitlab.com/RayRacine/try"
 
 LICENSE="all-rights-reserved"

@@ -9,7 +9,7 @@ GH_COMMIT="8a0903ebaedd919971c382eeb785f05080c7a8d6"
 
 inherit racket gh
 
-DESCRIPTION="the multimethod-test Racket package"
+DESCRIPTION="The multimethod-test Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/racket-multimethod"
 S="${S}/multimethod-test"
 
@@ -19,4 +19,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/multimethod-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -9,7 +9,7 @@ GH_COMMIT="f38e03c69fce7462b81106f567c32ce34f0ed830"
 
 inherit racket gh
 
-DESCRIPTION="the irandom Racket package"
+DESCRIPTION="The irandom Racket package"
 HOMEPAGE="https://github.com/hkrish/irandom"
 
 LICENSE="all-rights-reserved"

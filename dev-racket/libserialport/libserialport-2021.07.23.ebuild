@@ -20,4 +20,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/misc1
 	dev-racket/mordae
 	dev-racket/unstable-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

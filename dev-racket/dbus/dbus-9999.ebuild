@@ -18,4 +18,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/misc1
 	dev-racket/unstable-lib
 	dev-racket/xexpr-path"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/commonmark-doc
 	dev-racket/commonmark-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

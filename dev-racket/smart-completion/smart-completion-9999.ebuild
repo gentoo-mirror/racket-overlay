@@ -8,7 +8,7 @@ GH_REPO="syntacticlosure/smart-completion"
 
 inherit racket gh
 
-DESCRIPTION="the smart-completion Racket package"
+DESCRIPTION="The smart-completion Racket package"
 HOMEPAGE="https://github.com/syntacticlosure/smart-completion"
 
 LICENSE="all-rights-reserved"

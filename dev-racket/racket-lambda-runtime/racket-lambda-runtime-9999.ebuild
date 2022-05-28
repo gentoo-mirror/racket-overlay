@@ -8,7 +8,7 @@ GH_REPO="johnnyodonnell/racket-lambda-runtime"
 
 inherit racket gh
 
-DESCRIPTION="the racket-lambda-runtime Racket package"
+DESCRIPTION="The racket-lambda-runtime Racket package"
 HOMEPAGE="https://github.com/johnnyodonnell/racket-lambda-runtime"
 
 LICENSE="all-rights-reserved"

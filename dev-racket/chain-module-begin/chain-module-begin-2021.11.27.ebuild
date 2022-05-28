@@ -9,7 +9,7 @@ GH_COMMIT="77fca59322b93cb83a2d57c25546dd7a7313bc56"
 
 inherit racket gh
 
-DESCRIPTION="the chain-module-begin Racket package"
+DESCRIPTION="The chain-module-begin Racket package"
 HOMEPAGE="https://github.com/jsmaniac/chain-module-begin"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/debug-scopes"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

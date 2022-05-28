@@ -8,7 +8,7 @@ GH_REPO="preserves/preserves"
 
 inherit racket gh
 
-DESCRIPTION="the preserves Racket package"
+DESCRIPTION="The preserves Racket package"
 HOMEPAGE="https://gitlab.com/preserves/preserves"
 S="${S}/implementations/racket/preserves"
 

@@ -8,7 +8,7 @@ GH_REPO="dstorrs/value-evt"
 
 inherit racket gh
 
-DESCRIPTION="the value-evt Racket package"
+DESCRIPTION="The value-evt Racket package"
 HOMEPAGE="https://github.com/dstorrs/value-evt"
 
 LICENSE="all-rights-reserved"

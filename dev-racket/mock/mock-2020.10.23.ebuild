@@ -22,4 +22,4 @@ RDEPEND="dev-racket/arguments
 	dev-racket/fancy-app
 	dev-racket/reprovide-lang
 	dev-racket/sweet-exp"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

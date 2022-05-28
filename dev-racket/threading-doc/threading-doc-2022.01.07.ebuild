@@ -9,7 +9,7 @@ GH_COMMIT="199c8e240146baf3ef2ef2838d7d9e242b90be4e"
 
 inherit racket gh
 
-DESCRIPTION="the threading-doc Racket package"
+DESCRIPTION="The threading-doc Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/threading"
 S="${S}/threading-doc"
 
@@ -19,4 +19,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/threading-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

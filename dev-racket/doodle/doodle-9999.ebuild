@@ -8,7 +8,7 @@ GH_REPO="LeifAndersen/doodle"
 
 inherit racket gh
 
-DESCRIPTION="the doodle Racket package"
+DESCRIPTION="The doodle Racket package"
 HOMEPAGE="https://github.com/LeifAndersen/doodle"
 
 LICENSE="all-rights-reserved"

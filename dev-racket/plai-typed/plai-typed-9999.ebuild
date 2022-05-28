@@ -8,7 +8,7 @@ GH_REPO="mflatt/plai-typed"
 
 inherit racket gh
 
-DESCRIPTION="the plai-typed Racket package"
+DESCRIPTION="The plai-typed Racket package"
 HOMEPAGE="https://github.com/mflatt/plai-typed"
 
 LICENSE="all-rights-reserved"

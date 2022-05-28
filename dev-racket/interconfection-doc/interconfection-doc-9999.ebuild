@@ -20,4 +20,4 @@ RDEPEND="dev-racket/interconfection-lib
 	dev-racket/lathe-comforts-doc
 	dev-racket/lathe-comforts-lib
 	dev-racket/parendown-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

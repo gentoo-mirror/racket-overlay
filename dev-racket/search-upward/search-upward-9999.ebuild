@@ -8,7 +8,7 @@ GH_REPO="zyrolasting/search-upward"
 
 inherit racket gh
 
-DESCRIPTION="the search-upward Racket package"
+DESCRIPTION="The search-upward Racket package"
 HOMEPAGE="https://github.com/zyrolasting/search-upward"
 
 LICENSE="all-rights-reserved"

@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/syntax-classes-lib
 	dev-racket/ugly-app-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

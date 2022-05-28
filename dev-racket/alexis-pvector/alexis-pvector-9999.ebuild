@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/alexis-collections
 	dev-racket/pvector"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

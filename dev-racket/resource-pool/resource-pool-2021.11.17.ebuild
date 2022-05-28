@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/rackcheck
 	dev-racket/resource-pool-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/lux"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

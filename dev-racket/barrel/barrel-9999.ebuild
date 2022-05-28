@@ -21,4 +21,4 @@ RDEPEND="dev-racket/beautiful-racket
 	dev-racket/brag-lib
 	dev-racket/control
 	dev-racket/threading-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

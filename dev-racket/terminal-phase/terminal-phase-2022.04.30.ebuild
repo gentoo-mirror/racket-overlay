@@ -22,4 +22,4 @@ RDEPEND="dev-racket/ansi
 	dev-racket/lux
 	dev-racket/pk
 	dev-racket/raart"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

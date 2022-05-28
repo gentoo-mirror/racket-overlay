@@ -8,7 +8,7 @@ GH_REPO="lexi-lambda/racket-match-plus"
 
 inherit racket gh
 
-DESCRIPTION="the match-plus Racket package"
+DESCRIPTION="The match-plus Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/racket-match-plus"
 
 LICENSE="all-rights-reserved"

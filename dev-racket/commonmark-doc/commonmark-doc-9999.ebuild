@@ -8,7 +8,7 @@ GH_REPO="lexi-lambda/racket-commonmark"
 
 inherit racket gh
 
-DESCRIPTION="the commonmark-doc Racket package"
+DESCRIPTION="The commonmark-doc Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/racket-commonmark"
 S="${S}/commonmark-doc"
 
@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/commonmark-lib
 	dev-racket/threading-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -8,7 +8,7 @@ GH_REPO="tonyg/racket-reloadable"
 
 inherit racket gh
 
-DESCRIPTION="the reloadable Racket package"
+DESCRIPTION="The reloadable Racket package"
 HOMEPAGE="https://github.com/tonyg/racket-reloadable"
 
 LICENSE="all-rights-reserved"

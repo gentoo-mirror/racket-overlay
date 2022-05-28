@@ -21,4 +21,4 @@ RDEPEND="dev-racket/curly-fn-lib
 	dev-racket/functional-lib
 	dev-racket/megaparsack-lib
 	dev-racket/try-catch-finally-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

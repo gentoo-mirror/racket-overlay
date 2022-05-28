@@ -8,7 +8,7 @@ GH_REPO="jeapostrophe/spvector"
 
 inherit racket gh
 
-DESCRIPTION="the spvector Racket package"
+DESCRIPTION="The spvector Racket package"
 HOMEPAGE="https://github.com/jeapostrophe/spvector"
 
 LICENSE="all-rights-reserved"

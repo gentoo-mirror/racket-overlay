@@ -8,7 +8,7 @@ GH_REPO="videolang/test-samples"
 
 inherit racket gh
 
-DESCRIPTION="the video-samples Racket package"
+DESCRIPTION="The video-samples Racket package"
 HOMEPAGE="https://github.com/videolang/test-samples"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/video"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

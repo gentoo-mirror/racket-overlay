@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/bazaar
 	dev-racket/towers-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

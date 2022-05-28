@@ -9,7 +9,7 @@ GH_COMMIT="916e9acca5ccf56b319bf5e641fac483ed60eac9"
 
 inherit racket gh
 
-DESCRIPTION="the multicolumn Racket package"
+DESCRIPTION="The multicolumn Racket package"
 HOMEPAGE="https://github.com/Kalimehtar/multicolumn"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/stretchable-snip"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

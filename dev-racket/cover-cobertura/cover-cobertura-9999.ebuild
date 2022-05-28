@@ -8,7 +8,7 @@ GH_REPO="EFanZh/cover-cobertura"
 
 inherit racket gh
 
-DESCRIPTION="the cover-cobertura Racket package"
+DESCRIPTION="The cover-cobertura Racket package"
 HOMEPAGE="https://github.com/EFanZh/cover-cobertura"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/cover"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

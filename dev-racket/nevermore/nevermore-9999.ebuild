@@ -8,7 +8,7 @@ GH_REPO="Bogdanp/nevermore"
 
 inherit racket gh
 
-DESCRIPTION="the nevermore Racket package"
+DESCRIPTION="The nevermore Racket package"
 HOMEPAGE="https://github.com/Bogdanp/nevermore"
 
 LICENSE="all-rights-reserved"

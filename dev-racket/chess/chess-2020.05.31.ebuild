@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/rebellion
 	dev-racket/reprovide-lang"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

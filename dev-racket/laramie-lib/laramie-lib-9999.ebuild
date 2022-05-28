@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/http-easy
 	dev-racket/txexpr"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

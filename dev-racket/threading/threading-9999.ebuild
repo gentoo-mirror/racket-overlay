@@ -8,7 +8,7 @@ GH_REPO="lexi-lambda/threading"
 
 inherit racket gh
 
-DESCRIPTION="the threading Racket package"
+DESCRIPTION="The threading Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/threading"
 S="${S}/threading"
 
@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/threading-doc
 	dev-racket/threading-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

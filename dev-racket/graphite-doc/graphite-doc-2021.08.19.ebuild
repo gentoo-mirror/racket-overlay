@@ -24,7 +24,7 @@ RDEPEND="dev-racket/data-frame
 	dev-racket/gregor
 	dev-racket/loess
 	dev-racket/simple-polynomial"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"
 PDEPEND="dev-racket/graphite-tutorial"
 
 src_compile() {

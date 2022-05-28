@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/data-frame
 	dev-racket/graphite-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

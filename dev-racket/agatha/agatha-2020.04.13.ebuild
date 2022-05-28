@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/beautiful-racket-lib
 	dev-racket/brag-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

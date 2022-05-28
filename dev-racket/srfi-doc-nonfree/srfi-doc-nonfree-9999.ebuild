@@ -8,7 +8,7 @@ GH_REPO="racket/srfi"
 
 inherit racket gh
 
-DESCRIPTION="the srfi-doc-nonfree Racket package"
+DESCRIPTION="The srfi-doc-nonfree Racket package"
 HOMEPAGE="https://github.com/racket/srfi"
 S="${S}/srfi-doc-nonfree"
 

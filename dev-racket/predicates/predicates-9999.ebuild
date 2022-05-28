@@ -8,7 +8,7 @@ GH_REPO="jackfirth/predicates"
 
 inherit racket gh
 
-DESCRIPTION="the predicates Racket package"
+DESCRIPTION="The predicates Racket package"
 HOMEPAGE="https://github.com/jackfirth/predicates"
 
 LICENSE="all-rights-reserved"

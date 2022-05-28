@@ -8,7 +8,7 @@ GH_REPO="djholtby/uwaterloo-racket"
 
 inherit racket gh
 
-DESCRIPTION="the htdp-trace Racket package"
+DESCRIPTION="The htdp-trace Racket package"
 HOMEPAGE="https://git.uwaterloo.ca/djholtby/uwaterloo-racket"
 S="${S}/htdp-trace"
 

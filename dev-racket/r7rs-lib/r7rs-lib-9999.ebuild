@@ -8,7 +8,7 @@ GH_REPO="lexi-lambda/racket-r7rs"
 
 inherit racket gh
 
-DESCRIPTION="the r7rs-lib Racket package"
+DESCRIPTION="The r7rs-lib Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/racket-r7rs"
 S="${S}/r7rs-lib"
 

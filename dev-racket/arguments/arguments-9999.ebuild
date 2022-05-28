@@ -8,7 +8,7 @@ GH_REPO="jackfirth/racket-mock"
 
 inherit racket gh
 
-DESCRIPTION="the arguments Racket package"
+DESCRIPTION="The arguments Racket package"
 HOMEPAGE="https://github.com/jackfirth/racket-mock"
 S="${S}/arguments"
 

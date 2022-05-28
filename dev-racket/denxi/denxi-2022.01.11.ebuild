@@ -9,7 +9,7 @@ GH_COMMIT="a9006d4b4a1dc3d2b6a41ce151a435c614522924"
 
 inherit racket gh
 
-DESCRIPTION="the denxi Racket package"
+DESCRIPTION="The denxi Racket package"
 HOMEPAGE="https://github.com/zyrolasting/denxi"
 
 LICENSE="all-rights-reserved"

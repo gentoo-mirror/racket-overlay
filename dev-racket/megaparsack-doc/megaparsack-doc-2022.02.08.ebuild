@@ -9,7 +9,7 @@ GH_COMMIT="0ccdee4270da0337700ac62aa106735d0d879695"
 
 inherit racket gh
 
-DESCRIPTION="the megaparsack-doc Racket package"
+DESCRIPTION="The megaparsack-doc Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/megaparsack"
 S="${S}/megaparsack-doc"
 
@@ -22,4 +22,4 @@ RDEPEND="dev-racket/functional-doc
 	dev-racket/functional-lib
 	dev-racket/megaparsack-lib
 	dev-racket/megaparsack-parser-tools"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

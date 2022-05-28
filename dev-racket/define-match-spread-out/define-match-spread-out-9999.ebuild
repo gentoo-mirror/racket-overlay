@@ -18,4 +18,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/defpat
 	dev-racket/scribble-code-examples
 	dev-racket/unstable-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

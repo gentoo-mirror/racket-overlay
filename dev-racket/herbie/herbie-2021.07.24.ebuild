@@ -21,4 +21,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/fpbench
 	dev-racket/regraph
 	dev-racket/rival"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -9,7 +9,7 @@ GH_COMMIT="bee78e540656affb42fb33debd234a03a248dbe4"
 
 inherit racket gh
 
-DESCRIPTION="the ziptie-git Racket package"
+DESCRIPTION="The ziptie-git Racket package"
 HOMEPAGE="https://gitlab.com/xgqt/racket-ziptie"
 S="${S}/src/ziptie-git"
 

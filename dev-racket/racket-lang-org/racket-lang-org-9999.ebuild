@@ -26,4 +26,4 @@ RDEPEND="dev-racket/css-tools
 	dev-racket/s3-sync
 	dev-racket/sugar
 	dev-racket/txexpr"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

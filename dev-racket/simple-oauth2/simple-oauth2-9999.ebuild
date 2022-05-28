@@ -21,4 +21,4 @@ RDEPEND="dev-racket/cover-coveralls
 	dev-racket/net-jwt
 	dev-racket/rackunit-spec
 	dev-racket/threading"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

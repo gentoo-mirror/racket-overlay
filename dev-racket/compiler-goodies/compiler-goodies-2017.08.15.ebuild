@@ -9,7 +9,7 @@ GH_COMMIT="4378d1039bd958ee4bfddafc5ec4dd8ef15bd5bb"
 
 inherit racket gh
 
-DESCRIPTION="the compiler-goodies Racket package"
+DESCRIPTION="The compiler-goodies Racket package"
 HOMEPAGE="https://github.com/LeifAndersen/racket-compiler-goodies"
 
 LICENSE="all-rights-reserved"

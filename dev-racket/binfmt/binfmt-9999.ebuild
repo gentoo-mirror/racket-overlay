@@ -8,7 +8,7 @@ GH_REPO="Bogdanp/racket-binfmt"
 
 inherit racket gh
 
-DESCRIPTION="the binfmt Racket package"
+DESCRIPTION="The binfmt Racket package"
 HOMEPAGE="https://github.com/Bogdanp/racket-binfmt"
 S="${S}/binfmt"
 

@@ -20,4 +20,4 @@ RDEPEND="dev-racket/beautiful-racket-lib
 	dev-racket/debug
 	dev-racket/graph
 	dev-racket/sugar"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

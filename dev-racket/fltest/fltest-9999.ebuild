@@ -8,7 +8,7 @@ GH_REPO="samth/fltest"
 
 inherit racket gh
 
-DESCRIPTION="the fltest Racket package"
+DESCRIPTION="The fltest Racket package"
 HOMEPAGE="https://github.com/samth/fltest"
 
 LICENSE="all-rights-reserved"

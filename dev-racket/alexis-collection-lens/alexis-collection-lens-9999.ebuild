@@ -21,4 +21,4 @@ RDEPEND="dev-racket/alexis-collections
 	dev-racket/curly-fn
 	dev-racket/doc-coverage
 	dev-racket/lens"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

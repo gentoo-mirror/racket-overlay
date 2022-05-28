@@ -9,7 +9,7 @@ GH_COMMIT="c648ec2aad6d2b2ec72acc729143454d1e855cf6"
 
 inherit racket gh
 
-DESCRIPTION="the anaphoric Racket package"
+DESCRIPTION="The anaphoric Racket package"
 HOMEPAGE="https://github.com/jsmaniac/anaphoric"
 
 LICENSE="all-rights-reserved"

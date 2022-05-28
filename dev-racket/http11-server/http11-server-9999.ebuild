@@ -8,7 +8,7 @@ GH_REPO="RayRacine/http11-server"
 
 inherit racket gh
 
-DESCRIPTION="the http11-server Racket package"
+DESCRIPTION="The http11-server Racket package"
 HOMEPAGE="https://gitlab.com/RayRacine/http11-server"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/http11
 	dev-racket/string-util
 	dev-racket/uri"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

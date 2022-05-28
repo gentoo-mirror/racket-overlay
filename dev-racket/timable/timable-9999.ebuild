@@ -8,7 +8,7 @@ GH_REPO="yanyingwang/timable"
 
 inherit racket gh
 
-DESCRIPTION="the timable Racket package"
+DESCRIPTION="The timable Racket package"
 HOMEPAGE="https://github.com/yanyingwang/timable"
 
 LICENSE="all-rights-reserved"
@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/gregor
 	dev-racket/scribble-rainbow-delimiters"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

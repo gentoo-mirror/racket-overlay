@@ -8,7 +8,7 @@ GH_REPO="jbclements/sqlite-table"
 
 inherit racket gh
 
-DESCRIPTION="the sqlite-table Racket package"
+DESCRIPTION="The sqlite-table Racket package"
 HOMEPAGE="https://github.com/jbclements/sqlite-table"
 
 LICENSE="all-rights-reserved"

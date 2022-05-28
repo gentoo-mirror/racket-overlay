@@ -8,7 +8,7 @@ GH_REPO="massung/racket-canvas-list"
 
 inherit racket gh
 
-DESCRIPTION="the canvas-list Racket package"
+DESCRIPTION="The canvas-list Racket package"
 HOMEPAGE="https://github.com/massung/racket-canvas-list"
 
 LICENSE="all-rights-reserved"

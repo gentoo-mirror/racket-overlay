@@ -8,7 +8,7 @@ GH_REPO="198d/ratel"
 
 inherit racket gh
 
-DESCRIPTION="the ratel Racket package"
+DESCRIPTION="The ratel Racket package"
 HOMEPAGE="https://github.com/198d/ratel"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/threading"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

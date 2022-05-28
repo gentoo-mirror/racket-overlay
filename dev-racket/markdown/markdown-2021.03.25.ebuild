@@ -20,4 +20,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/parsack
 	dev-racket/sexp-diff-lib
 	dev-racket/threading-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

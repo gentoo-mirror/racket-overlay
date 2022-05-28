@@ -9,7 +9,7 @@ GH_COMMIT="88126ffb4b6bd164b5ce9b07d1336f402dffc9e7"
 
 inherit racket gh
 
-DESCRIPTION="the layout Racket package"
+DESCRIPTION="The layout Racket package"
 HOMEPAGE="https://github.com/SimonLSchlee/layout"
 
 LICENSE="all-rights-reserved"
@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/rackunit-chk
 	dev-racket/reprovide-lang-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

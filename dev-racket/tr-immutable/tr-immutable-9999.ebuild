@@ -8,7 +8,7 @@ GH_REPO="jsmaniac/tr-immutable"
 
 inherit racket gh
 
-DESCRIPTION="the tr-immutable Racket package"
+DESCRIPTION="The tr-immutable Racket package"
 HOMEPAGE="https://github.com/jsmaniac/tr-immutable"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/typed-map-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -9,7 +9,7 @@ GH_COMMIT="0ccdee4270da0337700ac62aa106735d0d879695"
 
 inherit racket gh
 
-DESCRIPTION="the megaparsack-lib Racket package"
+DESCRIPTION="The megaparsack-lib Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/megaparsack"
 S="${S}/megaparsack-lib"
 
@@ -21,4 +21,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/curly-fn-lib
 	dev-racket/functional-lib
 	dev-racket/match-plus"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

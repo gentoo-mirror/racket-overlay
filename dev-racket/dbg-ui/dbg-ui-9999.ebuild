@@ -19,4 +19,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/canvas-list
 	dev-racket/dbg
 	dev-racket/gui-easy-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

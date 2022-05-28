@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/asn1-doc
 	dev-racket/asn1-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

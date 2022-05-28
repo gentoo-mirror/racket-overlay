@@ -9,7 +9,7 @@ GH_COMMIT="878adb4d3e7ae9af320f0331a67ddedea9b4746e"
 
 inherit racket gh
 
-DESCRIPTION="the try-catch Racket package"
+DESCRIPTION="The try-catch Racket package"
 HOMEPAGE="https://github.com/dstorrs/try-catch"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/syntax-classes-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

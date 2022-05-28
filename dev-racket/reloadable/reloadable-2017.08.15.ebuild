@@ -9,7 +9,7 @@ GH_COMMIT="cae2a141955bc2e0d068153f2cd07f88e6a6e9ef"
 
 inherit racket gh
 
-DESCRIPTION="the reloadable Racket package"
+DESCRIPTION="The reloadable Racket package"
 HOMEPAGE="https://github.com/tonyg/racket-reloadable"
 
 LICENSE="all-rights-reserved"

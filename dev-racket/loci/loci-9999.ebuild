@@ -8,7 +8,7 @@ GH_REPO="pmatos/racket-loci"
 
 inherit racket gh
 
-DESCRIPTION="the loci Racket package"
+DESCRIPTION="The loci Racket package"
 HOMEPAGE="https://github.com/pmatos/racket-loci"
 
 LICENSE="all-rights-reserved"

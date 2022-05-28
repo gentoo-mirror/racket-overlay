@@ -19,4 +19,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/match-plus
 	dev-racket/static-rename
 	dev-racket/threading"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

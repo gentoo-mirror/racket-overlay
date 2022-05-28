@@ -8,7 +8,7 @@ GH_REPO="racket-tw/k"
 
 inherit racket gh
 
-DESCRIPTION="Test of k"
+DESCRIPTION="The k-test Racket package"
 HOMEPAGE="https://github.com/racket-tw/k"
 S="${S}/k-test"
 

@@ -18,4 +18,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/component-lib
 	dev-racket/koyo-lib
 	dev-racket/north"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

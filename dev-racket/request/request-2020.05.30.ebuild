@@ -9,7 +9,7 @@ GH_COMMIT="fa78b05f5f063e767bcdb38a3d46cb4ff911ed56"
 
 inherit racket gh
 
-DESCRIPTION="the request Racket package"
+DESCRIPTION="The request Racket package"
 HOMEPAGE="https://github.com/jackfirth/racket-request"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/fancy-app"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

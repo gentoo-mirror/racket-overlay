@@ -20,4 +20,4 @@ RDEPEND="dev-racket/turnstile-doc
 	dev-racket/turnstile-example
 	dev-racket/turnstile-lib
 	dev-racket/turnstile-test"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

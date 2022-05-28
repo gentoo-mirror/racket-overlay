@@ -20,4 +20,4 @@ RDEPEND="dev-racket/gregor-doc
 	dev-racket/gregor-lib
 	dev-racket/splitflap-lib
 	dev-racket/txexpr"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -9,7 +9,7 @@ GH_COMMIT="8d6b6340d99f81ba2742ed36b359586f15562338"
 
 inherit racket gh
 
-DESCRIPTION="the base64 Racket package"
+DESCRIPTION="The base64 Racket package"
 HOMEPAGE="https://github.com/rmculpepper/racket-base64"
 S="${S}/base64"
 
@@ -19,4 +19,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/base64-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

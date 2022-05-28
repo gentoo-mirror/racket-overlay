@@ -23,4 +23,4 @@ RDEPEND="dev-racket/basedir
 	dev-racket/shell-pipeline
 	dev-racket/text-table
 	dev-racket/udelim"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/fexpress-doc
 	dev-racket/fexpress-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

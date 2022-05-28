@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/effection-doc
 	dev-racket/effection-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

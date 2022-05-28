@@ -8,7 +8,7 @@ GH_REPO="soegaard/sketching"
 
 inherit racket gh
 
-DESCRIPTION="the sketching-lib Racket package"
+DESCRIPTION="The sketching-lib Racket package"
 HOMEPAGE="https://github.com/soegaard/sketching"
 S="${S}/sketching-lib"
 
@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/cairo-lib
 	dev-racket/noise"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

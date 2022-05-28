@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/cover-coveralls
 	dev-racket/http"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

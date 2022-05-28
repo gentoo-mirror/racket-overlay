@@ -20,4 +20,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/crypto
 	dev-racket/option-bind
 	dev-racket/sha"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

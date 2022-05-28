@@ -9,7 +9,7 @@ GH_COMMIT="218e8862718327696b2a7cd2e1ae82800a653306"
 
 inherit racket gh
 
-DESCRIPTION="the tr-immutable Racket package"
+DESCRIPTION="The tr-immutable Racket package"
 HOMEPAGE="https://github.com/jsmaniac/tr-immutable"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/typed-map-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

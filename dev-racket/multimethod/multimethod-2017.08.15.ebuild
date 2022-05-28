@@ -9,7 +9,7 @@ GH_COMMIT="8a0903ebaedd919971c382eeb785f05080c7a8d6"
 
 inherit racket gh
 
-DESCRIPTION="the multimethod Racket package"
+DESCRIPTION="The multimethod Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/racket-multimethod"
 S="${S}/multimethod"
 
@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/multimethod-doc
 	dev-racket/multimethod-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

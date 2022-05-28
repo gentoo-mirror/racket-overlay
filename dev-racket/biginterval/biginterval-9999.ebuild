@@ -8,7 +8,7 @@ GH_REPO="oflatt/biginterval"
 
 inherit racket gh
 
-DESCRIPTION="the biginterval Racket package"
+DESCRIPTION="The biginterval Racket package"
 HOMEPAGE="https://github.com/oflatt/biginterval"
 
 LICENSE="all-rights-reserved"

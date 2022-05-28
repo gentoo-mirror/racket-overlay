@@ -8,7 +8,7 @@ GH_REPO="philnguyen/set-extras"
 
 inherit racket gh
 
-DESCRIPTION="the set-extras Racket package"
+DESCRIPTION="The set-extras Racket package"
 HOMEPAGE="https://github.com/philnguyen/set-extras"
 S="${S}/set-extras"
 

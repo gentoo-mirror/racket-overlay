@@ -8,7 +8,7 @@ GH_REPO="jackfirth/racket-expect"
 
 inherit racket gh
 
-DESCRIPTION="the expect Racket package"
+DESCRIPTION="The expect Racket package"
 HOMEPAGE="https://github.com/jackfirth/racket-expect"
 
 LICENSE="all-rights-reserved"
@@ -20,4 +20,4 @@ RDEPEND="dev-racket/arguments
 	dev-racket/fancy-app
 	dev-racket/reprovide-lang
 	dev-racket/syntax-classes-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

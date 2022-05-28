@@ -8,7 +8,7 @@ GH_REPO="dstorrs/majordomo2"
 
 inherit racket gh
 
-DESCRIPTION="the majordomo2 Racket package"
+DESCRIPTION="The majordomo2 Racket package"
 HOMEPAGE="https://github.com/dstorrs/majordomo2"
 
 LICENSE="all-rights-reserved"
@@ -19,4 +19,4 @@ RDEPEND="dev-racket/handy
 	dev-racket/queue
 	dev-racket/struct-plus-plus
 	dev-racket/thread-with-id"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

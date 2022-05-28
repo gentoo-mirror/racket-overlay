@@ -9,7 +9,7 @@ GH_COMMIT="ff9eca58487ec393fc2d8580e5d1aafedcd20808"
 
 inherit racket gh
 
-DESCRIPTION="the icfp2017-minikanren Racket package"
+DESCRIPTION="The icfp2017-minikanren Racket package"
 HOMEPAGE="https://github.com/AlexKnauth/icfp2017-artifact-auas7pp"
 S="${S}/src"
 

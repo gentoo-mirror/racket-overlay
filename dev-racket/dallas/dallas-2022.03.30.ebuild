@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/dallas-doc
 	dev-racket/dallas-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

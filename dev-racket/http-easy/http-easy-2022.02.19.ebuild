@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/memoize-lib
 	dev-racket/resource-pool-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

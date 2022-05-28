@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/binaryio-lib
 	dev-racket/gmp-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

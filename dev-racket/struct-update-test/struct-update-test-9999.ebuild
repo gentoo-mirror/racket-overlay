@@ -8,7 +8,7 @@ GH_REPO="lexi-lambda/struct-update"
 
 inherit racket gh
 
-DESCRIPTION="the struct-update-test Racket package"
+DESCRIPTION="The struct-update-test Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/struct-update"
 S="${S}/struct-update-test"
 
@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/rackunit-spec
 	dev-racket/struct-update-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

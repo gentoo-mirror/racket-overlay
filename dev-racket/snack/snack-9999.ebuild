@@ -7,7 +7,7 @@ PROPERTIES=live
 
 inherit racket
 
-DESCRIPTION="the snack Racket package"
+DESCRIPTION="The snack Racket package"
 HOMEPAGE="https://pkgs.racket-lang.org/package/snack"
 S="${WORKDIR}/${PN}"
 
@@ -17,7 +17,7 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/reprovide-lang"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"
 
 src_unpack() {
 	wget -O "${T}/snack.zip" "https://www.cs.toronto.edu/~gfb/racket-pkgs/snack.zip"

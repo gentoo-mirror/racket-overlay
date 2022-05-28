@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/asn1-lib
 	dev-racket/crypto-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

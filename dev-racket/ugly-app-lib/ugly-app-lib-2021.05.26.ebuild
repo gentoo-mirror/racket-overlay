@@ -9,7 +9,7 @@ GH_COMMIT="86f2670f27cb7e09eb80e4494f80b54528701c7a"
 
 inherit racket gh
 
-DESCRIPTION="the ugly-app-lib Racket package"
+DESCRIPTION="The ugly-app-lib Racket package"
 HOMEPAGE="https://github.com/AlexKnauth/ugly-app"
 S="${S}/ugly-app-lib"
 
@@ -19,4 +19,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/fancy-app"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -8,7 +8,7 @@ GH_REPO="racket/racket"
 
 inherit racket gh
 
-DESCRIPTION="the plt-services Racket package"
+DESCRIPTION="The plt-services Racket package"
 HOMEPAGE="https://github.com/racket/racket"
 S="${S}/pkgs/plt-services"
 

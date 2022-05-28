@@ -19,4 +19,4 @@ RDEPEND="dev-racket/collections
 	dev-racket/curly-fn
 	dev-racket/lens-common
 	dev-racket/lens-doc"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

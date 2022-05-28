@@ -9,7 +9,7 @@ GH_COMMIT="0d588584da13673e28d8d1276794620c51130c64"
 
 inherit racket gh
 
-DESCRIPTION="the rascas Racket package"
+DESCRIPTION="The rascas Racket package"
 HOMEPAGE="https://github.com/Metaxal/rascas"
 
 LICENSE="all-rights-reserved"

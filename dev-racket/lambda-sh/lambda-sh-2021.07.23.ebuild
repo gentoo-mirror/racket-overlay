@@ -9,7 +9,7 @@ GH_COMMIT="3918cc1c3f0a52487f5ccf1b8f742386d57704ff"
 
 inherit racket gh
 
-DESCRIPTION="the lambda-sh Racket package"
+DESCRIPTION="The lambda-sh Racket package"
 HOMEPAGE="https://github.com/wargrey/lambda-shell"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/digimon"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

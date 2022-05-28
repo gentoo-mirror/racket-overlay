@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/binaryio
 	dev-racket/sha"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

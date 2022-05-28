@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/forms-doc
 	dev-racket/forms-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

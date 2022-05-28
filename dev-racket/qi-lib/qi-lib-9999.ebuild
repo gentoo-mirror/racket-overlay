@@ -20,4 +20,4 @@ RDEPEND="dev-racket/adjutor
 	dev-racket/fancy-app
 	dev-racket/mischief
 	dev-racket/typed-stack"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

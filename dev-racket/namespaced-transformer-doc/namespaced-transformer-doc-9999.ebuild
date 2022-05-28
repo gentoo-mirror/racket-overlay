@@ -8,7 +8,7 @@ GH_REPO="lexi-lambda/namespaced-transformer"
 
 inherit racket gh
 
-DESCRIPTION="the namespaced-transformer-doc Racket package"
+DESCRIPTION="The namespaced-transformer-doc Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/namespaced-transformer"
 S="${S}/namespaced-transformer-doc"
 
@@ -17,4 +17,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/namespaced-transformer-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

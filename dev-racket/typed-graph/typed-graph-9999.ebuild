@@ -18,4 +18,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/gen-queue-lib
 	dev-racket/graph-doc
 	dev-racket/graph-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

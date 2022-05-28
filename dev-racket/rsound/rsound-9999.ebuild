@@ -8,7 +8,7 @@ GH_REPO="jbclements/RSound"
 
 inherit racket gh
 
-DESCRIPTION="the rsound Racket package"
+DESCRIPTION="The rsound Racket package"
 HOMEPAGE="https://github.com/jbclements/RSound"
 
 LICENSE="all-rights-reserved"
@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/memoize
 	dev-racket/portaudio"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

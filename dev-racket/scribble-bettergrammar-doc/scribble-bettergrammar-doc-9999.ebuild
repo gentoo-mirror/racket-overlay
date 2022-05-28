@@ -8,7 +8,7 @@ GH_REPO="wilbowma/scribble-bettergrammar"
 
 inherit racket gh
 
-DESCRIPTION="the scribble-bettergrammar-doc Racket package"
+DESCRIPTION="The scribble-bettergrammar-doc Racket package"
 HOMEPAGE="https://github.com/wilbowma/scribble-bettergrammar"
 S="${S}/scribble-bettergrammar-doc"
 
@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/scribble-bettergrammar-lib
 	dev-racket/sexp-diff-doc"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

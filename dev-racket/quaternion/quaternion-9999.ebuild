@@ -8,7 +8,7 @@ GH_REPO="APOS80/Quaternion"
 
 inherit racket gh
 
-DESCRIPTION="the Quaternion Racket package"
+DESCRIPTION="The Quaternion Racket package"
 HOMEPAGE="https://github.com/APOS80/Quaternion"
 
 LICENSE="all-rights-reserved"

@@ -25,4 +25,4 @@ RDEPEND="dev-racket/colormaps
 	dev-racket/loess
 	dev-racket/simple-polynomial
 	dev-racket/threading-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

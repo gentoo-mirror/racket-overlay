@@ -8,7 +8,7 @@ GH_REPO="AlexKnauth/mutable-match-lambda"
 
 inherit racket gh
 
-DESCRIPTION="the mutable-match-lambda Racket package"
+DESCRIPTION="The mutable-match-lambda Racket package"
 HOMEPAGE="https://github.com/AlexKnauth/mutable-match-lambda"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/kw-utils"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -8,7 +8,7 @@ GH_REPO="dstorrs/file-metadata"
 
 inherit racket gh
 
-DESCRIPTION="the file-metadata Racket package"
+DESCRIPTION="The file-metadata Racket package"
 HOMEPAGE="https://github.com/dstorrs/file-metadata"
 
 LICENSE="all-rights-reserved"

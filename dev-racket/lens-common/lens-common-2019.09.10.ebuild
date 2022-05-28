@@ -22,7 +22,7 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/fancy-app
 	dev-racket/reprovide-lang-lib
 	dev-racket/sweet-exp-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"
 PDEPEND="dev-racket/lens-data"
 
 src_compile() {

@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/make-log-interceptor
 	dev-racket/rackunit-abbrevs"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

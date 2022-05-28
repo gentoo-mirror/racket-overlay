@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/binary-class
 	dev-racket/fast-convert"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

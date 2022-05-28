@@ -8,7 +8,7 @@ GH_REPO="malcolmstill/pollen-count"
 
 inherit racket gh
 
-DESCRIPTION="the pollen-count Racket package"
+DESCRIPTION="The pollen-count Racket package"
 HOMEPAGE="https://github.com/malcolmstill/pollen-count"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/txexpr"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

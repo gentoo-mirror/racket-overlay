@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/simple-http"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

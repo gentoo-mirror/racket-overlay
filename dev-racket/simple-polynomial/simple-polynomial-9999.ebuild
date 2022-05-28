@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/simple-matrix"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/rackunit-spec
 	dev-racket/static-rename-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

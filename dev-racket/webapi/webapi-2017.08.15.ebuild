@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/html-writing
 	dev-racket/sxml"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

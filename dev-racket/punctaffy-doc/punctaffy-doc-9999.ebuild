@@ -8,7 +8,7 @@ GH_REPO="lathe/punctaffy-for-racket"
 
 inherit racket gh
 
-DESCRIPTION="the punctaffy-doc Racket package"
+DESCRIPTION="The punctaffy-doc Racket package"
 HOMEPAGE="https://github.com/lathe/punctaffy-for-racket"
 S="${S}/punctaffy-doc"
 
@@ -25,4 +25,4 @@ RDEPEND="dev-racket/brag
 	dev-racket/parendown-lib
 	dev-racket/punctaffy-lib
 	dev-racket/ragg"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

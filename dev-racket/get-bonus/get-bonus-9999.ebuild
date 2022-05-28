@@ -24,4 +24,4 @@ RDEPEND="dev-racket/3s
 	dev-racket/openal
 	dev-racket/opengl
 	dev-racket/pfds"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

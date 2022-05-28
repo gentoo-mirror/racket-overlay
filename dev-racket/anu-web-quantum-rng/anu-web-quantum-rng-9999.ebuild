@@ -8,7 +8,7 @@ GH_REPO="Tetsumi/anu-web-quantum-rng"
 
 inherit racket gh
 
-DESCRIPTION="the ANU-Web-Quantum-RNG Racket package"
+DESCRIPTION="The ANU-Web-Quantum-RNG Racket package"
 HOMEPAGE="https://bitbucket.org/Tetsumi/anu-web-quantum-rng"
 
 LICENSE="all-rights-reserved"

@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/markparam-doc
 	dev-racket/markparam-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -9,7 +9,7 @@ GH_COMMIT="154610bbe33f3fe0abdee6c016cde534048c50fb"
 
 inherit racket gh
 
-DESCRIPTION="the object-backtrace Racket package"
+DESCRIPTION="The object-backtrace Racket package"
 HOMEPAGE="https://github.com/samth/object-backtrace"
 
 LICENSE="all-rights-reserved"

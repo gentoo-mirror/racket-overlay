@@ -7,7 +7,7 @@ PROPERTIES=live
 
 inherit racket
 
-DESCRIPTION="the tightlight Racket package"
+DESCRIPTION="The tightlight Racket package"
 HOMEPAGE="https://pkgs.racket-lang.org/package/tightlight"
 S="${WORKDIR}/${PN}"
 
@@ -17,7 +17,7 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/snack"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"
 
 src_unpack() {
 	wget -O "${T}/tightlight.zip" "https://www.cs.toronto.edu/~gfb/racket-pkgs/tightlight.zip"

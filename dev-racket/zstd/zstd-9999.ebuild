@@ -8,7 +8,7 @@ GH_REPO="~williewillus/racket-zstd"
 
 inherit racket gh
 
-DESCRIPTION="the zstd Racket package"
+DESCRIPTION="The zstd Racket package"
 HOMEPAGE="https://git.sr.ht/~williewillus/racket-zstd"
 
 LICENSE="all-rights-reserved"

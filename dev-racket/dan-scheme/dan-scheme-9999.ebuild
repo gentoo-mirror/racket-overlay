@@ -8,7 +8,7 @@ GH_REPO="david-christiansen/dan-scheme"
 
 inherit racket gh
 
-DESCRIPTION="the dan-scheme Racket package"
+DESCRIPTION="The dan-scheme Racket package"
 HOMEPAGE="https://github.com/david-christiansen/dan-scheme"
 
 LICENSE="all-rights-reserved"

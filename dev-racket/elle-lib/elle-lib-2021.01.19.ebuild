@@ -9,7 +9,7 @@ GH_COMMIT="87053a6ba8e12c15823395149fe74a62ebb77fee"
 
 inherit racket gh
 
-DESCRIPTION="the elle-lib Racket package"
+DESCRIPTION="The elle-lib Racket package"
 HOMEPAGE="https://github.com/tail-reversion/elle"
 S="${S}/elle-lib"
 
@@ -19,4 +19,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/rebellion"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -8,7 +8,7 @@ GH_REPO="mflatt/plait"
 
 inherit racket gh
 
-DESCRIPTION="the plait Racket package"
+DESCRIPTION="The plait Racket package"
 HOMEPAGE="https://github.com/mflatt/plait"
 
 LICENSE="all-rights-reserved"

@@ -8,7 +8,7 @@ GH_REPO="mbutterick/brag"
 
 inherit racket gh
 
-DESCRIPTION="the brag-lib Racket package"
+DESCRIPTION="The brag-lib Racket package"
 HOMEPAGE="https://github.com/mbutterick/brag"
 S="${S}/brag-lib"
 
@@ -17,4 +17,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/br-parser-tools-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

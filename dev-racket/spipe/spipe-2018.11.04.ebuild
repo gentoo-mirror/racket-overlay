@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/nested-hash
 	dev-racket/threading"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

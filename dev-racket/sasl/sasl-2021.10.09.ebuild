@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/sasl-doc
 	dev-racket/sasl-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

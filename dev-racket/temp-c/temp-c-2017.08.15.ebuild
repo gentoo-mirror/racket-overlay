@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/temp-c-doc
 	dev-racket/temp-c-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

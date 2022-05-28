@@ -22,4 +22,4 @@ RDEPEND="dev-racket/collections-lib
 	dev-racket/curly-fn-lib
 	dev-racket/functional-lib
 	dev-racket/megaparsack-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

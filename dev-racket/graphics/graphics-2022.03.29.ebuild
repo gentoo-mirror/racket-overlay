@@ -20,7 +20,7 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/digimon"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"
 PDEPEND="dev-racket/w3s"
 
 src_compile() {

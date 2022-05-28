@@ -9,7 +9,7 @@ GH_COMMIT="52d5acb0339dc38a6410f853957d57f90f566131"
 
 inherit racket gh
 
-DESCRIPTION="the ekans Racket package"
+DESCRIPTION="The ekans Racket package"
 HOMEPAGE="https://github.com/kalxd/ekans"
 
 LICENSE="all-rights-reserved"

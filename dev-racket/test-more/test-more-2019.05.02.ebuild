@@ -9,7 +9,7 @@ GH_COMMIT="659c90a27ffd575bf95b0eb60ec594a3e7420f16"
 
 inherit racket gh
 
-DESCRIPTION="the test-more Racket package"
+DESCRIPTION="The test-more Racket package"
 HOMEPAGE="https://github.com/dstorrs/racket-test-more"
 
 LICENSE="all-rights-reserved"

@@ -8,7 +8,7 @@ GH_REPO="AlexKnauth/ugly-app"
 
 inherit racket gh
 
-DESCRIPTION="the ugly-app-lib Racket package"
+DESCRIPTION="The ugly-app-lib Racket package"
 HOMEPAGE="https://github.com/AlexKnauth/ugly-app"
 S="${S}/ugly-app-lib"
 
@@ -17,4 +17,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/fancy-app"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

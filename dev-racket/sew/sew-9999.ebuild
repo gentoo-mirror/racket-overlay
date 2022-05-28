@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/sew-doc
 	dev-racket/sew-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

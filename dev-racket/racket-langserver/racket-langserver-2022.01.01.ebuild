@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/chk
 	dev-racket/html-parsing"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

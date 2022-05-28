@@ -9,7 +9,7 @@ GH_COMMIT="b3f9839b6f8dcce4bf3fe9c15d5017214300924d"
 
 inherit racket gh
 
-DESCRIPTION="the macrotypes-nonstx Racket package"
+DESCRIPTION="The macrotypes-nonstx Racket package"
 HOMEPAGE="https://github.com/macrotypefunctors/macrotypes-nonstx"
 
 LICENSE="all-rights-reserved"
@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/agile
 	dev-racket/syntax-classes-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

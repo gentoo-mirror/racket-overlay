@@ -8,7 +8,7 @@ GH_REPO="curiousyogurt/turing"
 
 inherit racket gh
 
-DESCRIPTION="the turing Racket package"
+DESCRIPTION="The turing Racket package"
 HOMEPAGE="https://github.com/curiousyogurt/turing"
 
 LICENSE="all-rights-reserved"

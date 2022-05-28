@@ -8,7 +8,7 @@ GH_REPO="djholtby/uwaterloo-racket"
 
 inherit racket gh
 
-DESCRIPTION="the uwaterloo-racket-tools Racket package"
+DESCRIPTION="The uwaterloo-racket-tools Racket package"
 HOMEPAGE="https://git.uwaterloo.ca/djholtby/uwaterloo-racket"
 S="${S}/uwaterloo-racket-tools"
 
@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/graphic-block
 	dev-racket/htdp-trace"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

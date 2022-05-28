@@ -8,7 +8,7 @@ GH_REPO="LeifAndersen/racket-r-lexer"
 
 inherit racket gh
 
-DESCRIPTION="the r-lexer Racket package"
+DESCRIPTION="The r-lexer Racket package"
 HOMEPAGE="https://github.com/LeifAndersen/racket-r-lexer"
 
 LICENSE="all-rights-reserved"

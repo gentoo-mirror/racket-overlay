@@ -20,4 +20,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/graph-lib
 	dev-racket/natural-cli
 	dev-racket/txexpr"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

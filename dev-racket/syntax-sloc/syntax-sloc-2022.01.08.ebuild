@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/lang-file
 	dev-racket/scribble-code-examples"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

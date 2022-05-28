@@ -8,7 +8,7 @@ GH_REPO="mbutterick/br-parser-tools"
 
 inherit racket gh
 
-DESCRIPTION="the br-parser-tools Racket package"
+DESCRIPTION="The br-parser-tools Racket package"
 HOMEPAGE="https://github.com/mbutterick/br-parser-tools"
 S="${S}/br-parser-tools"
 
@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/br-parser-tools-doc
 	dev-racket/br-parser-tools-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

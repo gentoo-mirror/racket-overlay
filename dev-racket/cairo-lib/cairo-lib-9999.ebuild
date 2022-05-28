@@ -8,7 +8,7 @@ GH_REPO="soegaard/cairo"
 
 inherit racket gh
 
-DESCRIPTION="the cairo-lib Racket package"
+DESCRIPTION="The cairo-lib Racket package"
 HOMEPAGE="https://github.com/soegaard/cairo"
 S="${S}/cairo-lib"
 

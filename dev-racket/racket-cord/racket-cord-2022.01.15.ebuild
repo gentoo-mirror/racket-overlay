@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/http-easy
 	dev-racket/rfc6455"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

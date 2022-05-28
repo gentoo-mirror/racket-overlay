@@ -20,4 +20,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/sweet-exp
 	dev-racket/sweet-exp-lib
 	dev-racket/threading"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

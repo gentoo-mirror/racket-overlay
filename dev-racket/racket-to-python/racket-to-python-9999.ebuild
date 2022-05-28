@@ -8,7 +8,7 @@ GH_REPO="thoughtstem/racket-to-python"
 
 inherit racket gh
 
-DESCRIPTION="the racket-to-python Racket package"
+DESCRIPTION="The racket-to-python Racket package"
 HOMEPAGE="https://github.com/thoughtstem/racket-to-python"
 
 LICENSE="all-rights-reserved"

@@ -8,7 +8,7 @@ GH_REPO="FPBench/FPBench"
 
 inherit racket gh
 
-DESCRIPTION="the fpbench Racket package"
+DESCRIPTION="The fpbench Racket package"
 HOMEPAGE="https://github.com/FPBench/FPBench"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/generic-flonum"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

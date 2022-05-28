@@ -22,4 +22,4 @@ RDEPEND="dev-racket/data-frame
 	dev-racket/fancy-app
 	dev-racket/text-table
 	dev-racket/threading-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

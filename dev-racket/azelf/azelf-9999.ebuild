@@ -8,7 +8,7 @@ GH_REPO="kalxd/azelf"
 
 inherit racket gh
 
-DESCRIPTION="the azelf Racket package"
+DESCRIPTION="The azelf Racket package"
 HOMEPAGE="https://github.com/kalxd/azelf"
 
 LICENSE="all-rights-reserved"

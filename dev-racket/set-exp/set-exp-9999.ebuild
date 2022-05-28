@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/cover
 	dev-racket/doc-coverage"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -8,7 +8,7 @@ GH_REPO="rfindler/popl-2012-ryr-talk"
 
 inherit racket gh
 
-DESCRIPTION="the popl-2012-ryr-talk Racket package"
+DESCRIPTION="The popl-2012-ryr-talk Racket package"
 HOMEPAGE="https://github.com/rfindler/popl-2012-ryr-talk"
 
 LICENSE="all-rights-reserved"

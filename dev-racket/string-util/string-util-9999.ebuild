@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/list-util
 	dev-racket/opt"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

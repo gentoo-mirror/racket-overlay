@@ -9,7 +9,7 @@ GH_COMMIT="93abcae2b9ab1b77004cf65fbdc0a291680bc734"
 
 inherit racket gh
 
-DESCRIPTION="the tzgeolookup Racket package"
+DESCRIPTION="The tzgeolookup Racket package"
 HOMEPAGE="https://github.com/alex-hhh/tzgeolookup"
 
 LICENSE="all-rights-reserved"

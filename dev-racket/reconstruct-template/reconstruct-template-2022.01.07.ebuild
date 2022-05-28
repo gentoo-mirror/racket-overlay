@@ -9,7 +9,7 @@ GH_COMMIT="2d055080bdbd0e59bcbe4d4ed644565135a1d80e"
 
 inherit racket gh
 
-DESCRIPTION="the reconstruct-template Racket package"
+DESCRIPTION="The reconstruct-template Racket package"
 HOMEPAGE="https://github.com/AlexKnauth/reconstruct-template"
 
 LICENSE="all-rights-reserved"

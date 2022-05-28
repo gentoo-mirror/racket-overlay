@@ -9,7 +9,7 @@ GH_COMMIT="c72c6c7678e44257bde7a8a4973196b064a9237f"
 
 inherit racket gh
 
-DESCRIPTION="the unicode-properties Racket package"
+DESCRIPTION="The unicode-properties Racket package"
 HOMEPAGE="https://github.com/jbclements/unicode-props"
 
 LICENSE="all-rights-reserved"

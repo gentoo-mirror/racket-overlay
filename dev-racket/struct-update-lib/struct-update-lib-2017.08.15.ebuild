@@ -9,7 +9,7 @@ GH_COMMIT="8ce456cde8764ae27c348123ec9e01e76826d536"
 
 inherit racket gh
 
-DESCRIPTION="the struct-update-lib Racket package"
+DESCRIPTION="The struct-update-lib Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/struct-update"
 S="${S}/struct-update-lib"
 
@@ -19,4 +19,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/syntax-classes-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

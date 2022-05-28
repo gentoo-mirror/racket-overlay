@@ -9,7 +9,7 @@ GH_COMMIT="8a55ab77a1c2e2d835c782dff25fbb7d8732fa34"
 
 inherit racket gh
 
-DESCRIPTION="the fuzzy-search Racket package"
+DESCRIPTION="The fuzzy-search Racket package"
 HOMEPAGE="https://github.com/zyrolasting/fuzzy-search"
 
 LICENSE="all-rights-reserved"

@@ -8,7 +8,7 @@ GH_REPO="vishesh/elasticsearch.rkt"
 
 inherit racket gh
 
-DESCRIPTION="the elasticsearch Racket package"
+DESCRIPTION="The elasticsearch Racket package"
 HOMEPAGE="https://github.com/vishesh/elasticsearch.rkt"
 
 LICENSE="all-rights-reserved"

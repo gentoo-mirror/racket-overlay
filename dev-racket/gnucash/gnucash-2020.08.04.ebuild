@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/memoize
 	dev-racket/sxml"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

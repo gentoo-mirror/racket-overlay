@@ -22,4 +22,4 @@ RDEPEND="dev-racket/asn1-doc
 	dev-racket/crypto-lib
 	dev-racket/scramble
 	dev-racket/x509-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -33,4 +33,4 @@ RDEPEND="dev-racket/debug
 	dev-racket/social-contract
 	dev-racket/threading-doc
 	dev-racket/tmux-vim-demo"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

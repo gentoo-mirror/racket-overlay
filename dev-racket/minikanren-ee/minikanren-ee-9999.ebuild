@@ -8,7 +8,7 @@ GH_REPO="michaelballantyne/minikanren-ee"
 
 inherit racket gh
 
-DESCRIPTION="the minikanren-ee Racket package"
+DESCRIPTION="The minikanren-ee Racket package"
 HOMEPAGE="https://github.com/michaelballantyne/minikanren-ee"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/ee-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

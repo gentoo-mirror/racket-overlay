@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/gregor-lib
 	dev-racket/tzinfo"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -9,7 +9,7 @@ GH_COMMIT="4d64d35259d69ee8d5c90f475fe777c66d54c8fd"
 
 inherit racket gh
 
-DESCRIPTION="the syntax-classes-lib Racket package"
+DESCRIPTION="The syntax-classes-lib Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/syntax-classes"
 S="${S}/syntax-classes-lib"
 

@@ -9,7 +9,7 @@ GH_COMMIT="03bd59bea2aa6e0a855de28fb5bb18769ed04b3b"
 
 inherit racket gh
 
-DESCRIPTION="the wffi Racket package"
+DESCRIPTION="The wffi Racket package"
 HOMEPAGE="https://github.com/greghendershott/wffi"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/http"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

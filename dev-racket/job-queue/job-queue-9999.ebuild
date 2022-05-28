@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/job-queue-doc
 	dev-racket/job-queue-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

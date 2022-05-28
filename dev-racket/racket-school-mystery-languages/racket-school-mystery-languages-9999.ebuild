@@ -8,7 +8,7 @@ GH_REPO="justinpombrio/RacketSchool"
 
 inherit racket gh
 
-DESCRIPTION="the racket-school-mystery-languages Racket package"
+DESCRIPTION="The racket-school-mystery-languages Racket package"
 HOMEPAGE="https://github.com/justinpombrio/RacketSchool"
 
 LICENSE="all-rights-reserved"

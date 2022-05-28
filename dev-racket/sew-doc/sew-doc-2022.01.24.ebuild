@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/parendown-lib
 	dev-racket/sew-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

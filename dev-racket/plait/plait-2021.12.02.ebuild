@@ -9,7 +9,7 @@ GH_COMMIT="8d842132a11ab7c7621c428c609dcddc2769d145"
 
 inherit racket gh
 
-DESCRIPTION="the plait Racket package"
+DESCRIPTION="The plait Racket package"
 HOMEPAGE="https://github.com/mflatt/plait"
 
 LICENSE="all-rights-reserved"

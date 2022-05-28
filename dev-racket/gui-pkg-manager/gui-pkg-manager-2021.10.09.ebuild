@@ -19,4 +19,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/gui-pkg-manager-doc"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

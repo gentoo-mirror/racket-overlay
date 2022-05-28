@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/texmath"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

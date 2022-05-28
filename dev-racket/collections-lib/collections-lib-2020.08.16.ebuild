@@ -8,7 +8,7 @@ AUX_PH=be2285cd3da0e2fffe651a8ab723185bb669425d
 
 inherit racket
 
-DESCRIPTION="the collections-lib Racket package"
+DESCRIPTION="The collections-lib Racket package"
 HOMEPAGE="https://pkgs.racket-lang.org/package/collections-lib"
 SRC_URI="https://github.com/lexi-lambda/racket-collections/archive/${MAIN_PH}.tar.gz -> ${P}.tar.gz
 	https://github.com/lexi-lambda/functional/archive/${AUX_PH}.tar.gz -> ${PN}_aux_functional-lib-${PV}.tar.gz"
@@ -23,7 +23,7 @@ RDEPEND="dev-racket/curly-fn-lib
 	dev-racket/match-plus
 	dev-racket/static-rename
 	dev-racket/unstable-list-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"
 PDEPEND="dev-racket/functional-lib"
 
 src_compile() {

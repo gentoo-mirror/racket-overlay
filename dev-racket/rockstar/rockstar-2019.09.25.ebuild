@@ -9,7 +9,7 @@ GH_COMMIT="47723774e7ec6995eedd8fba27856b58ab056f71"
 
 inherit racket gh
 
-DESCRIPTION="the rockstar Racket package"
+DESCRIPTION="The rockstar Racket package"
 HOMEPAGE="https://github.com/whichxjy/rockstar-rkt"
 S="${S}/rockstar"
 
@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/beautiful-racket-lib
 	dev-racket/brag-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

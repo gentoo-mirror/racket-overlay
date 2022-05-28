@@ -21,4 +21,4 @@ RDEPEND="dev-racket/html-parsing
 	dev-racket/html-writing
 	dev-racket/sxml
 	dev-racket/webapi"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

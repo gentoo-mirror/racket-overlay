@@ -23,4 +23,4 @@ RDEPEND="dev-racket/component-lib
 	dev-racket/gregor-lib
 	dev-racket/mime-type-lib
 	dev-racket/raco-invoke"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

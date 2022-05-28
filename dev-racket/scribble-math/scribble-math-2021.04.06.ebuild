@@ -9,7 +9,7 @@ GH_COMMIT="a69b6fad193757de5a62b6a1cabacb7557d02ff7"
 
 inherit racket gh
 
-DESCRIPTION="the scribble-math Racket package"
+DESCRIPTION="The scribble-math Racket package"
 HOMEPAGE="https://github.com/jsmaniac/scribble-math"
 
 LICENSE="all-rights-reserved"

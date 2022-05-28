@@ -4,12 +4,12 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="failed-dragon-slayer/racket-llvm"
+GH_REPO="dannypsnl/racket-llvm"
 
 inherit racket gh
 
 DESCRIPTION="racket llvm C-API bindings"
-HOMEPAGE="https://github.com/failed-dragon-slayer/racket-llvm"
+HOMEPAGE="https://github.com/dannypsnl/racket-llvm"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

@@ -8,7 +8,7 @@ GH_REPO="jbclements/molis-hai"
 
 inherit racket gh
 
-DESCRIPTION="the molis-hai Racket package"
+DESCRIPTION="The molis-hai Racket package"
 HOMEPAGE="https://github.com/jbclements/molis-hai"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/pfds"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

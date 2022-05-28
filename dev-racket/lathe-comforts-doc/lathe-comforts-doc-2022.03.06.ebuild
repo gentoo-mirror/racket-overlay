@@ -22,4 +22,4 @@ RDEPEND="dev-racket/lathe-comforts-lib
 	dev-racket/parendown-doc
 	dev-racket/parendown-lib
 	dev-racket/reprovide-lang-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -8,7 +8,7 @@ GH_REPO="dstorrs/try-catch"
 
 inherit racket gh
 
-DESCRIPTION="the try-catch Racket package"
+DESCRIPTION="The try-catch Racket package"
 HOMEPAGE="https://github.com/dstorrs/try-catch"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/syntax-classes-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

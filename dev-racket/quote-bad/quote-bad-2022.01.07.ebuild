@@ -20,4 +20,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/hygienic-quote-lang
 	dev-racket/unstable-lib
 	dev-racket/unstable-macro-testing-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

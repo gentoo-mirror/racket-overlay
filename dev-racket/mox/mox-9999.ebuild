@@ -18,4 +18,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/digimon
 	dev-racket/graphics
 	dev-racket/w3s"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

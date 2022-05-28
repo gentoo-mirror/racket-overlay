@@ -9,7 +9,7 @@ GH_COMMIT="0b5908a810b710bae7a8e0bc89f6468c81d12f92"
 
 inherit racket gh
 
-DESCRIPTION="the thread-with-id Racket package"
+DESCRIPTION="The thread-with-id Racket package"
 HOMEPAGE="https://github.com/dstorrs/thread-with-id"
 
 LICENSE="all-rights-reserved"

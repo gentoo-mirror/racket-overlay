@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/libgit2"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

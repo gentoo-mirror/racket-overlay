@@ -18,4 +18,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/find-parent-dir
 	dev-racket/frog
 	dev-racket/sxml"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -17,4 +17,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/box-extra-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

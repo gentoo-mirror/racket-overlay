@@ -9,7 +9,7 @@ GH_COMMIT="0f19dd7364b69507a6f5d41ea4d77f85b24d5449"
 
 inherit racket gh
 
-DESCRIPTION="the r-lexer Racket package"
+DESCRIPTION="The r-lexer Racket package"
 HOMEPAGE="https://github.com/LeifAndersen/racket-r-lexer"
 
 LICENSE="all-rights-reserved"

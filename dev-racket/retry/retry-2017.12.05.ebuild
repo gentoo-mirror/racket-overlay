@@ -24,4 +24,4 @@ RDEPEND="dev-racket/compose-app
 	dev-racket/mock
 	dev-racket/mock-rackunit
 	dev-racket/reprovide-lang"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

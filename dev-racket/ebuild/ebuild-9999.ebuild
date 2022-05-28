@@ -22,4 +22,4 @@ RDEPEND="dev-racket/ebuild-doc
 	dev-racket/ebuild-test
 	dev-racket/ebuild-tools
 	dev-racket/ebuild-transformers"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

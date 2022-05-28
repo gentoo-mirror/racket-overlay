@@ -8,7 +8,7 @@ GH_REPO="jpverkamp/noise"
 
 inherit racket gh
 
-DESCRIPTION="the noise Racket package"
+DESCRIPTION="The noise Racket package"
 HOMEPAGE="https://github.com/jpverkamp/noise"
 
 LICENSE="all-rights-reserved"

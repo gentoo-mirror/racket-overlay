@@ -9,7 +9,7 @@ GH_COMMIT="056fb5aa887474a2ed29a18ba1cb651306fb2477"
 
 inherit racket gh
 
-DESCRIPTION="the lti-freq-domain-toolbox Racket package"
+DESCRIPTION="The lti-freq-domain-toolbox Racket package"
 HOMEPAGE="https://github.com/istefanis/lti-freq-domain-toolbox"
 
 LICENSE="all-rights-reserved"

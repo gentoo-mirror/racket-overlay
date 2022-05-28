@@ -9,7 +9,7 @@ GH_COMMIT="e5994d6b0e11bae486679af2bcfa38442f0e5093"
 
 inherit racket gh
 
-DESCRIPTION="the table-panel Racket package"
+DESCRIPTION="The table-panel Racket package"
 HOMEPAGE="https://github.com/spdegabrielle/table-panel"
 
 LICENSE="all-rights-reserved"

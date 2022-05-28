@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/global
 	dev-racket/search-list-box"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

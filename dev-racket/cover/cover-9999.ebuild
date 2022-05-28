@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/cover-doc
 	dev-racket/cover-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

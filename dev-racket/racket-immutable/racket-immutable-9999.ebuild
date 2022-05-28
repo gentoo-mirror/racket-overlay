@@ -8,7 +8,7 @@ GH_REPO="AlexKnauth/racket-immutable"
 
 inherit racket gh
 
-DESCRIPTION="the racket-immutable Racket package"
+DESCRIPTION="The racket-immutable Racket package"
 HOMEPAGE="https://github.com/AlexKnauth/racket-immutable"
 
 LICENSE="all-rights-reserved"

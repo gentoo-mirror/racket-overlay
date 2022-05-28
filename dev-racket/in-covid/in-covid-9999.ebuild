@@ -22,4 +22,4 @@ RDEPEND="dev-racket/data-frame
 	dev-racket/http-easy
 	dev-racket/sawzall-lib
 	dev-racket/threading-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

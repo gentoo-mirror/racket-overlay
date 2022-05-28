@@ -9,7 +9,7 @@ GH_COMMIT="685d60091bff0428c2ec3cd8c4f63c8ef8b28de5"
 
 inherit racket gh
 
-DESCRIPTION="the operational-transformation-lib Racket package"
+DESCRIPTION="The operational-transformation-lib Racket package"
 HOMEPAGE="https://github.com/tonyg/racket-operational-transformation"
 S="${S}/operational-transformation-lib"
 

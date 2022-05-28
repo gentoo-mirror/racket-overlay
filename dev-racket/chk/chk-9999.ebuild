@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/chk-doc
 	dev-racket/chk-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

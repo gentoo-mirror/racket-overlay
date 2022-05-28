@@ -9,7 +9,7 @@ GH_COMMIT="f52c2a80c9cb6840b96532c2ca1371d12aea61e7"
 
 inherit racket gh
 
-DESCRIPTION="the brag Racket package"
+DESCRIPTION="The brag Racket package"
 HOMEPAGE="https://github.com/mbutterick/brag"
 S="${S}/brag"
 
@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/br-parser-tools-doc
 	dev-racket/brag-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

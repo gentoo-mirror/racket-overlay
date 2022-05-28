@@ -9,7 +9,7 @@ GH_COMMIT="72103db75c07d52d9027b34f0960532e235f9c10"
 
 inherit racket gh
 
-DESCRIPTION="the behavior Racket package"
+DESCRIPTION="The behavior Racket package"
 HOMEPAGE="https://github.com/johnstonskj/behavior"
 
 LICENSE="all-rights-reserved"
@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/cover-coveralls
 	dev-racket/scribble-math"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

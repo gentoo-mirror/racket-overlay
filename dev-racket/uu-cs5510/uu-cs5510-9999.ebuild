@@ -18,4 +18,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/plai-lazy
 	dev-racket/plai-typed
 	dev-racket/plai-typed-s-exp-match"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

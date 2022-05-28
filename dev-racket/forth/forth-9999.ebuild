@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/rackunit-abbrevs"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

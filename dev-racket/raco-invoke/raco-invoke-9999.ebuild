@@ -8,7 +8,7 @@ GH_REPO="Bogdanp/raco-invoke"
 
 inherit racket gh
 
-DESCRIPTION="the raco-invoke Racket package"
+DESCRIPTION="The raco-invoke Racket package"
 HOMEPAGE="https://github.com/Bogdanp/raco-invoke"
 
 LICENSE="all-rights-reserved"

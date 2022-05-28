@@ -9,7 +9,7 @@ GH_COMMIT="d64cd71d5b386be85f5979edae6f6b6469a4df86"
 
 inherit racket gh
 
-DESCRIPTION="the curly-fn-lib Racket package"
+DESCRIPTION="The curly-fn-lib Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/racket-curly-fn"
 S="${S}/curly-fn-lib"
 
@@ -19,4 +19,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/namespaced-transformer-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

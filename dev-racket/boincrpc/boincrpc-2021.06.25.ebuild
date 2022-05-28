@@ -9,7 +9,7 @@ GH_COMMIT="f05dc275c2dac7196b65058f26af9ca9e074aef6"
 
 inherit racket gh
 
-DESCRIPTION="the boincrpc Racket package"
+DESCRIPTION="The boincrpc Racket package"
 HOMEPAGE="https://github.com/parnikkapore/rkt-boincrpc"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/libquiche"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

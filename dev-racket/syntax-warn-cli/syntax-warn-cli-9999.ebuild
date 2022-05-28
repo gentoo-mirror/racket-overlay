@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/syntax-warn-base
 	dev-racket/syntax-warn-lang"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

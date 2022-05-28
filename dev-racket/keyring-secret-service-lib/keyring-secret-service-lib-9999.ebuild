@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/dbus
 	dev-racket/keyring-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

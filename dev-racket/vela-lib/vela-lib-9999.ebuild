@@ -8,7 +8,7 @@ GH_REPO="nuty/vela"
 
 inherit racket gh
 
-DESCRIPTION="vela-lib"
+DESCRIPTION="The vela-lib Racket package"
 HOMEPAGE="https://github.com/nuty/vela"
 S="${S}/vela-lib"
 

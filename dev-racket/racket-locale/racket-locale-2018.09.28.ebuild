@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/cover-coveralls
 	dev-racket/gregor-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

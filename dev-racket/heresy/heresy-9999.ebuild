@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/rackjure
 	dev-racket/unstable-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

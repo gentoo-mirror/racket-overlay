@@ -19,4 +19,4 @@ RDEPEND="dev-racket/markdown
 	dev-racket/rackjure
 	dev-racket/sugar
 	dev-racket/txexpr"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

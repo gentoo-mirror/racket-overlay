@@ -9,7 +9,7 @@ GH_COMMIT="847bd5f42903fa1b357125cee67b9a2addf240c6"
 
 inherit racket gh
 
-DESCRIPTION="the latex-pict Racket package"
+DESCRIPTION="The latex-pict Racket package"
 HOMEPAGE="https://github.com/soegaard/latex-pict"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/racket-poppler"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

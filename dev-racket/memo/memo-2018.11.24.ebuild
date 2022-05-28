@@ -20,4 +20,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/finalizer
 	dev-racket/nested-hash
 	dev-racket/thread-utils"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

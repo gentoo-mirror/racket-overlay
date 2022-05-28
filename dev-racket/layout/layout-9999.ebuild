@@ -8,7 +8,7 @@ GH_REPO="SimonLSchlee/layout"
 
 inherit racket gh
 
-DESCRIPTION="the layout Racket package"
+DESCRIPTION="The layout Racket package"
 HOMEPAGE="https://github.com/SimonLSchlee/layout"
 
 LICENSE="all-rights-reserved"
@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/rackunit-chk
 	dev-racket/reprovide-lang-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

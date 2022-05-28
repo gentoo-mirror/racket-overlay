@@ -19,4 +19,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/lens-lib
 	dev-racket/reprovide-lang-lib
 	dev-racket/sweet-exp-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

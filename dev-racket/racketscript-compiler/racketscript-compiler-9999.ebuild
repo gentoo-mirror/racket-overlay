@@ -19,4 +19,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/anaphoric
 	dev-racket/graph-lib
 	dev-racket/threading"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

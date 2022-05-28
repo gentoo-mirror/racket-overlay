@@ -19,4 +19,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/alexis-util
 	dev-racket/cover
 	dev-racket/cover-coveralls"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

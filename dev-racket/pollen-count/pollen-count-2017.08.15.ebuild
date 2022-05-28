@@ -9,7 +9,7 @@ GH_COMMIT="c4da923debcf40d0558ea4cb97c8a7bd4f35f34b"
 
 inherit racket gh
 
-DESCRIPTION="the pollen-count Racket package"
+DESCRIPTION="The pollen-count Racket package"
 HOMEPAGE="https://github.com/malcolmstill/pollen-count"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/txexpr"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

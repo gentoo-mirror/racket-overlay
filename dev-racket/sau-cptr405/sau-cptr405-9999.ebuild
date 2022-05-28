@@ -17,7 +17,7 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/plait"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"
 
 src_unpack() {
 	wget -O "${T}/sau-cptr-405.zip" "http://computing.southern.edu/rordonez/class/CPTR-405/sau-cptr-405.zip"

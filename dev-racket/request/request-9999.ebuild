@@ -8,7 +8,7 @@ GH_REPO="jackfirth/racket-request"
 
 inherit racket gh
 
-DESCRIPTION="the request Racket package"
+DESCRIPTION="The request Racket package"
 HOMEPAGE="https://github.com/jackfirth/racket-request"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/fancy-app"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

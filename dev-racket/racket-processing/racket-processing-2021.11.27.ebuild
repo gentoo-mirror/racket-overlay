@@ -9,7 +9,7 @@ GH_COMMIT="c4c51b528fa10fe69f89cc7b7c27bb3388ad11c7"
 
 inherit racket gh
 
-DESCRIPTION="the racket-processing Racket package"
+DESCRIPTION="The racket-processing Racket package"
 HOMEPAGE="https://github.com/thoughtstem/racket-processing"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/racket-to"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

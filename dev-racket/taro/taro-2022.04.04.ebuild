@@ -9,7 +9,7 @@ GH_COMMIT="df5c03e04cd1c45772fd1ae5942606bd376291ea"
 
 inherit racket gh
 
-DESCRIPTION="Taro lang"
+DESCRIPTION="The taro Racket package"
 HOMEPAGE="https://github.com/orreksu/taro"
 
 LICENSE="all-rights-reserved"

@@ -20,4 +20,4 @@ RDEPEND="dev-racket/html-parsing
 	dev-racket/rackunit-abbrevs
 	dev-racket/sxml
 	dev-racket/with-cache"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

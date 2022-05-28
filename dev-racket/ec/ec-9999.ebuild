@@ -8,7 +8,7 @@ GH_REPO="marckn0x/ec"
 
 inherit racket gh
 
-DESCRIPTION="the ec Racket package"
+DESCRIPTION="The ec Racket package"
 HOMEPAGE="https://github.com/marckn0x/ec"
 
 LICENSE="all-rights-reserved"
@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/binaryio
 	dev-racket/crypto-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

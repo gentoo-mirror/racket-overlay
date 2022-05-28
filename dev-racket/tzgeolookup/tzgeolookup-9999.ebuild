@@ -8,7 +8,7 @@ GH_REPO="alex-hhh/tzgeolookup"
 
 inherit racket gh
 
-DESCRIPTION="the tzgeolookup Racket package"
+DESCRIPTION="The tzgeolookup Racket package"
 HOMEPAGE="https://github.com/alex-hhh/tzgeolookup"
 
 LICENSE="all-rights-reserved"

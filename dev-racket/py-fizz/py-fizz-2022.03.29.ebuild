@@ -9,7 +9,7 @@ GH_COMMIT="46047397ab9bbac86ab15a3e6e952777f5754fdf"
 
 inherit racket gh
 
-DESCRIPTION="the py-fizz Racket package"
+DESCRIPTION="The py-fizz Racket package"
 HOMEPAGE="https://github.com/thoughtstem/py-fizz"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/racket-to-python"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

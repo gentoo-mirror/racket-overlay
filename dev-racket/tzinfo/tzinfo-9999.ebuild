@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/cldr-core
 	dev-racket/tzdata"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

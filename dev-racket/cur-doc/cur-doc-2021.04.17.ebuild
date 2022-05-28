@@ -9,7 +9,7 @@ GH_COMMIT="7ce536c14e4e18cc84a7011a70f37cb98e21cf97"
 
 inherit racket gh
 
-DESCRIPTION="the cur-doc Racket package"
+DESCRIPTION="The cur-doc Racket package"
 HOMEPAGE="https://github.com/wilbowma/cur"
 S="${S}/cur-doc"
 
@@ -19,4 +19,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/cur-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

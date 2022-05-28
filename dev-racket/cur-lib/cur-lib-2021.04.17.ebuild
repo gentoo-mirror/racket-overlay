@@ -9,7 +9,7 @@ GH_COMMIT="7ce536c14e4e18cc84a7011a70f37cb98e21cf97"
 
 inherit racket gh
 
-DESCRIPTION="the cur-lib Racket package"
+DESCRIPTION="The cur-lib Racket package"
 HOMEPAGE="https://github.com/wilbowma/cur"
 S="${S}/cur-lib"
 
@@ -21,4 +21,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/macrotypes-lib
 	dev-racket/reprovide-lang-lib
 	dev-racket/turnstile-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

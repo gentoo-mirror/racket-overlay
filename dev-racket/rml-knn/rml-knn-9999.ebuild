@@ -8,7 +8,7 @@ GH_REPO="johnstonskj/rml-knn"
 
 inherit racket gh
 
-DESCRIPTION="the rml-knn Racket package"
+DESCRIPTION="The rml-knn Racket package"
 HOMEPAGE="https://github.com/johnstonskj/rml-knn"
 
 LICENSE="all-rights-reserved"
@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/cover-coveralls
 	dev-racket/rml-core"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

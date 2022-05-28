@@ -21,4 +21,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/disposable
 	dev-racket/doc-coverage
 	dev-racket/fixture"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

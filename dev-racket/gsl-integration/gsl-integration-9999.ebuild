@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/scribble-math"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -9,7 +9,7 @@ GH_COMMIT="b885937074fa2c8ac0db4df2f84f11ea3e52ddcf"
 
 inherit racket gh
 
-DESCRIPTION="the sdraw Racket package"
+DESCRIPTION="The sdraw Racket package"
 HOMEPAGE="https://github.com/jackrosenthal/sdraw-racket"
 
 LICENSE="all-rights-reserved"

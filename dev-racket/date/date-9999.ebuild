@@ -8,7 +8,7 @@ GH_REPO="RayRacine/date"
 
 inherit racket gh
 
-DESCRIPTION="the date Racket package"
+DESCRIPTION="The date Racket package"
 HOMEPAGE="https://gitlab.com/RayRacine/date"
 
 LICENSE="all-rights-reserved"

@@ -22,4 +22,4 @@ RDEPEND="dev-racket/cover
 	dev-racket/fancy-app
 	dev-racket/lens
 	dev-racket/sweet-exp"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

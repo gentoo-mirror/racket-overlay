@@ -9,7 +9,7 @@ GH_COMMIT="c4822fc200b0488922cd6e86b4f2ea7cf8c565da"
 
 inherit racket gh
 
-DESCRIPTION="the collections-test Racket package"
+DESCRIPTION="The collections-test Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/racket-collections"
 S="${S}/collections-test"
 
@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/collections-lib
 	dev-racket/match-plus"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

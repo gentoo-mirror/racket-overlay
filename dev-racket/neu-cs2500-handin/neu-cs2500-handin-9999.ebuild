@@ -8,7 +8,7 @@ GH_REPO="nuprl/cs2500-client"
 
 inherit racket gh
 
-DESCRIPTION="the neu-cs2500-handin Racket package"
+DESCRIPTION="The neu-cs2500-handin Racket package"
 HOMEPAGE="https://github.com/nuprl/cs2500-client"
 
 LICENSE="all-rights-reserved"

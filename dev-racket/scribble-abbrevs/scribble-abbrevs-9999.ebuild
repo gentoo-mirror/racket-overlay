@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/rackunit-abbrevs
 	dev-racket/reprovide-lang-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

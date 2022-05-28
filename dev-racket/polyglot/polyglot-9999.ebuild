@@ -8,7 +8,7 @@ GH_REPO="zyrolasting/polyglot"
 
 inherit racket gh
 
-DESCRIPTION="the polyglot Racket package"
+DESCRIPTION="The polyglot Racket package"
 HOMEPAGE="https://github.com/zyrolasting/polyglot"
 S="${S}/polyglot"
 
@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/polyglot-doc
 	dev-racket/polyglot-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -9,7 +9,7 @@ GH_COMMIT="a6840bb97bb384b92c612960aca676e31662453c"
 
 inherit racket gh
 
-DESCRIPTION="the doodle Racket package"
+DESCRIPTION="The doodle Racket package"
 HOMEPAGE="https://github.com/LeifAndersen/doodle"
 
 LICENSE="all-rights-reserved"

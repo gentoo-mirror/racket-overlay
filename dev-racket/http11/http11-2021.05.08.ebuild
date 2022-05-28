@@ -21,4 +21,4 @@ RDEPEND="dev-racket/date
 	dev-racket/opt
 	dev-racket/string-util
 	dev-racket/uri"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

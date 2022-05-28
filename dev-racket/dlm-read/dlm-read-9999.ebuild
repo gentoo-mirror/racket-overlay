@@ -8,7 +8,7 @@ GH_REPO="LeifAndersen/racket-dlm-read"
 
 inherit racket gh
 
-DESCRIPTION="the dlm-read Racket package"
+DESCRIPTION="The dlm-read Racket package"
 HOMEPAGE="https://github.com/LeifAndersen/racket-dlm-read"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/csv-reading"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

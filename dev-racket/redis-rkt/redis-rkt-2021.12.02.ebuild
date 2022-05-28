@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/redis-doc
 	dev-racket/redis-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

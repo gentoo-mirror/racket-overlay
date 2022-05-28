@@ -9,7 +9,7 @@ GH_COMMIT="1c38c3804b8f4d87d5036d67018839276bdf6875"
 
 inherit racket gh
 
-DESCRIPTION="the calendar Racket package"
+DESCRIPTION="The calendar Racket package"
 HOMEPAGE="https://github.com/LeifAndersen/racket-calendar"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/gregor-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

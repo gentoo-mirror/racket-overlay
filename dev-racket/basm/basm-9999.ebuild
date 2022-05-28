@@ -8,7 +8,7 @@ GH_REPO="pythondude325/basm"
 
 inherit racket gh
 
-DESCRIPTION="the basm Racket package"
+DESCRIPTION="The basm Racket package"
 HOMEPAGE="https://gitlab.com/pythondude325/basm"
 
 LICENSE="all-rights-reserved"

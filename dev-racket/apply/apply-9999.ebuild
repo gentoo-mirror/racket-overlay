@@ -8,7 +8,7 @@ GH_REPO="zaoqil/apply"
 
 inherit racket gh
 
-DESCRIPTION="the apply Racket package"
+DESCRIPTION="The apply Racket package"
 HOMEPAGE="https://github.com/zaoqil/apply"
 S="${S}/apply"
 

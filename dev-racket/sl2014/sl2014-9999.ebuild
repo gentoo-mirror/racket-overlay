@@ -8,7 +8,7 @@ GH_REPO="mfelleisen/sl2014"
 
 inherit racket gh
 
-DESCRIPTION="the sl2014 Racket package"
+DESCRIPTION="The sl2014 Racket package"
 HOMEPAGE="https://github.com/mfelleisen/sl2014"
 
 LICENSE="all-rights-reserved"

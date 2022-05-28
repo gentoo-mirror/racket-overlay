@@ -8,7 +8,7 @@ GH_REPO="cemcutting/forged-ocelot"
 
 inherit racket gh
 
-DESCRIPTION="the forged-ocelot Racket package"
+DESCRIPTION="The forged-ocelot Racket package"
 HOMEPAGE="https://github.com/cemcutting/forged-ocelot"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/rosette"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

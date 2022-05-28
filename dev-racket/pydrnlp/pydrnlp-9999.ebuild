@@ -25,4 +25,4 @@ RDEPEND="dev-racket/_-exp
 	dev-racket/ricoeur-kernel
 	dev-racket/ricoeur-tei-utils
 	dev-racket/sql"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

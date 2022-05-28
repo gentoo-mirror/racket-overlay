@@ -18,4 +18,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/frog
 	dev-racket/gregor
 	dev-racket/timable"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/interconfection-doc
 	dev-racket/interconfection-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

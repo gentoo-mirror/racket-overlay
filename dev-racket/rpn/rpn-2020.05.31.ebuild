@@ -9,7 +9,7 @@ GH_COMMIT="74ef351cae43bb64ba35a937f7a2ea664a82abdd"
 
 inherit racket gh
 
-DESCRIPTION="the rpn Racket package"
+DESCRIPTION="The rpn Racket package"
 HOMEPAGE="https://github.com/jackfirth/rpn"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/rebellion"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

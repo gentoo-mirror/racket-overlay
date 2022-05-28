@@ -8,7 +8,7 @@ GH_REPO="kflu/literify"
 
 inherit racket gh
 
-DESCRIPTION="the literify Racket package"
+DESCRIPTION="The literify Racket package"
 HOMEPAGE="https://github.com/kflu/literify"
 
 LICENSE="all-rights-reserved"

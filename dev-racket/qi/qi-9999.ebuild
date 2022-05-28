@@ -21,4 +21,4 @@ RDEPEND="dev-racket/qi-doc
 	dev-racket/qi-probe
 	dev-racket/qi-quickscripts
 	dev-racket/qi-test"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

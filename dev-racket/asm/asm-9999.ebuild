@@ -8,7 +8,7 @@ GH_REPO="lwhjp/racket-asm"
 
 inherit racket gh
 
-DESCRIPTION="the asm Racket package"
+DESCRIPTION="The asm Racket package"
 HOMEPAGE="https://github.com/lwhjp/racket-asm"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/binutils"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

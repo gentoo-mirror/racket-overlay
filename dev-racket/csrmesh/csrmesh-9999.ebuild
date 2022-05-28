@@ -18,4 +18,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/bitsyntax
 	dev-racket/crypto
 	dev-racket/word"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

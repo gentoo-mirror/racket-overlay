@@ -9,7 +9,7 @@ GH_COMMIT="b439a1d997df7bc6cf5d5c4f349355d84cb89e03"
 
 inherit racket gh
 
-DESCRIPTION="the Packrat Racket package"
+DESCRIPTION="The Packrat Racket package"
 HOMEPAGE="https://github.com/simonhaines/packrat"
 
 LICENSE="all-rights-reserved"

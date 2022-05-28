@@ -8,7 +8,7 @@ GH_REPO="nanopass/nanopass-framework-racket"
 
 inherit racket gh
 
-DESCRIPTION="the nanopass Racket package"
+DESCRIPTION="The nanopass Racket package"
 HOMEPAGE="https://github.com/nanopass/nanopass-framework-racket"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/unstable-pretty-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

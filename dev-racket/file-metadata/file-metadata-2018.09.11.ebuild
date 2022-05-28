@@ -9,7 +9,7 @@ GH_COMMIT="d8f90fdd911e0e97b754cb74d5963f2c3c465637"
 
 inherit racket gh
 
-DESCRIPTION="the file-metadata Racket package"
+DESCRIPTION="The file-metadata Racket package"
 HOMEPAGE="https://github.com/dstorrs/file-metadata"
 
 LICENSE="all-rights-reserved"

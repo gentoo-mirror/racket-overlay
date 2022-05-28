@@ -8,7 +8,7 @@ GH_REPO="soegaard/latex-pict"
 
 inherit racket gh
 
-DESCRIPTION="the latex-pict Racket package"
+DESCRIPTION="The latex-pict Racket package"
 HOMEPAGE="https://github.com/soegaard/latex-pict"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/racket-poppler"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

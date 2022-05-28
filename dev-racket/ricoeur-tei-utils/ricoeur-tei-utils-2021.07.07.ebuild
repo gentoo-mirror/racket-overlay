@@ -30,4 +30,4 @@ RDEPEND="dev-racket/_-exp
 	dev-racket/roman-numeral
 	dev-racket/sql
 	dev-racket/todo-list"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

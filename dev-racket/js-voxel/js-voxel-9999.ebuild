@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/glm
 	dev-racket/rfc6455"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

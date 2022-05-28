@@ -9,7 +9,7 @@ GH_COMMIT="5512b7f4c9dff6b2be445435b86babfc9b189fc8"
 
 inherit racket gh
 
-DESCRIPTION="the typed-struct-props Racket package"
+DESCRIPTION="The typed-struct-props Racket package"
 HOMEPAGE="https://github.com/jsmaniac/typed-struct-props"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/type-expander"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

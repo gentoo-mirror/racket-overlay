@@ -8,7 +8,7 @@ GH_REPO="lexi-lambda/racket-static-rename"
 
 inherit racket gh
 
-DESCRIPTION="the static-rename-lib Racket package"
+DESCRIPTION="The static-rename-lib Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/racket-static-rename"
 S="${S}/static-rename-lib"
 

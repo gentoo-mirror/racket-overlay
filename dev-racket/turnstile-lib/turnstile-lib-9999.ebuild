@@ -8,7 +8,7 @@ GH_REPO="stchang/macrotypes"
 
 inherit racket gh
 
-DESCRIPTION="the turnstile-lib Racket package"
+DESCRIPTION="The turnstile-lib Racket package"
 HOMEPAGE="https://github.com/stchang/macrotypes"
 S="${S}/turnstile-lib"
 
@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/lens-lib
 	dev-racket/macrotypes-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

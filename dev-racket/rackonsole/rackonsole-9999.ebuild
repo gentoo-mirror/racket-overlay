@@ -20,7 +20,7 @@ RDEPEND="dev-racket/charterm
 	dev-racket/gdbdump
 	dev-racket/mcfly
 	dev-racket/overeasy"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"
 
 src_unpack() {
 	wget -O "${T}/rackonsole.zip" "http://www.neilvandyke.org/racket/rackonsole.zip"

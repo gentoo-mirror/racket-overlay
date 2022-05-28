@@ -9,7 +9,7 @@ GH_COMMIT="2cdb598e6c79e8499e545abc078d6f9a572ca8b0"
 
 inherit racket gh
 
-DESCRIPTION="the quad-tree Racket package"
+DESCRIPTION="The quad-tree Racket package"
 HOMEPAGE="https://github.com/dented42/racket-quad-tree"
 S="${S}/quad-tree"
 

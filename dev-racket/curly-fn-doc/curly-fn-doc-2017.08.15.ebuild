@@ -9,7 +9,7 @@ GH_COMMIT="d64cd71d5b386be85f5979edae6f6b6469a4df86"
 
 inherit racket gh
 
-DESCRIPTION="the curly-fn-doc Racket package"
+DESCRIPTION="The curly-fn-doc Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/racket-curly-fn"
 S="${S}/curly-fn-doc"
 
@@ -22,4 +22,4 @@ RDEPEND="dev-racket/curly-fn-lib
 	dev-racket/namespaced-transformer-doc
 	dev-racket/namespaced-transformer-lib
 	dev-racket/scribble-code-examples"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

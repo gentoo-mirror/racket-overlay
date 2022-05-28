@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/misc1"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

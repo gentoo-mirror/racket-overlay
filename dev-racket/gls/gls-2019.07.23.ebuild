@@ -9,7 +9,7 @@ GH_COMMIT="82f2f504a3ccf534126020baedb406f813863143"
 
 inherit racket gh
 
-DESCRIPTION="the gls Racket package"
+DESCRIPTION="The gls Racket package"
 HOMEPAGE="https://github.com/Kalimehtar/gls"
 
 LICENSE="all-rights-reserved"

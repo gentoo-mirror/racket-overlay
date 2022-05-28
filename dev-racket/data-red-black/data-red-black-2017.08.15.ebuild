@@ -9,7 +9,7 @@ GH_COMMIT="d473dd82c5406c8954f70060fe3764bf72d92a90"
 
 inherit racket gh
 
-DESCRIPTION="the data-red-black Racket package"
+DESCRIPTION="The data-red-black Racket package"
 HOMEPAGE="https://github.com/dyoo/data-red-black"
 
 LICENSE="all-rights-reserved"

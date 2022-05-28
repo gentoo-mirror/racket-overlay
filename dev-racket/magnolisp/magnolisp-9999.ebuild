@@ -8,7 +8,7 @@ GH_REPO="bldl/magnolisp"
 
 inherit racket gh
 
-DESCRIPTION="Magnolisp"
+DESCRIPTION="The magnolisp Racket package"
 HOMEPAGE="https://github.com/bldl/magnolisp"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/unstable-debug-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

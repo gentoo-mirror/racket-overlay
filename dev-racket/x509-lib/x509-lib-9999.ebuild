@@ -20,4 +20,4 @@ RDEPEND="dev-racket/asn1-lib
 	dev-racket/base64-lib
 	dev-racket/crypto-lib
 	dev-racket/scramble-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

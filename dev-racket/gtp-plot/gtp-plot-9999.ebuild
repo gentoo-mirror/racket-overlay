@@ -19,4 +19,4 @@ RDEPEND="dev-racket/gtp-util
 	dev-racket/rackunit-abbrevs
 	dev-racket/reprovide-lang
 	dev-racket/scribble-abbrevs"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

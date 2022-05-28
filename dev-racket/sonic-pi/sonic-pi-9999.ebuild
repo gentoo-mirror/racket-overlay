@@ -8,7 +8,7 @@ GH_REPO="jbclements/sonic-pi"
 
 inherit racket gh
 
-DESCRIPTION="the sonic-pi Racket package"
+DESCRIPTION="The sonic-pi Racket package"
 HOMEPAGE="https://github.com/jbclements/sonic-pi"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/osc"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

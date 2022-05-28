@@ -9,7 +9,7 @@ GH_COMMIT="c31a089e749b4854ab4f63e427881f79bca615d2"
 
 inherit racket gh
 
-DESCRIPTION="the cairo-test Racket package"
+DESCRIPTION="The cairo-test Racket package"
 HOMEPAGE="https://github.com/soegaard/cairo"
 S="${S}/cairo-test"
 
@@ -19,4 +19,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/cairo-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

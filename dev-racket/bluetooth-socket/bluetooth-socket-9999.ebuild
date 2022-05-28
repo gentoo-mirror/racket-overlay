@@ -8,7 +8,7 @@ GH_REPO="RayRacine/bluetooth-socket"
 
 inherit racket gh
 
-DESCRIPTION="the bluetooth-socket Racket package"
+DESCRIPTION="The bluetooth-socket Racket package"
 HOMEPAGE="https://gitlab.com/RayRacine/bluetooth-socket"
 
 LICENSE="all-rights-reserved"

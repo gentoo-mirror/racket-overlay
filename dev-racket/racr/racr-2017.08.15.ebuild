@@ -9,7 +9,7 @@ GH_COMMIT="bee5a520ec663aa58673367a453c5d2a97e8d79c"
 
 inherit racket gh
 
-DESCRIPTION="the racr Racket package"
+DESCRIPTION="The racr Racket package"
 HOMEPAGE="https://github.com/eeide/racr"
 
 LICENSE="all-rights-reserved"

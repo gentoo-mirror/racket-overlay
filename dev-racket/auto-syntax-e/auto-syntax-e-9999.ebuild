@@ -8,7 +8,7 @@ GH_REPO="jsmaniac/auto-syntax-e"
 
 inherit racket gh
 
-DESCRIPTION="the auto-syntax-e Racket package"
+DESCRIPTION="The auto-syntax-e Racket package"
 HOMEPAGE="https://github.com/jsmaniac/auto-syntax-e"
 
 LICENSE="all-rights-reserved"

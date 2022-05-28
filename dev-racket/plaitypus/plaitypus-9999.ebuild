@@ -8,7 +8,7 @@ GH_REPO="stamourv/plaitypus"
 
 inherit racket gh
 
-DESCRIPTION="the plaitypus Racket package"
+DESCRIPTION="The plaitypus Racket package"
 HOMEPAGE="https://github.com/stamourv/plaitypus"
 
 LICENSE="all-rights-reserved"

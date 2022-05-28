@@ -21,4 +21,4 @@ RDEPEND="dev-racket/anaphoric
 	dev-racket/charterm
 	dev-racket/command-tree
 	dev-racket/reprovide-lang"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -9,7 +9,7 @@ GH_COMMIT="10ccd5208aab1c54cab3fe767c48b98f87f1e79d"
 
 inherit racket gh
 
-DESCRIPTION="the pkg-dep-draw Racket package"
+DESCRIPTION="The pkg-dep-draw Racket package"
 HOMEPAGE="https://github.com/mflatt/pkg-dep-draw"
 
 LICENSE="all-rights-reserved"

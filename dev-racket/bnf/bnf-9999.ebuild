@@ -17,4 +17,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/typed-struct-props"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

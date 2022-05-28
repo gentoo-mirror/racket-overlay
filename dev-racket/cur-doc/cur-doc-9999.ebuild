@@ -8,7 +8,7 @@ GH_REPO="wilbowma/cur"
 
 inherit racket gh
 
-DESCRIPTION="the cur-doc Racket package"
+DESCRIPTION="The cur-doc Racket package"
 HOMEPAGE="https://github.com/wilbowma/cur"
 S="${S}/cur-doc"
 
@@ -17,4 +17,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/cur-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

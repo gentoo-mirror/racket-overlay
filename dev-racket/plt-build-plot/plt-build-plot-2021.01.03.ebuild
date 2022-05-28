@@ -21,4 +21,4 @@ RDEPEND="dev-racket/aws
 	dev-racket/plt-service-monitor
 	dev-racket/plt-web-lib
 	dev-racket/s3-sync"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

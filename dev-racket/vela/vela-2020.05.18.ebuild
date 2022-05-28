@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/vela-docs
 	dev-racket/vela-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

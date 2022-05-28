@@ -8,7 +8,7 @@ GH_REPO="dstorrs/thread-with-id"
 
 inherit racket gh
 
-DESCRIPTION="the thread-with-id Racket package"
+DESCRIPTION="The thread-with-id Racket package"
 HOMEPAGE="https://github.com/dstorrs/thread-with-id"
 
 LICENSE="all-rights-reserved"

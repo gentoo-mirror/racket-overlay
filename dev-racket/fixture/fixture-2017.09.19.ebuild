@@ -9,7 +9,7 @@ GH_COMMIT="fafde5528ad6491cd9e87c078f9838eabc524a87"
 
 inherit racket gh
 
-DESCRIPTION="the fixture Racket package"
+DESCRIPTION="The fixture Racket package"
 HOMEPAGE="https://github.com/jackfirth/racket-fixture"
 
 LICENSE="all-rights-reserved"
@@ -21,4 +21,4 @@ RDEPEND="dev-racket/disposable
 	dev-racket/doc-coverage
 	dev-racket/fancy-app
 	dev-racket/reprovide-lang"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -9,7 +9,7 @@ GH_COMMIT="de70c9169b7bb6b6764c513c6caac25f533c79dc"
 
 inherit racket gh
 
-DESCRIPTION="the sonic-pi Racket package"
+DESCRIPTION="The sonic-pi Racket package"
 HOMEPAGE="https://github.com/jbclements/sonic-pi"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/osc"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

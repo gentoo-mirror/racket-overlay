@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/cover-lib
 	dev-racket/custom-load"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/sentry-doc
 	dev-racket/sentry-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

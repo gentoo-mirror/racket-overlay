@@ -8,7 +8,7 @@ GH_REPO="lexi-lambda/racket-collections"
 
 inherit racket gh
 
-DESCRIPTION="the collections-test Racket package"
+DESCRIPTION="The collections-test Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/racket-collections"
 S="${S}/collections-test"
 
@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/collections-lib
 	dev-racket/match-plus"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

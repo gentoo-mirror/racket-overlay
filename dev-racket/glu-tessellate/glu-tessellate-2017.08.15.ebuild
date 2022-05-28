@@ -9,7 +9,7 @@ GH_COMMIT="8efe65b35a2554be6dc613c016791ef2bf5ffb82"
 
 inherit racket gh
 
-DESCRIPTION="the glu-tessellate Racket package"
+DESCRIPTION="The glu-tessellate Racket package"
 HOMEPAGE="https://github.com/mflatt/glu-tessellate"
 
 LICENSE="all-rights-reserved"

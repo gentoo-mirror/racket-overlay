@@ -8,7 +8,7 @@ GH_REPO="jackfirth/rpn"
 
 inherit racket gh
 
-DESCRIPTION="the rpn Racket package"
+DESCRIPTION="The rpn Racket package"
 HOMEPAGE="https://github.com/jackfirth/rpn"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/rebellion"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

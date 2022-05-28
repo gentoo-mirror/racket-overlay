@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/mock
 	dev-racket/sweet-exp"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

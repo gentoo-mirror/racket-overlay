@@ -9,7 +9,7 @@ GH_COMMIT="60f91754bc9fd827c75f02a638ca7362142be1c3"
 
 inherit racket gh
 
-DESCRIPTION="the satore Racket package"
+DESCRIPTION="The satore Racket package"
 HOMEPAGE="https://github.com/Metaxal/satore"
 
 LICENSE="all-rights-reserved"
@@ -21,4 +21,4 @@ RDEPEND="dev-racket/bazaar
 	dev-racket/define2
 	dev-racket/global
 	dev-racket/text-table"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

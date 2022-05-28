@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/job-queue-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

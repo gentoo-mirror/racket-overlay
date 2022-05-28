@@ -8,7 +8,7 @@ GH_REPO="mflatt/values-plus"
 
 inherit racket gh
 
-DESCRIPTION="the values-plus Racket package"
+DESCRIPTION="The values-plus Racket package"
 HOMEPAGE="https://github.com/mflatt/values-plus"
 
 LICENSE="all-rights-reserved"

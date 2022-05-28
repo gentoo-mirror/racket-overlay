@@ -21,4 +21,4 @@ RDEPEND="dev-racket/basedir
 	dev-racket/gtp-util
 	dev-racket/lang-file
 	dev-racket/require-typed-check"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

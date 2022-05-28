@@ -21,4 +21,4 @@ RDEPEND="dev-racket/lens-common
 	dev-racket/lens-doc
 	dev-racket/lens-lib
 	dev-racket/lens-unstable"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

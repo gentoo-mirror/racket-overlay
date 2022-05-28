@@ -22,4 +22,4 @@ RDEPEND="dev-racket/gtp-util
 	dev-racket/scribble-abbrevs
 	dev-racket/syntax-sloc
 	dev-racket/with-cache"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

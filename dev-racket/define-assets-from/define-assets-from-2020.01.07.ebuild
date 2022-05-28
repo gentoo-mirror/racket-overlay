@@ -9,7 +9,7 @@ GH_COMMIT="f41954f7d955fdabbd697976d73344a5aa733d31"
 
 inherit racket gh
 
-DESCRIPTION="the define-assets-from Racket package"
+DESCRIPTION="The define-assets-from Racket package"
 HOMEPAGE="https://github.com/thoughtstem/define-assets-from"
 
 LICENSE="all-rights-reserved"

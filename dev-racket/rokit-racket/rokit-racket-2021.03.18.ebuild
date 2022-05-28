@@ -9,7 +9,7 @@ GH_COMMIT="4b5362ff1d2204384270a0ffa786023a17886e0d"
 
 inherit racket gh
 
-DESCRIPTION="the rokit-racket Racket package"
+DESCRIPTION="The rokit-racket Racket package"
 HOMEPAGE="https://github.com/thoughtstem/rokit-racket"
 S="${S}/rokit-racket"
 
@@ -19,4 +19,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/racket-to"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

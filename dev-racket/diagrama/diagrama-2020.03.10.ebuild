@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/diagrama-doc
 	dev-racket/diagrama-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

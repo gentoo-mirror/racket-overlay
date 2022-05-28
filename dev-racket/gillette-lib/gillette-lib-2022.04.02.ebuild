@@ -22,4 +22,4 @@ RDEPEND="dev-racket/http-easy
 	dev-racket/laramie-lib
 	dev-racket/syntax-classes-lib
 	dev-racket/txexpr"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

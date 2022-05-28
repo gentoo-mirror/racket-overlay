@@ -9,7 +9,7 @@ GH_COMMIT="6ac1cfc77152350d1ce55738447350ae0d43cf5d"
 
 inherit racket gh
 
-DESCRIPTION="the video-samples Racket package"
+DESCRIPTION="The video-samples Racket package"
 HOMEPAGE="https://github.com/videolang/test-samples"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/video"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -8,7 +8,7 @@ GH_REPO="jsmaniac/scribble-enhanced"
 
 inherit racket gh
 
-DESCRIPTION="the scribble-enhanced Racket package"
+DESCRIPTION="The scribble-enhanced Racket package"
 HOMEPAGE="https://github.com/jsmaniac/scribble-enhanced"
 
 LICENSE="all-rights-reserved"
@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/mutable-match-lambda
 	dev-racket/reprovide-lang"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

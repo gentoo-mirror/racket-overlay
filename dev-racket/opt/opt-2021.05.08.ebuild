@@ -9,7 +9,7 @@ GH_COMMIT="83544737512709bfbdf5d65a956ee12c4cc7e822"
 
 inherit racket gh
 
-DESCRIPTION="the opt Racket package"
+DESCRIPTION="The opt Racket package"
 HOMEPAGE="https://gitlab.com/RayRacine/opt"
 
 LICENSE="all-rights-reserved"

@@ -20,4 +20,4 @@ RDEPEND="dev-racket/base58
 	dev-racket/crypto
 	dev-racket/ec
 	dev-racket/sha"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

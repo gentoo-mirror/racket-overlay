@@ -19,4 +19,4 @@ RDEPEND="dev-racket/fancy-app
 	dev-racket/generic-syntax-expanders
 	dev-racket/lens
 	dev-racket/reprovide-lang"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

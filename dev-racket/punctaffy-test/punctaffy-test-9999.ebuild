@@ -8,7 +8,7 @@ GH_REPO="lathe/punctaffy-for-racket"
 
 inherit racket gh
 
-DESCRIPTION="the punctaffy-test Racket package"
+DESCRIPTION="The punctaffy-test Racket package"
 HOMEPAGE="https://github.com/lathe/punctaffy-for-racket"
 S="${S}/punctaffy-test"
 
@@ -19,4 +19,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/lathe-comforts-lib
 	dev-racket/parendown-lib
 	dev-racket/punctaffy-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

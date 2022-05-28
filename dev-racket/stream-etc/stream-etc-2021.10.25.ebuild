@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/chk-lib
 	dev-racket/threading-doc"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

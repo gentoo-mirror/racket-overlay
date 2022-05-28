@@ -9,7 +9,7 @@ GH_COMMIT="6a5ef2192f38f01de98deb03532b4b3d83b09ed3"
 
 inherit racket gh
 
-DESCRIPTION="the repeated-application Racket package"
+DESCRIPTION="The repeated-application Racket package"
 HOMEPAGE="https://github.com/v-nys/repeated-application"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/sugar"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

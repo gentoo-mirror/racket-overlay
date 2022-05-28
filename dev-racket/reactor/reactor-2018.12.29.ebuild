@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/seq-no-order"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

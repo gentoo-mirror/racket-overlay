@@ -8,7 +8,7 @@ GH_REPO="rebcabin/bleir-sandbox"
 
 inherit racket gh
 
-DESCRIPTION="the bleir-sandbox Racket package"
+DESCRIPTION="The bleir-sandbox Racket package"
 HOMEPAGE="https://github.com/rebcabin/bleir-sandbox"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/beautiful-racket-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

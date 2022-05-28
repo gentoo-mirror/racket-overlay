@@ -8,7 +8,7 @@ GH_REPO="lexi-lambda/racket-static-rename"
 
 inherit racket gh
 
-DESCRIPTION="the static-rename-test Racket package"
+DESCRIPTION="The static-rename-test Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/racket-static-rename"
 S="${S}/static-rename-test"
 
@@ -18,4 +18,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/rackunit-spec
 	dev-racket/static-rename-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

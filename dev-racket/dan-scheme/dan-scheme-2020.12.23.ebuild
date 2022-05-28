@@ -9,7 +9,7 @@ GH_COMMIT="289e8cb903a24b2e1939a8556c164589a0e293e5"
 
 inherit racket gh
 
-DESCRIPTION="the dan-scheme Racket package"
+DESCRIPTION="The dan-scheme Racket package"
 HOMEPAGE="https://github.com/david-christiansen/dan-scheme"
 
 LICENSE="all-rights-reserved"

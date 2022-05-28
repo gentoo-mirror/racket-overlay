@@ -8,7 +8,7 @@ GH_REPO="soegaard/linux-shared-libraries"
 
 inherit racket gh
 
-DESCRIPTION="the linux-shared-libraries Racket package"
+DESCRIPTION="The linux-shared-libraries Racket package"
 HOMEPAGE="https://github.com/soegaard/linux-shared-libraries"
 
 LICENSE="all-rights-reserved"

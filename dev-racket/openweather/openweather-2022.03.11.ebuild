@@ -9,7 +9,7 @@ GH_COMMIT="a0c4e4832b3ac05c1c38fbf64c6ce3ff583882e7"
 
 inherit racket gh
 
-DESCRIPTION="the openweather Racket package"
+DESCRIPTION="The openweather Racket package"
 HOMEPAGE="https://gitlab.com/RayRacine/openweather"
 
 LICENSE="all-rights-reserved"
@@ -21,4 +21,4 @@ RDEPEND="dev-racket/http11
 	dev-racket/opt
 	dev-racket/tjson
 	dev-racket/uri"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

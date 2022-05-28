@@ -20,4 +20,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/web-galaxy-doc
 	dev-racket/web-galaxy-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

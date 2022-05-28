@@ -9,7 +9,7 @@ GH_COMMIT="487b8cbacc5f1f9a4600f55b8c0f7f148f7c2747"
 
 inherit racket gh
 
-DESCRIPTION="the arroy Racket package"
+DESCRIPTION="The arroy Racket package"
 HOMEPAGE="https://github.com/jeapostrophe/arroy"
 
 LICENSE="all-rights-reserved"

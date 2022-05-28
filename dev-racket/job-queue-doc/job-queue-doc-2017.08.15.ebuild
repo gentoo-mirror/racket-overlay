@@ -19,4 +19,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/job-queue-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

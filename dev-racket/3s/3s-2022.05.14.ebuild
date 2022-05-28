@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/lux
 	dev-racket/openal"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -23,4 +23,4 @@ RDEPEND="dev-racket/collections-doc
 	dev-racket/relation
 	dev-racket/scribble-abbrevs
 	dev-racket/social-contract"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

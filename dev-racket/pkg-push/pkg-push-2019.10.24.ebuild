@@ -9,7 +9,7 @@ GH_COMMIT="3fc18d8edb81b854ed98897bef925c73f68597ed"
 
 inherit racket gh
 
-DESCRIPTION="the pkg-push Racket package"
+DESCRIPTION="The pkg-push Racket package"
 HOMEPAGE="https://github.com/racket/pkg-push"
 
 LICENSE="all-rights-reserved"
@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/aws
 	dev-racket/http"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

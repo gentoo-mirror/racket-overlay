@@ -8,7 +8,7 @@ GH_REPO="mcdejonge/rs"
 
 inherit racket gh
 
-DESCRIPTION="the rs Racket package"
+DESCRIPTION="The rs Racket package"
 HOMEPAGE="https://github.com/mcdejonge/rs"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/rtmidi"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -9,7 +9,7 @@ GH_COMMIT="b0d133f4ba4149ea506d8b0dbd3845c915efdd06"
 
 inherit racket gh
 
-DESCRIPTION="the beautiful-racket Racket package"
+DESCRIPTION="The beautiful-racket Racket package"
 HOMEPAGE="https://github.com/mbutterick/beautiful-racket"
 S="${S}/beautiful-racket"
 
@@ -21,4 +21,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/beautiful-racket-demo
 	dev-racket/beautiful-racket-lib
 	dev-racket/br-parser-tools-doc"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/counter dev-racket/ebuild-lib dev-racket/ebuild-templates dev-racket/threading-lib dev-racket/upi-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/counter dev-racket/ebuild-lib dev-racket/ebuild-templates dev-racket/threading-lib dev-racket/upi-lib
 DESCRIPTION=Parse Racket packages catalog and generate ebuild scripts
 EAPI=8
 HOMEPAGE=https://gitlab.com/src_prepare/racket/collector2
@@ -11,6 +10,6 @@ LICENSE=all-rights-reserved
 RDEPEND=dev-racket/counter dev-racket/ebuild-lib dev-racket/ebuild-templates dev-racket/threading-lib dev-racket/upi-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://gitlab.com/src_prepare/racket/collector2/-/archive/4c6a2e89c30f4e6cb713f4b06fdd7714b03d77ea.tar.gz -> collector2-2022.05.06.tar.gz
+SRC_URI=https://gitlab.com/src_prepare/racket/collector2/-/archive/091be6b5ecb219e40a88f0ceadce4af3d6fa20f4.tar.gz -> collector2-2022.05.28.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=6b3ea53ba98b0ff9d87ec9f03c2d4fb7
+_md5_=87802f750f31d86fd9bfdb2ecc761ff0

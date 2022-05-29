@@ -1,16 +1,15 @@
 BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/gregor dev-racket/html-parsing dev-racket/sxml
-DESCRIPTION=The rapider-lib Racket package
+DESCRIPTION=Programming language based on russian language
 EAPI=8
-HOMEPAGE=https://github.com/nuty/rapider
+HOMEPAGE=https://github.com/Kalimehtar/russian-lang
 INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/gregor dev-racket/html-parsing dev-racket/sxml >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/nuty/rapider/archive/f167aa91522788e70affd49e8f350cd055dba3c4.tar.gz -> rapider-lib-2020.02.23.tar.gz
+SRC_URI=https://github.com/Kalimehtar/russian-lang/archive/9954af44dfabc4352ca1b41b1ca7285e3acb3a27.tar.gz -> russian-lang-2022.05.29.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
-_md5_=d681c5f4fbf82e925f67a01bcb72c5eb
+_md5_=932b6cbcbe493c761488fbe2ea4675e1

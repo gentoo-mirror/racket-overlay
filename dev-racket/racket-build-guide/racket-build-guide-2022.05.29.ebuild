@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="racket/racket"
-GH_COMMIT="c0fb670a72371bcac16fabe43cb0a5bb36e9f58d"
+GH_COMMIT="82ca0f76f2e18f242db742991596eb509ce49cc1"
 
 inherit racket gh
 
@@ -19,4 +19,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/distro-build-doc"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

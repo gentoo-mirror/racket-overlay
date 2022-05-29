@@ -4,14 +4,14 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racket-tw/k"
-GH_COMMIT="b67b753a06f0a74786ac7280f9c51c026248ded7"
+GH_REPO="racket/racket"
+GH_COMMIT="82ca0f76f2e18f242db742991596eb509ce49cc1"
 
 inherit racket gh
 
-DESCRIPTION="core of k theorem prover"
-HOMEPAGE="https://github.com/racket-tw/k"
-S="${S}/k-core"
+DESCRIPTION="Documentation for the Zuo language"
+HOMEPAGE="https://github.com/racket/racket"
+S="${S}/racket/src/zuo/zuo-doc"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

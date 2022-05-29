@@ -4,13 +4,13 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="Kalimehtar/russian-lang"
-GH_COMMIT="08d498aa0a4a4f8ccab84892180153cf20966a16"
+GH_REPO="adzai/datadef"
+GH_COMMIT="b046607ed7a66b14bbf44189dafa3c547da14fad"
 
 inherit racket gh
 
-DESCRIPTION="Programming language based on russian language"
-HOMEPAGE="https://github.com/Kalimehtar/russian-lang"
+DESCRIPTION="Racket library for database data retrieval and database mocking."
+HOMEPAGE="https://github.com/adzai/datadef"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

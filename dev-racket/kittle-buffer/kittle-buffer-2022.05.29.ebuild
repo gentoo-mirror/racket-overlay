@@ -4,14 +4,13 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racket/racket"
-GH_COMMIT="c0fb670a72371bcac16fabe43cb0a5bb36e9f58d"
+GH_REPO="KDr2/kittle-buffer"
+GH_COMMIT="7ab19798d07fde81f3d378867b5ae794821d49aa"
 
 inherit racket gh
 
-DESCRIPTION="Documentation for the Zuo language"
-HOMEPAGE="https://github.com/racket/racket"
-S="${S}/racket/src/zuo/zuo-doc"
+DESCRIPTION="An extended Brainf**k implementation."
+HOMEPAGE="https://github.com/KDr2/kittle-buffer"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

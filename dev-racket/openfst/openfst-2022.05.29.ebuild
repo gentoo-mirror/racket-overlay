@@ -4,14 +4,14 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racket/racket"
-GH_COMMIT="c0fb670a72371bcac16fabe43cb0a5bb36e9f58d"
+GH_REPO="AlexMaclean/racket-openfst"
+GH_COMMIT="b308e9335fc02f57699ce8bcc2e2f231bf05edf6"
 
 inherit racket gh
 
-DESCRIPTION="the plt-services Racket package"
-HOMEPAGE="https://github.com/racket/racket"
-S="${S}/pkgs/plt-services"
+DESCRIPTION="The openfst Racket package"
+HOMEPAGE="https://github.com/AlexMaclean/racket-openfst"
+S="${S}/openfst"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

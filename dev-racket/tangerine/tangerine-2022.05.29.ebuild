@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="aeva/tangerine"
-GH_COMMIT="19aa738799e3531f69dc0c7de3ebb14d8cf615d1"
+GH_COMMIT="e700ac79c4aaad01892b079ab718d40620d349be"
 
 inherit racket gh
 
@@ -17,3 +17,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/vec"
+BDEPEND="${RDEPEND}"

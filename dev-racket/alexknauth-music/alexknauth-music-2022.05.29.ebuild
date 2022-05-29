@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/music"
-GH_COMMIT="b4489c27d7c0f7116d769344c787fa76b479e5fa"
+GH_COMMIT="3f643e2bab0c5dff68095ff7b7a64563a91caec4"
 
 inherit racket gh
 
@@ -24,4 +24,4 @@ RDEPEND="dev-racket/agile
 	dev-racket/rsound
 	dev-racket/txexpr
 	dev-racket/unstable-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

@@ -3,14 +3,14 @@
 
 EAPI=8
 
-GH_DOM="git.sr.ht"
-GH_REPO="~williewillus/racket-zstd"
-GH_COMMIT="2930eb5edc02c885921f386eb3f8cb07d809bdb5"
+GH_DOM="github.com"
+GH_REPO="prozion/tabtree"
+GH_COMMIT="b563b3fe8fbf6e5ad6c2f875f544002c5bd26add"
 
 inherit racket gh
 
-DESCRIPTION="the zstd Racket package"
-HOMEPAGE="https://git.sr.ht/~williewillus/racket-zstd"
+DESCRIPTION="A library to handle files of Tabtree format"
+HOMEPAGE="https://github.com/prozion/tabtree"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

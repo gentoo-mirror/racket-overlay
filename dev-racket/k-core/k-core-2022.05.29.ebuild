@@ -4,19 +4,19 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="nuty/rapider"
+GH_REPO="racket-tw/k"
+GH_COMMIT="3ae050362e77c218bf3b72f2593a047d374d079e"
 
 inherit racket gh
 
-DESCRIPTION="The rapider-lib Racket package"
-HOMEPAGE="https://github.com/nuty/rapider"
-S="${S}/rapider-lib"
+DESCRIPTION="core of k theorem prover"
+HOMEPAGE="https://github.com/racket-tw/k"
+S="${S}/k-core"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
+KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/gregor
-	dev-racket/html-parsing
-	dev-racket/sxml"
+RDEPEND="dev-racket/syntax-classes-lib"
 BDEPEND="${RDEPEND}"

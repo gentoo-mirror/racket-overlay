@@ -14,6 +14,3 @@ HOMEPAGE="https://github.com/prozion/tabtree"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
-
-RDEPEND="dev-racket/odysseus"
-BDEPEND="${RDEPEND}"

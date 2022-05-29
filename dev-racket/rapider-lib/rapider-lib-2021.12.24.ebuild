@@ -9,7 +9,7 @@ GH_COMMIT="909ea324095c89bdd568f73428ce306aa313d7d4"
 
 inherit racket gh
 
-DESCRIPTION="rapider-lib"
+DESCRIPTION="The rapider-lib Racket package"
 HOMEPAGE="https://github.com/nuty/rapider"
 S="${S}/rapider-lib"
 

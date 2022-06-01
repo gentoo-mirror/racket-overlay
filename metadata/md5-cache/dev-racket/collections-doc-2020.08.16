@@ -12,5 +12,5 @@ RDEPEND=dev-racket/collections-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lexi-lambda/racket-collections/archive/c4822fc200b0488922cd6e86b4f2ea7cf8c565da.tar.gz -> collections-doc-2020.08.16.tar.gz https://github.com/lexi-lambda/functional/archive/be2285cd3da0e2fffe651a8ab723185bb669425d.tar.gz -> collections-doc_aux_functional-doc-2020.08.16.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	ffdd6254b25d975aea837fd55206bcde	racket	a8d84257a3473cc658760282eaee72d6
 _md5_=a051d7af4cadf6e50de6170f091a65c6

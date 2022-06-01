@@ -11,5 +11,5 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/michaelballantyne/ee-lib/archive/4b08d6c51402e787fe430885312e28223e60a9ea.tar.gz -> ee-lib-2022.02.08.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	ffdd6254b25d975aea837fd55206bcde	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
 _md5_=044e46a796c50dd3c87f511f9a807f3d

@@ -12,5 +12,5 @@ RDEPEND=dev-racket/http-easy dev-racket/resource-pool-lib >=dev-scheme/racket-8.
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/racket-http-easy/archive/7fb4b354df593cf1f10a1ad35359fb487328f3f0.tar.gz -> http-easy-test-2022.01.30.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	ffdd6254b25d975aea837fd55206bcde	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
 _md5_=ad60f492434cdde278349ae5dc9fe242

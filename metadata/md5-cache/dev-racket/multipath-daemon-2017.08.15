@@ -11,5 +11,5 @@ RDEPEND=dev-racket/misc1 dev-racket/unstable-doc >=dev-scheme/racket-8.1:=[-mini
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mordae/racket-multipath-daemon/archive/4d8a2644d2641e9d263e83caef28b3bf6af63b88.tar.gz -> multipath-daemon-2017.08.15.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	ffdd6254b25d975aea837fd55206bcde	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
 _md5_=9ad326279323a108dcdccc280d3e2a0a

@@ -12,5 +12,5 @@ RDEPEND=dev-racket/http-easy dev-racket/rfc6455 >=dev-scheme/racket-8.1:=[-minim
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/simmsb/racket-cord/archive/841264054ad76a9691dbecfa9ffc81f5a9fe50f7.tar.gz -> racket-cord-2021.09.22.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	ffdd6254b25d975aea837fd55206bcde	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
 _md5_=a2239cf7823086c3195af8a1a9c973ab

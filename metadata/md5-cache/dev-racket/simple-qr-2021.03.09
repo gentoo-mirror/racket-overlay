@@ -11,5 +11,5 @@ RDEPEND=dev-racket/reed-solomon dev-racket/simple-svg >=dev-scheme/racket-8.1:=[
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/simmone/racket-simple-qr/archive/904f1491bc521badeafeabd0d7d7e97e3d0ee958.tar.gz -> simple-qr-2021.03.09.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	ffdd6254b25d975aea837fd55206bcde	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
 _md5_=a5f8f6e2d5e4e622bfb1f346a4d4c012

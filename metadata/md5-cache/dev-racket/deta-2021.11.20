@@ -11,5 +11,5 @@ RDEPEND=dev-racket/deta-doc dev-racket/deta-lib >=dev-scheme/racket-8.1:=[-minim
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/deta/archive/79870b296fd178a25f69ad8dd11907475721e0cf.tar.gz -> deta-2021.11.20.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	ffdd6254b25d975aea837fd55206bcde	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
 _md5_=cf1ec2fce1b7150b1cbd635e002311d6

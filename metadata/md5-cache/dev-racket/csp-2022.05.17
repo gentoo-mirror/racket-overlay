@@ -12,5 +12,5 @@ RDEPEND=dev-racket/beautiful-racket-lib dev-racket/debug dev-racket/graph dev-ra
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mbutterick/typesetting/archive/ab900dc3b7ec4aa533ef0b9fbbe4d0de8d90477b.tar.gz -> csp-2022.05.17.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	242bc76b73f8c7f0a125d60eca6863e6	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	ffdd6254b25d975aea837fd55206bcde	racket	a8d84257a3473cc658760282eaee72d6	gh	3f48f311ff3938a762eedf34a670f7f9
 _md5_=ab7a081504e18b3956200b98a898a048

@@ -24,7 +24,7 @@ dev-racket/alexis-collections 2017.08.15 9999: Deprecated. Use the collections p
 dev-racket/alexis-multicast 2017.08.15 2021.11.27 9999: One-to-many buffered asynchronous channels
 dev-racket/alexis-pvector 2017.08.15 2021.11.27 9999: Deprecated. Use the pvector package instead.
 dev-racket/alexis-util 2017.08.15 2021.11.27 9999: Various utilities and helper functions I've found useful
-dev-racket/alexknauth-music 2022.01.07 2022.05.25 2022.05.29 9999: Some stuff for representing music and music theory
+dev-racket/alexknauth-music 2022.05.25 2022.05.29 2022.06.01 9999: Some stuff for representing music and music theory
 dev-racket/alexknauth-my-object 2017.08.15 2021.11.27 2022.01.07 9999: my version of objects, inspired by things from heresy
 dev-racket/algebraic 2019.08.10 9999: Algebraic Racket
 dev-racket/algorithms 2020.07.24 2022.03.26 9999: The algorithms Racket package
@@ -64,7 +64,7 @@ dev-racket/aws 2021.02.16 9999: The aws Racket package
 dev-racket/axe 2017.08.15 9999: Handy utilities(macros/functions) for racket
 dev-racket/azelf 2022.02.09 2022.03.19 2022.04.30 9999: The azelf Racket package
 dev-racket/backport-template-pr1514 2021.03.05 9999: The backport-template-pr1514 Racket package
-dev-racket/barrel 2022.05.10 2022.05.14 2022.05.26 9999: An esoteric golfing lang
+dev-racket/barrel 2022.05.14 2022.05.26 2022.06.01 9999: An esoteric golfing lang
 dev-racket/base32 2019.01.19 9999: Provides encoding to and from Crockford's Base32 encoding.
 dev-racket/base58 2020.08.19 9999: Provides Base58Check encoding and decoding functions.
 dev-racket/base64 2021.03.14 2022.04.16 9999: The base64 Racket package
@@ -165,7 +165,7 @@ dev-racket/collections-doc 2020.08.16: The collections-doc Racket package
 dev-racket/collections-lens 2017.08.15 9999: Lenses for generic collections
 dev-racket/collections-lib 2020.08.16: The collections-lib Racket package
 dev-racket/collections-test 2020.08.16 9999: The collections-test Racket package
-dev-racket/collector2 2022.05.17 2022.05.22 2022.05.28 9999: Parse Racket packages catalog and generate ebuild scripts
+dev-racket/collector2 2022.05.22 2022.05.28 2022.05.31 9999: Parse Racket packages catalog and generate ebuild scripts
 dev-racket/colon-kw 2018.05.24 2022.01.07 9999: a lang-extension for writing :kw for #:kw
 dev-racket/colon-match 2017.11.09 2022.01.07 9999: The colon-match Racket package
 dev-racket/colophon 2020.12.19 2022.05.03 9999: An experimental static site generator
@@ -251,7 +251,7 @@ dev-racket/data-red-black 2017.08.15 9999: The data-red-black Racket package
 dev-racket/data-type 2021.09.01 9999: data type syntax for typed/racket
 dev-racket/database-url 2020.07.04 9999: Parse DATABASE_URL for use with the Racket db module
 dev-racket/datacell 2019.03.21 9999: A simple embedded dataflow language
-dev-racket/datadef 2022.05.27 2022.05.28 9999: Racket library for database data retrieval and database mocking.
+dev-racket/datadef 2022.05.27 2022.05.28 2022.06.01 9999: Racket library for database data retrieval and database mocking.
 dev-racket/datatype 2020.11.11 9999: Algebraic(-like) Data Types
 dev-racket/date 2021.05.08 9999: The date Racket package
 dev-racket/dbg 2022.05.16 2022.05.17 2022.05.24 9999: Remote debugging client and server implementation.
@@ -351,13 +351,13 @@ dev-racket/dssl2 2021.06.01 2021.09.02 2021.12.20 9999: A language for data stru
 dev-racket/dynamic-ffi 2020.02.17 9999: The dynamic-ffi Racket package
 dev-racket/dynamic-xml 2020.05.06 9999: Apply keyword procedures in a given Racket namespace using X-expressions.
 dev-racket/ebml 2017.12.18 9999: A library for reading and writing EBML files.
-dev-racket/ebuild 2022.05.17 2022.05.28 2022.05.29 9999: Library to ease automatic ebuild creation. Metapackage.
-dev-racket/ebuild-doc 2022.05.17 2022.05.28 2022.05.29 9999: Library to ease automatic ebuild creation. Documentation.
-dev-racket/ebuild-lib 2022.05.17 2022.05.28 2022.05.29 9999: Library to ease automatic ebuild creation. Core.
-dev-racket/ebuild-templates 2022.05.17 2022.05.28 2022.05.29 9999: Library to ease automatic ebuild creation. Additional templates.
+dev-racket/ebuild 2022.05.28 2022.05.29 2022.06.01 9999: Library to ease automatic ebuild creation. Metapackage.
+dev-racket/ebuild-doc 2022.05.28 2022.05.29 2022.06.01 9999: Library to ease automatic ebuild creation. Documentation.
+dev-racket/ebuild-lib 2022.05.28 2022.05.29 2022.06.01 9999: Library to ease automatic ebuild creation. Core.
+dev-racket/ebuild-templates 2022.05.28 2022.05.29 2022.06.01 9999: Library to ease automatic ebuild creation. Additional templates.
 dev-racket/ebuild-test 2022.05.12 2022.05.17 2022.05.26 9999: Library to ease automatic ebuild creation. Tests.
-dev-racket/ebuild-tools 2022.05.17 2022.05.28 2022.05.29 9999: Library to ease automatic ebuild creation. Tools.
-dev-racket/ebuild-transformers 2022.05.17 2022.05.28 2022.05.29 9999: Library to ease automatic ebuild creation. Additional helper libraries.
+dev-racket/ebuild-tools 2022.05.28 2022.05.29 2022.06.01 9999: Library to ease automatic ebuild creation. Tools.
+dev-racket/ebuild-transformers 2022.05.28 2022.05.29 2022.06.01 9999: Library to ease automatic ebuild creation. Additional helper libraries.
 dev-racket/ec 2020.08.19 2021.11.27 9999: The ec Racket package
 dev-racket/echonest 2017.08.15 9999: Wrapper for The Echo Nest web API.
 dev-racket/ecmascript 2019.02.13 9999: Parser, runtime and #lang for ECMAScript
@@ -422,7 +422,7 @@ dev-racket/flexpr 2017.08.15 9999: Expressions rendered as both XML and JSON
 dev-racket/fltest 2020.09.21 2022.05.16 9999: The fltest Racket package
 dev-racket/fluent 2021.03.23 9999: UNIX style pipes and a lambda shorthand syntax to make your code more readable.
 dev-racket/fme 2017.08.15 9999: Fourier-Motzkin elimination for integer inequality satisfiability
-dev-racket/fmt 2022.02.13 2022.02.15 2022.03.28 9999: An extensible code formatter for Racket
+dev-racket/fmt 2022.02.15 2022.03.28 2022.05.30 9999: An extensible code formatter for Racket
 dev-racket/font-finder 2020.04.02 9999: Locate font files on your computer
 dev-racket/fontconfig 2019.06.22 9999: FFI bindings for fontconfig
 dev-racket/fontland 2022.05.14 2022.05.16 2022.05.22 9999: font processing [in development]
@@ -626,7 +626,7 @@ dev-racket/jsond 2021.08.06 9999: A #lang for JSON data
 dev-racket/jsonic-jf 2022.03.19 9999: great jsonic generator
 dev-racket/jsonrpc 2021.07.31 2021.08.07 9999: jsonrpc: client and server
 dev-racket/k 2022.01.13 2022.01.19 2022.01.25 9999: k theorem prover
-dev-racket/k-core 2022.05.12 2022.05.21 2022.05.29 9999: core of k theorem prover
+dev-racket/k-core 2022.05.21 2022.05.29 2022.05.31 9999: core of k theorem prover
 dev-racket/k-doc 2022.01.13 2022.01.19 2022.01.25 9999: documentation of k theorem prover
 dev-racket/k-example 2022.01.13 2022.01.19 2022.01.25 9999: examples of using k theorem prover
 dev-racket/k-infix 2017.11.24 2022.02.04 9999: The k-infix Racket package
@@ -860,13 +860,13 @@ dev-racket/numformat-old 9999: Number Formatting
 dev-racket/numspell 9999: Spelling Numbers as English
 dev-racket/nvim-client 2021.05.08 9999: API client for the Neovim text editor
 dev-racket/object-backtrace 2020.04.14 2022.05.16 9999: The object-backtrace Racket package
-dev-racket/odysseus 2021.05.15 2022.01.19 2022.03.15 9999: Library with handy general-purpose functions and macro as well as specific ones
+dev-racket/odysseus 2022.01.19 2022.03.15 2022.05.31 9999: Library with handy general-purpose functions and macro as well as specific ones
 dev-racket/oii422-handin-client 2017.08.15 9999: Handin Client for PUCV PL course OII-422
 dev-racket/open-app 2018.06.01 9999: A utility for opening a file or url with the default application.
 dev-racket/openal 2017.09.04 9999: FFI for OpenAL
 dev-racket/opencl 2017.08.15 9999: A Racket interface to OpenCL using an FFI
 dev-racket/opencv 2017.08.15 9999: FFI bindings to the OpenCV library
-dev-racket/openfst 2022.05.28 2022.05.29 9999: The openfst Racket package
+dev-racket/openfst 2022.05.28 2022.05.29 2022.06.01 9999: The openfst Racket package
 dev-racket/opengl 2017.12.19 9999: Exhaustive Racket bindings to OpenGL
 dev-racket/openmpi 2017.08.15 9999: A Racket interface to MPI based on an FFI to OpenMPI
 dev-racket/openweather 2021.05.08 2022.02.21 2022.03.11 9999: The openweather Racket package
@@ -984,7 +984,7 @@ dev-racket/ppict-slide-grid 2017.08.15 9999: The ppict-slide-grid Racket package
 dev-racket/pprint 2021.06.25 9999: A universal pretty printing library
 dev-racket/pprint-compact 2021.10.25 2021.12.25 2022.03.16 9999: A non-greedy pretty printer
 dev-racket/predicates 2017.08.15 2021.11.17 9999: The predicates Racket package
-dev-racket/preserves 2022.03.08 2022.05.04 2022.05.24 9999: The preserves Racket package
+dev-racket/preserves 2022.05.04 2022.05.24 2022.06.01 9999: The preserves Racket package
 dev-racket/pretty-format 2020.10.01 2022.01.06 9999: Pretty versions of printf, format, etc. that print according to format strings
 dev-racket/print-debug 2019.06.26 9999: Debugging tool. Use for debug printing variables and expresions.
 dev-racket/private-in 2020.08.15 9999: Require private bindings.
@@ -1048,7 +1048,7 @@ dev-racket/racket-lambda-runtime 2020.04.14 2021.10.19 2022.05.17 9999: The rack
 dev-racket/racket-lang-org 2022.02.09 2022.03.31 2022.05.01 9999: Sources for http://racket-lang.org
 dev-racket/racket-langserver 2021.07.31 2021.10.26 2022.01.01 9999: Language Server Protocol implementation for Racket
 dev-racket/racket-language-server 2020.04.10 9999: Implementation of the Language Server Protocol for Racket.
-dev-racket/racket-llvm 2022.01.20 2022.05.27 9999: racket llvm C-API bindings
+dev-racket/racket-llvm 2022.01.20 2022.05.27 2022.05.31 9999: racket llvm C-API bindings
 dev-racket/racket-locale 2018.09.28 9999: More, and complete, locale tools.
 dev-racket/racket-paint 2021.11.27 2021.11.30 2022.01.05 9999: A simple paint program
 dev-racket/racket-poppler 2021.03.10 9999: Read, search and render pdfs. Use LaTeX in scribble and slidehow.
@@ -1194,7 +1194,7 @@ dev-racket/ruckus 2017.08.15 9999: Procedural CAD system for solid modeling
 dev-racket/ruinit 2020.04.24 2022.04.19 9999: A small unit testing framework.
 dev-racket/runomatic 2020.10.19 2022.02.13 9999: A bot and API client for runogame.com
 dev-racket/russian 2019.07.22 2021.11.03 9999: Russian internationalization bits
-dev-racket/russian-lang 2022.01.06 2022.02.13 2022.05.29 9999: Programming language based on russian language
+dev-racket/russian-lang 2022.02.13 2022.05.29 2022.06.01 9999: Programming language based on russian language
 dev-racket/rwind 2021.03.28 9999: An X11 window manager written in Racket (still in early stage)
 dev-racket/rws-html-template 9999: Racket Web Server html-template Support
 dev-racket/s-lib 2017.08.15 9999: A collection of functions for string & word manipulation
@@ -1310,6 +1310,8 @@ dev-racket/smtp-server-test 2021.11.04 2021.11.09 2021.11.14 9999: An implementa
 dev-racket/snack 9999: The snack Racket package
 dev-racket/snappy 2017.08.15 9999: FFI bindings to snappy, a fast compression library
 dev-racket/social-contract 2021.08.31 2021.11.16 2022.01.08 9999: High-level, composable syntax for describing contracts.
+dev-racket/softposit-herbie 2021.08.27 9999: SoftPosit support for Herbie
+dev-racket/softposit-rkt 2022.05.31 9999: The softposit-rkt Racket package
 dev-racket/sonic-pi 2017.08.15 9999: The sonic-pi Racket package
 dev-racket/soundex 9999: Soundex Index Keying
 dev-racket/spacemacs-theme 2021.12.29 9999: Spacemacs lite and dark color themes for DrRacket.
@@ -1371,7 +1373,7 @@ dev-racket/sxml-extra 2021.12.04 9999: Utilities to use with sxml
 dev-racket/sxml-intro 9999: SXML in Racket: Tools for XML and HTML
 dev-racket/symalg 2018.04.01 9999: Expressing and manipulating symbolic algebraic expressions in Racket.
 dev-racket/syndicate 9999: The syndicate Racket package
-dev-racket/syndicate-classic 2022.04.01 2022.04.04 2022.05.05 9999: The syndicate-classic Racket package
+dev-racket/syndicate-classic 2022.04.04 2022.05.05 2022.06.01 9999: The syndicate-classic Racket package
 dev-racket/syntax-class-or 2018.08.01 9999: Combining syntax classes together as multiple variants
 dev-racket/syntax-classes 2019.01.29 2022.04.12 9999: Additional useful syntax classes for use with syntax/parse
 dev-racket/syntax-classes-doc 2019.01.29 2022.04.12 9999: The syntax-classes-doc Racket package
@@ -1394,7 +1396,7 @@ dev-racket/systemd 2017.08.15 9999: SystemD Support
 dev-racket/t-test 2019.03.16 9999: Simple implementations of Welch's and Student's t-tests
 dev-racket/table-panel 2018.08.27 9999: The table-panel Racket package
 dev-racket/tablesci 2021.05.08 9999: The tablesci Racket package
-dev-racket/tabtree 2022.03.14 2022.05.23 2022.05.29 9999: A library to handle files of Tabtree format
+dev-racket/tabtree 2022.05.23 2022.05.29 2022.05.31 9999: A library to handle files of Tabtree format
 dev-racket/tabular 2017.09.22 2021.08.30 9999: Experimental tabular data package
 dev-racket/tabular-asa 2021.08.08 2021.12.29 2022.01.03 9999: A fast, efficient, immutable, dataframes implementation.
 dev-racket/taglib 2017.08.15 9999: The taglib Racket package
@@ -1411,7 +1413,7 @@ dev-racket/temp-c-lib 2017.08.15 9999: temporal contracts
 dev-racket/temp-c-test 2017.08.15 9999: temporal contracts
 dev-racket/template 2020.03.26 9999: Template Macros
 dev-racket/termconfig 2021.01.25 9999: Cross-platform terminal helper library in Racket.
-dev-racket/terminal-phase 2022.02.22 2022.03.11 2022.04.30 9999: Terminal Phase is a space shooter video game that runs in your terminal!
+dev-racket/terminal-phase 2022.03.11 2022.04.30 2022.06.01 9999: Terminal Phase is a space shooter video game that runs in your terminal!
 dev-racket/termination 2019.05.30 9999: Dynamic enforcement of size-change termination
 dev-racket/tesira 2017.08.15 9999: Biamp Tesira Client Library
 dev-racket/test-more 2019.05.02 9999: The test-more Racket package
@@ -1595,7 +1597,7 @@ dev-racket/zeromq-guide-examples 2020.10.18 9999: See https://zguide.zeromq.org/
 dev-racket/zeromq-r 2021.03.05 2022.05.05 2022.05.27 9999: Bindings for ZeroMQ
 dev-racket/zeromq-r-lib 2021.03.05 2022.05.05 2022.05.27 9999: Bindings for ZeroMQ
 dev-racket/zippers 2017.08.15 9999: Utilities for working with and deriving Huet-style zippers
-dev-racket/ziptie-git 2022.04.02 2022.05.05 2022.05.17 9999: The ziptie-git Racket package
+dev-racket/ziptie-git 2022.05.05 2022.05.17 2022.06.01 9999: The ziptie-git Racket package
 dev-racket/zkanren 2018.03.23 9999: The zKanren Racket package
 dev-racket/zmq 2017.08.15 9999: Minimal Racket ZeroMQ Bindings
 dev-racket/zordoz 2020.03.29 2021.10.25 9999: Explorer for .zo bytecode files

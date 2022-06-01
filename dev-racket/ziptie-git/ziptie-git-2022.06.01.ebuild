@@ -4,14 +4,14 @@
 EAPI=8
 
 GH_DOM="gitlab.com"
-GH_REPO="preserves/preserves"
-GH_COMMIT="197359ff22fa701d8b497860e8eb84dba209e00e"
+GH_REPO="xgqt/racket-ziptie"
+GH_COMMIT="2b92958d34e3dbfdfd7e258457c42fffe72f919c"
 
 inherit racket gh
 
-DESCRIPTION="the preserves Racket package"
-HOMEPAGE="https://gitlab.com/preserves/preserves"
-S="${S}/implementations/racket/preserves"
+DESCRIPTION="The ziptie-git Racket package"
+HOMEPAGE="https://gitlab.com/xgqt/racket-ziptie"
+S="${S}/src/ziptie-git"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

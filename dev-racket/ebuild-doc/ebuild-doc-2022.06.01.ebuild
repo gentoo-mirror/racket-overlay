@@ -5,23 +5,22 @@ EAPI=8
 
 GH_DOM="gitlab.com"
 GH_REPO="xgqt/racket-ebuild"
-GH_COMMIT="dc24c2c8a15664a40203cd0a9ab75679e36b43c1"
+GH_COMMIT="ed026a660893e495ccc6b7fe68958b53cdadf0c8"
 
 inherit racket gh
 
-DESCRIPTION="Library to ease automatic ebuild creation. Metapackage."
+DESCRIPTION="Library to ease automatic ebuild creation. Documentation."
 HOMEPAGE="https://gitlab.com/xgqt/racket-ebuild"
-S="${S}/src/ebuild"
+S="${S}/src/ebuild-doc"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/ebuild-doc
-	dev-racket/ebuild-lib
+RDEPEND="dev-racket/ebuild-lib
 	dev-racket/ebuild-templates
-	dev-racket/ebuild-test
 	dev-racket/ebuild-tools
-	dev-racket/ebuild-transformers"
-DEPEND="${RDEPEND}"
+	dev-racket/ebuild-transformers
+	dev-racket/ziptie-git"
+BDEPEND="${RDEPEND}"

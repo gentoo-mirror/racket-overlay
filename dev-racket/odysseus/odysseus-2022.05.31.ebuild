@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="prozion/odysseus"
-GH_COMMIT="9cce7d4276e403be2236639190f8a09519cece02"
+GH_COMMIT="af2b29ef5b576889b82d1906107224b33fe8bef6"
 
 inherit racket gh
 
@@ -16,7 +16,3 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
-
-RDEPEND="dev-racket/sha
-	dev-racket/sxml"
-DEPEND="${RDEPEND}"

@@ -4,18 +4,15 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="sorawee/fmt"
-GH_COMMIT="6bd5d6b233d081fecea8392b7e3d269f1d874b4d"
+GH_REPO="adzai/datadef"
+GH_COMMIT="48dda3d116d164ae183a6c151c5447153e269f9c"
 
 inherit racket gh
 
-DESCRIPTION="An extensible code formatter for Racket"
-HOMEPAGE="https://github.com/sorawee/fmt"
+DESCRIPTION="Racket library for database data retrieval and database mocking."
+HOMEPAGE="https://github.com/adzai/datadef"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
-
-RDEPEND="dev-racket/pprint-compact"
-DEPEND="${RDEPEND}"

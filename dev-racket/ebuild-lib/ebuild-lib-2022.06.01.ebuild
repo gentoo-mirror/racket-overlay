@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="gitlab.com"
 GH_REPO="xgqt/racket-ebuild"
-GH_COMMIT="dc24c2c8a15664a40203cd0a9ab75679e36b43c1"
+GH_COMMIT="ed026a660893e495ccc6b7fe68958b53cdadf0c8"
 
 inherit racket gh
 
@@ -18,5 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/threading-lib"
-DEPEND="${RDEPEND}"
+RDEPEND="dev-racket/reprovide-lang-lib
+	dev-racket/threading-lib"
+BDEPEND="${RDEPEND}"

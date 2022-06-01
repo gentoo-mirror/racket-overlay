@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="the-cellar/barrel"
-GH_COMMIT="ce3498bf1e95ad6628f40ad9a878a27577fc096e"
+GH_COMMIT="63c24764509e058f9b34a6934d68afa7787c0ee1"
 
 inherit racket gh
 
@@ -23,4 +23,4 @@ RDEPEND="dev-racket/beautiful-racket
 	dev-racket/brag-lib
 	dev-racket/control
 	dev-racket/threading-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

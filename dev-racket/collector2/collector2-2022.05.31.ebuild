@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="gitlab.com"
 GH_REPO="src_prepare/racket/collector2"
-GH_COMMIT="be1caa4fe584943f1f6397d8bde02a06c4ce6e9e"
+GH_COMMIT="3d9feb7e3eaba6be7e4424730376931476e5f68d"
 
 inherit racket gh
 
@@ -23,4 +23,4 @@ RDEPEND="dev-racket/counter
 	dev-racket/ebuild-templates
 	dev-racket/threading-lib
 	dev-racket/upi-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

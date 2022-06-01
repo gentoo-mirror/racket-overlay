@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="racket-tw/k"
-GH_COMMIT="e91dc5a6c60975dd20fb4887f1aa496f3f750412"
+GH_COMMIT="1371d7d92d0506b43406e4b27173fbfcd2a8abb0"
 
 inherit racket gh
 
@@ -19,4 +19,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/syntax-classes-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

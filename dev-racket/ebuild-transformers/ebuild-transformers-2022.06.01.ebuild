@@ -5,13 +5,13 @@ EAPI=8
 
 GH_DOM="gitlab.com"
 GH_REPO="xgqt/racket-ebuild"
-GH_COMMIT="dc24c2c8a15664a40203cd0a9ab75679e36b43c1"
+GH_COMMIT="ed026a660893e495ccc6b7fe68958b53cdadf0c8"
 
 inherit racket gh
 
-DESCRIPTION="Library to ease automatic ebuild creation. Additional templates."
+DESCRIPTION="Library to ease automatic ebuild creation. Additional helper libraries."
 HOMEPAGE="https://gitlab.com/xgqt/racket-ebuild"
-S="${S}/src/ebuild-templates"
+S="${S}/src/ebuild-transformers"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
@@ -19,5 +19,6 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/ebuild-lib
-	dev-racket/threading-lib"
-DEPEND="${RDEPEND}"
+	dev-racket/threading-lib
+	dev-racket/upi-lib"
+BDEPEND="${RDEPEND}"

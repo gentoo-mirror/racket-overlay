@@ -4,13 +4,14 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="Kalimehtar/russian-lang"
-GH_COMMIT="c3e358c4796de9a72dddd39e94e4107bc76d5a2e"
+GH_REPO="AlexMaclean/racket-openfst"
+GH_COMMIT="ba71b92375efb5bb2b0b0ef3049fe971eff5cd17"
 
 inherit racket gh
 
-DESCRIPTION="Programming language based on russian language"
-HOMEPAGE="https://github.com/Kalimehtar/russian-lang"
+DESCRIPTION="The openfst Racket package"
+HOMEPAGE="https://github.com/AlexMaclean/racket-openfst"
+S="${S}/openfst"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

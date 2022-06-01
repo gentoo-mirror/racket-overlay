@@ -66,23 +66,24 @@ eraco() {
 # @DESCRIPTION:
 # Check if required commands exist.
 # Clean the environment for building racket packages.
-# Set the "PLTUSERHOME" variable for building using Portage.
-# This function sets the following variables:
-#
-# @CODE
-# PLTUSERHOME = ${HOME}/pltuserhome (temporary created by Portage)
-# @CODE
+# Set required variable for building using Portage.
+# For more info about environment variables used/respected by Racket see:
+# https://docs.racket-lang.org/reference/Filesystem.html
 racket_clean_environment() {
 	debug-print-function ${FUNCNAME} "$@"
 
 	racket_check_raco
 	xdg_environment_reset
 
-	# The location of temporary portage PLTUSERHOME
-	# this in most cases will be /var/tmp/portage/homedir
-	# While this is /root or /home/<user> we are in trouble
-	export PLTUSERHOME="${HOME}/pltuserhome"
+	local RT="${T}"/racket
+
+	# Where packages will be installed in user scope (as portage user).
+	export PLTUSERHOME="${RT}"/pltuserhome
 	mkdir -p "${PLTUSERHOME}" || die
+
+	# Temporary directory used by Racket.
+	export TMPDIR="${RT}"/tmpdir
+	mkdir -p "${TMPDIR}" || die
 }
 
 # @FUNCTION: raco_test

@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="prozion/tabtree"
-GH_COMMIT="c41704550f381a57c1558edd11946fe44b063e40"
+GH_COMMIT="9c51fb98ff0089fb922e37d57841639b0bea9260"
 
 inherit racket gh
 
@@ -16,6 +16,3 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
-
-RDEPEND="dev-racket/odysseus"
-DEPEND="${RDEPEND}"

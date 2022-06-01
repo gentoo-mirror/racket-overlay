@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="gitlab.com"
 GH_REPO="dustyweb/terminal-phase"
-GH_COMMIT="da680c5d415c48150652363a4a8f9a64e73a48ad"
+GH_COMMIT="3a67e738793c6db951ee919e15ac6397c63d0791"
 
 inherit racket gh
 
@@ -22,4 +22,4 @@ RDEPEND="dev-racket/ansi
 	dev-racket/lux
 	dev-racket/pk
 	dev-racket/raart"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

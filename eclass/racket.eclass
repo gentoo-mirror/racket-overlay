@@ -12,7 +12,7 @@
 # @DESCRIPTION:
 # This eclass is used in Racket packages ebuilds
 
-if [[ -z ${_RACKET_ECLASS} ]]; then
+if [[ -z ${_RACKET_ECLASS} ]] ; then
 _RACKET_ECLASS=1
 
 
@@ -392,7 +392,7 @@ raco_system_install() {
 	# This could have also been accomplished by using "REPLACING_VERSIONS"
 	# > [[ -z "${REPLACING_VERSIONS}" ]]
 	# but we have "racket-where", so let's use it!
-	if racket-where "${RACKET_PN}"; then
+	if racket-where "${RACKET_PN}" ; then
 		echo "Package \"${RACKET_PN}\" is already installed."
 	else
 		local dir="${1:-${RACKET_P_DIR}}"

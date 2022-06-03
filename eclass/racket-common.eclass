@@ -12,7 +12,7 @@
 # @DESCRIPTION:
 # This eclass is used in packages that need to compile Racket source code.
 
-if [[ -z ${_RACKET_COMMON_ECLASS} ]]; then
+if [[ -z ${_RACKET_COMMON_ECLASS} ]] ; then
 _RACKET_COMMON_ECLASS=1
 
 inherit multiprocessing xdg-utils

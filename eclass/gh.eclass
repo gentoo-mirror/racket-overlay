@@ -24,7 +24,7 @@
 #
 # GH_REPO="kazzmir/${PN}-racket"
 #
-# if [[ "${PV}" != 99999999 ]]; then
+# if [[ "${PV}" != 99999999 ]] ; then
 #     GH_COMMIT="178f2da654fc4fbefcc909d93d6153d6725c96fd"
 #     KEYWORDS="~amd64"
 # fi
@@ -61,7 +61,7 @@ esac
 # The value of GH_TYPE is derived from GH_DOM if unset.
 
 # TODO: add cgit?
-if [[ -z "${GH_TYPE}" ]]; then
+if [[ -z "${GH_TYPE}" ]] ; then
 	case "${GH_DOM}" in
 		*bitbucket* )
 			GH_TYPE="bitbucket"
@@ -117,7 +117,7 @@ case ${PV} in
 		;;
 	* )
 		# Check if GH_COMMIT is set
-		if [[ -z "${GH_COMMIT}" ]]; then
+		if [[ -z "${GH_COMMIT}" ]] ; then
 			die "GH_COMMIT variable is empty"
 		fi
 

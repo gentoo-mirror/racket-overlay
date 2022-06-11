@@ -17,8 +17,8 @@ PLT_V=${PLT_V_MAJOR}.${PLT_V_MINOR}
 
 case ${PV##*_} in
 	pre* ) PLT_SNAP_DATE=${PV##*_pre} ;;
-	p*	 ) PLT_SNAP_DATE=${PV##*_p}	  ;;
-	*	 ) PLT_SNAP_DATE=			  ;;
+	p*   ) PLT_SNAP_DATE=${PV##*_p}   ;;
+	*    ) PLT_SNAP_DATE=             ;;
 esac
 PLT_SNAP_HASH=9d8639b8ea
 PLT_SNAP=${PLT_SNAP_DATE}-${PLT_SNAP_HASH}

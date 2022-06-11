@@ -5,28 +5,28 @@
 # you need to change "PLT_V_MINOR" and "PLT_SNAP_HASH".
 
 # NOTICE: This ebuild version has to remain in form "<MAJOR_RELEASE>_pre<DATE>"
-# for non-prerelease versions like <MAJOR_RELEASE> to take precedence!
-# Otherwise, use "_p" (patch) instead of "_pre" (prerelease)
-# if you wish for this ebuild to take precedence.
+# for release versions like "<MAJOR_RELEASE>" to take precedence!
+# If you wish for this version ("<DATE>") to take precedence,
+# then use "_p" (patch) instead of "_pre" (prerelease).
 
 EAPI=8
 
-PLT_V_MAJOR="$(ver_cut 1-2)"
-PLT_V_MINOR="0.11"
-PLT_V="${PLT_V_MAJOR}.${PLT_V_MINOR}"
+PLT_V_MAJOR=$(ver_cut 1-2)
+PLT_V_MINOR=0.8
+PLT_V=${PLT_V_MAJOR}.${PLT_V_MINOR}
 
-case "${PV##*_}" in
-	pre* )  PLT_SNAP_DATE="${PV##*_pre}"  ;;
-	p*   )  PLT_SNAP_DATE="${PV##*_p}"    ;;
-	*    )  PLT_SNAP_DATE=""              ;;
+case ${PV##*_} in
+	pre* ) PLT_SNAP_DATE=${PV##*_pre} ;;
+	p*	 ) PLT_SNAP_DATE=${PV##*_p}	  ;;
+	*	 ) PLT_SNAP_DATE=			  ;;
 esac
-PLT_SNAP_HASH="abc259abda"
-PLT_SNAP="${PLT_SNAP_DATE}-${PLT_SNAP_HASH}"
+PLT_SNAP_HASH=9d8639b8ea
+PLT_SNAP=${PLT_SNAP_DATE}-${PLT_SNAP_HASH}
 
-PLT_HOST="https://plt.cs.northwestern.edu"
-PLT_SOURCES="${PLT_HOST}/snapshots/${PLT_SNAP}/installers"
+PLT_HOST=https://plt.cs.northwestern.edu
+PLT_SOURCES=${PLT_HOST}/snapshots/${PLT_SNAP}/installers
 
-inherit desktop optfeature readme.gentoo-r1
+inherit desktop optfeature toolchain-funcs readme.gentoo-r1
 
 DESCRIPTION="General purpose, multi-paradigm Lisp-Scheme programming language"
 HOMEPAGE="https://racket-lang.org/"
@@ -35,8 +35,9 @@ SRC_URI="
 	minimal? ( ${PLT_SOURCES}/racket-minimal-${PLT_V}-src-builtpkgs.tgz -> ${P}-minimal.tgz )
 	!minimal? ( ${PLT_SOURCES}/racket-test-${PLT_V}-src-builtpkgs.tgz -> ${P}.tgz )
 "
-S="${WORKDIR}/racket-${PLT_V}/src"
+S="${WORKDIR}"/racket-${PLT_V}/src
 
+# See https://blog.racket-lang.org/2019/11/completing-racket-s-relicensing-effort.html
 LICENSE="
 	|| ( MIT Apache-2.0 )
 	chez? ( Apache-2.0 )
@@ -46,15 +47,18 @@ LICENSE="
 # The bytecode version should be denoted by SLOT, in most cases
 # PV == SLOT but this has to be checked carefully and in cases
 # where we use _p, _pre, etc it will have to be set manually.
-SLOT="0/${PLT_V}"
+SLOT=0/${PLT_V}
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
-IUSE="+chez +doc +futures +jit minimal +places +threads"
+IUSE="+chez +doc +futures iconv +jit minimal ncurses +places +threads"
+# See bug #809785 re chez/threads
 REQUIRED_USE="chez? ( futures places ) futures? ( jit threads ) places? ( threads )"
 
 DEPEND="
+	!dev-tex/slatex
 	dev-db/sqlite:3
 	dev-libs/libffi:=
+	ncurses? ( sys-libs/ncurses:= )
 "
 RDEPEND="${DEPEND}"
 
@@ -75,59 +79,6 @@ PKGDB=(
 	/usr/share/racket/pkgs/pkgs.rktd
 )
 
-# Following USE flags modify PKGDB, so we cannot keep PKGDB
-# if we install Racket and one of those USE flags changed.
-# Practically change of "chez" flag will not affect PKGDB,
-# but it has different bytecode compilation method which
-# makes it incompatible (on amd64: "ta6le" vs "racket").
-pkguse_unchanged() {
-	local pkguses=( chez futures minimal places )
-	local unchanged=yes
-	local changed=( )
-
-	if has_version "${CATEGORY}/${PN}"; then
-		local pkguse
-		for pkguse in "${pkguses[@]}"; do
-			if (
-				use ${pkguse} && ! has_version "${CATEGORY}/${PN}[${pkguse}]"
-			) || (
-				! use ${pkguse} && has_version "${CATEGORY}/${PN}[${pkguse}]"
-			); then
-				changed+=( ${pkguse} )
-				unchanged=no
-			fi
-		done
-	fi
-
-	if [[ ${unchanged} = yes ]]; then
-		return 0
-	else
-		ewarn "Changed USE flags: ${changed[@]}"
-		return 1
-	fi
-}
-
-# If we have any pkgs not included in Racket main distribution (outsiders),
-# then we have to re-setup them or during installation other pkgs will want
-# to recompile parts of "outsider" pkgs they depend upon (and fail).
-resetup_outsiders() {
-	local outsiders=( $(raco pkg show -i | grep 'link' | sed 's|link.*||g') )
-	if [[ -n "${outsiders[@]}" ]]; then
-		ebegin "Running \"raco setup\" for outsider packages"
-		echo "Outsiders: ${outsiders[@]}"
-		raco setup --all-users --force --no-docs --no-user --pkgs "${outsiders[@]}"
-		eend 0  # do not fail
-	fi
-}
-
-pkg_pretend() {
-	if has_version "${CATEGORY}/${PN}:${SLOT}" && ! pkguse_unchanged; then
-		ewarn "We are installing same SLOT (${SLOT}), but critical USE flags have"
-		ewarn "changed, because of this Racket package database files cannot be kept!"
-		ewarn "Any additional Racket packages will have to be reinstalled manually."
-	fi
-}
-
 src_prepare() {
 	# Prepare the environment
 	unset PLTADDONDIR PLTCOLLECTS PLTCONFIGDIR PLTUSERHOME
@@ -139,6 +90,15 @@ src_prepare() {
 }
 
 src_configure() {
+	# Compilation of Zuo does not respect the autoconf configuration.
+	tc-export CC
+
+	# Configure Zuo
+	pushd "${S}"/zuo >/dev/null || die
+	econf
+	popd >/dev/null || die
+
+	# Configure Racket
 	# Libtool:
 	#   According to vapier, we should use the bundled libtool
 	#   such that we don't preclude cross-compile.
@@ -156,6 +116,8 @@ src_configure() {
 		--enable-libs
 		$(usex chez "--enable-cs --enable-csonly" "--enable-bc --enable-bconly")
 		$(use_enable doc docs)
+		$(use_enable iconv)
+		$(use_enable ncurses curses)
 	)
 	# Some options are togglable only for the BC version (are forced in CS)
 	! use chez && myconf+=(
@@ -171,23 +133,26 @@ src_configure() {
 	econf "${myconf[@]}"
 }
 
+src_compile() {
+	# Compile Racket
+	CC_FOR_BUILD="$(tc-getCC)" default
+
+	# Recompile Zuo with optimizations
+	# emake -C zuo
+}
+
 src_install() {
+	# Install Racket
 	default
 
-	# Install Racket boot files
-	if use chez; then
-		pushd "${S}"/cs/c || die
-		emake DESTDIR="${ED}" unix-install-boot-files
-		popd || die
-	fi
+	# Install Zuo
+	# emake -C zuo DESTDIR="${ED}" install
 
 	# raco needs decompressed files for packages doc installation bug 662424
-	if use doc; then
-		docompress -x /usr/share/doc/${PF}
-	fi
+	use doc && docompress -x /usr/share/doc/${PF}
 
 	# Create missing desktop files and icon
-	if ! use minimal; then
+	if ! use minimal ; then
 		newicon "${ED}/usr/share/racket/drracket-exe-icon.png" "racket.png"
 		make_desktop_entry "gracket" "GRacket" "racket" "Development;Education;"
 		make_desktop_entry "plt-games" "PLT Games" "racket" "Education;Game;"
@@ -199,11 +164,11 @@ src_install() {
 pkg_preinst() {
 	# If we are merging the same SLOT check if package
 	# database files exist and do not overwrite them
-	if has_version "${CATEGORY}/${PN}:${SLOT}" && pkguse_unchanged; then
+	if has_version "${CATEGORY}/${PN}:${SLOT}" ; then
 		echo "We are installing the same SLOT: ${SLOT}"
 		local rktd
-		for rktd in "${PKGDB[@]}"; do
-			if [[ -f "${EROOT}"/${rktd} ]] && [[ -f "${ED}"/${rktd} ]]; then
+		for rktd in "${PKGDB[@]}" ; do
+			if [[ -f "${EROOT}"/${rktd} ]] && [[ -f "${ED}"/${rktd} ]] ; then
 				einfo "Keeping old file: ${rktd}"
 				mv "${ED}"/${rktd} "${ED}"/${rktd}.bak ||
 					die "failed to create a backup of ${rktd}"
@@ -215,7 +180,16 @@ pkg_preinst() {
 }
 
 pkg_postinst() {
-	resetup_outsiders
+	# If we have any pkgs not included in Racket main distribution (outsiders),
+	# then we have to re-setup them or during installation other pkgs will want
+	# to recompile parts of "outsider" pkgs they depend upon (and fail).
+	local outsiders=( $(raco pkg show -i | grep 'link' | sed 's|link.*||g') )
+	if [[ -n "${outsiders[@]}" ]] ; then
+		ebegin "Running \"raco setup\" for outsider packages"
+		echo "Outsiders: ${outsiders[@]}"
+		raco setup --all-users --force --no-docs --no-user --pkgs "${outsiders[@]}"
+		eend 0  # do not fail
+	fi
 
 	optfeature "readline editing features in REPL" dev-libs/libedit
 	optfeature "generating PDF files using Scribble" dev-texlive/texlive-fontsextra
@@ -226,7 +200,7 @@ pkg_postinst() {
 pkg_config() {
 	einfo "Swapping package database backup files"
 
-	for rktd in "${PKGDB[@]}"; do
+	for rktd in "${PKGDB[@]}" ; do
 		mv "${EROOT}"/${rktd} "${EROOT}"/${rktd}.pkg_config
 		mv "${EROOT}"/${rktd}.bak "${EROOT}"/${rktd}
 		mv "${EROOT}"/${rktd}.pkg_config "${EROOT}"/${rktd}.bak

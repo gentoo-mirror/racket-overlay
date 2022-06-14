@@ -17,6 +17,5 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/fpbench
-	dev-racket/regraph
 	dev-racket/rival"
 BDEPEND="${RDEPEND}"

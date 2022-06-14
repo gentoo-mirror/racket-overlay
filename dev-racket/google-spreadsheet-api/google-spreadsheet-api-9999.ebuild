@@ -16,6 +16,5 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/crypto
-	dev-racket/net-jwt
 	dev-racket/scribble-code-examples"
 BDEPEND="${RDEPEND}"

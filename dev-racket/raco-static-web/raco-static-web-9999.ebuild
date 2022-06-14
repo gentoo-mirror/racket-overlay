@@ -14,3 +14,6 @@ HOMEPAGE="https://github.com/samdphillips/raco-static-web"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/mime-type-lib"
+BDEPEND="${RDEPEND}"

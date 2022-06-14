@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/custom-load >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Errortrace installed packages
+EAPI=8
+HOMEPAGE=https://github.com/sorawee/errortrace-pkg
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/custom-load >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/sorawee/errortrace-pkg/archive/67719cce30a4b675b58dc882e99ac2ca29e00ab7.tar.gz -> errortrace-pkg-2022.06.08.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	75996c51d824eb43cee7a5053e37c87a	racket	a530668384f1cc9046144263c4aaa9a0	gh	2b9c2269d229d3294ef1aabbb00e61b0
+_md5_=55fb481a721cbf0b7d502bd7e7d34fa7

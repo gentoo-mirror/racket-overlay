@@ -1,4 +1,4 @@
-BDEPEND=dev-racket/ebuild-lib dev-racket/ebuild-templates dev-racket/ebuild-transformers dev-racket/threading-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=dev-racket/ebuild-lib dev-racket/ebuild-templates dev-racket/ebuild-transformers dev-racket/threading-lib dev-racket/upi-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
 DESCRIPTION=Library to ease automatic ebuild creation. Tests.
 EAPI=8
@@ -7,8 +7,8 @@ INHERIT=racket gh
 IUSE=doc
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/ebuild-lib dev-racket/ebuild-templates dev-racket/ebuild-transformers dev-racket/threading-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/ebuild-lib dev-racket/ebuild-templates dev-racket/ebuild-transformers dev-racket/threading-lib dev-racket/upi-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	75996c51d824eb43cee7a5053e37c87a	racket	a530668384f1cc9046144263c4aaa9a0	git-r3	b9ac6f96d2a88edb5b351df634dc5e53	gh	2b9c2269d229d3294ef1aabbb00e61b0
-_md5_=a794614f28e9b9390341e9f89235b7f4
+_md5_=d44d43b4d0a803bce46e80e23c6952c4

@@ -204,7 +204,7 @@ raco_install() {
 # @FUNCTION: raco_bare_install
 # @USAGE: scope [pkg_name]
 # @DESCRIPTION:
-# Install package to portage's HOME directory without setup.
+# Install package to a chosen scope without setup.
 raco_bare_install() {
 	debug-print-function ${FUNCNAME} "$@"
 
@@ -216,7 +216,7 @@ raco_bare_install() {
 # @FUNCTION: raco_temporary_install
 # @USAGE: [pkg_name]
 # @DESCRIPTION:
-# Install package to portage's HOME directory.
+# Install package to portage's PLTUSERHOME directory.
 raco_temporary_install() {
 	debug-print-function ${FUNCNAME} "$@"
 
@@ -235,13 +235,14 @@ scribble_system_docs() {
 	ebegin "Building system-wide documentation"
 
 	local doctype
+	local scrbl_opts
 	for doctype in html latex markdown pdf text ; do
 		echo "Creating ${doctype} documentation in ${SCRBL_DOC_DIR}/${doctype}"
 
 		mkdir -p "${SCRBL_DOC_DIR}/${doctype}" ||
 			die "failed to create ${SCRBL_DOC_DIR}/${doctype}"
 
-		local scrbl_opts=(
+		scrbl_opts=(
 			--${doctype}
 			--dest "${SCRBL_DOC_DIR}/${doctype}"
 			--quiet

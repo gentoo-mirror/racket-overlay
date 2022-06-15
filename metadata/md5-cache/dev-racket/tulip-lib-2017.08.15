@@ -11,5 +11,5 @@ RDEPEND=dev-racket/curly-fn dev-racket/functional-lib dev-racket/megaparsack-lib
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lexi-lambda/racket-tulip/archive/1613cfd4d7e8dbc8ceb86cf33479375147f42b2f.tar.gz -> tulip-lib-2017.08.15.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	75996c51d824eb43cee7a5053e37c87a	racket	a530668384f1cc9046144263c4aaa9a0	gh	2b9c2269d229d3294ef1aabbb00e61b0
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	75996c51d824eb43cee7a5053e37c87a	racket	4de6f8e1a76488f4f13429edf4a69a26	gh	2b9c2269d229d3294ef1aabbb00e61b0
 _md5_=d9fa9dfbb838d0b9d398f11fb1ce71d9

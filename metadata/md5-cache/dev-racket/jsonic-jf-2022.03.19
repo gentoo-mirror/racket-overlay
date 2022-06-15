@@ -11,5 +11,5 @@ RDEPEND=dev-racket/beautiful-racket-lib dev-racket/br-parser-tools-lib dev-racke
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/ErwinKotz/test_racket_package/archive/de1a5a3b39f6f511536e2e53419a7deee2114641.tar.gz -> jsonic-jf-2022.03.19.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	75996c51d824eb43cee7a5053e37c87a	racket	a530668384f1cc9046144263c4aaa9a0	gh	2b9c2269d229d3294ef1aabbb00e61b0
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	75996c51d824eb43cee7a5053e37c87a	racket	4de6f8e1a76488f4f13429edf4a69a26	gh	2b9c2269d229d3294ef1aabbb00e61b0
 _md5_=c9a5143710cb892edd3d5270c21197db

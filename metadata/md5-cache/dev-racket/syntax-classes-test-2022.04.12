@@ -11,5 +11,5 @@ RDEPEND=dev-racket/rackunit-spec dev-racket/syntax-classes-lib >=dev-scheme/rack
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lexi-lambda/syntax-classes/archive/4d64d35259d69ee8d5c90f475fe777c66d54c8fd.tar.gz -> syntax-classes-test-2022.04.12.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	75996c51d824eb43cee7a5053e37c87a	racket	a530668384f1cc9046144263c4aaa9a0	gh	2b9c2269d229d3294ef1aabbb00e61b0
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	75996c51d824eb43cee7a5053e37c87a	racket	4de6f8e1a76488f4f13429edf4a69a26	gh	2b9c2269d229d3294ef1aabbb00e61b0
 _md5_=28b4caf7c2c1ea19da73b026bea78e07

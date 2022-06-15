@@ -11,5 +11,5 @@ RDEPEND=dev-racket/syntax-class-or dev-racket/syntax-classes-lib >=dev-scheme/ra
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/acl2s-scribblings/archive/ac77d9f0d87a9e3c3929e86444dfcd4b3d59640c.tar.gz -> acl2s-scribblings-2022.01.07.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	75996c51d824eb43cee7a5053e37c87a	racket	a530668384f1cc9046144263c4aaa9a0	gh	2b9c2269d229d3294ef1aabbb00e61b0
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	75996c51d824eb43cee7a5053e37c87a	racket	4de6f8e1a76488f4f13429edf4a69a26	gh	2b9c2269d229d3294ef1aabbb00e61b0
 _md5_=b5d1ea6c7fd428e3378daf869a0ab0b3

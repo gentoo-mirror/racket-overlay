@@ -44,7 +44,7 @@ BDEPEND="${RDEPEND}"
 # @DESCRIPTION:
 # Check if the "raco" command exists.
 racket_check_raco() {
-	debug-print-function ${FUNCNAME} "$@"
+	debug-print-function ${FUNCNAME} "${@}"
 
 	command -v raco >/dev/null || die "raco is missing"
 }
@@ -54,12 +54,12 @@ racket_check_raco() {
 # @DESCRIPTION:
 # Wrapper for the Racket's "raco" command.
 eraco() {
-	debug-print-function ${FUNCNAME} "$@"
+	debug-print-function ${FUNCNAME} "${@}"
 
 	racket_check_raco
 	ebegin "Invoking \"raco ${*}\""
 	raco "${@}"
-	eend $? "\"raco ${*}\" failed" || die
+	eend ${?} "\"raco ${*}\" failed" || die
 }
 
 # @FUNCTION: racket_clean_environment
@@ -70,7 +70,7 @@ eraco() {
 # For more info about environment variables used/respected by Racket see:
 # https://docs.racket-lang.org/reference/Filesystem.html
 racket_clean_environment() {
-	debug-print-function ${FUNCNAME} "$@"
+	debug-print-function ${FUNCNAME} "${@}"
 
 	racket_check_raco
 	xdg_environment_reset
@@ -96,7 +96,7 @@ racket_clean_environment() {
 # test submodules in files in current package directory (recursively)
 # and execute those tests.
 raco_test() {
-	debug-print-function ${FUNCNAME} "$@"
+	debug-print-function ${FUNCNAME} "${@}"
 
 	local raco_opts=(
 		--drdr

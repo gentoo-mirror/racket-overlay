@@ -5,15 +5,18 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="racket/racket"
-GH_COMMIT="5af01c351fc74e1d7b9874fc2f40ead2fc3f3b7a"
+GH_COMMIT="fa746e3bb1be105499a5f80a8b846bf2bc27c826"
 
 inherit racket gh
 
-DESCRIPTION="Documentation for the Zuo language"
+DESCRIPTION="Racket build and contribution documentation"
 HOMEPAGE="https://github.com/racket/racket"
-S="${S}/racket/src/zuo/zuo-doc"
+S="${S}/pkgs/racket-build-guide"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/distro-build-doc"
+BDEPEND="${RDEPEND}"

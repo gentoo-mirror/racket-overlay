@@ -4,14 +4,14 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racket/drracket"
-GH_COMMIT="39357a9f493a3b27ecb7798d9c83a9fbd15c65f8"
+GH_REPO="racket/errortrace"
+GH_COMMIT="9690fa5fd9888e9e244eb311994dcd8884ffb7a9"
 
 inherit racket gh
 
-DESCRIPTION="the drracket-tool-text-lib Racket package"
-HOMEPAGE="https://github.com/racket/drracket"
-S="${S}/drracket-tool-text-lib"
+DESCRIPTION="The errortrace Racket package"
+HOMEPAGE="https://github.com/racket/errortrace"
+S="${S}/errortrace"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

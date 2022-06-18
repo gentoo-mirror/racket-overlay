@@ -4,13 +4,14 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="Antigen-1/qcr"
-GH_COMMIT="d6555014e475716cf5a8424bae6f02ecbf169eb8"
+GH_REPO="racket/drracket"
+GH_COMMIT="41b357762d9466ce17c924cbec161c64d7417256"
 
 inherit racket gh
 
-DESCRIPTION="A small chat room on tcp."
-HOMEPAGE="https://github.com/Antigen-1/qcr"
+DESCRIPTION="The drracket-tool-text-lib Racket package"
+HOMEPAGE="https://github.com/racket/drracket"
+S="${S}/drracket-tool-text-lib"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

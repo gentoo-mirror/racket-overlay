@@ -1,11 +1,11 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="arclanguage/anarki"
-GH_COMMIT="c4da81b1a091927224d0b8e15a093dd84205871b"
+GH_COMMIT="8a8ffe65fd04726c19fe2db1dedaf18c3f22f9ca"
 
 inherit racket gh
 
@@ -18,4 +18,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/sha"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

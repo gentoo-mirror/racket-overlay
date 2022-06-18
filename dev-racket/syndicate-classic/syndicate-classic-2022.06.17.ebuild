@@ -5,11 +5,11 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="tonyg/syndicate"
-GH_COMMIT="d2e753d30346f867685b492e2415d2612365f9cd"
+GH_COMMIT="43cc25ea1b365febd68458a9f4f9858872840a62"
 
 inherit racket gh
 
-DESCRIPTION="the syndicate-classic Racket package"
+DESCRIPTION="The syndicate-classic Racket package"
 HOMEPAGE="https://github.com/tonyg/syndicate"
 S="${S}/racket"
 
@@ -27,4 +27,4 @@ RDEPEND="dev-racket/automata
 	dev-racket/struct-defaults
 	dev-racket/turnstile-example
 	dev-racket/turnstile-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

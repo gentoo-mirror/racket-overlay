@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="alex-hhh/map-widget"
-GH_COMMIT="0d1f1a3d0b5675ecabf20f53d7b3fcfe49dc6ad1"
+GH_COMMIT="93157603f49cd9ba5d6aafd0dc52aed4e583be3a"
 
 inherit racket gh
 
@@ -20,4 +20,4 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/al2-test-runner
 	dev-racket/geoid
 	dev-racket/http-easy"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

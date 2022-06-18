@@ -84,6 +84,10 @@ racket_clean_environment() {
 	# Temporary directory used by Racket.
 	export TMPDIR="${RT}"/tmpdir
 	mkdir -p "${TMPDIR}" || die
+
+	# Additional variables to unset
+	unset PLTADDONDIR PLTCOLLECTS PLTCONFIGDIR
+	unset PLT_COMPILED_FILE_CHECK
 }
 
 # @FUNCTION: raco_test

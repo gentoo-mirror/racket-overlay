@@ -226,12 +226,12 @@ raco_temporary_install() {
 	# If 1st value is set Racket will only check if the dependency compiled
 	# bytecode exists (if it is compilable),
 	# if 2nd value is set Racket will also check if the dependencies bytecode
-	# is up-to-date, if it is not i will compile it.
+	# is up-to-date, if it is not it will try to compile it.
 	# For the time of "raco_temporary_install" call should be set to "exists".
 	# "modify-seconds" is the default and before 2022.06.17 it was notoriously
 	# breaking package builds with sandbox.
-	# We still want to have "modify-seconds" but for "installtion" scope setup,
-	# not for "user".
+	# We still want to have "modify-seconds" but for "installation" scope setup
+	# (mainly "pkg_*" functions), not for "user" scope (mainly "src_compile").
 	PLT_COMPILED_FILE_CHECK="exists" \
 		raco_install --name "${pkg}" --scope user $(raco_docs_switch)
 }

@@ -221,7 +221,19 @@ raco_temporary_install() {
 	debug-print-function ${FUNCNAME} "$@"
 
 	local pkg="${1:-${RACKET_PN}}"
-	raco_install --name "${pkg}" --scope user $(raco_docs_switch)
+
+	# PLT_COMPILED_FILE_CHECK accepts two values: exists & modify-seconds
+	# If 1st value is set Racket will only check if the dependency compiled
+	# bytecode exists (if it is compilable),
+	# if 2nd value is set Racket will also check if the dependencies bytecode
+	# is up-to-date, if it is not i will compile it.
+	# For the time of "raco_temporary_install" call should be set to "exists".
+	# "modify-seconds" is the default and before 2022.06.17 it was notoriously
+	# breaking package builds with sandbox.
+	# We still want to have "modify-seconds" but for "installtion" scope setup,
+	# not for "user".
+	PLT_COMPILED_FILE_CHECK="exists" \
+		raco_install --name "${pkg}" --scope user $(raco_docs_switch)
 }
 
 # @FUNCTION: scribble_system_docs

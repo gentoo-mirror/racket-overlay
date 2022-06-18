@@ -1,16 +1,15 @@
 BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/rackcheck dev-racket/smtp-server
-DESCRIPTION=An implementation of RFC5321 for Racket. (tests only)
+DESCRIPTION=A simple package to display text tables with unicode frames.
 EAPI=8
-HOMEPAGE=https://github.com/Bogdanp/racket-smtp-server
+HOMEPAGE=https://github.com/Metaxal/text-table
 INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/rackcheck dev-racket/smtp-server >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/Bogdanp/racket-smtp-server/archive/878fa53cbaa8998f38004143691b9c8e798738cb.tar.gz -> smtp-server-test-2021.11.04.tar.gz
+SRC_URI=https://github.com/Metaxal/text-table/archive/35fb68b28a3e3cfd7dc9cc394aa9f96d051b020b.tar.gz -> text-table-2022.06.16.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	2b9c2269d229d3294ef1aabbb00e61b0
-_md5_=4728e8c5413bb7db4769360d09758f9d
+_md5_=0d7618a52b84ab6e725fbe0485b64e2f

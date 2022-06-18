@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/adjutor dev-racket/fancy-app dev-racket/mischief dev-racket/typed-stack >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/adjutor dev-racket/fancy-app dev-racket/mischief dev-racket/typed-stack
 DESCRIPTION=A general-purpose functional DSL. [implementation only]
 EAPI=8
 HOMEPAGE=https://github.com/countvajhula/qi
@@ -11,6 +10,6 @@ LICENSE=all-rights-reserved
 RDEPEND=dev-racket/adjutor dev-racket/fancy-app dev-racket/mischief dev-racket/typed-stack >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/countvajhula/qi/archive/761e8d3cc1edff646a525e6f2bc94105f7845c2c.tar.gz -> qi-lib-2022.05.19.tar.gz
+SRC_URI=https://github.com/countvajhula/qi/archive/29164213a8dab7c996999e4e62029eaead0f50f6.tar.gz -> qi-lib-2022.06.15.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	2b9c2269d229d3294ef1aabbb00e61b0
-_md5_=c95ed0dfee64ddc3c26a3db9dba43804
+_md5_=36a626e712a14de13b7b54a5fc392e45

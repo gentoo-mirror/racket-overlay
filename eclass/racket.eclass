@@ -232,6 +232,7 @@ raco_temporary_install() {
 	# breaking package builds with sandbox.
 	# We still want to have "modify-seconds" but for "installation" scope setup
 	# (mainly "pkg_*" functions), not for "user" scope (mainly "src_compile").
+	# CONSIDER: Set PLT_COMPILED_FILE_CHECK in "raco_install"?
 	PLT_COMPILED_FILE_CHECK="exists" \
 		raco_install --name "${pkg}" --scope user $(raco_docs_switch)
 }

@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="prozion/tabtree"
-GH_COMMIT="b563b3fe8fbf6e5ad6c2f875f544002c5bd26add"
+GH_COMMIT="9e074e432f61965005011bc39ee5a1180e385428"
 
 inherit racket gh
 

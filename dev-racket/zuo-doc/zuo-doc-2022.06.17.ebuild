@@ -4,14 +4,14 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racket/errortrace"
-GH_COMMIT="6e89c54a5f9de8b925ad668888aa241722e5bbfc"
+GH_REPO="racket/racket"
+GH_COMMIT="fa746e3bb1be105499a5f80a8b846bf2bc27c826"
 
 inherit racket gh
 
-DESCRIPTION="the errortrace Racket package"
-HOMEPAGE="https://github.com/racket/errortrace"
-S="${S}/errortrace"
+DESCRIPTION="Documentation for the Zuo language"
+HOMEPAGE="https://github.com/racket/racket"
+S="${S}/racket/src/zuo/zuo-doc"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

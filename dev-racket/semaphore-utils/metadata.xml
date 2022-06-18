@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/dstorrs/semaphore-utils</bugs-to>
+    <remote-id type="github">dstorrs/semaphore-utils</remote-id>
+  </upstream>
+</pkgmetadata>

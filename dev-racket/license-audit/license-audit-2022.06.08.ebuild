@@ -4,19 +4,18 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racket/racket"
-GH_COMMIT="5af01c351fc74e1d7b9874fc2f40ead2fc3f3b7a"
+GH_REPO="sorawee/license-audit"
+GH_COMMIT="2503ab41ae29004b2b27e035eeebdfe1f1a5491e"
 
 inherit racket gh
 
-DESCRIPTION="Racket build and contribution documentation"
-HOMEPAGE="https://github.com/racket/racket"
-S="${S}/pkgs/racket-build-guide"
+DESCRIPTION="Audit package licenses (including their dependencies)"
+HOMEPAGE="https://github.com/sorawee/license-audit"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/distro-build-doc"
+RDEPEND="dev-racket/text-table"
 BDEPEND="${RDEPEND}"

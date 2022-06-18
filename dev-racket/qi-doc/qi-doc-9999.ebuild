@@ -26,7 +26,6 @@ RDEPEND="dev-racket/debug
 	dev-racket/qi-probe
 	dev-racket/qi-quickscripts
 	dev-racket/quickscript-extra
-	dev-racket/relation
 	dev-racket/sawzall-doc
 	dev-racket/scribble-abbrevs
 	dev-racket/scribble-math

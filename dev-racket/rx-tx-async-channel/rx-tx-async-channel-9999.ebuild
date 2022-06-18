@@ -4,19 +4,17 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="countvajhula/qi"
+GH_REPO="dstorrs/rx-tx-async-channel"
 
 inherit racket gh
 
-DESCRIPTION="A general-purpose functional DSL. [tests only]"
-HOMEPAGE="https://github.com/countvajhula/qi"
-S="${S}/qi-test"
+DESCRIPTION="The rx-tx-async-channel Racket package"
+HOMEPAGE="https://github.com/dstorrs/rx-tx-async-channel"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/cover
-	dev-racket/cover-coveralls
-	dev-racket/qi-lib"
+RDEPEND="dev-racket/struct-plus-plus
+	dev-racket/test-more"
 BDEPEND="${RDEPEND}"

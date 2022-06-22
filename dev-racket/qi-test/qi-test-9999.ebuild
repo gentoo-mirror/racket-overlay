@@ -18,5 +18,6 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/cover
 	dev-racket/cover-coveralls
-	dev-racket/qi-lib"
+	dev-racket/qi-lib
+	dev-racket/relation"
 BDEPEND="${RDEPEND}"

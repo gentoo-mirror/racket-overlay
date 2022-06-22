@@ -16,6 +16,7 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/handy
+	dev-racket/in-out-logged
 	dev-racket/queue
 	dev-racket/struct-plus-plus
 	dev-racket/thread-with-id"

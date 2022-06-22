@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/graph-lib dev-racket/ppict dev-racket/racket-poppler dev-racket/unstable-latent-contract-lib dev-racket/unstable-parameter-group-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Create beautiful pictures and diagrams
+EAPI=8
+HOMEPAGE=https://github.com/soegaard/metapict
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/graph-lib dev-racket/ppict dev-racket/racket-poppler dev-racket/unstable-latent-contract-lib dev-racket/unstable-parameter-group-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/soegaard/metapict/archive/f0a8d2dba519cae125875ad054773136e2b185fb.tar.gz -> metapict-2022.06.21.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	2b9c2269d229d3294ef1aabbb00e61b0
+_md5_=0e2af4da567411e352ef04e9a854a607

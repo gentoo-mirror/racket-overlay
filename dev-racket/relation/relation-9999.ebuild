@@ -10,6 +10,7 @@ inherit racket gh
 
 DESCRIPTION="Generic interfaces and convenient utilities for using relations."
 HOMEPAGE="https://github.com/countvajhula/relation"
+S="${S}/relation"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

@@ -23,8 +23,7 @@ SCAN                := $(PKGCHECK) scan
 MANIFEST_FLAGS      := --verbose
 
 EGENCACHE_AUX       := --jobs $(NPROC) --load-average $(NPROC) --verbose
-EGENCACHE_REPO      := racket-overlay      # TODO: Use this DIRECTORY (ifdef?).
-EGENCACHE_FLAGS     := $(EGENCACHE_AUX) --update --repo $(EGENCACHE_REPO)
+EGENCACHE_FLAGS     := $(EGENCACHE_AUX) --update --repo racket-overlay
 
 SCAN_AUX            := --jobs=$(NPROC) --verbose
 SCAN_EXIT_ON        := error
@@ -52,7 +51,8 @@ manifests:
 regen-gentoo: ebuilds manifests
 
 egencache:
-	$(EGENCACHE) $(EGENCACHE_FLAGS)
+	PORATGE_REPOSITORIES="[racket-overlay] location = $(PWD)" \
+		$(EGENCACHE) $(EGENCACHE_FLAGS)
 
 clean-metadata-cache:
 	rm -r $(PWD)/metadata/md5-cache

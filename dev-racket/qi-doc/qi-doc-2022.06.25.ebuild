@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="countvajhula/qi"
-GH_COMMIT="ecfecb11e5015fd43ff8059c609d1842f22bf320"
+GH_COMMIT="f21529ddb9b9fac53dc4af650ecc19ad71077ddb"
 
 inherit racket gh
 

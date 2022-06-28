@@ -18,5 +18,6 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/br-parser-tools-lib
 	dev-racket/brag-lib
 	dev-racket/fancy-app
-	dev-racket/rebellion"
+	dev-racket/rebellion
+	dev-racket/uri-old"
 BDEPEND="${RDEPEND}"

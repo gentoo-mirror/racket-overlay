@@ -1,17 +1,16 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="deepmind/deepmind-research"
-GH_COMMIT="72c72d530f7de050451014895c1068b588f94733"
+GH_REPO="Metaxal/satore"
+GH_COMMIT="e56983d7a91a031e909d643489334ec394f06e4e"
 
 inherit racket gh
 
-DESCRIPTION="the satore Racket package"
-HOMEPAGE="https://github.com/deepmind/deepmind-research"
-S="${S}/satore"
+DESCRIPTION="The satore Racket package"
+HOMEPAGE="https://github.com/Metaxal/satore"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
@@ -22,4 +21,4 @@ RDEPEND="dev-racket/bazaar
 	dev-racket/define2
 	dev-racket/global
 	dev-racket/text-table"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

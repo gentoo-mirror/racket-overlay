@@ -3,6 +3,7 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://git.sr.ht/~mbutterick/pollen</bugs-to>
+    <bugs-to>https://github.com/sschwarzer/racket-glossary</bugs-to>
+    <remote-id type="github">sschwarzer/racket-glossary</remote-id>
   </upstream>
 </pkgmetadata>

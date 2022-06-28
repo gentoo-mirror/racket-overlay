@@ -5,21 +5,23 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="countvajhula/qi"
-GH_COMMIT="773f64d2f9251f3e09f540137e9632fc5308f5f2"
+GH_COMMIT="f21529ddb9b9fac53dc4af650ecc19ad71077ddb"
 
 inherit racket gh
 
-DESCRIPTION="A general-purpose functional DSL. [tests only]"
+DESCRIPTION="A general-purpose functional DSL."
 HOMEPAGE="https://github.com/countvajhula/qi"
-S="${S}/qi-test"
+S="${S}/qi"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/cover
-	dev-racket/cover-coveralls
+RDEPEND="dev-racket/cli
+	dev-racket/qi-doc
 	dev-racket/qi-lib
-	dev-racket/relation"
+	dev-racket/qi-probe
+	dev-racket/qi-quickscripts
+	dev-racket/qi-test"
 BDEPEND="${RDEPEND}"

@@ -4,13 +4,14 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="failed-dragon-slayer/racket-llvm"
-GH_COMMIT="0125756b4f8bae5bd816e1891fb4cfe818e7fc33"
+GH_REPO="racket/racket"
+GH_COMMIT="792de8f138a2042798519b232555d7686513f3b6"
 
 inherit racket gh
 
-DESCRIPTION="racket llvm C-API bindings"
-HOMEPAGE="https://github.com/failed-dragon-slayer/racket-llvm"
+DESCRIPTION="Documentation for the Zuo language"
+HOMEPAGE="https://github.com/racket/racket"
+S="${S}/racket/src/zuo/zuo-doc"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

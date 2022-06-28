@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-gui-easy"
-GH_COMMIT="2c3c9cace8a5c76753c25e34e954ed053d7afa2a"
+GH_COMMIT="be83ad40c9f758afce207430b2daf1243e1bb5ed"
 
 inherit racket gh
 
@@ -19,4 +19,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/box-extra-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

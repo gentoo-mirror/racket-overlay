@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="racket/racket-lang-org"
-GH_COMMIT="87984cd566b04a4215567ead752b5822b1909f72"
+GH_COMMIT="d4176954074e55bc3d1144f1817a490d223f33f5"
 
 inherit racket gh
 
@@ -28,4 +28,4 @@ RDEPEND="dev-racket/css-tools
 	dev-racket/s3-sync
 	dev-racket/sugar
 	dev-racket/txexpr"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

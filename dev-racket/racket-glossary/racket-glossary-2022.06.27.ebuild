@@ -4,19 +4,18 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racket/racket"
-GH_COMMIT="4d8c63f616961d637242848585f1c5633be53746"
+GH_REPO="sschwarzer/racket-glossary"
+GH_COMMIT="88144df6b9b11bc02579a91085d8f7e10fc4309e"
 
 inherit racket gh
 
-DESCRIPTION="Racket build and contribution documentation"
-HOMEPAGE="https://github.com/racket/racket"
-S="${S}/pkgs/racket-build-guide"
+DESCRIPTION="The racket-glossary Racket package"
+HOMEPAGE="https://github.com/sschwarzer/racket-glossary"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/distro-build-doc"
+RDEPEND="dev-racket/al2-test-runner"
 BDEPEND="${RDEPEND}"

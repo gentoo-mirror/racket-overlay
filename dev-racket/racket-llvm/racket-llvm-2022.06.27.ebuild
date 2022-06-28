@@ -4,14 +4,13 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racket/raco-cross"
-GH_COMMIT="08d23ab27196594b731a8fee4360f93882494b7a"
+GH_REPO="dannypsnl/racket-llvm"
+GH_COMMIT="7c734293575e0078d139fcc49293d19141566ae4"
 
 inherit racket gh
 
-DESCRIPTION="implementation (no documentation) part of raco-cross"
-HOMEPAGE="https://github.com/racket/raco-cross"
-S="${S}/raco-cross-lib"
+DESCRIPTION="racket llvm C-API bindings"
+HOMEPAGE="https://github.com/dannypsnl/racket-llvm"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

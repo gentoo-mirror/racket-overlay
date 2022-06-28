@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/algebraic dev-racket/arguments dev-racket/collections-doc dev-racket/collections-lib dev-racket/cover dev-racket/cover-coveralls dev-racket/describe dev-racket/fancy-app dev-racket/functional-doc dev-racket/functional-lib dev-racket/kw-utils dev-racket/mischief dev-racket/point-free dev-racket/qi-lib dev-racket/rackjure dev-racket/scribble-abbrevs dev-racket/social-contract dev-racket/sugar dev-racket/threading-doc dev-racket/threading-lib dev-racket/typed-stack dev-racket/version-case >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/algebraic dev-racket/arguments dev-racket/collections-doc dev-racket/collections-lib dev-racket/cover dev-racket/cover-coveralls dev-racket/describe dev-racket/fancy-app dev-racket/functional-doc dev-racket/functional-lib dev-racket/kw-utils dev-racket/mischief dev-racket/point-free dev-racket/qi-lib dev-racket/rackjure dev-racket/scribble-abbrevs dev-racket/social-contract dev-racket/sugar dev-racket/threading-doc dev-racket/threading-lib dev-racket/typed-stack dev-racket/version-case
 DESCRIPTION=Generic interfaces and convenient utilities for using relations.
 EAPI=8
 HOMEPAGE=https://github.com/countvajhula/relation
@@ -11,6 +10,6 @@ LICENSE=all-rights-reserved
 RDEPEND=dev-racket/algebraic dev-racket/arguments dev-racket/collections-doc dev-racket/collections-lib dev-racket/cover dev-racket/cover-coveralls dev-racket/describe dev-racket/fancy-app dev-racket/functional-doc dev-racket/functional-lib dev-racket/kw-utils dev-racket/mischief dev-racket/point-free dev-racket/qi-lib dev-racket/rackjure dev-racket/scribble-abbrevs dev-racket/social-contract dev-racket/sugar dev-racket/threading-doc dev-racket/threading-lib dev-racket/typed-stack dev-racket/version-case >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/countvajhula/relation/archive/b45141062d7a92b280b4a6ba4a6e63f60778f35d.tar.gz -> relation-2021.12.04.tar.gz
+SRC_URI=https://github.com/countvajhula/relation/archive/1e5d06266644282a5649dcaf6d861166b0f74e8b.tar.gz -> relation-2022.06.25.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	2b9c2269d229d3294ef1aabbb00e61b0
-_md5_=402dc7d6a4b21341f4219d9665737985
+_md5_=a1f8eda45990bb1e5fd660fbb47b1f4e

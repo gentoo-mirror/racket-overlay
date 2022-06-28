@@ -1,16 +1,15 @@
 BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/raco-cross-lib
-DESCRIPTION=documentation part of raco-cross
+DESCRIPTION=The rosetta Racket package
 EAPI=8
-HOMEPAGE=https://github.com/racket/raco-cross
+HOMEPAGE=https://github.com/aptmcl/rosetta
 INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/raco-cross-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/racket/raco-cross/archive/08d23ab27196594b731a8fee4360f93882494b7a.tar.gz -> raco-cross-doc-2021.08.15.tar.gz
+SRC_URI=https://github.com/aptmcl/rosetta/archive/1b81b10b0c8eb77d92d6b5ea86d0eb940add0888.tar.gz -> rosetta-2022.06.25.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	2b9c2269d229d3294ef1aabbb00e61b0
-_md5_=1188bc9f269de9089bd4dece07b2d8a3
+_md5_=e0eeb7b0c93eab0dc51d823f418de66a

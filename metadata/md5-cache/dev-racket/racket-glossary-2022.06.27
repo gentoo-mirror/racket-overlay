@@ -1,9 +1,8 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/al2-test-runner >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/al2-test-runner
-DESCRIPTION=work efficiently with geographic data
+DESCRIPTION=The racket-glossary Racket package
 EAPI=8
-HOMEPAGE=https://github.com/alex-hhh/geoid
+HOMEPAGE=https://github.com/sschwarzer/racket-glossary
 INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
@@ -11,6 +10,6 @@ LICENSE=all-rights-reserved
 RDEPEND=dev-racket/al2-test-runner >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/alex-hhh/geoid/archive/9fc82f571bc214a2883136d46b8a56ecc8dbc4f3.tar.gz -> geoid-2021.09.09.tar.gz
+SRC_URI=https://github.com/sschwarzer/racket-glossary/archive/88144df6b9b11bc02579a91085d8f7e10fc4309e.tar.gz -> racket-glossary-2022.06.27.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	2b9c2269d229d3294ef1aabbb00e61b0
-_md5_=c44c08f3b9d4f7105f0eb54f6571de9b
+_md5_=92bf59317ae42ea30569953c81e8bca9

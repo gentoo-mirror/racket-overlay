@@ -1,16 +1,15 @@
 BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/box-extra-lib
-DESCRIPTION=A declarative API on top of racket/gui. (implementation)
+DESCRIPTION=The drracket-tool-text-lib Racket package
 EAPI=8
-HOMEPAGE=https://github.com/Bogdanp/racket-gui-easy
+HOMEPAGE=https://github.com/racket/drracket
 INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/box-extra-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/Bogdanp/racket-gui-easy/archive/2c3c9cace8a5c76753c25e34e954ed053d7afa2a.tar.gz -> gui-easy-lib-2022.05.13.tar.gz
+SRC_URI=https://github.com/racket/drracket/archive/a65dce7afa10748e672b1e21145763598375090a.tar.gz -> drracket-tool-text-lib-2022.06.26.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	2b9c2269d229d3294ef1aabbb00e61b0
-_md5_=a2ecc3a13639ab368317732c27b91915
+_md5_=c163f76bedc0bc72518d1273ff2eeb97

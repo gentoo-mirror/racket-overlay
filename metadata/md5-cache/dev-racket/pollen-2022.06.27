@@ -1,9 +1,8 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/markdown dev-racket/rackjure dev-racket/sugar dev-racket/txexpr >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/markdown dev-racket/rackjure dev-racket/sugar dev-racket/txexpr
 DESCRIPTION=Publishing system for web-based books
 EAPI=8
-HOMEPAGE=https://github.com/mbutterick/pollen
+HOMEPAGE=https://git.sr.ht/~mbutterick/pollen
 INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
@@ -11,6 +10,6 @@ LICENSE=all-rights-reserved
 RDEPEND=dev-racket/markdown dev-racket/rackjure dev-racket/sugar dev-racket/txexpr >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/mbutterick/pollen/archive/39cfc2ed5474e919f2b4f16f472f10fce00248c6.tar.gz -> pollen-2022.01.13.tar.gz
+SRC_URI=https://git.sr.ht/~mbutterick/pollen/archive/7a7b7d49ee60268974711155b4b5c21b218f7ee5.tar.gz -> pollen-2022.06.27.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	2b9c2269d229d3294ef1aabbb00e61b0
-_md5_=3b86b423e3b5b41d2d8e60e5401d556c
+_md5_=5714bfbf8ff88d4c5f01a6ad76e100fa

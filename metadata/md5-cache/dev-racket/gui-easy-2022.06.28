@@ -1,6 +1,5 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/gui-easy-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/gui-easy-lib
 DESCRIPTION=A declarative API on top of racket/gui. (docs & implementation)
 EAPI=8
 HOMEPAGE=https://github.com/Bogdanp/racket-gui-easy
@@ -11,6 +10,6 @@ LICENSE=all-rights-reserved
 RDEPEND=dev-racket/gui-easy-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/Bogdanp/racket-gui-easy/archive/2c3c9cace8a5c76753c25e34e954ed053d7afa2a.tar.gz -> gui-easy-2022.05.13.tar.gz
+SRC_URI=https://github.com/Bogdanp/racket-gui-easy/archive/be83ad40c9f758afce207430b2daf1243e1bb5ed.tar.gz -> gui-easy-2022.06.28.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	2b9c2269d229d3294ef1aabbb00e61b0
-_md5_=33555bffc45f867e181a34f99666aad8
+_md5_=bf6be9917c2bb4f6c2d582acc4ed4e50

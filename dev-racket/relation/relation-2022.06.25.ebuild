@@ -1,16 +1,17 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="countvajhula/relation"
-GH_COMMIT="b45141062d7a92b280b4a6ba4a6e63f60778f35d"
+GH_COMMIT="1e5d06266644282a5649dcaf6d861166b0f74e8b"
 
 inherit racket gh
 
 DESCRIPTION="Generic interfaces and convenient utilities for using relations."
 HOMEPAGE="https://github.com/countvajhula/relation"
+S="${S}/relation"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
@@ -39,4 +40,4 @@ RDEPEND="dev-racket/algebraic
 	dev-racket/threading-lib
 	dev-racket/typed-stack
 	dev-racket/version-case"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

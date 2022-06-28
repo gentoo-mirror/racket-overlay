@@ -3,14 +3,14 @@
 
 EAPI=8
 
-GH_DOM="github.com"
-GH_REPO="mbutterick/pollen"
-GH_COMMIT="39cfc2ed5474e919f2b4f16f472f10fce00248c6"
+GH_DOM="git.sr.ht"
+GH_REPO="~mbutterick/pollen"
+GH_COMMIT="7a7b7d49ee60268974711155b4b5c21b218f7ee5"
 
 inherit racket gh
 
 DESCRIPTION="Publishing system for web-based books"
-HOMEPAGE="https://github.com/mbutterick/pollen"
+HOMEPAGE="https://git.sr.ht/~mbutterick/pollen"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
@@ -21,4 +21,4 @@ RDEPEND="dev-racket/markdown
 	dev-racket/rackjure
 	dev-racket/sugar
 	dev-racket/txexpr"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

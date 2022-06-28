@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="jackfirth/resyntax"
-GH_COMMIT="3fa4aa1ffb30a3cb278ae34ea80645c52f6dd1cc"
+GH_COMMIT="ae868fdb05fbd4e4c31c26d7039a93beace1c658"
 
 inherit racket gh
 
@@ -20,5 +20,6 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/br-parser-tools-lib
 	dev-racket/brag-lib
 	dev-racket/fancy-app
-	dev-racket/rebellion"
-DEPEND="${RDEPEND}"
+	dev-racket/rebellion
+	dev-racket/uri-old"
+BDEPEND="${RDEPEND}"

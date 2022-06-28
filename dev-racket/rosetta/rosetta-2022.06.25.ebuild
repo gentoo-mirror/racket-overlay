@@ -4,14 +4,13 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racket/racket"
-GH_COMMIT="4d8c63f616961d637242848585f1c5633be53746"
+GH_REPO="aptmcl/rosetta"
+GH_COMMIT="1b81b10b0c8eb77d92d6b5ea86d0eb940add0888"
 
 inherit racket gh
 
-DESCRIPTION="Documentation for the Zuo language"
-HOMEPAGE="https://github.com/racket/racket"
-S="${S}/racket/src/zuo/zuo-doc"
+DESCRIPTION="The rosetta Racket package"
+HOMEPAGE="https://github.com/aptmcl/rosetta"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

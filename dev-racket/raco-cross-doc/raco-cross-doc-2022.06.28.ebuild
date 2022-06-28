@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="racket/raco-cross"
-GH_COMMIT="08d23ab27196594b731a8fee4360f93882494b7a"
+GH_COMMIT="80e6acfee34aef252cad0f2f23eb3ee2f25aaf63"
 
 inherit racket gh
 
@@ -19,4 +19,4 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/raco-cross-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

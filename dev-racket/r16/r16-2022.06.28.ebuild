@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="git.sr.ht"
 GH_REPO="~williewillus/r16"
-GH_COMMIT="9b389db9d84825f6cf8ec55c5e1caf0dda0ab584"
+GH_COMMIT="34f472bd88a4dedcbdddc390c9ccd27070a23f39"
 
 inherit racket gh
 
@@ -21,4 +21,4 @@ RDEPEND="dev-racket/dbg
 	dev-racket/racket-cord
 	dev-racket/threading-doc
 	dev-racket/threading-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

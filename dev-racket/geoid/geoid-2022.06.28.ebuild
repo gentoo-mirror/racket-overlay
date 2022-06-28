@@ -4,20 +4,18 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="countvajhula/qi"
-GH_COMMIT="773f64d2f9251f3e09f540137e9632fc5308f5f2"
+GH_REPO="alex-hhh/geoid"
+GH_COMMIT="51895a359227a956a9ea1b92f64f8d3d217a94f2"
 
 inherit racket gh
 
-DESCRIPTION="A circuit tester style debugger for Qi."
-HOMEPAGE="https://github.com/countvajhula/qi"
-S="${S}/qi-probe"
+DESCRIPTION="work efficiently with geographic data"
+HOMEPAGE="https://github.com/alex-hhh/geoid"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/mischief
-	dev-racket/qi-lib"
+RDEPEND="dev-racket/al2-test-runner"
 BDEPEND="${RDEPEND}"

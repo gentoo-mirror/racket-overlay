@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/racket-tw/syntax-extension</bugs-to>
+    <remote-id type="github">racket-tw/syntax-extension</remote-id>
+  </upstream>
+</pkgmetadata>

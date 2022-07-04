@@ -3,7 +3,6 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/sschwarzer/racket-glossary</bugs-to>
-    <remote-id type="github">sschwarzer/racket-glossary</remote-id>
+    <bugs-to>https://git.sr.ht/~sschwarzer/racket-glossary</bugs-to>
   </upstream>
 </pkgmetadata>

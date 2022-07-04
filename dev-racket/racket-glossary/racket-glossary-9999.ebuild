@@ -3,13 +3,13 @@
 
 EAPI=8
 
-GH_DOM="github.com"
-GH_REPO="sschwarzer/racket-glossary"
+GH_DOM="git.sr.ht"
+GH_REPO="~sschwarzer/racket-glossary"
 
 inherit racket gh
 
 DESCRIPTION="The racket-glossary Racket package"
-HOMEPAGE="https://github.com/sschwarzer/racket-glossary"
+HOMEPAGE="https://git.sr.ht/~sschwarzer/racket-glossary"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

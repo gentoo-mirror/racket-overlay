@@ -4,8 +4,13 @@
 
 
 EGENCACHE           := egencache
+PKGCHECK            := pkgcheck
+PKGDEV              := pkgdev
 RACKET              := racket
 SH                  := sh
+
+MANIFEST            := $(PKGDEV) manifest
+SCAN                := $(PKGCHECK) scan
 
 DOC_SOURCE_DIR      := $(PWD)/scribblings
 DOC_BUILT_DIR       := $(DOC_SOURCE_DIR)/doc
@@ -20,12 +25,6 @@ NPROC               := $(shell nproc || echo 1)
 COLLECTOR2_EXCLUDE  :=
 COLLECTOR2_AUX      := --create --directory $(PWD) --verbose
 COLLECTOR2_FLAGS    := $(COLLECTOR2_AUX) $(COLLECTOR2_EXCLUDE)
-
-PKGDEV              := pkgdev
-PKGCHECK            := pkgcheck
-
-MANIFEST            := $(PKGDEV) manifest
-SCAN                := $(PKGCHECK) scan
 
 MANIFEST_FLAGS      := --verbose
 EGENCACHE_FLAGS     := --jobs $(NPROC) --load-average $(NPROC) --update --verbose

@@ -7,6 +7,13 @@ EGENCACHE           := egencache
 RACKET              := racket
 SH                  := sh
 
+DOC_SOURCE_DIR      := $(PWD)/scribblings
+DOC_BUILT_DIR       := $(DOC_SOURCE_DIR)/doc
+DOC_PUBLIC_DIR      := $(PWD)/public
+METADATA            := $(PWD)/metadata
+
+SCAN_CONFIG         := $(METADATA)/pkgcheck.conf
+
 NPROC               := $(shell nproc || echo 1)
 
 # i.e.: C2EXCL="-e pkg1 -e pkg2"
@@ -21,20 +28,8 @@ MANIFEST            := $(PKGDEV) manifest
 SCAN                := $(PKGCHECK) scan
 
 MANIFEST_FLAGS      := --verbose
-
-EGENCACHE_AUX       := --jobs $(NPROC) --load-average $(NPROC) --verbose
-EGENCACHE_FLAGS     := $(EGENCACHE_AUX) --update --repo racket-overlay
-
-SCAN_AUX            := --jobs=$(NPROC) --verbose
-SCAN_EXIT_ON        := error
-SCAN_KEYWORDS       := -MatchingChksums,-RedundantVersion
-SCAN_PROFILES       := default/linux/amd64/17.1
-SCAN_CHECKS         := --exit=$(SCAN_EXIT_ON) --keywords=$(SCAN_KEYWORDS) --profiles=$(SCAN_PROFILES)
-SCAN_FLAGS          := $(SCAN_AUX) $(SCAN_CHECKS)
-
-DOC_SOURCE_DIR      := $(PWD)/scribblings
-DOC_BUILT_DIR       := $(DOC_SOURCE_DIR)/doc
-DOC_PUBLIC_DIR      := $(PWD)/public
+EGENCACHE_FLAGS     := --jobs $(NPROC) --load-average $(NPROC) --update --verbose
+SCAN_FLAGS          := --config $(SCAN_CONFIG) --jobs=$(NPROC) --verbose
 
 
 all: regen-gentoo test
@@ -52,7 +47,7 @@ regen-gentoo: ebuilds manifests
 
 egencache:
 	PORATGE_REPOSITORIES="[racket-overlay] location = $(PWD)" \
-		$(EGENCACHE) $(EGENCACHE_FLAGS)
+		$(EGENCACHE) --repo racket-overlay $(EGENCACHE_FLAGS)
 
 clean-metadata-cache:
 	rm -r $(PWD)/metadata/md5-cache

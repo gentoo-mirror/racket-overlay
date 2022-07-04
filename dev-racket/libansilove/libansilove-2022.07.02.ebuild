@@ -1,0 +1,18 @@
+# Copyright 1999-2022 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+GH_DOM="gitlab.com"
+GH_REPO="xgqt/racket-libansilove"
+GH_COMMIT="187edd41af6e76ae80c184a07f5ef6ba0e1f361b"
+
+inherit racket gh
+
+DESCRIPTION="FFI to Libansilove"
+HOMEPAGE="https://gitlab.com/xgqt/racket-libansilove"
+
+LICENSE="all-rights-reserved"
+SLOT="0"
+KEYWORDS="~amd64"
+RESTRICT="mirror"

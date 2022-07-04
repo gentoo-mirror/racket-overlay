@@ -15,3 +15,6 @@ S="${S}/src/ziptie-git"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/threading-lib"
+BDEPEND="${RDEPEND}"

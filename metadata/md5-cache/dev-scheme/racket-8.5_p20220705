@@ -10,6 +10,6 @@ LICENSE=|| ( MIT Apache-2.0 ) chez? ( Apache-2.0 ) !chez? ( LGPL-3 )
 RDEPEND=!dev-tex/slatex dev-db/sqlite:3 dev-libs/libffi:= ncurses? ( sys-libs/ncurses:= )
 REQUIRED_USE=chez? ( futures places ) futures? ( jit threads ) places? ( threads )
 SLOT=0/8.5.0.8
-SRC_URI=minimal? ( https://plt.cs.northwestern.edu/snapshots/20220609-9d8639b8ea/installers/racket-minimal-8.5.0.8-src-builtpkgs.tgz -> racket-8.5_p20220609-minimal.tgz ) !minimal? ( https://plt.cs.northwestern.edu/snapshots/20220609-9d8639b8ea/installers/racket-test-8.5.0.8-src-builtpkgs.tgz -> racket-8.5_p20220609.tgz )
+SRC_URI=minimal? ( https://plt.cs.northwestern.edu/snapshots/20220705-7408fd0948/installers/racket-minimal-8.5.0.8-src-builtpkgs.tgz -> racket-8.5_p20220705-minimal.tgz ) !minimal? ( https://plt.cs.northwestern.edu/snapshots/20220705-7408fd0948/installers/racket-test-8.5.0.8-src-builtpkgs.tgz -> racket-8.5_p20220705.tgz )
 _eclasses_=desktop	22952d8f27cac191d75529d4c38e6bfa	optfeature	d524f291c80f9d21ad80fe978e3ca760	toolchain-funcs	e9da88162e7a3c60376e80c2c2adcdfb	multilib	4fbbbc98f236f1b43acd99476bc3cd85	readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55
-_md5_=60889486dba895cd41e71147003aea1f
+_md5_=0bbf22a00e21f4e04e4719906d55008a

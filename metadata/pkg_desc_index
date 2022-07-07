@@ -1615,7 +1615,7 @@ dev-racket/zordoz 2020.03.29 2021.10.25 9999: Explorer for .zo bytecode files
 dev-racket/zstd 2022.05.19 2022.05.25 2022.05.29 9999: The zstd Racket package
 dev-racket/zubat 2020.12.30 9999: The zubat Racket package
 dev-racket/zuo-doc 2022.06.22 2022.06.28 2022.07.04 9999: Documentation for the Zuo language
-dev-scheme/racket 8.5_p20220609 8.5_p20220613 8.5_p20220617: General purpose, multi-paradigm Lisp-Scheme programming language
+dev-scheme/racket 8.5_p20220613 8.5_p20220617 8.5_p20220705: General purpose, multi-paradigm Lisp-Scheme programming language
 sys-apps/racket-compiler 1.0.0: Small tool to compile Racket source code
 sys-apps/racket-maints 1.1.0-r1 9999: Racket Maintenance Scripts
 sys-apps/racket-where 1.0.0-r2 1.0.2: Small tool to find Racket packages

@@ -20,7 +20,7 @@ case ${PV##*_} in
 	p*   ) PLT_SNAP_DATE=${PV##*_p}   ;;
 	*    ) PLT_SNAP_DATE=             ;;
 esac
-PLT_SNAP_HASH=9d8639b8ea
+PLT_SNAP_HASH=7408fd0948
 PLT_SNAP=${PLT_SNAP_DATE}-${PLT_SNAP_HASH}
 
 PLT_HOST=https://plt.cs.northwestern.edu
@@ -112,7 +112,7 @@ src_configure() {
 	local myconf=(
 		--disable-shared
 		--disable-strip
-		--docdir="${EPREFIX}/usr/share/doc/${PF}"
+		--docdir="${EPREFIX}"/usr/share/doc/${PF}
 		--enable-libs
 		$(usex chez "--enable-cs --enable-csonly" "--enable-bc --enable-bconly")
 		$(use_enable doc docs)
@@ -138,7 +138,7 @@ src_compile() {
 	CC_FOR_BUILD="$(tc-getCC)" default
 
 	# Recompile Zuo with optimizations
-	# emake -C zuo
+	emake -C zuo
 }
 
 src_install() {
@@ -146,9 +146,9 @@ src_install() {
 	default
 
 	# Install Zuo
-	# emake -C zuo DESTDIR="${ED}" install
+	emake -C zuo DESTDIR="${ED}" install
 
-	# raco needs decompressed files for packages doc installation bug 662424
+	# raco needs decompressed files for packages doc installation, bug #662424
 	use doc && docompress -x /usr/share/doc/${PF}
 
 	# Create missing desktop files and icon
@@ -164,7 +164,7 @@ src_install() {
 pkg_preinst() {
 	# If we are merging the same SLOT check if package
 	# database files exist and do not overwrite them
-	if has_version "${CATEGORY}/${PN}:${SLOT}" ; then
+	if has_version ${CATEGORY}/${PN}:${SLOT} ; then
 		echo "We are installing the same SLOT: ${SLOT}"
 		local rktd
 		for rktd in "${PKGDB[@]}" ; do

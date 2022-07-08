@@ -3,13 +3,13 @@
 
 EAPI=8
 
-GH_DOM="git.sr.ht"
-GH_REPO="~mbutterick/pollen"
+GH_DOM="codeberg.org"
+GH_REPO="mbutterick/pollen"
 
 inherit racket gh
 
 DESCRIPTION="Publishing system for web-based books"
-HOMEPAGE="https://git.sr.ht/~mbutterick/pollen"
+HOMEPAGE="https://codeberg.org/mbutterick/pollen"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

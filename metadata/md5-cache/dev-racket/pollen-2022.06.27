@@ -2,7 +2,7 @@ BDEPEND=dev-racket/markdown dev-racket/rackjure dev-racket/sugar dev-racket/txex
 DEFINED_PHASES=compile install postinst prepare prerm test
 DESCRIPTION=Publishing system for web-based books
 EAPI=8
-HOMEPAGE=https://git.sr.ht/~mbutterick/pollen
+HOMEPAGE=https://codeberg.org/mbutterick/pollen
 INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64
@@ -10,6 +10,6 @@ LICENSE=all-rights-reserved
 RDEPEND=dev-racket/markdown dev-racket/rackjure dev-racket/sugar dev-racket/txexpr >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://git.sr.ht/~mbutterick/pollen/archive/7a7b7d49ee60268974711155b4b5c21b218f7ee5.tar.gz -> pollen-2022.06.27.tar.gz
+SRC_URI=https://codeberg.org/mbutterick/pollen/archive/7a7b7d49ee60268974711155b4b5c21b218f7ee5.tar.gz -> pollen-2022.06.27.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	2b9c2269d229d3294ef1aabbb00e61b0
-_md5_=5714bfbf8ff88d4c5f01a6ad76e100fa
+_md5_=a7ec4ca7889a2f01cebaf2728e35ab84

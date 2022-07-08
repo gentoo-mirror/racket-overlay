@@ -1,7 +1,6 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/marionette-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/marionette-lib
-DESCRIPTION=the marionette-test Racket package
+DESCRIPTION=The marionette-doc Racket package
 EAPI=8
 HOMEPAGE=https://github.com/Bogdanp/marionette
 INHERIT=racket gh
@@ -11,6 +10,6 @@ LICENSE=all-rights-reserved
 RDEPEND=dev-racket/marionette-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/Bogdanp/marionette/archive/e537fbe6876337921c9340574ffea4fd5520c575.tar.gz -> marionette-test-2021.08.25.tar.gz
+SRC_URI=https://github.com/Bogdanp/marionette/archive/75132b6ab3c9d1512cfdc724037daf0636cb263d.tar.gz -> marionette-doc-2022.07.06.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	2b9c2269d229d3294ef1aabbb00e61b0
-_md5_=526a425824d0f3fa338e1f795dde8e25
+_md5_=4556b804ba516893e731327c48ed24fb

@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/msgpack >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=API client for the Neovim text editor
+EAPI=8
+HOMEPAGE=https://gitlab.com/HiPhish/neovim.rkt
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/msgpack >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://gitlab.com/HiPhish/neovim.rkt/-/archive/c7d0a3d7ceaebd59955e6d2aee16352098c82d8a.tar.gz -> nvim-client-2022.07.05.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	2b9c2269d229d3294ef1aabbb00e61b0
+_md5_=abf07dd5af9dc6c5534c008525f4caae

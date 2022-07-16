@@ -12,7 +12,6 @@ inherit racket gh
 DESCRIPTION="A tool to discover, catalogue and compare git repos across N machines."
 HOMEPAGE="https://github.com/xandkar/gg"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
-RESTRICT="mirror"

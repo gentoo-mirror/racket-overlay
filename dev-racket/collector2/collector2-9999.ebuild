@@ -8,17 +8,14 @@ GH_REPO="src_prepare/racket/collector2"
 
 inherit racket gh
 
-DESCRIPTION="Parse Racket packages catalog and generate ebuild scripts"
+DESCRIPTION="Parse Racket packages catalog and generate ebuild scripts. Metapackage."
 HOMEPAGE="https://gitlab.com/src_prepare/racket/collector2"
-S="${S}/src"
+S="${S}/src/collector2"
 
-LICENSE="all-rights-reserved"
+LICENSE="GPL-3"
 SLOT="0"
-RESTRICT="mirror"
 
-RDEPEND="dev-racket/counter
-	dev-racket/ebuild-lib
-	dev-racket/ebuild-templates
-	dev-racket/threading-lib
-	dev-racket/upi-lib"
+RDEPEND="dev-racket/collector2-doc
+	dev-racket/collector2-lib
+	dev-racket/collector2-test"
 BDEPEND="${RDEPEND}"

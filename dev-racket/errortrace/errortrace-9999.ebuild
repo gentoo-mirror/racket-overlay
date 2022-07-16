@@ -12,6 +12,5 @@ DESCRIPTION="The errortrace Racket package"
 HOMEPAGE="https://github.com/racket/errortrace"
 S="${S}/errortrace"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"

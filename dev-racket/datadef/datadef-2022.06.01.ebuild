@@ -12,7 +12,6 @@ inherit racket gh
 DESCRIPTION="Racket library for database data retrieval and database mocking."
 HOMEPAGE="https://github.com/adzai/datadef"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
 KEYWORDS="~amd64"
-RESTRICT="mirror"

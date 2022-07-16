@@ -12,10 +12,9 @@ inherit racket gh
 DESCRIPTION="An amortized O(1) queue struct"
 HOMEPAGE="https://github.com/dstorrs/racket-queue"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
 KEYWORDS="~amd64"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/struct-plus-plus
 	dev-racket/test-more"

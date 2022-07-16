@@ -10,7 +10,13 @@ inherit racket gh
 
 DESCRIPTION="A basic Parsec (Haskell's monadic parser combinator library) implementation."
 HOMEPAGE="https://github.com/stchang/parsack"
+S="${S}/parsack"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/parsack-doc
+	dev-racket/parsack-lib
+	dev-racket/parsack-test"
+BDEPEND="${RDEPEND}"

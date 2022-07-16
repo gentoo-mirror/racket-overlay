@@ -11,6 +11,5 @@ inherit racket gh
 DESCRIPTION="racket llvm C-API bindings"
 HOMEPAGE="https://github.com/dannypsnl/racket-llvm"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"

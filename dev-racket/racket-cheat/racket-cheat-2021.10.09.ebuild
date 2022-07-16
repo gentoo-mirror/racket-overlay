@@ -12,7 +12,6 @@ inherit racket gh
 DESCRIPTION="a user-friendly index into the Racket documentation"
 HOMEPAGE="https://github.com/jeapostrophe/racket-cheat"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
 KEYWORDS="~amd64"
-RESTRICT="mirror"

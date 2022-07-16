@@ -13,10 +13,9 @@ DESCRIPTION="Goblins is a transactional, distributed actor model environment"
 HOMEPAGE="https://gitlab.com/spritely/goblins"
 S="${S}/goblins"
 
-LICENSE="all-rights-reserved"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/crypto
 	dev-racket/pk

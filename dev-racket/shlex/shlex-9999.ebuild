@@ -11,6 +11,5 @@ inherit racket gh
 DESCRIPTION="shlex for Racket: Simple lexical analysis"
 HOMEPAGE="https://github.com/sorawee/shlex"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"

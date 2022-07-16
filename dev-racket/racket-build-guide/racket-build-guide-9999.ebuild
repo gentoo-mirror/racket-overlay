@@ -12,9 +12,8 @@ DESCRIPTION="Racket build and contribution documentation"
 HOMEPAGE="https://github.com/racket/racket"
 S="${S}/pkgs/racket-build-guide"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/distro-build-doc"
 BDEPEND="${RDEPEND}"

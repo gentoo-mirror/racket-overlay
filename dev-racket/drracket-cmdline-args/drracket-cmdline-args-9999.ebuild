@@ -11,9 +11,8 @@ inherit racket gh
 DESCRIPTION="Accessible command-line arguments for DrRacket"
 HOMEPAGE="https://github.com/sorawee/drracket-cmdline-args"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/shlex"
 BDEPEND="${RDEPEND}"

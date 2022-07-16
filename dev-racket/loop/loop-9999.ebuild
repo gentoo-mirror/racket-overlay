@@ -11,6 +11,5 @@ inherit racket gh
 DESCRIPTION="Advanced named let"
 HOMEPAGE="https://github.com/sorawee/loop"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"

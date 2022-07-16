@@ -12,9 +12,8 @@ DESCRIPTION="Documentation for splitflap"
 HOMEPAGE="https://github.com/otherjoel/splitflap"
 S="${S}/splitflap-doc"
 
-LICENSE="all-rights-reserved"
+LICENSE="BlueOak-1.0.0"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/gregor-doc
 	dev-racket/gregor-lib

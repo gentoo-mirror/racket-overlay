@@ -12,10 +12,9 @@ inherit racket gh
 DESCRIPTION="Errortrace installed packages"
 HOMEPAGE="https://github.com/sorawee/errortrace-pkg"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
 KEYWORDS="~amd64"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/custom-load"
 BDEPEND="${RDEPEND}"

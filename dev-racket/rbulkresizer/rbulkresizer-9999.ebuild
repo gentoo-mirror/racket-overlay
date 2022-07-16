@@ -11,6 +11,5 @@ inherit racket gh
 DESCRIPTION="Graphical bulk picture resize tool"
 HOMEPAGE="https://gitlab.com/xgqt/rbulkresizer"
 
-LICENSE="all-rights-reserved"
+LICENSE="GPL-3"
 SLOT="0"
-RESTRICT="mirror"

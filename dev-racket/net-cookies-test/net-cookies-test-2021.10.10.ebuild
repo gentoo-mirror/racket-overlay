@@ -13,7 +13,6 @@ DESCRIPTION="RFC6265-compliant cookie handling for client and server (test)"
 HOMEPAGE="https://github.com/RenaissanceBug/racket-cookies"
 S="${S}/net-cookies-test"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
 KEYWORDS="~amd64"
-RESTRICT="mirror"

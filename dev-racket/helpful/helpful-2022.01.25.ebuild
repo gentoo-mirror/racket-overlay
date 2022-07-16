@@ -12,10 +12,9 @@ inherit racket gh
 DESCRIPTION="Helpfully suggest a closest variable name on unbound identifier error"
 HOMEPAGE="https://github.com/sorawee/helpful"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
 KEYWORDS="~amd64"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/levenshtein"
 BDEPEND="${RDEPEND}"

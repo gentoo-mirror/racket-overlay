@@ -12,10 +12,9 @@ inherit racket gh
 DESCRIPTION="A small library for working with semaphores."
 HOMEPAGE="https://github.com/dstorrs/semaphore-utils"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
 KEYWORDS="~amd64"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/test-more"
 BDEPEND="${RDEPEND}"

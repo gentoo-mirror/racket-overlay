@@ -12,7 +12,6 @@ inherit racket gh
 DESCRIPTION="A helper collection of syntax"
 HOMEPAGE="https://github.com/racket-tw/syntax-extension"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
 KEYWORDS="~amd64"
-RESTRICT="mirror"

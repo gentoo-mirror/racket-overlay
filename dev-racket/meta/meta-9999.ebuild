@@ -11,9 +11,8 @@ inherit racket gh
 DESCRIPTION="Associate metadata with values."
 HOMEPAGE="https://github.com/camoy/meta"
 
-LICENSE="all-rights-reserved"
+LICENSE="0BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/chk-lib"
 BDEPEND="${RDEPEND}"

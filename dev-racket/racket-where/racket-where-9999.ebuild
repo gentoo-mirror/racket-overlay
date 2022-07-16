@@ -12,6 +12,5 @@ DESCRIPTION="Small tool to find installed Racket packages"
 HOMEPAGE="https://gitlab.com/src_prepare/racket/racket-where"
 S="${S}/src"
 
-LICENSE="all-rights-reserved"
+LICENSE="GPL-3"
 SLOT="0"
-RESTRICT="mirror"

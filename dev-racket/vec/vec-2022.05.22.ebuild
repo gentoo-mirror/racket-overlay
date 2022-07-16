@@ -13,7 +13,6 @@ DESCRIPTION="A simple vector math library loosely inspired by GLSL and HLSL."
 HOMEPAGE="https://github.com/Aeva/vec"
 S="${S}/vec"
 
-LICENSE="all-rights-reserved"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64"
-RESTRICT="mirror"

@@ -13,10 +13,9 @@ DESCRIPTION="implementation (no documentation) part of distro-build"
 HOMEPAGE="https://github.com/racket/distro-build"
 S="${S}/distro-build-lib"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
 KEYWORDS="~amd64"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/distro-build-client
 	dev-racket/distro-build-server"

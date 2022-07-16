@@ -13,10 +13,9 @@ DESCRIPTION="test part of expeditor"
 HOMEPAGE="https://github.com/racket/expeditor"
 S="${S}/expeditor-test"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
 KEYWORDS="~amd64"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/expeditor-lib"
 BDEPEND="${RDEPEND}"

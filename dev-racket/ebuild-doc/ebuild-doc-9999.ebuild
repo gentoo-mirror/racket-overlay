@@ -12,9 +12,8 @@ DESCRIPTION="Library to ease automatic ebuild creation. Documentation."
 HOMEPAGE="https://gitlab.com/xgqt/racket-ebuild"
 S="${S}/src/ebuild-doc"
 
-LICENSE="all-rights-reserved"
+LICENSE="GPL-3"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/ebuild-lib
 	dev-racket/ebuild-templates

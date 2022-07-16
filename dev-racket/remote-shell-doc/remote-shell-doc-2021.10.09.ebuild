@@ -13,10 +13,9 @@ DESCRIPTION="documentation part of remote-shell"
 HOMEPAGE="https://github.com/racket/remote-shell"
 S="${S}/remote-shell-doc"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
 KEYWORDS="~amd64"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/remote-shell-lib"
 BDEPEND="${RDEPEND}"

@@ -14,10 +14,9 @@ SRC_URI="https://github.com/lives-group/typed-peg/archive/${MAIN_PH}.tar.gz -> $
 	https://github.com/lives-group/pegwfgen/archive/${AUX_PH}.tar.gz -> ${PN}_aux_peg-gen-${PV}.tar.gz"
 S="${WORKDIR}/typed-peg-${MAIN_PH}/"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
 KEYWORDS="~amd64"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/pprint
 	dev-racket/rackcheck"

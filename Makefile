@@ -23,7 +23,7 @@ NPROC               := $(shell nproc || echo 1)
 
 # i.e.: C2EXCL="-e pkg1 -e pkg2"
 COLLECTOR2_EXCLUDE  :=
-COLLECTOR2_AUX      := --create --directory $(PWD) --verbose
+COLLECTOR2_AUX      := --create --directory $(PWD) --license-lookup --verbose
 COLLECTOR2_FLAGS    := $(COLLECTOR2_AUX) $(COLLECTOR2_EXCLUDE)
 
 MANIFEST_FLAGS      := --verbose

@@ -10,6 +10,6 @@ LICENSE=all-rights-reserved
 RDEPEND=dev-racket/sha >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/arclanguage/anarki/archive/a2569b1e071bd559bb5e8f20b2887dea5c70dc02.tar.gz -> anarki-2022.03.02.tar.gz
+SRC_URI=https://github.com/arclanguage/anarki/archive/1bd0fe82c376fe3699028b9adcebdddb4547a1ec.tar.gz -> anarki-2022.07.22.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=6c827b36709b93817596c114e8776864
+_md5_=23d829a8cf290d5323911bf14427f4fd

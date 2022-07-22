@@ -31,7 +31,7 @@ dev-racket/algorithms 2020.07.24 2022.03.26 9999: The algorithms Racket package
 dev-racket/alpaca 2022.05.09 9999: Racket client for Alpaca API
 dev-racket/amap 2021.05.26 9999: Gaode Amap web service API
 dev-racket/anaphoric 2021.05.11 2021.07.29 9999: The anaphoric Racket package
-dev-racket/anarki 2022.03.02 2022.06.17 2022.06.18 9999: Community-managed variant of the Arc dialect of Lisp
+dev-racket/anarki 2022.06.17 2022.06.18 2022.07.22 9999: Community-managed variant of the Arc dialect of Lisp
 dev-racket/andlet 2021.05.15 9999: Coupling and logic to let and let* forms.
 dev-racket/ansi 2021.02.18 9999: ANSI and VT10x escape sequences for Racket.
 dev-racket/ansi-color 2019.11.20 2021.12.15 9999: The ansi-color Racket package
@@ -267,7 +267,7 @@ dev-racket/dbus 2017.08.15 9999: Native D-Bus for Racket
 dev-racket/ddict 2018.06.07 9999: Deterministic Dictionaries
 dev-racket/debug 2019.09.22 2022.01.06 2022.05.21 9999: a lang-extension for debugging, and a macro for inserting a debug-repl
 dev-racket/debug-scopes 2021.05.11 9999: Some utilities which help debugging scope-related issues for unhygienic macros
-dev-racket/decentralized-internet 2022.05.05 2022.05.26 2022.06.03 9999: A package for building distributed computing projects
+dev-racket/decentralized-internet 2022.05.26 2022.06.03 2022.07.22 9999: A package for building distributed computing projects
 dev-racket/defensive-to-contracts 2020.10.17 9999: The defensive-to-contracts Racket package
 dev-racket/deferred 2017.08.15 9999: A simple library for deferring asynchronous tasks until a specified time
 dev-racket/define-assets-from 2020.01.07 9999: The define-assets-from Racket package
@@ -506,7 +506,7 @@ dev-racket/graph 2021.10.21 2021.11.01 2022.01.14 9999: Generic graph library.
 dev-racket/graph-doc 2021.10.21 2021.11.01 2022.01.14 9999: Documentation for graph-lib
 dev-racket/graph-lib 2021.10.21 2021.11.01 2022.01.14 9999: main graph package
 dev-racket/graph-test 2021.10.21 2021.11.01 2022.01.14 9999: Tests for graph-lib
-dev-racket/graphic-block 2020.11.17 2021.09.10 9999: The graphic-block Racket package
+dev-racket/graphic-block 2020.11.17 2021.09.10 2022.07.20 9999: The graphic-block Racket package
 dev-racket/graphics 2021.06.14 2021.07.23 2022.02.21 2022.03.29: Essential computer graphics for Typed Racket
 dev-racket/graphics-engine 2020.08.04 9999: An accelerated graphics programming environment.
 dev-racket/graphite 2021.08.10 2021.08.19 9999: A ggplot2-inspired data visualization library
@@ -554,7 +554,7 @@ dev-racket/holy 2017.11.02 9999: The HoLy Racket package
 dev-racket/honu 2019.10.24 9999: The implementation of the Honu language
 dev-racket/hostname 9999: Getting Hostname, FQDN, and IP Addresses
 dev-racket/htdp-json 2019.10.28 9999: A library for teaching with JSON
-dev-racket/htdp-trace 2020.11.17 2021.09.10 9999: The htdp-trace Racket package
+dev-racket/htdp-trace 2020.11.17 2021.09.10 2022.07.18 9999: The htdp-trace Racket package
 dev-racket/html-examples 2020.08.04 2022.06.12 9999: Generate an HTML part out of Scribble Examples
 dev-racket/html-parsing 9999: Permissive Parsing of HTML to SXML
 dev-racket/html-template 9999: HTML-Writing Template Language in SXML
@@ -1158,7 +1158,7 @@ dev-racket/repltest 2021.04.04 9999: REPL test: copy-paste REPL interactions and
 dev-racket/reporter 2021.07.04 9999: A util toolbox for compiler error reporting
 dev-racket/reprovide-lang 2019.07.16 2021.12.19 9999: a #lang for reproviding modules
 dev-racket/reprovide-lang-lib 2019.07.16 2021.12.19 9999: a #lang for reproviding modules
-dev-racket/request 2020.05.30 9999: The request Racket package
+dev-racket/request 2020.05.30 2022.07.22 9999: The request Racket package
 dev-racket/require-typed-check 2020.04.17 2021.10.25 2021.10.27 9999: require/typed, but skips contracts on already-typed imports
 dev-racket/resource-pool 2021.05.03 2021.11.17 9999: A generic blocking resource pool. (docs & implementation)
 dev-racket/resource-pool-lib 2021.05.03 2021.11.17 9999: A generic blocking resource pool. (implementation)
@@ -1225,7 +1225,7 @@ dev-racket/sass 2020.10.30 9999: Bindings to libsass.
 dev-racket/sat 2018.09.20 2022.01.08 9999: A simple SAT solver based on DPLL.
 dev-racket/satore 2021.12.11 2022.02.07 2022.06.28 9999: The satore Racket package
 dev-racket/sau-cptr405 9999: SAU CPTR-405 W20 handin plugin for DrRacket
-dev-racket/sauron 2022.07.04 2022.07.16 2022.07.21 9999: A DrRacket plugin to make it experience like an IDE
+dev-racket/sauron 2022.07.16 2022.07.21 2022.07.22 9999: A DrRacket plugin to make it experience like an IDE
 dev-racket/sawzall 2021.10.26 2021.10.27 2021.11.01 9999: A grammar for data wrangling
 dev-racket/sawzall-doc 2021.10.26 2021.10.27 2021.11.01 9999: Documentation for Sawzall
 dev-racket/sawzall-lib 2021.10.26 2021.10.27 2021.11.01 9999: A grammar for data wrangling (no documentation)
@@ -1390,7 +1390,7 @@ dev-racket/sxml 2021.02.18 9999: SXML family of tools (including SXPath)
 dev-racket/sxml-extra 2021.12.04 2022.07.17 9999: Utilities to use with sxml
 dev-racket/sxml-intro 9999: SXML in Racket: Tools for XML and HTML
 dev-racket/symalg 2018.04.01 9999: Expressing and manipulating symbolic algebraic expressions in Racket.
-dev-racket/syndicate 9999: The syndicate Racket package
+dev-racket/syndicate 2022.05.26 9999: The syndicate Racket package
 dev-racket/syndicate-classic 2022.06.01 2022.06.17 2022.07.07 9999: The syndicate-classic Racket package
 dev-racket/syntax-class-or 2018.08.01 9999: Combining syntax classes together as multiple variants
 dev-racket/syntax-classes 2019.01.29 2022.04.12 9999: Additional useful syntax classes for use with syntax/parse
@@ -1491,8 +1491,8 @@ dev-racket/txexpr 2021.05.18 2022.01.03 2022.02.20 9999: Handy tools for working
 dev-racket/txexpr-stxparse 2018.12.14 2022.01.07 9999: syntax-parse patterns for parsing Tagged X-expressions
 dev-racket/type-conventions 2017.08.15 9999: Forms for giving specific argument names implicit types
 dev-racket/type-expander 2021.04.04 2021.11.11 9999: Type expanders for typed/racket, which work like match expanders for match
-dev-racket/typed-compose 9999: Utilities for composing functions in Typed Racket.
-dev-racket/typed-graph 9999: Typed interface for the generic graph library.
+dev-racket/typed-compose 2021.09.30 9999: Utilities for composing functions in Typed Racket.
+dev-racket/typed-graph 2022.01.05 9999: Typed interface for the generic graph library.
 dev-racket/typed-map 2021.04.04 9999: the typed-map Racket package
 dev-racket/typed-map-doc 2021.04.04 9999: Documentation for typed-map
 dev-racket/typed-map-lib 2021.04.04 9999: Implementation of typed-map
@@ -1549,7 +1549,7 @@ dev-racket/urlang 2021.12.04 2022.02.27 2022.06.16 9999: The urlang Racket packa
 dev-racket/uu-cs3520 2018.08.04 9999: Utah CS 3520 homework submission plugin for DrRacket
 dev-racket/uu-cs5510 2017.08.15 9999: Utah CS 5510 homework submission plugin for DrRacket
 dev-racket/uuid 2021.05.28 9999: Generate cryptographically-random UUIDs in pure Racket
-dev-racket/uwaterloo-racket-tools 2020.11.17 2021.09.10 9999: The uwaterloo-racket-tools Racket package
+dev-racket/uwaterloo-racket-tools 2020.11.17 2021.09.10 2022.07.16 9999: The uwaterloo-racket-tools Racket package
 dev-racket/value-evt 2021.04.01 9999: The value-evt Racket package
 dev-racket/values 2020.09.04 9999: functional multi-valued computation
 dev-racket/values-plus 2017.08.15 9999: The values-plus Racket package

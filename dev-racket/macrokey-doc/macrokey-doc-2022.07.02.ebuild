@@ -13,10 +13,9 @@ DESCRIPTION="MacroKey. Documentation."
 HOMEPAGE="https://gitlab.com/xgqt/racket-macrokey"
 S="${S}/src/macrokey-doc"
 
-LICENSE="all-rights-reserved"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/macrokey-lib"
 BDEPEND="${RDEPEND}"

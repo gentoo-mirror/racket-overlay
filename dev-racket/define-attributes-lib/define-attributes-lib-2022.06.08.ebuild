@@ -13,7 +13,6 @@ DESCRIPTION="This macro makes certain repetitive access patterns easier to write
 HOMEPAGE="https://github.com/SimonLSchlee/define-attributes"
 S="${S}/define-attributes-lib"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
-RESTRICT="mirror"

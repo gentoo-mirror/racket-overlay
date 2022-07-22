@@ -12,7 +12,6 @@ inherit racket gh
 DESCRIPTION="An anaphoric macro that binds sobj to call syntax object"
 HOMEPAGE="https://github.com/sorawee/define-sobj"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
 KEYWORDS="~amd64"
-RESTRICT="mirror"

@@ -12,7 +12,6 @@ inherit racket gh
 DESCRIPTION="Unicode tables rendering with ECMA-48 Select Graphic Rendition codes support"
 HOMEPAGE="https://gitlab.com/racketeer/uni-table"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
 KEYWORDS="~amd64"
-RESTRICT="mirror"

@@ -12,6 +12,5 @@ DESCRIPTION="parts of srfi implementation that are licensed restrictively"
 HOMEPAGE="https://github.com/racket/srfi"
 S="${S}/srfi-lib-nonfree"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"

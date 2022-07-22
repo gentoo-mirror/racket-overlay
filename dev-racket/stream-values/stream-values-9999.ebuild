@@ -11,6 +11,5 @@ inherit racket gh
 DESCRIPTION="A library for multiple values manipulation in streams"
 HOMEPAGE="https://github.com/sorawee/stream-values"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"

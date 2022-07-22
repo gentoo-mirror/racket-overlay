@@ -11,6 +11,5 @@ inherit racket gh
 DESCRIPTION="Extends racket string to formatted string"
 HOMEPAGE="https://github.com/dannypsnl/formatted-string"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"

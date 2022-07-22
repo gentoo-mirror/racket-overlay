@@ -12,7 +12,6 @@ inherit racket gh
 DESCRIPTION="A badge generator for coverage"
 HOMEPAGE="https://github.com/racket-tw/cover-badge"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
 KEYWORDS="~amd64"
-RESTRICT="mirror"

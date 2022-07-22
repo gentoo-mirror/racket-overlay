@@ -11,6 +11,5 @@ inherit racket gh
 DESCRIPTION="Semi-automatically generated Raylib bindings."
 HOMEPAGE="https://github.com/eutro/racket-raylib"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"

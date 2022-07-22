@@ -11,9 +11,8 @@ inherit racket gh
 DESCRIPTION="A DrRacket plugin to make it experience like an IDE"
 HOMEPAGE="https://github.com/racket-tw/sauron"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/curly-fn-lib
 	dev-racket/drcomplete

@@ -12,9 +12,8 @@ DESCRIPTION="Unix tools inspired Procedure Interface for Racket. Core."
 HOMEPAGE="https://gitlab.com/xgqt/racket-upi"
 S="${S}/src/upi-lib"
 
-LICENSE="all-rights-reserved"
+LICENSE="GPL-3"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/threading-lib"
 BDEPEND="${RDEPEND}"

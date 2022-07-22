@@ -11,6 +11,5 @@ inherit racket gh
 DESCRIPTION="Efficient Pareto frontier calculation"
 HOMEPAGE="https://github.com/sorawee/pareto-frontier"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"

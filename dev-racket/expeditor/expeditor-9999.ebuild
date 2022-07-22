@@ -12,9 +12,8 @@ DESCRIPTION="Terminal expression editor"
 HOMEPAGE="https://github.com/racket/expeditor"
 S="${S}/expeditor"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/expeditor-doc
 	dev-racket/expeditor-lib"

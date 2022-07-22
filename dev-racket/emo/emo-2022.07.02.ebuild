@@ -12,7 +12,6 @@ inherit racket gh
 DESCRIPTION="A very simple command line emoji finder"
 HOMEPAGE="https://gitlab.com/yurb/emo"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT Unicode-DFS-2016"
 SLOT="0"
 KEYWORDS="~amd64"
-RESTRICT="mirror"

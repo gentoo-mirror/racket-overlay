@@ -12,9 +12,8 @@ DESCRIPTION="A GUI application for inspection of Gentoo-based systems. Core."
 HOMEPAGE="https://gitlab.com/xgqt/racket-portage-admin"
 S="${S}/src/portage-admin-lib"
 
-LICENSE="all-rights-reserved"
+LICENSE="GPL-3"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/threading-lib"
 BDEPEND="${RDEPEND}"

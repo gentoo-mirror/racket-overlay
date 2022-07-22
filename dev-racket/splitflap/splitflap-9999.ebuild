@@ -12,9 +12,8 @@ DESCRIPTION="Atom and RSS feed generation"
 HOMEPAGE="https://github.com/otherjoel/splitflap"
 S="${S}/splitflap"
 
-LICENSE="all-rights-reserved"
+LICENSE="BlueOak-1.0.0"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/splitflap-doc
 	dev-racket/splitflap-lib"

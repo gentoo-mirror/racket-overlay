@@ -12,9 +12,8 @@ DESCRIPTION="Library to ease automatic ebuild creation. Core."
 HOMEPAGE="https://gitlab.com/xgqt/racket-ebuild"
 S="${S}/src/ebuild-lib"
 
-LICENSE="all-rights-reserved"
+LICENSE="GPL-3"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/reprovide-lang-lib
 	dev-racket/threading-lib"

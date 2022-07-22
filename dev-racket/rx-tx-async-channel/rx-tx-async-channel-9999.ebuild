@@ -11,9 +11,8 @@ inherit racket gh
 DESCRIPTION="The rx-tx-async-channel Racket package"
 HOMEPAGE="https://github.com/dstorrs/rx-tx-async-channel"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/struct-plus-plus
 	dev-racket/test-more"

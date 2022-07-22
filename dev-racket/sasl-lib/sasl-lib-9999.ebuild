@@ -12,6 +12,5 @@ DESCRIPTION="SASL authentication client support"
 HOMEPAGE="https://github.com/racket/sasl"
 S="${S}/sasl-lib"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"

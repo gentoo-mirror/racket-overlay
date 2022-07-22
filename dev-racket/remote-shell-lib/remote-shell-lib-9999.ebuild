@@ -12,6 +12,5 @@ DESCRIPTION="implementation (no documentation) part of remote-shell"
 HOMEPAGE="https://github.com/racket/remote-shell"
 S="${S}/remote-shell-lib"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"

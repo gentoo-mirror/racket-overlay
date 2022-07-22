@@ -12,9 +12,9 @@ DESCRIPTION="ZipTie, monorepo component."
 HOMEPAGE="https://gitlab.com/xgqt/racket-ziptie"
 S="${S}/src/ziptie-monorepo"
 
-LICENSE="all-rights-reserved"
+LICENSE="GPL-3"
 SLOT="0"
-RESTRICT="mirror"
 
-RDEPEND="dev-racket/threading-lib"
+RDEPEND="dev-racket/threading-lib
+	dev-racket/upi-lib"
 BDEPEND="${RDEPEND}"

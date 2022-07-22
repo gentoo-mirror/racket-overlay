@@ -11,6 +11,5 @@ inherit racket gh
 DESCRIPTION="Mixfix for Racket"
 HOMEPAGE="https://github.com/sorawee/mixfix"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"

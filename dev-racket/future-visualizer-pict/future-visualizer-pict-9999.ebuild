@@ -12,6 +12,5 @@ DESCRIPTION="The drawing and data representation portions of the future visualiz
 HOMEPAGE="https://github.com/racket/future-visualizer"
 S="${S}/future-visualizer-pict"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"

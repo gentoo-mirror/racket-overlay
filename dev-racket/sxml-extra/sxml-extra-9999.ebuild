@@ -11,9 +11,8 @@ inherit racket gh
 DESCRIPTION="Utilities to use with sxml"
 HOMEPAGE="https://github.com/kurinoku/sxml-extra-utils"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/static-rename
 	dev-racket/sxml"

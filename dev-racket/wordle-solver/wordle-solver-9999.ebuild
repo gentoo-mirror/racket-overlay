@@ -11,9 +11,8 @@ inherit racket gh
 DESCRIPTION="A simple solver for Wordle"
 HOMEPAGE="https://github.com/Metaxal/wordle-solver"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/define2
 	dev-racket/global"

@@ -12,6 +12,5 @@ DESCRIPTION="Creates Chez Scheme boot files from source"
 HOMEPAGE="https://github.com/racket/ChezScheme"
 S="${S}/rktboot"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"

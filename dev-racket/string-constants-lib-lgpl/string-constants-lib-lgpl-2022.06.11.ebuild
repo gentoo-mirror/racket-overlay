@@ -13,7 +13,6 @@ DESCRIPTION="The string-constants-lib-lgpl Racket package"
 HOMEPAGE="https://github.com/racket/string-constants"
 S="${S}/string-constants-lib-lgpl"
 
-LICENSE="all-rights-reserved"
+LICENSE="LGPL-2+"
 SLOT="0"
 KEYWORDS="~amd64"
-RESTRICT="mirror"

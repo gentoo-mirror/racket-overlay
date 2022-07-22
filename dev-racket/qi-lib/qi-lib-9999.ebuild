@@ -16,8 +16,5 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/adjutor
-	dev-racket/fancy-app
-	dev-racket/mischief
-	dev-racket/typed-stack"
+RDEPEND="dev-racket/fancy-app"
 BDEPEND="${RDEPEND}"

@@ -11,6 +11,5 @@ inherit racket gh
 DESCRIPTION="A form that collects values into a list while supporting internal-definitions"
 HOMEPAGE="https://github.com/sorawee/list-plus"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"

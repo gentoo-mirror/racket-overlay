@@ -11,9 +11,8 @@ inherit racket gh
 DESCRIPTION="a lang-extension for debugging, and a macro for inserting a debug-repl"
 HOMEPAGE="https://github.com/AlexKnauth/debug"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/pretty-format"
 BDEPEND="${RDEPEND}"

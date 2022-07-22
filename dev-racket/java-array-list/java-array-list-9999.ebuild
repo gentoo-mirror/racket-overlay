@@ -11,6 +11,5 @@ inherit racket gh
 DESCRIPTION="Clone of Java's ArrayList"
 HOMEPAGE="https://github.com/johnnyodonnell/java-array-list"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"

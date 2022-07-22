@@ -13,10 +13,9 @@ DESCRIPTION="Support for X.509 certificates."
 HOMEPAGE="https://github.com/rmculpepper/crypto"
 S="${S}/x509-lib"
 
-LICENSE="all-rights-reserved"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/asn1-lib
 	dev-racket/base64-lib

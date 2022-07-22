@@ -12,9 +12,8 @@ DESCRIPTION="The ziptie-git Racket package"
 HOMEPAGE="https://gitlab.com/xgqt/racket-ziptie"
 S="${S}/src/ziptie-git"
 
-LICENSE="all-rights-reserved"
+LICENSE="GPL-3"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/threading-lib"
 BDEPEND="${RDEPEND}"

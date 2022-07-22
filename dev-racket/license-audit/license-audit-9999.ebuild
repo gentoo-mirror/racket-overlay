@@ -11,9 +11,8 @@ inherit racket gh
 DESCRIPTION="Audit package licenses (including their dependencies)"
 HOMEPAGE="https://github.com/sorawee/license-audit"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/text-table"
 BDEPEND="${RDEPEND}"

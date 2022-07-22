@@ -12,7 +12,6 @@ inherit racket gh
 DESCRIPTION="A small chat room on tcp."
 HOMEPAGE="https://github.com/Antigen-1/qcr"
 
-LICENSE="all-rights-reserved"
+LICENSE="LGPL-3"
 SLOT="0"
 KEYWORDS="~amd64"
-RESTRICT="mirror"

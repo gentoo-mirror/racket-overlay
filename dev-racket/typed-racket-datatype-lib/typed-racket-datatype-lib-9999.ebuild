@@ -12,9 +12,8 @@ DESCRIPTION="Algebraic Datatypes for Typed Racket (implementation)"
 HOMEPAGE="https://github.com/AlexKnauth/typed-racket-datatype"
 S="${S}/typed-racket-datatype-lib"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/syntax-classes-lib"
 BDEPEND="${RDEPEND}"

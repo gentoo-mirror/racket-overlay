@@ -12,6 +12,5 @@ DESCRIPTION="PLT web page style and generation"
 HOMEPAGE="https://github.com/racket/plt-web"
 S="${S}/plt-web-lib"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"

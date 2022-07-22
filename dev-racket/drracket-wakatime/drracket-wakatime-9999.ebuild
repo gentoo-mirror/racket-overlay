@@ -11,9 +11,8 @@ inherit racket gh
 DESCRIPTION="wakatime support on DrRacket"
 HOMEPAGE="https://github.com/racket-tw/drracket-wakatime"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/formatted-string"
 BDEPEND="${RDEPEND}"

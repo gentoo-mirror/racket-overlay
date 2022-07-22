@@ -11,5 +11,5 @@ RDEPEND=dev-racket/curly-fn-lib dev-racket/functional-lib dev-racket/megaparsack
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/OAB-exams/brazilian-law-parser/archive/912433fd9755e309d7e681fa2c74cff5e692a6d8.tar.gz -> brazilian-law-2018.09.01.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	2b9c2269d229d3294ef1aabbb00e61b0
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
 _md5_=65af87e7ff8d6e7fb125e4e45c5f7412

@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/al2-test-runner >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=The racket-glossary Racket package
+EAPI=8
+HOMEPAGE=https://git.sr.ht/~sschwarzer/racket-glossary
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/al2-test-runner >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://git.sr.ht/~sschwarzer/racket-glossary/archive/057c4430707f7b2d96734aa064e32d3c66a720a7.tar.gz -> racket-glossary-2022.07.21.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
+_md5_=44afcbf039b68e8a48a69c587b2cc93e

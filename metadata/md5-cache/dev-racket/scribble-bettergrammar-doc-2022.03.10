@@ -11,5 +11,5 @@ RDEPEND=dev-racket/scribble-bettergrammar-lib dev-racket/sexp-diff-doc >=dev-sch
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/wilbowma/scribble-bettergrammar/archive/4d62bc0e767dc524ff2b8ac42cd0bb22aea3436c.tar.gz -> scribble-bettergrammar-doc-2022.03.10.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	2b9c2269d229d3294ef1aabbb00e61b0
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
 _md5_=ab8dc0769e167c18d3ebf5066a026909

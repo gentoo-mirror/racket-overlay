@@ -1,0 +1,14 @@
+BDEPEND=dev-racket/static-rename dev-racket/sxml >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Utilities to use with sxml
+EAPI=8
+HOMEPAGE=https://github.com/kurinoku/sxml-extra-utils
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=dev-racket/static-rename dev-racket/sxml >=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://github.com/kurinoku/sxml-extra-utils/archive/f5a2a688d67d92de7adda295190ffc8e9efcda86.tar.gz -> sxml-extra-2022.07.17.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
+_md5_=5e8076a3ede7f80fd91c7d5fe99b1b20

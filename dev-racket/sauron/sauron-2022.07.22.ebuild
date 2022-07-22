@@ -5,17 +5,16 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="racket-tw/sauron"
-GH_COMMIT="ddef30c1549bf3b4537262aa9004ac7fbd393b13"
+GH_COMMIT="930db7f924b75b0911569694af42e2042837b038"
 
 inherit racket gh
 
 DESCRIPTION="A DrRacket plugin to make it experience like an IDE"
 HOMEPAGE="https://github.com/racket-tw/sauron"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
 KEYWORDS="~amd64"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/curly-fn-lib
 	dev-racket/drcomplete

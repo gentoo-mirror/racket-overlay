@@ -4,5 +4,6 @@
 <pkgmetadata>
   <upstream>
     <bugs-to>https://bitbucket.org/digitalricoeur/ricoeur-kernel</bugs-to>
+    <remote-id type="bitbucket">digitalricoeur/ricoeur-kernel</remote-id>
   </upstream>
 </pkgmetadata>

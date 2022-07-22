@@ -4,5 +4,6 @@
 <pkgmetadata>
   <upstream>
     <bugs-to>https://bitbucket.org/derend/simple-polynomial</bugs-to>
+    <remote-id type="bitbucket">derend/simple-polynomial</remote-id>
   </upstream>
 </pkgmetadata>

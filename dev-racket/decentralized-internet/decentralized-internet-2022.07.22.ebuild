@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="Lonero-Team/Racket-Package"
-GH_COMMIT="9715f92969afa2a0d0cba67ed65a6d0543c6c2a3"
+GH_COMMIT="451a3be28e554fc9a3d6d3aada96d7fc76645d6f"
 
 inherit racket gh
 

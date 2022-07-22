@@ -4,5 +4,6 @@
 <pkgmetadata>
   <upstream>
     <bugs-to>https://bitbucket.org/Tetsumi/crc32c</bugs-to>
+    <remote-id type="bitbucket">Tetsumi/crc32c</remote-id>
   </upstream>
 </pkgmetadata>

@@ -4,5 +4,6 @@
 <pkgmetadata>
   <upstream>
     <bugs-to>https://bitbucket.org/nadeemabdulhamid/web-sessions</bugs-to>
+    <remote-id type="bitbucket">nadeemabdulhamid/web-sessions</remote-id>
   </upstream>
 </pkgmetadata>

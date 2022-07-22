@@ -4,5 +4,6 @@
 <pkgmetadata>
   <upstream>
     <bugs-to>https://bitbucket.org/Tetsumi/anu-web-quantum-rng</bugs-to>
+    <remote-id type="bitbucket">Tetsumi/anu-web-quantum-rng</remote-id>
   </upstream>
 </pkgmetadata>

@@ -4,5 +4,6 @@
 <pkgmetadata>
   <upstream>
     <bugs-to>https://bitbucket.org/derend/simple-matrix</bugs-to>
+    <remote-id type="bitbucket">derend/simple-matrix</remote-id>
   </upstream>
 </pkgmetadata>

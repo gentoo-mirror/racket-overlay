@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="arclanguage/anarki"
-GH_COMMIT="a2569b1e071bd559bb5e8f20b2887dea5c70dc02"
+GH_COMMIT="1bd0fe82c376fe3699028b9adcebdddb4547a1ec"
 
 inherit racket gh
 

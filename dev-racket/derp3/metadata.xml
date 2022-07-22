@@ -4,5 +4,6 @@
 <pkgmetadata>
   <upstream>
     <bugs-to>https://bitbucket.org/jbclements/derp-3</bugs-to>
+    <remote-id type="bitbucket">jbclements/derp-3</remote-id>
   </upstream>
 </pkgmetadata>

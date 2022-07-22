@@ -11,9 +11,8 @@ inherit racket gh
 DESCRIPTION="A microformats2 parsing library"
 HOMEPAGE="https://github.com/jacobwhall/racket-mf2"
 
-LICENSE="all-rights-reserved"
+LICENSE="CC0-1.0"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/gregor
 	dev-racket/html-parsing

@@ -15,7 +15,7 @@ S="${S}/src/portage-admin-doc"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
 RDEPEND="dev-racket/portage-admin-lib"
 BDEPEND="${RDEPEND}"

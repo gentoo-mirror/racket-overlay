@@ -14,7 +14,7 @@ HOMEPAGE="https://github.com/dstorrs/racket-queue"
 
 LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
 RDEPEND="dev-racket/struct-plus-plus
 	dev-racket/test-more"

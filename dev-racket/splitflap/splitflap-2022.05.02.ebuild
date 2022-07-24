@@ -15,7 +15,7 @@ S="${S}/splitflap"
 
 LICENSE="BlueOak-1.0.0"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
 RDEPEND="dev-racket/splitflap-doc
 	dev-racket/splitflap-lib"

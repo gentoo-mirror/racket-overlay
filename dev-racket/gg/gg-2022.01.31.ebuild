@@ -14,4 +14,4 @@ HOMEPAGE="https://github.com/xandkar/gg"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"

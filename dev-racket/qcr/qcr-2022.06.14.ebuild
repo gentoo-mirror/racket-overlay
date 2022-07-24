@@ -14,4 +14,4 @@ HOMEPAGE="https://github.com/Antigen-1/qcr"
 
 LICENSE="LGPL-3"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"

@@ -14,4 +14,4 @@ HOMEPAGE="https://github.com/Bogdanp/racket-import-profiler"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"

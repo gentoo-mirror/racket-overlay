@@ -14,7 +14,7 @@ HOMEPAGE="https://github.com/kurinoku/sxml-extra-utils"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
 RDEPEND="dev-racket/static-rename
 	dev-racket/sxml"

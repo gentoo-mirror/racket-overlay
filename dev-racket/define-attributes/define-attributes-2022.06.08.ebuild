@@ -15,7 +15,7 @@ S="${S}/define-attributes"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
 RDEPEND="dev-racket/define-attributes-lib"
 BDEPEND="${RDEPEND}"

@@ -14,7 +14,7 @@ HOMEPAGE="https://github.com/jacobwhall/racket-mf2"
 
 LICENSE="CC0-1.0"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
 RDEPEND="dev-racket/gregor
 	dev-racket/html-parsing

@@ -14,7 +14,7 @@ HOMEPAGE="https://github.com/a11ce/racket-p5"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/urlang"

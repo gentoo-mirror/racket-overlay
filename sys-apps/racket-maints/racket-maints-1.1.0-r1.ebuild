@@ -16,7 +16,7 @@ if [[ ${PV} == *9999* ]]; then
 	EGIT_REPO_URI="https://gitlab.com/src_prepare/racket/${PN}.git"
 else
 	SRC_URI="https://gitlab.com/src_prepare/racket/${PN}/-/archive/${PV}/${P}.tar.gz"
-	KEYWORDS="~amd64"
+	KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 fi
 
 LICENSE="GPL-3"

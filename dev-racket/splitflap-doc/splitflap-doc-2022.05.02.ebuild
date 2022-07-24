@@ -15,7 +15,7 @@ S="${S}/splitflap-doc"
 
 LICENSE="BlueOak-1.0.0"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
 RDEPEND="dev-racket/gregor-doc
 	dev-racket/gregor-lib

@@ -15,7 +15,7 @@ S="${S}/src/ebuild"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
 RDEPEND="dev-racket/ebuild-doc
 	dev-racket/ebuild-lib

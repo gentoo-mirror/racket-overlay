@@ -15,7 +15,7 @@ S="${S}/src/macrokey-doc"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
 RDEPEND="dev-racket/macrokey-lib"
 BDEPEND="${RDEPEND}"

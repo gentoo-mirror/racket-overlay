@@ -14,7 +14,7 @@ HOMEPAGE="https://github.com/AlexKnauth/debug"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
 RDEPEND="dev-racket/pretty-format"
 BDEPEND="${RDEPEND}"

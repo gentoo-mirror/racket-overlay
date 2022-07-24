@@ -15,7 +15,7 @@ S="${S}/typed-racket-datatype"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
 RDEPEND="dev-racket/typed-racket-datatype-lib"
 BDEPEND="${RDEPEND}"

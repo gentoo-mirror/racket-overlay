@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/lwhjp/racket-xmlns
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lwhjp/racket-xmlns/archive/b11d0010ceac1dac55b22d5eab51e24025593638.tar.gz -> xmlns-2017.10.21.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=cff03ee1511f650861c2f85f92029bc2
+_md5_=f1f7ce2064f857ad6322bf1323ca521c

@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/Kalimehtar/binary-class
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Kalimehtar/binary-class/archive/69705ed306be38c9e4dd67d9075ec160ecdb82a4.tar.gz -> binary-class-2017.08.15.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=8d5acea28110a0a8a4019fa5c24e9d3a
+_md5_=7bb658c8f407dc0760a64dfafe19f5d3

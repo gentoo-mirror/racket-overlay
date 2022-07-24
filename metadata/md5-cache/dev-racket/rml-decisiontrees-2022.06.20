@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/johnstonskj/rml-decisiontrees
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/cover-coveralls dev-racket/rml-core >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/johnstonskj/rml-decisiontrees/archive/820d4c415f117a147093b7e7aac19975b3e79356.tar.gz -> rml-decisiontrees-2022.06.20.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=9c6ef94b2c7096dde3355c963e3c89b4
+_md5_=46e3d7d6788ec8f7ae60431c52c24051

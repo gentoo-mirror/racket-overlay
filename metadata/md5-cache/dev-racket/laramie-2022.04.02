@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/jessealama/laramie
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/laramie-doc dev-racket/laramie-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jessealama/laramie/archive/2b21645c87d6ee2690478b04c56ba6dcf6dfcb57.tar.gz -> laramie-2022.04.02.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=f7b8bdfa42e6c64004fc63a1167e4e1e
+_md5_=cbe69ecad5c8648dc7b8d3c3e1d4d50a

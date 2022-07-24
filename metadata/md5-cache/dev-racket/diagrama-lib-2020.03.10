@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/florence/diagrama
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/florence/diagrama/archive/291f244843d7226df4b7cb763bc3d6b1e98af71b.tar.gz -> diagrama-lib-2020.03.10.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=f964fd96034b5857d0d2cd07816d3724
+_md5_=c5d102f4a8d525695869e50faddc2d9f

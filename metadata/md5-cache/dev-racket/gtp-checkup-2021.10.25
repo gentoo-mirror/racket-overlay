@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/bennn/gtp-checkup
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/basedir dev-racket/gregor dev-racket/gtp-util dev-racket/memoize dev-racket/pict-abbrevs dev-racket/require-typed-check >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/bennn/gtp-checkup/archive/304e03ff9bb94a7870340c3a9a195d017523a2c5.tar.gz -> gtp-checkup-2021.10.25.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=82304a6d3c67af3ae7a3f159171aa575
+_md5_=593f3a5cb70168e4ec7a26297986c56b

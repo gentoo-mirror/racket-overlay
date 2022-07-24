@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/jbclements/rtmidi
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jbclements/rtmidi/archive/11879d2e6a3eea7d1766d58123fe89363831313f.tar.gz -> rtmidi-2021.03.29.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=8e6fdf8a67a8d4a5077bd0e7b70eff63
+_md5_=713d3a57188305c377ec9ca9e6e2ed6d

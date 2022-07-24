@@ -6,11 +6,11 @@ EAPI=8
 HOMEPAGE=https://gitlab.com/gradual-typing-performance/gtp-pict
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/pict-abbrevs dev-racket/ppict dev-racket/rackunit-abbrevs >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/gradual-typing-performance/gtp-pict/-/archive/7de896b161fea193b72adb255deff4f44241e97d.tar.gz -> gtp-pict-2021.10.25.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=75133b84bba24ec21faf351c93ee2002
+_md5_=6372cf9f50d57ab2826500f06fc17019

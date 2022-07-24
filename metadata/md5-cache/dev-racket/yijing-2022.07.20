@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/yanyingwang/yijing
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/scribble-rainbow-delimiters >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/yanyingwang/yijing/archive/d2bf8b67abc89e87cf1ccf1f9cf197709374bd16.tar.gz -> yijing-2022.07.20.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=10075421988d72b89d3e9cc4f614dd84
+_md5_=aa1440f0c70a88e2f965eba453708a20

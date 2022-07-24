@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/winny-/runomatic
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/gregor dev-racket/html-parsing dev-racket/request dev-racket/sxml >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/winny-/runomatic/archive/017e5df3f4436248c5d4e0c1955c66d7808e5ed9.tar.gz -> runomatic-2022.02.13.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=9d48bb76b8da548088532b3c6a706f7b
+_md5_=9456f235fbbf9b2d34f934fcc448bb2f

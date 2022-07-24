@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/kalxd/azelf
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/kalxd/azelf/archive/99059eced9f97f79521c50908b3fc9c7b363d27b.tar.gz -> azelf-2022.03.19.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=756238358679c2cd3ccebd874a77f9ad
+_md5_=48da2634097ad96ab292225b1cde6938

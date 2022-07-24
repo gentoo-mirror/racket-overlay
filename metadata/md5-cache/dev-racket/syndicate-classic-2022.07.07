@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/tonyg/syndicate
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/automata dev-racket/auxiliary-macro-context dev-racket/macrotypes-lib dev-racket/rackunit-macrotypes-lib dev-racket/rfc6455 dev-racket/sha dev-racket/struct-defaults dev-racket/turnstile-example dev-racket/turnstile-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/tonyg/syndicate/archive/7f54c4ccd0cc5db25bb2a5e0dc64a1f7149fc326.tar.gz -> syndicate-classic-2022.07.07.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=fd44d5bd6d69454028c9fc0d7a618c6c
+_md5_=459fce7f6645f9e717fad25a9a2089e4

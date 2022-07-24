@@ -6,11 +6,11 @@ EAPI=8
 HOMEPAGE=https://github.com/rocketnia/effection
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/interconfection-lib dev-racket/lathe-comforts-lib dev-racket/parendown-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/rocketnia/effection/archive/314897d7fe9873006167f1e586387db82903cfa7.tar.gz -> effection-lib-2021.12.02.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=04242f82f9222a8a45a67596c11c3b81
+_md5_=345f2d6d851363d9ffe898e223da4347

@@ -6,11 +6,11 @@ EAPI=8
 HOMEPAGE=https://github.com/Bogdanp/racket-sentry
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/gregor-lib dev-racket/http-easy >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/racket-sentry/archive/87d708bd4fc56ad272708ffd63ed1e2f50393b26.tar.gz -> sentry-lib-2021.04.22.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=800eaee240b2f60c4aa92b10e114a7cf
+_md5_=4caae89e5d2d36a72a45958ddae7de22

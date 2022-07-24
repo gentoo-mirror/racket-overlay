@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/mflatt/plai-typed
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mflatt/plai-typed/archive/419102db1e44b74dea9daf7a75e9b0e2b9c97d05.tar.gz -> plai-typed-2019.08.16.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=7796404adf1d6c22a880cf9d6d56c8d2
+_md5_=c79d102d3f80f9a000e12dbfb5f8c015

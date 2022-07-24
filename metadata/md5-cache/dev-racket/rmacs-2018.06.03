@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/tonyg/rmacs
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/ansi dev-racket/diff-merge dev-racket/unix-signals >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/tonyg/rmacs/archive/8c99dd5dfa22f1f34707bbe957de268dc6a7a632.tar.gz -> rmacs-2018.06.03.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=83f2d65571b77cb400c9acbe4889491e
+_md5_=3e5cc34072b2b6b14c6182962d71ca4f

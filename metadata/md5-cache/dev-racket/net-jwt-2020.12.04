@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/RenaissanceBug/racket-jwt
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/crypto dev-racket/option-bind dev-racket/sha >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/RenaissanceBug/racket-jwt/archive/0f747569e878ef14d1f5d2de527efd02af88fcf9.tar.gz -> net-jwt-2020.12.04.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=6a054368fcf7401d6f6d923a2b767bdb
+_md5_=1048314c7c403037607b41001e57ce81

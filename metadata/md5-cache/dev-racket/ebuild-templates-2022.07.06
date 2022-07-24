@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://gitlab.com/xgqt/racket-ebuild
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/ebuild-lib dev-racket/threading-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/xgqt/racket-ebuild/-/archive/40a1aaee1106734e4a963d8beeb3f74baee8905a.tar.gz -> ebuild-templates-2022.07.06.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=75c274a47d122438af2ed11aa6ef6667
+_md5_=c8f7df8e941c835c8f6d507f14a96f9e

@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/Metaxal/define2
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Metaxal/define2/archive/c9760f29b27e45c6fa9edee37d6275214745e8f8.tar.gz -> define2-2021.03.12.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=981826816d047fd45720c122a2ac16eb
+_md5_=d94fbe98156c36a86deb1ec6778a5fe0

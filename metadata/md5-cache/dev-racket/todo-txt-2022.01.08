@@ -6,11 +6,11 @@ EAPI=8
 HOMEPAGE=https://git.sr.ht/~sschwarzer/todo-txt
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/al2-test-runner dev-racket/raco-exe-multitarget >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://git.sr.ht/~sschwarzer/todo-txt/archive/cab12c9d480d16fdc1447caa55b50fff4a59bcdc.tar.gz -> todo-txt-2022.01.08.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=82975bc3846814198779b2a787d6f995
+_md5_=ca7a97f471af35d577c32b61a1dd6cca

@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/countvajhula/qi
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/cli dev-racket/qi-doc dev-racket/qi-lib dev-racket/qi-probe dev-racket/qi-quickscripts dev-racket/qi-test >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/countvajhula/qi/archive/08fdee25f78ef3013ea149b74153476f77a4e380.tar.gz -> qi-2022.07.08.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=82067adb0581d2360384536ac5e01995
+_md5_=bcb0a21adac7c4206b5554bae8dd29a0

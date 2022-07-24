@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/trajafri/r-linq
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/trajafri/r-linq/archive/e41a733b91fc32001d09fe8ff25a0b2c0a06e34c.tar.gz -> r-linq-2021.08.21.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=e3d7636e488356db1bbde73a4f466ec7
+_md5_=ff0c5858e6e4bb91c6b04b8fee3b9b48

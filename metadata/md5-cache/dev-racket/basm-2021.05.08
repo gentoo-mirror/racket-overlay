@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://gitlab.com/pythondude325/basm
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/pythondude325/basm/-/archive/02b7d75eaddda765729820f79a13b54da6e1db14.tar.gz -> basm-2021.05.08.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=f036fda4426b7137242dac1c6929712a
+_md5_=5458462b1f7a2487003c71a6d2e0fb98

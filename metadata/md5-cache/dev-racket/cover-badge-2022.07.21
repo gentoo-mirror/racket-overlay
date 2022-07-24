@@ -5,10 +5,10 @@ EAPI=8
 HOMEPAGE=https://github.com/racket-tw/cover-badge
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=|| ( Apache-2.0 MIT )
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/racket-tw/cover-badge/archive/b7d0543bd67bfc80e618cbd5f192b83ad705af8f.tar.gz -> cover-badge-2022.07.21.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=fd118da7b70bb0e6d28b90da397458a7
+_md5_=9f0713c44777607663f6d62d8769291e

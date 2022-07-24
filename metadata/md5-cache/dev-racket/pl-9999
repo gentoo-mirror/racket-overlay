@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://pkgs.racket-lang.org/package/pl
 INHERIT=racket
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 PROPERTIES=live
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
-_md5_=e3f11d053d73f3b73256a4a2ae9c9a13
+_md5_=75db0648a59b8856833b95e31fe29561

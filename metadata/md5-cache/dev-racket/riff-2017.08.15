@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/lehitoskin/riff
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lehitoskin/riff/archive/459efecc4168cf922660f95b6195935d66cb6a2b.tar.gz -> riff-2017.08.15.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=aea0e0eed20dd3e46e0865406f5d96c5
+_md5_=dd32d6a2f26b46ea6f3b4d233a5c87ae

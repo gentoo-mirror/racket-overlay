@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/AlexKnauth/quote-bad
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/hygienic-quote-lang dev-racket/unstable-lib dev-racket/unstable-macro-testing-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/quote-bad/archive/251c2ed6f6cfd24b733ea7e0d41ff44c63cb3b2d.tar.gz -> quote-bad-2022.01.07.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=bcf04d3792c02d28e2f2b7d161cb1930
+_md5_=b86ad3b7e4a489e318058fc62ac5830f

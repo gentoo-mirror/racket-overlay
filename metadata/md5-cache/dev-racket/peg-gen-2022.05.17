@@ -5,7 +5,7 @@ EAPI=8
 HOMEPAGE=https://pkgs.racket-lang.org/package/peg-gen
 INHERIT=racket
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 PDEPEND=dev-racket/typed-peg
 RDEPEND=dev-racket/algorithms dev-racket/cover-lib dev-racket/rackcheck >=dev-scheme/racket-8.1:=[-minimal]
@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lives-group/pegwfgen/archive/7194d2b44f229c11ff60ae9837e3561c9d8b4988.tar.gz -> peg-gen-2022.05.17.tar.gz https://github.com/lives-group/typed-peg/archive/2a1002fa94cefb4416f9a3c29f5af1f2fd239d36.tar.gz -> peg-gen_aux_typed-peg-2022.05.17.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
-_md5_=65b3d4c66d0d324c32c9b23b45637edd
+_md5_=0fa5d84d7bb61d41b1fde3ec225c10c8

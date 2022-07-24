@@ -6,11 +6,11 @@ EAPI=8
 HOMEPAGE=https://github.com/alex-hhh/map-widget
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/al2-test-runner dev-racket/geoid dev-racket/http-easy >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/alex-hhh/map-widget/archive/9ce8789f95a7539f7d0c00a8e10bc3d6e59ef59e.tar.gz -> map-widget-2022.04.16.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=c0a3830abcd47bbebd441c004a129f19
+_md5_=dec6fece79ad6f1f3f8958b915985c97

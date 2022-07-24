@@ -6,11 +6,11 @@ EAPI=8
 HOMEPAGE=https://github.com/tgbugs/laundry
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/brag >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/tgbugs/laundry/archive/5eb1c26291cf9c4347a04c6bcdbc885c8455407d.tar.gz -> laundry-2022.05.17.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=ce11c3cbd7b19ce923b258dd0ebea11c
+_md5_=019c0100fff9ff1ba76c0c4373d66224

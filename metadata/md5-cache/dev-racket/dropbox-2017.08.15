@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/stchang/dropbox
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/stchang/dropbox/archive/fc978c6c2feca00a74c4e5f9f7213a55585abe68.tar.gz -> dropbox-2017.08.15.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=bb93419bdf1e312af7af02a7264f1e2c
+_md5_=2df4da5d1d5f1c95ffac531152b052ce

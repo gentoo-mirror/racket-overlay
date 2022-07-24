@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/get-bonus/get-bonus
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/3s dev-racket/apse dev-racket/dos dev-racket/fector dev-racket/lux dev-racket/mode-lambda dev-racket/openal dev-racket/opengl dev-racket/pfds >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/get-bonus/get-bonus/archive/d9bb88d2940263641c35ad98912c5a2b3136cc96.tar.gz -> get-bonus-2021.03.11.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=02356fce1062478de96fe96c8fff1951
+_md5_=e496644cbfd790297ab8525c7a949387

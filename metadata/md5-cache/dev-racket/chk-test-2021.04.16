@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/jeapostrophe/chk
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/chk-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jeapostrophe/chk/archive/32fb635e19fa2dc2d9c35bac0964ab76dde1e89e.tar.gz -> chk-test-2021.04.16.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=863f6763d9c53fe1ad69f45c189b62aa
+_md5_=f23830146a98b296e11cac89ca9be356

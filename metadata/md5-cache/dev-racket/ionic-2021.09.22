@@ -6,11 +6,11 @@ EAPI=8
 HOMEPAGE=https://github.com/countvajhula/ionic
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/relation dev-racket/cover-coveralls dev-racket/cover dev-racket/scribble-abbrevs dev-racket/adjutor dev-racket/fancy-app dev-racket/mischief >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/countvajhula/ionic/archive/be903771808eba7a62864d8a942f402571610cbb.tar.gz -> ionic-2021.09.22.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=df4cf73de1c02ba8a68356f24aa8cd2c
+_md5_=5a694900f4f4a92854f28b31c69a30fc

@@ -6,11 +6,11 @@ EAPI=8
 HOMEPAGE=https://github.com/countvajhula/social-contract
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/adjutor dev-racket/collections-doc dev-racket/collections-lib dev-racket/cover dev-racket/cover-coveralls dev-racket/functional-lib dev-racket/megaparsack-lib dev-racket/megaparsack-parser-tools dev-racket/mischief dev-racket/scribble-abbrevs dev-racket/version-case >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/countvajhula/social-contract/archive/9eae6040c675a4465af6bfde94dfcf80f548ff40.tar.gz -> social-contract-2021.11.16.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=410e1606addefa60043d447c734062d0
+_md5_=6c36835d2ff11891d75af372f7377da2

@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://gitlab.com/xgqt/rbulkresizer
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/xgqt/rbulkresizer/-/archive/58d32a47bbd8a7447769212765b42ea80a4f051a.tar.gz -> rbulkresizer-2021.06.13.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=c1f5aed96797698e4ba3a18e637da802
+_md5_=3c8741ab4a191c5348e62d03309050e7

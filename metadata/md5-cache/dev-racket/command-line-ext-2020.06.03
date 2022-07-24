@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/jackfirth/command-line-ext
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/fancy-app dev-racket/generic-syntax-expanders dev-racket/lens dev-racket/reprovide-lang >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/command-line-ext/archive/e980b3b31d7a0cb6e0339335bde860f35a0fe471.tar.gz -> command-line-ext-2020.06.03.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=4dffa410664c07ddfae146499482db71
+_md5_=2b2e07a53fe171bedad1a3262c74bdbf

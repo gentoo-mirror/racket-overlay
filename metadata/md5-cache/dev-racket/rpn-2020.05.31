@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/jackfirth/rpn
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/rebellion >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/rpn/archive/74ef351cae43bb64ba35a937f7a2ea664a82abdd.tar.gz -> rpn-2020.05.31.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=c1f9ef81684131aa8e585de2de6b09c5
+_md5_=ee9c02ee63e5fddd0235c682e73c081c

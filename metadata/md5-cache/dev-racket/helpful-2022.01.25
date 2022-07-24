@@ -5,10 +5,10 @@ EAPI=8
 HOMEPAGE=https://github.com/sorawee/helpful
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=|| ( Apache-2.0 MIT )
 RDEPEND=dev-racket/levenshtein >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/sorawee/helpful/archive/e10742cbf9bde850759d0302c1e493f14ac07dba.tar.gz -> helpful-2022.01.25.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=f8cdb5ec228887896288fbe0140ea5ba
+_md5_=ccd520e953c327a5cf75819e3c86af3f

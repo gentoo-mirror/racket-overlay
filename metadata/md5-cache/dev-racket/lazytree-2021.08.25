@@ -6,11 +6,11 @@ EAPI=8
 HOMEPAGE=https://github.com/countvajhula/lazytree
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/cover-coveralls dev-racket/cover dev-racket/functional-doc dev-racket/collections-doc dev-racket/scribble-abbrevs dev-racket/social-contract dev-racket/relation dev-racket/collections-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/countvajhula/lazytree/archive/e5e6c07c34e691a940538c077b0150a3793bde24.tar.gz -> lazytree-2021.08.25.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=cc191cea16f0dc7ec556e0e9c5017942
+_md5_=3145400a89c1af2f2c61012c4885b5ef

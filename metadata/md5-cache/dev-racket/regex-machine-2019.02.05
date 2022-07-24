@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/jackfirth/regex-machine
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/reprovide-lang >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/regex-machine/archive/25754a4dc2aae351e2fe5db1b98101abb9ce088e.tar.gz -> regex-machine-2019.02.05.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=e969b7d7e2a63471588e12f5942f8772
+_md5_=535a6b54ee741bf6ee64c6175139c426

@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/jackfirth/racket-ease
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/cover dev-racket/doc-coverage dev-racket/fancy-app dev-racket/lens dev-racket/sweet-exp >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/racket-ease/archive/3a7149ded68be348611e346742feac85fca6d74f.tar.gz -> jack-ease-2017.08.15.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=abeba675ec0561fa4dcd1b015bff4d8a
+_md5_=f23b73d2b5ca2c543243c4737a5a41e2

@@ -6,11 +6,11 @@ EAPI=8
 HOMEPAGE=https://github.com/rocketnia/effection
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/effection-doc dev-racket/effection-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/rocketnia/effection/archive/f63023df2e26612f860f07693ae80a0ffd057c1e.tar.gz -> effection-2021.03.12.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=a3059f1fac12ef77df767214edcfa61d
+_md5_=0dfe57b6be7d2e1890f9a5551e7214d6

@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/FPBench/FPBench
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/generic-flonum >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/FPBench/FPBench/archive/40952f5e05b3b263d624203678e570d1bfea2aac.tar.gz -> fpbench-2022.05.04.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=c4cc41f370b84d23e6d79cd1c5a17d86
+_md5_=eeb511d3676ceea37065f58392ff4cf6

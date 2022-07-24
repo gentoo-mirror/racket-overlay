@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/jackfirth/scribble-example
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/doc-coverage dev-racket/fancy-app dev-racket/reprovide-lang-lib dev-racket/sweet-exp-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/scribble-example/archive/8ea8ae06d859b607fd3600a68a806513580e1867.tar.gz -> jack-scribble-example-2019.07.19.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=46a15cb9baed4bb66440b60fe78ef030
+_md5_=6f02221a35d60b70965a76c037ad74a0

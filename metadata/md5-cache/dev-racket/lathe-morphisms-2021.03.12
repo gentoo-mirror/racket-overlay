@@ -6,11 +6,11 @@ EAPI=8
 HOMEPAGE=https://github.com/lathe/lathe-morphisms-for-racket
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/lathe-morphisms-doc dev-racket/lathe-morphisms-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lathe/lathe-morphisms-for-racket/archive/422f0c5f5c5bc58d950d54886f26eb27d56d3061.tar.gz -> lathe-morphisms-2021.03.12.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=8bc4e8e6f680e10d7b279f226c4e20c3
+_md5_=ef10d5719e5ee81466fefe642a7b45ff

@@ -6,11 +6,11 @@ EAPI=8
 HOMEPAGE=https://github.com/rocketnia/fexpress
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/fexpress-doc dev-racket/fexpress-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/rocketnia/fexpress/archive/5a6ee4baa220472cc68fdb41bd4b106a5add9a49.tar.gz -> fexpress-2021.08.25.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=4d3328269504d6682e71991df3c3c12e
+_md5_=5751d308e959e468f3ef1ed1371ac96e

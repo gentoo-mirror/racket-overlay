@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/yjqww6/racket-x64asm
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/x64asm-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/yjqww6/racket-x64asm/archive/b8a4e9998428f4f0b1d083d74d9730e8369f0110.tar.gz -> x64asm-doc-2021.04.06.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=cc2156bf4eb2c81fa0a704567206913a
+_md5_=5bbe0fab473663c9456daf1b99d1a7ff

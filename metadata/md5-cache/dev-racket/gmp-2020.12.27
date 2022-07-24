@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/rmculpepper/racket-gmp
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/binaryio-lib dev-racket/gmp-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/rmculpepper/racket-gmp/archive/768c33615a1c2414ccaf1a1e4ea1064bd5dd46af.tar.gz -> gmp-2020.12.27.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=2b16695d43a427bebc4328881ce3dbde
+_md5_=296f23beaa562d185c3b5a0f31871b17

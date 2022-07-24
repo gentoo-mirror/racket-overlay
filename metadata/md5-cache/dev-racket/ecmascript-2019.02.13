@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/lwhjp/ecmascript
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/ragg >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lwhjp/ecmascript/archive/69fcfa42856ea799ff9d9d63a60eaf1b1783fe50.tar.gz -> ecmascript-2019.02.13.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=0a4408ee5f9b6f979f5446dd42597027
+_md5_=24d9a2175e3cab31f3c86a6acee6fbde

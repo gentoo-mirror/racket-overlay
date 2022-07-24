@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/jackfirth/racket-retry
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/compose-app dev-racket/fancy-app dev-racket/gregor-doc dev-racket/gregor-lib dev-racket/mock dev-racket/mock-rackunit dev-racket/reprovide-lang >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/racket-retry/archive/2a6ba58ab5f14707305e75063c3ee4519fc6dc7d.tar.gz -> retry-2017.12.05.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=103a1cb0ceda412d1ee98c1a9d964fdc
+_md5_=980d4619d555f1932f5a8d85dc79b370

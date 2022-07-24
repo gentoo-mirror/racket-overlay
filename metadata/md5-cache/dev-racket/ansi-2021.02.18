@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/tonyg/racket-ansi
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/tonyg/racket-ansi/archive/c14081de59bc7273f1f9088a51d6d9c202b2b9d0.tar.gz -> ansi-2021.02.18.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=5f1322b3fbda9ec31a22adc4a37d8a84
+_md5_=330b661b6705c341bb95116ad8020eb0

@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/willghatch/racket-syntax-implicits
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/willghatch/racket-syntax-implicits/archive/df1fb32a62348acbcc68e36a2a6a0fc6da4cea18.tar.gz -> syntax-implicits-2020.12.18.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=784aa2050b9d5c48c471ab31bcc5f240
+_md5_=fc7267ec1499ecdc8f5601d147499ea6

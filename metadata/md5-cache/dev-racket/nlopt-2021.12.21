@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/jkominek/nlopt
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jkominek/nlopt/archive/164381c8c94066e5b2a2b57a81f2a96694d6bca2.tar.gz -> nlopt-2021.12.21.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=150c1651ba0a9cbac188b33a5ea2ca2d
+_md5_=bf86b239f7e68170a0fe798b05eda6b5

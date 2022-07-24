@@ -5,10 +5,10 @@ EAPI=8
 HOMEPAGE=https://gitlab.com/src_prepare/racket/collector2
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=GPL-3
 RDEPEND=dev-racket/counter dev-racket/ebuild-lib dev-racket/ebuild-templates dev-racket/threading-lib dev-racket/upi-lib dev-racket/uuid >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://gitlab.com/src_prepare/racket/collector2/-/archive/b669844dd5bd7f1ad7c6708764e1b0399ed07778.tar.gz -> collector2-lib-2022.07.19.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=e93cc81fd3606a374ef543e7b70a89dd
+_md5_=47f23b0ff34cf90a6918a1eb432faa72

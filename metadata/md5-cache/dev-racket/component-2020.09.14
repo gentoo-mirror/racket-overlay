@@ -6,11 +6,11 @@ EAPI=8
 HOMEPAGE=https://github.com/Bogdanp/racket-component
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/component-lib dev-racket/component-doc >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/racket-component/archive/6dd5378caf4eea1a6ef0171909505d4bd5e86b8c.tar.gz -> component-2020.09.14.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=4104a3e5a54ec1125549f50629445148
+_md5_=0492d58d4b02f9e05573e12840214045

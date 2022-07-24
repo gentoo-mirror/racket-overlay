@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/royallthefourth/dotenv
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/royallthefourth/dotenv/archive/86b9a0718f2dfdae1b08d7f6f859875a06817de4.tar.gz -> dotenv-2019.07.20.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=b0cf00b02a5351da5f494fbdb11c60fc
+_md5_=b84518ff862275a8e829e4948acbed6c

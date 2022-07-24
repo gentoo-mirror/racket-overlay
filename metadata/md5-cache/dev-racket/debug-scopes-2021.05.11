@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/jsmaniac/debug-scopes
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/pretty-format dev-racket/reprovide-lang dev-racket/scribble-enhanced >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jsmaniac/debug-scopes/archive/8d8f13976b634113f717ddbaf76e9de85203557c.tar.gz -> debug-scopes-2021.05.11.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=66719b86b405e8a30459a9701bddcbc3
+_md5_=5d5bdecdf2c9cc1ecb6359ec2458d7f6

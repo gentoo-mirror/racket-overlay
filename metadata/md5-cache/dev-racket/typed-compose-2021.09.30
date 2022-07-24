@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://git.marvid.fr/scolobb/typed-compose
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://git.marvid.fr/scolobb/typed-compose/archive/b8363160a23ad7f9684c69ee9bc1cf659b7971db.tar.gz -> typed-compose-2021.09.30.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=9c61f64ab035ebbb331d9e25fb2c82a8
+_md5_=2de77cf0170163d88eec71b6e3c8ece5

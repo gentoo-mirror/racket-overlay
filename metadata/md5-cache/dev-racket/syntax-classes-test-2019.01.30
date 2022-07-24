@@ -6,11 +6,11 @@ EAPI=8
 HOMEPAGE=https://github.com/lexi-lambda/syntax-classes
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/rackunit-spec dev-racket/syntax-classes-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lexi-lambda/syntax-classes/archive/a8a95ede1c72d7dae0764437126f5ce9bbe7967a.tar.gz -> syntax-classes-test-2019.01.30.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=95cd1a95cb68ed690b962e7643f820cd
+_md5_=8d26e64c8dc046cd89f1faf783b6f54f

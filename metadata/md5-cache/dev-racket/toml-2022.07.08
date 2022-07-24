@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/winny-/toml-racket
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/toml-compliance dev-racket/toml-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/winny-/toml-racket/archive/5e7655f57d147c2c900aba0581cf53081c72dab7.tar.gz -> toml-2022.07.08.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=fd3b6450b7d582d3376f6e9ebf99c585
+_md5_=b137551d8b34d3b392f8f1f3be4a0e4f

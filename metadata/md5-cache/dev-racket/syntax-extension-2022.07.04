@@ -5,10 +5,10 @@ EAPI=8
 HOMEPAGE=https://github.com/racket-tw/syntax-extension
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=|| ( Apache-2.0 MIT )
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/racket-tw/syntax-extension/archive/3dd4dae498e8fdeffea45ae6d50b455bb13f5606.tar.gz -> syntax-extension-2022.07.04.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=f2add253925a7718ffb14c23a8f37248
+_md5_=32539cb465b2db9d103a4d4db3c8f8df

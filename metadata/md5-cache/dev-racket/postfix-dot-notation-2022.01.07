@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/AlexKnauth/postfix-dot-notation
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/hygienic-reader-extension dev-racket/sweet-exp >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/postfix-dot-notation/archive/7475bf0b7f0f6fdd534933b86a29de633841f2b0.tar.gz -> postfix-dot-notation-2022.01.07.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=5d27cd11d21c63fd24ed022aa0d15c4c
+_md5_=4da9cb4f824a92dc2f19066a23e6790a

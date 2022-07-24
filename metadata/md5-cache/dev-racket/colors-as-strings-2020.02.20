@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/thoughtstem/colors-as-strings
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/thoughtstem/colors-as-strings/archive/6f6f5594f46ebcdc96ab9c82edc4e5a90d6f0896.tar.gz -> colors-as-strings-2020.02.20.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=a76fda374d3cac9eed8068616c43fa1d
+_md5_=6e43190a591b199ce18220120839aecb

@@ -6,11 +6,11 @@ EAPI=8
 HOMEPAGE=https://github.com/nanopass/nanopass-framework-racket
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/unstable-pretty-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/nanopass/nanopass-framework-racket/archive/deac3a4bf937e1217ec54c5439710712b227fc5a.tar.gz -> nanopass-2021.05.24.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=3493cbeb114af872dc30d202a0a2b988
+_md5_=ac6cd28ca70a8af6ee5bdb8197872362

@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/jessealama/ejs
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jessealama/ejs/archive/6b8e74c48e98e1db0a02ddfe72eb44be9070112f.tar.gz -> ejs-2018.11.14.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=77b034213864eecb80a2b105dcb1373f
+_md5_=acd26dac9ae9a7a46af2d22b731d17d1

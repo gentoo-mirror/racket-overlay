@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/mordae/racket-tesira
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/mordae >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mordae/racket-tesira/archive/47ae8cd92ad3b2610a3f95db9ba3e16db6b24d48.tar.gz -> tesira-2017.08.15.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=34f824dc7f71edb522f26f5b69655d76
+_md5_=06abb1eb833d6e78bef66839d25fd1bf

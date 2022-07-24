@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/racket/drdr2
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/racket/drdr2/archive/680818e5cfa7d48de02bf1a027f78d766498a48d.tar.gz -> drdr2-2019.10.24.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=1ce0451d93ce0176bbc1988c010f0d2e
+_md5_=bb34c3bf9f473bec5975d2a278fba829

@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/lassik/racket-database-url
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lassik/racket-database-url/archive/1bc45817ab41171da41d39c0027367eda698c463.tar.gz -> database-url-2020.07.04.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=c50b6456748117ac3338046461307e1f
+_md5_=b4fb8516580414ab351fa11256066f6d

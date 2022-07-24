@@ -6,11 +6,11 @@ EAPI=8
 HOMEPAGE=https://github.com/Bogdanp/racket-resource-pool
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/rackcheck dev-racket/resource-pool-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/racket-resource-pool/archive/60838899b4b1f69165dc1b3f664eb30d90355e47.tar.gz -> resource-pool-2021.05.03.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=9a0abdb65ebfffd9f11c586b7a8717fc
+_md5_=cfec2cccf8e992cd5f0756b96385dee4

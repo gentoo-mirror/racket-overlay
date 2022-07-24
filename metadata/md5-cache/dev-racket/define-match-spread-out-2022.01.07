@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/AlexKnauth/define-match-spread-out
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/defpat dev-racket/scribble-code-examples dev-racket/unstable-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/define-match-spread-out/archive/9cba18f354fc03a84e2c26d5ae6cdcdc36d4d960.tar.gz -> define-match-spread-out-2022.01.07.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=43c8c30c16e909649507a7b21eeefa3f
+_md5_=b95ec04e06b9fb8ac1261056a30abcc1

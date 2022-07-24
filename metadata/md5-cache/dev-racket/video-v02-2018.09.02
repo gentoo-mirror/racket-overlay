@@ -6,11 +6,11 @@ EAPI=8
 HOMEPAGE=https://github.com/videolang/video
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/bitsyntax dev-racket/graph dev-racket/opengl dev-racket/portaudio dev-racket/ppict dev-racket/reprovide-lang >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/videolang/video/archive/8828d1c287030691cbc12f75fb803265fc3d97bb.tar.gz -> video-v02-2018.09.02.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=0cc7ba09b4374af1525469c45f948736
+_md5_=521f033b38e0e7ed69bf016e41478547

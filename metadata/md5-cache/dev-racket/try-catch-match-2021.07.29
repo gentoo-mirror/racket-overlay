@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/eutro/try-catch-match
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/eutro/try-catch-match/archive/6cd64b9b0d3fc3828318da9f8d26cc5d9271c1f4.tar.gz -> try-catch-match-2021.07.29.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=983799d7aa37898595e3c18a51ba5ed9
+_md5_=c0156a0a836bff2e982029fc69282690

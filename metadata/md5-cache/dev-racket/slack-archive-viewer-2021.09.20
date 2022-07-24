@@ -6,11 +6,11 @@ EAPI=8
 HOMEPAGE=https://github.com/benknoble/slack-archive-viewer
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/markdown dev-racket/sugar dev-racket/txexpr dev-racket/beeswax dev-racket/pollen dev-racket/jsond dev-racket/sass >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/benknoble/slack-archive-viewer/archive/f998c86c03baf7cf9857bfb7aa7b1b0e8df2ae5a.tar.gz -> slack-archive-viewer-2021.09.20.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=5087a078ed861fc3a9bf8749e953bdb1
+_md5_=5b10dc486fd14125fb9e5eb1be00c0d9

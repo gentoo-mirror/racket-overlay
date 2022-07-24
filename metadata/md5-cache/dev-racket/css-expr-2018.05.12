@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/leafac/css-expr
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/nanopass >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/leafac/css-expr/archive/d060b2a76d08013c91318890dc5d9f6cc6c81138.tar.gz -> css-expr-2018.05.12.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=bacff172b99fd3bd226bf5d4d60bf1da
+_md5_=edbe8b68d1608fd586e74bae5fb66bed

@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/willghatch/rackterm
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/willghatch/rackterm/archive/5d94185dea482974a1cf66099380bede6c2ce501.tar.gz -> rackterm-2021.03.09.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=fce3c51bf7b7664a226fac9498f1aa10
+_md5_=fec66b19eaf3dd83cb37007f08adeda4

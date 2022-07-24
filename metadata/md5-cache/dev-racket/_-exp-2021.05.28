@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/LiberalArtist/_-exp
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/adjutor >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/LiberalArtist/_-exp/archive/7bc80bb0137c92effc29f5d01bbc6a14034712eb.tar.gz -> _-exp-2021.05.28.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=3901d372b173a01cc8f4f4af41f71b6d
+_md5_=2565a69c428e6606fe4c4ba6dd2367f3

@@ -6,11 +6,11 @@ EAPI=8
 HOMEPAGE=https://github.com/LiberalArtist/adjutor
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/rackunit-spec dev-racket/static-rename-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/LiberalArtist/adjutor/archive/5a9ae8570213cfffde644ecf405df500490de05c.tar.gz -> adjutor-2021.05.28.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=b606bdb6c6551db1710382319c7afa31
+_md5_=a4aa456ac6d9c342306d9299faf87678

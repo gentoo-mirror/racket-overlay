@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/SimonLSchlee/define-attributes
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/SimonLSchlee/define-attributes/archive/ceafd89638e3c0c5e1831c34b19bc19498351335.tar.gz -> define-attributes-lib-2022.02.16.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=46842adbd5072654bd3c4e0c093273f4
+_md5_=dec5ffcc2743ed9dc52b0ede01d49e5d

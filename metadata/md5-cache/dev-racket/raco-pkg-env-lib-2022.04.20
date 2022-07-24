@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/samdphillips/raco-pkg-env
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/samdphillips/raco-pkg-env/archive/54fd0fc98f8fdd1f1e3bc914a411bc2e6ff553db.tar.gz -> raco-pkg-env-lib-2022.04.20.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=26d72df22ece9a593f852214aad505a3
+_md5_=c4f37cfaa6dc370e89b7c15d133fafda

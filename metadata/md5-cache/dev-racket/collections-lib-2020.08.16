@@ -5,7 +5,7 @@ EAPI=8
 HOMEPAGE=https://pkgs.racket-lang.org/package/collections-lib
 INHERIT=racket
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 PDEPEND=dev-racket/functional-lib
 RDEPEND=dev-racket/curly-fn-lib dev-racket/match-plus dev-racket/static-rename dev-racket/unstable-list-lib >=dev-scheme/racket-8.1:=[-minimal]
@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lexi-lambda/racket-collections/archive/c4822fc200b0488922cd6e86b4f2ea7cf8c565da.tar.gz -> collections-lib-2020.08.16.tar.gz https://github.com/lexi-lambda/functional/archive/be2285cd3da0e2fffe651a8ab723185bb669425d.tar.gz -> collections-lib_aux_functional-lib-2020.08.16.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
-_md5_=cc94319705c2ec62e5adfc04df333985
+_md5_=c56d478c51cdb913701f6adf9844d58b

@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/tonyg/racket-dbus
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/misc1 dev-racket/unstable-lib dev-racket/xexpr-path >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/tonyg/racket-dbus/archive/57c5e3d9120f778b48ba01efb6b37c1ffbc9963d.tar.gz -> dbus-2017.08.15.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=f755ee65874bba301c02f2a33a0f2648
+_md5_=f772353b1645ef69aaf7d40103aeaf9e

@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/jeapostrophe/mic1
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/chk >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jeapostrophe/mic1/archive/e985f4698f005049643998d28f8173e821acdb6b.tar.gz -> mic1-2019.08.06.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=50029e00213e72fc403b60575a81d6bb
+_md5_=97ef3dcfe8382d326ba3ec000e017710

@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/mbutterick/typesetting
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/beautiful-racket-lib dev-racket/debug dev-racket/fontland dev-racket/hyphenate dev-racket/markdown dev-racket/pitfall dev-racket/pollen dev-racket/sugar dev-racket/txexpr dev-racket/words >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mbutterick/typesetting/archive/342422e221c7218880c6ecfb6e5bc0caf1b3b50d.tar.gz -> quad-2022.06.29.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=4f39baf407759f5b96e9063ef25d5d3e
+_md5_=c87233e0b0f1d22f4a7a10c52433e293

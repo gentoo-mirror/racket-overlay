@@ -6,11 +6,11 @@ EAPI=8
 HOMEPAGE=https://github.com/bennn/gtp-benchmarks
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/with-cache dev-racket/syntax-sloc dev-racket/scribble-abbrevs dev-racket/gtp-util dev-racket/require-typed-check >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/bennn/gtp-benchmarks/archive/3d706792e984494dea6394842e9983c7fceb46fa.tar.gz -> gtp-benchmarks-2021.10.22.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=f24b541bc6624de82c0398e1832b75c1
+_md5_=31a44bd418a5766d38544d95a0bd27ca

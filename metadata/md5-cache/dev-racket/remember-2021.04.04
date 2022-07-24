@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/jsmaniac/remember
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/hyper-literate dev-racket/scribble-enhanced >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jsmaniac/remember/archive/cb47dd8b081ad14800fd668898f6f938a4a40e91.tar.gz -> remember-2021.04.04.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=bc8becddf83962f831a7106aef71282e
+_md5_=2ff8c7db7e0bac263ea220cc0b389bfb

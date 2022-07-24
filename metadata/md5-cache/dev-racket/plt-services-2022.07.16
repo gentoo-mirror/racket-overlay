@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/racket/racket
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/racket/racket/archive/153ff9acb7ad63717a50bb26cd5aaa053870c666.tar.gz -> plt-services-2022.07.16.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=604d856a59991165f8bf4aee4395d9ee
+_md5_=c8e760b1f75b492367ea479b7a83ac9e

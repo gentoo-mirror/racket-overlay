@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/lexi-lambda/racket-alexis-pvector
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/alexis-collections dev-racket/pvector >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lexi-lambda/racket-alexis-pvector/archive/f03b60714a0fd35ca61dd41307701074a2253d87.tar.gz -> alexis-pvector-2021.11.27.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=e28980978a8b3f596a847d3ebeb68901
+_md5_=681190f37b0936324476d6b55e791ba0

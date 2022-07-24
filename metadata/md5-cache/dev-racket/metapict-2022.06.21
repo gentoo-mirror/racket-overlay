@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/soegaard/metapict
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/graph-lib dev-racket/ppict dev-racket/racket-poppler dev-racket/unstable-latent-contract-lib dev-racket/unstable-parameter-group-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/soegaard/metapict/archive/f0a8d2dba519cae125875ad054773136e2b185fb.tar.gz -> metapict-2022.06.21.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=0e2af4da567411e352ef04e9a854a607
+_md5_=5c0ff44814dc1e8f7973aa0bb84a47cf

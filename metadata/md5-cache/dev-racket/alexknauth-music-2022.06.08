@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/AlexKnauth/music
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/agile dev-racket/collections-lib dev-racket/graph dev-racket/reprovide-lang dev-racket/rsound dev-racket/txexpr dev-racket/unstable-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/music/archive/e9dc2e3654d59d6eedbec3dfe67db77d0f8b0d16.tar.gz -> alexknauth-music-2022.06.08.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=e70b4d30f9159a01dec5ce65e3d4d7aa
+_md5_=99662c7badc12e39ea9444f4555d8034

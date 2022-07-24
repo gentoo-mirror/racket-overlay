@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/zyrolasting/polyglot
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/aws dev-racket/css-expr dev-racket/file-watchers dev-racket/markdown dev-racket/polyglot-lib dev-racket/txexpr dev-racket/unlike-assets-doc dev-racket/unlike-assets-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/zyrolasting/polyglot/archive/d27ca7fe90fd4ba2a6c5bcd921fce89e72d2c408.tar.gz -> polyglot-doc-2021.01.01.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=3c448c0cce3147ad42d92ebbaf1a004c
+_md5_=7a5449cbdec17e44eca3cc5fbc84f3c9

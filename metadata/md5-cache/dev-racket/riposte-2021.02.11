@@ -6,11 +6,11 @@ EAPI=8
 HOMEPAGE=https://github.com/vicampo/riposte
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/misc1 dev-racket/json-pointer dev-racket/dotenv dev-racket/argo dev-racket/http dev-racket/beautiful-racket-lib dev-racket/brag-lib dev-racket/br-parser-tools-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/vicampo/riposte/archive/0a71e54539cb40b574f84674769792444691a8cf.tar.gz -> riposte-2021.02.11.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=e7568e0d3db3be9446539701b38eb04f
+_md5_=cf1768b6b99cad2cf6aad049391c9b43

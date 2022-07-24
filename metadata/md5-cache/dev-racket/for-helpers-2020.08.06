@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/yjqww6/for-helpers
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/yjqww6/for-helpers/archive/3753dbce905e5c115e8107a9411249a12a06fd64.tar.gz -> for-helpers-2020.08.06.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=99ad8d2690c24015c2934c2bb4382b1f
+_md5_=7fe9d9ebbcfde7c92a836c15ce2c4b11

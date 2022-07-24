@@ -5,11 +5,11 @@ EAPI=8
 HOMEPAGE=https://github.com/otherjoel/bookcover
 INHERIT=racket gh
 IUSE=doc
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
 RDEPEND=dev-racket/beautiful-racket-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/otherjoel/bookcover/archive/824cdc44d35cc2c418074e4eaf12bbb0e516342f.tar.gz -> bookcover-2019.03.24.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=2ad5268fb67c3a962a9662e3b4309832
+_md5_=eaf0fd3078e9d62001b6b0a5f5ecf0f5

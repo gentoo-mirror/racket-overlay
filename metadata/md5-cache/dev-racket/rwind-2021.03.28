@@ -3,7 +3,7 @@ DEFINED_PHASES=compile install postinst prepare prerm test
 DESCRIPTION=An X11 window manager written in Racket (still in early stage)
 EAPI=8
 HOMEPAGE=https://github.com/Metaxal/rwind
-INHERIT=racket gh
+INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
@@ -11,5 +11,5 @@ RDEPEND=dev-racket/x11 >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Metaxal/rwind/archive/5a4f580b0882452f3938aaa1711a6d99570f006f.tar.gz -> rwind-2021.03.28.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=7e23800950283c7a9167889b33ddfcc2
+_eclasses_=gh	ba932704130d7e5c7813b795aa2ff988	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
+_md5_=14ac614d9bbcce7487d8d65e2cfa77a4

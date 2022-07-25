@@ -3,7 +3,7 @@ DEFINED_PHASES=compile install postinst prepare prerm test
 DESCRIPTION=benchmarks for cover
 EAPI=8
 HOMEPAGE=https://github.com/florence/cover
-INHERIT=racket gh
+INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
@@ -11,5 +11,5 @@ RDEPEND=dev-racket/cover-lib dev-racket/custom-load >=dev-scheme/racket-8.1:=[-m
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/florence/cover/archive/ad50ffa8f6246053bec24b39b9cae7fad1534373.tar.gz -> cover-benchmarks-2020.02.27.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=2a5410a84fc02885c4938ed175d6d8db
+_eclasses_=gh	ba932704130d7e5c7813b795aa2ff988	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
+_md5_=76671fb613b9d0a31c2f8b0f223b3421

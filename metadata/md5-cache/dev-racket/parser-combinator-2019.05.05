@@ -3,7 +3,7 @@ DEFINED_PHASES=compile install postinst prepare prerm test
 DESCRIPTION=Parser / Lexer Library, and JSON Implementation.
 EAPI=8
 HOMEPAGE=https://github.com/nixpulvis/parser-combinator
-INHERIT=racket gh
+INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
@@ -11,5 +11,5 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/nixpulvis/parser-combinator/archive/9635c0479c1841e122a75faa35d1d76333ef3cb6.tar.gz -> parser-combinator-2019.05.05.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=fe7dab628cea5e1a4325a56b16475f78
+_eclasses_=gh	ba932704130d7e5c7813b795aa2ff988	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
+_md5_=6c6bf40ecc91a3b04333943ec934b12e

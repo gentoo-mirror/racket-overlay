@@ -3,12 +3,12 @@ DEFINED_PHASES=compile install postinst prepare prerm test
 DESCRIPTION=Associate metadata with values.
 EAPI=8
 HOMEPAGE=https://github.com/camoy/meta
-INHERIT=racket gh
+INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=0BSD
 RDEPEND=dev-racket/chk-lib >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/camoy/meta/archive/3d46d19067a2f3fbfeac4b38a3ae3892abb1c91a.tar.gz -> meta-2022.03.09.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=376b1b30da938365d4b1e0e1c8dd9bbd
+_eclasses_=gh	ba932704130d7e5c7813b795aa2ff988	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
+_md5_=cf5aabcbd22ddc6afa6a66d681da5960

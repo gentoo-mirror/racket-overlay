@@ -3,7 +3,7 @@ DEFINED_PHASES=compile install postinst prepare prerm test
 DESCRIPTION=Chief runs Procfile-based applications. Like foreman, but written in Racket.
 EAPI=8
 HOMEPAGE=https://github.com/Bogdanp/racket-chief
-INHERIT=racket gh
+INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
@@ -11,5 +11,5 @@ RDEPEND=dev-racket/gregor-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/racket-chief/archive/29db53fee2ec98976b75844ec7e1bef41f0694fb.tar.gz -> chief-2022.07.06.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=5cbb1f38cbd53edd868e30dbe32757fb
+_eclasses_=gh	ba932704130d7e5c7813b795aa2ff988	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
+_md5_=e2bc300e779bf5ea2c6792cfce67e695

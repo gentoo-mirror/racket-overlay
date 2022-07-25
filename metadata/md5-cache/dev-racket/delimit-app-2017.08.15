@@ -3,7 +3,7 @@ DEFINED_PHASES=compile install postinst prepare prerm test
 DESCRIPTION=An #%app macro that changes meaning based on paren shape
 EAPI=8
 HOMEPAGE=https://github.com/jackfirth/delimit-app
-INHERIT=racket gh
+INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
@@ -11,5 +11,5 @@ RDEPEND=dev-racket/fancy-app >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/delimit-app/archive/720c0f95c1c3642b936030fabfb4850ab166d7e2.tar.gz -> delimit-app-2017.08.15.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=15f650ca024683904562bd4966b55181
+_eclasses_=gh	ba932704130d7e5c7813b795aa2ff988	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
+_md5_=cb9d4517564bed45434d02090531eee2

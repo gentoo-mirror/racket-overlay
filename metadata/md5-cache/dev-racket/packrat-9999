@@ -1,14 +1,14 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
 DESCRIPTION=The Packrat Racket package
 EAPI=8
 HOMEPAGE=https://github.com/simonhaines/packrat
-INHERIT=racket gh
+INHERIT=gh racket
 IUSE=doc
 LICENSE=all-rights-reserved
 PROPERTIES=live
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	git-r3	b9ac6f96d2a88edb5b351df634dc5e53	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=d54ce6cec9d6b058b9fac28c7346174a
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	gh	ba932704130d7e5c7813b795aa2ff988	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
+_md5_=be5be56c37f63b6bdf5f1037d776693a

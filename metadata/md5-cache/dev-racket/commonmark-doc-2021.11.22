@@ -3,7 +3,7 @@ DEFINED_PHASES=compile install postinst prepare prerm test
 DESCRIPTION=The commonmark-doc Racket package
 EAPI=8
 HOMEPAGE=https://github.com/lexi-lambda/racket-commonmark
-INHERIT=racket gh
+INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
@@ -11,5 +11,5 @@ RDEPEND=dev-racket/commonmark-lib dev-racket/threading-lib >=dev-scheme/racket-8
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lexi-lambda/racket-commonmark/archive/d40156bce42088aea1a742d6cce4c8697318db70.tar.gz -> commonmark-doc-2021.11.22.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=57c5c590df15d806a6248c7afc4d2582
+_eclasses_=gh	ba932704130d7e5c7813b795aa2ff988	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
+_md5_=9dbe3e399e0afbc07e8ef87e34930f5f

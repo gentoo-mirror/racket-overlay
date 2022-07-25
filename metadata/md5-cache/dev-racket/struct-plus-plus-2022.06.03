@@ -3,7 +3,7 @@ DEFINED_PHASES=compile install postinst prepare prerm test
 DESCRIPTION=The struct-plus-plus Racket package
 EAPI=8
 HOMEPAGE=https://github.com/dstorrs/struct-plus-plus
-INHERIT=racket gh
+INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
@@ -11,5 +11,5 @@ RDEPEND=dev-racket/handy dev-racket/syntax-classes-lib dev-racket/try-catch >=de
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/dstorrs/struct-plus-plus/archive/42e4272ab7b8fc31a53a8fc8d7b6988f5542d4f7.tar.gz -> struct-plus-plus-2022.06.03.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=7dbc954cbd37a8fa3a526972bcac3078
+_eclasses_=gh	ba932704130d7e5c7813b795aa2ff988	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
+_md5_=2a71e35b43895104dfb21a361f3d8cf0

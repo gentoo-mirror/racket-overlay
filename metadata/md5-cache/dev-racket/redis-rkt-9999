@@ -1,14 +1,14 @@
-BDEPEND=dev-racket/redis-doc dev-racket/redis-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=dev-racket/redis-doc dev-racket/redis-lib >=dev-vcs/git-1.8.2.1[curl] >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
 DESCRIPTION=Fast, idiomatic bindings for Redis. (docs & implementation)
 EAPI=8
 HOMEPAGE=https://github.com/Bogdanp/racket-redis
-INHERIT=racket gh
+INHERIT=gh racket
 IUSE=doc
 LICENSE=all-rights-reserved
 PROPERTIES=live
 RDEPEND=dev-racket/redis-doc dev-racket/redis-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	git-r3	b9ac6f96d2a88edb5b351df634dc5e53	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=c2d51174c5f308730654e46a0f9e15bc
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	gh	ba932704130d7e5c7813b795aa2ff988	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
+_md5_=420a8b4a50f7e98ad1eefab4047f7bf7

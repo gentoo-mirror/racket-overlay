@@ -167,10 +167,10 @@ dev-racket/collections-doc 2020.08.16: The collections-doc Racket package
 dev-racket/collections-lens 2017.08.15 9999: Lenses for generic collections
 dev-racket/collections-lib 2020.08.16: The collections-lib Racket package
 dev-racket/collections-test 2020.08.16 9999: The collections-test Racket package
-dev-racket/collector2 2022.07.15 2022.07.19 2022.07.22 9999: Parse Racket packages catalog and generate ebuild scripts. Metapackage.
-dev-racket/collector2-doc 2022.07.15 2022.07.19 2022.07.22 9999: Parse Racket packages catalog and generate ebuild scripts. Documentation.
-dev-racket/collector2-lib 2022.07.15 2022.07.19 2022.07.22 9999: Parse Racket packages catalog and generate ebuild scripts. Core.
-dev-racket/collector2-test 2022.07.15 2022.07.19 2022.07.22 9999: Parse Racket packages catalog and generate ebuild scripts. Tests.
+dev-racket/collector2 2022.07.19 2022.07.22 2022.07.25 9999: Parse Racket packages catalog and generate ebuild scripts. Metapackage.
+dev-racket/collector2-doc 2022.07.19 2022.07.22 2022.07.25 9999: Parse Racket packages catalog and generate ebuild scripts. Documentation.
+dev-racket/collector2-lib 2022.07.19 2022.07.22 2022.07.25 9999: Parse Racket packages catalog and generate ebuild scripts. Core.
+dev-racket/collector2-test 2022.07.19 2022.07.22 2022.07.25 9999: Parse Racket packages catalog and generate ebuild scripts. Tests.
 dev-racket/colon-kw 2018.05.24 2022.01.07 9999: a lang-extension for writing :kw for #:kw
 dev-racket/colon-match 2017.11.09 2022.01.07 9999: The colon-match Racket package
 dev-racket/colophon 2020.12.19 2022.05.03 9999: An experimental static site generator
@@ -358,13 +358,13 @@ dev-racket/dssl2 2021.06.01 2021.09.02 2021.12.20 9999: A language for data stru
 dev-racket/dynamic-ffi 2020.02.17 9999: The dynamic-ffi Racket package
 dev-racket/dynamic-xml 2020.05.06 9999: Apply keyword procedures in a given Racket namespace using X-expressions.
 dev-racket/ebml 2017.12.18 9999: A library for reading and writing EBML files.
-dev-racket/ebuild 2022.07.06 2022.07.15 2022.07.19 9999: Library to ease automatic ebuild creation. Metapackage.
-dev-racket/ebuild-doc 2022.07.06 2022.07.15 2022.07.19 9999: Library to ease automatic ebuild creation. Documentation.
-dev-racket/ebuild-lib 2022.07.06 2022.07.15 2022.07.19 9999: Library to ease automatic ebuild creation. Core.
-dev-racket/ebuild-templates 2022.07.06 2022.07.15 2022.07.19 9999: Library to ease automatic ebuild creation. Additional templates.
-dev-racket/ebuild-test 2022.07.06 2022.07.15 2022.07.19 9999: Library to ease automatic ebuild creation. Tests.
-dev-racket/ebuild-tools 2022.07.06 2022.07.15 2022.07.19 9999: Library to ease automatic ebuild creation. Tools.
-dev-racket/ebuild-transformers 2022.07.06 2022.07.15 2022.07.19 9999: Library to ease automatic ebuild creation. Additional helper libraries.
+dev-racket/ebuild 2022.07.15 2022.07.19 2022.07.25 9999: Library to ease automatic ebuild creation. Metapackage.
+dev-racket/ebuild-doc 2022.07.15 2022.07.19 2022.07.25 9999: Library to ease automatic ebuild creation. Documentation.
+dev-racket/ebuild-lib 2022.07.15 2022.07.19 2022.07.25 9999: Library to ease automatic ebuild creation. Core.
+dev-racket/ebuild-templates 2022.07.15 2022.07.19 2022.07.25 9999: Library to ease automatic ebuild creation. Additional templates.
+dev-racket/ebuild-test 2022.07.15 2022.07.19 2022.07.25 9999: Library to ease automatic ebuild creation. Tests.
+dev-racket/ebuild-tools 2022.07.15 2022.07.19 2022.07.25 9999: Library to ease automatic ebuild creation. Tools.
+dev-racket/ebuild-transformers 2022.07.15 2022.07.19 2022.07.25 9999: Library to ease automatic ebuild creation. Additional helper libraries.
 dev-racket/ec 2020.08.19 2021.11.27 9999: The ec Racket package
 dev-racket/echonest 2017.08.15 9999: Wrapper for The Echo Nest web API.
 dev-racket/ecmascript 2019.02.13 9999: Parser, runtime and #lang for ECMAScript

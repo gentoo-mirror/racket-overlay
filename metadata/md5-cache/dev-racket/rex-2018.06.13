@@ -3,7 +3,7 @@ DEFINED_PHASES=compile install postinst prepare prerm test
 DESCRIPTION=Language for deterministic finite state machines
 EAPI=8
 HOMEPAGE=https://github.com/alehed/rex
-INHERIT=racket gh
+INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
@@ -11,5 +11,5 @@ RDEPEND=dev-racket/br-parser-tools-lib dev-racket/brag >=dev-scheme/racket-8.1:=
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/alehed/rex/archive/e3b41f706b4b72ea5f168b0f2a2600d77ee07ea0.tar.gz -> rex-2018.06.13.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=e6547db796163a26eb60e9e7f18fccd8
+_eclasses_=gh	ba932704130d7e5c7813b795aa2ff988	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
+_md5_=fa2b2339d758bc32895092f770188a69

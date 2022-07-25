@@ -3,7 +3,7 @@ DEFINED_PHASES=compile install postinst prepare prerm test
 DESCRIPTION=Floating point matrices using CBLAS and LAPACK.
 EAPI=8
 HOMEPAGE=https://github.com/soegaard/sci
-INHERIT=racket gh
+INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
@@ -11,5 +11,5 @@ RDEPEND=dev-racket/linux-shared-libraries dev-racket/scribble-math >=dev-scheme/
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/soegaard/sci/archive/103b9e0c60a246ec6cb65e990639936df14c6086.tar.gz -> sci-2022.02.13.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=17e1526bb46ce797ca9026fcd1a6e5dd
+_eclasses_=gh	ba932704130d7e5c7813b795aa2ff988	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
+_md5_=5b63c042e73b6820ee87f852cfebc8ea

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mordae/racket-json-socket"
 GH_COMMIT="0acf5117ed335133e30a4ab6593278a4534ac42e"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="JSON-Talking TCP Sockets"
 HOMEPAGE="https://github.com/mordae/racket-json-socket"

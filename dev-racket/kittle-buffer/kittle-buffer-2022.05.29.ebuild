@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="KDr2/kittle-buffer"
 GH_COMMIT="7ab19798d07fde81f3d378867b5ae794821d49aa"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An extended Brainf**k implementation."
 HOMEPAGE="https://github.com/KDr2/kittle-buffer"

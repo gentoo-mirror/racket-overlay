@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dzoep/futures-sort"
 GH_COMMIT="dc1914f60b192897855989d4b87846eaa95aa777"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The futures-sort Racket package"
 HOMEPAGE="https://github.com/dzoep/futures-sort"

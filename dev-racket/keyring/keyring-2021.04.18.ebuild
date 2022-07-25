@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samdphillips/racket-keyring"
 GH_COMMIT="b94d316071f10b14c32bf7398d45d849348e680d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a library for uniformly accessing secrets"
 HOMEPAGE="https://github.com/samdphillips/racket-keyring"

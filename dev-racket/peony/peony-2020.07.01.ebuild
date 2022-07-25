@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="silver-ag/peony"
 GH_COMMIT="cabbb94e5caf786004e9c54dd624fa4ec574998e"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A small frontend on web-server to make developing some kinds of webapp quicker."
 HOMEPAGE="https://github.com/silver-ag/peony"

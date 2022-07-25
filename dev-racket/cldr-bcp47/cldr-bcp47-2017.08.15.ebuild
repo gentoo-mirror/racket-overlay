@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="97jaz/cldr-bcp47"
 GH_COMMIT="823fc1a530f1a0ec4de59f5454c1a17f20c5a5d6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="API for BCP47 extensions to CLDR"
 HOMEPAGE="https://github.com/97jaz/cldr-bcp47"

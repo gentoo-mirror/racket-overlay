@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="shawsumma/lure"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The programming language Lua. Targeting version 5.3.5 (Currently unstable)"
 HOMEPAGE="https://github.com/shawsumma/lure"

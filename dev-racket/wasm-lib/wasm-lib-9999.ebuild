@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-wasm"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="WIP Wasm tooling for Racket."
 HOMEPAGE="https://github.com/Bogdanp/racket-wasm"

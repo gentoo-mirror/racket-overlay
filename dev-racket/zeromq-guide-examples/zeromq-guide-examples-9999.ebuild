@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="aymanosman/racket-packages"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="See https://zguide.zeromq.org/"
 HOMEPAGE="https://github.com/aymanosman/racket-packages"

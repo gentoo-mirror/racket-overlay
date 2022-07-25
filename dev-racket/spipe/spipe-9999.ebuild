@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="BourgondAries/spipe"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A 'super-pipe' that threads over Racket hash-tables"
 HOMEPAGE="https://github.com/BourgondAries/spipe"

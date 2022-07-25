@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mflatt/pkg-dep-draw"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The pkg-dep-draw Racket package"
 HOMEPAGE="https://github.com/mflatt/pkg-dep-draw"

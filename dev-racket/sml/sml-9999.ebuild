@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="LeifAndersen/racket-sml"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="S-Markup Language"
 HOMEPAGE="https://github.com/LeifAndersen/racket-sml"

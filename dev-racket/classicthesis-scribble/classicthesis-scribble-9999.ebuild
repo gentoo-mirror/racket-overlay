@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="stamourv/classicthesis-scribble"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Scribble wrapper for the classicthesis LaTeX style."
 HOMEPAGE="https://github.com/stamourv/classicthesis-scribble"

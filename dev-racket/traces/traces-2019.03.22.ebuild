@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="philnguyen/traces"
 GH_COMMIT="de08fadc1b1d73362c7b6d83f0dd9a4c9dc36743"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The traces Racket package"
 HOMEPAGE="https://github.com/philnguyen/traces"

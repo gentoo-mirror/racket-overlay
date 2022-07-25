@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="maueroats/picturing-programs-typed"
 GH_COMMIT="82dd9c1938c0fa9fdb5ea95849f7ca6f3a082edd"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The picturing-programs-typed Racket package"
 HOMEPAGE="https://github.com/maueroats/picturing-programs-typed"

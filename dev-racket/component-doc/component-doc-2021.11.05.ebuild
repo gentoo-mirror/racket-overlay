@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-component"
 GH_COMMIT="1c2a0ec582caaa15c7bfeab0dd25bd2f58c99c7f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Simple dependency injection (docs)."
 HOMEPAGE="https://github.com/Bogdanp/racket-component"

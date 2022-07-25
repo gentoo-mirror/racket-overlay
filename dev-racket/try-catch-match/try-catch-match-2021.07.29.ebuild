@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="eutro/try-catch-match"
 GH_COMMIT="6cd64b9b0d3fc3828318da9f8d26cc5d9271c1f4"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A try-catch-finally macro that binds with match."
 HOMEPAGE="https://github.com/eutro/try-catch-match"

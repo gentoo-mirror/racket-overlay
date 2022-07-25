@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="yjqww6/drcomplete"
 GH_COMMIT="b652e06b3551fab846035b1ff88053dae60ddc81"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="autocomplete for modules"
 HOMEPAGE="https://github.com/yjqww6/drcomplete"

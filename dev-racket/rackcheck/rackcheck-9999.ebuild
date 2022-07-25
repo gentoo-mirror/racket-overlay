@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Bogdanp/rackcheck"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A property-based testing library with shrinking support."
 HOMEPAGE="https://github.com/Bogdanp/rackcheck"

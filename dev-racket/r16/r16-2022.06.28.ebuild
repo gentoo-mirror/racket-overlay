@@ -7,7 +7,7 @@ GH_DOM="git.sr.ht"
 GH_REPO="~williewillus/r16"
 GH_COMMIT="34f472bd88a4dedcbdddc390c9ccd27070a23f39"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Community-Driven Interactive Code Evaluation"
 HOMEPAGE="https://git.sr.ht/~williewillus/r16"

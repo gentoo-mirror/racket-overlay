@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="samth/get-primitive"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Extract low-level primitives"
 HOMEPAGE="https://github.com/samth/get-primitive"

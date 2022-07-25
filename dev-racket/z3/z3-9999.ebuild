@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="philnguyen/z3-rkt"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Z3 bindings for Racket"
 HOMEPAGE="https://github.com/philnguyen/z3-rkt"

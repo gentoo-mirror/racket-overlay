@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mromyers/infix-syntax"
 GH_COMMIT="8886395e31dc0b5d0db3a77a75255df15492806c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Expansion-time parsing of infix expressions."
 HOMEPAGE="https://github.com/mromyers/infix-syntax"

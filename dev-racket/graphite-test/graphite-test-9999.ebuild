@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="ralsei/graphite"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Tests for Graphite"
 HOMEPAGE="https://github.com/ralsei/graphite"

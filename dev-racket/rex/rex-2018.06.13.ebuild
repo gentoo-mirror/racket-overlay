@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="alehed/rex"
 GH_COMMIT="e3b41f706b4b72ea5f168b0f2a2600d77ee07ea0"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Language for deterministic finite state machines"
 HOMEPAGE="https://github.com/alehed/rex"

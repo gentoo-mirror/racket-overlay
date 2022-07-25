@@ -7,7 +7,7 @@ GH_DOM="git.matthewbutterick.com"
 GH_REPO="mbutterick/typesetting"
 GH_COMMIT="9b95b094df4614979d8f85891baf60756d633da0"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="font processing [in development]"
 HOMEPAGE="https://git.matthewbutterick.com/mbutterick/typesetting"

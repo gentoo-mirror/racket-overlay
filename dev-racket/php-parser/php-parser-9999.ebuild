@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="antoineb/php-parser"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A php parser"
 HOMEPAGE="https://github.com/antoineb/php-parser"

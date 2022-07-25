@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jsmaniac/auto-syntax-e"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The auto-syntax-e Racket package"
 HOMEPAGE="https://github.com/jsmaniac/auto-syntax-e"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="kugelblitz/spreadsheet-editor"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Flexible spreadsheet editor built on top of Racket's GUI controls"
 HOMEPAGE="https://github.com/kugelblitz/spreadsheet-editor"

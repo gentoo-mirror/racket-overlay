@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jbclements/margrave"
 GH_COMMIT="09780169700c463def0d6c66192f3b07048671d8"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A policy analyzer"
 HOMEPAGE="https://github.com/jbclements/margrave"

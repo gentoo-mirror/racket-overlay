@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="the-cellar/barrel"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An esoteric golfing lang"
 HOMEPAGE="https://github.com/the-cellar/barrel"

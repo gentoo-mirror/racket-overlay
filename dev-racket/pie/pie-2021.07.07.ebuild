@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="the-little-typer/pie"
 GH_COMMIT="2c89553a693ac6688b16d722f416914f2e9aa4c3"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The Pie language, used in The Little Typer"
 HOMEPAGE="https://github.com/the-little-typer/pie"

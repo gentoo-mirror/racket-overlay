@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Kalimehtar/gir"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="GTK/GLib/GIO/... GObjectIntrospection FFI binding"
 HOMEPAGE="https://github.com/Kalimehtar/gir"

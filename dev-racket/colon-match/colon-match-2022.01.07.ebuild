@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/colon-match"
 GH_COMMIT="e5799f8e6f523cd252ca64beb01e1ae9e673dc34"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The colon-match Racket package"
 HOMEPAGE="https://github.com/AlexKnauth/colon-match"

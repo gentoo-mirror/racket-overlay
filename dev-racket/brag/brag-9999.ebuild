@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="git.matthewbutterick.com"
 GH_REPO="mbutterick/brag"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The brag Racket package"
 HOMEPAGE="https://git.matthewbutterick.com/mbutterick/brag"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="tonyg/racket-ansi"
 GH_COMMIT="c14081de59bc7273f1f9088a51d6d9c202b2b9d0"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="ANSI and VT10x escape sequences for Racket."
 HOMEPAGE="https://github.com/tonyg/racket-ansi"

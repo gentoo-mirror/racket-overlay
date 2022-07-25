@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mordae/racket-libserialport"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="FFI bindings for the libserialport library."
 HOMEPAGE="https://github.com/mordae/racket-libserialport"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="tonyg/racket-rfc6455"
 GH_COMMIT="abdf0099c6930986a4ea9f352b9fb34ba73afea5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="RFC 6455 WebSockets support for Racket."
 HOMEPAGE="https://github.com/tonyg/racket-rfc6455"

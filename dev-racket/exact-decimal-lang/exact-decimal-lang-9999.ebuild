@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/exact-decimal-lang"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a lang-extension that reads decimals as exact rationals"
 HOMEPAGE="https://github.com/AlexKnauth/exact-decimal-lang"

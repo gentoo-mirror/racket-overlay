@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="plt/handin"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Handin server and client template"
 HOMEPAGE="https://github.com/plt/handin"

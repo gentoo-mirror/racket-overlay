@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dannypsnl/mini-theme"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A minimal DrRacket theme"
 HOMEPAGE="https://github.com/dannypsnl/mini-theme"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="kisaragi-hiu/pangu.rkt"
 GH_COMMIT="674a2b0f4bc5810a56ec545ce8b842d0c3802f57"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Paranoid text spacing with Racket."
 HOMEPAGE="https://github.com/kisaragi-hiu/pangu.rkt"

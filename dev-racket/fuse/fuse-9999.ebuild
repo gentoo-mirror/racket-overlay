@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="thinkmoore/racket-fuse"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Library for creating user-space filesystems with FUSE"
 HOMEPAGE="https://github.com/thinkmoore/racket-fuse"

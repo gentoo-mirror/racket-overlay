@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket/distro-build"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Tools for constructing a distribution of Racket"
 HOMEPAGE="https://github.com/racket/distro-build"

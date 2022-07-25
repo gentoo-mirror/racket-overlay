@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="codeberg.org"
 GH_REPO="montanari/rparallel"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="High-level parallel forms"
 HOMEPAGE="https://codeberg.org/montanari/rparallel"

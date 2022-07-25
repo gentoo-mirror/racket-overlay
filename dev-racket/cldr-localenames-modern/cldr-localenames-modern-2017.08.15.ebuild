@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="97jaz/cldr-localenames-modern"
 GH_COMMIT="f9f3e8d9245764a309542816acf40fe147b473a3"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="API for cldr-localenames-modern data set"
 HOMEPAGE="https://github.com/97jaz/cldr-localenames-modern"

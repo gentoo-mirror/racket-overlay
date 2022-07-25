@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="rfindler/haiku-enum"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A language designed for generating Haiku"
 HOMEPAGE="https://github.com/rfindler/haiku-enum"

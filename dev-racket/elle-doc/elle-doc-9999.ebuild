@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tail-reversion/elle"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Documentation for the Elle language."
 HOMEPAGE="https://github.com/tail-reversion/elle"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="howell/monitors"
 GH_COMMIT="928a1b27b15ad46eb0f715b3bccfe06b437edf30"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Java style monitors for Racket objects"
 HOMEPAGE="https://github.com/howell/monitors"

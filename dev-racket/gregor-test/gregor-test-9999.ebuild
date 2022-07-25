@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="97jaz/gregor"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Tests for the gregor library"
 HOMEPAGE="https://github.com/97jaz/gregor"

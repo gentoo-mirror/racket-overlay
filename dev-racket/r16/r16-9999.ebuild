@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="git.sr.ht"
 GH_REPO="~williewillus/r16"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Community-Driven Interactive Code Evaluation"
 HOMEPAGE="https://git.sr.ht/~williewillus/r16"

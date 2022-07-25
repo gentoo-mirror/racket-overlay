@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="sunarch/endeavor"
 GH_COMMIT="d77f2e84ac83ee81cb12ab6953b62675ec7fa432"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="((status pre-alpha) (phase design))"
 HOMEPAGE="https://github.com/sunarch/endeavor"

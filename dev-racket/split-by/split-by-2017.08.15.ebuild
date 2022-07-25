@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samth/split-by"
 GH_COMMIT="87fc10bda5e0394f78455a78183c3f3a16bc60df"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The split-by function from Mathematica"
 HOMEPAGE="https://github.com/samth/split-by"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jbclements/csv-writing"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="simple functions to write CSV files (and TSV files)"
 HOMEPAGE="https://github.com/jbclements/csv-writing"

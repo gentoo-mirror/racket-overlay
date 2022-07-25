@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lixiangqi/medic"
 GH_COMMIT="0920090d3c77d6873b8481841622a5f2d13a732c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A debugging tool for better printf"
 HOMEPAGE="https://github.com/lixiangqi/medic"

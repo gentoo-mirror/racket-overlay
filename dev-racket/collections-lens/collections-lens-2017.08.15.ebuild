@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lexi-lambda/collections-lens"
 GH_COMMIT="73556daf4885558ea6a66a5def8ad668c0fcf4c3"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Lenses for generic collections"
 HOMEPAGE="https://github.com/lexi-lambda/collections-lens"

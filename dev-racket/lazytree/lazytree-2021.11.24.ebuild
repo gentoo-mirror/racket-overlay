@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="countvajhula/lazytree"
 GH_COMMIT="1ee7e05d00e8d8ac06d9f85a91d59075898704e5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Lightweight, general-purpose utilities for working with tree-structured data."
 HOMEPAGE="https://github.com/countvajhula/lazytree"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket/unstable-options-lib"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Experimental libraries for option contracts"
 HOMEPAGE="https://github.com/racket/unstable-options-lib"

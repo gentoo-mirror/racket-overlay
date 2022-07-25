@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/kw-make-struct"
 GH_COMMIT="1d377d6be64d848b945fdce5e618ca3eef95395a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Naming struct fields with keywords for constructing and matching"
 HOMEPAGE="https://github.com/AlexKnauth/kw-make-struct"

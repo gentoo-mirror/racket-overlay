@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/dotmethod"
 GH_COMMIT="4414f7708a68a560453946af4ba6dbc5672037c1"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="obj.method(x) in racket using mutable-match-lambda"
 HOMEPAGE="https://github.com/AlexKnauth/dotmethod"

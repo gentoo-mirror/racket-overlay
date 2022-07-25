@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="nuprl/cs2500-client"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The neu-cs2500-handin Racket package"
 HOMEPAGE="https://github.com/nuprl/cs2500-client"

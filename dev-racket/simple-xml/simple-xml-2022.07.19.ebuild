@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="simmone/racket-simple-xml"
 GH_COMMIT="a1d54879ce164e1584407bc4f9a5edf19343eb1b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Simplify xml's read and write."
 HOMEPAGE="https://github.com/simmone/racket-simple-xml"

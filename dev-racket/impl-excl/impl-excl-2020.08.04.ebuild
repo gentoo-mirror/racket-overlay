@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="philnguyen/impl-excl"
 GH_COMMIT="2be491f8acb71ec6115d96070382e1f5f2d3a2a0"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The impl-excl Racket package"
 HOMEPAGE="https://github.com/philnguyen/impl-excl"

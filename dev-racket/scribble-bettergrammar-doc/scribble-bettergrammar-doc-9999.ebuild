@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="wilbowma/scribble-bettergrammar"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The scribble-bettergrammar-doc Racket package"
 HOMEPAGE="https://github.com/wilbowma/scribble-bettergrammar"

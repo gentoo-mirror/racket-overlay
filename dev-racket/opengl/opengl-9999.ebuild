@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="stephanh42/RacketGL"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Exhaustive Racket bindings to OpenGL"
 HOMEPAGE="https://github.com/stephanh42/RacketGL"

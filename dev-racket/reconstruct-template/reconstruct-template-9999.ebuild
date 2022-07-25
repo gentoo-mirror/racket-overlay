@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/reconstruct-template"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The reconstruct-template Racket package"
 HOMEPAGE="https://github.com/AlexKnauth/reconstruct-template"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/unstable-list-lib"
 GH_COMMIT="0b3e390a25d5347c3e3b6e08b605b2865f0fae10"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Experimental libraries for list operations"
 HOMEPAGE="https://github.com/racket/unstable-list-lib"

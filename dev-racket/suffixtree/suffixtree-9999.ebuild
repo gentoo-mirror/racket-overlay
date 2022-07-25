@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jbclements/suffixtree"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An implementation of Suffix Trees using Ukkonen's algorithm"
 HOMEPAGE="https://github.com/jbclements/suffixtree"

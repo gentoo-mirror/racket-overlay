@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="ralsei/loess"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Local polynomial regressions for Racket."
 HOMEPAGE="https://github.com/ralsei/loess"

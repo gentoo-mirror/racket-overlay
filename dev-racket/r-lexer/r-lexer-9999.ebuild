@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="LeifAndersen/racket-r-lexer"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The r-lexer Racket package"
 HOMEPAGE="https://github.com/LeifAndersen/racket-r-lexer"

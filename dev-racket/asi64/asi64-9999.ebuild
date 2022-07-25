@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="pezipink/asi64"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The Racket based 6502 assembler"
 HOMEPAGE="https://github.com/pezipink/asi64"

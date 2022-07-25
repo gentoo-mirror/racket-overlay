@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="97jaz/tzdata"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="zoneinfo data mainly for Windows systems using tzinfo"
 HOMEPAGE="https://github.com/97jaz/tzdata"

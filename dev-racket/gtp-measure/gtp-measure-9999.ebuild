@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="bennn/gtp-measure"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Runs programs, collects timing info"
 HOMEPAGE="https://github.com/bennn/gtp-measure"

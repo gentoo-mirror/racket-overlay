@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="yanyingwang/smtp"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A practical library to send emails using SMTP protocol"
 HOMEPAGE="https://github.com/yanyingwang/smtp"

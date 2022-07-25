@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lexi-lambda/racket-pvector"
 GH_COMMIT="d0132809b4da6e48c3e3087dc35cda1c47565e5e"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Fast, immutable, persistent vectors"
 HOMEPAGE="https://github.com/lexi-lambda/racket-pvector"

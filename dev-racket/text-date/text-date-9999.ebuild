@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Kalimehtar/text-date"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Widget for Racket/gui for date enter"
 HOMEPAGE="https://github.com/Kalimehtar/text-date"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="zyrolasting/file-watchers"
 GH_COMMIT="c1ac766a345a335438165ab0d13a4d8f6aec6162"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Sensible file watching procedures"
 HOMEPAGE="https://github.com/zyrolasting/file-watchers"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Kalimehtar/fast-convert"
 GH_COMMIT="2420aeb2ce8c7fb3e14d0ee1d560c33e16aa1b80"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Fast conversion from bytes to string  for one-byte encoding"
 HOMEPAGE="https://github.com/Kalimehtar/fast-convert"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mflatt/scratchy"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Scratch-like runtime and language"
 HOMEPAGE="https://github.com/mflatt/scratchy"

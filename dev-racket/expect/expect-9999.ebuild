@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jackfirth/racket-expect"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The expect Racket package"
 HOMEPAGE="https://github.com/jackfirth/racket-expect"

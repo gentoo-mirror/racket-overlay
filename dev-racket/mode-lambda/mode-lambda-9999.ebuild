@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/mode-lambda"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="2d sprite-based graphics engine"
 HOMEPAGE="https://github.com/jeapostrophe/mode-lambda"

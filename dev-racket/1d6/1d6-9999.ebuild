@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jessealama/1d6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A partial implementation of the Troll dice-rolling language in Racket."
 HOMEPAGE="https://github.com/jessealama/1d6"

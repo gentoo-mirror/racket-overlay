@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="willghatch/racket-basedir"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="XDG Basedir Spec library"
 HOMEPAGE="https://github.com/willghatch/racket-basedir"

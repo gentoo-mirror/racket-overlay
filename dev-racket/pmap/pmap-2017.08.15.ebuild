@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="APOS80/pmap"
 GH_COMMIT="e352de9bbc6735b1ca089a21490f87fc2fba5279"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Implementations of map using parallel futures and places"
 HOMEPAGE="https://github.com/APOS80/pmap"

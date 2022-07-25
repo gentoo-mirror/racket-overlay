@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="nadeemabdulhamid/racketui"
 GH_COMMIT="045e0e647439623397cdf67e8e045ec7aa5e2def"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Automated web forms UI generator (especially for HtDP)"
 HOMEPAGE="https://github.com/nadeemabdulhamid/racketui"

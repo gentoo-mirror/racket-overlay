@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeroanan/cksum"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The cksum Racket package"
 HOMEPAGE="https://github.com/jeroanan/cksum"

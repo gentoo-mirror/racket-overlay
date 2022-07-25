@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="sorawee/errortrace-pkg"
 GH_COMMIT="67719cce30a4b675b58dc882e99ac2ca29e00ab7"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Errortrace installed packages"
 HOMEPAGE="https://github.com/sorawee/errortrace-pkg"

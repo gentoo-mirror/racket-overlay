@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/puresuri"
 GH_COMMIT="9744e849989867e7e002507cd1dfe18ffdf5b5e3"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="puresuri presentation system"
 HOMEPAGE="https://github.com/jeapostrophe/puresuri"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mordae/racket-zmq"
 GH_COMMIT="5d936df13adce486ac23c5e921099de10ad9bf61"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Minimal Racket ZeroMQ Bindings"
 HOMEPAGE="https://github.com/mordae/racket-zmq"

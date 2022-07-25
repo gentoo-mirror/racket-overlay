@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket/gui-pkg-manager"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="documentation part of gui-pkg-manager"
 HOMEPAGE="https://github.com/racket/gui-pkg-manager"

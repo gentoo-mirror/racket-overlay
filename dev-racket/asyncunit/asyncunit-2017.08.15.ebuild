@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="schuster/asyncunit"
 GH_COMMIT="ef9e5c45e83a6f44539d45c8ac52935a463a9659"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="RackUnit helper functions for asynchronous channels"
 HOMEPAGE="https://github.com/schuster/asyncunit"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="APOS80/Quaternion"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The Quaternion Racket package"
 HOMEPAGE="https://github.com/APOS80/Quaternion"

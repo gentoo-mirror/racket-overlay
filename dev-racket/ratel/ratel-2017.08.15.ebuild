@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="198d/ratel"
 GH_COMMIT="c28e0d56e9f1babad8293ab50c1f30cb3fd4df67"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The ratel Racket package"
 HOMEPAGE="https://github.com/198d/ratel"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/struct-like-struct-type-property"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Creating struct-type properties with a struct-like interface"
 HOMEPAGE="https://github.com/AlexKnauth/struct-like-struct-type-property"

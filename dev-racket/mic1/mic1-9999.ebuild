@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/mic1"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="tools for MIC-1 CPU architecture"
 HOMEPAGE="https://github.com/jeapostrophe/mic1"

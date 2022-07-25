@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="LiberalArtist/roman-numeral"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Utilities for parsing and writing Roman numerals"
 HOMEPAGE="https://github.com/LiberalArtist/roman-numeral"

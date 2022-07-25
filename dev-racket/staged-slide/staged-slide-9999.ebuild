@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="stamourv/staged-slide"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Helpers for building staged slides in Slideshow"
 HOMEPAGE="https://github.com/stamourv/staged-slide"

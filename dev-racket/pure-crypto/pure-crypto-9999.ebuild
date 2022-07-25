@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="simmone/racket-pure-crypto"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a pure crypto implementation for racket"
 HOMEPAGE="https://github.com/simmone/racket-pure-crypto"

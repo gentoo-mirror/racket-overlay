@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="zyrolasting/tweedledum"
 GH_COMMIT="64417ba609ea7a5db1ca7c25baa63dfb59a3955e"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Conflicts with tweedledee, or any other package with a hill/king module."
 HOMEPAGE="https://github.com/zyrolasting/tweedledum"

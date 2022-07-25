@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/package-analysis"
 GH_COMMIT="785bc9b1eac503c9359d9d08936422f6f47ce82b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A package for analyzing the Racket package ecosystem"
 HOMEPAGE="https://github.com/jackfirth/package-analysis"

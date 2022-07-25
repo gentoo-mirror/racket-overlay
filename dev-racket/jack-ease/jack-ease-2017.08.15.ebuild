@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/racket-ease"
 GH_COMMIT="3a7149ded68be348611e346742feac85fca6d74f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Library for easing things between start and stop values fluidly"
 HOMEPAGE="https://github.com/jackfirth/racket-ease"

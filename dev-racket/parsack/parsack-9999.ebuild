@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="stchang/parsack"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A basic Parsec (Haskell's monadic parser combinator library) implementation."
 HOMEPAGE="https://github.com/stchang/parsack"

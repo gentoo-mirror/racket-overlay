@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="HiPhish/neovim.rkt"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="API client for the Neovim text editor"
 HOMEPAGE="https://gitlab.com/HiPhish/neovim.rkt"

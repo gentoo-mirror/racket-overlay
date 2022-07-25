@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="BourgondAries/power-struct"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Structure macro that easily defines a tagged default struct."
 HOMEPAGE="https://github.com/BourgondAries/power-struct"

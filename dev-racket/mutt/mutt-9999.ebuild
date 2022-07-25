@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="bennn/racket-mutt"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket API for the Mutt email client"
 HOMEPAGE="https://github.com/bennn/racket-mutt"

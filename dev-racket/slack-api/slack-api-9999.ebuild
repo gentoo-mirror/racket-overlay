@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="octotep/racket-slack-api"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket bindings for the Slack API"
 HOMEPAGE="https://github.com/octotep/racket-slack-api"

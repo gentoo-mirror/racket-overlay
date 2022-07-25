@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/slideshow-latex"
 GH_COMMIT="73aab49b3a14ea06afbfeb2e5ebd32f148c0196c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Slideshow extensions to embed LaTeX and math, as well as other goodies"
 HOMEPAGE="https://github.com/jeapostrophe/slideshow-latex"

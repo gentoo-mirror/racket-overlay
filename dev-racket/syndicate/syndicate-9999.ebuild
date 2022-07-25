@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="git.syndicate-lang.org"
 GH_REPO="syndicate-lang/syndicate-rkt"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The syndicate Racket package"
 HOMEPAGE="https://git.syndicate-lang.org/syndicate-lang/syndicate-rkt"

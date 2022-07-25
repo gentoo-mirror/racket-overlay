@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Raymo111/cs135-drtools"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="DrRacket Tools for CS 135 course at UWaterloo."
 HOMEPAGE="https://github.com/Raymo111/cs135-drtools"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/markparam"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a convenience library for continuation marks like parameters"
 HOMEPAGE="https://github.com/jeapostrophe/markparam"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jackfirth/delimit-app"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An #%app macro that changes meaning based on paren shape"
 HOMEPAGE="https://github.com/jackfirth/delimit-app"

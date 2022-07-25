@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="thinkmoore/drracket-cyberpunk"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The drracket-cyberpunk Racket package"
 HOMEPAGE="https://github.com/thinkmoore/drracket-cyberpunk"

@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="oquijano/sse"
 GH_COMMIT="a6858b7ca41a6ab482c170e6223dc8ac4c7f4eb2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Server Sent Events for Racket"
 HOMEPAGE="https://gitlab.com/oquijano/sse"

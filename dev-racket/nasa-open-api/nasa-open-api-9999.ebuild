@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="m-hugi/nasa-open-api"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Library for a handful of NASA's Open APIs"
 HOMEPAGE="https://github.com/m-hugi/nasa-open-api"

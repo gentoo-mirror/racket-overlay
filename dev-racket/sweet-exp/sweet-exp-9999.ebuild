@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="takikawa/sweet-racket"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Sweet expressions: an alternative to s-expressions"
 HOMEPAGE="https://github.com/takikawa/sweet-racket"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/my-object"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="my version of objects, inspired by things from heresy"
 HOMEPAGE="https://github.com/AlexKnauth/my-object"

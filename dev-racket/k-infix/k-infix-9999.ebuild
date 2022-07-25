@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="BourgondAries/k-infix"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The k-infix Racket package"
 HOMEPAGE="https://github.com/BourgondAries/k-infix"

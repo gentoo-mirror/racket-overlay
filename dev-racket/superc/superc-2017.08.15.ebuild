@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/superc"
 GH_COMMIT="929d3e32db7a5c69fa9e033db7b5707cff329672"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A language for writing C with Racket macros and an easy interface to Racket"
 HOMEPAGE="https://github.com/jeapostrophe/superc"

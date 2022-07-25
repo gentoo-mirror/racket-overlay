@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dvanhorn/ralist"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Purely Functional Random Access Lists"
 HOMEPAGE="https://github.com/dvanhorn/ralist"

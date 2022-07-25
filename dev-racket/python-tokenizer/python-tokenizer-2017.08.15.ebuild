@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jbclements/python-tokenizer"
 GH_COMMIT="beadda52525c78f4b3aa0c8adcf42bf5e1033c5a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A fairly direct translation of tokenize.py"
 HOMEPAGE="https://github.com/jbclements/python-tokenizer"

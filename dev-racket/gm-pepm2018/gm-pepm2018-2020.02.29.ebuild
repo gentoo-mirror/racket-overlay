@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="nuprl/retic_performance"
 GH_COMMIT="621211c2f40251ce5364c33e72e4067e34a32013"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Artifact for On the Cost of Type-Tag Soundness"
 HOMEPAGE="https://github.com/nuprl/retic_performance"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Kalimehtar/hive-common"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Hive: client-server framework. This is library for both client and server."
 HOMEPAGE="https://github.com/Kalimehtar/hive-common"

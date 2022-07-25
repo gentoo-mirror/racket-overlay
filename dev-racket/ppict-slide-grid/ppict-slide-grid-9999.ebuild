@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="takikawa/ppict-slide-grid"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The ppict-slide-grid Racket package"
 HOMEPAGE="https://github.com/takikawa/ppict-slide-grid"

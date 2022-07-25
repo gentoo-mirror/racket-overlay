@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="samth/mmap"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Wrapper for the system mmap() function"
 HOMEPAGE="https://github.com/samth/mmap"

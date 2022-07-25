@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="car.margiotta/google-spreadsheet-api"
 GH_COMMIT="081c8a9543b5d1f0a5329de62c87eec5f12e8b9c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket interface for Google Spreadsheet APIs"
 HOMEPAGE="https://gitlab.com/car.margiotta/google-spreadsheet-api"

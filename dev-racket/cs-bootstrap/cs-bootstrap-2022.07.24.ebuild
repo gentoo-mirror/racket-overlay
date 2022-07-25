@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/ChezScheme"
 GH_COMMIT="99df254ad41412cc087d1dd504e0b385642c3fb5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Creates Chez Scheme boot files from source"
 HOMEPAGE="https://github.com/racket/ChezScheme"

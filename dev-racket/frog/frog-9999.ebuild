@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="greghendershott/frog"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Static blog generator application. Supports Twitter Bootstrap, Pygments, more."
 HOMEPAGE="https://github.com/greghendershott/frog"

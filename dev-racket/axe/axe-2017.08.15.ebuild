@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lotabout/axe"
 GH_COMMIT="234c2d1f6849f3719c3fc3c2354a4d257e53943b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Handy utilities(macros/functions) for racket"
 HOMEPAGE="https://github.com/lotabout/axe"

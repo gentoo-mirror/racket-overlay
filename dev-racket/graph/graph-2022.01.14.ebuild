@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="stchang/graph"
 GH_COMMIT="f06848871ed7b4b488341fdd73e9f640b4788733"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Generic graph library."
 HOMEPAGE="https://github.com/stchang/graph"

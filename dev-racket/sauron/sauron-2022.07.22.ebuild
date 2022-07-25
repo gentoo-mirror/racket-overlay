@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket-tw/sauron"
 GH_COMMIT="930db7f924b75b0911569694af42e2042837b038"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A DrRacket plugin to make it experience like an IDE"
 HOMEPAGE="https://github.com/racket-tw/sauron"

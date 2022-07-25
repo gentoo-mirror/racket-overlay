@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="prozion/odysseus"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Library with handy general-purpose functions and macro as well as specific ones"
 HOMEPAGE="https://github.com/prozion/odysseus"

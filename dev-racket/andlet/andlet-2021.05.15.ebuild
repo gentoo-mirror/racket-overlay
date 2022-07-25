@@ -7,7 +7,7 @@ GH_DOM="bitbucket.org"
 GH_REPO="derend/andlet"
 GH_COMMIT="2da90e6a47c2f87c57d05d9bd7bc221677d4b9d5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Coupling and logic to let and let* forms."
 HOMEPAGE="https://bitbucket.org/derend/andlet"

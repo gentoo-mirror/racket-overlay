@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mflatt/s3-sync"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Sync filesystem with an S3 bucket"
 HOMEPAGE="https://github.com/mflatt/s3-sync"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="cemcutting/forged-ocelot"
 GH_COMMIT="f28a7012348b9096ede5cb1da64ef6544686b205"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The forged-ocelot Racket package"
 HOMEPAGE="https://github.com/cemcutting/forged-ocelot"

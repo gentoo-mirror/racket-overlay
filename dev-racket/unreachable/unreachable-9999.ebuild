@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="philnguyen/unreachable"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Utilities for expressing supposedly unreachable code"
 HOMEPAGE="https://github.com/philnguyen/unreachable"

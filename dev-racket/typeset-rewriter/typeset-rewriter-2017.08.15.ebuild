@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="pnwamk/typeset-rewriter"
 GH_COMMIT="9737f385b57a74564221ebd719c01f4180fbf6f8"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Simple, low-level rewriter tools for typesetting PLT Redex models"
 HOMEPAGE="https://github.com/pnwamk/typeset-rewriter"

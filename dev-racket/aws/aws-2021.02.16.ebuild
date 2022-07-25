@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="greghendershott/aws"
 GH_COMMIT="94a16a6875ac585a10fc488b1bf48052172d5668"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The aws Racket package"
 HOMEPAGE="https://github.com/greghendershott/aws"

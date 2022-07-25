@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Metaxal/safe-case"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Like case but with stronger checks to avoid uncaught typos"
 HOMEPAGE="https://github.com/Metaxal/safe-case"

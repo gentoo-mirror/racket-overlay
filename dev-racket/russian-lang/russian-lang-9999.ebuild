@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Kalimehtar/russian-lang"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Programming language based on russian language"
 HOMEPAGE="https://github.com/Kalimehtar/russian-lang"

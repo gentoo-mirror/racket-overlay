@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="rebcabin/bleir-sandbox"
 GH_COMMIT="f447a68836248573a828acc04f11a8669040e126"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The bleir-sandbox Racket package"
 HOMEPAGE="https://github.com/rebcabin/bleir-sandbox"

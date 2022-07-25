@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samth/xlang"
 GH_COMMIT="6672450a99cdf9aed7dcbcde2ab8e76063966973"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A minimal combinator language, created for PLT Game #1"
 HOMEPAGE="https://github.com/samth/xlang"

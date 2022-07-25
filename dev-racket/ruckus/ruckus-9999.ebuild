@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="cbiffle/ruckus"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Procedural CAD system for solid modeling"
 HOMEPAGE="https://github.com/cbiffle/ruckus"

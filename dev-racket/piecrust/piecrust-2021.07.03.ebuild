@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="nadeemabdulhamid/piecrust"
 GH_COMMIT="71761acebc880912a4c688a32baef871dbf9ad94"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An automated (RESTful) CRUD API generator for use with the Racket web server."
 HOMEPAGE="https://github.com/nadeemabdulhamid/piecrust"

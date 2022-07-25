@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="pnwamk/pie"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A little fork of the Pie language (adds let and equal)."
 HOMEPAGE="https://github.com/pnwamk/pie"

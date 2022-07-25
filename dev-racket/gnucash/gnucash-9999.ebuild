@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jbclements/gnucash"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="parses gnucash XML files"
 HOMEPAGE="https://github.com/jbclements/gnucash"

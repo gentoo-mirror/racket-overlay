@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jsmaniac/anaphoric"
 GH_COMMIT="c648ec2aad6d2b2ec72acc729143454d1e855cf6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The anaphoric Racket package"
 HOMEPAGE="https://github.com/jsmaniac/anaphoric"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="david-christiansen/dan-scheme"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The dan-scheme Racket package"
 HOMEPAGE="https://github.com/david-christiansen/dan-scheme"

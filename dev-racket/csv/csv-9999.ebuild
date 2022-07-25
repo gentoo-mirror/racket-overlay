@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="halida/csv"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="csv file reader and writer"
 HOMEPAGE="https://github.com/halida/csv"

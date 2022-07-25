@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="massung/spacemacs-racket"
 GH_COMMIT="ab3a35a3044cda0e981bdf4c501c87f568bc7b21"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Spacemacs lite and dark color themes for DrRacket."
 HOMEPAGE="https://github.com/massung/spacemacs-racket"

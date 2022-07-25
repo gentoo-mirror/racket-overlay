@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="BourgondAries/memo"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Memoization with finalizers and cleanup"
 HOMEPAGE="https://github.com/BourgondAries/memo"

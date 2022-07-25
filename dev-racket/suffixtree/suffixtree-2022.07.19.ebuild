@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jbclements/suffixtree"
 GH_COMMIT="b46cb2ecbd0cc33d2c7afc0948b6415f23863c78"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An implementation of Suffix Trees using Ukkonen's algorithm"
 HOMEPAGE="https://github.com/jbclements/suffixtree"

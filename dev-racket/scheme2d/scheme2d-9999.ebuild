@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="eutro/scheme2d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The future of programming."
 HOMEPAGE="https://github.com/eutro/scheme2d"

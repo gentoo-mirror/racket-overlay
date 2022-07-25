@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="xandkar/gg"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A tool to discover, catalogue and compare git repos across N machines."
 HOMEPAGE="https://github.com/xandkar/gg"

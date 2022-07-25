@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="silver-ag/peony"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A small frontend on web-server to make developing some kinds of webapp quicker."
 HOMEPAGE="https://github.com/silver-ag/peony"

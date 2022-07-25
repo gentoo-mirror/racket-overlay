@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/multi-file-lang"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a #lang language for multiple files in one"
 HOMEPAGE="https://github.com/AlexKnauth/multi-file-lang"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mlang/mario"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An interpreter for the 2d programming language MarioLANG"
 HOMEPAGE="https://github.com/mlang/mario"

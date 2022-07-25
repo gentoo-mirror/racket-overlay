@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="bennn/gtp-paper"
 GH_COMMIT="4a276d3b71d0ff1921718442b350d2c29134255b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Quick-start for SIGPLAN Scribble papers"
 HOMEPAGE="https://github.com/bennn/gtp-paper"

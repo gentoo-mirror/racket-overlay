@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tonyg/racket-reloadable"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The reloadable Racket package"
 HOMEPAGE="https://github.com/tonyg/racket-reloadable"

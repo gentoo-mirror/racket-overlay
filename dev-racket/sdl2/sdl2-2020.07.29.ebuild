@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lockie/racket-sdl2"
 GH_COMMIT="a25bfa28e32c60f8219eb712255fa5b07e3a8ad5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket bindings to the Simple DirectMedia Layer 2 library: the full package."
 HOMEPAGE="https://github.com/lockie/racket-sdl2"

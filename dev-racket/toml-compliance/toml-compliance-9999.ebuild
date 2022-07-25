@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="winny-/toml-racket"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Toml Library (scripts to drive toml-test compliance suite)"
 HOMEPAGE="https://github.com/winny-/toml-racket"

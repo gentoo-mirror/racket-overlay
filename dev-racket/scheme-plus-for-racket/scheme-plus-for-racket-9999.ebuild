@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="damien-mattei/Scheme-PLUS-for-Racket"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The Scheme-PLUS-for-Racket Racket package"
 HOMEPAGE="https://github.com/damien-mattei/Scheme-PLUS-for-Racket"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="cjfuller/deferred"
 GH_COMMIT="fccb728dc9cbc0a6acb38fd0bc782db41bf32d4c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A simple library for deferring asynchronous tasks until a specified time"
 HOMEPAGE="https://github.com/cjfuller/deferred"

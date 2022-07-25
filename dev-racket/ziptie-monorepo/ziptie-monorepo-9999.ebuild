@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="xgqt/racket-ziptie"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="ZipTie, monorepo component."
 HOMEPAGE="https://gitlab.com/xgqt/racket-ziptie"

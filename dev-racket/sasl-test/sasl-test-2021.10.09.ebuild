@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/sasl"
 GH_COMMIT="3fd78eb8a0ba7ad86d8f78e866d737b177144729"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="SASL authentication client support"
 HOMEPAGE="https://github.com/racket/sasl"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="aymanosman/racket-intellij"
 GH_COMMIT="22e52e0cc36472cd967e3e463f4d583cde0c2c0b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Support IntelliJ editor features"
 HOMEPAGE="https://github.com/aymanosman/racket-intellij"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="src_prepare/racket/racket-where"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Small tool to find installed Racket packages"
 HOMEPAGE="https://gitlab.com/src_prepare/racket/racket-where"

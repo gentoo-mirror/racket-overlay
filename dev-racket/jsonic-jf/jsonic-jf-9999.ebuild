@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="ErwinKotz/test_racket_package"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="great jsonic generator"
 HOMEPAGE="https://github.com/ErwinKotz/test_racket_package"

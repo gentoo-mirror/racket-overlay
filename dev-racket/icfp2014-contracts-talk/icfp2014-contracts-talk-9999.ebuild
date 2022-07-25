@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="rfindler/icfp-2014-contracts-talk"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Slideshow implementation of ICFP 2014 Contracts Keynote Talk"
 HOMEPAGE="https://github.com/rfindler/icfp-2014-contracts-talk"

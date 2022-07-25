@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tonyg/racket-auxiliary-macro-context"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Match-expander-style syntactic extensibility outside expressions."
 HOMEPAGE="https://github.com/tonyg/racket-auxiliary-macro-context"

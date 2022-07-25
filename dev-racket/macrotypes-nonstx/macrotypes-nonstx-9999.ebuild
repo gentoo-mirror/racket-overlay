@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="macrotypefunctors/macrotypes-nonstx"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The macrotypes-nonstx Racket package"
 HOMEPAGE="https://github.com/macrotypefunctors/macrotypes-nonstx"

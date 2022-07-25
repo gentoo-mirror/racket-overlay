@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="adzai/datadef"
 GH_COMMIT="48dda3d116d164ae183a6c151c5447153e269f9c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket library for database data retrieval and database mocking."
 HOMEPAGE="https://github.com/adzai/datadef"

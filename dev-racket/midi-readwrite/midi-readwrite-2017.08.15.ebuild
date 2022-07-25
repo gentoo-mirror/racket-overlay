@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jbclements/midi-readwrite"
 GH_COMMIT="92953cfef013e2c654e8f972b5d55f0da220fae4"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="simple functions to read MIDI (.mid) files"
 HOMEPAGE="https://github.com/jbclements/midi-readwrite"

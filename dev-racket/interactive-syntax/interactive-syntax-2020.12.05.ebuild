@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="videolang/interactive-syntax"
 GH_COMMIT="8c13d83ac0f5dbd624d59083b32f765952d1d440"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="(Early) Prototype for Interactive Syntax"
 HOMEPAGE="https://github.com/videolang/interactive-syntax"

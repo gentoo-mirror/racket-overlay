@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="ralsei/sawzall"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A grammar for data wrangling"
 HOMEPAGE="https://github.com/ralsei/sawzall"

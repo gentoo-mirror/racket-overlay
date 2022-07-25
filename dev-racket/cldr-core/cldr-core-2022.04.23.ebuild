@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="97jaz/cldr-core"
 GH_COMMIT="c9b80777c422c3b104bb85052d74a2dc1535a3c3"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="API for cldr-core data set"
 HOMEPAGE="https://github.com/97jaz/cldr-core"

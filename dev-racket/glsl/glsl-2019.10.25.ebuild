@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dedbox/racket-glsl"
 GH_COMMIT="6853bcb4324a10deb2cec70e59fb8b401a45e9f3"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The OpenGL Shader Language 4.5 (GLSL)"
 HOMEPAGE="https://github.com/dedbox/racket-glsl"

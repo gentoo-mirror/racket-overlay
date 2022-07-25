@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="HiPhish/MsgPack.rkt"
 GH_COMMIT="64a60986b149703ff9436877da1dd3e86c6e4094"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Implementation of the MessagePack protocol."
 HOMEPAGE="https://gitlab.com/HiPhish/MsgPack.rkt"

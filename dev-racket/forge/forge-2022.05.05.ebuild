@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="tnelson/Forge"
 GH_COMMIT="1687cba0ebdb598c29c51845d43c98a459d0588f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A model-finding language with Alloy-adjacent syntax."
 HOMEPAGE="https://github.com/tnelson/Forge"

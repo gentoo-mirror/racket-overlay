@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="brown131/racquel"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racquel is an object/relational mapper for Racket."
 HOMEPAGE="https://github.com/brown131/racquel"

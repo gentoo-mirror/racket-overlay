@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="johnstonskj/racket-scaffold"
 GH_COMMIT="e6df9238aef49e36d8cef641601ee7c5f4d5c16b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Simple templated content generator integrated with raco"
 HOMEPAGE="https://github.com/johnstonskj/racket-scaffold"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jozip/casemate"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Case converter in the style of camel-snake-kebab"
 HOMEPAGE="https://github.com/jozip/casemate"

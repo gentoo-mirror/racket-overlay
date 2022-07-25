@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="LeifAndersen/slideshow-pretty"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Slideshow extensions to add pretty transitions between slides."
 HOMEPAGE="https://github.com/LeifAndersen/slideshow-pretty"

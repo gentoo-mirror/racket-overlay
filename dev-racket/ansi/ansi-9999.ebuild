@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tonyg/racket-ansi"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="ANSI and VT10x escape sequences for Racket."
 HOMEPAGE="https://github.com/tonyg/racket-ansi"

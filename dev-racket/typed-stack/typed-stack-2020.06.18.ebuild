@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lehitoskin/typed-stack"
 GH_COMMIT="5bcf55322b3a97ecfb0233ed77f282507eb2f6ad"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A simple stack library written in TR."
 HOMEPAGE="https://github.com/lehitoskin/typed-stack"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="xgqt/racket-ziptie"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The ziptie-git Racket package"
 HOMEPAGE="https://gitlab.com/xgqt/racket-ziptie"

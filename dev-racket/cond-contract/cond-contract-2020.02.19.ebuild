@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="pmatos/cond-contract"
 GH_COMMIT="8f8f1605d91a15fe653c407076a6fc64f69cbebe"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Conditional contracts for Racket"
 HOMEPAGE="https://github.com/pmatos/cond-contract"

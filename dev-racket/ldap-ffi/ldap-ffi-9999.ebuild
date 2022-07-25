@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="DmHertz/ldap-ffi"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="ldap-ffi: a Racket LDAP client built on top of libldap C API"
 HOMEPAGE="https://github.com/DmHertz/ldap-ffi"

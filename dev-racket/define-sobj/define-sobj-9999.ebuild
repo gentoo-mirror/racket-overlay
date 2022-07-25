@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="sorawee/define-sobj"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An anaphoric macro that binds sobj to call syntax object"
 HOMEPAGE="https://github.com/sorawee/define-sobj"

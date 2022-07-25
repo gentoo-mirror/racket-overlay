@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="bennn/gtp-benchmarks"
 GH_COMMIT="3522931324939d4801f001211b4306f9028a9041"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="gradual typing performance benchmarks"
 HOMEPAGE="https://github.com/bennn/gtp-benchmarks"

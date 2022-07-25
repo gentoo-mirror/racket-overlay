@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="leafac/pollen-component"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Component-based development for Pollen"
 HOMEPAGE="https://github.com/leafac/pollen-component"

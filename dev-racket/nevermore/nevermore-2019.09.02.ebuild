@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/nevermore"
 GH_COMMIT="20c6533176bd47c56aa94287fada6909b87ff03a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The nevermore Racket package"
 HOMEPAGE="https://github.com/Bogdanp/nevermore"

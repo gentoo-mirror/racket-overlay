@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="samth/persistent-union-find"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A persistent implementation of the union-find data structure"
 HOMEPAGE="https://github.com/samth/persistent-union-find"

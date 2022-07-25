@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/temp-c"
 GH_COMMIT="43f7f2141c81a301aa229ef4105f458eee070653"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="temporal contracts"
 HOMEPAGE="https://github.com/jeapostrophe/temp-c"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket/remote-shell"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Tools for running on remote and virtual-machine hosts"
 HOMEPAGE="https://github.com/racket/remote-shell"

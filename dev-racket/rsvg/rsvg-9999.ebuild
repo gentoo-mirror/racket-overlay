@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="takikawa/racket-rsvg"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="FFI bindings to libRSVG, a library for loading SVG documents"
 HOMEPAGE="https://github.com/takikawa/racket-rsvg"

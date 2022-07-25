@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="themetaschemer/wn"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An FFI interface to WordNet 3.0 -- A Lexical Database for English"
 HOMEPAGE="https://github.com/themetaschemer/wn"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jbclements/unicode-props"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The unicode-properties Racket package"
 HOMEPAGE="https://github.com/jbclements/unicode-props"

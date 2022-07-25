@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="emsenn/qtops"
 GH_COMMIT="16a37c4122083c320d18a681ad4fd577a6524e24"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Perform operations on things with qualities"
 HOMEPAGE="https://github.com/emsenn/qtops"

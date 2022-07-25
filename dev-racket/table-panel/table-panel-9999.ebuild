@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="spdegabrielle/table-panel"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The table-panel Racket package"
 HOMEPAGE="https://github.com/spdegabrielle/table-panel"

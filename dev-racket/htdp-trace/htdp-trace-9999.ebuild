@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="git.uwaterloo.ca"
 GH_REPO="djholtby/uwaterloo-racket"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The htdp-trace Racket package"
 HOMEPAGE="https://git.uwaterloo.ca/djholtby/uwaterloo-racket"

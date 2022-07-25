@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/racket-lang-org"
 GH_COMMIT="36bc41988c2f47a876d05d23f06b77c7eacfe6fc"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Sources for http://racket-lang.org"
 HOMEPAGE="https://github.com/racket/racket-lang-org"

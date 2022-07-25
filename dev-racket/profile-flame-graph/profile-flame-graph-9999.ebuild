@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="takikawa/racket-profile-flamegraph"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Library that connects the Racket profiler to the flamegraph tool"
 HOMEPAGE="https://github.com/takikawa/racket-profile-flamegraph"

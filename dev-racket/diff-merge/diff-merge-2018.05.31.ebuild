@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="tonyg/racket-diff-merge"
 GH_COMMIT="13a367d6f254ac184f017b37f5e204ac6c95dabe"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Myers-Ukkonen diff and diff3-based merge for sequences"
 HOMEPAGE="https://github.com/tonyg/racket-diff-merge"

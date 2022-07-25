@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="bldl/magnolisp"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The magnolisp Racket package"
 HOMEPAGE="https://github.com/bldl/magnolisp"

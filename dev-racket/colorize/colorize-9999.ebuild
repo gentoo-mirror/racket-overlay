@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="yanyingwang/colorize"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="colorize your console"
 HOMEPAGE="https://github.com/yanyingwang/colorize"

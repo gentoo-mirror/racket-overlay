@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tonyg/racket-operational-transformation"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Demo collaborative editor using Operational Transformation (OT)."
 HOMEPAGE="https://github.com/tonyg/racket-operational-transformation"

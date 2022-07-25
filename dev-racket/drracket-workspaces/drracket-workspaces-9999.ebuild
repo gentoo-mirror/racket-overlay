@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="stardust66/drracket-workspaces"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Save and reopen groups of files in DrRacket as workspaces."
 HOMEPAGE="https://github.com/stardust66/drracket-workspaces"

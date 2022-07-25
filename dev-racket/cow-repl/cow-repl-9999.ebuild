@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="takikawa/racket-cow-repl"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Cowsay in your REPL"
 HOMEPAGE="https://github.com/takikawa/racket-cow-repl"

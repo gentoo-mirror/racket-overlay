@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jackfirth/set-exp"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Literal set syntax"
 HOMEPAGE="https://github.com/jackfirth/set-exp"

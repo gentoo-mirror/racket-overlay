@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="preserves/preserves"
 GH_COMMIT="4b98acf8ba86afbead18b28cc2c8d8ea9c4e175c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The preserves Racket package"
 HOMEPAGE="https://gitlab.com/preserves/preserves"

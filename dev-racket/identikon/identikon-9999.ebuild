@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="DarrenN/identikon"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Tiny framework for generating identicons"
 HOMEPAGE="https://github.com/DarrenN/identikon"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Metaxal/wordle-solver"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A simple solver for Wordle"
 HOMEPAGE="https://github.com/Metaxal/wordle-solver"

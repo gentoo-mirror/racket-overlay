@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="oquijano/sse"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Server Sent Events for Racket"
 HOMEPAGE="https://gitlab.com/oquijano/sse"

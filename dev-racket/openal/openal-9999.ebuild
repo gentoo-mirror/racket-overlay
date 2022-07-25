@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/openal"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="FFI for OpenAL"
 HOMEPAGE="https://github.com/jeapostrophe/openal"

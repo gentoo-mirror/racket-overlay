@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tonyg/racket-explorer"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Utility for interactive exploration of complex data structures."
 HOMEPAGE="https://github.com/tonyg/racket-explorer"

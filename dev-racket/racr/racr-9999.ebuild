@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="eeide/racr"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The racr Racket package"
 HOMEPAGE="https://github.com/eeide/racr"

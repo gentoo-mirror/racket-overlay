@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="oransimhony/drracket-ayu-mirage"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The drracket-ayu-mirage Racket package"
 HOMEPAGE="https://github.com/oransimhony/drracket-ayu-mirage"

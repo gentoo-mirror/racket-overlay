@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="rmculpepper/racket-gmp"
 GH_COMMIT="768c33615a1c2414ccaf1a1e4ea1064bd5dd46af"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Bindings to gmp (the GNU Multiple Precision Arithmetic Library)"
 HOMEPAGE="https://github.com/rmculpepper/racket-gmp"

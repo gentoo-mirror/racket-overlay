@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lijunsong/pollen-rock"
 GH_COMMIT="8107c7c1a1ca1e5ab125650f38002683b15b22c9"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An enhanced Pollen server and an in-browser editor for Pollen files"
 HOMEPAGE="https://github.com/lijunsong/pollen-rock"

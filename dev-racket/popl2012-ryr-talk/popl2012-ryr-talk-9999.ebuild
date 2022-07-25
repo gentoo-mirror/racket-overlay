@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="rfindler/popl-2012-ryr-talk"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The popl-2012-ryr-talk Racket package"
 HOMEPAGE="https://github.com/rfindler/popl-2012-ryr-talk"

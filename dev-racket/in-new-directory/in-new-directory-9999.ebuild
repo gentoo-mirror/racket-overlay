@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="samth/in-new-directory"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Run things in new directories"
 HOMEPAGE="https://github.com/samth/in-new-directory"

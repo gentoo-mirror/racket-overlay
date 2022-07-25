@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="zyrolasting/unlike-assets"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="(OLD EDITION) Tests for unlike-assets"
 HOMEPAGE="https://github.com/zyrolasting/unlike-assets"

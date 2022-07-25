@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="rmculpepper/custom-load"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A load handler that avoids stale zo files."
 HOMEPAGE="https://github.com/rmculpepper/custom-load"

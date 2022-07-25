@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="florence/datacell"
 GH_COMMIT="fe91d9251542df5f9edb41fb457fb6c7f548d425"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A simple embedded dataflow language"
 HOMEPAGE="https://github.com/florence/datacell"

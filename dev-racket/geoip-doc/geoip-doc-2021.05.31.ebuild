@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-geoip"
 GH_COMMIT="bcc9bbb2905d0ef93f8c9cc35ed0bb4a6f31285b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Geolocation based on MaxMind's GeoIP databases. (docs only)"
 HOMEPAGE="https://github.com/Bogdanp/racket-geoip"

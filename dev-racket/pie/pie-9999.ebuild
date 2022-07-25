@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="the-little-typer/pie"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The Pie language, used in The Little Typer"
 HOMEPAGE="https://github.com/the-little-typer/pie"

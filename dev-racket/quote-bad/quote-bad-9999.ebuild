@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/quote-bad"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A version of quote that helps to rid programs of bad uses of quote"
 HOMEPAGE="https://github.com/AlexKnauth/quote-bad"

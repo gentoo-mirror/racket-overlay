@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="turbinenreiter/drracket-material"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="This package adds a Material colorscheme to DrRacket."
 HOMEPAGE="https://github.com/turbinenreiter/drracket-material"

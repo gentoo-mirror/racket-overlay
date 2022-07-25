@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="otherjoel/splitflap"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Atom and RSS feed generation"
 HOMEPAGE="https://github.com/otherjoel/splitflap"

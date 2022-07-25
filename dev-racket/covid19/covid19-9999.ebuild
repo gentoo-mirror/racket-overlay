@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="yanyingwang/covid-19"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket wrapper of QQ/Sina's COVID-19 API"
 HOMEPAGE="https://github.com/yanyingwang/covid-19"

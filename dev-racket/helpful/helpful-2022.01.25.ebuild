@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="sorawee/helpful"
 GH_COMMIT="e10742cbf9bde850759d0302c1e493f14ac07dba"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Helpfully suggest a closest variable name on unbound identifier error"
 HOMEPAGE="https://github.com/sorawee/helpful"

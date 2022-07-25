@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="alex-hhh/geoid"
 GH_COMMIT="51895a359227a956a9ea1b92f64f8d3d217a94f2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="work efficiently with geographic data"
 HOMEPAGE="https://github.com/alex-hhh/geoid"

@@ -7,7 +7,7 @@ GH_DOM="git.matthewbutterick.com"
 GH_REPO="mbutterick/sugar"
 GH_COMMIT="c90834b77afad07f9b02986fc8e157ccf30b753c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="shortcuts for simplicity & readability"
 HOMEPAGE="https://git.matthewbutterick.com/mbutterick/sugar"

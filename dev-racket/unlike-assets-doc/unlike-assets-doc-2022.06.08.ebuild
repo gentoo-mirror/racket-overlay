@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="zyrolasting/unlike-assets"
 GH_COMMIT="7fb08d6902d34399c96a325d68fd27f1ff84813b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="(OLD EDITION) Documentation for unlike-assets"
 HOMEPAGE="https://github.com/zyrolasting/unlike-assets"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="florence/datacell"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A simple embedded dataflow language"
 HOMEPAGE="https://github.com/florence/datacell"

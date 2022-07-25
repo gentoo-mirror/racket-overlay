@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jsmaniac/polysemy"
 GH_COMMIT="5d9838618ae6d6b8c412eaf30bac4bfa9fcf12c9"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The polysemy Racket package"
 HOMEPAGE="https://github.com/jsmaniac/polysemy"

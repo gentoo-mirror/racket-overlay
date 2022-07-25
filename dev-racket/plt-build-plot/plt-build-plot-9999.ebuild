@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket/plt-build-plot"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="tools to record and plot raco setup memory use"
 HOMEPAGE="https://github.com/racket/plt-build-plot"

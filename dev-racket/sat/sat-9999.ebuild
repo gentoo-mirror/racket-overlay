@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Kraks/SAT.rkt"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A simple SAT solver based on DPLL."
 HOMEPAGE="https://github.com/Kraks/SAT.rkt"

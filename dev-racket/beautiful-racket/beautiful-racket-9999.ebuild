@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="git.matthewbutterick.com"
 GH_REPO="mbutterick/beautiful-racket"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The beautiful-racket Racket package"
 HOMEPAGE="https://git.matthewbutterick.com/mbutterick/beautiful-racket"

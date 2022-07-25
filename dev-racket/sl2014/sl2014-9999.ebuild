@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mfelleisen/sl2014"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The sl2014 Racket package"
 HOMEPAGE="https://github.com/mfelleisen/sl2014"

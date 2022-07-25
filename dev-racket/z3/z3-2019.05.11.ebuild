@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="philnguyen/z3-rkt"
 GH_COMMIT="78deda2c7a377b93caefd40fd16e5df9c6d53c40"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Z3 bindings for Racket"
 HOMEPAGE="https://github.com/philnguyen/z3-rkt"

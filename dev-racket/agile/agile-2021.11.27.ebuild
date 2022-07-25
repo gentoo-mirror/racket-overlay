@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="bennn/agile"
 GH_COMMIT="18c2c50e96ead195190c26dab8b79f7fecbc72ea"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="#lang agile ;; == (require (for-syntax racket/base syntax/parse))"
 HOMEPAGE="https://github.com/bennn/agile"

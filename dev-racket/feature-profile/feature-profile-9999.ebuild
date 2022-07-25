@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="stamourv/feature-profile"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Profile that measures time spent in language/library features"
 HOMEPAGE="https://github.com/stamourv/feature-profile"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/restore"
 GH_COMMIT="c38049acd1bde962453977d2469cf2ae8b99acb7"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="protocol for restore program state"
 HOMEPAGE="https://github.com/jeapostrophe/restore"

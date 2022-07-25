@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="massung/tabular-asa"
 GH_COMMIT="90365df6b81f827a1d5663627e136dc835ff61fc"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A fast, efficient, immutable, dataframes implementation."
 HOMEPAGE="https://github.com/massung/tabular-asa"

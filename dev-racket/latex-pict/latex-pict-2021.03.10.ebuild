@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="soegaard/latex-pict"
 GH_COMMIT="847bd5f42903fa1b357125cee67b9a2addf240c6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The latex-pict Racket package"
 HOMEPAGE="https://github.com/soegaard/latex-pict"

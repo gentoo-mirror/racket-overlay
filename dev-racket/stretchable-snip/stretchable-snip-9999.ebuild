@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Kalimehtar/stretchable-snip"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket library for stretchable (scalable) editor snips"
 HOMEPAGE="https://github.com/Kalimehtar/stretchable-snip"

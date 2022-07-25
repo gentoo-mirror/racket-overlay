@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="bennn/rackunit-abbrevs"
 GH_COMMIT="83091b86a37cb8498d1b1d1645cf45529ebe458c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Iterated RackUnit tests"
 HOMEPAGE="https://github.com/bennn/rackunit-abbrevs"

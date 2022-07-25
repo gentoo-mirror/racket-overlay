@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="BourgondAries/nested-hash"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Functions to allow for easy nested hash setting and getting."
 HOMEPAGE="https://github.com/BourgondAries/nested-hash"

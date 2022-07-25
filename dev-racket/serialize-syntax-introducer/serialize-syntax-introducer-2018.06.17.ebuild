@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="macrotypefunctors/serialize-syntax-introducer"
 GH_COMMIT="5944d9f32df50b608c3493a7fd6a510afabf8fd3"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The serialize-syntax-introducer Racket package"
 HOMEPAGE="https://github.com/macrotypefunctors/serialize-syntax-introducer"

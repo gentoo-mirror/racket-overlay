@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-wasm"
 GH_COMMIT="c284f350a8618156c143342b2c9f5769f7349a8b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="WIP Wasm tooling for Racket."
 HOMEPAGE="https://github.com/Bogdanp/racket-wasm"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mflatt/uu-cs5510"
 GH_COMMIT="d6736f807b31f637e141ae97d28d65e8e10465aa"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Utah CS 5510 homework submission plugin for DrRacket"
 HOMEPAGE="https://github.com/mflatt/uu-cs5510"

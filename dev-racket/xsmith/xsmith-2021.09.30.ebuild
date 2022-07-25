@@ -7,7 +7,7 @@ GH_DOM="gitlab.flux.utah.edu"
 GH_REPO="xsmith/xsmith"
 GH_COMMIT="b5401707e5e225ac8f57e15843ffb8459a382235"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Generator of highly effective fuzz testers."
 HOMEPAGE="https://gitlab.flux.utah.edu/xsmith/xsmith"

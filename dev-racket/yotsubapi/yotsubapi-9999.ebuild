@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="g-gundam/yotsubAPI"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Racket Client for the 4chan API"
 HOMEPAGE="https://github.com/g-gundam/yotsubAPI"

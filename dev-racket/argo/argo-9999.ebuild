@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jessealama/argo"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Validate JSON data using JSON Schema."
 HOMEPAGE="https://github.com/jessealama/argo"

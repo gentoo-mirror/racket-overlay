@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="plane/happy-app"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Toolbox of Syntactic Shortcuts"
 HOMEPAGE="https://github.com/plane/happy-app"

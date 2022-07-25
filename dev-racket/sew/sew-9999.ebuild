@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lathe/sew-for-racket"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A meta-language for assembling a file with custom preprocessing logic."
 HOMEPAGE="https://github.com/lathe/sew-for-racket"

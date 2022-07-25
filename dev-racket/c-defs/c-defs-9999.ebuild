@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="belph/c-defs"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Simple C value access"
 HOMEPAGE="https://github.com/belph/c-defs"

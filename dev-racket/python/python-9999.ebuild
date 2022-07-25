@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="pedropramos/PyonR"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An implementation of the Python programming language for Racket"
 HOMEPAGE="https://github.com/pedropramos/PyonR"

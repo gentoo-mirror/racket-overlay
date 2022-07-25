@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Metaxal/safe-case"
 GH_COMMIT="77446bcb8b488fa35845c70e56498308b37f4605"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Like case but with stronger checks to avoid uncaught typos"
 HOMEPAGE="https://github.com/Metaxal/safe-case"

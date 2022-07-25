@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="bennn/trivial"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="type-tailored standard library functions"
 HOMEPAGE="https://github.com/bennn/trivial"

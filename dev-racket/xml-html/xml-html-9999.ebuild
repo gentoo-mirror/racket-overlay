@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="zaoqi/xml-html"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The xml-html Racket package"
 HOMEPAGE="https://github.com/zaoqi/xml-html"

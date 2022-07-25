@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/bloggy"
 GH_COMMIT="d189325911f28fdfd9b8d7ae64225838d6400596"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A very simple Racket blog system"
 HOMEPAGE="https://github.com/jeapostrophe/bloggy"

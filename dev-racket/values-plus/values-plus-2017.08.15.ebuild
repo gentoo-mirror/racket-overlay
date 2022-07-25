@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mflatt/values-plus"
 GH_COMMIT="75df2e111928317ff61e9b82c2aaac664ddd0d6b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The values-plus Racket package"
 HOMEPAGE="https://github.com/mflatt/values-plus"

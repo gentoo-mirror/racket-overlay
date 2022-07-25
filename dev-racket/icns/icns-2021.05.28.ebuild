@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="LiberalArtist/icns"
 GH_COMMIT="979cbc32e1d1e245f970e53c2098fbad0f538629"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Racket library for working with Apple's .icns icon file format."
 HOMEPAGE="https://github.com/LiberalArtist/icns"

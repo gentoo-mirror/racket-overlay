@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="v-nys/list-utils"
 GH_COMMIT="d364b7d3e508abc4da31d6e600ee201f76d05217"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Some additional list-processing functions which I have found useful."
 HOMEPAGE="https://github.com/v-nys/list-utils"

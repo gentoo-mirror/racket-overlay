@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Aeva/vec"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A simple vector math library loosely inspired by GLSL and HLSL."
 HOMEPAGE="https://github.com/Aeva/vec"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="greghendershott/flexpr"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Expressions rendered as both XML and JSON"
 HOMEPAGE="https://github.com/greghendershott/flexpr"

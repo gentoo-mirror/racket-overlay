@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samth/set.rkt"
 GH_COMMIT="655e2567cefe9684b0425a0ec601a97d1faf7d0e"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Use racket/set instead"
 HOMEPAGE="https://github.com/samth/set.rkt"

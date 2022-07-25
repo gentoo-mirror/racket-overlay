@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="pyohannes/racket-symalg"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Expressing and manipulating symbolic algebraic expressions in Racket."
 HOMEPAGE="https://github.com/pyohannes/racket-symalg"

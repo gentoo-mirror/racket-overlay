@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="bbusching/libgit2"
 GH_COMMIT="6d6a007543900eb7a6fbbeba55850288665bdde5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket bindings for the Libgit2 library."
 HOMEPAGE="https://github.com/bbusching/libgit2"

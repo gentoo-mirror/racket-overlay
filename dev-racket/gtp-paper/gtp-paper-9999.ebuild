@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="bennn/gtp-paper"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Quick-start for SIGPLAN Scribble papers"
 HOMEPAGE="https://github.com/bennn/gtp-paper"

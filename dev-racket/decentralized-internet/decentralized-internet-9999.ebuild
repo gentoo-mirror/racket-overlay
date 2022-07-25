@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Lonero-Team/Racket-Package"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A package for building distributed computing projects"
 HOMEPAGE="https://github.com/Lonero-Team/Racket-Package"

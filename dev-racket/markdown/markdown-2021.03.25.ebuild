@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="greghendershott/markdown"
 GH_COMMIT="fc03a2728b12006b21c90b6c480cfe6ae91a4cbe"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Markdown format parser."
 HOMEPAGE="https://github.com/greghendershott/markdown"

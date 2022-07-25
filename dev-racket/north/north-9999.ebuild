@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-north"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A database migration tool."
 HOMEPAGE="https://github.com/Bogdanp/racket-north"

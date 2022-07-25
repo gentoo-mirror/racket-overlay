@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="howell/monitors"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Java style monitors for Racket objects"
 HOMEPAGE="https://github.com/howell/monitors"

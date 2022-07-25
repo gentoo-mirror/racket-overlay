@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="default-kramer/morsel"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="core of Plisqin"
 HOMEPAGE="https://github.com/default-kramer/morsel"

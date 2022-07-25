@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="dustyweb/magenc"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Symmetric encryption for magnet URIs (code and docs)"
 HOMEPAGE="https://gitlab.com/dustyweb/magenc"

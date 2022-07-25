@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="rpless/cover-coveralls"
 GH_COMMIT="a5bb101d934e72f49b3f583707c58b921d61c07c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The cover-coveralls Racket package"
 HOMEPAGE="https://github.com/rpless/cover-coveralls"

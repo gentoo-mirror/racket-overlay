@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jsmaniac/backport-template-pr1514"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The backport-template-pr1514 Racket package"
 HOMEPAGE="https://github.com/jsmaniac/backport-template-pr1514"

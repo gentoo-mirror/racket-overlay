@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Metaxal/global"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Define global variables and automatically generate a command line parser."
 HOMEPAGE="https://github.com/Metaxal/global"

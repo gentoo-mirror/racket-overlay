@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/racket-fixture"
 GH_COMMIT="fafde5528ad6491cd9e87c078f9838eabc524a87"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The fixture Racket package"
 HOMEPAGE="https://github.com/jackfirth/racket-fixture"

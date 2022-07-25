@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="stamourv/racket-benchmark"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Benchmarking library"
 HOMEPAGE="https://github.com/stamourv/racket-benchmark"

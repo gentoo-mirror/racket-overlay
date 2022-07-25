@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-geoip"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Geolocation based on MaxMind's GeoIP databases. (implementation only)"
 HOMEPAGE="https://github.com/Bogdanp/racket-geoip"

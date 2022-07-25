@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="pnwamk/ddict"
 GH_COMMIT="a322d6a38c203d946d48d3ae5892e9ad4f11bdf2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Deterministic Dictionaries"
 HOMEPAGE="https://github.com/pnwamk/ddict"

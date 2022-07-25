@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dbenoit17/dynamic-ffi"
 GH_COMMIT="a1ab6473c8911226bd97fffa19b31c0bc641ca12"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The dynamic-ffi Racket package"
 HOMEPAGE="https://github.com/dbenoit17/dynamic-ffi"

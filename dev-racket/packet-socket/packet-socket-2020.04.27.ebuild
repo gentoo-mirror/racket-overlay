@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="tonyg/racket-packet-socket"
 GH_COMMIT="831e638e9aa9b0c3c8ecc2cbb4d1b91f57b93f1b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Access to raw Ethernet frames from Racket"
 HOMEPAGE="https://github.com/tonyg/racket-packet-socket"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jbclements/ragg"
 GH_COMMIT="fe71542609bd707d4fd6d842d74c164ae2b2adff"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The ragg Racket package"
 HOMEPAGE="https://github.com/jbclements/ragg"

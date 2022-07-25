@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jackfirth/euclid"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Data structures and algorithms related to Euclidean geometry"
 HOMEPAGE="https://github.com/jackfirth/euclid"

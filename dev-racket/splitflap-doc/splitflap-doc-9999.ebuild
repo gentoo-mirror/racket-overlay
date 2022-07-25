@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="otherjoel/splitflap"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Documentation for splitflap"
 HOMEPAGE="https://github.com/otherjoel/splitflap"

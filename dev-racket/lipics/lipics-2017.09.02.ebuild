@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="takikawa/lipics-scribble"
 GH_COMMIT="32a8cb9782493e237c25994f70aa7c572d7ea567"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Scribble languages for the LIPIcs paper format"
 HOMEPAGE="https://github.com/takikawa/lipics-scribble"

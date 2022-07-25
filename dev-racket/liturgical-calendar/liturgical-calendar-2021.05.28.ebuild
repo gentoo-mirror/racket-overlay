@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="LiberalArtist/liturgical-calendar"
 GH_COMMIT="69af60c76b565b5469d94fffe72917e722afdc6a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Compute the dates of Easter and other feasts"
 HOMEPAGE="https://github.com/LiberalArtist/liturgical-calendar"

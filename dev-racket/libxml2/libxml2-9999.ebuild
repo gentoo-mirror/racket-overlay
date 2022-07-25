@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="LiberalArtist/libxml2-ffi"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket bindings for libxml2"
 HOMEPAGE="https://github.com/LiberalArtist/libxml2-ffi"

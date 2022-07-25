@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dalev/minikanren-typed-racket"
 GH_COMMIT="83262e26f03581c99a072db03dfbafb1ab9401f2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An implementation of miniKanren in typed racket."
 HOMEPAGE="https://github.com/dalev/minikanren-typed-racket"

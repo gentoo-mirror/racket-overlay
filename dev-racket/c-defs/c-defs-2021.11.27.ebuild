@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="belph/c-defs"
 GH_COMMIT="d5b7ba438ccdead8213e96051a205b696e4a8a93"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Simple C value access"
 HOMEPAGE="https://github.com/belph/c-defs"

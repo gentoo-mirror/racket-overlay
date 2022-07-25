@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="stamourv/racket-benchmark"
 GH_COMMIT="de7e84539de23834508dba42e07859cf13bde20c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Benchmarking library"
 HOMEPAGE="https://github.com/stamourv/racket-benchmark"

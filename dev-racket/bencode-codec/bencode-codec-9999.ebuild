@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tonyg/racket-bencode"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Library for reading and writing Bencoded data."
 HOMEPAGE="https://github.com/tonyg/racket-bencode"

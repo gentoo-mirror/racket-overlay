@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="greghendershott/rackjure"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Some Clojure-inspired idioms."
 HOMEPAGE="https://github.com/greghendershott/rackjure"

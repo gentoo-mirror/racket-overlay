@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket/string-constants"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The string-constants-lib-lgpl Racket package"
 HOMEPAGE="https://github.com/racket/string-constants"

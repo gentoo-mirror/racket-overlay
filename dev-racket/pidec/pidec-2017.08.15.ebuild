@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="logc/pidec"
 GH_COMMIT="4ec0b094709d83d54cb1de69209ecfd6a642573d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The pidec Racket package"
 HOMEPAGE="https://github.com/logc/pidec"

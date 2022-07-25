@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dbenoit17/dynamic-ffi"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The dynamic-ffi Racket package"
 HOMEPAGE="https://github.com/dbenoit17/dynamic-ffi"

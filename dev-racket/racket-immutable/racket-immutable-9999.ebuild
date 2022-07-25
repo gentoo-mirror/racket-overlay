@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/racket-immutable"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The racket-immutable Racket package"
 HOMEPAGE="https://github.com/AlexKnauth/racket-immutable"

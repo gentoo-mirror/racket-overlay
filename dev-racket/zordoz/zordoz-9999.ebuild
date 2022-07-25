@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="bennn/zordoz"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Explorer for .zo bytecode files"
 HOMEPAGE="https://github.com/bennn/zordoz"

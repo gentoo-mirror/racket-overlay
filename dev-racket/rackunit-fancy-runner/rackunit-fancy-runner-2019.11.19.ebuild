@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="c2d7fa/rackunit-fancy-runner"
 GH_COMMIT="c367fa93ed8a2daad4aa12cc9e947661d169dab6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Command-line RackUnit test runner with fancy output"
 HOMEPAGE="https://github.com/c2d7fa/rackunit-fancy-runner"

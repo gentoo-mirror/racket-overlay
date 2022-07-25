@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="otherjoel/splitflap"
 GH_COMMIT="b5a57329c9b63d2ad33066414df162060c92c876"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Documentation for splitflap"
 HOMEPAGE="https://github.com/otherjoel/splitflap"

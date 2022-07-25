@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="samth/gcstats"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Print summary GC statistics after running a program."
 HOMEPAGE="https://github.com/samth/gcstats"

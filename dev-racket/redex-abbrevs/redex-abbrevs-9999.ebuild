@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="bennn/redex-abbrevs"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Tools for PLT Redex"
 HOMEPAGE="https://github.com/bennn/redex-abbrevs"

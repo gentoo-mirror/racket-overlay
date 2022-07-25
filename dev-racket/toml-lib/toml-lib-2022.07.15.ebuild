@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="winny-/toml-racket"
 GH_COMMIT="6faefadfd8d873c53adb12b1f955dc8f75c79fe4"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="TOML Library (library component)"
 HOMEPAGE="https://github.com/winny-/toml-racket"

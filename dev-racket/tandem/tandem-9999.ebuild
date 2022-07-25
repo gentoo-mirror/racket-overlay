@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mordae/racket-tandem"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Cooperative Communication Framework for Racket"
 HOMEPAGE="https://github.com/mordae/racket-tandem"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="eu90h/mockfighter"
 GH_COMMIT="63906eff874e90644725dbff5365889d959e2294"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Stockfighter-like API for a limit order exchange"
 HOMEPAGE="https://github.com/eu90h/mockfighter"

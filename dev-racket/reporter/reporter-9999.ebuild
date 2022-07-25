@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket-tw/reporter"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A util toolbox for compiler error reporting"
 HOMEPAGE="https://github.com/racket-tw/reporter"

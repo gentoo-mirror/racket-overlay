@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="SimonLSchlee/layout-interactive"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="interact utility for use with 'layout' library"
 HOMEPAGE="https://github.com/SimonLSchlee/layout-interactive"

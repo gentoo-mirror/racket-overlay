@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jackfirth/twixt"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library for modeling the board game TwixT"
 HOMEPAGE="https://github.com/jackfirth/twixt"

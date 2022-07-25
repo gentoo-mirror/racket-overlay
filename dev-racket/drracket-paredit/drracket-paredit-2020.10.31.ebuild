@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="yjqww6/drracket-paredit"
 GH_COMMIT="b2272896fcdba7e1f2fae7f0f3ecf0043252a10f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="paredit keybindings for DrRacket"
 HOMEPAGE="https://github.com/yjqww6/drracket-paredit"

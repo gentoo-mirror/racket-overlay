@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="stchang/snappy"
 GH_COMMIT="c97436037ff6600dc7df447a5aba3d59c3e7e011"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="FFI bindings to snappy, a fast compression library"
 HOMEPAGE="https://github.com/stchang/snappy"

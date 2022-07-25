@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="kalxd/zubat"
 GH_COMMIT="97e3365d8b4343d7ec23df3fa9640fd865d66841"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The zubat Racket package"
 HOMEPAGE="https://github.com/kalxd/zubat"

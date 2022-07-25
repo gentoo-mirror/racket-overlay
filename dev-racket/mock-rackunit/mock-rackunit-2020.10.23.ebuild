@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/racket-mock"
 GH_COMMIT="5e8e2a1dd125e5e437510c87dabf903d0ec25749"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="RackUnit checks for testing with mocks from the mock package"
 HOMEPAGE="https://github.com/jackfirth/racket-mock"

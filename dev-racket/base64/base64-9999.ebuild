@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="rmculpepper/racket-base64"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The base64 Racket package"
 HOMEPAGE="https://github.com/rmculpepper/racket-base64"

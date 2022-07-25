@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="GThad/g-code-tools"
 GH_COMMIT="8a786ec0608afdc0729c344e7cd58d368fc86ff9"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A collection of tools for manipulating G-code."
 HOMEPAGE="https://github.com/GThad/g-code-tools"

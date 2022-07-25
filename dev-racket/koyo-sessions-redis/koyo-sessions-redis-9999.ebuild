@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Bogdanp/koyo-sessions-redis"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Redis-based session store for Koyo."
 HOMEPAGE="https://github.com/Bogdanp/koyo-sessions-redis"

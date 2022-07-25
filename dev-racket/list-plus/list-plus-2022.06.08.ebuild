@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="sorawee/list-plus"
 GH_COMMIT="13767a571439560ad264d3e995228fb35d85895f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A form that collects values into a list while supporting internal-definitions"
 HOMEPAGE="https://github.com/sorawee/list-plus"

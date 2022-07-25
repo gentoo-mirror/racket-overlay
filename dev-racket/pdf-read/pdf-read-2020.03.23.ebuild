@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="gcr/pdf-read"
 GH_COMMIT="bc442055764128efb06badeac8b4bfd026475106"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The pdf-read Racket package"
 HOMEPAGE="https://github.com/gcr/pdf-read"

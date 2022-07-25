@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="petterpripp/lex-yacc-example"
 GH_COMMIT="f88e1fef14ebf82a2225a517cd05bf74d21de557"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Examples for lexer and yacc"
 HOMEPAGE="https://github.com/petterpripp/lex-yacc-example"

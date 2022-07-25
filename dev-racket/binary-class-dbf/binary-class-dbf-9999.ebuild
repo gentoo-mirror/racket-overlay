@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Kalimehtar/binary-class-dbf"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Interface to *.dbf files (dBase, Foxpro, ...)"
 HOMEPAGE="https://github.com/Kalimehtar/binary-class-dbf"

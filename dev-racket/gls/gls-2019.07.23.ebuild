@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Kalimehtar/gls"
 GH_COMMIT="82f2f504a3ccf534126020baedb406f813863143"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The gls Racket package"
 HOMEPAGE="https://github.com/Kalimehtar/gls"

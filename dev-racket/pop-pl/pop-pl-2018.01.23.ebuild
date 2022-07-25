@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="florence/pop-pl"
 GH_COMMIT="758f7bff0b5e2810f85cda0b6305c4699ed4fce5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Patient-Oriented Prescription Programming Language"
 HOMEPAGE="https://github.com/florence/pop-pl"

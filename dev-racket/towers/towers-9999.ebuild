@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Metaxal/towers"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The GUI client interface for the Towers game."
 HOMEPAGE="https://github.com/Metaxal/towers"

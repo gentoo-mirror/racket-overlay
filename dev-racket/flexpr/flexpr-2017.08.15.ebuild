@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="greghendershott/flexpr"
 GH_COMMIT="a547ca94094a2090f12b0028b634da0b08d42df8"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Expressions rendered as both XML and JSON"
 HOMEPAGE="https://github.com/greghendershott/flexpr"

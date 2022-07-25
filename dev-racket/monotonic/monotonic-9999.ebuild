@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-monotonic"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Monotonic time for Racket."
 HOMEPAGE="https://github.com/Bogdanp/racket-monotonic"

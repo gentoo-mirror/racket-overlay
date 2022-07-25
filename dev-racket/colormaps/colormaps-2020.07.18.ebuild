@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="alex-hhh/colormaps"
 GH_COMMIT="f0dc88be58bae0d0331bfa778987460d7d71a08a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Additional colormaps for the Racket plot package"
 HOMEPAGE="https://github.com/alex-hhh/colormaps"

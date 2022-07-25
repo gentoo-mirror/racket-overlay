@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket/drdr2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Prototype replacement for DrDr"
 HOMEPAGE="https://github.com/racket/drdr2"

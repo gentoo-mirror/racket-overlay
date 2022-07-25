@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/mobilpay"
 GH_COMMIT="0c75ab1a28c834035fb1d661e3e0390338b9f34a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The mobilpay Racket package"
 HOMEPAGE="https://github.com/Bogdanp/mobilpay"

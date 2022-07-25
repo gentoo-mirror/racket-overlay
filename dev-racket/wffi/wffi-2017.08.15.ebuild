@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="greghendershott/wffi"
 GH_COMMIT="03bd59bea2aa6e0a855de28fb5bb18769ed04b3b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The wffi Racket package"
 HOMEPAGE="https://github.com/greghendershott/wffi"

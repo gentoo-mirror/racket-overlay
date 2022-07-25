@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="sxn/racket-sendinblue"
 GH_COMMIT="ac9e2dd37baa3ad802b232305a190e4121ba7101"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A client for the Sendinblue transactional email API. (tests only)"
 HOMEPAGE="https://github.com/sxn/racket-sendinblue"

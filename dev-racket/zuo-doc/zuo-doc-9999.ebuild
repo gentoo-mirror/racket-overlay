@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket/racket"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Documentation for the Zuo language"
 HOMEPAGE="https://github.com/racket/racket"

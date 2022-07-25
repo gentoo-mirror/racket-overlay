@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dstorrs/struct-plus-plus"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The struct-plus-plus Racket package"
 HOMEPAGE="https://github.com/dstorrs/struct-plus-plus"

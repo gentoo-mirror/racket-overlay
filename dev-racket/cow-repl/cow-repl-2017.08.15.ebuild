@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="takikawa/racket-cow-repl"
 GH_COMMIT="19b38c35a868d3e3fe02d4f5fcc59e8212c37228"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Cowsay in your REPL"
 HOMEPAGE="https://github.com/takikawa/racket-cow-repl"

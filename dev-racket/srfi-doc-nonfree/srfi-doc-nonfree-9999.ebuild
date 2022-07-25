@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket/srfi"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The srfi-doc-nonfree Racket package"
 HOMEPAGE="https://github.com/racket/srfi"

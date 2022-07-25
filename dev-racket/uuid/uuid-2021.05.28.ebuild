@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="LiberalArtist/uuid"
 GH_COMMIT="0636572f74128c5819dd3e6a1dcccfdf20a1e471"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Generate cryptographically-random UUIDs in pure Racket"
 HOMEPAGE="https://github.com/LiberalArtist/uuid"

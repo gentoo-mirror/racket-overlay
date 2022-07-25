@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/try-catch-finally"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Tests and Docs for try-catch-finally-lib"
 HOMEPAGE="https://github.com/AlexKnauth/try-catch-finally"

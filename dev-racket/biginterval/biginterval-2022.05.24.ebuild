@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="oflatt/biginterval"
 GH_COMMIT="5a0311dc12a7d63b9598d7ddc7aad048ce3df165"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The biginterval Racket package"
 HOMEPAGE="https://github.com/oflatt/biginterval"

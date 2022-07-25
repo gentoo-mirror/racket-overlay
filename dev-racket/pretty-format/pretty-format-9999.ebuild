@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/pretty-format"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Pretty versions of printf, format, etc. that print according to format strings"
 HOMEPAGE="https://github.com/AlexKnauth/pretty-format"

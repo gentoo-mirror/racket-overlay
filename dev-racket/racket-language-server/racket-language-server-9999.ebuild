@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="theia-ide/racket-language-server"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Implementation of the Language Server Protocol for Racket."
 HOMEPAGE="https://github.com/theia-ide/racket-language-server"

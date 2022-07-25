@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="pmatos/html-examples"
 GH_COMMIT="bc364205280c08eb3d8239596a516c468a26237f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Generate an HTML part out of Scribble Examples"
 HOMEPAGE="https://github.com/pmatos/html-examples"

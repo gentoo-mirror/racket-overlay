@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="v-nys/repeated-application"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The repeated-application Racket package"
 HOMEPAGE="https://github.com/v-nys/repeated-application"

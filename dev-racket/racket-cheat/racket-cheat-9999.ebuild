@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/racket-cheat"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a user-friendly index into the Racket documentation"
 HOMEPAGE="https://github.com/jeapostrophe/racket-cheat"

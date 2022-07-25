@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="bitbucket.org"
 GH_REPO="digitalricoeur/ricoeur-kernel"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A standard library for Digital Ricoeur"
 HOMEPAGE="https://bitbucket.org/digitalricoeur/ricoeur-kernel"

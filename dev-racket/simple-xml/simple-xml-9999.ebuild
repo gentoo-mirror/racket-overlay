@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="simmone/racket-simple-xml"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Simplify xml's read and write."
 HOMEPAGE="https://github.com/simmone/racket-simple-xml"

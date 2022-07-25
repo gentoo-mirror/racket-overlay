@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="RayRacine/csrmesh"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Implementation of the Bluetooth CSR Mesh protocol."
 HOMEPAGE="https://gitlab.com/RayRacine/csrmesh"

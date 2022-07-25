@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Bogdanp/try-racket-client"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An API client for try-racket.defn.io."
 HOMEPAGE="https://github.com/Bogdanp/try-racket-client"

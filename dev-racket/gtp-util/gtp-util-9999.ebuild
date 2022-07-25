@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="bennn/gtp-util"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="37 helper functions you won't find anywhere else"
 HOMEPAGE="https://github.com/bennn/gtp-util"

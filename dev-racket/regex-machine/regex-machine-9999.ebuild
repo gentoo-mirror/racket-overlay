@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jackfirth/regex-machine"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An implementation of Russ Cox's regular expression machine language"
 HOMEPAGE="https://github.com/jackfirth/regex-machine"

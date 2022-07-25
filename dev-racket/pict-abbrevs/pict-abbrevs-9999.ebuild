@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="bengreenman/pict-abbrevs"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Pict helper functions"
 HOMEPAGE="https://gitlab.com/bengreenman/pict-abbrevs"

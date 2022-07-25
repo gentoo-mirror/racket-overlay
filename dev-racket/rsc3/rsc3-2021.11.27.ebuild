@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="quakehead/rsc3"
 GH_COMMIT="a25985dab29ad951893cd7afa6d86a9371315871"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The rsc3 SuperCollider client ported to Racket"
 HOMEPAGE="https://github.com/quakehead/rsc3"

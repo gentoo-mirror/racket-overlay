@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="LeifAndersen/racket-compiler-goodies"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The compiler-goodies Racket package"
 HOMEPAGE="https://github.com/LeifAndersen/racket-compiler-goodies"

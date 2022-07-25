@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lassik/racket-database-url"
 GH_COMMIT="1bc45817ab41171da41d39c0027367eda698c463"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Parse DATABASE_URL for use with the Racket db module"
 HOMEPAGE="https://github.com/lassik/racket-database-url"

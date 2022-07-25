@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lexi-lambda/racket-semver"
 GH_COMMIT="fee107ee2401b5f7d7d797258eab3062ddb71232"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An implementation of the semver (semantic versioning) specification"
 HOMEPAGE="https://github.com/lexi-lambda/racket-semver"

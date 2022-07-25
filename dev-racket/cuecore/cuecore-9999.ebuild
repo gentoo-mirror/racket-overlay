@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mordae/racket-cuecore"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="CueCore Lighting Control"
 HOMEPAGE="https://github.com/mordae/racket-cuecore"

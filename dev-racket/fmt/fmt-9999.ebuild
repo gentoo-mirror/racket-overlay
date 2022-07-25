@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="sorawee/fmt"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An extensible code formatter for Racket"
 HOMEPAGE="https://github.com/sorawee/fmt"

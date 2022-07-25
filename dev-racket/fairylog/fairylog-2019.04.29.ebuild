@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="pezipink/fairylog"
 GH_COMMIT="f0c1d0d82e2ed9ff02486ddd91a0ede5c5483ef7"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The Fairylog Racket package"
 HOMEPAGE="https://github.com/pezipink/fairylog"

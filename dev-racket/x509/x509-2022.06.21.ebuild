@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="rmculpepper/crypto"
 GH_COMMIT="129997ab537db2eea142b5eb25cf2fc74a19d4ec"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Support for X.509 certificates."
 HOMEPAGE="https://github.com/rmculpepper/crypto"

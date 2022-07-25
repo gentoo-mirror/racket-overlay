@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="get-bonus/get-bonus"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Get Bonus is a project about discovering the best way to program video games."
 HOMEPAGE="https://github.com/get-bonus/get-bonus"

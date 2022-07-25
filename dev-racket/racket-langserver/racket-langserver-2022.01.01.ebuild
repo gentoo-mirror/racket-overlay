@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/racket-langserver"
 GH_COMMIT="a1141f0871a55c036949d0bb0179fddbf86a97cd"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Language Server Protocol implementation for Racket"
 HOMEPAGE="https://github.com/jeapostrophe/racket-langserver"

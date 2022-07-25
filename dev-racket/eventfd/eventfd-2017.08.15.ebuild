@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mordae/racket-eventfd"
 GH_COMMIT="f4e8e36525ca23009c71bc9838181cdba5503c98"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Linux eventfd support"
 HOMEPAGE="https://github.com/mordae/racket-eventfd"

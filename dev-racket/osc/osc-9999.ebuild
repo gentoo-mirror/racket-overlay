@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jbclements/osc"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Open Sound Control data definitions"
 HOMEPAGE="https://github.com/jbclements/osc"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="soegaard/infix"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Infix Expressions"
 HOMEPAGE="https://github.com/soegaard/infix"

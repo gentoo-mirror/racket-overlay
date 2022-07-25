@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mordae/racket-libuuid"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="FFI bindings for the libuuid library."
 HOMEPAGE="https://github.com/mordae/racket-libuuid"

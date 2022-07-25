@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="camoy/struct-set"
 GH_COMMIT="57a2fb790d15dc254f407dc6f78a40c4f81ed874"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Helpers for immutably updating structs."
 HOMEPAGE="https://github.com/camoy/struct-set"

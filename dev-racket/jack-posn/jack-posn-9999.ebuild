@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jackfirth/racket-posn"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Library for working with points in 2d space"
 HOMEPAGE="https://github.com/jackfirth/racket-posn"

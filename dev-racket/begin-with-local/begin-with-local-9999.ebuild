@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="plane/begin-with-local"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Syntactic sugar around splicing-let"
 HOMEPAGE="https://github.com/plane/begin-with-local"

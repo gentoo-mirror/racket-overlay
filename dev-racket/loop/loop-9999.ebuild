@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="sorawee/loop"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Advanced named let"
 HOMEPAGE="https://github.com/sorawee/loop"

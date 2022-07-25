@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="videolang/interactive-syntax"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="(Early) Prototype for Interactive Syntax"
 HOMEPAGE="https://github.com/videolang/interactive-syntax"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="leafac/css-expr"
 GH_COMMIT="d060b2a76d08013c91318890dc5d9f6cc6c81138"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="S-expression-based CSS"
 HOMEPAGE="https://github.com/leafac/css-expr"

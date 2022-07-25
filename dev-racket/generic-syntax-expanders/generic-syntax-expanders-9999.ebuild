@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jackfirth/generic-syntax-expanders"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The generic-syntax-expanders Racket package"
 HOMEPAGE="https://github.com/jackfirth/generic-syntax-expanders"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lexi-lambda/struct-update"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The struct-update-test Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/struct-update"

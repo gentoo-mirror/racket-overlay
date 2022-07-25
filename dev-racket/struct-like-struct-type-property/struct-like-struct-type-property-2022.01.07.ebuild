@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/struct-like-struct-type-property"
 GH_COMMIT="2e433691136c881c87dd27b7e2c3266cca74ff24"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Creating struct-type properties with a struct-like interface"
 HOMEPAGE="https://github.com/AlexKnauth/struct-like-struct-type-property"

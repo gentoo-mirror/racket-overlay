@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lwhjp/racket-binutils"
 GH_COMMIT="a72ef077e2d00ec776f12c0e497c6517f66dfe16"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Utilities for manipulating machine code object files"
 HOMEPAGE="https://github.com/lwhjp/racket-binutils"

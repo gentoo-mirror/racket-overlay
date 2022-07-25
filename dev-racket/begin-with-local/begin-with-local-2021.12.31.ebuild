@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="plane/begin-with-local"
 GH_COMMIT="a90607de9f34cd9400df00b437e3b97b1412cc6c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Syntactic sugar around splicing-let"
 HOMEPAGE="https://github.com/plane/begin-with-local"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="src_prepare/racket/collector2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Parse Racket packages catalog and generate ebuild scripts. Documentation."
 HOMEPAGE="https://gitlab.com/src_prepare/racket/collector2"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="robertkleffner/wort"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A tiny concatenative language with polymorphic type inference"
 HOMEPAGE="https://github.com/robertkleffner/wort"

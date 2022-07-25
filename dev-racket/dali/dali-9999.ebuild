@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="johnstonskj/dali"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Simple text templating (mustache/handlebars style) for Racket."
 HOMEPAGE="https://github.com/johnstonskj/dali"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mflatt/sirmail"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An IMAP mail client"
 HOMEPAGE="https://github.com/mflatt/sirmail"

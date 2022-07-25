@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="pleiad/play"
 GH_COMMIT="34a145ffb815110bec33a48004e8897e48d11f51"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The play Racket package"
 HOMEPAGE="https://github.com/pleiad/play"

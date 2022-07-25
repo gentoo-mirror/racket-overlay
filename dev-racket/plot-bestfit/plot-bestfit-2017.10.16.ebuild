@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="florence/plot-bestfit"
 GH_COMMIT="dd6ffbef2626d7cc7e6802389ce53d57d36bb21d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The plot-bestfit Racket package"
 HOMEPAGE="https://github.com/florence/plot-bestfit"

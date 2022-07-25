@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Kalimehtar/binary-class-exif"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Class for reading and writing Exif in JPEG or TIFF"
 HOMEPAGE="https://github.com/Kalimehtar/binary-class-exif"

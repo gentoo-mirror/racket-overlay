@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="rogerkeays/racket-dollar"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An example #lang extension which uses $ instead of , for unquote."
 HOMEPAGE="https://github.com/rogerkeays/racket-dollar"

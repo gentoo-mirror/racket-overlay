@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="LiberalArtist/roman-numeral"
 GH_COMMIT="d13c66b19438060fc42773ed2db526d1a71e8129"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Utilities for parsing and writing Roman numerals"
 HOMEPAGE="https://github.com/LiberalArtist/roman-numeral"

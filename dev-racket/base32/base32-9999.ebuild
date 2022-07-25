@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="afldcr/racket-base32"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Provides encoding to and from Crockford's Base32 encoding."
 HOMEPAGE="https://github.com/afldcr/racket-base32"

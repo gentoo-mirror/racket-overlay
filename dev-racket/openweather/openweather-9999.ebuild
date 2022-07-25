@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="RayRacine/openweather"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The openweather Racket package"
 HOMEPAGE="https://gitlab.com/RayRacine/openweather"

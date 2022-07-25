@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="slaymaker1907/pipechain"
 GH_COMMIT="090f6490596c0de0b56a0fbea59e3e91800a0883"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The pipechain Racket package"
 HOMEPAGE="https://github.com/slaymaker1907/pipechain"

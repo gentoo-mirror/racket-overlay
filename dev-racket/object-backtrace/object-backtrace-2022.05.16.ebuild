@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samth/object-backtrace"
 GH_COMMIT="154610bbe33f3fe0abdee6c016cde534048c50fb"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The object-backtrace Racket package"
 HOMEPAGE="https://github.com/samth/object-backtrace"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="RayRacine/word"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Signed and Unsigned Word datatype for Racket using refinement types."
 HOMEPAGE="https://gitlab.com/RayRacine/word"

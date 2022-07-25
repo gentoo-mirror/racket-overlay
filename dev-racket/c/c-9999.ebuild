@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A language level for writing C code in DrRacket."
 HOMEPAGE="https://github.com/jeapostrophe/c"

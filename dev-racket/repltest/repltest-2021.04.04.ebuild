@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jsmaniac/repltest"
 GH_COMMIT="3667dd5433f805738b4990828112450c5546fd77"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="REPL test: copy-paste REPL interactions and run them as tests"
 HOMEPAGE="https://github.com/jsmaniac/repltest"

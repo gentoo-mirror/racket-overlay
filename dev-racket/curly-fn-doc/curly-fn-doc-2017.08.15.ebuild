@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lexi-lambda/racket-curly-fn"
 GH_COMMIT="d64cd71d5b386be85f5979edae6f6b6469a4df86"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The curly-fn-doc Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/racket-curly-fn"

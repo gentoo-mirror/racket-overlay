@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/no-vert-bar-lang"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a lang-extension that reads | as a normal character"
 HOMEPAGE="https://github.com/AlexKnauth/no-vert-bar-lang"

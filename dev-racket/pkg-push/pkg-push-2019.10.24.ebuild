@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/pkg-push"
 GH_COMMIT="3fc18d8edb81b854ed98897bef925c73f68597ed"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The pkg-push Racket package"
 HOMEPAGE="https://github.com/racket/pkg-push"

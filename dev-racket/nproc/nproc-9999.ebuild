@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeroanan/nproc"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A simple wrapper to num_processors in gnulib's nproc module"
 HOMEPAGE="https://github.com/jeroanan/nproc"

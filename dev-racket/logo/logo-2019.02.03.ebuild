@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lwhjp/logo"
 GH_COMMIT="2e9f3f7ffb4b8100aeb52943098f150c1cf7441a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A #lang for Logo"
 HOMEPAGE="https://github.com/lwhjp/logo"

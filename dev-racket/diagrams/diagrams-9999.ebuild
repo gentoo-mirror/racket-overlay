@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dedbox/racket-diagrams"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Draw technical diagrams"
 HOMEPAGE="https://github.com/dedbox/racket-diagrams"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tomob/neo4j-lib"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Neo4j interface"
 HOMEPAGE="https://github.com/tomob/neo4j-lib"

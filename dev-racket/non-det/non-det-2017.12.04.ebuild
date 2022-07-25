@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/non-det"
 GH_COMMIT="e26cdb7cb8152df912e239323fad8bb6b3a8b05f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket non-determinism"
 HOMEPAGE="https://github.com/jeapostrophe/non-det"

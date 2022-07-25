@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="sorawee/drracket-cmdline-args"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Accessible command-line arguments for DrRacket"
 HOMEPAGE="https://github.com/sorawee/drracket-cmdline-args"

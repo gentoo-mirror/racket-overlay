@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Metaxal/MrEd-Designer"
 GH_COMMIT="f88e45905dc0fcb13fa327d9b39a47444384921e"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A WYSIWYG GUI generator for Racket"
 HOMEPAGE="https://github.com/Metaxal/MrEd-Designer"

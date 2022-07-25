@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jkominek/nlopt"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="FFI wrapper for the NLopt nonlinear optimization library."
 HOMEPAGE="https://github.com/jkominek/nlopt"

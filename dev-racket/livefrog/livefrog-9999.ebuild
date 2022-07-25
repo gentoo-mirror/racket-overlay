@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="ebzzry/livefrog"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Convert ljdump/ljmigrate files for Frog"
 HOMEPAGE="https://github.com/ebzzry/livefrog"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="samth/io.rkt"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="I/O utilities from dherman's io.plt Planet package"
 HOMEPAGE="https://github.com/samth/io.rkt"

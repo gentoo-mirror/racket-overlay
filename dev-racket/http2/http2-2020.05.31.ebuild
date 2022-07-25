@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/http2"
 GH_COMMIT="aafdea48a4f1e6f8579531350aee3691f4060129"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A (wildly unimplemented) http2 client and server for Racket"
 HOMEPAGE="https://github.com/jackfirth/http2"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="spencereir/treap"
 GH_COMMIT="e703ae7f1bec7a7131eeb2e9e5e6b488c4b45d7e"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Balanced binary search trees implemented through treaps"
 HOMEPAGE="https://github.com/spencereir/treap"

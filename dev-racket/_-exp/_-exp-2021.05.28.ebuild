@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="LiberalArtist/_-exp"
 GH_COMMIT="7bc80bb0137c92effc29f5d01bbc6a14034712eb"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The _-exp Racket package"
 HOMEPAGE="https://github.com/LiberalArtist/_-exp"

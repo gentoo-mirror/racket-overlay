@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="sanchom/pollen-citations-mcgill"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A McGill-style citations system that works within the Pollen publishing system."
 HOMEPAGE="https://github.com/sanchom/pollen-citations-mcgill"

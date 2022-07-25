@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/set-exp"
 GH_COMMIT="19c898f13278efee5399de7307fc95d0f53ee82d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Literal set syntax"
 HOMEPAGE="https://github.com/jackfirth/set-exp"

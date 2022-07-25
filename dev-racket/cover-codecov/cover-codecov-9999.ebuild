@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="florence/cover-codecov"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The cover-codecov Racket package"
 HOMEPAGE="https://github.com/florence/cover-codecov"

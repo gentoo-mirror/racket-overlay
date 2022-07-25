@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lehitoskin/libopenal-racket"
 GH_COMMIT="30ce8d3f2e225b65d0502a0c4feb75e1dea35cc6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket wrapper for the OpenAL library"
 HOMEPAGE="https://github.com/lehitoskin/libopenal-racket"

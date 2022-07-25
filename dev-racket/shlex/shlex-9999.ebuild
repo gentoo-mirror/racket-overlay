@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="sorawee/shlex"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="shlex for Racket: Simple lexical analysis"
 HOMEPAGE="https://github.com/sorawee/shlex"

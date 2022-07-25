@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="LiberalArtist/adjutor"
 GH_COMMIT="5a9ae8570213cfffde644ecf405df500490de05c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A helper library"
 HOMEPAGE="https://github.com/LiberalArtist/adjutor"

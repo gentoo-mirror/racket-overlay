@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/live-free-or-die"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Freedom from Typed Racket"
 HOMEPAGE="https://github.com/jeapostrophe/live-free-or-die"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mordae/racket-udev"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="udev bindings for Racket"
 HOMEPAGE="https://github.com/mordae/racket-udev"

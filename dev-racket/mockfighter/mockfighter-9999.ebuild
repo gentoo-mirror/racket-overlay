@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="eu90h/mockfighter"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Stockfighter-like API for a limit order exchange"
 HOMEPAGE="https://github.com/eu90h/mockfighter"

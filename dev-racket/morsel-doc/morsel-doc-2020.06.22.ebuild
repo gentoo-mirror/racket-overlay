@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="default-kramer/morsel"
 GH_COMMIT="10cf376f07755f066cbbfc2d242c104f103b33da"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="documentation for morsel-lib"
 HOMEPAGE="https://github.com/default-kramer/morsel"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="derend@bitbucket.org"
 GH_REPO="derend/continued-fractions"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Exact computer arithmetic and base conversion via continued fractions."
 HOMEPAGE="https://derend@bitbucket.org/derend/continued-fractions"

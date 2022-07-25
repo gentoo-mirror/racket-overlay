@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="greghendershott/echonest"
 GH_COMMIT="fd7d6511231bb4304cfd10260825e86ac33c3ddc"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Wrapper for The Echo Nest web API."
 HOMEPAGE="https://github.com/greghendershott/echonest"

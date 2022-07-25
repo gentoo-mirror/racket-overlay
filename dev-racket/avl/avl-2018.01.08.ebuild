@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mordae/racket-avl"
 GH_COMMIT="e981880a7d4c202368cdd74c94cf11cbac42a29e"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="AVL Trees for Racket"
 HOMEPAGE="https://github.com/mordae/racket-avl"

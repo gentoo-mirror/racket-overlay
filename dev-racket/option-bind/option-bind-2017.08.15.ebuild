@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="RenaissanceBug/option-bind"
 GH_COMMIT="8d8346d612e401d7b44a04a121881f66e5a43cf6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Monadic shorthand for propagating #f in Option types"
 HOMEPAGE="https://github.com/RenaissanceBug/option-bind"

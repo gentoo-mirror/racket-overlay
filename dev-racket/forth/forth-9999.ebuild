@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="bennn/forth"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Forth emulator, as a Racket #lang"
 HOMEPAGE="https://github.com/bennn/forth"

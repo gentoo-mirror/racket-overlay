@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="winny-/runomatic"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A bot and API client for runogame.com"
 HOMEPAGE="https://github.com/winny-/runomatic"

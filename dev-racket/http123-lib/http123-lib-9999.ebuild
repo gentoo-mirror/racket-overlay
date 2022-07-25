@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="rmculpepper/racket-http123"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="HTTP client with support for HTTP/1.1 and HTTP/2."
 HOMEPAGE="https://github.com/rmculpepper/racket-http123"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="arclanguage/anarki"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Community-managed variant of the Arc dialect of Lisp"
 HOMEPAGE="https://github.com/arclanguage/anarki"

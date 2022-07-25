@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="takikawa/combinator-parser"
 GH_COMMIT="e64f938862f47f0e8bab8d6f406a8fa6a203e435"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The combinator-parser Racket package"
 HOMEPAGE="https://github.com/takikawa/combinator-parser"

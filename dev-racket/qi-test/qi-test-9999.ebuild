@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="countvajhula/qi"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A general-purpose functional DSL. [tests only]"
 HOMEPAGE="https://github.com/countvajhula/qi"

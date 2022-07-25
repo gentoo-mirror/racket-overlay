@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="spritely/syrup"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The syrup Racket package"
 HOMEPAGE="https://gitlab.com/spritely/syrup"

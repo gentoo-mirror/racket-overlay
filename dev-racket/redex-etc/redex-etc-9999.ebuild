@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="camoy/redex-etc"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Miscellanea for Redex."
 HOMEPAGE="https://github.com/camoy/redex-etc"

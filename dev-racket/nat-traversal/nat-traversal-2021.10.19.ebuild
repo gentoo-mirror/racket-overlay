@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="tonyg/racket-nat-traversal"
 GH_COMMIT="e234e0265e824a268739da4a139ee8919bcc951e"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="NAT traversal utilities, including NAT-PMP and UPnP."
 HOMEPAGE="https://github.com/tonyg/racket-nat-traversal"

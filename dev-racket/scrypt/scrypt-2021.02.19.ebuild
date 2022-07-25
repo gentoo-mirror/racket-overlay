@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="tonyg/racket-scrypt"
 GH_COMMIT="da39d02302cad3e07c12215e42ea63212d209d1b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket binding to Colin Percival's scrypt function."
 HOMEPAGE="https://github.com/tonyg/racket-scrypt"

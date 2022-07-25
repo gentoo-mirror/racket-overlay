@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-country"
 GH_COMMIT="b3694f8a0dee227342506de305b04c8123be5099"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Facilities for working with country data."
 HOMEPAGE="https://github.com/Bogdanp/racket-country"

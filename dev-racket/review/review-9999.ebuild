@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-review"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A surface-level linter for #lang racket modules."
 HOMEPAGE="https://github.com/Bogdanp/racket-review"

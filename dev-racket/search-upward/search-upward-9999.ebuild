@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="zyrolasting/search-upward"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The search-upward Racket package"
 HOMEPAGE="https://github.com/zyrolasting/search-upward"

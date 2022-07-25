@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dalev/minikanren-typed-racket"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An implementation of miniKanren in typed racket."
 HOMEPAGE="https://github.com/dalev/minikanren-typed-racket"

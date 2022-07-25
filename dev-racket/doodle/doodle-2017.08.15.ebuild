@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="LeifAndersen/doodle"
 GH_COMMIT="a6840bb97bb384b92c612960aca676e31662453c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The doodle Racket package"
 HOMEPAGE="https://github.com/LeifAndersen/doodle"

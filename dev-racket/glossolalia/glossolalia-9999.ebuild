@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="robertkleffner/glossolalia"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The glossolalia Racket package"
 HOMEPAGE="https://github.com/robertkleffner/glossolalia"

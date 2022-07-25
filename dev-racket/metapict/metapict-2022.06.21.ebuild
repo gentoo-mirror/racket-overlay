@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="soegaard/metapict"
 GH_COMMIT="f0a8d2dba519cae125875ad054773136e2b185fb"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Create beautiful pictures and diagrams"
 HOMEPAGE="https://github.com/soegaard/metapict"

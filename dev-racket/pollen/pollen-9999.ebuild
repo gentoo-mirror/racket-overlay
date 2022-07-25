@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="git.matthewbutterick.com"
 GH_REPO="mbutterick/pollen"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Publishing system for web-based books"
 HOMEPAGE="https://git.matthewbutterick.com/mbutterick/pollen"

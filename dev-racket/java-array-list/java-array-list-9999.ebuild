@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="johnnyodonnell/java-array-list"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Clone of Java's ArrayList"
 HOMEPAGE="https://github.com/johnnyodonnell/java-array-list"

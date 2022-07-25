@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="thoughtstem/happy-names"
 GH_COMMIT="3a74d689059e77106318b751e65b113233008d19"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Simple generator for Heroku-like names (random adj + random noun)"
 HOMEPAGE="https://github.com/thoughtstem/happy-names"

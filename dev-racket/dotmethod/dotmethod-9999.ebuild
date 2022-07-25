@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/dotmethod"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="obj.method(x) in racket using mutable-match-lambda"
 HOMEPAGE="https://github.com/AlexKnauth/dotmethod"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="winny-/umask"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="umask - set default permissions on unix-like systems"
 HOMEPAGE="https://github.com/winny-/umask"

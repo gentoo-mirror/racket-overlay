@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jbclements/osc"
 GH_COMMIT="18caebb14eefe3482976e738654aee2f18c5f88d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Open Sound Control data definitions"
 HOMEPAGE="https://github.com/jbclements/osc"

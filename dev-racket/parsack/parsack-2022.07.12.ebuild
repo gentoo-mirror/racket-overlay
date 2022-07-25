@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="stchang/parsack"
 GH_COMMIT="57b21873e8e3eb7ffbdfa253251c3c27a66723b1"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A basic Parsec (Haskell's monadic parser combinator library) implementation."
 HOMEPAGE="https://github.com/stchang/parsack"

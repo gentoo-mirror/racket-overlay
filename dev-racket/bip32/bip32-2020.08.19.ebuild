@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="marckn0x/bip32"
 GH_COMMIT="19f4460abd1f5fdacaa651064c4d8353401294f0"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket implementation of Bitcoin Improvement Proposal 32."
 HOMEPAGE="https://github.com/marckn0x/bip32"

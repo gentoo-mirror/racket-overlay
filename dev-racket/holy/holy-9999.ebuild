@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="nihirash/holy"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The HoLy Racket package"
 HOMEPAGE="https://github.com/nihirash/holy"

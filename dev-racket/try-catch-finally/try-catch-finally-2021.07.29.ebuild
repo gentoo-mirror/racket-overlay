@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/try-catch-finally"
 GH_COMMIT="ae71f04fe3ef793ed9338a7ee662f72ccc32222b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Tests and Docs for try-catch-finally-lib"
 HOMEPAGE="https://github.com/AlexKnauth/try-catch-finally"

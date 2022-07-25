@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/kw-utils"
 GH_COMMIT="5457f90db11737ac8fcdd412f5c1688dd8848065"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="misc kw utils"
 HOMEPAGE="https://github.com/AlexKnauth/kw-utils"

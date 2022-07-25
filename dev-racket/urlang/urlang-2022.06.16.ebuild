@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="soegaard/urlang"
 GH_COMMIT="5b8073aaca0c1fbc4497b2096f125f9c7087de01"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The urlang Racket package"
 HOMEPAGE="https://github.com/soegaard/urlang"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Bogdanp/deta"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A functional database mapper. (implementation only)"
 HOMEPAGE="https://github.com/Bogdanp/deta"

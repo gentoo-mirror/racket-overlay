@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jsmaniac/auto-syntax-e"
 GH_COMMIT="5488c6902ec6189f69f950ab4d5616e9d6718d34"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The auto-syntax-e Racket package"
 HOMEPAGE="https://github.com/jsmaniac/auto-syntax-e"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="rmculpepper/binaryio"
 GH_COMMIT="0b985cf32b2e90d90ecdc90ebbe669177b9bada2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="functions for reading and writing binary data"
 HOMEPAGE="https://github.com/rmculpepper/binaryio"

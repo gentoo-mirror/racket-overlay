@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/hash-lambda"
 GH_COMMIT="0f7a89d7056c8d9f86497e0eff159d142f74aed7"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="using hash-tables for rest-arguments that include keyword-arguments"
 HOMEPAGE="https://github.com/AlexKnauth/hash-lambda"

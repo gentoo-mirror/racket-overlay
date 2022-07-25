@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/parenlog"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A language that is like Prolog, but parenthetical."
 HOMEPAGE="https://github.com/jeapostrophe/parenlog"

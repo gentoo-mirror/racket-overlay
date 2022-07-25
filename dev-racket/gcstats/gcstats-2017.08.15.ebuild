@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samth/gcstats"
 GH_COMMIT="c1112a07155f2a8e8a8ad999c9980d544d56b970"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Print summary GC statistics after running a program."
 HOMEPAGE="https://github.com/samth/gcstats"

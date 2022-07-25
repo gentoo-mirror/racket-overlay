@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="bitbucket.org"
 GH_REPO="Tetsumi/anu-web-quantum-rng"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The ANU-Web-Quantum-RNG Racket package"
 HOMEPAGE="https://bitbucket.org/Tetsumi/anu-web-quantum-rng"

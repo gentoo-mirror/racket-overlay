@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.flux.utah.edu"
 GH_REPO="xsmith/clotho"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library for enabling parametric randomness in Racket applications."
 HOMEPAGE="https://gitlab.flux.utah.edu/xsmith/clotho"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="emsenn/qtops"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Perform operations on things with qualities"
 HOMEPAGE="https://github.com/emsenn/qtops"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="johnstonskj/racket-codepoint"
 GH_COMMIT="f114a142f08bee5ca26b17d37ed698ebc7e63176"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Library for operations on Unicode codepoints, and UCD properties."
 HOMEPAGE="https://github.com/johnstonskj/racket-codepoint"

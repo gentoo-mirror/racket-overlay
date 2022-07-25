@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/drdr2"
 GH_COMMIT="680818e5cfa7d48de02bf1a027f78d766498a48d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Prototype replacement for DrDr"
 HOMEPAGE="https://github.com/racket/drdr2"

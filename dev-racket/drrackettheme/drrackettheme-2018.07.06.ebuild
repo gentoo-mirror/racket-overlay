@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Syntacticlosure/DrRacketTheme"
 GH_COMMIT="6ee86a2b2824f755bdaf771c788559d9cab7639c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="set the background image for DrRacketView -> Set Background"
 HOMEPAGE="https://github.com/Syntacticlosure/DrRacketTheme"

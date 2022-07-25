@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="esilkensen/yaml"
 GH_COMMIT="b60a1e4a01979ed447799b07e7f8dd5ff17019f0"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library for parsing and emitting YAML."
 HOMEPAGE="https://github.com/esilkensen/yaml"

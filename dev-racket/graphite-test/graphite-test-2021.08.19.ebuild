@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="ralsei/graphite"
 GH_COMMIT="58a7bc54345e9b0bc5ac080401757f76d3999b0c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Tests for Graphite"
 HOMEPAGE="https://github.com/ralsei/graphite"

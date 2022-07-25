@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket-tw/cover-badge"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A badge generator for coverage"
 HOMEPAGE="https://github.com/racket-tw/cover-badge"

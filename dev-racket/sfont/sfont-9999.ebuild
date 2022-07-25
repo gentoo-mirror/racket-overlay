@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="danielecapo/sfont"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A package for manipulating and creating fonts in Racket."
 HOMEPAGE="https://github.com/danielecapo/sfont"

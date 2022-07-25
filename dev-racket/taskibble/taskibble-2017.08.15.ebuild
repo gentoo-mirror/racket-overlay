@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="sorpaas/taskibble"
 GH_COMMIT="c333907e04ab23b0a79cd7c763f691dd743897ac"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Fork of Scribble for task management"
 HOMEPAGE="https://github.com/sorpaas/taskibble"

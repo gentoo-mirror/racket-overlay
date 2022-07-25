@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/mutable-match-lambda"
 GH_COMMIT="28ea2c1f4e7a92826308c937608d4d91f2ead051"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The mutable-match-lambda Racket package"
 HOMEPAGE="https://github.com/AlexKnauth/mutable-match-lambda"

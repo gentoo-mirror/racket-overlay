@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lwhjp/racket-jlang"
 GH_COMMIT="021c40382f95d1a6dc0b329a152a171465b9bc75"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket implementation of J language and related concepts"
 HOMEPAGE="https://github.com/lwhjp/racket-jlang"

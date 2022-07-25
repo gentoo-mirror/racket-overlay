@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dannypsnl/data-type"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="data type syntax for typed/racket"
 HOMEPAGE="https://github.com/dannypsnl/data-type"

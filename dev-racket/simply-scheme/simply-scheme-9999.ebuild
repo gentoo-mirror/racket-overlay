@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jbclements/simply-scheme"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The simply-scheme Racket package"
 HOMEPAGE="https://github.com/jbclements/simply-scheme"

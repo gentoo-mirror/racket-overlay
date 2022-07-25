@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="rogerkeays/racket-fluent"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="UNIX style pipes and a lambda shorthand syntax to make your code more readable."
 HOMEPAGE="https://github.com/rogerkeays/racket-fluent"

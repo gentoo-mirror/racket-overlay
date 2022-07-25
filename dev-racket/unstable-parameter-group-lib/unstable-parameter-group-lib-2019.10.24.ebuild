@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/unstable-parameter-group-lib"
 GH_COMMIT="1906272f807c12a3d7e2a1c430c5b5745c2de6a4"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Experimental libraries for parameter groups"
 HOMEPAGE="https://github.com/racket/unstable-parameter-group-lib"

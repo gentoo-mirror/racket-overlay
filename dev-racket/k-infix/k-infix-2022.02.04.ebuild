@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="BourgondAries/k-infix"
 GH_COMMIT="ce32c918dd9c96c8366270a3127f5a42e3d2638f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The k-infix Racket package"
 HOMEPAGE="https://github.com/BourgondAries/k-infix"

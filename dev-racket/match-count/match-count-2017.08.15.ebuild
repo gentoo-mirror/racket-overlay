@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samth/match-count"
 GH_COMMIT="99dc72c1dc254602d92d46f12552b95fab6f2ee5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Instrumented match"
 HOMEPAGE="https://github.com/samth/match-count"

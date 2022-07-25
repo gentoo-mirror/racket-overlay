@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="robertkleffner/neologia"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A language for creating and managing dictionaries and lexicons"
 HOMEPAGE="https://github.com/robertkleffner/neologia"

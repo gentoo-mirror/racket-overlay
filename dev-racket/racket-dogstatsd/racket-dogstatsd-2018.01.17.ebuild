@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="DarrenN/racket-dogstatsd"
 GH_COMMIT="164ec431a98689b111495bad638313b219e3b0b2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="DogStatsD client for Racket, allowing you to send metrics to Datadog"
 HOMEPAGE="https://github.com/DarrenN/racket-dogstatsd"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="joseildofilho/Agatha-Lang"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Uma linguagem para Logica de primeira ordem"
 HOMEPAGE="https://github.com/joseildofilho/Agatha-Lang"

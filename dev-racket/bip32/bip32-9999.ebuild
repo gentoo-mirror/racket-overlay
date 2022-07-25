@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="marckn0x/bip32"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket implementation of Bitcoin Improvement Proposal 32."
 HOMEPAGE="https://github.com/marckn0x/bip32"

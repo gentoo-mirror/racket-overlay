@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="winny-/mumble-ping"
 GH_COMMIT="dbb24e40b1be0c0065b7000ccff8e9e5be7eda92"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Ping Mumble servers"
 HOMEPAGE="https://github.com/winny-/mumble-ping"

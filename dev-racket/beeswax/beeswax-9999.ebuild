@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="otherjoel/beeswax"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Pollen-friendly template language"
 HOMEPAGE="https://github.com/otherjoel/beeswax"

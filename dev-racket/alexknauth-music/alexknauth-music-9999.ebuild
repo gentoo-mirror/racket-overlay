@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/music"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Some stuff for representing music and music theory"
 HOMEPAGE="https://github.com/AlexKnauth/music"

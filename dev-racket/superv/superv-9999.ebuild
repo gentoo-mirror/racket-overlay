@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="sleibrock/superv"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Supervise your subprocesses with Racket"
 HOMEPAGE="https://github.com/sleibrock/superv"

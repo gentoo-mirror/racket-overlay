@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="simonhaines/packrat"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The Packrat Racket package"
 HOMEPAGE="https://github.com/simonhaines/packrat"

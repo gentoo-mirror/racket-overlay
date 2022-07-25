@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="rocketnia/effection"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library for custom side effects. (lib)"
 HOMEPAGE="https://github.com/rocketnia/effection"

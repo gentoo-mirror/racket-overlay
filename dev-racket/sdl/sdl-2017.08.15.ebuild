@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="cosmez/racket-sdl"
 GH_COMMIT="8b31e76b77b24afe76683d4d5630c771a0329683"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket bindings for SDL"
 HOMEPAGE="https://github.com/cosmez/racket-sdl"

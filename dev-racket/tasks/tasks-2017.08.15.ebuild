@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mordae/racket-tasks"
 GH_COMMIT="2d2e1e096fec61da49531a86421d7e7eb4a9f3df"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Sugar for sync."
 HOMEPAGE="https://github.com/mordae/racket-tasks"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="thoughtstem/py-fizz"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The py-fizz Racket package"
 HOMEPAGE="https://github.com/thoughtstem/py-fizz"

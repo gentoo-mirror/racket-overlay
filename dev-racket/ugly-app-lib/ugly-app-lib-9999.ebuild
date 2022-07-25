@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/ugly-app"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The ugly-app-lib Racket package"
 HOMEPAGE="https://github.com/AlexKnauth/ugly-app"

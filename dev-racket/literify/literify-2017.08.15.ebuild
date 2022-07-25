@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="kflu/literify"
 GH_COMMIT="0c574bc88dc9de870063589cc49a7ad41899fc67"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The literify Racket package"
 HOMEPAGE="https://github.com/kflu/literify"

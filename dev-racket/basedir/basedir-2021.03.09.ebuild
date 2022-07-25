@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="willghatch/racket-basedir"
 GH_COMMIT="ef95b1eeb9b4e0df491680e5caa98eeadf64dfa1"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="XDG Basedir Spec library"
 HOMEPAGE="https://github.com/willghatch/racket-basedir"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="benknoble/try-make-sarna-happy"
 GH_COMMIT="c538408866d6b7922fe8ae4da211a233bd7a305d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A try macro for sarna"
 HOMEPAGE="https://github.com/benknoble/try-make-sarna-happy"

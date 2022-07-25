@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="otherjoel/wavenet-api"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An interface for the Google Cloud text-to-speech API"
 HOMEPAGE="https://github.com/otherjoel/wavenet-api"

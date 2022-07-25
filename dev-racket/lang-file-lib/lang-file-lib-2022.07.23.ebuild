@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/lang-file"
 GH_COMMIT="69993f73dab8382796be37998ec47ded7883faf7"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Functions for dealing with #lang files"
 HOMEPAGE="https://github.com/AlexKnauth/lang-file"

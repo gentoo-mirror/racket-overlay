@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="sorawee/errortrace-pkg"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Errortrace installed packages"
 HOMEPAGE="https://github.com/sorawee/errortrace-pkg"

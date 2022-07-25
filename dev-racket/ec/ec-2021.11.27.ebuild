@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="marckn0x/ec"
 GH_COMMIT="81d6fbe1852d3b20cffa651e6062dd1aca146018"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The ec Racket package"
 HOMEPAGE="https://github.com/marckn0x/ec"

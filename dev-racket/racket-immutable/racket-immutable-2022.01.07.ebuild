@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/racket-immutable"
 GH_COMMIT="ceb8282535b0a14073fd1c420fcdfbcb44fe4913"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The racket-immutable Racket package"
 HOMEPAGE="https://github.com/AlexKnauth/racket-immutable"

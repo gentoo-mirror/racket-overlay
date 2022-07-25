@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-gui-easy"
 GH_COMMIT="5f64806acc30acee7f0ae384886f41d5faa09e33"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A declarative API on top of racket/gui. (docs & implementation)"
 HOMEPAGE="https://github.com/Bogdanp/racket-gui-easy"

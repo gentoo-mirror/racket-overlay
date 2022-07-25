@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="samth/abnf"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Attributed BNFs for Scribble"
 HOMEPAGE="https://github.com/samth/abnf"

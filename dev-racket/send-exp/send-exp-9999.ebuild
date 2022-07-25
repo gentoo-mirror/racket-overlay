@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tonyg/racket-send-exp"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Terse syntax for object-oriented message sending"
 HOMEPAGE="https://github.com/tonyg/racket-send-exp"

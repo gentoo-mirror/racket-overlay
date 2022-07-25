@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/ldap"
 GH_COMMIT="e7440a2632f01563182f277135ab066c41157639"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A native Racket interface to LDAP authentication."
 HOMEPAGE="https://github.com/jeapostrophe/ldap"

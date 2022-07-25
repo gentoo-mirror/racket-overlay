@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="nuty/rapider"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="web scrape framework"
 HOMEPAGE="https://github.com/nuty/rapider"

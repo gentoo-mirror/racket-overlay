@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="tonyg/racket-struct-defaults"
 GH_COMMIT="97fb427ab2210ba145486604b2095704c51da6a9"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Default values in struct ctors and patterns."
 HOMEPAGE="https://github.com/tonyg/racket-struct-defaults"

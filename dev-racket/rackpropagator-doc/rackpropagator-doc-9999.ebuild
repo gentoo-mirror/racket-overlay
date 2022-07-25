@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="ots22/rackpropagator"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Rackpropagator documentation"
 HOMEPAGE="https://github.com/ots22/rackpropagator"

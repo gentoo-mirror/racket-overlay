@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lexi-lambda/scripty"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The scripty-doc Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/scripty"

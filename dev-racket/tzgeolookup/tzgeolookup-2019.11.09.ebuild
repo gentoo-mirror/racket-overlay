@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="alex-hhh/tzgeolookup"
 GH_COMMIT="93abcae2b9ab1b77004cf65fbdc0a291680bc734"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The tzgeolookup Racket package"
 HOMEPAGE="https://github.com/alex-hhh/tzgeolookup"

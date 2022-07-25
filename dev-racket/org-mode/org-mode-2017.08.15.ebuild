@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/org-mode"
 GH_COMMIT="49b1f46aaccc02fa1cedde36b8eda3ffa6a772ec"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A native Racket reader and writer for org-mode files."
 HOMEPAGE="https://github.com/jeapostrophe/org-mode"

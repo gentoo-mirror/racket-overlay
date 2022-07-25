@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="samth/version-case"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Conditional behavior based on the version of Racket"
 HOMEPAGE="https://github.com/samth/version-case"

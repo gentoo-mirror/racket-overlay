@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="stchang/dropbox"
 GH_COMMIT="fc978c6c2feca00a74c4e5f9f7213a55585abe68"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="SDK for Dropbox"
 HOMEPAGE="https://github.com/stchang/dropbox"

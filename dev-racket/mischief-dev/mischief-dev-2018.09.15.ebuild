@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="carl-eastlund/mischief"
 GH_COMMIT="ce58c3170240f12297e2f98475f53c9514225825"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Mischief: A Racketeer's Toolkit [development branch]"
 HOMEPAGE="https://github.com/carl-eastlund/mischief"

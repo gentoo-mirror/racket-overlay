@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jackfirth/syntax-warn"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Command line raco tools for checking and fixing syntax warnings"
 HOMEPAGE="https://github.com/jackfirth/syntax-warn"

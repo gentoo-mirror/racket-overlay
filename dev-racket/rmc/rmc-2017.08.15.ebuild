@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/rmc"
 GH_COMMIT="e11425287cfecb3940f75a25a29f9b74826c2605"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket-made C"
 HOMEPAGE="https://github.com/jeapostrophe/rmc"

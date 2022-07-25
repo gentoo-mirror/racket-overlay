@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-smtp-server"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An implementation of RFC5321 for Racket. (tests only)"
 HOMEPAGE="https://github.com/Bogdanp/racket-smtp-server"

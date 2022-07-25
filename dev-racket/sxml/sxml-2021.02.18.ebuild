@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jbclements/sxml"
 GH_COMMIT="d3b8570cf7287c4e06636e17634f0f5c39203d52"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="SXML family of tools (including SXPath)"
 HOMEPAGE="https://github.com/jbclements/sxml"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Metaxal/wordle-solver"
 GH_COMMIT="3bcfaf3a1a360076bd75d324fb5c0b165f48c9ac"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A simple solver for Wordle"
 HOMEPAGE="https://github.com/Metaxal/wordle-solver"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jackfirth/syntax-warn"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The syntax-warn Racket package"
 HOMEPAGE="https://github.com/jackfirth/syntax-warn"

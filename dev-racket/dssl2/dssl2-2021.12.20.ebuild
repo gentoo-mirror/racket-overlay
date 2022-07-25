@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="tov/dssl2"
 GH_COMMIT="e760f4e43295d870bec0267d1356b2cd4466859c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A language for data structures students"
 HOMEPAGE="https://github.com/tov/dssl2"

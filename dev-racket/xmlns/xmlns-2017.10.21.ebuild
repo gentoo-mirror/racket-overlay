@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lwhjp/racket-xmlns"
 GH_COMMIT="b11d0010ceac1dac55b22d5eab51e24025593638"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="XML namespace support"
 HOMEPAGE="https://github.com/lwhjp/racket-xmlns"

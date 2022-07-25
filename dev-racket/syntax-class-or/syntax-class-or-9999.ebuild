@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/syntax-class-or"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Combining syntax classes together as multiple variants"
 HOMEPAGE="https://github.com/AlexKnauth/syntax-class-or"

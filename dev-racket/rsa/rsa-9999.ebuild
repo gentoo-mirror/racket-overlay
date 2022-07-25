@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mgbowe1/racket-rsa"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An rsa encryption library for racket"
 HOMEPAGE="https://github.com/mgbowe1/racket-rsa"

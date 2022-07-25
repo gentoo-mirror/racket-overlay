@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="nuprl/cs2500-client"
 GH_COMMIT="d48c433d69d75ea03c029ec0207faa928796e757"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The neu-cs2500-handin Racket package"
 HOMEPAGE="https://github.com/nuprl/cs2500-client"

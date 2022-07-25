@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lotabout/axe"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Handy utilities(macros/functions) for racket"
 HOMEPAGE="https://github.com/lotabout/axe"

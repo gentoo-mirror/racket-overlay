@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dstorrs/thread-with-id"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The thread-with-id Racket package"
 HOMEPAGE="https://github.com/dstorrs/thread-with-id"

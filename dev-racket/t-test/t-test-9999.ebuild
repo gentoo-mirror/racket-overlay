@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jbclements/t-test"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Simple implementations of Welch's and Student's t-tests"
 HOMEPAGE="https://github.com/jbclements/t-test"

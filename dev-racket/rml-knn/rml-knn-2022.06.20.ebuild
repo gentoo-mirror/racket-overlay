@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="johnstonskj/rml-knn"
 GH_COMMIT="55a55d0e55d8363afafea7dd59b6dda37e77d4b0"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The rml-knn Racket package"
 HOMEPAGE="https://github.com/johnstonskj/rml-knn"

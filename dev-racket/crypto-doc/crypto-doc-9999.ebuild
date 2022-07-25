@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="rmculpepper/crypto"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Cryptography library"
 HOMEPAGE="https://github.com/rmculpepper/crypto"

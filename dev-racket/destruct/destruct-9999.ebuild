@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="MichaelBurge/destruct"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Macro that introduces local variables for every field in a struct."
 HOMEPAGE="https://github.com/MichaelBurge/destruct"

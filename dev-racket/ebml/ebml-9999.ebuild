@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jbclements/ebml"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library for reading and writing EBML files."
 HOMEPAGE="https://github.com/jbclements/ebml"

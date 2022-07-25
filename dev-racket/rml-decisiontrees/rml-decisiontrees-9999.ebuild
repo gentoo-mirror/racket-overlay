@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="johnstonskj/rml-decisiontrees"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The rml-decisiontrees Racket package"
 HOMEPAGE="https://github.com/johnstonskj/rml-decisiontrees"

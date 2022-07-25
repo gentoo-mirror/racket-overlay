@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="otherjoel/bookcover"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The bookcover Racket package"
 HOMEPAGE="https://github.com/otherjoel/bookcover"

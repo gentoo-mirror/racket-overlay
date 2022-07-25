@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="pmatos/racket-bv"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Bitvectors for Racket a-la Rosette"
 HOMEPAGE="https://github.com/pmatos/racket-bv"

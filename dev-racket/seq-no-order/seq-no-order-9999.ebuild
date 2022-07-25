@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/seq-no-order"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="~seq-no-order and ~no-order as pattern-expanders that work with syntax/parse."
 HOMEPAGE="https://github.com/AlexKnauth/seq-no-order"

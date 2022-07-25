@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="macrotypefunctors/macrotypes-nonstx"
 GH_COMMIT="b3f9839b6f8dcce4bf3fe9c15d5017214300924d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The macrotypes-nonstx Racket package"
 HOMEPAGE="https://github.com/macrotypefunctors/macrotypes-nonstx"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/pkg-build"
 GH_COMMIT="fcbdf97462d32bb217d5e86a6e6619ffe511c3e2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Build server for pkgs"
 HOMEPAGE="https://github.com/racket/pkg-build"

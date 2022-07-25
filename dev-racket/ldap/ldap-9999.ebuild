@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/ldap"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A native Racket interface to LDAP authentication."
 HOMEPAGE="https://github.com/jeapostrophe/ldap"

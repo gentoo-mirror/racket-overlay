@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="samth/c.rkt"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Utilities for manipulating C source code."
 HOMEPAGE="https://github.com/samth/c.rkt"

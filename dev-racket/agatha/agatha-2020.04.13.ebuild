@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="joseildofilho/Agatha-Lang"
 GH_COMMIT="de9e340b97dbb22677dc3ba74d6ec8826bf9af90"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Uma linguagem para Logica de primeira ordem"
 HOMEPAGE="https://github.com/joseildofilho/Agatha-Lang"

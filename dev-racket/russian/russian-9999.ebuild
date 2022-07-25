@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Kalimehtar/russian"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Russian internationalization bits"
 HOMEPAGE="https://github.com/Kalimehtar/russian"

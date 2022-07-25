@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jessealama/json-pointer"
 GH_COMMIT="73e97e426eff151ffd705059771c5c92f2da4697"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Parse, render, and evaluate JSON Pointers (RFC 6901)."
 HOMEPAGE="https://github.com/jessealama/json-pointer"

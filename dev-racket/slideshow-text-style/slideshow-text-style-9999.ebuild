@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="takikawa/slideshow-text-style"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Small library that helps with formatting text in a slideshow"
 HOMEPAGE="https://github.com/takikawa/slideshow-text-style"

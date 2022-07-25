@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="willghatch/rackterm"
 GH_COMMIT="5d94185dea482974a1cf66099380bede6c2ce501"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The rackterm Racket package"
 HOMEPAGE="https://github.com/willghatch/rackterm"

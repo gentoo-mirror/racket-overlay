@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="turbinenreiter/drracket-material"
 GH_COMMIT="560b77fffe55bfc06b3cce6416cbbdda759dd16f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="This package adds a Material colorscheme to DrRacket."
 HOMEPAGE="https://github.com/turbinenreiter/drracket-material"

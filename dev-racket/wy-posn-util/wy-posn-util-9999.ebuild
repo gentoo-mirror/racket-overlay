@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="maueroats/wy-posn-util"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Functions to work with 2d vectors (posn) in 2htdp."
 HOMEPAGE="https://github.com/maueroats/wy-posn-util"

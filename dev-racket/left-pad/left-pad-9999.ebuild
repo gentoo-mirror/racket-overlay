@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="bennn/racket-left-pad"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="String left pad"
 HOMEPAGE="https://github.com/bennn/racket-left-pad"

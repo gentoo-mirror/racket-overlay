@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="johnstonskj/rml-core"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The rml-core Racket package"
 HOMEPAGE="https://github.com/johnstonskj/rml-core"

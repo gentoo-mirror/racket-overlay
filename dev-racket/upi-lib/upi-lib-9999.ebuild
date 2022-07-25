@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="xgqt/racket-upi"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Unix tools inspired Procedure Interface for Racket. Core."
 HOMEPAGE="https://gitlab.com/xgqt/racket-upi"

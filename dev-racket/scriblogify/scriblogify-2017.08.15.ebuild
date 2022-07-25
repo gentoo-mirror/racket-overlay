@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="rmculpepper/scriblogify"
 GH_COMMIT="7771d00ce6101bd5d415b54134eb79c42b92f1ef"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Scribble your blog!"
 HOMEPAGE="https://github.com/rmculpepper/scriblogify"

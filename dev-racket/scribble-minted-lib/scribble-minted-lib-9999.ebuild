@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="wilbowma/scribble-minted"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A scribble library for using pygmentize (library only)."
 HOMEPAGE="https://github.com/wilbowma/scribble-minted"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/racket-retry"
 GH_COMMIT="2a6ba58ab5f14707305e75063c3ee4519fc6dc7d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Composable configurable retryers for flakily failing operations."
 HOMEPAGE="https://github.com/jackfirth/racket-retry"

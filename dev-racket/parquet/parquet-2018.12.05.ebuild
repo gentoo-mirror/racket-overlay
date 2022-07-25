@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="johnstonskj/racket-parquet"
 GH_COMMIT="19a26155d832d1102003ddd67dcd40c2fb1c5325"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The parquet Racket package"
 HOMEPAGE="https://github.com/johnstonskj/racket-parquet"

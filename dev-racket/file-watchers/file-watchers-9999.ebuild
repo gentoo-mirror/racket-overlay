@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="zyrolasting/file-watchers"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Sensible file watching procedures"
 HOMEPAGE="https://github.com/zyrolasting/file-watchers"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dedbox/racket-js-voxel"
 GH_COMMIT="661d75489af339dba515a972c6e66db8525ab4c9"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A general-purpose voxel programming environment"
 HOMEPAGE="https://github.com/dedbox/racket-js-voxel"

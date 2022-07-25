@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mordae/racket-xexpr-path"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="XML Expression Path Lookup"
 HOMEPAGE="https://github.com/mordae/racket-xexpr-path"

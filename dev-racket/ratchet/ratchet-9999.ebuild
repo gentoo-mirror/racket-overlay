@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="thoughtstem/ratchet"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Toolkit for defining visual languages."
 HOMEPAGE="https://github.com/thoughtstem/ratchet"

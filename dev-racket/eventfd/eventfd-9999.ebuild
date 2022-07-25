@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mordae/racket-eventfd"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Linux eventfd support"
 HOMEPAGE="https://github.com/mordae/racket-eventfd"

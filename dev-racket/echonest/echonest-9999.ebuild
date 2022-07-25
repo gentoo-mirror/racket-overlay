@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="greghendershott/echonest"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Wrapper for The Echo Nest web API."
 HOMEPAGE="https://github.com/greghendershott/echonest"

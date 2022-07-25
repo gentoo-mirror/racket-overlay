@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="xgqt/racket-portage-admin"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A GUI application for inspection of Gentoo-based systems. Core."
 HOMEPAGE="https://gitlab.com/xgqt/racket-portage-admin"

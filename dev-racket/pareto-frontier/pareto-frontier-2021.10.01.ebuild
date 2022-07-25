@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="sorawee/pareto-frontier"
 GH_COMMIT="f2409c3ad5a411562e6358618b78c0b9541d8bf8"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Efficient Pareto frontier calculation"
 HOMEPAGE="https://github.com/sorawee/pareto-frontier"

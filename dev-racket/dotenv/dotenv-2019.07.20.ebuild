@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="royallthefourth/dotenv"
 GH_COMMIT="86b9a0718f2dfdae1b08d7f6f859875a06817de4"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Override environment variables by loading .env files."
 HOMEPAGE="https://github.com/royallthefourth/dotenv"

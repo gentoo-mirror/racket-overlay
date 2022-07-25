@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mythical-linux/rktfetch"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="rktfetch is an info fetch tool (like neofetch) but written in Racket"
 HOMEPAGE="https://github.com/mythical-linux/rktfetch"

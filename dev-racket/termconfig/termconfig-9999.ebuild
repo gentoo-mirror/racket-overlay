@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dodgez/termconfig"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Cross-platform terminal helper library in Racket."
 HOMEPAGE="https://github.com/dodgez/termconfig"

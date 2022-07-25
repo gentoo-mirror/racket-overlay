@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="97jaz/cldr-dates-modern"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="API for cldr-dates-modern data set"
 HOMEPAGE="https://github.com/97jaz/cldr-dates-modern"

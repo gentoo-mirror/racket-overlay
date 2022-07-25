@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-sameday"
 GH_COMMIT="20cfc789bacc21941317828496cf15a6a89feee6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Racket client for the Sameday API."
 HOMEPAGE="https://github.com/Bogdanp/racket-sameday"

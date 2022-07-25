@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-ulid"
 GH_COMMIT="2fb3dbaca00f276ac78bf93f1892140fdc60ee9a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Universally unique lexicographically sortable identifiers."
 HOMEPAGE="https://github.com/Bogdanp/racket-ulid"

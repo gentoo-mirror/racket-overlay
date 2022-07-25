@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="rmculpepper/iracket"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Jupyter kernel for Racket"
 HOMEPAGE="https://github.com/rmculpepper/iracket"

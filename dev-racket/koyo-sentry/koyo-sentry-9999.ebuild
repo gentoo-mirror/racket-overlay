@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Bogdanp/koyo-sentry"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Integrates koyo and racket-sentry."
 HOMEPAGE="https://github.com/Bogdanp/koyo-sentry"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/racket"
 GH_COMMIT="cf82706c4b298f654a04c4bc8d98dff39b62a2ac"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The plt-services Racket package"
 HOMEPAGE="https://github.com/racket/racket"

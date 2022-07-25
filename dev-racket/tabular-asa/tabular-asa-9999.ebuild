@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="massung/tabular-asa"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A fast, efficient, immutable, dataframes implementation."
 HOMEPAGE="https://github.com/massung/tabular-asa"

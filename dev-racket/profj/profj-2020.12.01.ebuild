@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mflatt/profj"
 GH_COMMIT="cf2a5bd0c3243b4dd3a72093ae5eee8e8291a41d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The profj Racket package"
 HOMEPAGE="https://github.com/mflatt/profj"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="97jaz/leftist-tree"
 GH_COMMIT="3e4f55aecdd0978f282dde6964f444b5da71ed52"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Functional priority queues"
 HOMEPAGE="https://github.com/97jaz/leftist-tree"

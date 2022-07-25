@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Kalimehtar/finalizer"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Trivial finalizer. Does action when object garbage collected"
 HOMEPAGE="https://github.com/Kalimehtar/finalizer"

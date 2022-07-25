@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/iswim"
 GH_COMMIT="7d6fe87391475b22828a39b344fd7b983f7018f7"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="iswim implementation"
 HOMEPAGE="https://github.com/jeapostrophe/iswim"

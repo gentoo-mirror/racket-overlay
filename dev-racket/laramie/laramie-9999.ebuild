@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jessealama/laramie"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="HTML5 parser"
 HOMEPAGE="https://github.com/jessealama/laramie"

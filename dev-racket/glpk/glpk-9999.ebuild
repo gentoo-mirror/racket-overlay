@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jbclements/glpk"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An interface to the Gnu Linear Programming Kit (GLPK)"
 HOMEPAGE="https://github.com/jbclements/glpk"

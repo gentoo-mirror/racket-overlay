@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jsmaniac/hyper-literate"
 GH_COMMIT="24fd9ca7ca9b96e3072d37306dc79edf24ba4ef1"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The hyper-literate Racket package"
 HOMEPAGE="https://github.com/jsmaniac/hyper-literate"

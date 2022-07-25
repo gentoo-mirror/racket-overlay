@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/lens"
 GH_COMMIT="733db7744921409b69ddc78ae5b23ffaa6b91e37"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Documentation for the lens libraries"
 HOMEPAGE="https://github.com/jackfirth/lens"

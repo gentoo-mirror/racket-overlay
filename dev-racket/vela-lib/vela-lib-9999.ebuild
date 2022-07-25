@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="nuty/vela"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The vela-lib Racket package"
 HOMEPAGE="https://github.com/nuty/vela"

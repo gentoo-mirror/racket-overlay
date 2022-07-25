@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/matrix"
 GH_COMMIT="15e1c74f8763abbdfb4348702c98ca6043e52a1c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Semi-persistent matrices based on spvectors"
 HOMEPAGE="https://github.com/jeapostrophe/matrix"

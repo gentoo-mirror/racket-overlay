@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="xgqt/scheme-counter"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Small counter library to use for console output, logging, etc."
 HOMEPAGE="https://gitlab.com/xgqt/scheme-counter"

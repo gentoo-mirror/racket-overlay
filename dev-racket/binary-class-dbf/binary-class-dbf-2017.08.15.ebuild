@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Kalimehtar/binary-class-dbf"
 GH_COMMIT="751ed1b7e44f6894d7bdc468727bfc854677338b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Interface to *.dbf files (dBase, Foxpro, ...)"
 HOMEPAGE="https://github.com/Kalimehtar/binary-class-dbf"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="SimonLSchlee/layout"
 GH_COMMIT="88126ffb4b6bd164b5ce9b07d1336f402dffc9e7"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The layout Racket package"
 HOMEPAGE="https://github.com/SimonLSchlee/layout"

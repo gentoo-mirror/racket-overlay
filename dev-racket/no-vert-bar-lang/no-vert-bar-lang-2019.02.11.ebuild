@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/no-vert-bar-lang"
 GH_COMMIT="3e31489f2b3aff73f50cade704b724b5578af7fb"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a lang-extension that reads | as a normal character"
 HOMEPAGE="https://github.com/AlexKnauth/no-vert-bar-lang"

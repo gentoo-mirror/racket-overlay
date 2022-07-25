@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/3s"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="positional sound and mixing for lux and other programs"
 HOMEPAGE="https://github.com/jeapostrophe/3s"

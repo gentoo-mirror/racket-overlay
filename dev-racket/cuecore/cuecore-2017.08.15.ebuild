@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mordae/racket-cuecore"
 GH_COMMIT="826b05916b9f84601ef405ee36e6b9a843c42ea2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="CueCore Lighting Control"
 HOMEPAGE="https://github.com/mordae/racket-cuecore"

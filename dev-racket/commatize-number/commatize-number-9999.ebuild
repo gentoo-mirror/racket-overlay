@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="johnnyodonnell/commatize-number"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Commatize a number"
 HOMEPAGE="https://github.com/johnnyodonnell/commatize-number"

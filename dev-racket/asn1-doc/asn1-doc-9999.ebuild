@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="rmculpepper/asn1"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="ASN.1 library"
 HOMEPAGE="https://github.com/rmculpepper/asn1"

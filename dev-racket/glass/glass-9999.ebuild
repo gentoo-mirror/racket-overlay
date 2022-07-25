@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jackfirth/glass"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An optics (lenses, prisms, traversals, etc.) library."
 HOMEPAGE="https://github.com/jackfirth/glass"

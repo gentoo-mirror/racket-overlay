@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jsmaniac/scope-operations"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The scope-operations Racket package"
 HOMEPAGE="https://github.com/jsmaniac/scope-operations"

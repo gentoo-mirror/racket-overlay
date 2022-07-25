@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="countvajhula/social-contract"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="High-level, composable syntax for describing contracts."
 HOMEPAGE="https://github.com/countvajhula/social-contract"

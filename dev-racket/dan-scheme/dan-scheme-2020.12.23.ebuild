@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="david-christiansen/dan-scheme"
 GH_COMMIT="289e8cb903a24b2e1939a8556c164589a0e293e5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The dan-scheme Racket package"
 HOMEPAGE="https://github.com/david-christiansen/dan-scheme"

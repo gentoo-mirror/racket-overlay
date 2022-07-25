@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="xgqt/racket-libansilove"
 GH_COMMIT="187edd41af6e76ae80c184a07f5ef6ba0e1f361b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="FFI to Libansilove"
 HOMEPAGE="https://gitlab.com/xgqt/racket-libansilove"

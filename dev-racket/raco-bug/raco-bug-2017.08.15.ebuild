@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samth/raco-bug"
 GH_COMMIT="21d5b6aa30e8efa33bf7110482dea48541399edb"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Submit bug reports"
 HOMEPAGE="https://github.com/samth/raco-bug"

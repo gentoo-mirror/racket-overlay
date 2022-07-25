@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mlang/mario"
 GH_COMMIT="4604f58610230176abdde0ffca38c9df77810a49"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An interpreter for the 2d programming language MarioLANG"
 HOMEPAGE="https://github.com/mlang/mario"

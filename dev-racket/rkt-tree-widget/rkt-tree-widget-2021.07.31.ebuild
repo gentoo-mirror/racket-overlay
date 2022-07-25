@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="yjqww6/rkt-tree-widget"
 GH_COMMIT="0c6e354874f063338cb4549f7d4a0338d6ea6586"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Yet another tree widget for racket/gui"
 HOMEPAGE="https://github.com/yjqww6/rkt-tree-widget"

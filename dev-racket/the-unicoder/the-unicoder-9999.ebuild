@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="willghatch/the-unicoder"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Universal unicode input system"
 HOMEPAGE="https://github.com/willghatch/the-unicoder"

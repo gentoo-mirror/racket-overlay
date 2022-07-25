@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="stamourv/plaitypus"
 GH_COMMIT="cebf78ef1dafd5dc93485c41cf7f6eaab3e60efb"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The plaitypus Racket package"
 HOMEPAGE="https://github.com/stamourv/plaitypus"

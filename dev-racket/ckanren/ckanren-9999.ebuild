@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="calvis/cKanren"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Constraint programming language"
 HOMEPAGE="https://github.com/calvis/cKanren"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="tonyg/racket-auxiliary-macro-context"
 GH_COMMIT="52d3df7f937700bcea5b4d200903cfb6575afdc6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Match-expander-style syntactic extensibility outside expressions."
 HOMEPAGE="https://github.com/tonyg/racket-auxiliary-macro-context"

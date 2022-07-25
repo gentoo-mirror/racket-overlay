@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/hygienic-reader-extension"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="adding hygiene to racket reader extensions"
 HOMEPAGE="https://github.com/AlexKnauth/hygienic-reader-extension"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/syntax-sloc"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="counts the number of source lines of code in a racket syntax object"
 HOMEPAGE="https://github.com/AlexKnauth/syntax-sloc"

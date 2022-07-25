@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="euhmeuh/virtual-mpu"
 GH_COMMIT="d8056f928a646bb9ac96fdb78cde794efc82d144"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Universal Emulator & Assembler for Old Microprocessors"
 HOMEPAGE="https://github.com/euhmeuh/virtual-mpu"

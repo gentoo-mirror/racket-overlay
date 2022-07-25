@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="thoughtstem/comm-panel"
 GH_COMMIT="44225da9b3cd1f883beef9c03f20431f80239530"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The comm-panel Racket package"
 HOMEPAGE="https://github.com/thoughtstem/comm-panel"

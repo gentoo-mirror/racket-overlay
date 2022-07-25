@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="eu90h/stockfighter-racket"
 GH_COMMIT="cf7669c2d79645a54ee287df14a3e704006e0096"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Stockfighter API client"
 HOMEPAGE="https://github.com/eu90h/stockfighter-racket"

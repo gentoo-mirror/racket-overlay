@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="afldcr/racket-base32"
 GH_COMMIT="ea130f84dbac547d40f5bd27d1be53df811b4fd7"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Provides encoding to and from Crockford's Base32 encoding."
 HOMEPAGE="https://github.com/afldcr/racket-base32"

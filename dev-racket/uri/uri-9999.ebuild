@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="RayRacine/uri"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="URI and URL api in Typed Racket."
 HOMEPAGE="https://gitlab.com/RayRacine/uri"

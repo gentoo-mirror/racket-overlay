@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="benknoble/jsond"
 GH_COMMIT="27be12948237532135616673aa96cc408b29e4d6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A #lang for JSON data"
 HOMEPAGE="https://github.com/benknoble/jsond"

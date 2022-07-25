@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/my-object"
 GH_COMMIT="62e46a159c8a5391e13e71f1be5af28ab727b2ba"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="my version of objects, inspired by things from heresy"
 HOMEPAGE="https://github.com/AlexKnauth/my-object"

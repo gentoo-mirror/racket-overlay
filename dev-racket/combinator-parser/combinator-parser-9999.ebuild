@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="takikawa/combinator-parser"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The combinator-parser Racket package"
 HOMEPAGE="https://github.com/takikawa/combinator-parser"

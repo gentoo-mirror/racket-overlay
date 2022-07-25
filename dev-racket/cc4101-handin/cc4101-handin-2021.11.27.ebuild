@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="pleiad/cc4101-handin-client"
 GH_COMMIT="4baadf45f07a1d79d1d2213356e1e60a72092242"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The cc4101-handin Racket package"
 HOMEPAGE="https://github.com/pleiad/cc4101-handin-client"

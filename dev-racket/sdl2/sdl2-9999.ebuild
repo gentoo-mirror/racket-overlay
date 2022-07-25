@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lockie/racket-sdl2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket bindings to the Simple DirectMedia Layer 2 library: the full package."
 HOMEPAGE="https://github.com/lockie/racket-sdl2"

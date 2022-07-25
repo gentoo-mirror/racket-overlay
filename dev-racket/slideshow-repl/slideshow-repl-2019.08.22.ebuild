@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mflatt/slideshow-repl"
 GH_COMMIT="e8d3f8fb08322cd1aa9553c1c0079d7bebb3e823"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The slideshow-repl Racket package"
 HOMEPAGE="https://github.com/mflatt/slideshow-repl"

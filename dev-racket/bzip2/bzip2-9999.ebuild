@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="97jaz/racket-bzip2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="bzip2 compression and decompression"
 HOMEPAGE="https://github.com/97jaz/racket-bzip2"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jbclements/while-loop"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Danny Yoo's while-loop package"
 HOMEPAGE="https://github.com/jbclements/while-loop"

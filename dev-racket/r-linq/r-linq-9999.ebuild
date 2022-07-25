@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="trajafri/r-linq"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="LINQ implemented in Racket."
 HOMEPAGE="https://github.com/trajafri/r-linq"

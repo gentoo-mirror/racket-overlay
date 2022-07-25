@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="liberalartist/appveyor-racket"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Help for using AppVeyor with Racket projects"
 HOMEPAGE="https://github.com/liberalartist/appveyor-racket"

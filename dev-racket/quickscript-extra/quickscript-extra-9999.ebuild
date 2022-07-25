@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Metaxal/quickscript-extra"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Some scripts for DrRacket's Quickscript."
 HOMEPAGE="https://github.com/Metaxal/quickscript-extra"

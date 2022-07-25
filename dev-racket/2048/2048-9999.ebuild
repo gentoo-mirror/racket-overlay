@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="LiberalArtist/2048"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The game of 2048 in Racket"
 HOMEPAGE="https://github.com/LiberalArtist/2048"

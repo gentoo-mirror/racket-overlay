@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mwunsch/overscan"
 GH_COMMIT="f198e6b4c1f64cf5720e66ab5ad27fdc4b9e67e9"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A toolkit and live coding environment for broadcasting video."
 HOMEPAGE="https://github.com/mwunsch/overscan"

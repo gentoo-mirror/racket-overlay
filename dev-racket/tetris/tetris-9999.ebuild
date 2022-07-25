@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mosceo/tetris"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A colorful version of tetris."
 HOMEPAGE="https://github.com/mosceo/tetris"

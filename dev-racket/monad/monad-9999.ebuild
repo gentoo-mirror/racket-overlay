@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tonyg/racket-monad"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A generic/polymorphic monad library for Racket."
 HOMEPAGE="https://github.com/tonyg/racket-monad"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/mic1"
 GH_COMMIT="e985f4698f005049643998d28f8173e821acdb6b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="tools for MIC-1 CPU architecture"
 HOMEPAGE="https://github.com/jeapostrophe/mic1"

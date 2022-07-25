@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="97jaz/tzinfo"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="API for querying the IANA tz database"
 HOMEPAGE="https://github.com/97jaz/tzinfo"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="thoughtstem/define-assets-from"
 GH_COMMIT="f41954f7d955fdabbd697976d73344a5aa733d31"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The define-assets-from Racket package"
 HOMEPAGE="https://github.com/thoughtstem/define-assets-from"

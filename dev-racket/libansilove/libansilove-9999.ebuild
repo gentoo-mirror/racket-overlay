@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="xgqt/racket-libansilove"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="FFI to Libansilove"
 HOMEPAGE="https://gitlab.com/xgqt/racket-libansilove"

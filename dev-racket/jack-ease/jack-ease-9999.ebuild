@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jackfirth/racket-ease"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Library for easing things between start and stop values fluidly"
 HOMEPAGE="https://github.com/jackfirth/racket-ease"

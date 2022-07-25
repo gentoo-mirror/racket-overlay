@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mflatt/plai-typed-s-exp-match"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Simple S-expression matcher for use with plai-typed"
 HOMEPAGE="https://github.com/mflatt/plai-typed-s-exp-match"

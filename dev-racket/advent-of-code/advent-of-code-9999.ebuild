@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="eutro/advent-of-code-racket"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Package for fetching Advent of Code input."
 HOMEPAGE="https://github.com/eutro/advent-of-code-racket"

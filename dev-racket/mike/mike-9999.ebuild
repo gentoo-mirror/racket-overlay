@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="xgqt/racket-mike"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Micro Make replacement"
 HOMEPAGE="https://gitlab.com/xgqt/racket-mike"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="malcolmstill/pollen-count"
 GH_COMMIT="c4da923debcf40d0558ea4cb97c8a7bd4f35f34b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The pollen-count Racket package"
 HOMEPAGE="https://github.com/malcolmstill/pollen-count"

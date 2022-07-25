@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lehitoskin/riff"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="riff is a racket wrapper for FLIF"
 HOMEPAGE="https://github.com/lehitoskin/riff"

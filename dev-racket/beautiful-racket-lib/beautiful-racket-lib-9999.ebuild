@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mbutterick/beautiful-racket"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="support library for beautiful-racket"
 HOMEPAGE="https://github.com/mbutterick/beautiful-racket"

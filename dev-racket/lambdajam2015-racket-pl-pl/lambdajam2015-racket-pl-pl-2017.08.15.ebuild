@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="rfindler/lambdajam-2015-racket-pl-pl"
 GH_COMMIT="4c9001dca9fb72c885d8cc1bef057ac8f56c24d0"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The lambdajam-2015-racket-pl-pl Racket package"
 HOMEPAGE="https://github.com/rfindler/lambdajam-2015-racket-pl-pl"

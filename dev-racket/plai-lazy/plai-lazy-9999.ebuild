@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mflatt/plai-lazy"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A lazy variant of the plai language"
 HOMEPAGE="https://github.com/mflatt/plai-lazy"

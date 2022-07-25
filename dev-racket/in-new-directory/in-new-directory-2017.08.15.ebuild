@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samth/in-new-directory"
 GH_COMMIT="f7020748288df28ed8371a521781a5d0986582a6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Run things in new directories"
 HOMEPAGE="https://github.com/samth/in-new-directory"

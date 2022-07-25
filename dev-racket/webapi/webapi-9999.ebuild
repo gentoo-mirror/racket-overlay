@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="rmculpepper/webapi"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Implementations of a few web APIs, including OAuth2, PicasaWeb, and Blogger."
 HOMEPAGE="https://github.com/rmculpepper/webapi"

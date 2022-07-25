@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lwhjp/rince"
 GH_COMMIT="61664bfee27a53d18fcb9880e1202eb5cc8f4a5f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The rince Racket package"
 HOMEPAGE="https://github.com/lwhjp/rince"

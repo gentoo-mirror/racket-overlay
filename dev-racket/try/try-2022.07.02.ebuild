@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="RayRacine/try"
 GH_COMMIT="b73f3053ac6930443bbbc6a12cfd947e1b4d9413"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The try Racket package"
 HOMEPAGE="https://gitlab.com/RayRacine/try"

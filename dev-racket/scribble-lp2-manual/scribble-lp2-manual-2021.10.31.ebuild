@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="benknoble/scribble-lp2-manual"
 GH_COMMIT="97103586af16f3d2ee02d336fa537a4396f25d49"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Literate programming in style"
 HOMEPAGE="https://github.com/benknoble/scribble-lp2-manual"

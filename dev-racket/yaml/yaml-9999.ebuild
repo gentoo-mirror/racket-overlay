@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="esilkensen/yaml"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library for parsing and emitting YAML."
 HOMEPAGE="https://github.com/esilkensen/yaml"

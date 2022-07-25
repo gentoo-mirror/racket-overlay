@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket/plt-web"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Web-page creation libraries"
 HOMEPAGE="https://github.com/racket/plt-web"

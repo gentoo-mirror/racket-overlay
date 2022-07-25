@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="RenaissanceBug/racket-cookies"
 GH_COMMIT="06e14b37fbd237b74563661c522df02855dadd2f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="RFC6265-compliant cookie handling for client and server (test)"
 HOMEPAGE="https://github.com/RenaissanceBug/racket-cookies"

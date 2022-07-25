@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="syntacticlosure/eff"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Library Provide Extensible Effects in Racket (Untyped)."
 HOMEPAGE="https://github.com/syntacticlosure/eff"

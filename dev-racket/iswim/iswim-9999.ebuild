@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/iswim"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="iswim implementation"
 HOMEPAGE="https://github.com/jeapostrophe/iswim"

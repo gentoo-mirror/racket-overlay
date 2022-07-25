@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tonyg/racket-tabular"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Experimental tabular data package"
 HOMEPAGE="https://github.com/tonyg/racket-tabular"

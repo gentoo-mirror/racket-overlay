@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket-tw/reporter"
 GH_COMMIT="dc3243e339c3dfaa2961cb2bc43e6c1037efa5a0"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A util toolbox for compiler error reporting"
 HOMEPAGE="https://github.com/racket-tw/reporter"

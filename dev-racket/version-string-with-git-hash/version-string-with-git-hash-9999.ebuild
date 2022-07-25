@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.flux.utah.edu"
 GH_REPO="xsmith/version-string-with-git-hash"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Do you want your package version string to contain a git commit hash?"
 HOMEPAGE="https://gitlab.flux.utah.edu/xsmith/version-string-with-git-hash"

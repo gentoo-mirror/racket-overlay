@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-libargon2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The libargon2 Racket package"
 HOMEPAGE="https://github.com/Bogdanp/racket-libargon2"

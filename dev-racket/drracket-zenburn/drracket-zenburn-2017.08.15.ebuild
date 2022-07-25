@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="tautologico/drracket-zenburn"
 GH_COMMIT="baec7d09cf9dad88303f123d30626fc466b32c81"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The Zenburn colorscheme for DrRacket."
 HOMEPAGE="https://github.com/tautologico/drracket-zenburn"

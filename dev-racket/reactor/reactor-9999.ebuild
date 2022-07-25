@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="florence/reactor"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An embedded synchronous reactive language, a la reactiveML"
 HOMEPAGE="https://github.com/florence/reactor"

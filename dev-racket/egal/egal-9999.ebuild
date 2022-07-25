@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="samth/egal"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Henry Baker's egal"
 HOMEPAGE="https://github.com/samth/egal"

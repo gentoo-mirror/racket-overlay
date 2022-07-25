@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="aowens-21/puzzler"
 GH_COMMIT="be84df0049795acddf4eee0cc0225f0659df0445"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A language for building 2D grid-based puzzle games."
 HOMEPAGE="https://github.com/aowens-21/puzzler"

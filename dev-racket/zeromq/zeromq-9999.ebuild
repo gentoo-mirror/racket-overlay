@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/zeromq"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Racket interface to zeromq based on an FFI"
 HOMEPAGE="https://github.com/jeapostrophe/zeromq"

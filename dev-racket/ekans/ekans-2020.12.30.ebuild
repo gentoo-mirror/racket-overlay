@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="kalxd/ekans"
 GH_COMMIT="52d5acb0339dc38a6410f853957d57f90f566131"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The ekans Racket package"
 HOMEPAGE="https://github.com/kalxd/ekans"

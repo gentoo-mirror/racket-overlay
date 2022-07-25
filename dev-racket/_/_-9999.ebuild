@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="LeifAndersen/racket-_"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The _ Racket package"
 HOMEPAGE="https://github.com/LeifAndersen/racket-_"

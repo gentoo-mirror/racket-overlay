@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket/ChezScheme"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Creates Chez Scheme boot files from source"
 HOMEPAGE="https://github.com/racket/ChezScheme"

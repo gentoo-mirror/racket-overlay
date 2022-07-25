@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/automata"
 GH_COMMIT="6abe851b83b18fcdcb8f2b19ab87cdabc90c71ce"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a library for defining efficient automata using match patterns"
 HOMEPAGE="https://github.com/jeapostrophe/automata"

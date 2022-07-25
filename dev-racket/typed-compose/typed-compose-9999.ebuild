@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="git.marvid.fr"
 GH_REPO="scolobb/typed-compose"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Utilities for composing functions in Typed Racket."
 HOMEPAGE="https://git.marvid.fr/scolobb/typed-compose"

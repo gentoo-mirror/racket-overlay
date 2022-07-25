@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samth/disassemble"
 GH_COMMIT="c4f80cd7994d2d4f9ad4aae0734c454d33390017"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Disassembler for JIT-compiled functions."
 HOMEPAGE="https://github.com/samth/disassemble"

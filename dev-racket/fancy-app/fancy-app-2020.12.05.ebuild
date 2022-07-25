@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samth/fancy-app"
 GH_COMMIT="31ddeb91625dd6f95002c47e670751dd16704524"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Scala-style anonymous functions"
 HOMEPAGE="https://github.com/samth/fancy-app"

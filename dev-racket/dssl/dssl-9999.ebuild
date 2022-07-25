@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tov/dssl"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The dssl Racket package"
 HOMEPAGE="https://github.com/tov/dssl"

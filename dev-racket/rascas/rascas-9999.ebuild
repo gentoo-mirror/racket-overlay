@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Metaxal/rascas"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The rascas Racket package"
 HOMEPAGE="https://github.com/Metaxal/rascas"

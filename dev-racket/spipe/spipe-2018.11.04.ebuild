@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="BourgondAries/spipe"
 GH_COMMIT="d6bc777a8113447fea9a3f10b5a0fbce6269dce4"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A 'super-pipe' that threads over Racket hash-tables"
 HOMEPAGE="https://github.com/BourgondAries/spipe"

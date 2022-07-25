@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lathe/lathe-morphisms-for-racket"
 GH_COMMIT="07e4a0c299e1f015e531acf51393e6f8fd8d7354"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Interfaces for category theory concepts. (test)"
 HOMEPAGE="https://github.com/lathe/lathe-morphisms-for-racket"

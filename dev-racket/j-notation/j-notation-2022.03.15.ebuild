@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/j-notation"
 GH_COMMIT="7110bc3dfab535e193337756b76e3b5d8fd03033"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An exploration into an alternate surface syntax."
 HOMEPAGE="https://github.com/jackfirth/j-notation"

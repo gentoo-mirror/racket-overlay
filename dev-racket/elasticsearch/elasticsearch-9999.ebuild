@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="vishesh/elasticsearch.rkt"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The elasticsearch Racket package"
 HOMEPAGE="https://github.com/vishesh/elasticsearch.rkt"

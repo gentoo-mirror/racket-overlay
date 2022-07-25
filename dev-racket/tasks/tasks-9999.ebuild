@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mordae/racket-tasks"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Sugar for sync."
 HOMEPAGE="https://github.com/mordae/racket-tasks"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Quickscript-Competiton/July2020entries"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Scripts from the Quickscript Competition July 2020"
 HOMEPAGE="https://github.com/Quickscript-Competiton/July2020entries"

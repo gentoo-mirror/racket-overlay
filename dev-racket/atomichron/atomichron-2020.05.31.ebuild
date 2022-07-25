@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/atomichron"
 GH_COMMIT="77dddb12241a8d7ca8f1520a1862a79cad91a6c6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A microbenchmarking library"
 HOMEPAGE="https://github.com/jackfirth/atomichron"

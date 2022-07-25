@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="florence/cover"
 GH_COMMIT="ad50ffa8f6246053bec24b39b9cae7fad1534373"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A code coverage tool, test part"
 HOMEPAGE="https://github.com/florence/cover"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket-tw/syntax-extension"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A helper collection of syntax"
 HOMEPAGE="https://github.com/racket-tw/syntax-extension"

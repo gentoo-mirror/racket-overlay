@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="camoy/stream-etc"
 GH_COMMIT="7f3a39fb4aa356b9efd9925f0afa914238bd87dc"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Miscellaneous stream operations."
 HOMEPAGE="https://github.com/camoy/stream-etc"

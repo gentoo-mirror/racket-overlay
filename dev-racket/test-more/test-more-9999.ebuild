@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dstorrs/racket-test-more"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The test-more Racket package"
 HOMEPAGE="https://github.com/dstorrs/racket-test-more"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="massung/r-cade"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Retro game engine."
 HOMEPAGE="https://github.com/massung/r-cade"

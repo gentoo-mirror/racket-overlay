@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Kalimehtar/client-cookies"
 GH_COMMIT="ea699f80c4865c71971a73b4cfc444969a633c6c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Client cookies jar for net/url and similar libs.Deprecated: use net/cookies."
 HOMEPAGE="https://github.com/Kalimehtar/client-cookies"

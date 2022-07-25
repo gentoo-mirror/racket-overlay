@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="rfindler/icfp-2014-contracts-talk"
 GH_COMMIT="e1df17f23d7cd4fbb4fa78c15d6eb3f79c576ddf"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Slideshow implementation of ICFP 2014 Contracts Keynote Talk"
 HOMEPAGE="https://github.com/rfindler/icfp-2014-contracts-talk"

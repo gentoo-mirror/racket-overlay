@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="SimonLSchlee/open-app"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A utility for opening a file or url with the default application."
 HOMEPAGE="https://github.com/SimonLSchlee/open-app"

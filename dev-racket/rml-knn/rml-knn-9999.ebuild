@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="johnstonskj/rml-knn"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The rml-knn Racket package"
 HOMEPAGE="https://github.com/johnstonskj/rml-knn"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="samdphillips/racket-keyring"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Keyring backend using MacOS Keychain"
 HOMEPAGE="https://github.com/samdphillips/racket-keyring"

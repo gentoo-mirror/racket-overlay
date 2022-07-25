@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jackfirth/type-conventions"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Forms for giving specific argument names implicit types"
 HOMEPAGE="https://github.com/jackfirth/type-conventions"

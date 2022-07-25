@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="ots22/rackpropagator"
 GH_COMMIT="5c5367985bf5fe20e8dd6e9da35792a203c296d1"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Reverse-mode automatic differentiation (implementation)"
 HOMEPAGE="https://github.com/ots22/rackpropagator"

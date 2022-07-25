@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="the-language/zKanren2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The zKanren Racket package"
 HOMEPAGE="https://github.com/the-language/zKanren2"

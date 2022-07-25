@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="takikawa/raco-find-collection"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A script to find collections."
 HOMEPAGE="https://github.com/takikawa/raco-find-collection"

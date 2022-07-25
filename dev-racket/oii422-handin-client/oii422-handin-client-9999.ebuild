@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="ifigueroap/oii-422-handin-client"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Handin Client for PUCV PL course OII-422"
 HOMEPAGE="https://github.com/ifigueroap/oii-422-handin-client"

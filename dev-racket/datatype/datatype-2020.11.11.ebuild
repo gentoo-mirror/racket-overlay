@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="pnwamk/datatype"
 GH_COMMIT="5d865929dfcab856ebb85924ef16a74b13362662"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Algebraic(-like) Data Types"
 HOMEPAGE="https://github.com/pnwamk/datatype"

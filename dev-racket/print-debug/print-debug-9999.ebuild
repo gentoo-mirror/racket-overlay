@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="aldis-sarja/print-debug"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Debugging tool. Use for debug printing variables and expresions."
 HOMEPAGE="https://github.com/aldis-sarja/print-debug"

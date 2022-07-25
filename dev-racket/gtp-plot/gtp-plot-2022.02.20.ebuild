@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="bennn/gtp-plot"
 GH_COMMIT="939c39dc7f355063eaa1b8759fe622b7280a9406"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Plots for gradual typing performance"
 HOMEPAGE="https://github.com/bennn/gtp-plot"

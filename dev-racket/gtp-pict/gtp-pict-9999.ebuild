@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="gradual-typing-performance/gtp-pict"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Picts related to gradual typing / performance"
 HOMEPAGE="https://gitlab.com/gradual-typing-performance/gtp-pict"

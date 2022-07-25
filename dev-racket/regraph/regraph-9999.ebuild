@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="herbie-fp/regraph"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A pure-Racket equivalence graph"
 HOMEPAGE="https://github.com/herbie-fp/regraph"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="BourgondAries/logger"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A simple logging library with color and 7 log levels."
 HOMEPAGE="https://github.com/BourgondAries/logger"

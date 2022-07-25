@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="rfindler/lambdajam-2015-racket-pl-pl"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The lambdajam-2015-racket-pl-pl Racket package"
 HOMEPAGE="https://github.com/rfindler/lambdajam-2015-racket-pl-pl"

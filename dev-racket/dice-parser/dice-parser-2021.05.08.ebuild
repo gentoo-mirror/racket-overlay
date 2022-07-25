@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="cmargiotta/dice-parser"
 GH_COMMIT="99f06659f3f7659dc577df4fef1d2b6f6eb12baa"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A parser for dice expressions like 1d6-1d4+5."
 HOMEPAGE="https://github.com/cmargiotta/dice-parser"

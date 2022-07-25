@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dstorrs/try-catch"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The try-catch Racket package"
 HOMEPAGE="https://github.com/dstorrs/try-catch"

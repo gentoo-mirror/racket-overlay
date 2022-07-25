@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mflatt/sirmail"
 GH_COMMIT="30c9bd6c6993ddd432d50a7ab705afa22ec34891"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An IMAP mail client"
 HOMEPAGE="https://github.com/mflatt/sirmail"

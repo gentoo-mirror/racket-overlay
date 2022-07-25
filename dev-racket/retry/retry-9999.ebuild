@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jackfirth/racket-retry"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Composable configurable retryers for flakily failing operations."
 HOMEPAGE="https://github.com/jackfirth/racket-retry"

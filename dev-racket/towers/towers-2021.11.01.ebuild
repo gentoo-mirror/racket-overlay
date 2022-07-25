@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Metaxal/towers"
 GH_COMMIT="e6777c9259ab3dc687d3614d783316a2490438f2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The GUI client interface for the Towers game."
 HOMEPAGE="https://github.com/Metaxal/towers"

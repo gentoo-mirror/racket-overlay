@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="bldl/magnolisp"
 GH_COMMIT="191d529486e688e5dda2be677ad8fe3b654e0d4f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The magnolisp Racket package"
 HOMEPAGE="https://github.com/bldl/magnolisp"

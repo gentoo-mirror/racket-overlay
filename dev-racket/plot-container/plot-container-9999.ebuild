@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="alex-hhh/plot-container"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Embed plot snips in Racket GUI applications"
 HOMEPAGE="https://github.com/alex-hhh/plot-container"

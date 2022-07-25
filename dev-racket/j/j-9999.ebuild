@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lwhjp/racket-jlang"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket implementation of J language and related concepts"
 HOMEPAGE="https://github.com/lwhjp/racket-jlang"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="florence/cover"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A code coverage tool, test part"
 HOMEPAGE="https://github.com/florence/cover"

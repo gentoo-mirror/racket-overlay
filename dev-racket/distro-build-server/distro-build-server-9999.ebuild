@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket/distro-build"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="server-side part of distro-build"
 HOMEPAGE="https://github.com/racket/distro-build"

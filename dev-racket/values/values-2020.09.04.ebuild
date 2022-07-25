@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dedbox/racket-values"
 GH_COMMIT="beec5757368e9bf64a42c7b0f5e5a0fa49f622c5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="functional multi-valued computation"
 HOMEPAGE="https://github.com/dedbox/racket-values"

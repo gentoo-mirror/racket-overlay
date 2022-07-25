@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samth/raco-macro-step"
 GH_COMMIT="efbc4ba9ebfda38624050e9cfa0452da823decf0"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Run the macro stepper from the command line"
 HOMEPAGE="https://github.com/samth/raco-macro-step"

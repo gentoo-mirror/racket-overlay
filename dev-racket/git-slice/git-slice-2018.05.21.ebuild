@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samth/git-slice"
 GH_COMMIT="110b361425280e61abf8de99e5d41865afc5cddb"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="For slicing git repositories into pieces"
 HOMEPAGE="https://github.com/samth/git-slice"

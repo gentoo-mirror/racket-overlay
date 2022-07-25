@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/unstable-options-lib"
 GH_COMMIT="5b9ff5e62319ddb929235c5ddcd4cee350ee9a9b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Experimental libraries for option contracts"
 HOMEPAGE="https://github.com/racket/unstable-options-lib"

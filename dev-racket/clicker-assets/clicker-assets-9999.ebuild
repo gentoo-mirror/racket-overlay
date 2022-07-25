@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="thoughtstem/clicker-assets"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Assets for clicker games"
 HOMEPAGE="https://github.com/thoughtstem/clicker-assets"

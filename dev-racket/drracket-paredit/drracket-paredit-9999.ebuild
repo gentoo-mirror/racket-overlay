@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="yjqww6/drracket-paredit"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="paredit keybindings for DrRacket"
 HOMEPAGE="https://github.com/yjqww6/drracket-paredit"

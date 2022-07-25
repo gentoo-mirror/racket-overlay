@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="liberalartist/appveyor-racket"
 GH_COMMIT="21f21d99160a0edefd7ceeb001210c88a8af1099"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Help for using AppVeyor with Racket projects"
 HOMEPAGE="https://github.com/liberalartist/appveyor-racket"

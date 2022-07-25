@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samth/persistent-union-find"
 GH_COMMIT="f95278e362550a59dae327bd15f9f609009de6d0"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A persistent implementation of the union-find data structure"
 HOMEPAGE="https://github.com/samth/persistent-union-find"

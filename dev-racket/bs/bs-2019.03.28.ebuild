@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="oldsin/bs"
 GH_COMMIT="0a88ed7217076a6286fdaef0183bea596149991b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Bitcoin Script Implementation for testing Script riddles."
 HOMEPAGE="https://github.com/oldsin/bs"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="yanyingwang/http-client"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A practical http client library for sending data to http servers."
 HOMEPAGE="https://github.com/yanyingwang/http-client"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jackfirth/http2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A (wildly unimplemented) http2 client and server for Racket"
 HOMEPAGE="https://github.com/jackfirth/http2"

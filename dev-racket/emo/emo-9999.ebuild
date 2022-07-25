@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="yurb/emo"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A very simple command line emoji finder"
 HOMEPAGE="https://gitlab.com/yurb/emo"

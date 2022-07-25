@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jbclements/t-test"
 GH_COMMIT="eb5cc28868689324f6c27722d2516715570cab97"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Simple implementations of Welch's and Student's t-tests"
 HOMEPAGE="https://github.com/jbclements/t-test"

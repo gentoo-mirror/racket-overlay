@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dvanhorn/redex-aam-tutorial"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A brief introduction to the Redex  and Abstracting Abstract Machines."
 HOMEPAGE="https://github.com/dvanhorn/redex-aam-tutorial"

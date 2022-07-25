@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="sorawee/drracket-restore-workspace"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Restore workspace for DrRacket"
 HOMEPAGE="https://github.com/sorawee/drracket-restore-workspace"

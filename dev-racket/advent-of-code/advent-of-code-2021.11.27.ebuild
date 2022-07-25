@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="eutro/advent-of-code-racket"
 GH_COMMIT="b3d7d8f86a7a59a006b6d65cfd8bc5a5f9369c05"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Package for fetching Advent of Code input."
 HOMEPAGE="https://github.com/eutro/advent-of-code-racket"

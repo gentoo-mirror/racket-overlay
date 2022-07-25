@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lassik/racket-scrapyard"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Light helper for web scrapers. Caches and parses downloaded files."
 HOMEPAGE="https://github.com/lassik/racket-scrapyard"

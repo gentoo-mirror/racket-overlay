@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mflatt/s3-sync"
 GH_COMMIT="46ce35eae8d99f4a7cee945aa7bd9d7b07f8beab"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Sync filesystem with an S3 bucket"
 HOMEPAGE="https://github.com/mflatt/s3-sync"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="otherjoel/bookcover"
 GH_COMMIT="824cdc44d35cc2c418074e4eaf12bbb0e516342f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The bookcover Racket package"
 HOMEPAGE="https://github.com/otherjoel/bookcover"

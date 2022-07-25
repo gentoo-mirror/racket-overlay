@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mwunsch/overscan"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A toolkit and live coding environment for broadcasting video."
 HOMEPAGE="https://github.com/mwunsch/overscan"

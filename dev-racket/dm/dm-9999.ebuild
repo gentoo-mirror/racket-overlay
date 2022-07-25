@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mordae/racket-dm"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Linux Device Mapper bindings for Racket."
 HOMEPAGE="https://github.com/mordae/racket-dm"

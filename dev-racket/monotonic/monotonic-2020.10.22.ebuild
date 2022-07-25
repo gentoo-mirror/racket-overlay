@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-monotonic"
 GH_COMMIT="4d2271f47d3c40e121afec4afc37de8adb4cf773"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Monotonic time for Racket."
 HOMEPAGE="https://github.com/Bogdanp/racket-monotonic"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/distro-build"
 GH_COMMIT="49c1c92d3833977a80b2fb39201429e7523ed665"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Tests for distro-build"
 HOMEPAGE="https://github.com/racket/distro-build"

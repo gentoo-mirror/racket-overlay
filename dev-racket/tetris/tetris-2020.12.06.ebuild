@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mosceo/tetris"
 GH_COMMIT="bbf9dc58b8b1606f574ebf1a466eeef278689a68"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A colorful version of tetris."
 HOMEPAGE="https://github.com/mosceo/tetris"

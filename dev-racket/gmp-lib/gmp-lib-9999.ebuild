@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="rmculpepper/racket-gmp"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Bindings to gmp (the GNU Multiple Precision Arithmetic Library)"
 HOMEPAGE="https://github.com/rmculpepper/racket-gmp"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="whichxjy/rockstar-rkt"
 GH_COMMIT="47723774e7ec6995eedd8fba27856b58ab056f71"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The rockstar Racket package"
 HOMEPAGE="https://github.com/whichxjy/rockstar-rkt"

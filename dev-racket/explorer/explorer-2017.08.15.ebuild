@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="tonyg/racket-explorer"
 GH_COMMIT="2a1836d01a7ff2ed025a67cc5f06c38b56776b2d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Utility for interactive exploration of complex data structures."
 HOMEPAGE="https://github.com/tonyg/racket-explorer"

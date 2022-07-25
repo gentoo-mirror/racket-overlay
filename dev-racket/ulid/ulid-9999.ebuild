@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-ulid"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Universally unique lexicographically sortable identifiers."
 HOMEPAGE="https://github.com/Bogdanp/racket-ulid"

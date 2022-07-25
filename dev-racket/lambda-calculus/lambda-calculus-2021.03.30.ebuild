@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="oransimhony/lambda-calculus"
 GH_COMMIT="9111401749ef9be7f162eec79961b448024522af"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A lambda-calculus DSL in Racket"
 HOMEPAGE="https://github.com/oransimhony/lambda-calculus"

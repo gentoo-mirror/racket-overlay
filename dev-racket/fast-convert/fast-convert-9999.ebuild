@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Kalimehtar/fast-convert"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Fast conversion from bytes to string  for one-byte encoding"
 HOMEPAGE="https://github.com/Kalimehtar/fast-convert"

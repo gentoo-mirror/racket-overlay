@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="florence/pop-pl"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Patient-Oriented Prescription Programming Language"
 HOMEPAGE="https://github.com/florence/pop-pl"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="nixpulvis/parser-combinator"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Parser / Lexer Library, and JSON Implementation."
 HOMEPAGE="https://github.com/nixpulvis/parser-combinator"

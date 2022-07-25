@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jbclements/rtmidi"
 GH_COMMIT="11879d2e6a3eea7d1766d58123fe89363831313f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The rtmidi Racket package"
 HOMEPAGE="https://github.com/jbclements/rtmidi"

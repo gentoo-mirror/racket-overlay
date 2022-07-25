@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="takikawa/racket-aosd"
 GH_COMMIT="7ab51262a256a324b062d7b407cb5341d1f41f69"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="FFI bindings to the Atheme Project's libaosd"
 HOMEPAGE="https://github.com/takikawa/racket-aosd"

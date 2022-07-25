@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="spritely/racket-csexp"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Canonical s-expressions for Racket."
 HOMEPAGE="https://gitlab.com/spritely/racket-csexp"

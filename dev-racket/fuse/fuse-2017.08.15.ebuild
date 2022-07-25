@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="thinkmoore/racket-fuse"
 GH_COMMIT="5c24b1e135e97ff6c8e49b363f01ff21c28ecf8b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Library for creating user-space filesystems with FUSE"
 HOMEPAGE="https://github.com/thinkmoore/racket-fuse"

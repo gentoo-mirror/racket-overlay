@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-net-mime-type"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Utilities for working with MIME types. (docs, tests & implementation)"
 HOMEPAGE="https://github.com/Bogdanp/racket-net-mime-type"

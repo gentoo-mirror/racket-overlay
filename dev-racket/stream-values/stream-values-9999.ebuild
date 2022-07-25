@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="sorawee/stream-values"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library for multiple values manipulation in streams"
 HOMEPAGE="https://github.com/sorawee/stream-values"

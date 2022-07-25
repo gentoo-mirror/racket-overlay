@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="97jaz/hamt"
 GH_COMMIT="561cb6a447e9766dcb8abf2c01b30b87d91135f5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Hash array mapped tries"
 HOMEPAGE="https://github.com/97jaz/hamt"

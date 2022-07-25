@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="robertkleffner/neologia"
 GH_COMMIT="92d6ccde9041dc07b5c0db1849b4e1c65cb3cf2d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A language for creating and managing dictionaries and lexicons"
 HOMEPAGE="https://github.com/robertkleffner/neologia"

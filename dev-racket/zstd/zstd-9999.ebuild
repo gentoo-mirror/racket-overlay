@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="git.sr.ht"
 GH_REPO="~williewillus/racket-zstd"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The zstd Racket package"
 HOMEPAGE="https://git.sr.ht/~williewillus/racket-zstd"

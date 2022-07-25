@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="sunarch/endeavor"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="((status pre-alpha) (phase design))"
 HOMEPAGE="https://github.com/sunarch/endeavor"

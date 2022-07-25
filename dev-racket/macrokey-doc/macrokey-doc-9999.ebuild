@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="xgqt/racket-macrokey"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="MacroKey. Documentation."
 HOMEPAGE="https://gitlab.com/xgqt/racket-macrokey"

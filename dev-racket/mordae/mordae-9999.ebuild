@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mordae/racket-mordae"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Personal utilities, do not use directly!"
 HOMEPAGE="https://github.com/mordae/racket-mordae"

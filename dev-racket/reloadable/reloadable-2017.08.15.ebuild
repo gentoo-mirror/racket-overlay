@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="tonyg/racket-reloadable"
 GH_COMMIT="cae2a141955bc2e0d068153f2cd07f88e6a6e9ef"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The reloadable Racket package"
 HOMEPAGE="https://github.com/tonyg/racket-reloadable"

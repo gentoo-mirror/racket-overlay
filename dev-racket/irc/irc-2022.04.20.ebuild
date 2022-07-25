@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="schuster/racket-irc"
 GH_COMMIT="ba160652e59b57e132ff9155509295484abe656b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An IRC client library."
 HOMEPAGE="https://github.com/schuster/racket-irc"

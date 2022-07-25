@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="cosmez/racket-sdl"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket bindings for SDL"
 HOMEPAGE="https://github.com/cosmez/racket-sdl"

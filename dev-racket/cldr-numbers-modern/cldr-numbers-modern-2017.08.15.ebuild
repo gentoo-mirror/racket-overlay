@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="97jaz/cldr-numbers-modern"
 GH_COMMIT="625428099b3f8cd264955a283dddc176a6080ba1"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="API for cldr-numbers-modern data set"
 HOMEPAGE="https://github.com/97jaz/cldr-numbers-modern"

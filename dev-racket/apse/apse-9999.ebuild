@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/apse"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a pixel-based sprite editor (good with mode-lambda)"
 HOMEPAGE="https://github.com/jeapostrophe/apse"

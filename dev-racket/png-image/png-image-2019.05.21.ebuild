@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lehitoskin/png-image"
 GH_COMMIT="2515ab0af55f3d9e8aac92aaa3bc6a9dc571f60d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Library to view and modify PNG chunks."
 HOMEPAGE="https://github.com/lehitoskin/png-image"

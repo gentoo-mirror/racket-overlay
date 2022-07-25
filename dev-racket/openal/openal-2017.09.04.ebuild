@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/openal"
 GH_COMMIT="50b52525426f4bf2e0c3fd4c2ab4d0c59598e99a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="FFI for OpenAL"
 HOMEPAGE="https://github.com/jeapostrophe/openal"

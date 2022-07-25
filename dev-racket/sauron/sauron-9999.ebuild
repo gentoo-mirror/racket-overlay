@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket-tw/sauron"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A DrRacket plugin to make it experience like an IDE"
 HOMEPAGE="https://github.com/racket-tw/sauron"

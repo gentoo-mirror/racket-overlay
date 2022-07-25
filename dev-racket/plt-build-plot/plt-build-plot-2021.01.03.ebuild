@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/plt-build-plot"
 GH_COMMIT="e8c000f6611833f183f598c9d34380ff9d1bfc96"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="tools to record and plot raco setup memory use"
 HOMEPAGE="https://github.com/racket/plt-build-plot"

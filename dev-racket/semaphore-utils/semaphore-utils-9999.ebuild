@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dstorrs/semaphore-utils"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A small library for working with semaphores."
 HOMEPAGE="https://github.com/dstorrs/semaphore-utils"

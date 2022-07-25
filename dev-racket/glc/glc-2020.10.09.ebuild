@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="GriffinMB/glc"
 GH_COMMIT="22fd96aa0a11b092cd8aaaeb049e03bea05764d3"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A lambda calculus #lang"
 HOMEPAGE="https://github.com/GriffinMB/glc"

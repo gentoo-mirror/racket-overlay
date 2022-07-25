@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/remote-shell"
 GH_COMMIT="002cc96693bb7ca24e50614bae36d8070eacbd14"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="implementation (no documentation) part of remote-shell"
 HOMEPAGE="https://github.com/racket/remote-shell"

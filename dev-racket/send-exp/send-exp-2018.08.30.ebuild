@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="tonyg/racket-send-exp"
 GH_COMMIT="fcbb060fb9a0d8efc6810f6d77accf11093f6c8e"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Terse syntax for object-oriented message sending"
 HOMEPAGE="https://github.com/tonyg/racket-send-exp"

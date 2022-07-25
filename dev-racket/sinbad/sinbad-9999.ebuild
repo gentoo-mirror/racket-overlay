@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="berry-cs/sinbad-rkt"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The sinbad Racket package"
 HOMEPAGE="https://github.com/berry-cs/sinbad-rkt"

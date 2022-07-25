@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="philnguyen/intern"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Type-safe interning of datatype in Typed Racket as a new sub-type of Index"
 HOMEPAGE="https://github.com/philnguyen/intern"

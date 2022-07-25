@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="bartbes/mosquitto-racket"
 GH_COMMIT="03b969b3f8806f7cfeb31b281981628fe8e2ca8b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An FFI binding of libmosquitto for racket"
 HOMEPAGE="https://github.com/bartbes/mosquitto-racket"

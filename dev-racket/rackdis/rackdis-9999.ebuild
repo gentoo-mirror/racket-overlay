@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="eu90h/rackdis"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Redis bindings"
 HOMEPAGE="https://github.com/eu90h/rackdis"

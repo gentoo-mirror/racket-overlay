@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tonyg/racket-xe"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="xexpr XML utilities, plus traversal and filtering"
 HOMEPAGE="https://github.com/tonyg/racket-xe"

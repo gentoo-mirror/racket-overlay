@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mflatt/scratchy"
 GH_COMMIT="aef8883759fc962828bf977811697fccf06ef8b0"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Scratch-like runtime and language"
 HOMEPAGE="https://github.com/mflatt/scratchy"

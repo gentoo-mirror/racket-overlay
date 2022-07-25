@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="quantum1423/libkenji"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The libkenji Racket package"
 HOMEPAGE="https://github.com/quantum1423/libkenji"

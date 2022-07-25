@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jbclements/mboxrd-read"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket functions for reading mboxrd and mboxcl2 (used by dovecot) format"
 HOMEPAGE="https://github.com/jbclements/mboxrd-read"

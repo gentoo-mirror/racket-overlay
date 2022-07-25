@@ -7,7 +7,7 @@ GH_DOM="gitlab.flux.utah.edu"
 GH_REPO="xsmith/clotho"
 GH_COMMIT="7cc309787f07286e3b1411346f4e85e4bec09098"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library for enabling parametric randomness in Racket applications."
 HOMEPAGE="https://gitlab.flux.utah.edu/xsmith/clotho"

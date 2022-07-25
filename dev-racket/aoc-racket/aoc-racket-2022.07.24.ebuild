@@ -7,7 +7,7 @@ GH_DOM="git.matthewbutterick.com"
 GH_REPO="mbutterick/aoc-racket"
 GH_COMMIT="14cae851fe7506b8552066fb746fa5589a6cc258"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The aoc-racket Racket package"
 HOMEPAGE="https://git.matthewbutterick.com/mbutterick/aoc-racket"

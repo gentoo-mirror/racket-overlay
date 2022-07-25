@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="xgqt/racket-ziptie"
 GH_COMMIT="78a7c07c439e96348bffb673ae210a96ea292788"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The ziptie-git Racket package"
 HOMEPAGE="https://gitlab.com/xgqt/racket-ziptie"

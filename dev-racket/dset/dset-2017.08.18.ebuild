@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="pnwamk/dset"
 GH_COMMIT="ce3581c73c42a3c8bbb6b4498325109fdf221c12"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Deterministic Sets"
 HOMEPAGE="https://github.com/pnwamk/dset"

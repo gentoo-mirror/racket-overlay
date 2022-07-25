@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="soegaard/linux-shared-libraries"
 GH_COMMIT="f49d1bd6794437482c46d351c71313070e0244d5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The linux-shared-libraries Racket package"
 HOMEPAGE="https://github.com/soegaard/linux-shared-libraries"

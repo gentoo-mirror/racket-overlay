@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jackfirth/command-line-ext"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Extensible form of command-line with command-line-flag-expanders"
 HOMEPAGE="https://github.com/jackfirth/command-line-ext"

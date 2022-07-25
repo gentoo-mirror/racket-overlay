@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="johnstonskj/racket-thrift"
 GH_COMMIT="bbed34e6af97167ec5e9327c7c6ad739e331e793"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Support for the Apache Thrift messaging framework"
 HOMEPAGE="https://github.com/johnstonskj/racket-thrift"

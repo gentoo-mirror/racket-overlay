@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/compose-app"
 GH_COMMIT="b1ca7838740c3cc84e392ea17f9e57f0595c111f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The compose-app Racket package"
 HOMEPAGE="https://github.com/jackfirth/compose-app"

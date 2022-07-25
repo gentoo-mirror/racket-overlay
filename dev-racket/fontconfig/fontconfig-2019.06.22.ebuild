@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="takikawa/racket-fontconfig"
 GH_COMMIT="3c4332aa72fff0ddf1172d442f30954dffde616b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="FFI bindings for fontconfig"
 HOMEPAGE="https://github.com/takikawa/racket-fontconfig"

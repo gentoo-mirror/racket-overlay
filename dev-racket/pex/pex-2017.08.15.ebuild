@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mordae/racket-pex"
 GH_COMMIT="57997dcdcf5533249d65a9040d55763b22dda57a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Apollo Art PEx System Control"
 HOMEPAGE="https://github.com/mordae/racket-pex"

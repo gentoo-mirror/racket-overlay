@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dedbox/racket-diagrams"
 GH_COMMIT="ab990ea081e982f7216ed9f7ff3c8e44749cd645"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Draw technical diagrams"
 HOMEPAGE="https://github.com/dedbox/racket-diagrams"

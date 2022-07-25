@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="default-kramer/plisqin"
 GH_COMMIT="26421c7c42656c873c4e0a4fc7f48c0a3ed7770f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An SQL generator"
 HOMEPAGE="https://github.com/default-kramer/plisqin"

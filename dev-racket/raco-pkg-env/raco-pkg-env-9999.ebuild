@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="samdphillips/raco-pkg-env"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="virtualenv like tool for Racket"
 HOMEPAGE="https://github.com/samdphillips/raco-pkg-env"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dyoo/stardate"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Compute the current TNG stardate."
 HOMEPAGE="https://github.com/dyoo/stardate"

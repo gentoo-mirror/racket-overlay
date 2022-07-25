@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jessealama/uri-template"
 GH_COMMIT="6fe4420e3a55da6ae02df453a142b96ef3b3b4ea"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Implementation of RFC 6570 (URI Template)."
 HOMEPAGE="https://github.com/jessealama/uri-template"

@@ -7,7 +7,7 @@ GH_DOM="git.sr.ht"
 GH_REPO="~sschwarzer/racket-glossary"
 GH_COMMIT="ea0d1efa36f576cdfe09e1599a605ca8d4c2a250"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The racket-glossary Racket package"
 HOMEPAGE="https://git.sr.ht/~sschwarzer/racket-glossary"

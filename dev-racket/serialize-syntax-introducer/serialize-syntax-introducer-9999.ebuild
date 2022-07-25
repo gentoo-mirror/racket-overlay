@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="macrotypefunctors/serialize-syntax-introducer"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The serialize-syntax-introducer Racket package"
 HOMEPAGE="https://github.com/macrotypefunctors/serialize-syntax-introducer"

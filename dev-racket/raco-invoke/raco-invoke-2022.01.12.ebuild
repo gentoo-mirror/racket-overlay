@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/raco-invoke"
 GH_COMMIT="418eb21a7f2d2fea3aeaf0b7179532800d298d1c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The raco-invoke Racket package"
 HOMEPAGE="https://github.com/Bogdanp/raco-invoke"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="euhmeuh/command-tree"
 GH_COMMIT="3a5dd35d43f3be52fb9743361adcb53eabcb8a3a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The command-tree Racket package"
 HOMEPAGE="https://github.com/euhmeuh/command-tree"

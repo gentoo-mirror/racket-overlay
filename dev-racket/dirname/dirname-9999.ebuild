@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="xgqt/racket-dirname"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Basename and dirname functions"
 HOMEPAGE="https://gitlab.com/xgqt/racket-dirname"

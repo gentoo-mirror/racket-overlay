@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="adzai/datadef"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket library for database data retrieval and database mocking."
 HOMEPAGE="https://github.com/adzai/datadef"

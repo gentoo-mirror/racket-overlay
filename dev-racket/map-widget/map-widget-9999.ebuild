@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="alex-hhh/map-widget"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Racket GUI Widget to display maps based on OpenStreetMap tiles"
 HOMEPAGE="https://github.com/alex-hhh/map-widget"

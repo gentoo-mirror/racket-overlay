@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mflatt/plai-typed"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The plai-typed Racket package"
 HOMEPAGE="https://github.com/mflatt/plai-typed"

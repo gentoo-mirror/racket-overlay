@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samth/version-case"
 GH_COMMIT="7614b4a255de110632c12e9c1f3e4976d7e78d22"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Conditional behavior based on the version of Racket"
 HOMEPAGE="https://github.com/samth/version-case"

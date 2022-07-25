@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-http-easy"
 GH_COMMIT="c4eb645672d1e6565460fb9f6776c94fb10e8135"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A high-level HTTP client. (tests only)"
 HOMEPAGE="https://github.com/Bogdanp/racket-http-easy"

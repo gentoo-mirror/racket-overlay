@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jackfirth/rebellion"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A collection of infrastructure libraries"
 HOMEPAGE="https://github.com/jackfirth/rebellion"

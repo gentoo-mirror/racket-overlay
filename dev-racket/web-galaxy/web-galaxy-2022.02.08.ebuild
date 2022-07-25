@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="euhmeuh/web-galaxy"
 GH_COMMIT="d484efe7422df0390d291f74c71cebf6006ab87a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A minimalist web framework for the Racket web-server"
 HOMEPAGE="https://github.com/euhmeuh/web-galaxy"

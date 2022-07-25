@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="oetr/racket-opencv"
 GH_COMMIT="8124eb6b620769137656547e83f9d9587ab37c23"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="FFI bindings to the OpenCV library"
 HOMEPAGE="https://github.com/oetr/racket-opencv"

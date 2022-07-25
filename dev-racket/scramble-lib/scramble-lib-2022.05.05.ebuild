@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="rmculpepper/racket-scramble"
 GH_COMMIT="6f484a576b4a6da61cda9f88b8666d9dff5c1754"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Assorted utility libraries"
 HOMEPAGE="https://github.com/rmculpepper/racket-scramble"

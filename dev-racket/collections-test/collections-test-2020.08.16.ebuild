@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lexi-lambda/racket-collections"
 GH_COMMIT="c4822fc200b0488922cd6e86b4f2ea7cf8c565da"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The collections-test Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/racket-collections"

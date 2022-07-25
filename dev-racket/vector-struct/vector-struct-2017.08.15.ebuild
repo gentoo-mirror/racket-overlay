@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lexi-lambda/racket-vector-struct"
 GH_COMMIT="f5137a445b567a213f20d9c35c60cea88f61c7b1"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A simple abstraction to use vectors like structs for performance"
 HOMEPAGE="https://github.com/lexi-lambda/racket-vector-struct"

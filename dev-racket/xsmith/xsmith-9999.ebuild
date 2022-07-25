@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.flux.utah.edu"
 GH_REPO="xsmith/xsmith"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Generator of highly effective fuzz testers."
 HOMEPAGE="https://gitlab.flux.utah.edu/xsmith/xsmith"

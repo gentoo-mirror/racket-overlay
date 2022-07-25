@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="cemcutting/forged-ocelot"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The forged-ocelot Racket package"
 HOMEPAGE="https://github.com/cemcutting/forged-ocelot"

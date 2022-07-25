@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="ErwinKotz/test_racket_package"
 GH_COMMIT="de1a5a3b39f6f511536e2e53419a7deee2114641"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="great jsonic generator"
 HOMEPAGE="https://github.com/ErwinKotz/test_racket_package"

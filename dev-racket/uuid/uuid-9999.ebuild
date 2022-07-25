@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="LiberalArtist/uuid"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Generate cryptographically-random UUIDs in pure Racket"
 HOMEPAGE="https://github.com/LiberalArtist/uuid"

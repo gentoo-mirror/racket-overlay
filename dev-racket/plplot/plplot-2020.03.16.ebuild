@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="oetr/racket-plplot"
 GH_COMMIT="fab8fe83993506b871eab9f1f6a7f2be3324c0dd"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="FFI bindings to PLplot"
 HOMEPAGE="https://github.com/oetr/racket-plplot"

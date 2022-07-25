@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="git.matthewbutterick.com"
 GH_REPO="mbutterick/sugar"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="shortcuts for simplicity & readability"
 HOMEPAGE="https://git.matthewbutterick.com/mbutterick/sugar"

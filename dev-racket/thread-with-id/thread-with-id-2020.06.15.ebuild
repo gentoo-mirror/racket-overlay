@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dstorrs/thread-with-id"
 GH_COMMIT="0b5908a810b710bae7a8e0bc89f6468c81d12f92"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The thread-with-id Racket package"
 HOMEPAGE="https://github.com/dstorrs/thread-with-id"

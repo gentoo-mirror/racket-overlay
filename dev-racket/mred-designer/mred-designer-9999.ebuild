@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Metaxal/MrEd-Designer"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A WYSIWYG GUI generator for Racket"
 HOMEPAGE="https://github.com/Metaxal/MrEd-Designer"

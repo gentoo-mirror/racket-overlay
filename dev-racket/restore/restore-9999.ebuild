@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/restore"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="protocol for restore program state"
 HOMEPAGE="https://github.com/jeapostrophe/restore"

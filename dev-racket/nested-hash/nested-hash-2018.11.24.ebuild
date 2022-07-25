@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="BourgondAries/nested-hash"
 GH_COMMIT="c562dbe1cf54d8604e56db14526f03c9b6c75b5b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Functions to allow for easy nested hash setting and getting."
 HOMEPAGE="https://github.com/BourgondAries/nested-hash"

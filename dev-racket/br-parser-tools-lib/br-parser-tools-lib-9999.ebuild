@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mbutterick/br-parser-tools"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="fork of parser-tools-lib for Beautiful Racket"
 HOMEPAGE="https://github.com/mbutterick/br-parser-tools"

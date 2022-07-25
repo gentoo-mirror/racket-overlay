@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="stamourv/feature-profile"
 GH_COMMIT="cc96e3aa8efe71c013f662c60e2b0d9231b27f97"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Profile that measures time spent in language/library features"
 HOMEPAGE="https://github.com/stamourv/feature-profile"

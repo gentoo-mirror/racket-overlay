@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-gui-easy"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A declarative API on top of racket/gui. (docs & implementation)"
 HOMEPAGE="https://github.com/Bogdanp/racket-gui-easy"

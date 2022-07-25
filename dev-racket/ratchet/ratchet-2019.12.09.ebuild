@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="thoughtstem/ratchet"
 GH_COMMIT="6dcd99e9ad43e37feeae41838282ce3b94945ca1"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Toolkit for defining visual languages."
 HOMEPAGE="https://github.com/thoughtstem/ratchet"

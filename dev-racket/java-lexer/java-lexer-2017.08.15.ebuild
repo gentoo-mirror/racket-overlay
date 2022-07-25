@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="stamourv/java-lexer"
 GH_COMMIT="83e12122919d4582d63bea5b051cbeab6ee32c57"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Java syntax highlighting for Scribble."
 HOMEPAGE="https://github.com/stamourv/java-lexer"

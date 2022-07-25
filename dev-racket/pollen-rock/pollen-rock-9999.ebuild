@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lijunsong/pollen-rock"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An enhanced Pollen server and an in-browser editor for Pollen files"
 HOMEPAGE="https://github.com/lijunsong/pollen-rock"

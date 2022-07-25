@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/zeromq"
 GH_COMMIT="9743809a4415f342da111aaf876c1b9c8dfa8bf1"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Racket interface to zeromq based on an FFI"
 HOMEPAGE="https://github.com/jeapostrophe/zeromq"

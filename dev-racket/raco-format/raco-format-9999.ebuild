@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mxork/raco-format"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Format racket source files"
 HOMEPAGE="https://github.com/mxork/raco-format"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="sorawee/loop"
 GH_COMMIT="10338757e7ef5ce297070b6c2c4a74678430bb9c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Advanced named let"
 HOMEPAGE="https://github.com/sorawee/loop"

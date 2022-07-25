@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="BourgondAries/memo"
 GH_COMMIT="3ecfa4ad20c38ce97fedaed848d08348e92c56d3"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Memoization with finalizers and cleanup"
 HOMEPAGE="https://github.com/BourgondAries/memo"

@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="spritely/goblins"
 GH_COMMIT="88a5663a82e28899465258a593f80b3d0018b8a0"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Goblins is a transactional, distributed actor model environment"
 HOMEPAGE="https://gitlab.com/spritely/goblins"

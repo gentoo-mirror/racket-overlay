@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="apg/netrc"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Find entries in ~/.netrc files"
 HOMEPAGE="https://github.com/apg/netrc"

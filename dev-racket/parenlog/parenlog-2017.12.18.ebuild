@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/parenlog"
 GH_COMMIT="b02b9960c18b3c238b08a68d334f7ac2641e785c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A language that is like Prolog, but parenthetical."
 HOMEPAGE="https://github.com/jeapostrophe/parenlog"

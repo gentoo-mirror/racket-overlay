@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="stchang/ftree"
 GH_COMMIT="7e8f67c00359728e3f0ec75c410317bac4e82f07"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Finger Trees"
 HOMEPAGE="https://github.com/stchang/ftree"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="samth/javascript.plt"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An implementation of JavaScript"
 HOMEPAGE="https://github.com/samth/javascript.plt"

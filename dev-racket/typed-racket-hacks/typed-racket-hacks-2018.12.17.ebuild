@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="philnguyen/typed-racket-hacks"
 GH_COMMIT="6d462852a29abb4406d53db2587e9d463b90b2ae"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The typed-racket-hacks Racket package"
 HOMEPAGE="https://github.com/philnguyen/typed-racket-hacks"

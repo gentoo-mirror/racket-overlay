@@ -3,7 +3,6 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/mbutterick/txexpr</bugs-to>
-    <remote-id type="github">mbutterick/txexpr</remote-id>
+    <bugs-to>https://git.matthewbutterick.com/mbutterick/txexpr</bugs-to>
   </upstream>
 </pkgmetadata>

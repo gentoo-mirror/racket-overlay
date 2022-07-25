@@ -3,7 +3,6 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/mbutterick/brag</bugs-to>
-    <remote-id type="github">mbutterick/brag</remote-id>
+    <bugs-to>https://git.matthewbutterick.com/mbutterick/brag</bugs-to>
   </upstream>
 </pkgmetadata>

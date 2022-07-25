@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lwhjp/racket-asm"
 GH_COMMIT="57abd235fcb8c7505990f8e9731c01c716324ee5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The asm Racket package"
 HOMEPAGE="https://github.com/lwhjp/racket-asm"

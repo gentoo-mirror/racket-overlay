@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Kalimehtar/text-date"
 GH_COMMIT="27fcf96cbed87293b7db285f509d3a527855f924"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Widget for Racket/gui for date enter"
 HOMEPAGE="https://github.com/Kalimehtar/text-date"

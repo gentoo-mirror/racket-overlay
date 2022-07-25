@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jackfirth/atomichron"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A microbenchmarking library"
 HOMEPAGE="https://github.com/jackfirth/atomichron"

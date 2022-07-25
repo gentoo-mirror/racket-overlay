@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-country"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Facilities for working with country data."
 HOMEPAGE="https://github.com/Bogdanp/racket-country"

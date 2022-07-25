@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="zyrolasting/tweedledum"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Conflicts with tweedledee, or any other package with a hill/king module."
 HOMEPAGE="https://github.com/zyrolasting/tweedledum"

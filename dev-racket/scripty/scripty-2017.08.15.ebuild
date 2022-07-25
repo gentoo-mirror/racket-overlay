@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lexi-lambda/scripty"
 GH_COMMIT="09a0e2fd24dfcd5942177d4a328821534ee60ded"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The scripty Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/scripty"

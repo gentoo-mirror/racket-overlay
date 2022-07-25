@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="MatrixForChange/files-viewer"
 GH_COMMIT="164d4034611a970b5eb36ae20675241f0b52e82b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a file manager for drracket"
 HOMEPAGE="https://github.com/MatrixForChange/files-viewer"

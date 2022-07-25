@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tonyg/racket-rfc6455"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="RFC 6455 WebSockets support for Racket."
 HOMEPAGE="https://github.com/tonyg/racket-rfc6455"

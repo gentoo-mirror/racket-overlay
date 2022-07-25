@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="johnstonskj/racket-codepoint"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Library for operations on Unicode codepoints, and UCD properties."
 HOMEPAGE="https://github.com/johnstonskj/racket-codepoint"

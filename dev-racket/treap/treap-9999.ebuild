@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="spencereir/treap"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Balanced binary search trees implemented through treaps"
 HOMEPAGE="https://github.com/spencereir/treap"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jsmaniac/tr-immutable"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The tr-immutable Racket package"
 HOMEPAGE="https://github.com/jsmaniac/tr-immutable"

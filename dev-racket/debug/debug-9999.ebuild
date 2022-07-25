@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/debug"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a lang-extension for debugging, and a macro for inserting a debug-repl"
 HOMEPAGE="https://github.com/AlexKnauth/debug"

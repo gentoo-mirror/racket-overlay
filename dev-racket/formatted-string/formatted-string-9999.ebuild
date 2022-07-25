@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dannypsnl/formatted-string"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Extends racket string to formatted string"
 HOMEPAGE="https://github.com/dannypsnl/formatted-string"

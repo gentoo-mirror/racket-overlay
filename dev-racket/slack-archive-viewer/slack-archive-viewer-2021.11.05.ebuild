@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="benknoble/slack-archive-viewer"
 GH_COMMIT="426e4a86a545c6ef0ab1ef9260139674bf18cdca"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Generate a static site to view slack archives"
 HOMEPAGE="https://github.com/benknoble/slack-archive-viewer"

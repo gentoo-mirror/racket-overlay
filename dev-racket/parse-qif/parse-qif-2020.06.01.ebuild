@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jbclements/parse-qif"
 GH_COMMIT="0e7e061ecc1709d5ebe0cd4fcbd56597e1e5575f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Basic QIF-parsing code, used to apply categories to downloaded transactions"
 HOMEPAGE="https://github.com/jbclements/parse-qif"

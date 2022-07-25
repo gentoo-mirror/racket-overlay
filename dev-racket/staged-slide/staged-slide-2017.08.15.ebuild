@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="stamourv/staged-slide"
 GH_COMMIT="28b9389ea83984306dd50b634cb795c3bd86ca41"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Helpers for building staged slides in Slideshow"
 HOMEPAGE="https://github.com/stamourv/staged-slide"

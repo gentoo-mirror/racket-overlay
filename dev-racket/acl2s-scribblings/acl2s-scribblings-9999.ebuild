@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/acl2s-scribblings"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a scribble document for beginner mode of ACL2s"
 HOMEPAGE="https://github.com/AlexKnauth/acl2s-scribblings"

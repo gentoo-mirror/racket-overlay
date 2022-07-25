@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="carl-eastlund/mischief"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Mischief: A Racketeer's Toolkit"
 HOMEPAGE="https://github.com/carl-eastlund/mischief"

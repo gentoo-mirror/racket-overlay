@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="thoughtstem/racket-chipmunk"
 GH_COMMIT="152c9c4758f59ade9db01614e89e946eb39de168"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Chipmunk bindings for Racket."
 HOMEPAGE="https://github.com/thoughtstem/racket-chipmunk"

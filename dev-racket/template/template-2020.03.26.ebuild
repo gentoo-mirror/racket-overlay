@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dedbox/racket-template"
 GH_COMMIT="7e8cd438cdc168b74b1a23721d3410be330de209"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Template Macros"
 HOMEPAGE="https://github.com/dedbox/racket-template"

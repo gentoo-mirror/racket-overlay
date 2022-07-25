@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mordae/racket-tandem"
 GH_COMMIT="fa6bae480f6f4a3ae411ca5c3bad7ae5f8d106ac"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Cooperative Communication Framework for Racket"
 HOMEPAGE="https://github.com/mordae/racket-tandem"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Metaxal/racket-paint"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A simple paint program"
 HOMEPAGE="https://github.com/Metaxal/racket-paint"

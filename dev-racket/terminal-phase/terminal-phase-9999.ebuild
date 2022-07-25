@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="dustyweb/terminal-phase"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Terminal Phase is a space shooter video game that runs in your terminal!"
 HOMEPAGE="https://gitlab.com/dustyweb/terminal-phase"

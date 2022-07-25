@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/inexact-number-lang"
 GH_COMMIT="d92a6dcef0f8b38fc1368fb9d62a7f9966934039"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A lang-extension that reads every number as inexact"
 HOMEPAGE="https://github.com/AlexKnauth/inexact-number-lang"

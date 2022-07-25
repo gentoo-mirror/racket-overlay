@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="pnwamk/ddict"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Deterministic Dictionaries"
 HOMEPAGE="https://github.com/pnwamk/ddict"

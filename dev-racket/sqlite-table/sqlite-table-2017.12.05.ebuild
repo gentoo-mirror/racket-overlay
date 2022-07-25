@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jbclements/sqlite-table"
 GH_COMMIT="d1b892fe91a9413efd42da9ca75b5e1db5333993"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The sqlite-table Racket package"
 HOMEPAGE="https://github.com/jbclements/sqlite-table"

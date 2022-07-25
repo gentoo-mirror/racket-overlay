@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/chess"
 GH_COMMIT="cd7aaa015ddaa87026b11dfe8dbe6778409b5286"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library for modeling games of chess"
 HOMEPAGE="https://github.com/jackfirth/chess"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="pnwamk/redex-chk"
 GH_COMMIT="b66f415966434e689842cc3cc60f8a48836d881b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="rackunit/chk style checks for redex ('term' quotes automatically)"
 HOMEPAGE="https://github.com/pnwamk/redex-chk"

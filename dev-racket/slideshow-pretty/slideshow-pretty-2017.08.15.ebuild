@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="LeifAndersen/slideshow-pretty"
 GH_COMMIT="021378757a40163f8e84efe616eb17036eeb2a4f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Slideshow extensions to add pretty transitions between slides."
 HOMEPAGE="https://github.com/LeifAndersen/slideshow-pretty"

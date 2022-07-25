@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lexi-lambda/racket-tulip"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The tulip-test Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/racket-tulip"

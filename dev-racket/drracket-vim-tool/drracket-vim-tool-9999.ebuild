@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="takikawa/drracket-vim-tool"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="DrRacket plugin that simulates vim keybindings"
 HOMEPAGE="https://github.com/takikawa/drracket-vim-tool"

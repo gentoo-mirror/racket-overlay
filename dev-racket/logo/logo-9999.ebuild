@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lwhjp/logo"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A #lang for Logo"
 HOMEPAGE="https://github.com/lwhjp/logo"

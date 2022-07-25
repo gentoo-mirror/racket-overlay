@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Metaxal/learn-to-type"
 GH_COMMIT="e92730f9e7c1560a9f1dc82fbed6046c4532d167"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A very simple GUI program to learn to type by copying a text."
 HOMEPAGE="https://github.com/Metaxal/learn-to-type"

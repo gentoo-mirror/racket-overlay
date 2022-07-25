@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mordae/racket-dm"
 GH_COMMIT="15b137ef72b0bf1f10cfd1d14e80e2472e8a5df4"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Linux Device Mapper bindings for Racket."
 HOMEPAGE="https://github.com/mordae/racket-dm"

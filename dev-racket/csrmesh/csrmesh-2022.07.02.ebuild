@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="RayRacine/csrmesh"
 GH_COMMIT="d7cc04b2bbfd45c71bf086bf5075de9ccd81415f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Implementation of the Bluetooth CSR Mesh protocol."
 HOMEPAGE="https://gitlab.com/RayRacine/csrmesh"

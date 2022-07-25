@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="bennn/mf-apply"
 GH_COMMIT="e9aaf549dfd9549c833d38a1856c577399f9ef50"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="PLT Redex lang-extension for checked metafunction application"
 HOMEPAGE="https://github.com/bennn/mf-apply"

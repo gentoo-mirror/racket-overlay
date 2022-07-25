@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lexi-lambda/struct-update"
 GH_COMMIT="8ce456cde8764ae27c348123ec9e01e76826d536"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The struct-update-test Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/struct-update"

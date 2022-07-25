@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="DondiBronson/Funktionuckelt"
 GH_COMMIT="c465bd2afced654c4bf08b70740cd2be6a383a62"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A dark eye-friendly color scheme for Racket"
 HOMEPAGE="https://github.com/DondiBronson/Funktionuckelt"

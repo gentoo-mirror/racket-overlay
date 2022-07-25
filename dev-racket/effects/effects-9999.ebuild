@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tonyg/racket-effects"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Delimited-continuation-based effects for Racket"
 HOMEPAGE="https://github.com/tonyg/racket-effects"

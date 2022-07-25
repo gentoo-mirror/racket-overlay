@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lathe/interconfection-for-racket"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library for building extensible systems, especially module systems. (lib)"
 HOMEPAGE="https://github.com/lathe/interconfection-for-racket"

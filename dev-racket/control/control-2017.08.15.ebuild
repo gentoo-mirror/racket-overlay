@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="soegaard/control"
 GH_COMMIT="51bc2319c07a06b1275a231c8ccfc433a8f34258"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Control structures"
 HOMEPAGE="https://github.com/soegaard/control"

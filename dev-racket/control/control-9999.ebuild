@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="soegaard/control"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Control structures"
 HOMEPAGE="https://github.com/soegaard/control"

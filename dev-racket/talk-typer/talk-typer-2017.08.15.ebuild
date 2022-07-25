@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="florence/talk-typer"
 GH_COMMIT="24c5779e4d5b9548f96ac66d7c638c9bef0e7428"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A tool to make live coding during talks easier"
 HOMEPAGE="https://github.com/florence/talk-typer"

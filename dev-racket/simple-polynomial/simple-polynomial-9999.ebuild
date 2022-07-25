@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="bitbucket.org"
 GH_REPO="derend/simple-polynomial"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Basic polynomial arithmetic and interpolation."
 HOMEPAGE="https://bitbucket.org/derend/simple-polynomial"

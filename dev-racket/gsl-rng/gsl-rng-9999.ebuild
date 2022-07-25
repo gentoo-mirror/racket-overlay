@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="petterpripp/gsl-rng"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Interface to GNU GSL Random Number Generation"
 HOMEPAGE="https://github.com/petterpripp/gsl-rng"

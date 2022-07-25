@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/try-catch-finally"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A macro for catching exceptions and running teardown operations."
 HOMEPAGE="https://github.com/AlexKnauth/try-catch-finally"

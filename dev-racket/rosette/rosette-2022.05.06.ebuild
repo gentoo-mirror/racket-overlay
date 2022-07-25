@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="emina/rosette"
 GH_COMMIT="096430e93ed6486c4440564f1c0e3e540dbe2188"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The Rosette Language"
 HOMEPAGE="https://github.com/emina/rosette"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="stephanh42/RacketGL"
 GH_COMMIT="1aaf2b2836680f807fbec5234ed475585b41b4ab"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Exhaustive Racket bindings to OpenGL"
 HOMEPAGE="https://github.com/stephanh42/RacketGL"

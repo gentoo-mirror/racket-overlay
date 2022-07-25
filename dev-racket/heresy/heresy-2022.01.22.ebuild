@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jarcane/heresy"
 GH_COMMIT="5b7a6c6eb9c2aebf0f2f6e10ae9e56f5f9c7ac48"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A functional Lisp dialect with BASIC-inspired syntax"
 HOMEPAGE="https://github.com/jarcane/heresy"

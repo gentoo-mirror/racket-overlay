@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jbclements/postmark"
 GH_COMMIT="6204838d15c5de48389a2a45ee9158493cc76bc8"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A front-end for the Postmark email delivery service API"
 HOMEPAGE="https://github.com/jbclements/postmark"

@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="src_prepare/racket/racket-where"
 GH_COMMIT="a4d922dd5dd8d30b8bca37b4f281f9f5473b6aa7"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Small tool to find installed Racket packages"
 HOMEPAGE="https://gitlab.com/src_prepare/racket/racket-where"

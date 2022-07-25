@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/planet2-example"
 GH_COMMIT="9d9e4dc77adfc7299987a4cbbe8ce43869eec53e"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An example package for testing purposes"
 HOMEPAGE="https://github.com/jeapostrophe/planet2-example"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="thoughtstem/racket-to-python"
 GH_COMMIT="5726abfb20b8411d05482d07ff384ecae779a010"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The racket-to-python Racket package"
 HOMEPAGE="https://github.com/thoughtstem/racket-to-python"

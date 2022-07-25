@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="abolotina/fast-sequence-combinators"
 GH_COMMIT="d5144e2d6f73f441937a77439f80b79000768cd9"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Macros for fast sequences."
 HOMEPAGE="https://github.com/abolotina/fast-sequence-combinators"

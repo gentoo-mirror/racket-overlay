@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="winny-/tinybasic.rkt"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="TinyBASIC implementation."
 HOMEPAGE="https://github.com/winny-/tinybasic.rkt"

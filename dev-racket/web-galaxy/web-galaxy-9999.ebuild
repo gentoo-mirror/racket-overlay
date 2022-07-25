@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="euhmeuh/web-galaxy"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A minimalist web framework for the Racket web-server"
 HOMEPAGE="https://github.com/euhmeuh/web-galaxy"

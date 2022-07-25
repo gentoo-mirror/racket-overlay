@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="greghendershott/markdown"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Markdown format parser."
 HOMEPAGE="https://github.com/greghendershott/markdown"

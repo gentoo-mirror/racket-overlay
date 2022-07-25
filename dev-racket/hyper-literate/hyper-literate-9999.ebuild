@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jsmaniac/hyper-literate"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The hyper-literate Racket package"
 HOMEPAGE="https://github.com/jsmaniac/hyper-literate"

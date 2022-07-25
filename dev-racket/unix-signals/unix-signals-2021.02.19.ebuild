@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="tonyg/racket-unix-signals"
 GH_COMMIT="a0c50918dac6cf5df7d0789d13dac9759eab5606"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Sending and handling Unix signals from Racket"
 HOMEPAGE="https://github.com/tonyg/racket-unix-signals"

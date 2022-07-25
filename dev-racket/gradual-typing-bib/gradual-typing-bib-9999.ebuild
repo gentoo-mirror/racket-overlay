@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="samth/gradual-typing-bib"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The gradual-typing-bib Racket package"
 HOMEPAGE="https://github.com/samth/gradual-typing-bib"

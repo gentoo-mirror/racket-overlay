@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="srfoster/fragments-first"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="experimental game"
 HOMEPAGE="https://github.com/srfoster/fragments-first"

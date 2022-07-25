@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="plane/happy-app"
 GH_COMMIT="b14ad656e3f326881adf958bde846073c14d5e5f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Toolbox of Syntactic Shortcuts"
 HOMEPAGE="https://github.com/plane/happy-app"

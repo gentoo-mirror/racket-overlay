@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Kalimehtar/client-cookies"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Client cookies jar for net/url and similar libs.Deprecated: use net/cookies."
 HOMEPAGE="https://github.com/Kalimehtar/client-cookies"

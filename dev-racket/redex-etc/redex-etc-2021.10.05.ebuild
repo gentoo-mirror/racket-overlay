@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="camoy/redex-etc"
 GH_COMMIT="ee18a8030f9d3358004fd89e7c3b34fdc1d64145"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Miscellanea for Redex."
 HOMEPAGE="https://github.com/camoy/redex-etc"

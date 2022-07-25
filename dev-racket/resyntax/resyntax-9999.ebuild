@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jackfirth/resyntax"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An experimental refactoring tool built on top of syntax-parse."
 HOMEPAGE="https://github.com/jackfirth/resyntax"

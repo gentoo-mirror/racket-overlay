@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="philnguyen/unreachable"
 GH_COMMIT="a7d303d673ebb887ed49550ee27da307948cda37"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Utilities for expressing supposedly unreachable code"
 HOMEPAGE="https://github.com/philnguyen/unreachable"

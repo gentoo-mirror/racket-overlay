@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="sorawee/drracket-cmdline-args"
 GH_COMMIT="40135ace2a04ea101af184fb939fce0afc464294"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Accessible command-line arguments for DrRacket"
 HOMEPAGE="https://github.com/sorawee/drracket-cmdline-args"

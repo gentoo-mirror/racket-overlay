@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="bennn/ipoe"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="interactive poetry editor"
 HOMEPAGE="https://github.com/bennn/ipoe"

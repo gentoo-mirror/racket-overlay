@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="cwearl/fulmar"
 GH_COMMIT="4cf60699558b3bb28fa813443456993d1563bfb2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Generate C++ code from S-expressions"
 HOMEPAGE="https://github.com/cwearl/fulmar"

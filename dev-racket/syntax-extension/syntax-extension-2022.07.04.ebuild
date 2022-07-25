@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket-tw/syntax-extension"
 GH_COMMIT="3dd4dae498e8fdeffea45ae6d50b455bb13f5606"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A helper collection of syntax"
 HOMEPAGE="https://github.com/racket-tw/syntax-extension"

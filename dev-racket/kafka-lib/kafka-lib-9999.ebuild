@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-kafka"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A client for Apache Kafka. (implementation only)"
 HOMEPAGE="https://github.com/Bogdanp/racket-kafka"

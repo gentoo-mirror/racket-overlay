@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="samth/match-count"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Instrumented match"
 HOMEPAGE="https://github.com/samth/match-count"

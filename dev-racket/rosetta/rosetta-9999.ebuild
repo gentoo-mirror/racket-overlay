@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="aptmcl/rosetta"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The rosetta Racket package"
 HOMEPAGE="https://github.com/aptmcl/rosetta"

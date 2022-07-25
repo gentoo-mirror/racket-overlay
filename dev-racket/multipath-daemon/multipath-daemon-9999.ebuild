@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mordae/racket-multipath-daemon"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The multipath-daemon Racket package"
 HOMEPAGE="https://github.com/mordae/racket-multipath-daemon"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lexi-lambda/racket-semver"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An implementation of the semver (semantic versioning) specification"
 HOMEPAGE="https://github.com/lexi-lambda/racket-semver"

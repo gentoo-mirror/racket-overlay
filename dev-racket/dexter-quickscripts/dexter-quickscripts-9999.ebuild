@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="DexterLagan/dexter-quickscripts"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A collection of scripts for Racket's QuickScript"
 HOMEPAGE="https://github.com/DexterLagan/dexter-quickscripts"

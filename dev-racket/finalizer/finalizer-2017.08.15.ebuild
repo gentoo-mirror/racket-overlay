@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Kalimehtar/finalizer"
 GH_COMMIT="74517770d70b786a3df48fd20ea9ea8059e4a641"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Trivial finalizer. Does action when object garbage collected"
 HOMEPAGE="https://github.com/Kalimehtar/finalizer"

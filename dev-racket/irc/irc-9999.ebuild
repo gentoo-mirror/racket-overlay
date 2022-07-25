@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="schuster/racket-irc"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An IRC client library."
 HOMEPAGE="https://github.com/schuster/racket-irc"

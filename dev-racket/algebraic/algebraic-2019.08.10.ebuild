@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dedbox/racket-algebraic"
 GH_COMMIT="706b2d01ab735a01e372c33da49995339194e024"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Algebraic Racket"
 HOMEPAGE="https://github.com/dedbox/racket-algebraic"

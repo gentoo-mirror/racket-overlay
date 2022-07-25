@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="TrueQueenBee/domain-coloring"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A domain coloring tool for complex analysis"
 HOMEPAGE="https://github.com/TrueQueenBee/domain-coloring"

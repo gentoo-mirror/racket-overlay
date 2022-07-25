@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jackfirth/chess"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library for modeling games of chess"
 HOMEPAGE="https://github.com/jackfirth/chess"

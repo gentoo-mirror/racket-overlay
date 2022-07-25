@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jackfirth/package-analysis"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A package for analyzing the Racket package ecosystem"
 HOMEPAGE="https://github.com/jackfirth/package-analysis"

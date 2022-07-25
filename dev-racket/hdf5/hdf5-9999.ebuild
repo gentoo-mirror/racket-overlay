@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="oetr/racket-hdf5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="FFI bindings to the hdf5 library"
 HOMEPAGE="https://github.com/oetr/racket-hdf5"

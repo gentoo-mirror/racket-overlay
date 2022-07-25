@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/racket-syntax-lang"
 GH_COMMIT="50897fef061bcf8640110a7695c81a3a06e38e6d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Mini-library for creating new #lang languages from simple macros"
 HOMEPAGE="https://github.com/jackfirth/racket-syntax-lang"

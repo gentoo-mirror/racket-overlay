@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/chk"
 GH_COMMIT="32fb635e19fa2dc2d9c35bac0964ab76dde1e89e"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a minimal tester"
 HOMEPAGE="https://github.com/jeapostrophe/chk"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dedbox/racket-js-voxel"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A general-purpose voxel programming environment"
 HOMEPAGE="https://github.com/dedbox/racket-js-voxel"

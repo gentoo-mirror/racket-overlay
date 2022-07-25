@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="florence/plot-bestfit"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The plot-bestfit Racket package"
 HOMEPAGE="https://github.com/florence/plot-bestfit"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="sorawee/mixfix"
 GH_COMMIT="2303684161d37ff337be6b47a0240b70fd69758c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Mixfix for Racket"
 HOMEPAGE="https://github.com/sorawee/mixfix"

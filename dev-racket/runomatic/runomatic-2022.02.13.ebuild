@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="winny-/runomatic"
 GH_COMMIT="017e5df3f4436248c5d4e0c1955c66d7808e5ed9"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A bot and API client for runogame.com"
 HOMEPAGE="https://github.com/winny-/runomatic"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dyoo/data-red-black"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The data-red-black Racket package"
 HOMEPAGE="https://github.com/dyoo/data-red-black"

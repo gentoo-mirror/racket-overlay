@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="zyrolasting/kinda-ferpy"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An implicit functional reactive model based on MaiaVictor's PureState library"
 HOMEPAGE="https://github.com/zyrolasting/kinda-ferpy"

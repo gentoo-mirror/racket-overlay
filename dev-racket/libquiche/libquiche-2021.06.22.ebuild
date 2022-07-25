@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="parnikkapore/rkt-libquiche"
 GH_COMMIT="26aa3ade5feaa8819648c10057ca064c4ec64d85"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The libquiche Racket package"
 HOMEPAGE="https://github.com/parnikkapore/rkt-libquiche"

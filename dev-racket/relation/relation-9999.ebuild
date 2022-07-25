@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="countvajhula/relation"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Generic interfaces and convenient utilities for using relations."
 HOMEPAGE="https://github.com/countvajhula/relation"

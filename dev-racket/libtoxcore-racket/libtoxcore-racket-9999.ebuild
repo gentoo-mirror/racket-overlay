@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lehitoskin/libtoxcore-racket"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Racket wrapper for the Tox libraries."
 HOMEPAGE="https://github.com/lehitoskin/libtoxcore-racket"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="camoy/contract-etc"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Miscellaneous contracts."
 HOMEPAGE="https://github.com/camoy/contract-etc"

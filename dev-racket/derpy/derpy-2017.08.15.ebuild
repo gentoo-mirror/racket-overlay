@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mordae/racket-derpy"
 GH_COMMIT="179ec02668cdb0beda40022ef9b45909795c7c09"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Presentation Room Control"
 HOMEPAGE="https://github.com/mordae/racket-derpy"

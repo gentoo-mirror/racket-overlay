@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lexi-lambda/racket-r7rs"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The r7rs-lib Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/racket-r7rs"

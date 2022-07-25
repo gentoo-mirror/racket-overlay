@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="johnnyodonnell/java-array-list"
 GH_COMMIT="530c76031abb521e0ac6782053f6555c0e9e9590"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Clone of Java's ArrayList"
 HOMEPAGE="https://github.com/johnnyodonnell/java-array-list"

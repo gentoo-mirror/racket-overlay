@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dannypsnl/racket-llvm"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="racket llvm C-API bindings"
 HOMEPAGE="https://github.com/dannypsnl/racket-llvm"

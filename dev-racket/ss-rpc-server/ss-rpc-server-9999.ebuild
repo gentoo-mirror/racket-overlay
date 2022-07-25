@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="sk1e/ss-rpc-server"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="RPC for using Racket as GNU Emacs extension language"
 HOMEPAGE="https://github.com/sk1e/ss-rpc-server"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="damien-mattei/Scheme-PLUS-for-Racket"
 GH_COMMIT="5a70bb3cb163d235ff0f820fbda6d3e37cd55f0c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The Scheme-PLUS-for-Racket Racket package"
 HOMEPAGE="https://github.com/damien-mattei/Scheme-PLUS-for-Racket"

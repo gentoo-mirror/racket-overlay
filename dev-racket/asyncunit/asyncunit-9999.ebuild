@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="schuster/asyncunit"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="RackUnit helper functions for asynchronous channels"
 HOMEPAGE="https://github.com/schuster/asyncunit"

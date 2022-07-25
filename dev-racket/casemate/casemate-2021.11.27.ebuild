@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jozip/casemate"
 GH_COMMIT="8a2a3801300b538f3152cd3829c2a19c996fd57e"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Case converter in the style of camel-snake-kebab"
 HOMEPAGE="https://github.com/jozip/casemate"

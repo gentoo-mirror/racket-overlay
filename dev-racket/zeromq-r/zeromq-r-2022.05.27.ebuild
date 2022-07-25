@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="rmculpepper/racket-zeromq"
 GH_COMMIT="5917ef00278433cf4d953632a13744b6d826cae9"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Bindings for ZeroMQ"
 HOMEPAGE="https://github.com/rmculpepper/racket-zeromq"

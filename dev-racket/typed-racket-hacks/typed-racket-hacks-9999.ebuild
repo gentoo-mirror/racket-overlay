@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="philnguyen/typed-racket-hacks"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The typed-racket-hacks Racket package"
 HOMEPAGE="https://github.com/philnguyen/typed-racket-hacks"

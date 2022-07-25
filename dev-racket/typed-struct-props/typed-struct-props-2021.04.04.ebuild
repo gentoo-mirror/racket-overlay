@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jsmaniac/typed-struct-props"
 GH_COMMIT="5512b7f4c9dff6b2be445435b86babfc9b189fc8"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The typed-struct-props Racket package"
 HOMEPAGE="https://github.com/jsmaniac/typed-struct-props"

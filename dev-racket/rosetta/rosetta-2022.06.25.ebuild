@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="aptmcl/rosetta"
 GH_COMMIT="1b81b10b0c8eb77d92d6b5ea86d0eb940add0888"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The rosetta Racket package"
 HOMEPAGE="https://github.com/aptmcl/rosetta"

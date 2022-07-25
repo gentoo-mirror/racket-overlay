@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-import-profiler"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A raco command for profiling module dependency import times."
 HOMEPAGE="https://github.com/Bogdanp/racket-import-profiler"

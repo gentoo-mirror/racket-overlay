@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lathe/lathe-ordinals-for-racket"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Ordinal numbers supporting addition, multiplication, and exponentiation. (lib)"
 HOMEPAGE="https://github.com/lathe/lathe-ordinals-for-racket"

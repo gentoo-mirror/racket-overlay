@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Bogdanp/koyo-north"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A north migrator component for koyo."
 HOMEPAGE="https://github.com/Bogdanp/koyo-north"

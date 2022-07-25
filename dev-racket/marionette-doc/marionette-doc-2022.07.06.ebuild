@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/marionette"
 GH_COMMIT="75132b6ab3c9d1512cfdc724037daf0636cb263d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The marionette-doc Racket package"
 HOMEPAGE="https://github.com/Bogdanp/marionette"

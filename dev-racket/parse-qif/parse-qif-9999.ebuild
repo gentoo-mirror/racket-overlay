@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jbclements/parse-qif"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Basic QIF-parsing code, used to apply categories to downloaded transactions"
 HOMEPAGE="https://github.com/jbclements/parse-qif"

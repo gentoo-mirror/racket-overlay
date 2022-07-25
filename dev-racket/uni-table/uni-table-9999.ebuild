@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="racketeer/uni-table"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Unicode tables rendering with ECMA-48 Select Graphic Rendition codes support"
 HOMEPAGE="https://gitlab.com/racketeer/uni-table"

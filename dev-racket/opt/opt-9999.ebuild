@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="RayRacine/opt"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The opt Racket package"
 HOMEPAGE="https://gitlab.com/RayRacine/opt"

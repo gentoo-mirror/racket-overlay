@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="thoughtstem/rokit-racket"
 GH_COMMIT="4b5362ff1d2204384270a0ffa786023a17886e0d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The rokit-racket Racket package"
 HOMEPAGE="https://github.com/thoughtstem/rokit-racket"

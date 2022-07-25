@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="kurinoku/sxml-extra-utils"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Utilities to use with sxml"
 HOMEPAGE="https://github.com/kurinoku/sxml-extra-utils"

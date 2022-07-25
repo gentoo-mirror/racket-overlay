@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jackfirth/racket-fixture"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The fixture Racket package"
 HOMEPAGE="https://github.com/jackfirth/racket-fixture"

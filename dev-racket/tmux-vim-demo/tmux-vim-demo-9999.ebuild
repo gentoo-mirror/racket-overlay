@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="benknoble/tmux-vim-demo"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A #lang for writing and running scripted demos with tmux and vim"
 HOMEPAGE="https://github.com/benknoble/tmux-vim-demo"

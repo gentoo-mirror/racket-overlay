@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="srfoster/fragments-first"
 GH_COMMIT="f9a6bec8a8ec537874d04c05c2a6d27b0af11e38"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="experimental game"
 HOMEPAGE="https://github.com/srfoster/fragments-first"

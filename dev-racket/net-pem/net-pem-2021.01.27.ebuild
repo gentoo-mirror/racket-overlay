@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="themetaschemer/net-pem"
 GH_COMMIT="6a2add18192a24118b13d0e652d808c270dd1890"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Privacy Enhanced Mail (PEM) Parsing and Unparsing"
 HOMEPAGE="https://github.com/themetaschemer/net-pem"

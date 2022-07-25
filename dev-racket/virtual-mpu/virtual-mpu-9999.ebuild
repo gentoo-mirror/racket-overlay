@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="euhmeuh/virtual-mpu"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Universal Emulator & Assembler for Old Microprocessors"
 HOMEPAGE="https://github.com/euhmeuh/virtual-mpu"

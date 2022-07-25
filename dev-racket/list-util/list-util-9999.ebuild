@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="RayRacine/list-util"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Additional List utilities in Typed Racket."
 HOMEPAGE="https://gitlab.com/RayRacine/list-util"

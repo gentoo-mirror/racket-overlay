@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-redis"
 GH_COMMIT="341e7a26fedd63f003488b46b9cc499de98002d2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Fast, idiomatic bindings for Redis. (implementation only)"
 HOMEPAGE="https://github.com/Bogdanp/racket-redis"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Metaxal/rwind"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An X11 window manager written in Racket (still in early stage)"
 HOMEPAGE="https://github.com/Metaxal/rwind"

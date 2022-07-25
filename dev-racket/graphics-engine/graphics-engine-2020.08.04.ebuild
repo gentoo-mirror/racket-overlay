@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dedbox/racket-graphics-engine"
 GH_COMMIT="94d492f057e1fa712ceab1823afca31ffc80f04d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An accelerated graphics programming environment."
 HOMEPAGE="https://github.com/dedbox/racket-graphics-engine"

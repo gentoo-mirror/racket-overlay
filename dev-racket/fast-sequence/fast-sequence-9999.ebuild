@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="abolotina/fast-sequence-combinators"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Macros for fast sequences."
 HOMEPAGE="https://github.com/abolotina/fast-sequence-combinators"

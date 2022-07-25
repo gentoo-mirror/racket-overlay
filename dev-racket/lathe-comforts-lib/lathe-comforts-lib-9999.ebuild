@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lathe/lathe-comforts-for-racket"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A collection of utilities. (lib)"
 HOMEPAGE="https://github.com/lathe/lathe-comforts-for-racket"

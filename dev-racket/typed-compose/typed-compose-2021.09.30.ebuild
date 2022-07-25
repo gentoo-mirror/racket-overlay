@@ -7,7 +7,7 @@ GH_DOM="git.marvid.fr"
 GH_REPO="scolobb/typed-compose"
 GH_COMMIT="b8363160a23ad7f9684c69ee9bc1cf659b7971db"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Utilities for composing functions in Typed Racket."
 HOMEPAGE="https://git.marvid.fr/scolobb/typed-compose"

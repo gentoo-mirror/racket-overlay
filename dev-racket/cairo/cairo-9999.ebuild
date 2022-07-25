@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="soegaard/cairo"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The cairo Racket package"
 HOMEPAGE="https://github.com/soegaard/cairo"

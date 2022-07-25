@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/lang-file"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Functions for dealing with #lang files"
 HOMEPAGE="https://github.com/AlexKnauth/lang-file"

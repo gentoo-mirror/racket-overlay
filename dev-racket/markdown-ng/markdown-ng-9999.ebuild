@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="pmatos/markdown-ng"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="New Generation of a Racket Markdown library"
 HOMEPAGE="https://github.com/pmatos/markdown-ng"

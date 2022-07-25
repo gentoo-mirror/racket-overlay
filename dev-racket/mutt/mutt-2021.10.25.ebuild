@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="bennn/racket-mutt"
 GH_COMMIT="8f85ee8f1d4c4c14077b9396e51647ef6fc53f00"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket API for the Mutt email client"
 HOMEPAGE="https://github.com/bennn/racket-mutt"

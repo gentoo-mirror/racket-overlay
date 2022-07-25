@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="zyrolasting/polyglot"
 GH_COMMIT="d27ca7fe90fd4ba2a6c5bcd921fce89e72d2c408"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Implementation for Polyglot"
 HOMEPAGE="https://github.com/zyrolasting/polyglot"

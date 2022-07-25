@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="thoughtstem/magic-loader"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The magic-loader Racket package"
 HOMEPAGE="https://github.com/thoughtstem/magic-loader"

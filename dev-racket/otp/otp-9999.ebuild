@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="yilinwei/otp"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Implementation of one-time passwords as specified by RFC4226 and RFC6238."
 HOMEPAGE="https://github.com/yilinwei/otp"

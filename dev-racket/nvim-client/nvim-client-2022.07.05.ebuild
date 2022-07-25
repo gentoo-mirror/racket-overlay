@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="HiPhish/neovim.rkt"
 GH_COMMIT="c7d0a3d7ceaebd59955e6d2aee16352098c82d8a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="API client for the Neovim text editor"
 HOMEPAGE="https://gitlab.com/HiPhish/neovim.rkt"

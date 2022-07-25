@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="eutro/racket-raylib"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Semi-automatically generated Raylib bindings."
 HOMEPAGE="https://github.com/eutro/racket-raylib"

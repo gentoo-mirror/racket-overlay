@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jackfirth/racket-syntax-lang"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Mini-library for creating new #lang languages from simple macros"
 HOMEPAGE="https://github.com/jackfirth/racket-syntax-lang"

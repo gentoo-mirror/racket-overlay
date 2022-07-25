@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="stchang/ftree"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Finger Trees"
 HOMEPAGE="https://github.com/stchang/ftree"

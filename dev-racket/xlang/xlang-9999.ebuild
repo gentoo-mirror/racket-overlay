@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="samth/xlang"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A minimal combinator language, created for PLT Game #1"
 HOMEPAGE="https://github.com/samth/xlang"

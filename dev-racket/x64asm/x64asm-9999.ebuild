@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="yjqww6/racket-x64asm"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a simple x64 assembler written in Typed Racket"
 HOMEPAGE="https://github.com/yjqww6/racket-x64asm"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dzoep/futures-sort"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The futures-sort Racket package"
 HOMEPAGE="https://github.com/dzoep/futures-sort"

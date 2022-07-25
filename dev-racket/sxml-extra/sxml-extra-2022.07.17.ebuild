@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="kurinoku/sxml-extra-utils"
 GH_COMMIT="f5a2a688d67d92de7adda295190ffc8e9efcda86"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Utilities to use with sxml"
 HOMEPAGE="https://github.com/kurinoku/sxml-extra-utils"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="royallthefourth/dotenv"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Override environment variables by loading .env files."
 HOMEPAGE="https://github.com/royallthefourth/dotenv"

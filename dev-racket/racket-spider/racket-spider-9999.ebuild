@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Syntacticlosure/racket-spider"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="lightweight http client"
 HOMEPAGE="https://github.com/Syntacticlosure/racket-spider"

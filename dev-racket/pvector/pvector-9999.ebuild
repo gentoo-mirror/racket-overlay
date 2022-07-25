@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lexi-lambda/racket-pvector"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Fast, immutable, persistent vectors"
 HOMEPAGE="https://github.com/lexi-lambda/racket-pvector"

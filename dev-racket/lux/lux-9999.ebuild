@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/lux"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="brilliant interactive programs"
 HOMEPAGE="https://github.com/jeapostrophe/lux"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="david-christiansen/brush"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A semi-literate programming package for Scribble"
 HOMEPAGE="https://github.com/david-christiansen/brush"

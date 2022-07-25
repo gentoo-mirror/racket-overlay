@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/fra"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Purely functional implementation of relational algebra"
 HOMEPAGE="https://github.com/jeapostrophe/fra"

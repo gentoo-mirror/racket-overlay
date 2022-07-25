@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="rmculpepper/sql"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="an S-expression notation for SQL"
 HOMEPAGE="https://github.com/rmculpepper/sql"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jbclements/memoize"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="core library for memoize"
 HOMEPAGE="https://github.com/jbclements/memoize"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samth/github.rkt"
 GH_COMMIT="3dcabdece43c6f46050966a51ad237c75032cd17"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Github Bindings"
 HOMEPAGE="https://github.com/samth/github.rkt"

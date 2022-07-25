@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="pythondude325/basm"
 GH_COMMIT="02b7d75eaddda765729820f79a13b54da6e1db14"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The basm Racket package"
 HOMEPAGE="https://gitlab.com/pythondude325/basm"

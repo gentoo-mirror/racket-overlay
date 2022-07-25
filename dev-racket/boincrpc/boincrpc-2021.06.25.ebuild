@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="parnikkapore/rkt-boincrpc"
 GH_COMMIT="f05dc275c2dac7196b65058f26af9ca9e074aef6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The boincrpc Racket package"
 HOMEPAGE="https://github.com/parnikkapore/rkt-boincrpc"

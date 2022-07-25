@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="bitbucket.org"
 GH_REPO="nadeemabdulhamid/web-sessions"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Simple web sessions"
 HOMEPAGE="https://bitbucket.org/nadeemabdulhamid/web-sessions"

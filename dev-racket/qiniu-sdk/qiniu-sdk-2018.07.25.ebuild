@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="MatrixForChange/qiniu-sdk"
 GH_COMMIT="27ca32071cd03a1dc955ec396efa120f0d4b2759"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A simple library for qiniu.com"
 HOMEPAGE="https://github.com/MatrixForChange/qiniu-sdk"

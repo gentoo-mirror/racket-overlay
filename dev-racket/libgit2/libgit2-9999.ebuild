@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="bbusching/libgit2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket bindings for the Libgit2 library."
 HOMEPAGE="https://github.com/bbusching/libgit2"

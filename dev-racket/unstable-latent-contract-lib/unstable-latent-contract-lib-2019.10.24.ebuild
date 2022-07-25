@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/unstable-latent-contract-lib"
 GH_COMMIT="9df3d23294e7ae9ac06fe613c383e1f04e56f3ae"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Experimental libraries for contracts at definitions"
 HOMEPAGE="https://github.com/racket/unstable-latent-contract-lib"

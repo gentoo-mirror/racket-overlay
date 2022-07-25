@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jbclements/glpk"
 GH_COMMIT="ff20adf1ea0f6792b6a858aa421c79ce22a8fd5d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An interface to the Gnu Linear Programming Kit (GLPK)"
 HOMEPAGE="https://github.com/jbclements/glpk"

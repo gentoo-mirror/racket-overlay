@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="samth/persistent-array"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A semi-persistent array"
 HOMEPAGE="https://github.com/samth/persistent-array"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Kalimehtar/multicolumn"
 GH_COMMIT="916e9acca5ccf56b319bf5e641fac483ed60eac9"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The multicolumn Racket package"
 HOMEPAGE="https://github.com/Kalimehtar/multicolumn"

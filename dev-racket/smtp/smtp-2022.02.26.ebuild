@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="yanyingwang/smtp"
 GH_COMMIT="475449a4a2d2ea9d019b51e76b738598275e366f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A practical library to send emails using SMTP protocol"
 HOMEPAGE="https://github.com/yanyingwang/smtp"

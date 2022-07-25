@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="rfindler/haiku-enum"
 GH_COMMIT="6856c4c6bf3c82e30ac453cee9b57bb5ef717888"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A language designed for generating Haiku"
 HOMEPAGE="https://github.com/rfindler/haiku-enum"

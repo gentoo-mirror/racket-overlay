@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="pleiad/play"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The play Racket package"
 HOMEPAGE="https://github.com/pleiad/play"

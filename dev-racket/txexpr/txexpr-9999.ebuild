@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="git.matthewbutterick.com"
 GH_REPO="mbutterick/txexpr"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Handy tools for working with HTML-style tagged X-expressions"
 HOMEPAGE="https://git.matthewbutterick.com/mbutterick/txexpr"

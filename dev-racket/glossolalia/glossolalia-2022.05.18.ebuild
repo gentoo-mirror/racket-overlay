@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="robertkleffner/glossolalia"
 GH_COMMIT="528eefa533d4f06b29b73c35a8ad294aafd35db2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The glossolalia Racket package"
 HOMEPAGE="https://github.com/robertkleffner/glossolalia"

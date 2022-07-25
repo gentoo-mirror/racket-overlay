@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-forms"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Web form validation (docs and implementation)."
 HOMEPAGE="https://github.com/Bogdanp/racket-forms"

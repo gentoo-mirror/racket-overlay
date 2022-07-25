@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="yanyingwang/timable"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The timable Racket package"
 HOMEPAGE="https://github.com/yanyingwang/timable"

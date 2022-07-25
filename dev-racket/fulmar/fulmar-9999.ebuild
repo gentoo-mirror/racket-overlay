@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="cwearl/fulmar"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Generate C++ code from S-expressions"
 HOMEPAGE="https://github.com/cwearl/fulmar"

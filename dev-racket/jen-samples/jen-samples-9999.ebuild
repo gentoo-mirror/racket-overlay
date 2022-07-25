@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="HeladoDeBrownie/jen"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="procedural generation DSL embedded in Racket (samples) [UNSTABLE]"
 HOMEPAGE="https://github.com/HeladoDeBrownie/jen"

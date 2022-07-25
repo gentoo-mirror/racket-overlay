@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="david-christiansen/iu-pict"
 GH_COMMIT="42072a907d65bbfd09077592a20bfb130fc5a35a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The iu-pict Racket package"
 HOMEPAGE="https://github.com/david-christiansen/iu-pict"

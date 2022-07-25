@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="maueroats/wy-posn-util"
 GH_COMMIT="9e14307dff6e27903e49c58a964d42cd8a25a14c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Functions to work with 2d vectors (posn) in 2htdp."
 HOMEPAGE="https://github.com/maueroats/wy-posn-util"

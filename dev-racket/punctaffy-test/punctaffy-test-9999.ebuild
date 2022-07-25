@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lathe/punctaffy-for-racket"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The punctaffy-test Racket package"
 HOMEPAGE="https://github.com/lathe/punctaffy-for-racket"

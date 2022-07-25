@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/euclid"
 GH_COMMIT="bd64f8f2c7e60ce6d435c7f0241cf3dfffe6d297"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Data structures and algorithms related to Euclidean geometry"
 HOMEPAGE="https://github.com/jackfirth/euclid"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="sanchom/pollen-citations-mcgill"
 GH_COMMIT="4d510c4098e00e97257b50b6a9189d7e660c3c8c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A McGill-style citations system that works within the Pollen publishing system."
 HOMEPAGE="https://github.com/sanchom/pollen-citations-mcgill"

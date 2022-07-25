@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="takikawa/sweet-racket"
 GH_COMMIT="ad21511e657445062b553ef3be085fb70b791a36"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Implementation part of sweet-exp"
 HOMEPAGE="https://github.com/takikawa/sweet-racket"

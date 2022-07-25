@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="istefanis/lti-freq-domain-toolbox"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The lti-freq-domain-toolbox Racket package"
 HOMEPAGE="https://github.com/istefanis/lti-freq-domain-toolbox"

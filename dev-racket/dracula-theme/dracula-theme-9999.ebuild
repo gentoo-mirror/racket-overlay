@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dracula/racket"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Dracula color scheme for DrRacket (https://draculatheme.com/)"
 HOMEPAGE="https://github.com/dracula/racket"

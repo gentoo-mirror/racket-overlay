@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket/expeditor"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="test part of expeditor"
 HOMEPAGE="https://github.com/racket/expeditor"

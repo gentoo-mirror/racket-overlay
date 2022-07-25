@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket/plt-service-monitor"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="service-monitoring and heartbeat tools"
 HOMEPAGE="https://github.com/racket/plt-service-monitor"

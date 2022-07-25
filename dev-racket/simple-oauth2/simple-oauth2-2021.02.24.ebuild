@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="johnstonskj/simple-oauth2"
 GH_COMMIT="b8cb40511f64dcb274e17957e6fc9ab4c8a6cbea"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Simple OAuth 2.0 client implementation"
 HOMEPAGE="https://github.com/johnstonskj/simple-oauth2"

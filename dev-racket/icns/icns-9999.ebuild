@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="LiberalArtist/icns"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Racket library for working with Apple's .icns icon file format."
 HOMEPAGE="https://github.com/LiberalArtist/icns"

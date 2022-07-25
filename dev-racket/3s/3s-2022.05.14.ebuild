@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/3s"
 GH_COMMIT="9a5036b0e6ec282223bebe8310bd8421ec60d3e5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="positional sound and mixing for lux and other programs"
 HOMEPAGE="https://github.com/jeapostrophe/3s"

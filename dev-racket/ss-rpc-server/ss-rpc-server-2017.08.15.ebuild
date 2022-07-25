@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="sk1e/ss-rpc-server"
 GH_COMMIT="50f281f251f06ea0b56955a275750aa170a94254"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="RPC for using Racket as GNU Emacs extension language"
 HOMEPAGE="https://github.com/sk1e/ss-rpc-server"

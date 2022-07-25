@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="rmculpepper/racket-hash-view"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Struct-like view for hashes"
 HOMEPAGE="https://github.com/rmculpepper/racket-hash-view"

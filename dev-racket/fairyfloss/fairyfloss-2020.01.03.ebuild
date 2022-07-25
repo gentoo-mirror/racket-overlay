@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="HeladoDeBrownie/DrRacket-Theme-fairyfloss"
 GH_COMMIT="967a9db447145f56e178273e930067d36c4668b5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="sailorhg's fairyfloss for DrRacket"
 HOMEPAGE="https://github.com/HeladoDeBrownie/DrRacket-Theme-fairyfloss"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="eu90h/racket-github-api"
 GH_COMMIT="2079df4a8a61d6f71722d9e7eb0aff4043995018"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Bindings for the GitHub API"
 HOMEPAGE="https://github.com/eu90h/racket-github-api"

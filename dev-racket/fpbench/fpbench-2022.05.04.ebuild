@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="FPBench/FPBench"
 GH_COMMIT="40952f5e05b3b263d624203678e570d1bfea2aac"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The fpbench Racket package"
 HOMEPAGE="https://github.com/FPBench/FPBench"

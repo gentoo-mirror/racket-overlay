@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="bartbes/mosquitto-racket"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An FFI binding of libmosquitto for racket"
 HOMEPAGE="https://github.com/bartbes/mosquitto-racket"

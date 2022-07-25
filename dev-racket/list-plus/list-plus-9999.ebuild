@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="sorawee/list-plus"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A form that collects values into a list while supporting internal-definitions"
 HOMEPAGE="https://github.com/sorawee/list-plus"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="willghatch/racket-rash"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The Reckless Racket Shell.  For interactions and scripting."
 HOMEPAGE="https://github.com/willghatch/racket-rash"

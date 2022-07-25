@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="ifigueroap/racket-rackunit-grade"
 GH_COMMIT="92526d7ced3b4cf7b5323752f20d8f36752e69b6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The racket-rackunit-grade Racket package"
 HOMEPAGE="https://github.com/ifigueroap/racket-rackunit-grade"

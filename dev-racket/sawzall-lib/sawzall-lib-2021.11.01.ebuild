@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="ralsei/sawzall"
 GH_COMMIT="2866f3646aad5d062c559b2c7a6b5c61d10b8481"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A grammar for data wrangling (no documentation)"
 HOMEPAGE="https://github.com/ralsei/sawzall"

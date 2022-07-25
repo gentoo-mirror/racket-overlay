@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mordae/racket-esc-vp21"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Epson ESC/VP21 Projector Control"
 HOMEPAGE="https://github.com/mordae/racket-esc-vp21"

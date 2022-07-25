@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="bennn/glob"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Deprecated. Use file/glob instead."
 HOMEPAGE="https://github.com/bennn/glob"

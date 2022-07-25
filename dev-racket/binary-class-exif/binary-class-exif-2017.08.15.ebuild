@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Kalimehtar/binary-class-exif"
 GH_COMMIT="8d475c4dd72de90decedeb3fc0acd53d9cf6f60d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Class for reading and writing Exif in JPEG or TIFF"
 HOMEPAGE="https://github.com/Kalimehtar/binary-class-exif"

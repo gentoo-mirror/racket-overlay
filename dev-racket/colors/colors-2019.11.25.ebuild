@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="florence/colors"
 GH_COMMIT="103aa2aa71310b0c7a83b33714593f01ce24beab"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library for HSB colors."
 HOMEPAGE="https://github.com/florence/colors"

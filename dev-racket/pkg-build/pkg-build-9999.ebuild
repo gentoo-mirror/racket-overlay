@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket/pkg-build"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Build server for pkgs"
 HOMEPAGE="https://github.com/racket/pkg-build"

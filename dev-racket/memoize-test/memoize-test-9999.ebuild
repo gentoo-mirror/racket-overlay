@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jbclements/memoize"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="testing code for memoize ... bogus change to refresh checksum?"
 HOMEPAGE="https://github.com/jbclements/memoize"

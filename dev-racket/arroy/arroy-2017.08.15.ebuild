@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/arroy"
 GH_COMMIT="487b8cbacc5f1f9a4600f55b8c0f7f148f7c2747"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The arroy Racket package"
 HOMEPAGE="https://github.com/jeapostrophe/arroy"

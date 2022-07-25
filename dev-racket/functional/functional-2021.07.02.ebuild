@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lexi-lambda/functional"
 GH_COMMIT="be2285cd3da0e2fffe651a8ab723185bb669425d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="generic interfaces and data structures for functional programming"
 HOMEPAGE="https://github.com/lexi-lambda/functional"

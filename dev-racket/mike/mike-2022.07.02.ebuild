@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="xgqt/racket-mike"
 GH_COMMIT="eadb448ef8e0d444d70ecd48c5777d8a806e7a9f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Micro Make replacement"
 HOMEPAGE="https://gitlab.com/xgqt/racket-mike"

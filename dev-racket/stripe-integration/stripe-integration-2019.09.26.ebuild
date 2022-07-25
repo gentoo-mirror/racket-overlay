@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="zyrolasting/stripe-integration"
 GH_COMMIT="8675b005992576a1df07f6687b271be026049eaa"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Unofficial Stripe API integration with Racket"
 HOMEPAGE="https://github.com/zyrolasting/stripe-integration"

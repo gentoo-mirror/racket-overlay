@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/define-match-spread-out"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a version of define that allows definitions to be spread across a file"
 HOMEPAGE="https://github.com/AlexKnauth/define-match-spread-out"

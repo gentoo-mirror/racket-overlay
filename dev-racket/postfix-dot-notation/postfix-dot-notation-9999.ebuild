@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/postfix-dot-notation"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a lang-extension for postfix dot notation"
 HOMEPAGE="https://github.com/AlexKnauth/postfix-dot-notation"

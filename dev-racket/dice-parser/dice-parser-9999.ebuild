@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="cmargiotta/dice-parser"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A parser for dice expressions like 1d6-1d4+5."
 HOMEPAGE="https://github.com/cmargiotta/dice-parser"

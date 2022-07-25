@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/arroy"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The arroy Racket package"
 HOMEPAGE="https://github.com/jeapostrophe/arroy"

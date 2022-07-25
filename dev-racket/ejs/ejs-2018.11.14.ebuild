@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jessealama/ejs"
 GH_COMMIT="6b8e74c48e98e1db0a02ddfe72eb44be9070112f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The ejs Racket package"
 HOMEPAGE="https://github.com/jessealama/ejs"

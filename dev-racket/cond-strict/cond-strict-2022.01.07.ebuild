@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/cond-strict"
 GH_COMMIT="4fac4eeb13fe560981ad8b467ec2147ec60c7c7b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="cond: what it should have been"
 HOMEPAGE="https://github.com/AlexKnauth/cond-strict"

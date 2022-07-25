@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="alex-hhh/data-frame"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A data frame implementation for Racket"
 HOMEPAGE="https://github.com/alex-hhh/data-frame"

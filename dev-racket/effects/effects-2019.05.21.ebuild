@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="tonyg/racket-effects"
 GH_COMMIT="e4e7cd99e120660b84baa6c7612995a528e8a1b2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Delimited-continuation-based effects for Racket"
 HOMEPAGE="https://github.com/tonyg/racket-effects"

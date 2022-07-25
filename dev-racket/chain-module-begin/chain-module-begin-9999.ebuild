@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jsmaniac/chain-module-begin"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The chain-module-begin Racket package"
 HOMEPAGE="https://github.com/jsmaniac/chain-module-begin"

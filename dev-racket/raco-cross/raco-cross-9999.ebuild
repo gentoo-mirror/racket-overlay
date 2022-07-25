@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket/raco-cross"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A raco command to drive cross compilation."
 HOMEPAGE="https://github.com/racket/raco-cross"

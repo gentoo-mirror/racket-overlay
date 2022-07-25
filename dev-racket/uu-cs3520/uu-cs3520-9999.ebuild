@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mflatt/uu-cs3520"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Utah CS 3520 homework submission plugin for DrRacket"
 HOMEPAGE="https://github.com/mflatt/uu-cs3520"

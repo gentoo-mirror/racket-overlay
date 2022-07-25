@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="amkhlv/amkhlv"
 GH_COMMIT="05d79ecab5b2ee7a79d048b5a35e951876afcad4"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A tool for preparing HTML slides with LaTeX formulas, based on Scribble"
 HOMEPAGE="https://github.com/amkhlv/amkhlv"

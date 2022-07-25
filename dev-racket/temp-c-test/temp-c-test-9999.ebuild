@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/temp-c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="temporal contracts"
 HOMEPAGE="https://github.com/jeapostrophe/temp-c"

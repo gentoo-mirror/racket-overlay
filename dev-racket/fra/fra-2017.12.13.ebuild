@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/fra"
 GH_COMMIT="151ca5afbb8e732e0da89198cf0b982625233b87"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Purely functional implementation of relational algebra"
 HOMEPAGE="https://github.com/jeapostrophe/fra"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="soegaard/linux-shared-libraries"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The linux-shared-libraries Racket package"
 HOMEPAGE="https://github.com/soegaard/linux-shared-libraries"

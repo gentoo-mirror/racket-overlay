@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-sentry"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Sentry SDK for Racket. (docs only)"
 HOMEPAGE="https://github.com/Bogdanp/racket-sentry"

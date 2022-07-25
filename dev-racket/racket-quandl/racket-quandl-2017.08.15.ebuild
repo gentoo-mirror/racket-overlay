@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="malcolmstill/racket-quandl"
 GH_COMMIT="2bc231f7981dfcd663c87ce46b4ff0876723a7ef"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Grab data from Quandl with racket for fun and profit"
 HOMEPAGE="https://github.com/malcolmstill/racket-quandl"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="pyohannes/racket-symalg"
 GH_COMMIT="5c551e9fcead240dcc70261563c5b981428ca67a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Expressing and manipulating symbolic algebraic expressions in Racket."
 HOMEPAGE="https://github.com/pyohannes/racket-symalg"

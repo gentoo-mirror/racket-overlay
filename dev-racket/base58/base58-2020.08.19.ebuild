@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="marckn0x/base58"
 GH_COMMIT="125186f659f29a9f7275540c6211885784a68edd"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Provides Base58Check encoding and decoding functions."
 HOMEPAGE="https://github.com/marckn0x/base58"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="LeifAndersen/racket-dlm-read"
 GH_COMMIT="9ae0487b315e762d311ea0e14b72a9bd2de27470"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The dlm-read Racket package"
 HOMEPAGE="https://github.com/LeifAndersen/racket-dlm-read"

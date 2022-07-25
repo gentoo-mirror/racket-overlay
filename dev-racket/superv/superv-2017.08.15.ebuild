@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="sleibrock/superv"
 GH_COMMIT="23a7132484f293c3ca407db5b3e86a9e0a7a9708"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Supervise your subprocesses with Racket"
 HOMEPAGE="https://github.com/sleibrock/superv"

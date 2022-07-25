@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tonyg/racket-unix-signals"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Sending and handling Unix signals from Racket"
 HOMEPAGE="https://github.com/tonyg/racket-unix-signals"

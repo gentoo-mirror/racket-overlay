@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-libargon2"
 GH_COMMIT="fa799ff37ef8864ef8c74c883238086e93ba1af5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The libargon2 Racket package"
 HOMEPAGE="https://github.com/Bogdanp/racket-libargon2"

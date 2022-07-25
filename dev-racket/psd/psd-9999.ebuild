@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="wargrey/psd"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Read (and will write) Photoshop Documents"
 HOMEPAGE="https://github.com/wargrey/psd"

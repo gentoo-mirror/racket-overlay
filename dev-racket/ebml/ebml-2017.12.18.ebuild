@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jbclements/ebml"
 GH_COMMIT="2ec0b537cf88dfbcf791f28a3ecd45583ff6295a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library for reading and writing EBML files."
 HOMEPAGE="https://github.com/jbclements/ebml"

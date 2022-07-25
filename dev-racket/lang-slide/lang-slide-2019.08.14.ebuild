@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samth/lang-slide"
 GH_COMMIT="ea86af49c3d7fe2fe0e80c1c9488b3447a0efbdd"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A picture showing all the languages used to implement Racket."
 HOMEPAGE="https://github.com/samth/lang-slide"

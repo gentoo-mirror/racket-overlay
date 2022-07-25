@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="johnstonskj/racket-parquet"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The parquet Racket package"
 HOMEPAGE="https://github.com/johnstonskj/racket-parquet"

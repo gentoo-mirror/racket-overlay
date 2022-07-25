@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lexi-lambda/racket-multimethod"
 GH_COMMIT="8a0903ebaedd919971c382eeb785f05080c7a8d6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The multimethod Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/racket-multimethod"

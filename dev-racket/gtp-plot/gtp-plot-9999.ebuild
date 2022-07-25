@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="bennn/gtp-plot"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Plots for gradual typing performance"
 HOMEPAGE="https://github.com/bennn/gtp-plot"

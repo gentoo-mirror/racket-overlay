@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="GPRicci/secd"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An SECD to ARM Assembler compiler, supporting a small subset of instructions."
 HOMEPAGE="https://github.com/GPRicci/secd"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="RayRacine/date"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The date Racket package"
 HOMEPAGE="https://gitlab.com/RayRacine/date"

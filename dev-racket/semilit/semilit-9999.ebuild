@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="samth/semilit"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Semi-literate programming for any Racket language"
 HOMEPAGE="https://github.com/samth/semilit"

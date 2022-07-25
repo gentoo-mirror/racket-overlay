@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="thoughtstem/english"
 GH_COMMIT="b03f3b203fdbc11780291e09a528ff0590b5802b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Utilities for generating English text strings -- e.g. plurals"
 HOMEPAGE="https://github.com/thoughtstem/english"

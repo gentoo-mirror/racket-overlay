@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="yjqww6/for-helpers"
 GH_COMMIT="3753dbce905e5c115e8107a9411249a12a06fd64"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Helper macros for racket for macros to avoid intermediate sequences"
 HOMEPAGE="https://github.com/yjqww6/for-helpers"

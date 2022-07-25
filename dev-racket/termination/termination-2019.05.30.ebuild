@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="philnguyen/termination"
 GH_COMMIT="1d05c1bf8e9bd59d2fbaaa213b490fd8e59644bd"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Dynamic enforcement of size-change termination"
 HOMEPAGE="https://github.com/philnguyen/termination"

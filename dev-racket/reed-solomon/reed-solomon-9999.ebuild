@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="simmone/racket-reed-solomon"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Reed-Solomon implementation"
 HOMEPAGE="https://github.com/simmone/racket-reed-solomon"

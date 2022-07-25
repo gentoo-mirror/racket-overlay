@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="yilinwei/otp"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The otp-lib Racket package"
 HOMEPAGE="https://github.com/yilinwei/otp"

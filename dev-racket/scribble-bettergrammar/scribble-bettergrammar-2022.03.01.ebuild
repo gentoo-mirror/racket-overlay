@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="wilbowma/scribble-bettergrammar"
 GH_COMMIT="4d62bc0e767dc524ff2b8ac42cd0bb22aea3436c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The scribble-bettergrammar Racket package"
 HOMEPAGE="https://github.com/wilbowma/scribble-bettergrammar"

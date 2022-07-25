@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="97jaz/tzinfo"
 GH_COMMIT="2f812283d9c90040aecb3c7e2ed2edf93a3720de"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="API for querying the IANA tz database"
 HOMEPAGE="https://github.com/97jaz/tzinfo"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="DarrenN/racket-dogstatsd"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="DogStatsD client for Racket, allowing you to send metrics to Datadog"
 HOMEPAGE="https://github.com/DarrenN/racket-dogstatsd"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="bennn/forth"
 GH_COMMIT="2e9247b1b8c28402d0eecfc3fb97e805e3074255"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Forth emulator, as a Racket #lang"
 HOMEPAGE="https://github.com/bennn/forth"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dedbox/racket-glsl"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The OpenGL Shader Language 4.5 (GLSL)"
 HOMEPAGE="https://github.com/dedbox/racket-glsl"

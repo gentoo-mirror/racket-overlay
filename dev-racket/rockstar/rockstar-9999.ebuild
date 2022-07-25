@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="whichxjy/rockstar-rkt"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The rockstar Racket package"
 HOMEPAGE="https://github.com/whichxjy/rockstar-rkt"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="stchang/macrotypes"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Types as macros core api, used to create Turnstile lang"
 HOMEPAGE="https://github.com/stchang/macrotypes"

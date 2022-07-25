@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="APOS80/Quaternion"
 GH_COMMIT="96591d338f423f741f712150d0e20da93500f1e8"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The Quaternion Racket package"
 HOMEPAGE="https://github.com/APOS80/Quaternion"

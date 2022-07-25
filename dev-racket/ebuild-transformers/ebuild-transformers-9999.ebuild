@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="xgqt/racket-ebuild"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Library to ease automatic ebuild creation. Additional helper libraries."
 HOMEPAGE="https://gitlab.com/xgqt/racket-ebuild"

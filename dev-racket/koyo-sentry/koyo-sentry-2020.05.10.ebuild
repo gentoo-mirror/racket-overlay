@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/koyo-sentry"
 GH_COMMIT="f04efd69d239347bc44cba1587deb1bc3d5ba8c7"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Integrates koyo and racket-sentry."
 HOMEPAGE="https://github.com/Bogdanp/koyo-sentry"

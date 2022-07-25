@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="tyynetyyne/teachpacks"
 GH_COMMIT="f82605dc2de7e6b6267fe2b2e6a6481a1ab33a35"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket Turtle for drawing turtle-graphics."
 HOMEPAGE="https://github.com/tyynetyyne/teachpacks"

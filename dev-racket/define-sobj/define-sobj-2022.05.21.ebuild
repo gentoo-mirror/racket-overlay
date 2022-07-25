@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="sorawee/define-sobj"
 GH_COMMIT="ba833cfcff497acb49c78d51cf3477b8e5a84ffd"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An anaphoric macro that binds sobj to call syntax object"
 HOMEPAGE="https://github.com/sorawee/define-sobj"

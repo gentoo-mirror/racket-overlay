@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="rebcabin/bleir-sandbox"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The bleir-sandbox Racket package"
 HOMEPAGE="https://github.com/rebcabin/bleir-sandbox"

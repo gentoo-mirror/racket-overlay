@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="bksaiki/generic-flonum"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Alternative MPFR interface for emulating IEEE-754 floating-point numbers"
 HOMEPAGE="https://github.com/bksaiki/generic-flonum"

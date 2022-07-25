@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="tonyg/racket-dbus"
 GH_COMMIT="57c5e3d9120f778b48ba01efb6b37c1ffbc9963d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Native D-Bus for Racket"
 HOMEPAGE="https://github.com/tonyg/racket-dbus"

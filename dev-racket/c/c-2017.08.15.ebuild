@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/c"
 GH_COMMIT="c2efa315c13e420e6cf77ba8d5ce1f7eb9dbdc2c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A language level for writing C code in DrRacket."
 HOMEPAGE="https://github.com/jeapostrophe/c"

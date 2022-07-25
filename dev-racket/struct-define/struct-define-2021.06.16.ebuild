@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/struct-define"
 GH_COMMIT="74c874da5295f0b9bda61e0a4a748d311ff6bced"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="quickly pull out struct fields"
 HOMEPAGE="https://github.com/jeapostrophe/struct-define"

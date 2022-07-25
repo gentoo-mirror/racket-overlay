@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="johnstonskj/racket-locale"
 GH_COMMIT="4381d42d76548b6b52522349955be55ee46e3700"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="More, and complete, locale tools."
 HOMEPAGE="https://github.com/johnstonskj/racket-locale"

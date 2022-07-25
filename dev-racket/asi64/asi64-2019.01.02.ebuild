@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="pezipink/asi64"
 GH_COMMIT="81e61a25a6f35e137df6326353b9c54f50f2d829"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The Racket based 6502 assembler"
 HOMEPAGE="https://github.com/pezipink/asi64"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/unstable-macro-testing-lib"
 GH_COMMIT="65b4dcc6d6d4aa6a1a29cb3fc039fb4a06968a45"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Experimental libraries for testing macros"
 HOMEPAGE="https://github.com/racket/unstable-macro-testing-lib"

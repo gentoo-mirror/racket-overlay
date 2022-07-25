@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="camoy/struct-set"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Helpers for immutably updating structs."
 HOMEPAGE="https://github.com/camoy/struct-set"

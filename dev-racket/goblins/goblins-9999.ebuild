@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="spritely/goblins"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Goblins is a transactional, distributed actor model environment"
 HOMEPAGE="https://gitlab.com/spritely/goblins"

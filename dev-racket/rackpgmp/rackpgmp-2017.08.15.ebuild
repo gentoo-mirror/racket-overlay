@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="wilbowma/pgmp"
 GH_COMMIT="405316e54f194a5d8cbf968bbcb96a0ef3ea70a3"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library for profile-guided meta-programming"
 HOMEPAGE="https://github.com/wilbowma/pgmp"

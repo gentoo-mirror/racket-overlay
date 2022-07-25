@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Metaxal/text-table"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A simple package to display text tables with unicode frames."
 HOMEPAGE="https://github.com/Metaxal/text-table"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lehitoskin/typed-stack"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A simple stack library written in TR."
 HOMEPAGE="https://github.com/lehitoskin/typed-stack"

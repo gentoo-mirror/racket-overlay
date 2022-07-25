@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="m-hugi/nasa-open-api"
 GH_COMMIT="aea1067af82aa4516f192e96bb987751ad2f6316"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Library for a handful of NASA's Open APIs"
 HOMEPAGE="https://github.com/m-hugi/nasa-open-api"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="oransimhony/lambda-calculus"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A lambda-calculus DSL in Racket"
 HOMEPAGE="https://github.com/oransimhony/lambda-calculus"

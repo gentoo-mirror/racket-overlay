@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="wargrey/schema"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A data modeling tool for Typed Racket"
 HOMEPAGE="https://github.com/wargrey/schema"

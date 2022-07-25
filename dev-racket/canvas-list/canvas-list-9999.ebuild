@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="massung/racket-canvas-list"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The canvas-list Racket package"
 HOMEPAGE="https://github.com/massung/racket-canvas-list"

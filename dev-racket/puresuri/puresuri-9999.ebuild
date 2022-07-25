@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/puresuri"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="puresuri presentation system"
 HOMEPAGE="https://github.com/jeapostrophe/puresuri"

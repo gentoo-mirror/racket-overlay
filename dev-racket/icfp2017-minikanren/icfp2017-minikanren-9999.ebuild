@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/icfp2017-artifact-auas7pp"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The icfp2017-minikanren Racket package"
 HOMEPAGE="https://github.com/AlexKnauth/icfp2017-artifact-auas7pp"

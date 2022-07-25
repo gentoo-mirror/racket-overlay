@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="JoaoBrlt/drracket-one-dark"
 GH_COMMIT="7b9dbd998e8976f37f98cf1f8fa25c4f4631dcef"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Atom's iconic One Dark color scheme for DrRacket!"
 HOMEPAGE="https://github.com/JoaoBrlt/drracket-one-dark"

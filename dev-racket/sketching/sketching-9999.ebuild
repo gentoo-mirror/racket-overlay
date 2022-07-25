@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="soegaard/sketching"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Sketching - Language, documentation and examples"
 HOMEPAGE="https://github.com/soegaard/sketching"

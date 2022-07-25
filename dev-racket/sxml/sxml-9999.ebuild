@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jbclements/sxml"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="SXML family of tools (including SXPath)"
 HOMEPAGE="https://github.com/jbclements/sxml"

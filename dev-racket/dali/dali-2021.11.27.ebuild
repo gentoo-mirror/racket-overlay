@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="johnstonskj/dali"
 GH_COMMIT="d69925424559447fbd3bba7d4d66dcb2a745b9c2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Simple text templating (mustache/handlebars style) for Racket."
 HOMEPAGE="https://github.com/johnstonskj/dali"

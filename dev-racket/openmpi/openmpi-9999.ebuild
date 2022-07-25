@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/openmpi"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Racket interface to MPI based on an FFI to OpenMPI"
 HOMEPAGE="https://github.com/jeapostrophe/openmpi"

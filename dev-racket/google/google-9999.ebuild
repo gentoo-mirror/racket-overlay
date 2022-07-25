@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tonyg/racket-google"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Google APIs (Drive, Plus, ...) for Racket."
 HOMEPAGE="https://github.com/tonyg/racket-google"

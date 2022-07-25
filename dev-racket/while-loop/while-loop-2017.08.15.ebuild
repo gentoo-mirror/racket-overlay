@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jbclements/while-loop"
 GH_COMMIT="69e33eef851c8db79536dcdb86bbfe113f7dcdda"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Danny Yoo's while-loop package"
 HOMEPAGE="https://github.com/jbclements/while-loop"

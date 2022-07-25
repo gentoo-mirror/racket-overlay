@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="johnnyodonnell/commatize-number"
 GH_COMMIT="c03e657a9b85baab345663ddf1691ef1709cc45f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Commatize a number"
 HOMEPAGE="https://github.com/johnnyodonnell/commatize-number"

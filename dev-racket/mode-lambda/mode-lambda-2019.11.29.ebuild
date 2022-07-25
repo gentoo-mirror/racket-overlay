@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/mode-lambda"
 GH_COMMIT="64b5ae81f457ded7664458cd9935ce7d3ebfc449"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="2d sprite-based graphics engine"
 HOMEPAGE="https://github.com/jeapostrophe/mode-lambda"

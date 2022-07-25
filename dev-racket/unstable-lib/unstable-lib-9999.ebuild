@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket/unstable"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="implementation (no documentation) part of unstable"
 HOMEPAGE="https://github.com/racket/unstable"

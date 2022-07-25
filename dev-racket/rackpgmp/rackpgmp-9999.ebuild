@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="wilbowma/pgmp"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library for profile-guided meta-programming"
 HOMEPAGE="https://github.com/wilbowma/pgmp"

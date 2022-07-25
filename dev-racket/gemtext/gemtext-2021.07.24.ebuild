@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="bctnry/gemtext-racket"
 GH_COMMIT="479172598771b69fbeb199037929c2ce0b37e22b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A text/gemini parser for Racket."
 HOMEPAGE="https://github.com/bctnry/gemtext-racket"

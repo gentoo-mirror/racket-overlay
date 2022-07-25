@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="simmone/racket-simple-qr"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="QR code tool"
 HOMEPAGE="https://github.com/simmone/racket-simple-qr"

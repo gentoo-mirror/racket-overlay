@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="eutro/scheme2d"
 GH_COMMIT="65b4a3c69d8c13fbcfc542fa366409fecc1089f4"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The future of programming."
 HOMEPAGE="https://github.com/eutro/scheme2d"

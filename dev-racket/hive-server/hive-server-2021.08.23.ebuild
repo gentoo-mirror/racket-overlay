@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Kalimehtar/hive-server"
 GH_COMMIT="b60f588e9f214faa7b0767047ff20ba962ce935a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Hive: client-server framework. This is server-side package."
 HOMEPAGE="https://github.com/Kalimehtar/hive-server"

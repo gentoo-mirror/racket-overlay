@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="stchang/redis"
 GH_COMMIT="ec69a3ea1c6b5eda35502361bc88d204c38b1120"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A redis client for Racket."
 HOMEPAGE="https://github.com/stchang/redis"

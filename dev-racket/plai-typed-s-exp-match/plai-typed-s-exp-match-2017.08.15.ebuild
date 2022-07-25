@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mflatt/plai-typed-s-exp-match"
 GH_COMMIT="ff05b257cc8739d2f4ad8f33b65440635ab9cce0"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Simple S-expression matcher for use with plai-typed"
 HOMEPAGE="https://github.com/mflatt/plai-typed-s-exp-match"

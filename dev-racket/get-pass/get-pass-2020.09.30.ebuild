@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="smitchell556/get-pass"
 GH_COMMIT="6733b1094c57bb9d6e1e5e4a415fd4e2d0878d99"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Utility to get passwords from the command line without echoing input."
 HOMEPAGE="https://github.com/smitchell556/get-pass"

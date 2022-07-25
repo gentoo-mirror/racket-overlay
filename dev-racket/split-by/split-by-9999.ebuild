@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="samth/split-by"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The split-by function from Mathematica"
 HOMEPAGE="https://github.com/samth/split-by"

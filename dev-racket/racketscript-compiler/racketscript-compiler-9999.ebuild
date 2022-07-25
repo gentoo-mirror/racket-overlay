@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racketscript/racketscript"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Racket to JavaScript compiler"
 HOMEPAGE="https://github.com/racketscript/racketscript"

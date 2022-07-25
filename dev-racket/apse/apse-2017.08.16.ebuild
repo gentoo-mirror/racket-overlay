@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/apse"
 GH_COMMIT="b02dfe2de3f7ae1a1edf931c9555408e6354a5bc"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a pixel-based sprite editor (good with mode-lambda)"
 HOMEPAGE="https://github.com/jeapostrophe/apse"

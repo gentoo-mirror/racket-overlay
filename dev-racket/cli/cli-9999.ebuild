@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="countvajhula/cli"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Simple and expressive command line interfaces."
 HOMEPAGE="https://github.com/countvajhula/cli"

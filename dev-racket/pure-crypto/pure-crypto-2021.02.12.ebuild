@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="simmone/racket-pure-crypto"
 GH_COMMIT="797f643b39c714b8d67e899f659a01dd676a69a1"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a pure crypto implementation for racket"
 HOMEPAGE="https://github.com/simmone/racket-pure-crypto"

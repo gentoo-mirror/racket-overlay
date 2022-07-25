@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="wargrey/schema"
 GH_COMMIT="bc8608c0a050bec49b3940a4b32457277bf6fbe8"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A data modeling tool for Typed Racket"
 HOMEPAGE="https://github.com/wargrey/schema"

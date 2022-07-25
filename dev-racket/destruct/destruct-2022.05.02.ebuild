@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="MichaelBurge/destruct"
 GH_COMMIT="5ecd7cbb6848b38f68e5152ac09164b6eeb3e6d8"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Macro that introduces local variables for every field in a struct."
 HOMEPAGE="https://github.com/MichaelBurge/destruct"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="winny-/umask"
 GH_COMMIT="6ccdac1839b2dd592527520c4b6ae319c7b7c961"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Documentation for umask"
 HOMEPAGE="https://github.com/winny-/umask"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="kazzmir/x11-racket"
 GH_COMMIT="97c4a75872cfd2882c8895bba88b87a4ad12be0e"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="X11 bindings for Racket. Initially Jon Rafkind's work."
 HOMEPAGE="https://github.com/kazzmir/x11-racket"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="sorawee/drracket-restore-workspace"
 GH_COMMIT="139a3d95198c8e4e47835aca12cde4c9f140afc7"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Restore workspace for DrRacket"
 HOMEPAGE="https://github.com/sorawee/drracket-restore-workspace"

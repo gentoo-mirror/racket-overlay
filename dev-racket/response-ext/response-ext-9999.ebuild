@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Junker/response-ext"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Extended HTTP response functions for Racket Web Server"
 HOMEPAGE="https://github.com/Junker/response-ext"

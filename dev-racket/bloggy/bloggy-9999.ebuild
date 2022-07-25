@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/bloggy"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A very simple Racket blog system"
 HOMEPAGE="https://github.com/jeapostrophe/bloggy"

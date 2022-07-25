@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="RayRacine/bluetooth-socket"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The bluetooth-socket Racket package"
 HOMEPAGE="https://gitlab.com/RayRacine/bluetooth-socket"

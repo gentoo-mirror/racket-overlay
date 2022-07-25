@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="takikawa/lipics-scribble"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Scribble languages for the LIPIcs paper format"
 HOMEPAGE="https://github.com/takikawa/lipics-scribble"

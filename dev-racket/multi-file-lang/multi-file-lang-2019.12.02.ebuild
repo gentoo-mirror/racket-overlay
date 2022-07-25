@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/multi-file-lang"
 GH_COMMIT="0975cc27e0003050597da7d9f1fc5e9eac341fc7"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a #lang language for multiple files in one"
 HOMEPAGE="https://github.com/AlexKnauth/multi-file-lang"

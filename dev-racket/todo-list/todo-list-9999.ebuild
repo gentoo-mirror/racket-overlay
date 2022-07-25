@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="david-christiansen/todo-list"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A list of goals + interactive commands for solving them in DrRacket"
 HOMEPAGE="https://github.com/david-christiansen/todo-list"

@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="dustyweb/racket-pk"
 GH_COMMIT="f39127f1c23c479390d32a8e32502a0dc14b8f7d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="slightly superior print (peek) debugging"
 HOMEPAGE="https://gitlab.com/dustyweb/racket-pk"

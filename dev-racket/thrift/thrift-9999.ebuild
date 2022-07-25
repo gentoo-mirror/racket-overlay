@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="johnstonskj/racket-thrift"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Support for the Apache Thrift messaging framework"
 HOMEPAGE="https://github.com/johnstonskj/racket-thrift"

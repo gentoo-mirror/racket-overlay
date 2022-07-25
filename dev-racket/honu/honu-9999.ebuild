@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket/honu"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The implementation of the Honu language"
 HOMEPAGE="https://github.com/racket/honu"

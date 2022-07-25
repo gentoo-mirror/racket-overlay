@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="willghatch/racket-rash"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="line-oriented reader"
 HOMEPAGE="https://github.com/willghatch/racket-rash"

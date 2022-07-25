@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="thoughtstem/racket-chipmunk"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Chipmunk bindings for Racket."
 HOMEPAGE="https://github.com/thoughtstem/racket-chipmunk"

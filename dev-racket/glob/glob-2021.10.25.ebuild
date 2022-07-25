@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="bennn/glob"
 GH_COMMIT="e4cc1bf39587ec1037fc67651d22ad353c7ef381"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Deprecated. Use file/glob instead."
 HOMEPAGE="https://github.com/bennn/glob"

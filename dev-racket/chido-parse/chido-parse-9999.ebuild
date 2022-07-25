@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="willghatch/racket-chido-parse"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Parsing with delimited continuations."
 HOMEPAGE="https://github.com/willghatch/racket-chido-parse"

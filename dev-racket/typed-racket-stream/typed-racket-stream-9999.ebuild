@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/typed-racket-stream"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Streams for typed racket"
 HOMEPAGE="https://github.com/AlexKnauth/typed-racket-stream"

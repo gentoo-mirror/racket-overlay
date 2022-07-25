@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="rmculpepper/binaryio"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="functions for reading and writing binary data"
 HOMEPAGE="https://github.com/rmculpepper/binaryio"

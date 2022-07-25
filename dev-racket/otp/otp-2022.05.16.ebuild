@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="yilinwei/otp"
 GH_COMMIT="5285e29483cbb19bbc832b2c67f524ade6ff00f9"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Implementation of one-time passwords as specified by RFC4226 and RFC6238."
 HOMEPAGE="https://github.com/yilinwei/otp"

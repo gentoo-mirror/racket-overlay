@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="camoy/meta"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Associate metadata with values."
 HOMEPAGE="https://github.com/camoy/meta"

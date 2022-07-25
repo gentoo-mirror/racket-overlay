@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samth/mmap"
 GH_COMMIT="8ead18bc73fa629ae352471c63a7b0847b18fb3f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Wrapper for the system mmap() function"
 HOMEPAGE="https://github.com/samth/mmap"

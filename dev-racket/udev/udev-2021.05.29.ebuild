@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mordae/racket-udev"
 GH_COMMIT="9ceb721d4d2af78a5ff99c0977e7970c46e79055"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="udev bindings for Racket"
 HOMEPAGE="https://github.com/mordae/racket-udev"

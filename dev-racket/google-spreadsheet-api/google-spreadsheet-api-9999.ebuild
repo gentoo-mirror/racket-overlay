@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="car.margiotta/google-spreadsheet-api"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket interface for Google Spreadsheet APIs"
 HOMEPAGE="https://gitlab.com/car.margiotta/google-spreadsheet-api"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="git.sr.ht"
 GH_REPO="~sschwarzer/todo-txt"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The todo-txt Racket package"
 HOMEPAGE="https://git.sr.ht/~sschwarzer/todo-txt"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="stamourv/acmsmall-scribble"
 GH_COMMIT="15a951e4dff06856862d2a87afd032b983a705be"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Port of the acmsmall style to Scribble"
 HOMEPAGE="https://github.com/stamourv/acmsmall-scribble"

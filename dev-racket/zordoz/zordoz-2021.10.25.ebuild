@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="bennn/zordoz"
 GH_COMMIT="c65eccf469725b36dc27e5e153354e7e71766b9c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Explorer for .zo bytecode files"
 HOMEPAGE="https://github.com/bennn/zordoz"

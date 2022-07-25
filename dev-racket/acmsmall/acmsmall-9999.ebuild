@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="stamourv/acmsmall-scribble"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Port of the acmsmall style to Scribble"
 HOMEPAGE="https://github.com/stamourv/acmsmall-scribble"

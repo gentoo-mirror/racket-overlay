@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jessealama/argo"
 GH_COMMIT="ee49d60a8d73b32e8323a1324503f1d9c1022e5f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Validate JSON data using JSON Schema."
 HOMEPAGE="https://github.com/jessealama/argo"

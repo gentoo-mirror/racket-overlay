@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="petterpripp/gsl-integration"
 GH_COMMIT="09a045e3bb451c82a52b3a155a07d112fcb6b688"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Interface to GNU GSL Numerical Integration."
 HOMEPAGE="https://github.com/petterpripp/gsl-integration"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="winny-/4chdl"
 GH_COMMIT="9b0fe3b0e3ac69755cac70d583e80ffb19b1ff2f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="4chan image downloader and library to interact with the JSON API."
 HOMEPAGE="https://github.com/winny-/4chdl"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Metaxal/color-flood"
 GH_COMMIT="86f82e312587e982695ef5dd687e247f97bae7f5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A game where the player must fill the board with colors before its opponent"
 HOMEPAGE="https://github.com/Metaxal/color-flood"

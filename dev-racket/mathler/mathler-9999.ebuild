@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dannypsnl/mathler"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="terminal version of mathler game, and its solver"
 HOMEPAGE="https://github.com/dannypsnl/mathler"

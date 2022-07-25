@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="git.sr.ht"
 GH_REPO="~sschwarzer/raco-exe-multitarget"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Create standalone binaries for multiple target platforms"
 HOMEPAGE="https://git.sr.ht/~sschwarzer/raco-exe-multitarget"

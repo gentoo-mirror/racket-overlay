@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dannypsnl/raco-watch"
 GH_COMMIT="53d21037b19dd56fd191b264aede919fb5e52bff"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An extension of raco command that watching files and re-executing subcommand"
 HOMEPAGE="https://github.com/dannypsnl/raco-watch"

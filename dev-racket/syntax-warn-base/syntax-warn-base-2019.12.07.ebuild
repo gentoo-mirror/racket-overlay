@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/syntax-warn"
 GH_COMMIT="f17fdd3179aeab8e5275a24e7d091d3ca42960a9"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Base library for defining and attaching syntax warnings"
 HOMEPAGE="https://github.com/jackfirth/syntax-warn"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/koyo-sessions-redis"
 GH_COMMIT="4e60b085d9029be311962adaab586ce687744c56"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Redis-based session store for Koyo."
 HOMEPAGE="https://github.com/Bogdanp/koyo-sessions-redis"

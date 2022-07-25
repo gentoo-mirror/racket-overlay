@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mfelleisen/web-io"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a replacement teach pack for F I at NEU (2016)"
 HOMEPAGE="https://github.com/mfelleisen/web-io"

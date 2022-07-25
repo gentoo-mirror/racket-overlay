@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket/pkg-push"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The pkg-push Racket package"
 HOMEPAGE="https://github.com/racket/pkg-push"

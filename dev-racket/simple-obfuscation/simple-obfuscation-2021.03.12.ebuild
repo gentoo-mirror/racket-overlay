@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="rfindler/simple-obfuscation"
 GH_COMMIT="f6ff1afe75ae97994b351a9dc189c0e31d06fdf6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The simple-obfuscation Racket package"
 HOMEPAGE="https://github.com/rfindler/simple-obfuscation"

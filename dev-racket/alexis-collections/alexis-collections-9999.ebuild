@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lexi-lambda/racket-alexis-collections"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Deprecated. Use the collections package instead."
 HOMEPAGE="https://github.com/lexi-lambda/racket-alexis-collections"

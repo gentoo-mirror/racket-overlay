@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/afl"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a lang-extension that provides rackjure-like anonymous function literals"
 HOMEPAGE="https://github.com/AlexKnauth/afl"

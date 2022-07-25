@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="git.matthewbutterick.com"
 GH_REPO="mbutterick/describe"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Doug Williams's 'describe' package from PLaneT"
 HOMEPAGE="https://git.matthewbutterick.com/mbutterick/describe"

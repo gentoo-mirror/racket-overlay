@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dracula/racket"
 GH_COMMIT="e0c10bc0177ada3e37518f96ba0ea55560d76781"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Dracula color scheme for DrRacket (https://draculatheme.com/)"
 HOMEPAGE="https://github.com/dracula/racket"

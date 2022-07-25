@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dodgez/termconfig"
 GH_COMMIT="620c2fee9491186fc5faf8a5d2b4c0eb67062657"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Cross-platform terminal helper library in Racket."
 HOMEPAGE="https://github.com/dodgez/termconfig"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="soegaard/racket-poppler"
 GH_COMMIT="0ccd65fb4a85c05ad6494b5ab8412c529bd77f26"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Read, search and render pdfs. Use LaTeX in scribble and slidehow."
 HOMEPAGE="https://github.com/soegaard/racket-poppler"

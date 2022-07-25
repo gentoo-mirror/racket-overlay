@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="prozion/tabtree"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library to handle files of Tabtree format"
 HOMEPAGE="https://github.com/prozion/tabtree"

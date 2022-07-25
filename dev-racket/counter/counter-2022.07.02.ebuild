@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="xgqt/scheme-counter"
 GH_COMMIT="5aa389039c6eb50cfa8cda4279a5f6cc062dae10"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Small counter library to use for console output, logging, etc."
 HOMEPAGE="https://gitlab.com/xgqt/scheme-counter"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="zenspider/check-sexp-equal"
 GH_COMMIT="59d1d837e8d7d6d0d4a8d4dc23497a9589f234fc"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A simple extension for rackunit that provides s-expression diffs on failure."
 HOMEPAGE="https://github.com/zenspider/check-sexp-equal"

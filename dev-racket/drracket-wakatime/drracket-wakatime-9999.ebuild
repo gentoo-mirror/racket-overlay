@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket-tw/drracket-wakatime"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="wakatime support on DrRacket"
 HOMEPAGE="https://github.com/racket-tw/drracket-wakatime"

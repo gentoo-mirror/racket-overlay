@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="greghendershott/rackjure"
 GH_COMMIT="62b210b0544c9660cac41b2b8c298b364e73cbee"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Some Clojure-inspired idioms."
 HOMEPAGE="https://github.com/greghendershott/rackjure"

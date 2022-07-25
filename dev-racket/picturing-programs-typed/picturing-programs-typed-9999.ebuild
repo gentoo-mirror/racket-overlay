@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="maueroats/picturing-programs-typed"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The picturing-programs-typed Racket package"
 HOMEPAGE="https://github.com/maueroats/picturing-programs-typed"

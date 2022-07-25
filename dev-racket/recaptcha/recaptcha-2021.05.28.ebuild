@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="LiberalArtist/recaptcha"
 GH_COMMIT="95cd84588b93128a6becb005e885bcc3fb16d648"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Utilities for using reCAPTCHA with the web-server/formlets API"
 HOMEPAGE="https://github.com/LiberalArtist/recaptcha"

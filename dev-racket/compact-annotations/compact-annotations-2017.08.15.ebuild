@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/compact-annotations"
 GH_COMMIT="dcd5f87dec21f40904e92eefb747472151bd3ace"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Function type annotation syntax for Typed Racket similar to Haskell"
 HOMEPAGE="https://github.com/jackfirth/compact-annotations"

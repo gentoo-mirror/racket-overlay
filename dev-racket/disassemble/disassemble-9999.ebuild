@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="samth/disassemble"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Disassembler for JIT-compiled functions."
 HOMEPAGE="https://github.com/samth/disassemble"

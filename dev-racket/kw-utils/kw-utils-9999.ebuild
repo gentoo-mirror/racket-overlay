@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/kw-utils"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="misc kw utils"
 HOMEPAGE="https://github.com/AlexKnauth/kw-utils"

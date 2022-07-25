@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="kugelblitz/spreadsheet-editor"
 GH_COMMIT="73f8cfa89f0534f0bbb72833741cc7d5974ecda8"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Flexible spreadsheet editor built on top of Racket's GUI controls"
 HOMEPAGE="https://github.com/kugelblitz/spreadsheet-editor"

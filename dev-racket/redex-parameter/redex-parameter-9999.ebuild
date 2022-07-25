@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="camoy/redex-parameter"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Parameters for extensions in Redex."
 HOMEPAGE="https://github.com/camoy/redex-parameter"

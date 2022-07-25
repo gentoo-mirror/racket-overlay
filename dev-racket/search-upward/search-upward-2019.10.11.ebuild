@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="zyrolasting/search-upward"
 GH_COMMIT="02016d0ca3bdd76d69c9d376ae84936a63c5ca6e"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The search-upward Racket package"
 HOMEPAGE="https://github.com/zyrolasting/search-upward"

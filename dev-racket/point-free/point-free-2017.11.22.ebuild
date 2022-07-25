@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/point-free"
 GH_COMMIT="d294a342466d5071dd2c8f16ba9e50f9006b54af"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library for easier and more powerful function composition"
 HOMEPAGE="https://github.com/jackfirth/point-free"

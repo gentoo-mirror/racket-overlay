@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="stchang/graph"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Tests for graph-lib"
 HOMEPAGE="https://github.com/stchang/graph"

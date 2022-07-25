@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samth/get-primitive"
 GH_COMMIT="c69044511178cd544f5ce0c3d672c1e077030282"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Extract low-level primitives"
 HOMEPAGE="https://github.com/samth/get-primitive"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="thoughtstem/color-strings"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Makes identifiers for common colors.  Prevents silly mispellings."
 HOMEPAGE="https://github.com/thoughtstem/color-strings"

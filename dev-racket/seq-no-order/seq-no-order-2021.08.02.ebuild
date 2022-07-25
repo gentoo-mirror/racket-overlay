@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/seq-no-order"
 GH_COMMIT="5911a6f2d4f92d115f964dbb2e55919e51db4478"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="~seq-no-order and ~no-order as pattern-expanders that work with syntax/parse."
 HOMEPAGE="https://github.com/AlexKnauth/seq-no-order"

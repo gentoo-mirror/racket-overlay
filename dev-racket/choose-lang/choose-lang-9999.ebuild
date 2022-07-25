@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="bengreenman/choose-lang"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Pick #lang at read-time"
 HOMEPAGE="https://gitlab.com/bengreenman/choose-lang"

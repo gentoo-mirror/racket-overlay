@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jacobwhall/racket-mf2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A microformats2 parsing library"
 HOMEPAGE="https://github.com/jacobwhall/racket-mf2"

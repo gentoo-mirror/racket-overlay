@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="MatrixForChange/qiniu-sdk"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A simple library for qiniu.com"
 HOMEPAGE="https://github.com/MatrixForChange/qiniu-sdk"

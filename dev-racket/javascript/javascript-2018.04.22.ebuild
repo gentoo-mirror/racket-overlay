@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samth/javascript.plt"
 GH_COMMIT="327c2de5e09f885b682f80524ff3c12ef6c47543"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An implementation of JavaScript"
 HOMEPAGE="https://github.com/samth/javascript.plt"

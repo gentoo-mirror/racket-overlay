@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="simmone/racket-simple-qr"
 GH_COMMIT="904f1491bc521badeafeabd0d7d7e97e3d0ee958"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="QR code tool"
 HOMEPAGE="https://github.com/simmone/racket-simple-qr"

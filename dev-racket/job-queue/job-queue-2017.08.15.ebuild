@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/job-queue"
 GH_COMMIT="0a2c349636aa88b06c9c299ef201494df648b164"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library for managing sets of workers and their jobs."
 HOMEPAGE="https://github.com/jeapostrophe/job-queue"

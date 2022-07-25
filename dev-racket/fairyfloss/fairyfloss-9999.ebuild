@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="HeladoDeBrownie/DrRacket-Theme-fairyfloss"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="sailorhg's fairyfloss for DrRacket"
 HOMEPAGE="https://github.com/HeladoDeBrownie/DrRacket-Theme-fairyfloss"

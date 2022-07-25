@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="samth/find-parent-dir"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Find parent directories matching a criterion."
 HOMEPAGE="https://github.com/samth/find-parent-dir"

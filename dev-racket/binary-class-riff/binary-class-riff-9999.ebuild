@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lwhjp/binary-class-riff"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Classes for reading and writing RIFF files"
 HOMEPAGE="https://github.com/lwhjp/binary-class-riff"

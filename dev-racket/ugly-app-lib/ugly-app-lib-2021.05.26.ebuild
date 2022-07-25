@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/ugly-app"
 GH_COMMIT="86f2670f27cb7e09eb80e4494f80b54528701c7a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The ugly-app-lib Racket package"
 HOMEPAGE="https://github.com/AlexKnauth/ugly-app"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jackfirth/scribble-example"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Deprecated. Use the built in scribble/example instead."
 HOMEPAGE="https://github.com/jackfirth/scribble-example"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="greghendershott/http"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Support for HTTP 1.1 including automatic connection pooling."
 HOMEPAGE="https://github.com/greghendershott/http"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lwhjp/binary-class-riff"
 GH_COMMIT="ddad0c7fa1e1f7a3b990809bcccbd521204e2fd0"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Classes for reading and writing RIFF files"
 HOMEPAGE="https://github.com/lwhjp/binary-class-riff"

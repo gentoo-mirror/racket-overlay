@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="rmculpepper/custom-load"
 GH_COMMIT="4e70205c29ab0672663fcae78ded32563f01414b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A load handler that avoids stale zo files."
 HOMEPAGE="https://github.com/rmculpepper/custom-load"

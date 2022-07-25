@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Metaxal/rwind"
 GH_COMMIT="5a4f580b0882452f3938aaa1711a6d99570f006f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An X11 window manager written in Racket (still in early stage)"
 HOMEPAGE="https://github.com/Metaxal/rwind"

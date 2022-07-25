@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dstorrs/file-metadata"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The file-metadata Racket package"
 HOMEPAGE="https://github.com/dstorrs/file-metadata"

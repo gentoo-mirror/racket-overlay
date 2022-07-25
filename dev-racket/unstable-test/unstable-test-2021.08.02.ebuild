@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/unstable"
 GH_COMMIT="99149bf1a6a82b2309cc04e363a87ed36972b64b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="tests for unstable"
 HOMEPAGE="https://github.com/racket/unstable"

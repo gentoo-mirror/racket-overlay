@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="benknoble/slack-archive-viewer"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Generate a static site to view slack archives"
 HOMEPAGE="https://github.com/benknoble/slack-archive-viewer"

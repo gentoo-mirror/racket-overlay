@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="david-christiansen/todo-list"
 GH_COMMIT="589e9c8f58f4684eae64d3254bdbad0b1bcaae39"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A list of goals + interactive commands for solving them in DrRacket"
 HOMEPAGE="https://github.com/david-christiansen/todo-list"

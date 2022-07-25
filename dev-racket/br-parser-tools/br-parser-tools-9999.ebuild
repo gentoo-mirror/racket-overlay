@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="git.matthewbutterick.com"
 GH_REPO="mbutterick/br-parser-tools"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The br-parser-tools Racket package"
 HOMEPAGE="https://git.matthewbutterick.com/mbutterick/br-parser-tools"

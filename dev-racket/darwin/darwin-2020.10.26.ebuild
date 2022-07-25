@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="pmatos/darwin"
 GH_COMMIT="311df33cc83f67859ed9db8b236d227dec83d895"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Static blog generator application. Supports Twitter Bootstrap, Pygments, more."
 HOMEPAGE="https://github.com/pmatos/darwin"

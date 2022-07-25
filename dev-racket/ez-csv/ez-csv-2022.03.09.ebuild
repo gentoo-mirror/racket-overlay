@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="sleibrock/ez-csv"
 GH_COMMIT="0e43705e977c1edb347a5aee253e425900e74a33"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Reading and writing CSV files from Racket... Except easier."
 HOMEPAGE="https://github.com/sleibrock/ez-csv"

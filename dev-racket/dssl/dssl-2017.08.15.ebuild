@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="tov/dssl"
 GH_COMMIT="bb5040d0a608a3b6f7f16d6ae725b24388f6aa6c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The dssl Racket package"
 HOMEPAGE="https://github.com/tov/dssl"

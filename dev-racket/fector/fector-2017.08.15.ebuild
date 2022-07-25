@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dvanhorn/fector"
 GH_COMMIT="269812d67549fbd77273f5025a4144214d790081"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Persistent Functional Vectors"
 HOMEPAGE="https://github.com/dvanhorn/fector"

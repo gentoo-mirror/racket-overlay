@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Kalimehtar/stretchable-snip"
 GH_COMMIT="5953118ad3b3e9d60b350d57b5b5c9a653ee1a14"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket library for stretchable (scalable) editor snips"
 HOMEPAGE="https://github.com/Kalimehtar/stretchable-snip"

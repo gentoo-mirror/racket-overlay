@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/twixt"
 GH_COMMIT="41aca88a7a7e5a993460df011da67b4fa31daadc"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library for modeling the board game TwixT"
 HOMEPAGE="https://github.com/jackfirth/twixt"

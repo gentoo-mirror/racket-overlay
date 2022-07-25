@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="shhyou/drracket-scheme-dark-green"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="This is a white-on-black dark green colorscheme for DrRacket."
 HOMEPAGE="https://github.com/shhyou/drracket-scheme-dark-green"

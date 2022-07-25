@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="aymanosman/racket-packages"
 GH_COMMIT="b938f6e33d04cfd62f9a328543d3943a0f3f53a0"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="See https://zguide.zeromq.org/"
 HOMEPAGE="https://github.com/aymanosman/racket-packages"

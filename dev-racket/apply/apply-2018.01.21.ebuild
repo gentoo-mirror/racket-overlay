@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="zaoqil/apply"
 GH_COMMIT="1d7d138179cd02e2b10eab29748d08b76d91c69d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The apply Racket package"
 HOMEPAGE="https://github.com/zaoqil/apply"

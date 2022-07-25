@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racketscript/racketscript"
 GH_COMMIT="11400fdd9d11541e7dd40c536c015677a7fa4181"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Documentation for racketscript."
 HOMEPAGE="https://github.com/racketscript/racketscript"

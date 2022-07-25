@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="pnwamk/fme"
 GH_COMMIT="63075d432e7803b2822a78568306c29a6fde557c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Fourier-Motzkin elimination for integer inequality satisfiability"
 HOMEPAGE="https://github.com/pnwamk/fme"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mbutterick/pollen-tuftorial"
 GH_COMMIT="bb50c7bf4544c0013a59a65e38d48bd174231d05"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Pollen tutorial project based on Tufte CSS"
 HOMEPAGE="https://github.com/mbutterick/pollen-tuftorial"

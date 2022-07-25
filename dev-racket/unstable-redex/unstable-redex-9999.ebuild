@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket/unstable-redex"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Experimental libraries for typesetting PLT Redex models"
 HOMEPAGE="https://github.com/racket/unstable-redex"

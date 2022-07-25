@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="alex-hhh/colormaps"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Additional colormaps for the Racket plot package"
 HOMEPAGE="https://github.com/alex-hhh/colormaps"

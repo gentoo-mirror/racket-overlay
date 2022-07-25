@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="greghendershott/sha"
 GH_COMMIT="034302a567381e97b3b3956740f97ed3ae629374"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="SHA-1 and SHA-2, via FFI to OpenSSL."
 HOMEPAGE="https://github.com/greghendershott/sha"

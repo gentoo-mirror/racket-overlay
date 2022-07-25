@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="yanyingwang/yijing"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Chinese Yijing Icons."
 HOMEPAGE="https://github.com/yanyingwang/yijing"

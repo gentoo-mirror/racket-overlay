@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Metaxal/color-flood"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A game where the player must fill the board with colors before its opponent"
 HOMEPAGE="https://github.com/Metaxal/color-flood"

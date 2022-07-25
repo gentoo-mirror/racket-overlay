@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="philnguyen/termination"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Dynamic enforcement of size-change termination"
 HOMEPAGE="https://github.com/philnguyen/termination"

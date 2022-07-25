@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="logc/pidec"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The pidec Racket package"
 HOMEPAGE="https://github.com/logc/pidec"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="wargrey/psd"
 GH_COMMIT="73b16a52e0777250d02e977f7dcbd7c1d98ef772"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Read (and will write) Photoshop Documents"
 HOMEPAGE="https://github.com/wargrey/psd"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/inexact-number-lang"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A lang-extension that reads every number as inexact"
 HOMEPAGE="https://github.com/AlexKnauth/inexact-number-lang"

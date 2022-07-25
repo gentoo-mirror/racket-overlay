@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="yjqww6/for-helpers"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Helper macros for racket for macros to avoid intermediate sequences"
 HOMEPAGE="https://github.com/yjqww6/for-helpers"

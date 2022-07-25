@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="DondiBronson/Funktionuckelt"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A dark eye-friendly color scheme for Racket"
 HOMEPAGE="https://github.com/DondiBronson/Funktionuckelt"

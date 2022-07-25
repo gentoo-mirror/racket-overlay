@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="berry-cs/sinbad-rkt"
 GH_COMMIT="44b3e0881514bbfb7cc91780262968748b9f92eb"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The sinbad Racket package"
 HOMEPAGE="https://github.com/berry-cs/sinbad-rkt"

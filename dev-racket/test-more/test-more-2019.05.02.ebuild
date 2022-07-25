@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dstorrs/racket-test-more"
 GH_COMMIT="659c90a27ffd575bf95b0eb60ec594a3e7420f16"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The test-more Racket package"
 HOMEPAGE="https://github.com/dstorrs/racket-test-more"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dented42/racket-quad-tree"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The quad-tree Racket package"
 HOMEPAGE="https://github.com/dented42/racket-quad-tree"

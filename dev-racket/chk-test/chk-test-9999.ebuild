@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/chk"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a minimal tester"
 HOMEPAGE="https://github.com/jeapostrophe/chk"

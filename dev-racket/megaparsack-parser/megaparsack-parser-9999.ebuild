@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lexi-lambda/megaparsack"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="built-in parsers implemented using megaparsack"
 HOMEPAGE="https://github.com/lexi-lambda/megaparsack"

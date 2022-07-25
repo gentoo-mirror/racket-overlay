@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jbclements/portaudio"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Bindings for portaudio, a cross-platform audio library."
 HOMEPAGE="https://github.com/jbclements/portaudio"

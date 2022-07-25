@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Metaxal/satore"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The satore Racket package"
 HOMEPAGE="https://github.com/Metaxal/satore"

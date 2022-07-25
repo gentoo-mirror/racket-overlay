@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="syntacticlosure/eff"
 GH_COMMIT="1c467f8f4f79706c3fcd5b4e429f74bcb2c7eaa7"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Library Provide Extensible Effects in Racket (Untyped)."
 HOMEPAGE="https://github.com/syntacticlosure/eff"

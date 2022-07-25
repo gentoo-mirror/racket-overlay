@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="xuchunyang/pinyin"
 GH_COMMIT="568e626f8be36c311f40d3f6771cf4f4d1cee677"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The pinyin Racket package"
 HOMEPAGE="https://github.com/xuchunyang/pinyin"

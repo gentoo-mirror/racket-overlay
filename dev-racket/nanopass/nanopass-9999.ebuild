@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="nanopass/nanopass-framework-racket"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The nanopass Racket package"
 HOMEPAGE="https://github.com/nanopass/nanopass-framework-racket"

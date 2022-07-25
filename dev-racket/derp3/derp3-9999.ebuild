@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="bitbucket.org"
 GH_REPO="jbclements/derp-3"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The derp-3 Racket package"
 HOMEPAGE="https://bitbucket.org/jbclements/derp-3"

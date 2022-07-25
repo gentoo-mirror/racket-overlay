@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lwhjp/port-match"
 GH_COMMIT="71fd3e9ed4f5766c46182923b08ff6d514e838a2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Pattern Matching for Ports"
 HOMEPAGE="https://github.com/lwhjp/port-match"

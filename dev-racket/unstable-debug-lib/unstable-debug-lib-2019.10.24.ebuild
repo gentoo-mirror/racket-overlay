@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/unstable-debug-lib"
 GH_COMMIT="1511a2410d11a69b9116c5d6668869765ef58f56"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Experimental libraries for debugging"
 HOMEPAGE="https://github.com/racket/unstable-debug-lib"

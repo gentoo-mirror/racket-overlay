@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="greghendershott/sha"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="SHA-1 and SHA-2, via FFI to OpenSSL."
 HOMEPAGE="https://github.com/greghendershott/sha"

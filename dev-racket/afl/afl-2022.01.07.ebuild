@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/afl"
 GH_COMMIT="a51e609615f7645d773a726b225d3356b751d017"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a lang-extension that provides rackjure-like anonymous function literals"
 HOMEPAGE="https://github.com/AlexKnauth/afl"

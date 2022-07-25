@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jsmaniac/chain-module-begin"
 GH_COMMIT="77fca59322b93cb83a2d57c25546dd7a7313bc56"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The chain-module-begin Racket package"
 HOMEPAGE="https://github.com/jsmaniac/chain-module-begin"

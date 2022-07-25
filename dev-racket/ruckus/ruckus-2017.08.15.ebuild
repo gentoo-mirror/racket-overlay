@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="cbiffle/ruckus"
 GH_COMMIT="62cd4a00837783a88a007c2d5979909a4e86ca0f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Procedural CAD system for solid modeling"
 HOMEPAGE="https://github.com/cbiffle/ruckus"

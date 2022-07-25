@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="rmacnz/cs2500jsonlab"
 GH_COMMIT="34e5dceecc4b8c43428414b3da7befdb36c123d6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Teachpack for CS2500 JSON lab"
 HOMEPAGE="https://github.com/rmacnz/cs2500jsonlab"

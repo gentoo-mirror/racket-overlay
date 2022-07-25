@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="RayRacine/pipe"
 GH_COMMIT="179b8f8ad92ced86ea8dacec607deb24aefc15aa"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Iteratees in Typed Racket."
 HOMEPAGE="https://gitlab.com/RayRacine/pipe"

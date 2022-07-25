@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jessealama/json-pointer"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Parse, render, and evaluate JSON Pointers (RFC 6901)."
 HOMEPAGE="https://github.com/jessealama/json-pointer"

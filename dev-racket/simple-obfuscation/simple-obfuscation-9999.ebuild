@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="rfindler/simple-obfuscation"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The simple-obfuscation Racket package"
 HOMEPAGE="https://github.com/rfindler/simple-obfuscation"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="florence/diagrama"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A diagram drawing library, documentation"
 HOMEPAGE="https://github.com/florence/diagrama"

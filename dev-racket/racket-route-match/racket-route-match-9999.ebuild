@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Junker/racket-route-match"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The racket-route-match Racket package"
 HOMEPAGE="https://github.com/Junker/racket-route-match"

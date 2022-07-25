@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dedbox/racket-graphics-engine"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An accelerated graphics programming environment."
 HOMEPAGE="https://github.com/dedbox/racket-graphics-engine"

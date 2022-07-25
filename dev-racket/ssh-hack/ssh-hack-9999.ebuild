@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="winny-/ssh-hack"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A simple Dgamelaunch client"
 HOMEPAGE="https://github.com/winny-/ssh-hack"

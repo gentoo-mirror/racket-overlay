@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/reprovide-lang"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a #lang for reproviding modules"
 HOMEPAGE="https://github.com/AlexKnauth/reprovide-lang"

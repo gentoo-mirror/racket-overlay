@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="GPRicci/secd"
 GH_COMMIT="cebf4c32d4c48c6d964449788c0e708524872120"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An SECD to ARM Assembler compiler, supporting a small subset of instructions."
 HOMEPAGE="https://github.com/GPRicci/secd"

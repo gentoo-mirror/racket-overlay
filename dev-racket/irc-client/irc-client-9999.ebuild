@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lexi-lambda/racket-irc-client"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A higher-level, typed wrapper around the irc package"
 HOMEPAGE="https://github.com/lexi-lambda/racket-irc-client"

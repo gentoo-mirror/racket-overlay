@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tonyg/racket-struct-defaults"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Default values in struct ctors and patterns."
 HOMEPAGE="https://github.com/tonyg/racket-struct-defaults"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="samth/raco-macro-step"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Run the macro stepper from the command line"
 HOMEPAGE="https://github.com/samth/raco-macro-step"

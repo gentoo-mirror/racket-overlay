@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="johnstonskj/rml-neural"
 GH_COMMIT="5e3c95ab118007e16ac25627229674894e8c5302"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Pedantic implementation of neural networks for deep learning in Racket"
 HOMEPAGE="https://github.com/johnstonskj/rml-neural"

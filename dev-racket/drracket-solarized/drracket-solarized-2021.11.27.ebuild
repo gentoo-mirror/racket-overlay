@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="takikawa/drracket-solarized"
 GH_COMMIT="9a90657bb320d4231c85dff96ceaef6a835c5c4f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Solarized colorscheme for Drracket"
 HOMEPAGE="https://github.com/takikawa/drracket-solarized"

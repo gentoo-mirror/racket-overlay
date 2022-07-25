@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="rogerkeays/racket-fluent"
 GH_COMMIT="b8bc82e25a35451ba3136f393157e380e6f4837f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="UNIX style pipes and a lambda shorthand syntax to make your code more readable."
 HOMEPAGE="https://github.com/rogerkeays/racket-fluent"

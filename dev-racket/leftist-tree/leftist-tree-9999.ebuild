@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="97jaz/leftist-tree"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Functional priority queues"
 HOMEPAGE="https://github.com/97jaz/leftist-tree"

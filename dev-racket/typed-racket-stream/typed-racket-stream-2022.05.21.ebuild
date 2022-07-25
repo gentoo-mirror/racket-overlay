@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/typed-racket-stream"
 GH_COMMIT="ab5481df26289a47545101aeb1b74a0e7f02887f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Streams for typed racket"
 HOMEPAGE="https://github.com/AlexKnauth/typed-racket-stream"

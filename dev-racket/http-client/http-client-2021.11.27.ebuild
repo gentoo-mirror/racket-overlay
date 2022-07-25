@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="yanyingwang/http-client"
 GH_COMMIT="12ee9f9c3b1a553fa2012ddb60298a760361d4db"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A practical http client library for sending data to http servers."
 HOMEPAGE="https://github.com/yanyingwang/http-client"

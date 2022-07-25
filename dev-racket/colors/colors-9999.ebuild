@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="florence/colors"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library for HSB colors."
 HOMEPAGE="https://github.com/florence/colors"

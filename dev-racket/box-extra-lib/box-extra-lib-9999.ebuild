@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-box-extra"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Extra utilities for working with boxes. (implementation)"
 HOMEPAGE="https://github.com/Bogdanp/racket-box-extra"

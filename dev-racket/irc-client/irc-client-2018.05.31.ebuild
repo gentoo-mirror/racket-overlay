@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lexi-lambda/racket-irc-client"
 GH_COMMIT="dc3958adf0d8e7a8bf34820cb7bc6630eb18d622"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A higher-level, typed wrapper around the irc package"
 HOMEPAGE="https://github.com/lexi-lambda/racket-irc-client"

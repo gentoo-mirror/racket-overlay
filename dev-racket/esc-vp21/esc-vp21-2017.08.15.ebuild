@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mordae/racket-esc-vp21"
 GH_COMMIT="01bc89268f4f051d55885f64d4a0fac671a762b9"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Epson ESC/VP21 Projector Control"
 HOMEPAGE="https://github.com/mordae/racket-esc-vp21"

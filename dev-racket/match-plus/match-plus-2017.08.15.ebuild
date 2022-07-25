@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lexi-lambda/racket-match-plus"
 GH_COMMIT="cd72471c582f5c20ec35a96fa08936f4f3fd6c47"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The match-plus Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/racket-match-plus"

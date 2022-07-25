@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jessealama/uri-template"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Implementation of RFC 6570 (URI Template)."
 HOMEPAGE="https://github.com/jessealama/uri-template"

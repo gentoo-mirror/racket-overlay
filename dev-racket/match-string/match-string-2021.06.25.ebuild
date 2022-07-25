@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/match-string"
 GH_COMMIT="ffc077653b3cdd851fd55589256f1e1177f6ed68"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="string-append and append as a match patterns"
 HOMEPAGE="https://github.com/AlexKnauth/match-string"

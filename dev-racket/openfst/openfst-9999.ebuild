@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexMaclean/racket-openfst"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The openfst Racket package"
 HOMEPAGE="https://github.com/AlexMaclean/racket-openfst"

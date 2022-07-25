@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mxork/raco-format"
 GH_COMMIT="05b167809a891a35d9533f31cf95041860bc80db"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Format racket source files"
 HOMEPAGE="https://github.com/mxork/raco-format"

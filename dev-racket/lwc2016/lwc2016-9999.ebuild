@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dfeltey/lwc2016"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="PLT submision to the 2016 language workbench challenge"
 HOMEPAGE="https://github.com/dfeltey/lwc2016"

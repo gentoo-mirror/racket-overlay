@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="pnwamk/redex-chk"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="rackunit/chk style checks for redex ('term' quotes automatically)"
 HOMEPAGE="https://github.com/pnwamk/redex-chk"

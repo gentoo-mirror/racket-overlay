@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="nihirash/holy"
 GH_COMMIT="e6574beb88937357cb73e834dacf10ceb1805495"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The HoLy Racket package"
 HOMEPAGE="https://github.com/nihirash/holy"

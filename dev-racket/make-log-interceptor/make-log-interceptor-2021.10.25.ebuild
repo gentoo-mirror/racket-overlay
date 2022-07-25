@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="bennn/make-log-interceptor"
 GH_COMMIT="232e58ec35aa36367f61586e1640b9ab692ff7dc"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Collect events for a logger, organized by level"
 HOMEPAGE="https://github.com/bennn/make-log-interceptor"

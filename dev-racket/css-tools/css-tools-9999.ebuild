@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="git.matthewbutterick.com"
 GH_REPO="mbutterick/css-tools"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Tools for generating & manipulating CSS (unstable)"
 HOMEPAGE="https://git.matthewbutterick.com/mbutterick/css-tools"

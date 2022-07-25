@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samth/abnf"
 GH_COMMIT="71bc4739a0b2aa22aa42ad905ba7de5c3e2c7f79"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Attributed BNFs for Scribble"
 HOMEPAGE="https://github.com/samth/abnf"

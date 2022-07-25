@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mflatt/pkg-dep-draw"
 GH_COMMIT="10ccd5208aab1c54cab3fe767c48b98f87f1e79d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The pkg-dep-draw Racket package"
 HOMEPAGE="https://github.com/mflatt/pkg-dep-draw"

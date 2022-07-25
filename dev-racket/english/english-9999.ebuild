@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="thoughtstem/english"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Utilities for generating English text strings -- e.g. plurals"
 HOMEPAGE="https://github.com/thoughtstem/english"

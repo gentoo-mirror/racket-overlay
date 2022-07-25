@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="quantum1423/libkenji"
 GH_COMMIT="319a80f51bba4224f87a01e6a368d3a936371f88"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The libkenji Racket package"
 HOMEPAGE="https://github.com/quantum1423/libkenji"

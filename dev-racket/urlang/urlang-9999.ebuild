@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="soegaard/urlang"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The urlang Racket package"
 HOMEPAGE="https://github.com/soegaard/urlang"

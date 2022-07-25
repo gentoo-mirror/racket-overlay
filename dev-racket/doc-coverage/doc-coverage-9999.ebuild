@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jackfirth/doc-coverage"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The doc-coverage Racket package"
 HOMEPAGE="https://github.com/jackfirth/doc-coverage"

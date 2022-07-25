@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="smitchell556/get-pass"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Utility to get passwords from the command line without echoing input."
 HOMEPAGE="https://github.com/smitchell556/get-pass"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lwhjp/port-match"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Pattern Matching for Ports"
 HOMEPAGE="https://github.com/lwhjp/port-match"

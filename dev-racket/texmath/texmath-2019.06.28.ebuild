@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dedbox/racket-texmath"
 GH_COMMIT="9c775542b5473ed6aeedc7c45ecc6726fbd483fc"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Pseudo-(La)TeX mathematical notation for Scribble"
 HOMEPAGE="https://github.com/dedbox/racket-texmath"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="ralsei/graphite"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A ggplot2-inspired data visualization library (no documentation)"
 HOMEPAGE="https://github.com/ralsei/graphite"

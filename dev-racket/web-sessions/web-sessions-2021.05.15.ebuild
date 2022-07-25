@@ -7,7 +7,7 @@ GH_DOM="bitbucket.org"
 GH_REPO="nadeemabdulhamid/web-sessions"
 GH_COMMIT="ba973ee46a41a81536ddf5d6a8ea8f928385b217"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Simple web sessions"
 HOMEPAGE="https://bitbucket.org/nadeemabdulhamid/web-sessions"

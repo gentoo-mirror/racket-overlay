@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Syntacticlosure/DrRacketTheme"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="set the background image for DrRacketView -> Set Background"
 HOMEPAGE="https://github.com/Syntacticlosure/DrRacketTheme"

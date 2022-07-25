@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/org-mode"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A native Racket reader and writer for org-mode files."
 HOMEPAGE="https://github.com/jeapostrophe/org-mode"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="apg/statsd-rkt"
 GH_COMMIT="39a640686053be83442bfb129a279b8d00d6a177"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="statsd client for racket"
 HOMEPAGE="https://github.com/apg/statsd-rkt"

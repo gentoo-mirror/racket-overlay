@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samth/parameter.plt"
 GH_COMMIT="d084723e260a133e792317286fb05494aabc29ed"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Parameter utilities"
 HOMEPAGE="https://github.com/samth/parameter.plt"

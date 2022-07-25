@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Metaxal/measures"
 GH_COMMIT="f75e2361a767cab6fb662c761cc93d15b00c964a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Units and measures with basic arithmetic operations."
 HOMEPAGE="https://github.com/Metaxal/measures"

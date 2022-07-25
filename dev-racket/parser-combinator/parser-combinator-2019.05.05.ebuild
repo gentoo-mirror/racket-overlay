@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="nixpulvis/parser-combinator"
 GH_COMMIT="9635c0479c1841e122a75faa35d1d76333ef3cb6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Parser / Lexer Library, and JSON Implementation."
 HOMEPAGE="https://github.com/nixpulvis/parser-combinator"

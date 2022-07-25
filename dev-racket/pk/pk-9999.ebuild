@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="dustyweb/racket-pk"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="slightly superior print (peek) debugging"
 HOMEPAGE="https://gitlab.com/dustyweb/racket-pk"

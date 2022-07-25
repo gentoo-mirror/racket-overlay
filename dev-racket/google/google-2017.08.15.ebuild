@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="tonyg/racket-google"
 GH_COMMIT="236b1fb8bdd0975bf2ce820f6277927c7bc25635"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Google APIs (Drive, Plus, ...) for Racket."
 HOMEPAGE="https://github.com/tonyg/racket-google"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mflatt/slideshow-repl"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The slideshow-repl Racket package"
 HOMEPAGE="https://github.com/mflatt/slideshow-repl"

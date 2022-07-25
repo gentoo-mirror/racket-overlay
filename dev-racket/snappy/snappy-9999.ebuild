@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="stchang/snappy"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="FFI bindings to snappy, a fast compression library"
 HOMEPAGE="https://github.com/stchang/snappy"

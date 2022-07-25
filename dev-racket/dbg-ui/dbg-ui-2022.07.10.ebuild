@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-dbg"
 GH_COMMIT="8de8bf6c3ddd5e77924bb6341322153d000d5c5f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Remote debugging GUI client for the dbg package."
 HOMEPAGE="https://github.com/Bogdanp/racket-dbg"

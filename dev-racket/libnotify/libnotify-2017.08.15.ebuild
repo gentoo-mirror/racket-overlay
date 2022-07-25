@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="takikawa/racket-libnotify"
 GH_COMMIT="c1112e8095f53dde26da994c5d2025871cec9d12"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="FFI bindings for libnotify (desktop notifications)"
 HOMEPAGE="https://github.com/takikawa/racket-libnotify"

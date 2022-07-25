@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samth/egal"
 GH_COMMIT="ea395262430ee0c5dffc264a92b0ad4d1a1a9bc8"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Henry Baker's egal"
 HOMEPAGE="https://github.com/samth/egal"

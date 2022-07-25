@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="BourgondAries/pcg"
 GH_COMMIT="4a03a774377ff84aae29c563bc5170edd9a200e0"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Permuted congruential generators (PCG) in Racket"
 HOMEPAGE="https://github.com/BourgondAries/pcg"

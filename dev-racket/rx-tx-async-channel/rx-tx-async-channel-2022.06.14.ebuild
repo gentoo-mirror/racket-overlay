@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dstorrs/rx-tx-async-channel"
 GH_COMMIT="6c1db5db208eebab31638129159c9f4d594194ae"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The rx-tx-async-channel Racket package"
 HOMEPAGE="https://github.com/dstorrs/rx-tx-async-channel"

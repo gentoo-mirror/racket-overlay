@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="renatoathaydes/ansi-color"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The ansi-color Racket package"
 HOMEPAGE="https://github.com/renatoathaydes/ansi-color"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jackfirth/racket-mock"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library for creating test mocks"
 HOMEPAGE="https://github.com/jackfirth/racket-mock"

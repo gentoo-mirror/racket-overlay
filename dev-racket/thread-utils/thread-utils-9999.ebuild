@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Kalimehtar/thread-utils"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Error-safe infinite loop and until-timeout"
 HOMEPAGE="https://github.com/Kalimehtar/thread-utils"

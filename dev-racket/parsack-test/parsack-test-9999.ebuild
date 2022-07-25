@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="stchang/parsack"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="tests and examples for parsack"
 HOMEPAGE="https://github.com/stchang/parsack"

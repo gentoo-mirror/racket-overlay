@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/txexpr-stxparse"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="syntax-parse patterns for parsing Tagged X-expressions"
 HOMEPAGE="https://github.com/AlexKnauth/txexpr-stxparse"

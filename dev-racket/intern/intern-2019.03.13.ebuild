@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="philnguyen/intern"
 GH_COMMIT="e2b46f803fe9d83368bde168fca8559f1210cfe3"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Type-safe interning of datatype in Typed Racket as a new sub-type of Index"
 HOMEPAGE="https://github.com/philnguyen/intern"

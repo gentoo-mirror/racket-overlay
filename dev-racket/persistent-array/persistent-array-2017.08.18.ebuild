@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samth/persistent-array"
 GH_COMMIT="9299dd5b6b33a953bdc4bfca3edcb956a86a35e2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A semi-persistent array"
 HOMEPAGE="https://github.com/samth/persistent-array"

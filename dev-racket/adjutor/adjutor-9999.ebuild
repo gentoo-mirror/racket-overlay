@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="LiberalArtist/adjutor"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A helper library"
 HOMEPAGE="https://github.com/LiberalArtist/adjutor"

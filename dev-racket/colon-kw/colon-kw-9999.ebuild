@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/colon-kw"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a lang-extension for writing :kw for #:kw"
 HOMEPAGE="https://github.com/AlexKnauth/colon-kw"

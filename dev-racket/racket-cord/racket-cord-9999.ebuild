@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="simmsb/racket-cord"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket bindings for discord."
 HOMEPAGE="https://github.com/simmsb/racket-cord"

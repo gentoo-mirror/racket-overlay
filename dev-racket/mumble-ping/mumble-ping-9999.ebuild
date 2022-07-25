@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="winny-/mumble-ping"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Ping Mumble servers"
 HOMEPAGE="https://github.com/winny-/mumble-ping"

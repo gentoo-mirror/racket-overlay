@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/acl2s-scribblings"
 GH_COMMIT="ac77d9f0d87a9e3c3929e86444dfcd4b3d59640c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a scribble document for beginner mode of ACL2s"
 HOMEPAGE="https://github.com/AlexKnauth/acl2s-scribblings"

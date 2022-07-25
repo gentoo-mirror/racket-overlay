@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="simmone/racket-detail"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="detail used to reveal the details of the function"
 HOMEPAGE="https://github.com/simmone/racket-detail"

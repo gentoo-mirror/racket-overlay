@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="zenspider/benchmark-ips-racket"
 GH_COMMIT="264e756c409f52020462901ee1f5059c9fe674eb"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The benchmark-ips Racket package"
 HOMEPAGE="https://github.com/zenspider/benchmark-ips-racket"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="BourgondAries/rkt-glfw"
 GH_COMMIT="e52613f60f25aeac7f035b1f11a79401a770af35"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="GLFW wrapper for Racket"
 HOMEPAGE="https://github.com/BourgondAries/rkt-glfw"

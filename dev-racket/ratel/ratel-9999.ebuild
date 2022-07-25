@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="198d/ratel"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The ratel Racket package"
 HOMEPAGE="https://github.com/198d/ratel"

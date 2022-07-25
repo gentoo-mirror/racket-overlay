@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="alex-hhh/geoid"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="work efficiently with geographic data"
 HOMEPAGE="https://github.com/alex-hhh/geoid"

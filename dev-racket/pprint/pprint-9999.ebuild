@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="takikawa/pprint.plt"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A universal pretty printing library"
 HOMEPAGE="https://github.com/takikawa/pprint.plt"

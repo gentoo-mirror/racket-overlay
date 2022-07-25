@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mordae/racket-xexpr-path"
 GH_COMMIT="59f07164a5735441953c411a78d7dbe2f8ebcdc0"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="XML Expression Path Lookup"
 HOMEPAGE="https://github.com/mordae/racket-xexpr-path"

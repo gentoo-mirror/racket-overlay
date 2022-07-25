@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket/drracket"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The drracket-tool-text-lib Racket package"
 HOMEPAGE="https://github.com/racket/drracket"

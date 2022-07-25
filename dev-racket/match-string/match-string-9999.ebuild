@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/match-string"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="string-append and append as a match patterns"
 HOMEPAGE="https://github.com/AlexKnauth/match-string"

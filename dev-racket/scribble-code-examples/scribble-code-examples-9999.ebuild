@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/scribble-code-examples"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A scribble examples form that works with non-s-exp languages"
 HOMEPAGE="https://github.com/AlexKnauth/scribble-code-examples"

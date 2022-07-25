@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samth/find-parent-dir"
 GH_COMMIT="e78d0277447d81934847166e8024edc5adea4b1c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Find parent directories matching a criterion."
 HOMEPAGE="https://github.com/samth/find-parent-dir"

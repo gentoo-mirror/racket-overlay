@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Kalimehtar/multicolumn"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The multicolumn Racket package"
 HOMEPAGE="https://github.com/Kalimehtar/multicolumn"

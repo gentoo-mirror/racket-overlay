@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="MatrixForChange/files-viewer"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a file manager for drracket"
 HOMEPAGE="https://github.com/MatrixForChange/files-viewer"

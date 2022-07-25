@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/drdr"
 GH_COMMIT="a4efefc74adfdfabe465895fe055645e259394f0"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="DrDr, Racket's continuous integration system"
 HOMEPAGE="https://github.com/racket/drdr"

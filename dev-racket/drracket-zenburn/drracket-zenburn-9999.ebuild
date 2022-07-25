@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tautologico/drracket-zenburn"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The Zenburn colorscheme for DrRacket."
 HOMEPAGE="https://github.com/tautologico/drracket-zenburn"

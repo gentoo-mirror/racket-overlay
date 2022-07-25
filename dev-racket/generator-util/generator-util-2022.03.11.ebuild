@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="countvajhula/generator-util"
 GH_COMMIT="2de885130984bd6880a5e1017d0b3783e64b3877"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Utilities for working with generators"
 HOMEPAGE="https://github.com/countvajhula/generator-util"

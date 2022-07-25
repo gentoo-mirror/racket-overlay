@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="takikawa/drracket-solarized"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Solarized colorscheme for Drracket"
 HOMEPAGE="https://github.com/takikawa/drracket-solarized"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/mutable-match-lambda"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The mutable-match-lambda Racket package"
 HOMEPAGE="https://github.com/AlexKnauth/mutable-match-lambda"

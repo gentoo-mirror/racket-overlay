@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="hashimmm/tablesci"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The tablesci Racket package"
 HOMEPAGE="https://gitlab.com/hashimmm/tablesci"

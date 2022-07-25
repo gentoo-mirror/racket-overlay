@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lexi-lambda/alexis-collection-lens"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Deprecated. Use the collections-lens package instead."
 HOMEPAGE="https://github.com/lexi-lambda/alexis-collection-lens"

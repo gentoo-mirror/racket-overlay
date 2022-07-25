@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="git.matthewbutterick.com"
 GH_REPO="mbutterick/typesetting"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="binary encoder [in development]"
 HOMEPAGE="https://git.matthewbutterick.com/mbutterick/typesetting"

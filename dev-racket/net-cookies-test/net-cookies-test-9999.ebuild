@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="RenaissanceBug/racket-cookies"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="RFC6265-compliant cookie handling for client and server (test)"
 HOMEPAGE="https://github.com/RenaissanceBug/racket-cookies"

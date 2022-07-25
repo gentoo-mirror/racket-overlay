@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="samth/set.rkt"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Use racket/set instead"
 HOMEPAGE="https://github.com/samth/set.rkt"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="bennn/mf-apply"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="PLT Redex lang-extension for checked metafunction application"
 HOMEPAGE="https://github.com/bennn/mf-apply"

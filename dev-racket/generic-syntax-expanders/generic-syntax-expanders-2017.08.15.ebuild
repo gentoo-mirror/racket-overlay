@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/generic-syntax-expanders"
 GH_COMMIT="6d3b41875095d0f18d6e1d88bf7a8ed3981fe999"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The generic-syntax-expanders Racket package"
 HOMEPAGE="https://github.com/jackfirth/generic-syntax-expanders"

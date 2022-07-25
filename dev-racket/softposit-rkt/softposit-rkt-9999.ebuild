@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="DavidThien/softposit-rkt"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The softposit-rkt Racket package"
 HOMEPAGE="https://github.com/DavidThien/softposit-rkt"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/koyo-postmark"
 GH_COMMIT="ceeb619d555ef49c2cec42c0b890a97fd1377f89"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Postmark mail adapter for koyo. (docs and implementation)"
 HOMEPAGE="https://github.com/Bogdanp/koyo-postmark"

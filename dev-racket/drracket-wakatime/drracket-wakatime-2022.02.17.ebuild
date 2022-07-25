@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket-tw/drracket-wakatime"
 GH_COMMIT="1e353b4b367036638a7f2b988b60550100ab2b0a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="wakatime support on DrRacket"
 HOMEPAGE="https://github.com/racket-tw/drracket-wakatime"

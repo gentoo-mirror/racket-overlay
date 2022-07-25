@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="whichxjy/emoji"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Emoji terminal output for Racket"
 HOMEPAGE="https://github.com/whichxjy/emoji"

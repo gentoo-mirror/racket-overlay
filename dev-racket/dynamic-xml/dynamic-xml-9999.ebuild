@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="zyrolasting/dynamic-xml"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Apply keyword procedures in a given Racket namespace using X-expressions."
 HOMEPAGE="https://github.com/zyrolasting/dynamic-xml"

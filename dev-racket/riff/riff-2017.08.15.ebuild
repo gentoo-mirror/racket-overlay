@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lehitoskin/riff"
 GH_COMMIT="459efecc4168cf922660f95b6195935d66cb6a2b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="riff is a racket wrapper for FLIF"
 HOMEPAGE="https://github.com/lehitoskin/riff"

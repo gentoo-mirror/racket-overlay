@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/gui-pkg-manager"
 GH_COMMIT="70cc90538c5dffb722e17cabb769aeadfef32ec4"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="documentation part of gui-pkg-manager"
 HOMEPAGE="https://github.com/racket/gui-pkg-manager"

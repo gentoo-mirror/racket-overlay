@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="thoughtstem/image-coloring"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="For doing bitmap operations on 2htdp/image objects"
 HOMEPAGE="https://github.com/thoughtstem/image-coloring"

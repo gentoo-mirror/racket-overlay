@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Kalimehtar/free-gettext"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="GNU gettext compatible library for internationalization with BSD license"
 HOMEPAGE="https://github.com/Kalimehtar/free-gettext"

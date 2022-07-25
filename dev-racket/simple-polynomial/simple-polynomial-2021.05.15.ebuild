@@ -7,7 +7,7 @@ GH_DOM="bitbucket.org"
 GH_REPO="derend/simple-polynomial"
 GH_COMMIT="c8c7e2e4175a27123becd6e78f792738b0bf1188"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Basic polynomial arithmetic and interpolation."
 HOMEPAGE="https://bitbucket.org/derend/simple-polynomial"

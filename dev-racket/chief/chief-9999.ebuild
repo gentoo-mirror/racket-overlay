@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-chief"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Chief runs Procfile-based applications. Like foreman, but written in Racket."
 HOMEPAGE="https://github.com/Bogdanp/racket-chief"

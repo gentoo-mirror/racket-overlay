@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="spritely/crystal"
 GH_COMMIT="70274401f177b1001ea15169c9032e466bf8efc9"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The crystal Racket package"
 HOMEPAGE="https://gitlab.com/spritely/crystal"

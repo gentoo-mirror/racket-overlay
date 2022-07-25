@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/dbm"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An interface to UNIX dbm files using a libdbm FFI"
 HOMEPAGE="https://github.com/jeapostrophe/dbm"

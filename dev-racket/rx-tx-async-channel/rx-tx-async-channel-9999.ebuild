@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dstorrs/rx-tx-async-channel"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The rx-tx-async-channel Racket package"
 HOMEPAGE="https://github.com/dstorrs/rx-tx-async-channel"

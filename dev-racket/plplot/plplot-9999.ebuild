@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="oetr/racket-plplot"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="FFI bindings to PLplot"
 HOMEPAGE="https://github.com/oetr/racket-plplot"

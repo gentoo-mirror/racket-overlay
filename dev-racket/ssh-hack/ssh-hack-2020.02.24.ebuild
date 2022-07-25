@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="winny-/ssh-hack"
 GH_COMMIT="9e8099a385fed26def70690279ad9d4ff3a097d0"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A simple Dgamelaunch client"
 HOMEPAGE="https://github.com/winny-/ssh-hack"

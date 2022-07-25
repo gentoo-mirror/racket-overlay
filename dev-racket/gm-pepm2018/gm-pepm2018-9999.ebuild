@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="nuprl/retic_performance"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Artifact for On the Cost of Type-Tag Soundness"
 HOMEPAGE="https://github.com/nuprl/retic_performance"

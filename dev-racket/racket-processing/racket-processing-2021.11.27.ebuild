@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="thoughtstem/racket-processing"
 GH_COMMIT="c4c51b528fa10fe69f89cc7b7c27bb3388ad11c7"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The racket-processing Racket package"
 HOMEPAGE="https://github.com/thoughtstem/racket-processing"

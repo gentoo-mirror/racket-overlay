@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/mongodb"
 GH_COMMIT="4fbeb1a577ff9a1b8274045a5741d6670d555ac7"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A native Racket interface to MongoDB & BSON"
 HOMEPAGE="https://github.com/jeapostrophe/mongodb"

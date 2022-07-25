@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="racketeer/rktermios"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The rktermios Racket package"
 HOMEPAGE="https://gitlab.com/racketeer/rktermios"

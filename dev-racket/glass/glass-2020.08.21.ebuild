@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/glass"
 GH_COMMIT="a5b25ed7716598b49ccdb5b6917d0eacd95764cf"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An optics (lenses, prisms, traversals, etc.) library."
 HOMEPAGE="https://github.com/jackfirth/glass"

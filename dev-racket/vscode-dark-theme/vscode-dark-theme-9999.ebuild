@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="kurtisvetter/drracket-vscode-dark"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="VSCode default dark theme for DrRacket"
 HOMEPAGE="https://github.com/kurtisvetter/drracket-vscode-dark"

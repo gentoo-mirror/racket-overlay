@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mordae/racket-kernel"
 GH_COMMIT="8602042a9d6109399dfa7f492b5af7af6c88f597"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Interface to Linux kernel runtime configuration."
 HOMEPAGE="https://github.com/mordae/racket-kernel"

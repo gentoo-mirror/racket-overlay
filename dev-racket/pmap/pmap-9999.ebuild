@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="APOS80/pmap"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Implementations of map using parallel futures and places"
 HOMEPAGE="https://github.com/APOS80/pmap"

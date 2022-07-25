@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="zaoqil/apply"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The apply Racket package"
 HOMEPAGE="https://github.com/zaoqil/apply"

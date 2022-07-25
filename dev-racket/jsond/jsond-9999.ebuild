@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="benknoble/jsond"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A #lang for JSON data"
 HOMEPAGE="https://github.com/benknoble/jsond"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="codereport/racket-algorithms"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The algorithms Racket package"
 HOMEPAGE="https://github.com/codereport/racket-algorithms"

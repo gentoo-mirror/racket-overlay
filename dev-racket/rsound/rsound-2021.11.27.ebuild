@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jbclements/RSound"
 GH_COMMIT="af3ee6c889a5b5973359de801b7497a5a2e5b64b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The rsound Racket package"
 HOMEPAGE="https://github.com/jbclements/RSound"

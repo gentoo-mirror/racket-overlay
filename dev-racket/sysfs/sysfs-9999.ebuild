@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mordae/racket-sysfs"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Linux /sys utilities."
 HOMEPAGE="https://github.com/mordae/racket-sysfs"

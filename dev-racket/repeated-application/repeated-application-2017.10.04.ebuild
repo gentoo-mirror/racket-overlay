@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="v-nys/repeated-application"
 GH_COMMIT="6a5ef2192f38f01de98deb03532b4b3d83b09ed3"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The repeated-application Racket package"
 HOMEPAGE="https://github.com/v-nys/repeated-application"

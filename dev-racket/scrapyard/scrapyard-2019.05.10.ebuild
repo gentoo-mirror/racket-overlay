@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lassik/racket-scrapyard"
 GH_COMMIT="23b49c3562f3b8fea01886a219230fe37e2abf2d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Light helper for web scrapers. Caches and parses downloaded files."
 HOMEPAGE="https://github.com/lassik/racket-scrapyard"

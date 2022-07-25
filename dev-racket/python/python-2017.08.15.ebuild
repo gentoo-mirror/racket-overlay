@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="pedropramos/PyonR"
 GH_COMMIT="16edd14f3950fd5a01f8b0237e023536ef48d17b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An implementation of the Python programming language for Racket"
 HOMEPAGE="https://github.com/pedropramos/PyonR"

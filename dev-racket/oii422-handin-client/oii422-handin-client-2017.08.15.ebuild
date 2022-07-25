@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="ifigueroap/oii-422-handin-client"
 GH_COMMIT="29d62748d335a1ab283efc3e28c5c93c3737501a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Handin Client for PUCV PL course OII-422"
 HOMEPAGE="https://github.com/ifigueroap/oii-422-handin-client"

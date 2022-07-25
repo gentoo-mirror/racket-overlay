@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mordae/racket-multipath-daemon"
 GH_COMMIT="4d8a2644d2641e9d263e83caef28b3bf6af63b88"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The multipath-daemon Racket package"
 HOMEPAGE="https://github.com/mordae/racket-multipath-daemon"

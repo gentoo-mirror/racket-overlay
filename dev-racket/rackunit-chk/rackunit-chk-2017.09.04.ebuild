@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/rackunit-chk"
 GH_COMMIT="62c80697d9e8c4a5f5b57832e3930313732836c4"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a short hand for writing rackunit tests"
 HOMEPAGE="https://github.com/jeapostrophe/rackunit-chk"

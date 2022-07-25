@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="samth/git-slice"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="For slicing git repositories into pieces"
 HOMEPAGE="https://github.com/samth/git-slice"

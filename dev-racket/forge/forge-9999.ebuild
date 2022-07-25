@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tnelson/Forge"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A model-finding language with Alloy-adjacent syntax."
 HOMEPAGE="https://github.com/tnelson/Forge"

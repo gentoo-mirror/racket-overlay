@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="euhmeuh/rilouworld"
 GH_COMMIT="184dea6c187f4f94da6616b89ec15cc8ba6bb786"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Decentralized game universe in which players create and share their own levels"
 HOMEPAGE="https://github.com/euhmeuh/rilouworld"

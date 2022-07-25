@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/xml-rpc"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A native Racket XML-RPC client and server library"
 HOMEPAGE="https://github.com/jeapostrophe/xml-rpc"

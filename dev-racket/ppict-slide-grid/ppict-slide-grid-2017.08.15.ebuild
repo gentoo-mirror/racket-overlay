@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="takikawa/ppict-slide-grid"
 GH_COMMIT="1e992183dbfc695882bb612bb5b8b32515adeee2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The ppict-slide-grid Racket package"
 HOMEPAGE="https://github.com/takikawa/ppict-slide-grid"

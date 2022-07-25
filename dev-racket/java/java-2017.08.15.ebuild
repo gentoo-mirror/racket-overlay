@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jbclements/java"
 GH_COMMIT="c2d1359b05567fb9352178cedeba2dfc30ddc9ca"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The java Racket package"
 HOMEPAGE="https://github.com/jbclements/java"

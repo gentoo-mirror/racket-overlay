@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/colon-kw"
 GH_COMMIT="dcde5d8a5ec5820bbb86ae5f5430236835b92d8a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a lang-extension for writing :kw for #:kw"
 HOMEPAGE="https://github.com/AlexKnauth/colon-kw"

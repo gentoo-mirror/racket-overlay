@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="rogerkeays/racket-dollar"
 GH_COMMIT="16fa7aec4e1cef43a7b678dc798b1a9c20a87bb6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An example #lang extension which uses $ instead of , for unquote."
 HOMEPAGE="https://github.com/rogerkeays/racket-dollar"

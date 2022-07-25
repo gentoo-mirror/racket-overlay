@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="simmone/racket-simple-barcode"
 GH_COMMIT="f47a793f5afc7b34ea296352d216fc55646bd9f7"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Barcode tool"
 HOMEPAGE="https://github.com/simmone/racket-simple-barcode"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-libsqlite3"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The libsqlite3 Racket package"
 HOMEPAGE="https://github.com/Bogdanp/racket-libsqlite3"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mordae/racket-tesira"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Biamp Tesira Client Library"
 HOMEPAGE="https://github.com/mordae/racket-tesira"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/mongodb"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A native Racket interface to MongoDB & BSON"
 HOMEPAGE="https://github.com/jeapostrophe/mongodb"

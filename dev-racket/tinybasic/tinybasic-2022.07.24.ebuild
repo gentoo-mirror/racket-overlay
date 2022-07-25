@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="winny-/tinybasic.rkt"
 GH_COMMIT="fec466d38892a30cbd9355e46d444073c806e511"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="TinyBASIC implementation."
 HOMEPAGE="https://github.com/winny-/tinybasic.rkt"

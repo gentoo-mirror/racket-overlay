@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="thoughtstem/rokit-racket"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The rokit-racket Racket package"
 HOMEPAGE="https://github.com/thoughtstem/rokit-racket"

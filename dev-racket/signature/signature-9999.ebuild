@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="thinkmoore/signature"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Syntax and utilities for writing function contracts as signatures"
 HOMEPAGE="https://github.com/thinkmoore/signature"

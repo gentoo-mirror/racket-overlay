@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mordae/racket-mordae"
 GH_COMMIT="01d86a7453241f438b01a37f991a28feeb43df8e"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Personal utilities, do not use directly!"
 HOMEPAGE="https://github.com/mordae/racket-mordae"

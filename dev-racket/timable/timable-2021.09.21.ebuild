@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="yanyingwang/timable"
 GH_COMMIT="873950a99dbc5dd036147c55185b8376347bca88"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The timable Racket package"
 HOMEPAGE="https://github.com/yanyingwang/timable"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/openmpi"
 GH_COMMIT="5aea47a93cf08efdd1bf2cb470c059b5197d04c1"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Racket interface to MPI based on an FFI to OpenMPI"
 HOMEPAGE="https://github.com/jeapostrophe/openmpi"

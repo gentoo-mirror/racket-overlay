@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="octotep/racket-slack-api"
 GH_COMMIT="af5e363e0aefbf05c4448ea82d8aef714c30ee78"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket bindings for the Slack API"
 HOMEPAGE="https://github.com/octotep/racket-slack-api"

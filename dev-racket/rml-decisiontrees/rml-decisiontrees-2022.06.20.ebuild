@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="johnstonskj/rml-decisiontrees"
 GH_COMMIT="820d4c415f117a147093b7e7aac19975b3e79356"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The rml-decisiontrees Racket package"
 HOMEPAGE="https://github.com/johnstonskj/rml-decisiontrees"

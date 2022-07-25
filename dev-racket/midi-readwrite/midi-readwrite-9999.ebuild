@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jbclements/midi-readwrite"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="simple functions to read MIDI (.mid) files"
 HOMEPAGE="https://github.com/jbclements/midi-readwrite"

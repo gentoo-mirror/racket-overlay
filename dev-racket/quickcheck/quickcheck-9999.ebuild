@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="ifigueroap/racket-quickcheck"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Quickcheck Clone"
 HOMEPAGE="https://github.com/ifigueroap/racket-quickcheck"

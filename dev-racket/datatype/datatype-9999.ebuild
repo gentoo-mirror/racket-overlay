@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="pnwamk/datatype"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Algebraic(-like) Data Types"
 HOMEPAGE="https://github.com/pnwamk/datatype"

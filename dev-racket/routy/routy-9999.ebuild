@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Junker/routy"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Routy is a lightweight high performance HTTP request router for Racket."
 HOMEPAGE="https://github.com/Junker/routy"

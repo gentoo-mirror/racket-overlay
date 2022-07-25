@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="git.sr.ht"
 GH_REPO="~williewillus/racket-rfc8949"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Implementation of Concise Binary Object Representation (RFC 8949) for Racket."
 HOMEPAGE="https://git.sr.ht/~williewillus/racket-rfc8949"

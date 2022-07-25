@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Bogdanp/mobilpay"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The mobilpay Racket package"
 HOMEPAGE="https://github.com/Bogdanp/mobilpay"

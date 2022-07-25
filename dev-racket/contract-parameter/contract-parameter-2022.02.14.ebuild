@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="camoy/contract-parameter"
 GH_COMMIT="0d1f6148ed07826ab4b2b2a52d07f92aad2c9420"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Dynamically bound contracts."
 HOMEPAGE="https://github.com/camoy/contract-parameter"

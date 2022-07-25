@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jsmaniac/dotlambda"
 GH_COMMIT="96cfe93ab611db377a4a68f4b0a7e483ebf506a6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The dotlambda Racket package"
 HOMEPAGE="https://github.com/jsmaniac/dotlambda"

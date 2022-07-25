@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mflatt/values-plus"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The values-plus Racket package"
 HOMEPAGE="https://github.com/mflatt/values-plus"

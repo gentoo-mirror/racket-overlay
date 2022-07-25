@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Kalimehtar/binary-class"
 GH_COMMIT="69705ed306be38c9e4dd67d9075ec160ecdb82a4"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Classes for writing and reading binary data"
 HOMEPAGE="https://github.com/Kalimehtar/binary-class"

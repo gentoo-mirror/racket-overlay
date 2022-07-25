@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jessealama/gillette"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="XPath for Racket"
 HOMEPAGE="https://github.com/jessealama/gillette"

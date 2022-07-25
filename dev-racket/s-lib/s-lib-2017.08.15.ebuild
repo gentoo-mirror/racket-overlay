@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="caisah/s-lib"
 GH_COMMIT="de6ae621d8ffd670fede37f51212c8cb5a84bcf3"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A collection of functions for string & word manipulation"
 HOMEPAGE="https://github.com/caisah/s-lib"

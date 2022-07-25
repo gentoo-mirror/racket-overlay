@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Kalimehtar/free-gettext"
 GH_COMMIT="c7ef1a8567e284108d8620198c98a49ccab5b7b8"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="GNU gettext compatible library for internationalization with BSD license"
 HOMEPAGE="https://github.com/Kalimehtar/free-gettext"

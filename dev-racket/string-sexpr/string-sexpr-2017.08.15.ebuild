@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mfelleisen/string-sexpr"
 GH_COMMIT="b87319d3c34be048df24222e54c7dc4327063dc8"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a supplementary package for Fundamentals I"
 HOMEPAGE="https://github.com/mfelleisen/string-sexpr"

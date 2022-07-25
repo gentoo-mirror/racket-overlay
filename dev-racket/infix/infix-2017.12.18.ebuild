@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="soegaard/infix"
 GH_COMMIT="3f7998e509f201f78eb986de0f09e0542a429ad0"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Infix Expressions"
 HOMEPAGE="https://github.com/soegaard/infix"

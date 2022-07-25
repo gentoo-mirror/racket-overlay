@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="wesleybits/xfunctions"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Extended Functional Combinators"
 HOMEPAGE="https://github.com/wesleybits/xfunctions"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/defpat"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a version of define for defining functions with match-patterns as arguments"
 HOMEPAGE="https://github.com/AlexKnauth/defpat"

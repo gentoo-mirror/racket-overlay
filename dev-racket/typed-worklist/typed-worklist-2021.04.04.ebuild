@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jsmaniac/typed-worklist"
 GH_COMMIT="31fb17fb7c8aaa96c49dcd1ca9094d0dffa775c8"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The typed-worklist Racket package"
 HOMEPAGE="https://github.com/jsmaniac/typed-worklist"

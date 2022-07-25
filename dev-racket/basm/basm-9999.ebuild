@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="pythondude325/basm"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The basm Racket package"
 HOMEPAGE="https://gitlab.com/pythondude325/basm"

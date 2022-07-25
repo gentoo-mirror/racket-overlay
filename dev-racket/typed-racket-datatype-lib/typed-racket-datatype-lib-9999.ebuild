@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/typed-racket-datatype"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Algebraic Datatypes for Typed Racket (implementation)"
 HOMEPAGE="https://github.com/AlexKnauth/typed-racket-datatype"

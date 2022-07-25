@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/plt-web"
 GH_COMMIT="e06442a897ede8df9706555eee51734a9cecf4ab"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Web-page creation libraries"
 HOMEPAGE="https://github.com/racket/plt-web"

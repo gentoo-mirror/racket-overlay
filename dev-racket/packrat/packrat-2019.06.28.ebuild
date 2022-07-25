@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="simonhaines/packrat"
 GH_COMMIT="b439a1d997df7bc6cf5d5c4f349355d84cb89e03"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The Packrat Racket package"
 HOMEPAGE="https://github.com/simonhaines/packrat"

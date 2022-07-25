@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tyynetyyne/teachpacks"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket Turtle for drawing turtle-graphics."
 HOMEPAGE="https://github.com/tyynetyyne/teachpacks"

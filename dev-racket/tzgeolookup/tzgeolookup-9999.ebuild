@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="alex-hhh/tzgeolookup"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The tzgeolookup Racket package"
 HOMEPAGE="https://github.com/alex-hhh/tzgeolookup"

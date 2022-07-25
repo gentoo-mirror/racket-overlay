@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tonyg/rmacs"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An EMACS written in Racket. Runs in ANSI-compatible terminals."
 HOMEPAGE="https://github.com/tonyg/rmacs"

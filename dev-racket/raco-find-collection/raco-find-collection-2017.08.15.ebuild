@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="takikawa/raco-find-collection"
 GH_COMMIT="00f0d3dbad025fdb98d23b9ee1a78731f460d541"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A script to find collections."
 HOMEPAGE="https://github.com/takikawa/raco-find-collection"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="cmpitg/racket-raw-string"
 GH_COMMIT="b2745daf6da26c58b0138ab3ec0c20c1133e0ab6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Raw string support without at-exp"
 HOMEPAGE="https://github.com/cmpitg/racket-raw-string"

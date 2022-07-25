@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jsmaniac/typed-worklist"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The typed-worklist Racket package"
 HOMEPAGE="https://github.com/jsmaniac/typed-worklist"

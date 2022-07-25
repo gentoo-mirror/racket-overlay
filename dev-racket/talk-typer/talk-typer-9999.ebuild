@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="florence/talk-typer"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A tool to make live coding during talks easier"
 HOMEPAGE="https://github.com/florence/talk-typer"

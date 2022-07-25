@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jarcane/heresy"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A functional Lisp dialect with BASIC-inspired syntax"
 HOMEPAGE="https://github.com/jarcane/heresy"

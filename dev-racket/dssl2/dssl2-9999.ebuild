@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tov/dssl2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A language for data structures students"
 HOMEPAGE="https://github.com/tov/dssl2"

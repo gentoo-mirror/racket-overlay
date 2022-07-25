@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="aowens-21/puzzler"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A language for building 2D grid-based puzzle games."
 HOMEPAGE="https://github.com/aowens-21/puzzler"

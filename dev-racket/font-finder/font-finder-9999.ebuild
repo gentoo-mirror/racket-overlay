@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dstorrs/font-finder"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Locate font files on your computer"
 HOMEPAGE="https://github.com/dstorrs/font-finder"

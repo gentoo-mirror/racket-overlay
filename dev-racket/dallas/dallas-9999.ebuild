@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jessealama/dallas"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Experimental RDBMS based on the Darwen & Date's D language"
 HOMEPAGE="https://github.com/jessealama/dallas"

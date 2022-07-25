@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="bengreenman/choose-out"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Conditional provide (choose during expansion of importing module)"
 HOMEPAGE="https://gitlab.com/bengreenman/choose-out"

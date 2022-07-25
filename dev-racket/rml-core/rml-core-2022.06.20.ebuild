@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="johnstonskj/rml-core"
 GH_COMMIT="0e493502d3f50670201500c11e50430464e8dd35"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The rml-core Racket package"
 HOMEPAGE="https://github.com/johnstonskj/rml-core"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/dbm"
 GH_COMMIT="a5bf5a400457f49e3e8f5b2009f97e6c4494d1c6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An interface to UNIX dbm files using a libdbm FFI"
 HOMEPAGE="https://github.com/jeapostrophe/dbm"

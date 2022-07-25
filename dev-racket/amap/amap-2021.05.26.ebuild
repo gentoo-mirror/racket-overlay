@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="yanyingwang/amap"
 GH_COMMIT="15a49b88386a453ef2ed07b694cf0d62a42211d2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Gaode Amap web service API"
 HOMEPAGE="https://github.com/yanyingwang/amap"

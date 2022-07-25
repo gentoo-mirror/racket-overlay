@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/opencl"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Racket interface to OpenCL using an FFI"
 HOMEPAGE="https://github.com/jeapostrophe/opencl"

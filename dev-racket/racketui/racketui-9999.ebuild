@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="nadeemabdulhamid/racketui"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Automated web forms UI generator (especially for HtDP)"
 HOMEPAGE="https://github.com/nadeemabdulhamid/racketui"

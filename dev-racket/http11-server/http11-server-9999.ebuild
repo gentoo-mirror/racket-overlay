@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="RayRacine/http11-server"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The http11-server Racket package"
 HOMEPAGE="https://gitlab.com/RayRacine/http11-server"

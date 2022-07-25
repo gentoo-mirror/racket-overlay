@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="thoughtstem/racket-processing"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The racket-processing Racket package"
 HOMEPAGE="https://github.com/thoughtstem/racket-processing"

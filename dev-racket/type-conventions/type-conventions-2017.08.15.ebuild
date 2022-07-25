@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/type-conventions"
 GH_COMMIT="550d9045206bd1c0a05713fa866a9cc2a0b48d99"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Forms for giving specific argument names implicit types"
 HOMEPAGE="https://github.com/jackfirth/type-conventions"

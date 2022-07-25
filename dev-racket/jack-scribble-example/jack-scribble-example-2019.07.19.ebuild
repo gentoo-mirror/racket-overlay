@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/scribble-example"
 GH_COMMIT="8ea8ae06d859b607fd3600a68a806513580e1867"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Deprecated. Use the built in scribble/example instead."
 HOMEPAGE="https://github.com/jackfirth/scribble-example"

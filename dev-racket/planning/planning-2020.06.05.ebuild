@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/planning"
 GH_COMMIT="b880f85effd4520e14b815d1dbe0ff7e71f4aaf8"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library for automated planning."
 HOMEPAGE="https://github.com/jackfirth/planning"

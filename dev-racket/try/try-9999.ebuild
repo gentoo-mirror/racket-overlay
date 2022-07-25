@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="RayRacine/try"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The try Racket package"
 HOMEPAGE="https://gitlab.com/RayRacine/try"

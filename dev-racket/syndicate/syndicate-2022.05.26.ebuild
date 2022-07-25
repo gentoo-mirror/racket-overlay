@@ -7,7 +7,7 @@ GH_DOM="git.syndicate-lang.org"
 GH_REPO="syndicate-lang/syndicate-rkt"
 GH_COMMIT="b39515c6e53eced0899a019b38f0926cc3f12244"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The syndicate Racket package"
 HOMEPAGE="https://git.syndicate-lang.org/syndicate-lang/syndicate-rkt"

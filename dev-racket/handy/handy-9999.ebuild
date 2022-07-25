@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dstorrs/racket-dstorrs-libs"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The handy Racket package"
 HOMEPAGE="https://github.com/dstorrs/racket-dstorrs-libs"

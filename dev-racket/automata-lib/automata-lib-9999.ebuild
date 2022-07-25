@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/automata"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a library for defining efficient automata using match patterns"
 HOMEPAGE="https://github.com/jeapostrophe/automata"

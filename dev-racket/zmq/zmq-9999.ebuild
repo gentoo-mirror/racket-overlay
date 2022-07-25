@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mordae/racket-zmq"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Minimal Racket ZeroMQ Bindings"
 HOMEPAGE="https://github.com/mordae/racket-zmq"

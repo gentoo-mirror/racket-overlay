@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="camoy/meta"
 GH_COMMIT="3d46d19067a2f3fbfeac4b38a3ae3892abb1c91a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Associate metadata with values."
 HOMEPAGE="https://github.com/camoy/meta"

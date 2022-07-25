@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="RayRacine/pipe"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Iteratees in Typed Racket."
 HOMEPAGE="https://gitlab.com/RayRacine/pipe"

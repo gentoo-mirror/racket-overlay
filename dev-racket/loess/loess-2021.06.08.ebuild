@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="ralsei/loess"
 GH_COMMIT="db88acff8c0265768cbd62072a895ef67dbccf37"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Local polynomial regressions for Racket."
 HOMEPAGE="https://github.com/ralsei/loess"

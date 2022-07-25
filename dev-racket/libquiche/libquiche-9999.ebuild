@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="parnikkapore/rkt-libquiche"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The libquiche Racket package"
 HOMEPAGE="https://github.com/parnikkapore/rkt-libquiche"

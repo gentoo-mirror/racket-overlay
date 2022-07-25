@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="rfindler/popl-2012-ryr-talk"
 GH_COMMIT="9da05129de004cc1df0ccfbd821e8542a9155021"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The popl-2012-ryr-talk Racket package"
 HOMEPAGE="https://github.com/rfindler/popl-2012-ryr-talk"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="sorawee/stream-values"
 GH_COMMIT="8ccf703a0b20bdd96dd5db1a404ae771cfc99959"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library for multiple values manipulation in streams"
 HOMEPAGE="https://github.com/sorawee/stream-values"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mordae/racket-json-socket"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="JSON-Talking TCP Sockets"
 HOMEPAGE="https://github.com/mordae/racket-json-socket"

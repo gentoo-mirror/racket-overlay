@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dfeltey/lwc2016"
 GH_COMMIT="8c0a6e11f14af23dcbd72890a51d4fd77350a3d7"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="PLT submision to the 2016 language workbench challenge"
 HOMEPAGE="https://github.com/dfeltey/lwc2016"

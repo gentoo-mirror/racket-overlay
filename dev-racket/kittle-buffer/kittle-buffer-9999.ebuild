@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="KDr2/kittle-buffer"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An extended Brainf**k implementation."
 HOMEPAGE="https://github.com/KDr2/kittle-buffer"

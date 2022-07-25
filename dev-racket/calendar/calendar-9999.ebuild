@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="LeifAndersen/racket-calendar"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The calendar Racket package"
 HOMEPAGE="https://github.com/LeifAndersen/racket-calendar"

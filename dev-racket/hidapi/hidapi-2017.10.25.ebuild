@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jpathy/hidapi"
 GH_COMMIT="91c5e5b8eb7380d3b6031d736e6d8fc9121a7cb0"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket bindings to hidapi library."
 HOMEPAGE="https://github.com/jpathy/hidapi"

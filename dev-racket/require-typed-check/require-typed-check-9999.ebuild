@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="bennn/require-typed-check"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="require/typed, but skips contracts on already-typed imports"
 HOMEPAGE="https://github.com/bennn/require-typed-check"

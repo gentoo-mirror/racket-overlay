@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="alex-hhh/al2-test-runner"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Alternative way of running rackunit tests"
 HOMEPAGE="https://github.com/alex-hhh/al2-test-runner"

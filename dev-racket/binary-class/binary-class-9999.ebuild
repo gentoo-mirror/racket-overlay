@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Kalimehtar/binary-class"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Classes for writing and reading binary data"
 HOMEPAGE="https://github.com/Kalimehtar/binary-class"

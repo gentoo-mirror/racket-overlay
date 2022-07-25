@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dedbox/racket-neuron"
 GH_COMMIT="a8ecafec0c6398c35423348cb02ec229869c8b15"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Decentralized Software Organisms"
 HOMEPAGE="https://github.com/dedbox/racket-neuron"

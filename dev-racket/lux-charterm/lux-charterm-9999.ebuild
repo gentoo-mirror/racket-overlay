@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/lux-charterm"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a lux chaos for terminal programs"
 HOMEPAGE="https://github.com/jeapostrophe/lux-charterm"

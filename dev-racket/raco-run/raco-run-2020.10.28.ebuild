@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samdphillips/raco-run"
 GH_COMMIT="a57165d1ba73436476cd9466b74dc1ff71d6b19a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Run submodules from the command line"
 HOMEPAGE="https://github.com/samdphillips/raco-run"

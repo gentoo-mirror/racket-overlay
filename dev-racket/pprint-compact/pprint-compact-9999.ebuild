@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="sorawee/pprint-compact"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A non-greedy pretty printer"
 HOMEPAGE="https://github.com/sorawee/pprint-compact"

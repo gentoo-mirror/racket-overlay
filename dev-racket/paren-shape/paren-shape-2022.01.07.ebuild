@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/paren-shape"
 GH_COMMIT="c25e7aa6671e1630a669d33de6e554e9ad7f5fd2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Deprecated. Use syntax-classes-lib instead."
 HOMEPAGE="https://github.com/AlexKnauth/paren-shape"

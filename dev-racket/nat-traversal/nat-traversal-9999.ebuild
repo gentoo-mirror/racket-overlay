@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tonyg/racket-nat-traversal"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="NAT traversal utilities, including NAT-PMP and UPnP."
 HOMEPAGE="https://github.com/tonyg/racket-nat-traversal"

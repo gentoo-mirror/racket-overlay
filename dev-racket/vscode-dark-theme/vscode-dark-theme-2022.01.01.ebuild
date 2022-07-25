@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="kurtisvetter/drracket-vscode-dark"
 GH_COMMIT="aabfab324bdfed2d11506be4f0c2e8e6f0837f63"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="VSCode default dark theme for DrRacket"
 HOMEPAGE="https://github.com/kurtisvetter/drracket-vscode-dark"

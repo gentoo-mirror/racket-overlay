@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="samth/raco-bug"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Submit bug reports"
 HOMEPAGE="https://github.com/samth/raco-bug"

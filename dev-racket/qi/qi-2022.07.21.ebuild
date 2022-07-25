@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="countvajhula/qi"
 GH_COMMIT="a1ac1ea437e008e7b8fbe59ebb9f15a38c35515d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A general-purpose functional DSL."
 HOMEPAGE="https://github.com/countvajhula/qi"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="themetaschemer/net-pem"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Privacy Enhanced Mail (PEM) Parsing and Unparsing"
 HOMEPAGE="https://github.com/themetaschemer/net-pem"

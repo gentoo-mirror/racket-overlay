@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="takikawa/racket-cpu-affinity"
 GH_COMMIT="bc6316cbc7bc3f2179ae569bfe7c23a53b62025f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library for getting/setting CPU affinity"
 HOMEPAGE="https://github.com/takikawa/racket-cpu-affinity"

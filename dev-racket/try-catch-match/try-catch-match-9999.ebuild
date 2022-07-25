@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="eutro/try-catch-match"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A try-catch-finally macro that binds with match."
 HOMEPAGE="https://github.com/eutro/try-catch-match"

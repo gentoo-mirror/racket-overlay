@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="WeixiMa/mk"
 GH_COMMIT="a01b4ee787e7889b9f226d954d932f9770c0ba1d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The mk Racket package"
 HOMEPAGE="https://github.com/WeixiMa/mk"

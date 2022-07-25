@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="tjitze/ranked-programming"
 GH_COMMIT="5503146a8ac9779d949905b778f0d9fd6d8c0d1a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library that provides ranked programming functionality in Racket."
 HOMEPAGE="https://github.com/tjitze/ranked-programming"

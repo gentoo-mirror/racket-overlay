@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="rocketnia/fexpress"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A compilation-friendly fexpr language. (lib)"
 HOMEPAGE="https://github.com/rocketnia/fexpress"

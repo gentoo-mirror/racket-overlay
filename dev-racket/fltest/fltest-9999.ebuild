@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="samth/fltest"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The fltest Racket package"
 HOMEPAGE="https://github.com/samth/fltest"

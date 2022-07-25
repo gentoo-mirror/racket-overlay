@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lexi-lambda/rackunit-spec"
 GH_COMMIT="96f9f48b2f4b004fafc67a3d26805983274568c4"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="BDD test helpers for rackunit"
 HOMEPAGE="https://github.com/lexi-lambda/rackunit-spec"

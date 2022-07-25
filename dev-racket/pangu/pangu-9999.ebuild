@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="kisaragi-hiu/pangu.rkt"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Paranoid text spacing with Racket."
 HOMEPAGE="https://github.com/kisaragi-hiu/pangu.rkt"

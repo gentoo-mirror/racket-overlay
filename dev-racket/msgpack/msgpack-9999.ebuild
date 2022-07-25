@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="HiPhish/MsgPack.rkt"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Implementation of the MessagePack protocol."
 HOMEPAGE="https://gitlab.com/HiPhish/MsgPack.rkt"

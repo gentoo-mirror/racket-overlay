@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Bogdanp/nevermore"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The nevermore Racket package"
 HOMEPAGE="https://github.com/Bogdanp/nevermore"

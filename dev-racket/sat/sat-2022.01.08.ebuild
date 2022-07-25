@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Kraks/SAT.rkt"
 GH_COMMIT="68cf0699f447d2c420db3b8a03fe83163af62dbe"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A simple SAT solver based on DPLL."
 HOMEPAGE="https://github.com/Kraks/SAT.rkt"

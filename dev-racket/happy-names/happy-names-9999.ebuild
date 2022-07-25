@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="thoughtstem/happy-names"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Simple generator for Heroku-like names (random adj + random noun)"
 HOMEPAGE="https://github.com/thoughtstem/happy-names"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="countvajhula/relation"
 GH_COMMIT="1e5d06266644282a5649dcaf6d861166b0f74e8b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Generic interfaces and convenient utilities for using relations."
 HOMEPAGE="https://github.com/countvajhula/relation"

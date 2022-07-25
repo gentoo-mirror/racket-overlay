@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="stardust66/drracket-workspaces"
 GH_COMMIT="ec3eff8e7b7dc5ca7f59209f188ba843d5c827d2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Save and reopen groups of files in DrRacket as workspaces."
 HOMEPAGE="https://github.com/stardust66/drracket-workspaces"

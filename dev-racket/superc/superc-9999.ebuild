@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/superc"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A language for writing C with Racket macros and an easy interface to Racket"
 HOMEPAGE="https://github.com/jeapostrophe/superc"

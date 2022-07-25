@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-net-ip"
 GH_COMMIT="fec61684f123f042ae0236e9ee702fb0591bc502"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="IP address utilities (docs only)."
 HOMEPAGE="https://github.com/Bogdanp/racket-net-ip"

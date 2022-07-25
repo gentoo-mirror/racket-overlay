@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="RayRacine/tjson"
 GH_COMMIT="b8471434b51592d3fcab819bb203380c8ede5de3"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Basic Typed Racket Json Parser and Emitter"
 HOMEPAGE="https://gitlab.com/RayRacine/tjson"

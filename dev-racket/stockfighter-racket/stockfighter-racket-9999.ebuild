@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="eu90h/stockfighter-racket"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Stockfighter API client"
 HOMEPAGE="https://github.com/eu90h/stockfighter-racket"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="samth/in-covid"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Indiana COVID data analysis"
 HOMEPAGE="https://github.com/samth/in-covid"

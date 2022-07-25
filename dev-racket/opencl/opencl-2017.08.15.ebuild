@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/opencl"
 GH_COMMIT="f984050b0c02beb6df186d1d531c4a92a98df1a1"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Racket interface to OpenCL using an FFI"
 HOMEPAGE="https://github.com/jeapostrophe/opencl"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="rmculpepper/racket-http123"
 GH_COMMIT="2f17657c1ab058ec1b6c04f2c964cae42b54833e"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="HTTP client with support for HTTP/1.1 and HTTP/2."
 HOMEPAGE="https://github.com/rmculpepper/racket-http123"

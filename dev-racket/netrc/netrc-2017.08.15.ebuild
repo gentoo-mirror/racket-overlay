@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="apg/netrc"
 GH_COMMIT="af814d20a77910ab6de2161ac37d02586604a192"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Find entries in ~/.netrc files"
 HOMEPAGE="https://github.com/apg/netrc"

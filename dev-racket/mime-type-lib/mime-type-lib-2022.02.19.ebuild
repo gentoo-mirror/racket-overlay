@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-net-mime-type"
 GH_COMMIT="654010255a5a2bb41a16f3e110e6644a3d7f23ea"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Utilities for working with MIME types. (implementation)"
 HOMEPAGE="https://github.com/Bogdanp/racket-net-mime-type"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/paren-shape"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Deprecated. Use syntax-classes-lib instead."
 HOMEPAGE="https://github.com/AlexKnauth/paren-shape"

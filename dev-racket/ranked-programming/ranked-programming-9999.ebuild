@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tjitze/ranked-programming"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library that provides ranked programming functionality in Racket."
 HOMEPAGE="https://github.com/tjitze/ranked-programming"

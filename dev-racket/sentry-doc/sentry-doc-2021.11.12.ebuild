@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-sentry"
 GH_COMMIT="b47a725c6797b9021eff714d4d81d6583600bd6a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Sentry SDK for Racket. (docs only)"
 HOMEPAGE="https://github.com/Bogdanp/racket-sentry"

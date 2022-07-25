@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lexi-lambda/functional"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="generic interfaces and data structures for functional programming"
 HOMEPAGE="https://github.com/lexi-lambda/functional"

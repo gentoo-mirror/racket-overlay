@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="takikawa/minikanren"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Planet 2 package for minikanren"
 HOMEPAGE="https://github.com/takikawa/minikanren"

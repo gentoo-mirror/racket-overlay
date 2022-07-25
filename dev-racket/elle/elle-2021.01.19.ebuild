@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="tail-reversion/elle"
 GH_COMMIT="87053a6ba8e12c15823395149fe74a62ebb77fee"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The elle Racket package"
 HOMEPAGE="https://github.com/tail-reversion/elle"

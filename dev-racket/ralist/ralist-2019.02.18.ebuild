@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dvanhorn/ralist"
 GH_COMMIT="8f830a01463c547d2588671e76202cfe566a3fb1"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Purely Functional Random Access Lists"
 HOMEPAGE="https://github.com/dvanhorn/ralist"

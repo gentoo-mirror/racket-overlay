@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="nadeemabdulhamid/piecrust"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An automated (RESTful) CRUD API generator for use with the Racket web server."
 HOMEPAGE="https://github.com/nadeemabdulhamid/piecrust"

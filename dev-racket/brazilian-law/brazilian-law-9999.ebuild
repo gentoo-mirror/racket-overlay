@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="OAB-exams/brazilian-law-parser"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The brazilian-law Racket package"
 HOMEPAGE="https://github.com/OAB-exams/brazilian-law-parser"

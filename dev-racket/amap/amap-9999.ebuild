@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="yanyingwang/amap"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Gaode Amap web service API"
 HOMEPAGE="https://github.com/yanyingwang/amap"

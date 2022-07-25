@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="RayRacine/http11"
 GH_COMMIT="5d9a2f182168c01ca366cdd45c7bcf78cf8037be"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="HTTP v1.1  low level protocol library in Typed Racket."
 HOMEPAGE="https://gitlab.com/RayRacine/http11"

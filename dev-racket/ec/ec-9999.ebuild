@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="marckn0x/ec"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The ec Racket package"
 HOMEPAGE="https://github.com/marckn0x/ec"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="BourgondAries/rkt-glfw"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="GLFW wrapper for Racket"
 HOMEPAGE="https://github.com/BourgondAries/rkt-glfw"

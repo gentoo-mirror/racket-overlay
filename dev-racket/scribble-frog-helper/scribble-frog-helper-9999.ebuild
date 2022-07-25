@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="yanyingwang/scribble-frog-helper"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="scribble helper functions especially for writing blogs with frog"
 HOMEPAGE="https://github.com/yanyingwang/scribble-frog-helper"

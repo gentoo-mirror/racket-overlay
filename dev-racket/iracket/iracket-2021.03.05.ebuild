@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="rmculpepper/iracket"
 GH_COMMIT="9af0e87d61565a9ecb41119c481e7e36c0c5287d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Jupyter kernel for Racket"
 HOMEPAGE="https://github.com/rmculpepper/iracket"

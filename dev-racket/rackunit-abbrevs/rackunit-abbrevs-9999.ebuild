@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="bennn/rackunit-abbrevs"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Iterated RackUnit tests"
 HOMEPAGE="https://github.com/bennn/rackunit-abbrevs"

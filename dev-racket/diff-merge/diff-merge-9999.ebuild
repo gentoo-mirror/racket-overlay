@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tonyg/racket-diff-merge"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Myers-Ukkonen diff and diff3-based merge for sequences"
 HOMEPAGE="https://github.com/tonyg/racket-diff-merge"

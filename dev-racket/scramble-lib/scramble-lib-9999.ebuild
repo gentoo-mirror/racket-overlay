@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="rmculpepper/racket-scramble"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Assorted utility libraries"
 HOMEPAGE="https://github.com/rmculpepper/racket-scramble"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Aeva/vec"
 GH_COMMIT="d64e15d1656279999bc5735f855c4b90cd90fd7e"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A simple vector math library loosely inspired by GLSL and HLSL."
 HOMEPAGE="https://github.com/Aeva/vec"

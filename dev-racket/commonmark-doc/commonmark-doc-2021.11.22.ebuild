@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lexi-lambda/racket-commonmark"
 GH_COMMIT="d40156bce42088aea1a742d6cce4c8697318db70"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The commonmark-doc Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/racket-commonmark"

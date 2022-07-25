@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lexi-lambda/envy"
 GH_COMMIT="0adfe762ea5ee9237ec67e15b1880a8767060ffb"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="an environment variable manager for applications"
 HOMEPAGE="https://github.com/lexi-lambda/envy"

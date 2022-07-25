@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/mm"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="an environment for exploring memory management"
 HOMEPAGE="https://github.com/jeapostrophe/mm"

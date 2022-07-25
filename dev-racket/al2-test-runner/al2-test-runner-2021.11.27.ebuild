@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="alex-hhh/al2-test-runner"
 GH_COMMIT="b6757271932151dff6507ee6f1b690d0268da808"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Alternative way of running rackunit tests"
 HOMEPAGE="https://github.com/alex-hhh/al2-test-runner"

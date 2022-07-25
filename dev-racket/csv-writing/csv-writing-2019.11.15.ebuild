@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jbclements/csv-writing"
 GH_COMMIT="a656ce4ee8ee9ef618e257a9def8f673f3ec6122"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="simple functions to write CSV files (and TSV files)"
 HOMEPAGE="https://github.com/jbclements/csv-writing"

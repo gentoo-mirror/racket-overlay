@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="thoughtstem/comm-panel"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The comm-panel Racket package"
 HOMEPAGE="https://github.com/thoughtstem/comm-panel"

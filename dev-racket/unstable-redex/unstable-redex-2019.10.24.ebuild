@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/unstable-redex"
 GH_COMMIT="c8fd60d300039f1d1a5de82683746223945d651c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Experimental libraries for typesetting PLT Redex models"
 HOMEPAGE="https://github.com/racket/unstable-redex"

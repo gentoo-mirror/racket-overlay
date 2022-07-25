@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="countvajhula/seq"
 GH_COMMIT="c5f17742975163b5eeffc18741552b1003098880"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A generic, isomorphic, sequence library."
 HOMEPAGE="https://github.com/countvajhula/seq"

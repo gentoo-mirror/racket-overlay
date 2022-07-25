@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="thoughtstem/py-fizz"
 GH_COMMIT="46047397ab9bbac86ab15a3e6e952777f5754fdf"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The py-fizz Racket package"
 HOMEPAGE="https://github.com/thoughtstem/py-fizz"

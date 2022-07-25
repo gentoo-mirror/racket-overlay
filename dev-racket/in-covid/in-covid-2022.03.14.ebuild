@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samth/in-covid"
 GH_COMMIT="69475f04fa150050dc955f8cca1ddcf49536a78d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Indiana COVID data analysis"
 HOMEPAGE="https://github.com/samth/in-covid"

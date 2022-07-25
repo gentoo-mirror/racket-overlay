@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="bitbucket.org"
 GH_REPO="derend/andlet"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Coupling and logic to let and let* forms."
 HOMEPAGE="https://bitbucket.org/derend/andlet"

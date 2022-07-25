@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="pnwamk/dset"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Deterministic Sets"
 HOMEPAGE="https://github.com/pnwamk/dset"

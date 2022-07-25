@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="rain-1/racket-peg"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="PEG parser generator"
 HOMEPAGE="https://github.com/rain-1/racket-peg"

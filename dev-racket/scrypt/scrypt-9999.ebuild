@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tonyg/racket-scrypt"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket binding to Colin Percival's scrypt function."
 HOMEPAGE="https://github.com/tonyg/racket-scrypt"

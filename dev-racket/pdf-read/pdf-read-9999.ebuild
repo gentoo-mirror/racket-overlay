@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="gcr/pdf-read"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The pdf-read Racket package"
 HOMEPAGE="https://github.com/gcr/pdf-read"

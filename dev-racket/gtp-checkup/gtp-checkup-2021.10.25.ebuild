@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="bennn/gtp-checkup"
 GH_COMMIT="304e03ff9bb94a7870340c3a9a195d017523a2c5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Test correctness of typed/untyped interaction."
 HOMEPAGE="https://github.com/bennn/gtp-checkup"

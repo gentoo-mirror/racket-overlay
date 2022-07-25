@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="GThad/g-code-tools"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A collection of tools for manipulating G-code."
 HOMEPAGE="https://github.com/GThad/g-code-tools"

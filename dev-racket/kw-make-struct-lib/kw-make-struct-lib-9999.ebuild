@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/kw-make-struct"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Naming struct fields with keywords for constructing and matching"
 HOMEPAGE="https://github.com/AlexKnauth/kw-make-struct"

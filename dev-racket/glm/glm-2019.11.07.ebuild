@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dedbox/racket-glm"
 GH_COMMIT="9ab93fe8549f6ce8da29ce651a175bf35a4d996d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="OpenGL Mathematics"
 HOMEPAGE="https://github.com/dedbox/racket-glm"

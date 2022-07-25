@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lehitoskin/libtoxcore-racket"
 GH_COMMIT="8baa14d6835ec4371de4ce7aa73237cd509d8f48"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Racket wrapper for the Tox libraries."
 HOMEPAGE="https://github.com/lehitoskin/libtoxcore-racket"

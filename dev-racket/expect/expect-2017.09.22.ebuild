@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/racket-expect"
 GH_COMMIT="9530df30537ae05400b6a3add9619e5f697dca52"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The expect Racket package"
 HOMEPAGE="https://github.com/jackfirth/racket-expect"

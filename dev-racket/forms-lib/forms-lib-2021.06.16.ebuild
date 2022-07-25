@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-forms"
 GH_COMMIT="ccc1084bb47c5d857d46f23fd190658e151259ea"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Web form validation (implementation only)."
 HOMEPAGE="https://github.com/Bogdanp/racket-forms"

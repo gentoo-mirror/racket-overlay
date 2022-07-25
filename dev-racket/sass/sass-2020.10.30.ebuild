@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-sass"
 GH_COMMIT="f4784d0da02012976c68034c284ba3cfe55bf428"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Bindings to libsass."
 HOMEPAGE="https://github.com/Bogdanp/racket-sass"

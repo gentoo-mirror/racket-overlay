@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lwhjp/racket-binutils"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Utilities for manipulating machine code object files"
 HOMEPAGE="https://github.com/lwhjp/racket-binutils"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="arvyy/racket-raylib-2d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket wrapper for Raylib (https://www.raylib.com/) v2.5 2D functionality"
 HOMEPAGE="https://github.com/arvyy/racket-raylib-2d"

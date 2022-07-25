@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="philnguyen/impl-excl"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The impl-excl Racket package"
 HOMEPAGE="https://github.com/philnguyen/impl-excl"

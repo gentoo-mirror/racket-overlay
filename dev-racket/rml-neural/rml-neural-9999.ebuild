@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="johnstonskj/rml-neural"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Pedantic implementation of neural networks for deep learning in Racket"
 HOMEPAGE="https://github.com/johnstonskj/rml-neural"

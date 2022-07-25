@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="camoy/stream-etc"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Miscellaneous stream operations."
 HOMEPAGE="https://github.com/camoy/stream-etc"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lwhjp/ecmascript"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Parser, runtime and #lang for ECMAScript"
 HOMEPAGE="https://github.com/lwhjp/ecmascript"

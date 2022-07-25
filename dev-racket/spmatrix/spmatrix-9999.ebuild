@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/matrix"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Semi-persistent matrices based on spvectors"
 HOMEPAGE="https://github.com/jeapostrophe/matrix"

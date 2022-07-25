@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="takikawa/racket-cpu-affinity"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library for getting/setting CPU affinity"
 HOMEPAGE="https://github.com/takikawa/racket-cpu-affinity"

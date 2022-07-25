@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="BourgondAries/pcg"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Permuted congruential generators (PCG) in Racket"
 HOMEPAGE="https://github.com/BourgondAries/pcg"

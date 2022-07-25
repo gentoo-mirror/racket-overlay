@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="pmatos/cond-contract"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Conditional contracts for Racket"
 HOMEPAGE="https://github.com/pmatos/cond-contract"

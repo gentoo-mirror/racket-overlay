@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="xandkar/gg"
 GH_COMMIT="9f9f777a95c13aeb3eee81112cf0eef3f8f164c2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A tool to discover, catalogue and compare git repos across N machines."
 HOMEPAGE="https://github.com/xandkar/gg"

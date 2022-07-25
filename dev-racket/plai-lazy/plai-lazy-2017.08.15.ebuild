@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mflatt/plai-lazy"
 GH_COMMIT="814aa836ba1b981b9916fbfa9ba7b2683b0350c4"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A lazy variant of the plai language"
 HOMEPAGE="https://github.com/mflatt/plai-lazy"

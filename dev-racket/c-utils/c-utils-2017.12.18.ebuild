@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samth/c.rkt"
 GH_COMMIT="a7087828d18fee7268c51104783279d285076560"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Utilities for manipulating C source code."
 HOMEPAGE="https://github.com/samth/c.rkt"

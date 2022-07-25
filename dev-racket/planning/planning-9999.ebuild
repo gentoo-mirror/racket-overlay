@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jackfirth/planning"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library for automated planning."
 HOMEPAGE="https://github.com/jackfirth/planning"

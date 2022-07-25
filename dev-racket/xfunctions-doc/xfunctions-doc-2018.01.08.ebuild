@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="wesleybits/xfunctions"
 GH_COMMIT="a8c545d55ee1d9df715ccc44fb22eec463e0f206"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Documentation for xfunctions"
 HOMEPAGE="https://github.com/wesleybits/xfunctions"

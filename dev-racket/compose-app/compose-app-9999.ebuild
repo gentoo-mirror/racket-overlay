@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jackfirth/compose-app"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The compose-app Racket package"
 HOMEPAGE="https://github.com/jackfirth/compose-app"

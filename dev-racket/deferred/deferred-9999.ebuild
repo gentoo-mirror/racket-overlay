@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="cjfuller/deferred"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A simple library for deferring asynchronous tasks until a specified time"
 HOMEPAGE="https://github.com/cjfuller/deferred"

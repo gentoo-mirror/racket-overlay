@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="alex-hhh/gui-widget-mixins"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Tool tips, cue text and validation for text-field% GUI widgets in Racket"
 HOMEPAGE="https://github.com/alex-hhh/gui-widget-mixins"

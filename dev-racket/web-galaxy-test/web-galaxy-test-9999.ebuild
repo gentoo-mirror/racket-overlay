@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="euhmeuh/web-galaxy"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Tests for web-galaxy."
 HOMEPAGE="https://github.com/euhmeuh/web-galaxy"

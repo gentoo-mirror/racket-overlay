@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tonyg/racket-dbus"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Native D-Bus for Racket"
 HOMEPAGE="https://github.com/tonyg/racket-dbus"

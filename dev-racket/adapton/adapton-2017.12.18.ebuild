@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="plum-umd/adapton.racket"
 GH_COMMIT="9ddfec8a22809cfb37fbbd8871a088fc3bd51787"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Adapton: Composable, Demand-Driven Incremental Computation"
 HOMEPAGE="https://github.com/plum-umd/adapton.racket"

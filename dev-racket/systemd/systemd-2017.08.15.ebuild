@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mordae/racket-systemd"
 GH_COMMIT="fd389e3d6369aeae47004deef9d1d93018db7da4"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="SystemD Support"
 HOMEPAGE="https://github.com/mordae/racket-systemd"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jsmaniac/scope-operations"
 GH_COMMIT="5ea8f32528bcf1ed4393cf9a054920936c27a556"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The scope-operations Racket package"
 HOMEPAGE="https://github.com/jsmaniac/scope-operations"

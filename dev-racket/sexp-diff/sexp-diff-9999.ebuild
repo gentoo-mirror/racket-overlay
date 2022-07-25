@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="stamourv/sexp-diff"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Diffs s-expressions based on Levenshtein-like edit distance."
 HOMEPAGE="https://github.com/stamourv/sexp-diff"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="stamourv/java-lexer"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Java syntax highlighting for Scribble."
 HOMEPAGE="https://github.com/stamourv/java-lexer"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/honu"
 GH_COMMIT="b36b9aeda8be22bf7fda177e831f42ac1a1de79b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The implementation of the Honu language"
 HOMEPAGE="https://github.com/racket/honu"

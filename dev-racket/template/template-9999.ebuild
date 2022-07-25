@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dedbox/racket-template"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Template Macros"
 HOMEPAGE="https://github.com/dedbox/racket-template"

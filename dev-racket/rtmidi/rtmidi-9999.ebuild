@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jbclements/rtmidi"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The rtmidi Racket package"
 HOMEPAGE="https://github.com/jbclements/rtmidi"

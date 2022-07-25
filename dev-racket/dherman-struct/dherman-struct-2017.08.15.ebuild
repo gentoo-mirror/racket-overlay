@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jbclements/dherman-struct"
 GH_COMMIT="1f0510d8e50ca3d22b3ba7ee65cce117450d44a0"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A port of David Herman's struct.plt planet package"
 HOMEPAGE="https://github.com/jbclements/dherman-struct"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="stchang/generic-bind"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Generic binding forms."
 HOMEPAGE="https://github.com/stchang/generic-bind"

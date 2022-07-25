@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="the-cellar/barrel"
 GH_COMMIT="115811d6e6622b7be24ca3a36593f5557278fe5d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An esoteric golfing lang"
 HOMEPAGE="https://github.com/the-cellar/barrel"

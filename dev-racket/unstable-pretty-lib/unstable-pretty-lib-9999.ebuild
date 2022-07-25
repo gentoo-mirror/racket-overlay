@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket/unstable-pretty-lib"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Experimental libraries for pretty printing"
 HOMEPAGE="https://github.com/racket/unstable-pretty-lib"

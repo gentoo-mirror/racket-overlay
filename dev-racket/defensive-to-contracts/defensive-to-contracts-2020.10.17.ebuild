@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jiujiu1123/defensive-to-contracts"
 GH_COMMIT="f64d8cb80a17fb981eb8269ef15f1fdb2f4d190b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The defensive-to-contracts Racket package"
 HOMEPAGE="https://github.com/jiujiu1123/defensive-to-contracts"

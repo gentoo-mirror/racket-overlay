@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="RayRacine/word"
 GH_COMMIT="280659a27d2e3581fe64e8d406435cbcbadf3182"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Signed and Unsigned Word datatype for Racket using refinement types."
 HOMEPAGE="https://gitlab.com/RayRacine/word"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jsmaniac/scribble-math"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The scribble-math Racket package"
 HOMEPAGE="https://github.com/jsmaniac/scribble-math"

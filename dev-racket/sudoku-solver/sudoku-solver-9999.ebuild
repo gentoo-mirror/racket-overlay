@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="git.sr.ht"
 GH_REPO="~sschwarzer/sudoku-solver"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Sudoku solver that can also show the solution process as a GraphViz dot file"
 HOMEPAGE="https://git.sr.ht/~sschwarzer/sudoku-solver"

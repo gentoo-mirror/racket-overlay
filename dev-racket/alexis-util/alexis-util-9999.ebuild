@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lexi-lambda/racket-alexis"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Various utilities and helper functions I've found useful"
 HOMEPAGE="https://github.com/lexi-lambda/racket-alexis"

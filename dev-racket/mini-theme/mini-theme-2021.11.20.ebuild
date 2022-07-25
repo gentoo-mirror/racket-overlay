@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dannypsnl/mini-theme"
 GH_COMMIT="0dc671679070aeaeebe1bf23b741d914bf5b8892"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A minimal DrRacket theme"
 HOMEPAGE="https://github.com/dannypsnl/mini-theme"

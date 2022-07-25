@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jbclements/portaudio"
 GH_COMMIT="8086516e654c5eb6c156e19ad4192dffab81bb5f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Bindings for portaudio, a cross-platform audio library."
 HOMEPAGE="https://github.com/jbclements/portaudio"

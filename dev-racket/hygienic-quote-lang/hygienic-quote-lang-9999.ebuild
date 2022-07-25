@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/hygienic-quote-lang"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="hygienic versions of quote-like racket reader macros"
 HOMEPAGE="https://github.com/AlexKnauth/hygienic-quote-lang"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tonyg/racket-bitsyntax"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Erlang-like binary pattern-matching and bit string manipulation for Racket."
 HOMEPAGE="https://github.com/tonyg/racket-bitsyntax"

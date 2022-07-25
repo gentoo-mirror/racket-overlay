@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/hash-lambda"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="using hash-tables for rest-arguments that include keyword-arguments"
 HOMEPAGE="https://github.com/AlexKnauth/hash-lambda"

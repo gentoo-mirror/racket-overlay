@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jagen31/drracket-red"
 GH_COMMIT="06030dbc0451476ba652db86e19e737de6e1d9a1"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="VsCode Red Theme for DrRacket"
 HOMEPAGE="https://github.com/jagen31/drracket-red"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mcdejonge/rs"
 GH_COMMIT="4ec05adf44019ff153e867612d3eeee7ea586082"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The rs Racket package"
 HOMEPAGE="https://github.com/mcdejonge/rs"

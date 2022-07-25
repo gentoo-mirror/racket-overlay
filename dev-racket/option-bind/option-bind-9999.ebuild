@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="RenaissanceBug/option-bind"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Monadic shorthand for propagating #f in Option types"
 HOMEPAGE="https://github.com/RenaissanceBug/option-bind"

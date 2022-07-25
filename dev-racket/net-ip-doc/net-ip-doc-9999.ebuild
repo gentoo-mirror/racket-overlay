@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-net-ip"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="IP address utilities (docs only)."
 HOMEPAGE="https://github.com/Bogdanp/racket-net-ip"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="hkrish/irandom"
 GH_COMMIT="f38e03c69fce7462b81106f567c32ce34f0ed830"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The irandom Racket package"
 HOMEPAGE="https://github.com/hkrish/irandom"

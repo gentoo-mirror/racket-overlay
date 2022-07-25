@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="samth/github.rkt"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Github Bindings"
 HOMEPAGE="https://github.com/samth/github.rkt"

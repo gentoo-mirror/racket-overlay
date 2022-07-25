@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="whichxjy/emoji"
 GH_COMMIT="f1a1bececc0f6ed232bc3f77f1975818b457d9f8"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Emoji terminal output for Racket"
 HOMEPAGE="https://github.com/whichxjy/emoji"

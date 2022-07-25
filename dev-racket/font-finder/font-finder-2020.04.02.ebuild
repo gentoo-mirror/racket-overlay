@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dstorrs/font-finder"
 GH_COMMIT="fa316eef64ee8525ad741479f132246b4a0acf85"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Locate font files on your computer"
 HOMEPAGE="https://github.com/dstorrs/font-finder"

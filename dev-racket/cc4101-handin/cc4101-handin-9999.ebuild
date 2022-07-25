@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="pleiad/cc4101-handin-client"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The cc4101-handin Racket package"
 HOMEPAGE="https://github.com/pleiad/cc4101-handin-client"

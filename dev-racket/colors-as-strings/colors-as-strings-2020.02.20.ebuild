@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="thoughtstem/colors-as-strings"
 GH_COMMIT="6f6f5594f46ebcdc96ab9c82edc4e5a90d6f0896"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Provides common color strings as identifiers."
 HOMEPAGE="https://github.com/thoughtstem/colors-as-strings"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="winny-/4chdl"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="4chan image downloader and library to interact with the JSON API."
 HOMEPAGE="https://github.com/winny-/4chdl"

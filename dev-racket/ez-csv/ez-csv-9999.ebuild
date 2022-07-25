@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="sleibrock/ez-csv"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Reading and writing CSV files from Racket... Except easier."
 HOMEPAGE="https://github.com/sleibrock/ez-csv"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="amkhlv/amkhlv"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A tool for preparing HTML slides with LaTeX formulas, based on Scribble"
 HOMEPAGE="https://github.com/amkhlv/amkhlv"

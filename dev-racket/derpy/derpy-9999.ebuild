@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mordae/racket-derpy"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Presentation Room Control"
 HOMEPAGE="https://github.com/mordae/racket-derpy"

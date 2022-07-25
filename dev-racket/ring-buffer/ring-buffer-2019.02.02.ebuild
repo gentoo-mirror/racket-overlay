@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/ring-buffer"
 GH_COMMIT="e93665407487ca0d31e1dadebc570371044f0c27"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An imperative overwriting ring buffer data structure"
 HOMEPAGE="https://github.com/jeapostrophe/ring-buffer"

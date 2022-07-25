@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="countvajhula/generator-util"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Utilities for working with generators"
 HOMEPAGE="https://github.com/countvajhula/generator-util"

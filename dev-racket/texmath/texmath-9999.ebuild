@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dedbox/racket-texmath"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Pseudo-(La)TeX mathematical notation for Scribble"
 HOMEPAGE="https://github.com/dedbox/racket-texmath"

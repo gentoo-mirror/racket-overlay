@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket/unstable-2d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Experimental 2d syntax"
 HOMEPAGE="https://github.com/racket/unstable-2d"

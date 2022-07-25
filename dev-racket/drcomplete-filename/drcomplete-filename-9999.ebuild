@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="yjqww6/drcomplete"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A DrRacket plugin for autocomplete for filenames, only active inside string."
 HOMEPAGE="https://github.com/yjqww6/drcomplete"

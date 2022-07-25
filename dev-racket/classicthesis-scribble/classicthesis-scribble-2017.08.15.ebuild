@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="stamourv/classicthesis-scribble"
 GH_COMMIT="e6c3f2be24654cbf0b17d9027737c2d3eb1cddd1"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Scribble wrapper for the classicthesis LaTeX style."
 HOMEPAGE="https://github.com/stamourv/classicthesis-scribble"

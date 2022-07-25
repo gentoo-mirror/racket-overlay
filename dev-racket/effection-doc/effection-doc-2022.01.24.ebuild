@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="rocketnia/effection"
 GH_COMMIT="012c8ab1b45993770ed240cae0831f09574fe976"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library for custom side effects. (doc)"
 HOMEPAGE="https://github.com/rocketnia/effection"

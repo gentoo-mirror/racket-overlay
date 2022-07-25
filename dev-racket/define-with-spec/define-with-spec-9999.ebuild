@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="pnwamk/define-with-spec"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The define-with-spec Racket package"
 HOMEPAGE="https://github.com/pnwamk/define-with-spec"

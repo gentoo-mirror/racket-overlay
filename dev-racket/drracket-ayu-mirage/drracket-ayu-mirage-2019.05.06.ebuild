@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="oransimhony/drracket-ayu-mirage"
 GH_COMMIT="5271740c3f0089e3958647353c24b73a3a80e401"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The drracket-ayu-mirage Racket package"
 HOMEPAGE="https://github.com/oransimhony/drracket-ayu-mirage"

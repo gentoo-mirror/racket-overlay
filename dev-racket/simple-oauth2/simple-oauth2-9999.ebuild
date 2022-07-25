@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="johnstonskj/simple-oauth2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Simple OAuth 2.0 client implementation"
 HOMEPAGE="https://github.com/johnstonskj/simple-oauth2"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mflatt/plai-typed"
 GH_COMMIT="419102db1e44b74dea9daf7a75e9b0e2b9c97d05"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The plai-typed Racket package"
 HOMEPAGE="https://github.com/mflatt/plai-typed"

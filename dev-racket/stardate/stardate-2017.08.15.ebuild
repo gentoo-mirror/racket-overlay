@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dyoo/stardate"
 GH_COMMIT="580558886983d73916c355e21400310a59729be5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Compute the current TNG stardate."
 HOMEPAGE="https://github.com/dyoo/stardate"

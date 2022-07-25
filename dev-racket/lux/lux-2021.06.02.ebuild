@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/lux"
 GH_COMMIT="23caa1996bde1a88e53ae0e1cf8d650e18dcbc24"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="brilliant interactive programs"
 HOMEPAGE="https://github.com/jeapostrophe/lux"

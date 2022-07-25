@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/racket-disposable"
 GH_COMMIT="843d3e224fd874b9c463b74cb5ef13d8a0b5766a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The disposable Racket package"
 HOMEPAGE="https://github.com/jackfirth/racket-disposable"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="stchang/macrotypes"
 GH_COMMIT="220552416edf5646d796668176a473e4271205b2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="#lang for implementing typed languages with Racket"
 HOMEPAGE="https://github.com/stchang/macrotypes"

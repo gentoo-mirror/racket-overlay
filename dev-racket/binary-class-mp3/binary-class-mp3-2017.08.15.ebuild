@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Kalimehtar/binary-class-mp3"
 GH_COMMIT="bc10152d1bc6cd1ed7be7bec0e8d3f1ae0bf7977"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="MP3 ID3v2.1 and ID3v2.2 tags parser"
 HOMEPAGE="https://github.com/Kalimehtar/binary-class-mp3"

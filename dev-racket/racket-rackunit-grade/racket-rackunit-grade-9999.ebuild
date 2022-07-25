@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="ifigueroap/racket-rackunit-grade"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The racket-rackunit-grade Racket package"
 HOMEPAGE="https://github.com/ifigueroap/racket-rackunit-grade"

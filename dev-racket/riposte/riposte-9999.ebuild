@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="vicampo/riposte"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Language for testing JSON-based HTTP APIs"
 HOMEPAGE="https://github.com/vicampo/riposte"

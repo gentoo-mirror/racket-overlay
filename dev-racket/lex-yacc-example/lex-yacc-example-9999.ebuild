@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="petterpripp/lex-yacc-example"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Examples for lexer and yacc"
 HOMEPAGE="https://github.com/petterpripp/lex-yacc-example"

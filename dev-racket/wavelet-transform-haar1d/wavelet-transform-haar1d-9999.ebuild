@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jbclements/wavelet-transform-haar-1d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library to perform forward and reverse 1-d Haar Wavelet transforms"
 HOMEPAGE="https://github.com/jbclements/wavelet-transform-haar-1d"

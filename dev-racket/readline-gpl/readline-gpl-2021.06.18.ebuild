@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/readline-gpl"
 GH_COMMIT="6c231bdba7086c397349a934db768441ca648fec"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Cause readline collection to use GNU's readline library."
 HOMEPAGE="https://github.com/racket/readline-gpl"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="thoughtstem/image-colors"
 GH_COMMIT="1cd39f2ccacb2d6f12b577184e5b04f775a7bc4d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="For doing basic pixel operations on 2htdp/image objects"
 HOMEPAGE="https://github.com/thoughtstem/image-colors"

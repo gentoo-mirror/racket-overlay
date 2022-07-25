@@ -5,17 +5,19 @@ EAPI=8
 
 GH_DOM="gitlab.com"
 GH_REPO="src_prepare/racket/collector2"
-GH_COMMIT="413a82875e24154aeb1842e9af11d6dd3bc87501"
+GH_COMMIT="d79545af5b4d091360fa6d88d0c5bad82ac4dd96"
 
-inherit racket gh
+inherit gh racket
 
-DESCRIPTION="Parse Racket packages catalog and generate ebuild scripts. Tests."
+DESCRIPTION="Parse Racket packages catalog and generate ebuild scripts. Metapackage."
 HOMEPAGE="https://gitlab.com/src_prepare/racket/collector2"
-S="${S}/src/collector2-test"
+S="${S}/src/collector2"
 
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
-RDEPEND="dev-racket/collector2-lib"
+RDEPEND="dev-racket/collector2-doc
+	dev-racket/collector2-lib
+	dev-racket/collector2-test"
 BDEPEND="${RDEPEND}"

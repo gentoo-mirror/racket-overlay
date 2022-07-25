@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="git.matthewbutterick.com"
 GH_REPO="mbutterick/pollen-tfl"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Sample Pollen project: source code for Typography for Lawyers website"
 HOMEPAGE="https://git.matthewbutterick.com/mbutterick/pollen-tfl"

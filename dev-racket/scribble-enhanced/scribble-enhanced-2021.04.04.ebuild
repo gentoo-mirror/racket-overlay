@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jsmaniac/scribble-enhanced"
 GH_COMMIT="d4fe76d1899b540e2806520a3acbf4afdf5abb88"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The scribble-enhanced Racket package"
 HOMEPAGE="https://github.com/jsmaniac/scribble-enhanced"

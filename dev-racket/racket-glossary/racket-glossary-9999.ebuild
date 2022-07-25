@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="git.sr.ht"
 GH_REPO="~sschwarzer/racket-glossary"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The racket-glossary Racket package"
 HOMEPAGE="https://git.sr.ht/~sschwarzer/racket-glossary"

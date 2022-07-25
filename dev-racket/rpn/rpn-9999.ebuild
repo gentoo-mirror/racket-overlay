@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jackfirth/rpn"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The rpn Racket package"
 HOMEPAGE="https://github.com/jackfirth/rpn"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="leafac/css-expr"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="S-expression-based CSS"
 HOMEPAGE="https://github.com/leafac/css-expr"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/lux-charterm"
 GH_COMMIT="8d3d7c39c4cf2160f3912fea34996fe0177c78d7"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a lux chaos for terminal programs"
 HOMEPAGE="https://github.com/jeapostrophe/lux-charterm"

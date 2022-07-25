@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-box-extra"
 GH_COMMIT="b3981952cbf1b3004101dd82693bf41dc3006034"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Extra utilities for working with boxes. (implementation)"
 HOMEPAGE="https://github.com/Bogdanp/racket-box-extra"

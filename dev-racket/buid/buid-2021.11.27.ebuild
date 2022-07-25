@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-buid"
 GH_COMMIT="91002917ebbe4e5d6ed06233a3fcadc5d396de15"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Universally unique, lexicographically-sortable flake ids for Racket."
 HOMEPAGE="https://github.com/Bogdanp/racket-buid"

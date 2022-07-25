@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="aldis-sarja/print-debug"
 GH_COMMIT="39fa9a7ad50099115841e1c05d7c65a4d4f8df4a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Debugging tool. Use for debug printing variables and expresions."
 HOMEPAGE="https://github.com/aldis-sarja/print-debug"

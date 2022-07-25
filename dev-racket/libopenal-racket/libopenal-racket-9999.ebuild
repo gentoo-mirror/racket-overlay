@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lehitoskin/libopenal-racket"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket wrapper for the OpenAL library"
 HOMEPAGE="https://github.com/lehitoskin/libopenal-racket"

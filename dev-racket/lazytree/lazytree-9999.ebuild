@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="countvajhula/lazytree"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Lightweight, general-purpose utilities for working with tree-structured data."
 HOMEPAGE="https://github.com/countvajhula/lazytree"

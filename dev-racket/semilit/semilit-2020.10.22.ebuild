@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samth/semilit"
 GH_COMMIT="54db05b04b17c3b74facea8e8a438c73d238936a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Semi-literate programming for any Racket language"
 HOMEPAGE="https://github.com/samth/semilit"

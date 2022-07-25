@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mfelleisen/sl2014"
 GH_COMMIT="4ffef910ae5109eef916f3d57aaab95f02981df9"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The sl2014 Racket package"
 HOMEPAGE="https://github.com/mfelleisen/sl2014"

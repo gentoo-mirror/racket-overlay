@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jbclements/postmark"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A front-end for the Postmark email delivery service API"
 HOMEPAGE="https://github.com/jbclements/postmark"

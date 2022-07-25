@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="zyrolasting/fuzzy-search"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The fuzzy-search Racket package"
 HOMEPAGE="https://github.com/zyrolasting/fuzzy-search"

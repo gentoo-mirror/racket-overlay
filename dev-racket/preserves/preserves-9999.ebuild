@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="preserves/preserves"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The preserves Racket package"
 HOMEPAGE="https://gitlab.com/preserves/preserves"

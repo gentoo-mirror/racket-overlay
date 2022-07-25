@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="LeifAndersen/racket-scratch"
 GH_COMMIT="92ec687d248f7ce587589305611367512d2a0506"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The scratch Racket package"
 HOMEPAGE="https://github.com/LeifAndersen/racket-scratch"

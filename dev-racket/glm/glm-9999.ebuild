@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dedbox/racket-glm"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="OpenGL Mathematics"
 HOMEPAGE="https://github.com/dedbox/racket-glm"

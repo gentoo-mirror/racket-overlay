@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dstorrs/semaphore-utils"
 GH_COMMIT="a0c803cb60c78a45cdd457f2f85301bb86671806"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A small library for working with semaphores."
 HOMEPAGE="https://github.com/dstorrs/semaphore-utils"

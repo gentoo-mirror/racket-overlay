@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="git.marvid.fr"
 GH_REPO="scolobb/typed-graph"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Typed interface for the generic graph library."
 HOMEPAGE="https://git.marvid.fr/scolobb/typed-graph"

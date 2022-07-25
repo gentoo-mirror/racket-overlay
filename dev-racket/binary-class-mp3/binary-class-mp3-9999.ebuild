@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Kalimehtar/binary-class-mp3"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="MP3 ID3v2.1 and ID3v2.2 tags parser"
 HOMEPAGE="https://github.com/Kalimehtar/binary-class-mp3"

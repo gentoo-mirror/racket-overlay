@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lwhjp/racket-asm"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The asm Racket package"
 HOMEPAGE="https://github.com/lwhjp/racket-asm"

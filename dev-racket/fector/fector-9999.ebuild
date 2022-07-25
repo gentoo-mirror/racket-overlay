@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dvanhorn/fector"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Persistent Functional Vectors"
 HOMEPAGE="https://github.com/dvanhorn/fector"

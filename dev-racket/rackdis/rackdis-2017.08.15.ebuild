@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="eu90h/rackdis"
 GH_COMMIT="975aeb46b6432d2359fb1c625f69ae5b97f450d1"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Redis bindings"
 HOMEPAGE="https://github.com/eu90h/rackdis"

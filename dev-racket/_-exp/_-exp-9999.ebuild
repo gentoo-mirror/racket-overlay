@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="LiberalArtist/_-exp"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The _-exp Racket package"
 HOMEPAGE="https://github.com/LiberalArtist/_-exp"

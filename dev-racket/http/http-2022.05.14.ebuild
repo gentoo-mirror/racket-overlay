@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="greghendershott/http"
 GH_COMMIT="4d03fb68eaf04dfae3fdcefb4d970f6d085e83e9"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Support for HTTP 1.1 including automatic connection pooling."
 HOMEPAGE="https://github.com/greghendershott/http"

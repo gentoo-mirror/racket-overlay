@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mcdejonge/rs-l"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Library with loop and event tools for rs (the Racket Sequencer)"
 HOMEPAGE="https://github.com/mcdejonge/rs-l"

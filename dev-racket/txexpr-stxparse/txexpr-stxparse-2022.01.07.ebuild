@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/txexpr-stxparse"
 GH_COMMIT="d570bca4a1156497a20189a682fa555bf0bbcfd6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="syntax-parse patterns for parsing Tagged X-expressions"
 HOMEPAGE="https://github.com/AlexKnauth/txexpr-stxparse"

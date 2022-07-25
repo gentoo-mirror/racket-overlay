@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mromyers/infix-syntax"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Expansion-time parsing of infix expressions."
 HOMEPAGE="https://github.com/mromyers/infix-syntax"

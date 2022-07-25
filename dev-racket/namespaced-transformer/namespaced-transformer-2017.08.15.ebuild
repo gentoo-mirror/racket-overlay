@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lexi-lambda/namespaced-transformer"
 GH_COMMIT="4cdc1bdae09a07b78f23665267f2c7df4be5a7f6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The namespaced-transformer Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/namespaced-transformer"

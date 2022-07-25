@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="thoughtstem/clicker-assets"
 GH_COMMIT="a377ae67172c3174a094c4794ea98c9f50b1dedd"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Assets for clicker games"
 HOMEPAGE="https://github.com/thoughtstem/clicker-assets"

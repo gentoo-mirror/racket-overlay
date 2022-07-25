@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/memcached"
 GH_COMMIT="465d1bfc700140232c4abd0b854d807740895237"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A native Racket interface to memcached"
 HOMEPAGE="https://github.com/jeapostrophe/memcached"

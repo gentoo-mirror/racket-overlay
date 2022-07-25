@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/drracket"
 GH_COMMIT="75bbd5beb6bdd4cebabddeb879f2d3fc3b88f0b3"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The drracket-tool-text-lib Racket package"
 HOMEPAGE="https://github.com/racket/drracket"

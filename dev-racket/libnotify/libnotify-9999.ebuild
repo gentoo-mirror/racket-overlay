@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="takikawa/racket-libnotify"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="FFI bindings for libnotify (desktop notifications)"
 HOMEPAGE="https://github.com/takikawa/racket-libnotify"

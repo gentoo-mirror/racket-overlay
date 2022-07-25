@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket/future-visualizer"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The drawing and data representation portions of the future visualizer"
 HOMEPAGE="https://github.com/racket/future-visualizer"

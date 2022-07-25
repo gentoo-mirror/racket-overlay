@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Junker/response-ext"
 GH_COMMIT="07876ddf1e41c3652b6076d6053755cb29bf8832"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Extended HTTP response functions for Racket Web Server"
 HOMEPAGE="https://github.com/Junker/response-ext"

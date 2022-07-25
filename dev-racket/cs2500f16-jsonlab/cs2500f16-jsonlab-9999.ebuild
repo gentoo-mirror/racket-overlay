@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="rmacnz/cs2500jsonlab"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Teachpack for CS2500 JSON lab"
 HOMEPAGE="https://github.com/rmacnz/cs2500jsonlab"

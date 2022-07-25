@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="johnnyodonnell/racket-lambda-runtime"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The racket-lambda-runtime Racket package"
 HOMEPAGE="https://github.com/johnnyodonnell/racket-lambda-runtime"

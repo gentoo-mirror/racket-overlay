@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/struct-define"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="quickly pull out struct fields"
 HOMEPAGE="https://github.com/jeapostrophe/struct-define"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="florence/cover-codecov"
 GH_COMMIT="b1a9de60da3c33894ddd6fcc3e26e8e6b614f708"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The cover-codecov Racket package"
 HOMEPAGE="https://github.com/florence/cover-codecov"

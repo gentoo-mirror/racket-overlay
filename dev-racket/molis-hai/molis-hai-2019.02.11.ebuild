@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jbclements/molis-hai"
 GH_COMMIT="6a335ec73c144f9d8ac538752ca8e6fd0b3b3cce"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The molis-hai Racket package"
 HOMEPAGE="https://github.com/jbclements/molis-hai"

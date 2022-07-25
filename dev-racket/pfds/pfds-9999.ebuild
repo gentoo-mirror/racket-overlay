@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="takikawa/tr-pfds"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Purely functional data structures for Typed Racket"
 HOMEPAGE="https://github.com/takikawa/tr-pfds"

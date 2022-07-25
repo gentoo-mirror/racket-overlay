@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="simmone/racket-simple-svg"
 GH_COMMIT="d2fa88b5c0b801bbd6169274237a0edb63998c76"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="svg generate tool for racket"
 HOMEPAGE="https://github.com/simmone/racket-simple-svg"

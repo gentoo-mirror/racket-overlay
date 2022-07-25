@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="sxn/racket-sendinblue"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A client for the Sendinblue transactional email API."
 HOMEPAGE="https://github.com/sxn/racket-sendinblue"

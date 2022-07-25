@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jbclements/irregex"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The irregex Racket package"
 HOMEPAGE="https://github.com/jbclements/irregex"

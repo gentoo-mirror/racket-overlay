@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="tonyg/rmacs"
 GH_COMMIT="8c99dd5dfa22f1f34707bbe957de268dc6a7a632"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An EMACS written in Racket. Runs in ANSI-compatible terminals."
 HOMEPAGE="https://github.com/tonyg/rmacs"

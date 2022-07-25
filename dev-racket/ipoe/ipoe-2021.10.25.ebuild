@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="bennn/ipoe"
 GH_COMMIT="6663c215361064bf3a56fb933ccf5f6276b7de50"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="interactive poetry editor"
 HOMEPAGE="https://github.com/bennn/ipoe"

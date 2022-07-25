@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="sorawee/license-audit"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Audit package licenses (including their dependencies)"
 HOMEPAGE="https://github.com/sorawee/license-audit"

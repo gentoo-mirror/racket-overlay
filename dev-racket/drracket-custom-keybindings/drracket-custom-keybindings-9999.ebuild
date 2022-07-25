@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="aowens-21/drracket-custom-keybindings"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The drracket-custom-keybindings Racket package"
 HOMEPAGE="https://github.com/aowens-21/drracket-custom-keybindings"

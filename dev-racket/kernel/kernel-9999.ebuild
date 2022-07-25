@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mordae/racket-kernel"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Interface to Linux kernel runtime configuration."
 HOMEPAGE="https://github.com/mordae/racket-kernel"

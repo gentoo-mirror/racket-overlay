@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="pmatos/markdown-ng"
 GH_COMMIT="2df7fd1dca47faa99799f427275f3f4ee1f50a32"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="New Generation of a Racket Markdown library"
 HOMEPAGE="https://github.com/pmatos/markdown-ng"

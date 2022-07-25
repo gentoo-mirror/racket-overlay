@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket/unstable-flonum"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Experimental libraries for flonum computations"
 HOMEPAGE="https://github.com/racket/unstable-flonum"

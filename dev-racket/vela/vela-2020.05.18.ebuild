@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="nuty/vela"
 GH_COMMIT="5998a2cf7101a9b98d91fce11c4c1d86f0f5a274"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Simple web framework to build RESTful app in Racket."
 HOMEPAGE="https://github.com/nuty/vela"

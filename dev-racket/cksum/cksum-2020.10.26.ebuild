@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeroanan/cksum"
 GH_COMMIT="ea390924866cb53df44f4d812c1f187e2e88b8a7"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The cksum Racket package"
 HOMEPAGE="https://github.com/jeroanan/cksum"

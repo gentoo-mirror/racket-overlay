@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Metaxal/satore"
 GH_COMMIT="e56983d7a91a031e909d643489334ec394f06e4e"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The satore Racket package"
 HOMEPAGE="https://github.com/Metaxal/satore"

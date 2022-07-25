@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="calvis/cKanren"
 GH_COMMIT="8714bdd442ca03dbf5b1d6250904cbc5fd275e68"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Constraint programming language"
 HOMEPAGE="https://github.com/calvis/cKanren"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mordae/racket-systemd"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="SystemD Support"
 HOMEPAGE="https://github.com/mordae/racket-systemd"

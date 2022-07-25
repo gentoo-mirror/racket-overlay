@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jessealama/dallas"
 GH_COMMIT="8cc132551326f28efc4536081b947a466429937b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Documentation for Dallas"
 HOMEPAGE="https://github.com/jessealama/dallas"

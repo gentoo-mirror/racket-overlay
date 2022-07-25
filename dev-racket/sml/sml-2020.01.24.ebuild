@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="LeifAndersen/racket-sml"
 GH_COMMIT="f7a03fdf124dff96a1fe2d7eadfd260a5824b1c5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="S-Markup Language"
 HOMEPAGE="https://github.com/LeifAndersen/racket-sml"

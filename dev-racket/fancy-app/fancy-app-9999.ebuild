@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="samth/fancy-app"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Scala-style anonymous functions"
 HOMEPAGE="https://github.com/samth/fancy-app"

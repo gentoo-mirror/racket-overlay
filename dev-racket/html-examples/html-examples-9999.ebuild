@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="pmatos/html-examples"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Generate an HTML part out of Scribble Examples"
 HOMEPAGE="https://github.com/pmatos/html-examples"

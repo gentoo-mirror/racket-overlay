@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/turn-based-game"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="interfaces and tools for defining and playing turn-based games"
 HOMEPAGE="https://github.com/AlexKnauth/turn-based-game"

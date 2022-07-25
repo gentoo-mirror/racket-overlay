@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="RayRacine/string-util"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Additional string utilities in Typed Racket."
 HOMEPAGE="https://gitlab.com/RayRacine/string-util"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="yjqww6/drcomplete"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="basic framework for drcomplete"
 HOMEPAGE="https://github.com/yjqww6/drcomplete"

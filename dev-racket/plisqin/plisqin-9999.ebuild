@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="default-kramer/plisqin"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An SQL generator"
 HOMEPAGE="https://github.com/default-kramer/plisqin"

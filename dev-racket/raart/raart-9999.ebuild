@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jeapostrophe/raart"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="racket ansi art"
 HOMEPAGE="https://github.com/jeapostrophe/raart"

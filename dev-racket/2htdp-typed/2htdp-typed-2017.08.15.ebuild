@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lexi-lambda/racket-2htdp-typed"
 GH_COMMIT="b46c957f0ad7490bc7b0f01da0e80380f34cac2d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A partial version of 2htdp for Typed Racket"
 HOMEPAGE="https://github.com/lexi-lambda/racket-2htdp-typed"

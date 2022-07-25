@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="bennn/agile"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="#lang agile ;; == (require (for-syntax racket/base syntax/parse))"
 HOMEPAGE="https://github.com/bennn/agile"

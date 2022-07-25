@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="tonyg/racket-stomp"
 GH_COMMIT="8ec9471362f42253df787c83dc3f241086be6b9f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="STOMP messaging protocol codec and client"
 HOMEPAGE="https://github.com/tonyg/racket-stomp"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="plum-umd/adapton.racket"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Adapton: Composable, Demand-Driven Incremental Computation"
 HOMEPAGE="https://github.com/plum-umd/adapton.racket"

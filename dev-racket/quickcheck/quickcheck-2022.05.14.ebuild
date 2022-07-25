@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="ifigueroap/racket-quickcheck"
 GH_COMMIT="c104e97b0d371cde46d8d8deb6289538ac6346d6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Quickcheck Clone"
 HOMEPAGE="https://github.com/ifigueroap/racket-quickcheck"

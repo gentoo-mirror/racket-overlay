@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="get-bonus/get-bonus"
 GH_COMMIT="d9bb88d2940263641c35ad98912c5a2b3136cc96"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Get Bonus is a project about discovering the best way to program video games."
 HOMEPAGE="https://github.com/get-bonus/get-bonus"

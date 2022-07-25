@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="bitbucket.org"
 GH_REPO="Tetsumi/crc32c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Implementation of CRC32-C"
 HOMEPAGE="https://bitbucket.org/Tetsumi/crc32c"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lexi-lambda/syntax-classes"
 GH_COMMIT="4d64d35259d69ee8d5c90f475fe777c66d54c8fd"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The syntax-classes-test Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/syntax-classes"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jagen31/drracket-red"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="VsCode Red Theme for DrRacket"
 HOMEPAGE="https://github.com/jagen31/drracket-red"

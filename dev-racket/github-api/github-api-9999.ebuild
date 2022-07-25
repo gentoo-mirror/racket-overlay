@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="eu90h/racket-github-api"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Bindings for the GitHub API"
 HOMEPAGE="https://github.com/eu90h/racket-github-api"

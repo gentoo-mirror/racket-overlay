@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="david-christiansen/iu-pict"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The iu-pict Racket package"
 HOMEPAGE="https://github.com/david-christiansen/iu-pict"

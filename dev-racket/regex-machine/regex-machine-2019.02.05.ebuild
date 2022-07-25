@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/regex-machine"
 GH_COMMIT="25754a4dc2aae351e2fe5db1b98101abb9ce088e"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An implementation of Russ Cox's regular expression machine language"
 HOMEPAGE="https://github.com/jackfirth/regex-machine"

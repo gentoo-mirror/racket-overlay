@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="zyrolasting/natural-cli"
 GH_COMMIT="c7abc38d025159128d446ca1a6314ab909ffe920"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Easily write large command-line interfaces (CLIs)"
 HOMEPAGE="https://github.com/zyrolasting/natural-cli"

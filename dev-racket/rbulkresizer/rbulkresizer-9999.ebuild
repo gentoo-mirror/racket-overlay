@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="xgqt/rbulkresizer"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Graphical bulk picture resize tool"
 HOMEPAGE="https://gitlab.com/xgqt/rbulkresizer"

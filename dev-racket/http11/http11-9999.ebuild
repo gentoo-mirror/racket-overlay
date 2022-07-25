@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="RayRacine/http11"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="HTTP v1.1  low level protocol library in Typed Racket."
 HOMEPAGE="https://gitlab.com/RayRacine/http11"

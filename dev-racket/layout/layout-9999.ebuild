@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="SimonLSchlee/layout"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The layout Racket package"
 HOMEPAGE="https://github.com/SimonLSchlee/layout"

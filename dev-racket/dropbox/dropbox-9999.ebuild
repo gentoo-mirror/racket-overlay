@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="stchang/dropbox"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="SDK for Dropbox"
 HOMEPAGE="https://github.com/stchang/dropbox"

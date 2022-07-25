@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/rpn"
 GH_COMMIT="74ef351cae43bb64ba35a937f7a2ea664a82abdd"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The rpn Racket package"
 HOMEPAGE="https://github.com/jackfirth/rpn"

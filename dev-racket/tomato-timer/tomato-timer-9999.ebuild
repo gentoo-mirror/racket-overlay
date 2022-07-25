@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="bennn/tomato-timer"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Command-line timer"
 HOMEPAGE="https://github.com/bennn/tomato-timer"

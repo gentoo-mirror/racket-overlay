@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tonyg/racket-stomp"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="STOMP messaging protocol codec and client"
 HOMEPAGE="https://github.com/tonyg/racket-stomp"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="simmone/racket-simple-barcode"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Barcode tool"
 HOMEPAGE="https://github.com/simmone/racket-simple-barcode"

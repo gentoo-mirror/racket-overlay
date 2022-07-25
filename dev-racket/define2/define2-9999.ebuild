@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Metaxal/define2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The define2 Racket package"
 HOMEPAGE="https://github.com/Metaxal/define2"

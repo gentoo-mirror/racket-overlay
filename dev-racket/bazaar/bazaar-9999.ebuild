@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Metaxal/bazaar"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A personal collection of useful definitions. Quite unstable."
 HOMEPAGE="https://github.com/Metaxal/bazaar"

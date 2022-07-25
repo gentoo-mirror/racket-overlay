@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="sorpaas/taskibble"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Fork of Scribble for task management"
 HOMEPAGE="https://github.com/sorpaas/taskibble"

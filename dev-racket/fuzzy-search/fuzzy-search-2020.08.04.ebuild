@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="zyrolasting/fuzzy-search"
 GH_COMMIT="8a55ab77a1c2e2d835c782dff25fbb7d8732fa34"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The fuzzy-search Racket package"
 HOMEPAGE="https://github.com/zyrolasting/fuzzy-search"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Junker/racket-route-match"
 GH_COMMIT="c9800e602f0e58bf6e0273d7dbdb86d28f9047cb"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The racket-route-match Racket package"
 HOMEPAGE="https://github.com/Junker/racket-route-match"

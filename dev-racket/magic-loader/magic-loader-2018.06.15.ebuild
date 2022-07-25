@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="thoughtstem/magic-loader"
 GH_COMMIT="ed983737b383bc527e54f6db7044df503baf2a14"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The magic-loader Racket package"
 HOMEPAGE="https://github.com/thoughtstem/magic-loader"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dedbox/racket-algebraic"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Algebraic Racket"
 HOMEPAGE="https://github.com/dedbox/racket-algebraic"

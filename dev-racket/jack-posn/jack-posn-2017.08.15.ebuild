@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/racket-posn"
 GH_COMMIT="402ca7d3d5db28b04d82ff825a684c4995dcf355"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Library for working with points in 2d space"
 HOMEPAGE="https://github.com/jackfirth/racket-posn"

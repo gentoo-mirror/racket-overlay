@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="zyrolasting/natural-cli"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Easily write large command-line interfaces (CLIs)"
 HOMEPAGE="https://github.com/zyrolasting/natural-cli"

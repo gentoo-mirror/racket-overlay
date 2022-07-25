@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jbclements/wavelet-transform-haar-1d"
 GH_COMMIT="a24d96252701f80dbd382fb4a0dccaf2d19160b1"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library to perform forward and reverse 1-d Haar Wavelet transforms"
 HOMEPAGE="https://github.com/jbclements/wavelet-transform-haar-1d"

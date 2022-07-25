@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="quakehead/rsc3"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The rsc3 SuperCollider client ported to Racket"
 HOMEPAGE="https://github.com/quakehead/rsc3"

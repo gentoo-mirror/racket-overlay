@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="oflatt/biginterval"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The biginterval Racket package"
 HOMEPAGE="https://github.com/oflatt/biginterval"

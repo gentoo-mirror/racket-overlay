@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="massung/spacemacs-racket"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Spacemacs lite and dark color themes for DrRacket."
 HOMEPAGE="https://github.com/massung/spacemacs-racket"

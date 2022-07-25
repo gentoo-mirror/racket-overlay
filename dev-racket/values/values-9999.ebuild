@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dedbox/racket-values"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="functional multi-valued computation"
 HOMEPAGE="https://github.com/dedbox/racket-values"

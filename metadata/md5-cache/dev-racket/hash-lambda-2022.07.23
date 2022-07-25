@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/kw-utils dev-racket/mutable-match-lambda dev-racket/unstable-lib dev-racket/unstable-list-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=using hash-tables for rest-arguments that include keyword-arguments
+EAPI=8
+HOMEPAGE=https://github.com/AlexKnauth/hash-lambda
+INHERIT=racket gh
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/kw-utils dev-racket/mutable-match-lambda dev-racket/unstable-lib dev-racket/unstable-list-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/AlexKnauth/hash-lambda/archive/0f7a89d7056c8d9f86497e0eff159d142f74aed7.tar.gz -> hash-lambda-2022.07.23.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
+_md5_=0ad0ecda962155f6f9b89c07f333cc20

@@ -1,16 +1,15 @@
 BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/sketching-doc dev-racket/sketching-lib
-DESCRIPTION=Sketching - Language, documentation and examples
+DESCRIPTION=The plt-services Racket package
 EAPI=8
-HOMEPAGE=https://github.com/soegaard/sketching
+HOMEPAGE=https://github.com/racket/racket
 INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/sketching-doc dev-racket/sketching-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/soegaard/sketching/archive/44b0d9b236892140134c8482d0f5415f33c97b48.tar.gz -> sketching-2022.03.03.tar.gz
+SRC_URI=https://github.com/racket/racket/archive/cf82706c4b298f654a04c4bc8d98dff39b62a2ac.tar.gz -> plt-services-2022.07.24.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=c505224ebdbdad18cd1c2e14e47be3a9
+_md5_=788692db104e4a9095b39c2593b33b98

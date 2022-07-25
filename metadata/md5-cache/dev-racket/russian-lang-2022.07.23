@@ -1,8 +1,8 @@
 BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DESCRIPTION=shortcuts for simplicity & readability
+DESCRIPTION=Programming language based on russian language
 EAPI=8
-HOMEPAGE=https://git.matthewbutterick.com/mbutterick/sugar
+HOMEPAGE=https://github.com/Kalimehtar/russian-lang
 INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
@@ -10,6 +10,6 @@ LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://git.matthewbutterick.com/mbutterick/sugar/archive/c90834b77afad07f9b02986fc8e157ccf30b753c.tar.gz -> sugar-2021.05.18.tar.gz
+SRC_URI=https://github.com/Kalimehtar/russian-lang/archive/7dbd9d47c29e50fa2e9b03c7a432a0e3db0c0d4d.tar.gz -> russian-lang-2022.07.23.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=ea246c60e9ba3fae11e2ed216a39fea8
+_md5_=198a9ed905cf20c6f76607e588b18c06

@@ -1,8 +1,8 @@
 BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DESCRIPTION=Programming language based on russian language
+DESCRIPTION=TinyBASIC implementation.
 EAPI=8
-HOMEPAGE=https://github.com/Kalimehtar/russian-lang
+HOMEPAGE=https://github.com/winny-/tinybasic.rkt
 INHERIT=racket gh
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
@@ -10,6 +10,6 @@ LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/Kalimehtar/russian-lang/archive/e606b578d38b3362918878a9623f6294f109e310.tar.gz -> russian-lang-2022.07.01.tar.gz
+SRC_URI=https://github.com/winny-/tinybasic.rkt/archive/fec466d38892a30cbd9355e46d444073c806e511.tar.gz -> tinybasic-2022.07.24.tar.gz
 _eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	ba932704130d7e5c7813b795aa2ff988
-_md5_=021a6126b315755ac437840603263676
+_md5_=c5e3ace5b506d311f3b4dd4b1ce1b795

@@ -3,7 +3,6 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/mbutterick/css-tools</bugs-to>
-    <remote-id type="github">mbutterick/css-tools</remote-id>
+    <bugs-to>https://git.matthewbutterick.com/mbutterick/css-tools</bugs-to>
   </upstream>
 </pkgmetadata>

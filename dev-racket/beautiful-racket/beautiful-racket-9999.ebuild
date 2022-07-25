@@ -3,13 +3,13 @@
 
 EAPI=8
 
-GH_DOM="github.com"
+GH_DOM="git.matthewbutterick.com"
 GH_REPO="mbutterick/beautiful-racket"
 
 inherit racket gh
 
 DESCRIPTION="The beautiful-racket Racket package"
-HOMEPAGE="https://github.com/mbutterick/beautiful-racket"
+HOMEPAGE="https://git.matthewbutterick.com/mbutterick/beautiful-racket"
 S="${S}/beautiful-racket"
 
 LICENSE="all-rights-reserved"

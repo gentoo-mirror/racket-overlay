@@ -3,13 +3,13 @@
 
 EAPI=8
 
-GH_DOM="github.com"
+GH_DOM="git.matthewbutterick.com"
 GH_REPO="mbutterick/typesetting"
 
 inherit racket gh
 
 DESCRIPTION="The hyphenate Racket package"
-HOMEPAGE="https://github.com/mbutterick/typesetting"
+HOMEPAGE="https://git.matthewbutterick.com/mbutterick/typesetting"
 S="${S}/hyphenate"
 
 LICENSE="all-rights-reserved"

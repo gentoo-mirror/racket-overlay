@@ -3,13 +3,13 @@
 
 EAPI=8
 
-GH_DOM="github.com"
+GH_DOM="git.matthewbutterick.com"
 GH_REPO="mbutterick/typesetting"
 
 inherit racket gh
 
 DESCRIPTION="binary encoder [in development]"
-HOMEPAGE="https://github.com/mbutterick/typesetting"
+HOMEPAGE="https://git.matthewbutterick.com/mbutterick/typesetting"
 S="${S}/xenomorph"
 
 LICENSE="all-rights-reserved"

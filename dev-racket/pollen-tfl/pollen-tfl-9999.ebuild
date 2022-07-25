@@ -3,13 +3,13 @@
 
 EAPI=8
 
-GH_DOM="github.com"
+GH_DOM="git.matthewbutterick.com"
 GH_REPO="mbutterick/pollen-tfl"
 
 inherit racket gh
 
 DESCRIPTION="Sample Pollen project: source code for Typography for Lawyers website"
-HOMEPAGE="https://github.com/mbutterick/pollen-tfl"
+HOMEPAGE="https://git.matthewbutterick.com/mbutterick/pollen-tfl"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

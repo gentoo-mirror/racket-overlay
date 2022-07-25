@@ -3,14 +3,14 @@
 
 EAPI=8
 
-GH_DOM="github.com"
+GH_DOM="git.matthewbutterick.com"
 GH_REPO="mbutterick/brag"
 GH_COMMIT="f52c2a80c9cb6840b96532c2ca1371d12aea61e7"
 
 inherit racket gh
 
 DESCRIPTION="The brag Racket package"
-HOMEPAGE="https://github.com/mbutterick/brag"
+HOMEPAGE="https://git.matthewbutterick.com/mbutterick/brag"
 S="${S}/brag"
 
 LICENSE="all-rights-reserved"

@@ -3,13 +3,13 @@
 
 EAPI=8
 
-GH_DOM="github.com"
+GH_DOM="git.matthewbutterick.com"
 GH_REPO="mbutterick/br-parser-tools"
 
 inherit racket gh
 
 DESCRIPTION="The br-parser-tools Racket package"
-HOMEPAGE="https://github.com/mbutterick/br-parser-tools"
+HOMEPAGE="https://git.matthewbutterick.com/mbutterick/br-parser-tools"
 S="${S}/br-parser-tools"
 
 LICENSE="all-rights-reserved"

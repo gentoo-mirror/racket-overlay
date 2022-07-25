@@ -3,13 +3,13 @@
 
 EAPI=8
 
-GH_DOM="github.com"
+GH_DOM="git.matthewbutterick.com"
 GH_REPO="mbutterick/txexpr"
 
 inherit racket gh
 
 DESCRIPTION="Handy tools for working with HTML-style tagged X-expressions"
-HOMEPAGE="https://github.com/mbutterick/txexpr"
+HOMEPAGE="https://git.matthewbutterick.com/mbutterick/txexpr"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

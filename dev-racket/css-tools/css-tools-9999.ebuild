@@ -3,13 +3,13 @@
 
 EAPI=8
 
-GH_DOM="github.com"
+GH_DOM="git.matthewbutterick.com"
 GH_REPO="mbutterick/css-tools"
 
 inherit racket gh
 
 DESCRIPTION="Tools for generating & manipulating CSS (unstable)"
-HOMEPAGE="https://github.com/mbutterick/css-tools"
+HOMEPAGE="https://git.matthewbutterick.com/mbutterick/css-tools"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

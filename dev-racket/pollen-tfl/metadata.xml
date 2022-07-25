@@ -3,7 +3,6 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/mbutterick/pollen-tfl</bugs-to>
-    <remote-id type="github">mbutterick/pollen-tfl</remote-id>
+    <bugs-to>https://git.matthewbutterick.com/mbutterick/pollen-tfl</bugs-to>
   </upstream>
 </pkgmetadata>

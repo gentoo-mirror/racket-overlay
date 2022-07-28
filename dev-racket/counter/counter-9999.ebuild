@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="Small counter library to use for console output, logging, etc."
 HOMEPAGE="https://gitlab.com/xgqt/scheme-counter"
 
-LICENSE="all-rights-reserved"
+LICENSE="CC0-1.0"
 SLOT="0"
-RESTRICT="mirror"

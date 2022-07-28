@@ -8,10 +8,15 @@ GH_REPO="winny-/tinybasic.rkt"
 
 inherit gh racket
 
-DESCRIPTION="TinyBASIC implementation."
+DESCRIPTION="TinyBASIC (Install this package for all goodies)"
 HOMEPAGE="https://github.com/winny-/tinybasic.rkt"
 S="${S}/tinybasic"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/tinybasic-doc
+	dev-racket/tinybasic-examples
+	dev-racket/tinybasic-lib"
+BDEPEND="${RDEPEND}"

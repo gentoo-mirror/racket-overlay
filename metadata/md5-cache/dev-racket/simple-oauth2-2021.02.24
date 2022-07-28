@@ -11,5 +11,5 @@ RDEPEND=dev-racket/cover-coveralls dev-racket/crypto-lib dev-racket/dali dev-rac
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/johnstonskj/simple-oauth2/archive/b8cb40511f64dcb274e17957e6fc9ab4c8a6cbea.tar.gz -> simple-oauth2-2021.02.24.tar.gz
-_eclasses_=gh	ba932704130d7e5c7813b795aa2ff988	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	2bd260d3484821dd31fe4abc6ea89dca
 _md5_=3047842c06d965d3a59cc61f78c20865

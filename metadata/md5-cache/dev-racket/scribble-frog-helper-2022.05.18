@@ -11,5 +11,5 @@ RDEPEND=dev-racket/frog dev-racket/gregor dev-racket/timable >=dev-scheme/racket
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/yanyingwang/scribble-frog-helper/archive/bc9f6579c6cdbd02e9bf6561bf7839df8124097b.tar.gz -> scribble-frog-helper-2022.05.18.tar.gz
-_eclasses_=gh	ba932704130d7e5c7813b795aa2ff988	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	2bd260d3484821dd31fe4abc6ea89dca
 _md5_=b7cecc94b4918d04414633f97d4514c2

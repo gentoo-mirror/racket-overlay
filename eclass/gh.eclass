@@ -24,7 +24,7 @@
 #
 # GH_REPO="kazzmir/${PN}-racket"
 #
-# if [[ "${PV}" != 99999999 ]] ; then
+# if [[ ${PV} != *9999* ]] ; then
 #     GH_COMMIT="178f2da654fc4fbefcc909d93d6153d6725c96fd"
 #     KEYWORDS="~amd64"
 # fi
@@ -57,8 +57,8 @@ esac
 # @PRE_INHERIT
 # @DESCRIPTION:
 # This variable contains the Git platform type.
-# Supported platform types are bitbucket, gitea, github, gitlab, sourcehut.
-# The value of GH_TYPE is derived from GH_DOM if unset.
+# Supported platform types are: bitbucket, gitea, github, gitlab and sourcehut.
+# The value of GH_TYPE is derived from GH_DOM if it is unset.
 
 # TODO: add cgit?
 if [[ -z "${GH_TYPE}" ]] ; then
@@ -118,9 +118,7 @@ case ${PV} in
 		;;
 	* )
 		# Check if GH_COMMIT is set
-		if [[ -z "${GH_COMMIT}" ]] ; then
-			die "GH_COMMIT variable is empty"
-		fi
+		[[ -z "${GH_COMMIT}" ]] && die "GH_COMMIT variable is empty"
 
 		case "${GH_TYPE}" in
 			bitbucket )

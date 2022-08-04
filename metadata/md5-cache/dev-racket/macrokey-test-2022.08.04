@@ -1,0 +1,14 @@
+BDEPEND=dev-racket/macrokey-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=MacroKey. Tests.
+EAPI=8
+HOMEPAGE=https://gitlab.com/xgqt/racket-macrokey
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=GPL-3
+RDEPEND=dev-racket/macrokey-lib >=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://gitlab.com/xgqt/racket-macrokey/-/archive/4afc521f3b194fc191dd7848f41b3b9eaee3a051.tar.gz -> macrokey-test-2022.08.04.tar.gz
+_eclasses_=gh	2bd260d3484821dd31fe4abc6ea89dca	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
+_md5_=54de53a6fd0e2b58fb3f943366215efd

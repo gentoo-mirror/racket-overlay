@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://gitlab.com/navlost.eu/xmpp/libraries/racket/xmpp</bugs-to>
+    <remote-id type="gitlab">navlost.eu/xmpp/libraries/racket/xmpp</remote-id>
+  </upstream>
+</pkgmetadata>

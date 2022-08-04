@@ -17,6 +17,7 @@ SLOT="0"
 
 RDEPEND="dev-racket/ebuild-lib
 	dev-racket/ebuild-templates
+	dev-racket/ebuild-tools
 	dev-racket/ebuild-transformers
 	dev-racket/threading-lib
 	dev-racket/upi-lib

@@ -16,7 +16,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/otp-doc
+RDEPEND="dev-racket/crypto-lib
+	dev-racket/otp-doc
 	dev-racket/otp-lib
 	dev-racket/typed-otp-lib"
 BDEPEND="${RDEPEND}"

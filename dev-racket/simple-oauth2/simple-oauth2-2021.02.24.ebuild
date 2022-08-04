@@ -20,6 +20,7 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/cover-coveralls
 	dev-racket/crypto-lib
 	dev-racket/dali
+	dev-racket/net-jwt
 	dev-racket/rackunit-spec
 	dev-racket/threading"
 BDEPEND="${RDEPEND}"

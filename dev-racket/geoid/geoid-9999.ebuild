@@ -11,9 +11,8 @@ inherit gh racket
 DESCRIPTION="work efficiently with geographic data"
 HOMEPAGE="https://github.com/alex-hhh/geoid"
 
-LICENSE="all-rights-reserved"
+LICENSE="LGPL-3+"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/al2-test-runner"
 BDEPEND="${RDEPEND}"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="RenaissanceBug/racket-jwt"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="JSON Web Token / JSON Web Signature codec, verification, signing"
 HOMEPAGE="https://github.com/RenaissanceBug/racket-jwt"

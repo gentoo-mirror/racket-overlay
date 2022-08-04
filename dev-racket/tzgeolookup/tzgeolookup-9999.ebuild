@@ -11,6 +11,8 @@ inherit gh racket
 DESCRIPTION="The tzgeolookup Racket package"
 HOMEPAGE="https://github.com/alex-hhh/tzgeolookup"
 
-LICENSE="all-rights-reserved"
+LICENSE="LGPL-3+"
 SLOT="0"
-RESTRICT="mirror"
+
+RDEPEND="dev-racket/geoid"
+BDEPEND="${RDEPEND}"

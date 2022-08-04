@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="RenaissanceBug/racket-jwt"
 GH_COMMIT="0f747569e878ef14d1f5d2de527efd02af88fcf9"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="JSON Web Token / JSON Web Signature codec, verification, signing"
 HOMEPAGE="https://github.com/RenaissanceBug/racket-jwt"

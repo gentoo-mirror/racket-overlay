@@ -8,7 +8,7 @@ GH_REPO="xgqt/racket-ziptie"
 
 inherit gh racket
 
-DESCRIPTION="The ziptie-git Racket package"
+DESCRIPTION="ZipTie, git component."
 HOMEPAGE="https://gitlab.com/xgqt/racket-ziptie"
 S="${S}/src/ziptie-git"
 

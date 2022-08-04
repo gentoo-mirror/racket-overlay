@@ -6,9 +6,9 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dstorrs/racket-trie"
 
-inherit racket gh
+inherit gh racket
 
-DESCRIPTION="the trie Racket package"
+DESCRIPTION="The trie Racket package"
 HOMEPAGE="https://github.com/dstorrs/racket-trie"
 
 LICENSE="all-rights-reserved"
@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/handy
 	dev-racket/struct-plus-plus"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

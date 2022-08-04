@@ -18,5 +18,6 @@ KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/crypto
+	dev-racket/net-jwt
 	dev-racket/scribble-code-examples"
 BDEPEND="${RDEPEND}"

@@ -98,7 +98,7 @@ Check out a example
 @section{Updates}
 
 To update "dev-scheme/racket" and packages that depend on it update the world set:
-@codeblock{emerge -Dauv --with-bdeps=y @"@world"}
+@codeblock{emerge -Dauv --jobs=1 --with-bdeps=y @"@world"}
 
 You should get a message similar to this:
 @codeblock{

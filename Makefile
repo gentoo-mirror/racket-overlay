@@ -63,7 +63,7 @@ test:
 # Documentation
 
 scribblings/doc:
-	cd $(PWD)/scribblings && $(SH) $(PWD)/build.sh
+	cd $(DOC_SOURCE_DIR) && $(SH) $(DOC_SOURCE_DIR)/build.sh
 
 public: scribblings/doc
 	cp -r $(PWD)/scribblings/doc/racket-overlay $(PWD)/public

@@ -11,7 +11,7 @@ inherit gh racket
 
 DESCRIPTION="The syndicate Racket package"
 HOMEPAGE="https://git.syndicate-lang.org/syndicate-lang/syndicate-rkt"
-S="${S}/syndicate"
+S="${WORKDIR}/syndicate-rkt/syndicate"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

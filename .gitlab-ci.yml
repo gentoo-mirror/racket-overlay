@@ -39,6 +39,7 @@ pages:
       - master
     changes:
       - ".gitlab-ci.yml"
+      - "Makefile"
       - "scribblings/*.scrbl"
       - "scribblings/*/*.scrbl"
 
@@ -47,7 +48,7 @@ pages:
     paths:
       - public
 
-  image: racket/racket:8.2-full
+  image: racket/racket:8.5-full
 
   before_script:
     - apt-get update

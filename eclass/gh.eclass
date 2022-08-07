@@ -66,9 +66,11 @@ if [[ -z "${GH_TYPE}" ]] ; then
 		*bitbucket* )
 			GH_TYPE="bitbucket"
 			;;
-		codeberg.org | git.marvid.fr | git.matthewbutterick.com \
-			| git.syndicate-lang.org )
-			GH_TYPE="gitea"
+		git.syndicate-lang.org )
+			GH_TYPE="gitea_old"
+			;;
+		codeberg.org | git.marvid.fr | git.matthewbutterick.com )
+			GH_TYPE="gitea_new"
 			;;
 		github.com )
 			GH_TYPE="github"
@@ -125,9 +127,13 @@ case ${PV} in
 				SRC_URI="https://${GH_DOM}/${GH_REPO}/get/${GH_COMMIT}.tar.gz -> ${P}.tar.gz"
 				S="${WORKDIR}/${GH_REPO%%/*}-${GH_REPO##*/}-${GH_COMMIT:0:12}"
 				;;
-			gitea )
+			gitea_new )
 				SRC_URI="https://${GH_DOM}/${GH_REPO}/archive/${GH_COMMIT}.tar.gz -> ${P}.tar.gz"
 				S="${WORKDIR}/${PN}"
+				;;
+			gitea_old )
+				SRC_URI="https://${GH_DOM}/${GH_REPO}/archive/${GH_COMMIT}.tar.gz -> ${P}.tar.gz"
+				S="${WORKDIR}/${PN}-${GH_COMMIT}"
 				;;
 			github | sourcehut )
 				SRC_URI="https://${GH_DOM}/${GH_REPO}/archive/${GH_COMMIT}.tar.gz -> ${P}.tar.gz"

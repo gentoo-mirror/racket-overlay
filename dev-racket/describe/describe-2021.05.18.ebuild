@@ -3,6 +3,7 @@
 
 EAPI=8
 
+GH_TYPE="gitea_old"
 GH_DOM="git.matthewbutterick.com"
 GH_REPO="mbutterick/describe"
 GH_COMMIT="6489f1b499cbfcda74ced18555c5c2ca255921e5"

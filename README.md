@@ -63,7 +63,7 @@ Check out a example
 
 To update `dev-scheme/racket` and packages that depend on it update the `@world` set:
 ```sh
-emerge -Dauv --with-bdeps=y @world
+emerge -Dauv --jobs=1 --with-bdeps=y @world
 ```
 
 You should get a message similar to this:

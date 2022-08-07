@@ -12,5 +12,5 @@ RDEPEND=dev-racket/lathe-comforts-doc dev-racket/lathe-comforts-lib >=dev-scheme
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lathe/lathe-comforts-for-racket/archive/a6a84fcd747e1ae9584c62d91edc2277a87154d8.tar.gz -> lathe-comforts-2022.02.08.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	97cb31608223475a784d5febc56095db
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	15d8c7f2bc720519a0a899cb3f6d40ee
 _md5_=bc3fef8d00e9a7cbe18a179890fdd0de

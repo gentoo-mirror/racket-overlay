@@ -12,5 +12,5 @@ RDEPEND=dev-racket/find-parent-dir dev-racket/frog dev-racket/sxml >=dev-scheme/
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/ebzzry/livefrog/archive/cde478d1ab11c52f7f23763174ae9ae16402a918.tar.gz -> livefrog-2021.02.11.tar.gz
-_eclasses_=gh	97cb31608223475a784d5febc56095db	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
+_eclasses_=gh	15d8c7f2bc720519a0a899cb3f6d40ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
 _md5_=4676bfca7ed4e797428ab0d8beae05d8

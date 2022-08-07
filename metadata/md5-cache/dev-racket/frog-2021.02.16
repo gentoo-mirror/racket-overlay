@@ -12,5 +12,5 @@ RDEPEND=dev-racket/find-parent-dir dev-racket/markdown dev-racket/reprovide-lang
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/greghendershott/frog/archive/93d8b442c2e619334612b7e2d091e4eb33995021.tar.gz -> frog-2021.02.16.tar.gz
-_eclasses_=gh	97cb31608223475a784d5febc56095db	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	15d8c7f2bc720519a0a899cb3f6d40ee
 _md5_=83a22daf11576a88db850b480543684f

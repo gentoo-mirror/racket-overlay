@@ -11,5 +11,5 @@ RDEPEND=dev-racket/agile dev-racket/collections-lib dev-racket/graph dev-racket/
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/music/archive/79d75314b8e512345bd92c1676665200b4d99172.tar.gz -> alexknauth-music-2022.06.01.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	2bd260d3484821dd31fe4abc6ea89dca
+_eclasses_=gh	97cb31608223475a784d5febc56095db	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
 _md5_=c073924212451b122f9ba5e933f2c34b

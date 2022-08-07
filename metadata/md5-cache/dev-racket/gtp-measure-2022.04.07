@@ -11,5 +11,5 @@ RDEPEND=dev-racket/basedir dev-racket/gtp-util dev-racket/lang-file dev-racket/r
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/bennn/gtp-measure/archive/84fbdac7ea336b903df1e961acfda67ca364a069.tar.gz -> gtp-measure-2022.04.07.tar.gz
-_eclasses_=gh	2bd260d3484821dd31fe4abc6ea89dca	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	97cb31608223475a784d5febc56095db
 _md5_=982e4e013e929169795ae682a4c316d7

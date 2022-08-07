@@ -11,5 +11,5 @@ RDEPEND=dev-racket/tinybasic-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/winny-/tinybasic.rkt/archive/b46a0877df689570e7e950ea1a89533411a2a617.tar.gz -> tinybasic-doc-2022.07.27.tar.gz
-_eclasses_=gh	2bd260d3484821dd31fe4abc6ea89dca	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	97cb31608223475a784d5febc56095db
 _md5_=b75bc9bcc24cd7326278a17371ac67a2

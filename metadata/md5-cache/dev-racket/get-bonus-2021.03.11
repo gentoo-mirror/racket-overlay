@@ -11,5 +11,5 @@ RDEPEND=dev-racket/3s dev-racket/apse dev-racket/dos dev-racket/fector dev-racke
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/get-bonus/get-bonus/archive/d9bb88d2940263641c35ad98912c5a2b3136cc96.tar.gz -> get-bonus-2021.03.11.tar.gz
-_eclasses_=gh	2bd260d3484821dd31fe4abc6ea89dca	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
+_eclasses_=gh	97cb31608223475a784d5febc56095db	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
 _md5_=bfc826a92633f83e1d8244d82aaf5be9

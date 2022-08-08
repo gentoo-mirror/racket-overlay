@@ -3,14 +3,14 @@
 
 EAPI=8
 
-GH_DOM="github.com"
+GH_DOM="git.matthewbutterick.com"
 GH_REPO="mbutterick/typesetting"
-GH_COMMIT="342422e221c7218880c6ecfb6e5bc0caf1b3b50d"
+GH_COMMIT="6acec6864d02325e9b87c711c26564e420171110"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The hyphenate Racket package"
-HOMEPAGE="https://github.com/mbutterick/typesetting"
+HOMEPAGE="https://git.matthewbutterick.com/mbutterick/typesetting"
 S="${S}/hyphenate"
 
 LICENSE="all-rights-reserved"

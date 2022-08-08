@@ -3,14 +3,14 @@
 
 EAPI=8
 
-GH_DOM="github.com"
+GH_DOM="git.matthewbutterick.com"
 GH_REPO="mbutterick/pollen"
-GH_COMMIT="d019908a935cf62ac9da08510759d38fda20075e"
+GH_COMMIT="c182a30f57ea5096440aea3d097f5fe3b78bb236"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Publishing system for web-based books"
-HOMEPAGE="https://github.com/mbutterick/pollen"
+HOMEPAGE="https://git.matthewbutterick.com/mbutterick/pollen"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

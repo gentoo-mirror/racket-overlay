@@ -4,16 +4,18 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racket/racket"
-GH_COMMIT="cf82706c4b298f654a04c4bc8d98dff39b62a2ac"
+GH_REPO="arclanguage/anarki"
+GH_COMMIT="2681516e7269754e4fcfd96f8bf2d85a5cb0ece6"
 
 inherit gh racket
 
-DESCRIPTION="The plt-services Racket package"
-HOMEPAGE="https://github.com/racket/racket"
-S="${S}/pkgs/plt-services"
+DESCRIPTION="Community-managed variant of the Arc dialect of Lisp"
+HOMEPAGE="https://github.com/arclanguage/anarki"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/sha"
+BDEPEND="${RDEPEND}"

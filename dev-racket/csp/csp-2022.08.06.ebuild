@@ -3,15 +3,15 @@
 
 EAPI=8
 
-GH_DOM="github.com"
+GH_DOM="git.matthewbutterick.com"
 GH_REPO="mbutterick/typesetting"
-GH_COMMIT="4220033f3770d1870e0e651ef2e48ac187f0be68"
+GH_COMMIT="6acec6864d02325e9b87c711c26564e420171110"
 
-inherit racket gh
+inherit gh racket
 
-DESCRIPTION="font processing [in development]"
-HOMEPAGE="https://github.com/mbutterick/typesetting"
-S="${S}/fontland"
+DESCRIPTION="solve constraint-satisfaction problems"
+HOMEPAGE="https://git.matthewbutterick.com/mbutterick/typesetting"
+S="${S}/csp"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
@@ -19,9 +19,7 @@ KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/beautiful-racket-lib
-	dev-racket/crc32c
 	dev-racket/debug
-	dev-racket/png-image
-	dev-racket/sugar
-	dev-racket/xenomorph"
+	dev-racket/graph
+	dev-racket/sugar"
 BDEPEND="${RDEPEND}"

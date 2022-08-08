@@ -66,8 +66,10 @@ if [[ -z "${GH_TYPE}" ]] ; then
 		*bitbucket* )
 			GH_TYPE="bitbucket"
 			;;
-		codeberg.org | git.marvid.fr | git.matthewbutterick.com \
-			| git.syndicate-lang.org )
+		git.syndicate-lang.org )
+			GH_TYPE="gitea_old"
+			;;
+		codeberg.org | git.marvid.fr | git.matthewbutterick.com )
 			GH_TYPE="gitea_new"
 			;;
 		github.com )

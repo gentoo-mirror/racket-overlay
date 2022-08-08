@@ -12,5 +12,5 @@ RDEPEND=dev-racket/sketching-doc dev-racket/sketching-lib >=dev-scheme/racket-8.
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/soegaard/sketching/archive/335009141da5ef79b085db02a2b57597374d950d.tar.gz -> sketching-2022.03.09.tar.gz
-_eclasses_=gh	15d8c7f2bc720519a0a899cb3f6d40ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
+_eclasses_=gh	2bd260d3484821dd31fe4abc6ea89dca	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
 _md5_=386ad576726f99807b748ed6fb41196f

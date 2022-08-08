@@ -12,5 +12,5 @@ RDEPEND=dev-racket/struct-plus-plus >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/dstorrs/majordomo/archive/b8826dee4233aa314c3a19fed0164b8bc446a115.tar.gz -> majordomo-2020.07.16.tar.gz
-_eclasses_=gh	15d8c7f2bc720519a0a899cb3f6d40ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	2bd260d3484821dd31fe4abc6ea89dca
 _md5_=04cd064089070024a18e14b72f8da938

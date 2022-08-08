@@ -11,5 +11,5 @@ RDEPEND=dev-racket/mischief dev-racket/quickcheck dev-racket/rosette >=dev-schem
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/pmatos/racket-bv/archive/9c4291e9eefb55db388fe7381e8852bac6a925f7.tar.gz -> bv-2022.04.01.tar.gz
-_eclasses_=gh	15d8c7f2bc720519a0a899cb3f6d40ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
+_eclasses_=gh	2bd260d3484821dd31fe4abc6ea89dca	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
 _md5_=221835ad8a514067d8626b081d4e8593

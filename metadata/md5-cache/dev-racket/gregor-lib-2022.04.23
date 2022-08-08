@@ -11,5 +11,5 @@ RDEPEND=dev-racket/cldr-bcp47 dev-racket/cldr-core dev-racket/cldr-dates-modern 
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/97jaz/gregor/archive/9b8fb5399470acfba13d7d02d3eb250626e64774.tar.gz -> gregor-lib-2022.04.23.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	15d8c7f2bc720519a0a899cb3f6d40ee
+_eclasses_=gh	2bd260d3484821dd31fe4abc6ea89dca	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
 _md5_=97049e4dc46763044dd0113afd6ae687

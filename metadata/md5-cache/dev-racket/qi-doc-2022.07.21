@@ -11,5 +11,5 @@ RDEPEND=dev-racket/debug dev-racket/deta-doc dev-racket/fancy-app dev-racket/fro
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/countvajhula/qi/archive/a1ac1ea437e008e7b8fbe59ebb9f15a38c35515d.tar.gz -> qi-doc-2022.07.21.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	15d8c7f2bc720519a0a899cb3f6d40ee
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	2bd260d3484821dd31fe4abc6ea89dca
 _md5_=bf84706bf9f953bbe02e93165bc41498

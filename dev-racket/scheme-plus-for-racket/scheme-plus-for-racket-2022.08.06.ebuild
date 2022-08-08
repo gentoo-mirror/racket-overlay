@@ -5,11 +5,11 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="damien-mattei/Scheme-PLUS-for-Racket"
-GH_COMMIT="eb6a55b9e8ce9dec0338d7c5bb38219c7facc896"
+GH_COMMIT="a5fb720d8e8e2d9092b48a9579855f0c5576fa10"
 
-inherit racket gh
+inherit gh racket
 
-DESCRIPTION="the Scheme-PLUS-for-Racket Racket package"
+DESCRIPTION="The Scheme-PLUS-for-Racket Racket package"
 HOMEPAGE="https://github.com/damien-mattei/Scheme-PLUS-for-Racket"
 
 LICENSE="all-rights-reserved"
@@ -18,4 +18,4 @@ KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/scribble-code-examples"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

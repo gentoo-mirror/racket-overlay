@@ -4,20 +4,19 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="countvajhula/qi"
-GH_COMMIT="a1ac1ea437e008e7b8fbe59ebb9f15a38c35515d"
+GH_REPO="dstorrs/racket-dstorrs-libs"
+GH_COMMIT="7e816d2b5f65a92ab01b29a320cc2c71d7870dbb"
 
 inherit gh racket
 
-DESCRIPTION="A circuit tester style debugger for Qi."
-HOMEPAGE="https://github.com/countvajhula/qi"
-S="${S}/qi-probe"
+DESCRIPTION="The handy Racket package"
+HOMEPAGE="https://github.com/dstorrs/racket-dstorrs-libs"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/mischief
-	dev-racket/qi-lib"
+RDEPEND="dev-racket/html-parsing
+	dev-racket/sxml"
 BDEPEND="${RDEPEND}"

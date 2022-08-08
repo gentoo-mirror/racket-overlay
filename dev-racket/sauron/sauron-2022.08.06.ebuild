@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="racket-tw/sauron"
-GH_COMMIT="930db7f924b75b0911569694af42e2042837b038"
+GH_COMMIT="1e458b5a7406867907544f91d5b2e71de48671a4"
 
 inherit gh racket
 

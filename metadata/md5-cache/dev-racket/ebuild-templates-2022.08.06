@@ -9,6 +9,6 @@ KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=GPL-3
 RDEPEND=dev-racket/ebuild-lib dev-racket/threading-lib >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
-SRC_URI=https://gitlab.com/xgqt/racket-ebuild/-/archive/fbf8f374cd574f8b04d63743d6f4880e55a64d71.tar.gz -> ebuild-templates-2022.07.25.tar.gz
+SRC_URI=https://gitlab.com/xgqt/racket-ebuild/-/archive/870beb8f48863b1ee9c102e4b6be74965eb0f2fa.tar.gz -> ebuild-templates-2022.08.06.tar.gz
 _eclasses_=gh	2bd260d3484821dd31fe4abc6ea89dca	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
-_md5_=be0f17086076345015ca9214078118a9
+_md5_=0203e8d6d6c250f9d9e37a18d7254ae7

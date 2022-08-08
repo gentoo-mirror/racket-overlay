@@ -1,16 +1,15 @@
 BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/sxml
-DESCRIPTION=the handy Racket package
+DESCRIPTION=Generic binding forms.
 EAPI=8
-HOMEPAGE=https://github.com/dstorrs/racket-dstorrs-libs
-INHERIT=racket gh
+HOMEPAGE=https://github.com/stchang/generic-bind
+INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/sxml >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/dstorrs/racket-dstorrs-libs/archive/4e48796cefe4c2294200064fef475dfdeaed3609.tar.gz -> handy-2021.06.24.tar.gz
+SRC_URI=https://github.com/stchang/generic-bind/archive/b5eaeb0b99d04cb3802c9bb47d1d8846c0911a89.tar.gz -> generic-bind-2022.08.07.tar.gz
 _eclasses_=gh	2bd260d3484821dd31fe4abc6ea89dca	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
-_md5_=a6f51d485293514bcb70bc75ead57605
+_md5_=77fb5d8ffa87ba757b8b0bb422c2724d

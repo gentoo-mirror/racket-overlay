@@ -24,14 +24,18 @@
     </a>
 </p>
 
-
-# About
-
 Experimental Gentoo overlay with Racket packages from the
 [Racket Package Catalog](https://pkgs.racket-lang.org/).
 
+<p align="center">
+    <img src="logo.png">
+</p>
 
-# HowTo
+
+## About
+
+This a Gentoo package overlay repository that includes packages from the
+[Racket Package Catalog](https://pkgs.racket-lang.org/).
 
 
 ## Quickstart

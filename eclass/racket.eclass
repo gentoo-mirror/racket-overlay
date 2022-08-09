@@ -341,9 +341,9 @@ raco_remove() {
 	local raco_opts=(
 		--batch
 		--force
-		--no-docs  # CONSIDER: use $(raco_docs_switch) here?
 		--no-trash
 		--scope installation
+		$(raco_docs_switch)
 	)
 	eraco pkg remove "${raco_opts[@]}" ${pkg}
 }
@@ -410,6 +410,7 @@ raco_system_setup() {
 		--jobs "$(makeopts_jobs)"
 		--no-pkg-deps
 		$(raco_docs_switch)
+		$(usex doc '--doc-index' '')  # --doc-index is only known to "raco setup"
 		--only
 		--pkgs ${pkg}
 	)

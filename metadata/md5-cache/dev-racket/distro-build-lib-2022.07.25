@@ -10,5 +10,5 @@ LICENSE=|| ( Apache-2.0 MIT )
 RDEPEND=dev-racket/distro-build-client dev-racket/distro-build-server >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/racket/distro-build/archive/b3cb7cf31356bb3ab35f161ce68948e3200cc504.tar.gz -> distro-build-lib-2022.07.25.tar.gz
-_eclasses_=gh	2bd260d3484821dd31fe4abc6ea89dca	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3
+_eclasses_=gh	ef34df1fe2cc8afb0a92dc34090e1606	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3
 _md5_=5267f178b53279c616a9c2f1c57adc3e

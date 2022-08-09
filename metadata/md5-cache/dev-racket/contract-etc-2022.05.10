@@ -12,5 +12,5 @@ RDEPEND=dev-racket/chk-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/camoy/contract-etc/archive/e3545eaca806067624559f1cc1e7657c9f46954a.tar.gz -> contract-etc-2022.05.10.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	2bd260d3484821dd31fe4abc6ea89dca
+_eclasses_=gh	2bd260d3484821dd31fe4abc6ea89dca	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3
 _md5_=a491a82f09361f7bb2f62575b6b194d5

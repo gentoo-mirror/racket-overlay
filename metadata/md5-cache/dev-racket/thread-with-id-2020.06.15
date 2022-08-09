@@ -11,5 +11,5 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/dstorrs/thread-with-id/archive/0b5908a810b710bae7a8e0bc89f6468c81d12f92.tar.gz -> thread-with-id-2020.06.15.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	2bd260d3484821dd31fe4abc6ea89dca
+_eclasses_=gh	2bd260d3484821dd31fe4abc6ea89dca	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3
 _md5_=f47c6a6571e6e2f4ed9db4b398b73c27

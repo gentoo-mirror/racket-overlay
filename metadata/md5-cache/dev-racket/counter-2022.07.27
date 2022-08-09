@@ -10,5 +10,5 @@ LICENSE=CC0-1.0
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://gitlab.com/xgqt/scheme-counter/-/archive/fa42e8f3265d1f2a346f088fbb2553d16bbd092a.tar.gz -> counter-2022.07.27.tar.gz
-_eclasses_=gh	2bd260d3484821dd31fe4abc6ea89dca	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
+_eclasses_=gh	2bd260d3484821dd31fe4abc6ea89dca	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3
 _md5_=ef744e40141c1778c7efa5645ed0fbb0

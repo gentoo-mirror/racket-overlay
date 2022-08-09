@@ -11,5 +11,5 @@ RDEPEND=dev-racket/crypto dev-racket/pk dev-racket/syrup >=dev-scheme/racket-8.1
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/spritely/goblins/-/archive/88a5663a82e28899465258a593f80b3d0018b8a0.tar.gz -> goblins-2022.02.21.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	2bd260d3484821dd31fe4abc6ea89dca
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3	gh	2bd260d3484821dd31fe4abc6ea89dca
 _md5_=d85fdd7b7b33ba277855a550dc06d597

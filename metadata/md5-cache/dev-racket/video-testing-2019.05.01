@@ -11,5 +11,5 @@ RDEPEND=dev-racket/bitsyntax dev-racket/graph dev-racket/opengl dev-racket/porta
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/videolang/video/archive/aa958b5ab250c8a202b24444935255d773608ea6.tar.gz -> video-testing-2019.05.01.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	2bd260d3484821dd31fe4abc6ea89dca
+_eclasses_=gh	2bd260d3484821dd31fe4abc6ea89dca	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3
 _md5_=3b04976c708bcc4d7b5855156d34d637

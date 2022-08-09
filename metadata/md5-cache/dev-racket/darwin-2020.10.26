@@ -11,5 +11,5 @@ RDEPEND=dev-racket/find-parent-dir dev-racket/markdown-ng dev-racket/rackjure de
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/pmatos/darwin/archive/311df33cc83f67859ed9db8b236d227dec83d895.tar.gz -> darwin-2020.10.26.tar.gz
-_eclasses_=gh	2bd260d3484821dd31fe4abc6ea89dca	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3	gh	2bd260d3484821dd31fe4abc6ea89dca
 _md5_=51a641170138bc2c2db425082f5541e1

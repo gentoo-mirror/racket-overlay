@@ -12,5 +12,5 @@ RDEPEND=dev-racket/gregor-doc dev-racket/gregor-lib >=dev-scheme/racket-8.1:=[-m
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/97jaz/gregor/archive/983dd8d5d0d8fedc8e2b940b775b7b502f4fb231.tar.gz -> gregor-2021.12.03.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	2bd260d3484821dd31fe4abc6ea89dca
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3	gh	2bd260d3484821dd31fe4abc6ea89dca
 _md5_=9762f00f52ad80d77e6e179195cb841d

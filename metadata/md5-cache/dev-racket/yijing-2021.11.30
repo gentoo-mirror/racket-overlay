@@ -12,5 +12,5 @@ RDEPEND=dev-racket/scribble-rainbow-delimiters >=dev-scheme/racket-8.1:=[-minima
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/yanyingwang/yijing/archive/91eaf1b75f6d09bedc05b0a5a366a51dd58031df.tar.gz -> yijing-2021.11.30.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70	gh	2bd260d3484821dd31fe4abc6ea89dca
+_eclasses_=gh	2bd260d3484821dd31fe4abc6ea89dca	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3
 _md5_=7ecf145dafb45a2e2a89e5aab15406eb

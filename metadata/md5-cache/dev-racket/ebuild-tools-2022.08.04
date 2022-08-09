@@ -10,5 +10,5 @@ LICENSE=GPL-3
 RDEPEND=dev-racket/ebuild-lib dev-racket/ebuild-templates dev-racket/ebuild-transformers dev-racket/threading-lib dev-racket/upi-lib dev-racket/ziptie-git >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://gitlab.com/xgqt/racket-ebuild/-/archive/e52ca92d204d52e8b1907901c1e8715da3a3183c.tar.gz -> ebuild-tools-2022.08.04.tar.gz
-_eclasses_=gh	2bd260d3484821dd31fe4abc6ea89dca	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
+_eclasses_=gh	2bd260d3484821dd31fe4abc6ea89dca	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3
 _md5_=47aa2ddd7a63a0a1a5fadc8fd6e90f84

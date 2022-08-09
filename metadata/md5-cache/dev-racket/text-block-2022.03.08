@@ -11,5 +11,5 @@ RDEPEND=dev-racket/define2 >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Metaxal/text-block/archive/cdac673c5ce400f7ce7287ff2b5d55fbd709b6e6.tar.gz -> text-block-2022.03.08.tar.gz
-_eclasses_=gh	2bd260d3484821dd31fe4abc6ea89dca	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3	gh	2bd260d3484821dd31fe4abc6ea89dca
 _md5_=2205699737acdca6231640f2d1b664ba

@@ -10,5 +10,5 @@ LICENSE=GPL-3
 RDEPEND=dev-racket/threading-lib dev-racket/upi-lib >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://gitlab.com/xgqt/racket-ziptie/-/archive/77aa8fde39cb991522e62ced7885470e5e950831.tar.gz -> ziptie-monorepo-2022.07.27.tar.gz
-_eclasses_=gh	2bd260d3484821dd31fe4abc6ea89dca	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	04ec7efcc737482f11868d872132ea70
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3	gh	2bd260d3484821dd31fe4abc6ea89dca
 _md5_=71ea533c4437a02afa49f40cb20520a9

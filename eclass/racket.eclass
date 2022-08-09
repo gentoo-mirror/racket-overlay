@@ -135,38 +135,17 @@ racket_clean_directory() {
 	done
 }
 
-# @FUNCTION: racket_fix_collection
-# @DESCRIPTION:
-# If "info.rkt" exists in current directory, then check if it defines
-# a collection, if not then add '(define collection "${PN}")' to "info.rkt"
-# WARNING!: Check what is ${S}, it should be the highest (lowest depth)
-# placed "info.rkt" file that defines the collection you want.
-racket_fix_collection() {
-	debug-print-function ${FUNCNAME} "${@}"
-
-	local info_file="$(pwd)"/info.rkt
-	if [[ -f "${info_file}" ]] ; then
-		if ! grep 'define collection' "${info_file}" >/dev/null ; then
-			ewarn "Adding collection definition to \"${info_file}\"."
-			echo "(define collection \"${RACKET_PN}\")" >> "${info_file}" ||
-				die "Failed to add collection definition to \"${info_file}\"."
-		fi
-	fi
-}
-
 # @FUNCTION: racket_src_prepare
 # @DESCRIPTION:
 # Default src_prepare:
 #
-# In addition to `default'
-# executes: `racket_environment_prepare', `racket_clean_directory'
-# and `racket_fix_collection'.
+# In addition to `default' this phase executes:
+# `racket_environment_prepare' and `racket_clean_directory'.
 racket_src_prepare() {
 	debug-print-function ${FUNCNAME} "${@}"
 
 	racket_environment_prepare
 	racket_clean_directory
-	racket_fix_collection
 	default
 }
 
@@ -362,9 +341,9 @@ raco_remove() {
 	local raco_opts=(
 		--batch
 		--force
-		--no-docs  # CONSIDER: use $(raco_docs_switch) here?
 		--no-trash
 		--scope installation
+		$(raco_docs_switch)
 	)
 	eraco pkg remove "${raco_opts[@]}" ${pkg}
 }
@@ -431,6 +410,7 @@ raco_system_setup() {
 		--jobs "$(makeopts_jobs)"
 		--no-pkg-deps
 		$(raco_docs_switch)
+		$(usex doc '--doc-index' '')  # --doc-index is only known to "raco setup"
 		--only
 		--pkgs ${pkg}
 	)

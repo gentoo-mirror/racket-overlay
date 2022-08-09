@@ -59,8 +59,6 @@ esac
 # This variable contains the Git platform type.
 # Supported platform types are: bitbucket, gitea, github, gitlab and sourcehut.
 # The value of GH_TYPE is derived from GH_DOM if it is unset.
-
-# TODO: add cgit?
 if [[ -z "${GH_TYPE}" ]] ; then
 	case "${GH_DOM}" in
 		*bitbucket* )
@@ -79,6 +77,7 @@ if [[ -z "${GH_TYPE}" ]] ; then
 		git.sr.ht )
 			GH_TYPE="sourcehut"
 			;;
+		# TODO: add cgit?
 		* )
 			die "Couldn't derive a GH_TYPE from Git domain ${GH_DOM}"
 			;;

@@ -6,12 +6,11 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket/racket"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket's implementation of macros, modules, and top-level evaluation"
 HOMEPAGE="https://github.com/racket/racket"
 S="${S}/racket/src/expander"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"

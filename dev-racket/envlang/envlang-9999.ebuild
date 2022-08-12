@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="envlang/racket"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Prototype of a proof-of-concept for a language with first-class environments."
 HOMEPAGE="https://github.com/envlang/racket"
@@ -16,6 +16,7 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/hyper-literate
+	dev-racket/phc-toolkit
 	dev-racket/polysemy
 	dev-racket/reprovide-lang-lib"
 BDEPEND="${RDEPEND}"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jbclements/admiral-edu-server"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The Racket code associated with the Captain Teach server"
 HOMEPAGE="https://github.com/jbclements/admiral-edu-server"
@@ -17,4 +17,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/aws
 	dev-racket/yaml"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

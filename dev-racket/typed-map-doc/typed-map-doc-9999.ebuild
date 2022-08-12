@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jsmaniac/typed-map"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Documentation for typed-map"
 HOMEPAGE="https://github.com/jsmaniac/typed-map"
@@ -16,5 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/typed-map-lib"
+RDEPEND="dev-racket/aful
+	dev-racket/typed-map-lib"
 BDEPEND="${RDEPEND}"

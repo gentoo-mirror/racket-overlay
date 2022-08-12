@@ -6,9 +6,9 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="rfindler/lindenmayer"
 
-inherit racket gh
+inherit gh racket
 
-DESCRIPTION="the lindenmayer Racket package"
+DESCRIPTION="The lindenmayer Racket package"
 HOMEPAGE="https://github.com/rfindler/lindenmayer"
 
 LICENSE="all-rights-reserved"
@@ -16,4 +16,4 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/pict3d"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

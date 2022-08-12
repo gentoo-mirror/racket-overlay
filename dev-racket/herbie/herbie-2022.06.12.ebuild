@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="uwplse/herbie"
 GH_COMMIT="600fd02dd9057ff758c4c73f806e323470f72a02"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A tool for automatically improving the accuracy of floating point expressions"
 HOMEPAGE="https://github.com/uwplse/herbie"

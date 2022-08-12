@@ -11,8 +11,9 @@ inherit gh racket
 DESCRIPTION="terminal version of mathler game, and its solver"
 HOMEPAGE="https://github.com/dannypsnl/mathler"
 
-LICENSE="|| ( Apache-2.0 MIT )"
+LICENSE="all-rights-reserved"
 SLOT="0"
+RESTRICT="mirror"
 
 RDEPEND="dev-racket/curly-fn-lib
 	dev-racket/functional-lib

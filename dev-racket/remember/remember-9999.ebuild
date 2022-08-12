@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jsmaniac/remember"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The remember Racket package"
 HOMEPAGE="https://github.com/jsmaniac/remember"
@@ -16,5 +16,6 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/hyper-literate
+	dev-racket/phc-toolkit
 	dev-racket/scribble-enhanced"
 BDEPEND="${RDEPEND}"

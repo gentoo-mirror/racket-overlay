@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="bitbucket.org"
 GH_REPO="digitalricoeur/tei-utils"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Digital Ricoeur library for TEI XML files"
 HOMEPAGE="https://bitbucket.org/digitalricoeur/tei-utils"

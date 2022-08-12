@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="uwplse/herbie"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A tool for automatically improving the accuracy of floating point expressions"
 HOMEPAGE="https://github.com/uwplse/herbie"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="envlang/racket"
 GH_COMMIT="c45bfb25492a5fbedad50c7ad530d82bbbb43e3c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Prototype of a proof-of-concept for a language with first-class environments."
 HOMEPAGE="https://github.com/envlang/racket"
@@ -18,6 +18,7 @@ KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/hyper-literate
+	dev-racket/phc-toolkit
 	dev-racket/polysemy
 	dev-racket/reprovide-lang-lib"
 BDEPEND="${RDEPEND}"

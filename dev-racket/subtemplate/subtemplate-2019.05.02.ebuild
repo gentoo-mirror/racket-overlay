@@ -8,7 +8,7 @@ AUX_PH=d35e84905fdbbef4309edca0a138cd77066be185
 
 inherit racket
 
-DESCRIPTION="the subtemplate Racket package"
+DESCRIPTION="The subtemplate Racket package"
 HOMEPAGE="https://pkgs.racket-lang.org/package/subtemplate"
 SRC_URI="https://github.com/jsmaniac/subtemplate/archive/${MAIN_PH}.tar.gz -> ${P}.tar.gz
 	https://github.com/jsmaniac/stxparse-info/archive/${AUX_PH}.tar.gz -> ${PN}_aux_stxparse-info-${PV}.tar.gz"
@@ -26,7 +26,7 @@ RDEPEND="dev-racket/alexis-util
 	dev-racket/scope-operations
 	dev-racket/scribble-math
 	dev-racket/version-case"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"
 PDEPEND="dev-racket/stxparse-info"
 
 src_compile() {

@@ -7,9 +7,9 @@ GH_DOM="github.com"
 GH_REPO="jsmaniac/phc-toolkit"
 GH_COMMIT="694c75444c4151be7069b3a0271650921d86ce51"
 
-inherit racket gh
+inherit gh racket
 
-DESCRIPTION="the phc-toolkit Racket package"
+DESCRIPTION="The phc-toolkit Racket package"
 HOMEPAGE="https://github.com/jsmaniac/phc-toolkit"
 
 LICENSE="all-rights-reserved"
@@ -24,4 +24,4 @@ RDEPEND="dev-racket/alexis-util
 	dev-racket/scribble-math
 	dev-racket/type-expander
 	dev-racket/version-case"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

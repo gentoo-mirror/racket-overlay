@@ -7,7 +7,7 @@ GH_DOM="bitbucket.org"
 GH_REPO="digitalricoeur/pydrnlp"
 GH_COMMIT="666c1e00b67c0cc1ee6b5e3fbcfbec498b3173ac"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="NLP Library for Digital Ricoeur"
 HOMEPAGE="https://bitbucket.org/digitalricoeur/pydrnlp"

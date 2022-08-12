@@ -4,5 +4,6 @@
 <pkgmetadata>
   <upstream>
     <bugs-to>https://bitbucket.org/digitalricoeur/tei-utils</bugs-to>
+    <remote-id type="bitbucket">digitalricoeur/tei-utils</remote-id>
   </upstream>
 </pkgmetadata>

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="AlexKnauth/measures-with-dimensions"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="based on measures, but with dimensions and types"
 HOMEPAGE="https://github.com/AlexKnauth/measures-with-dimensions"

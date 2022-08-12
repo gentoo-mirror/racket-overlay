@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="simmsb/racket-cord"
 GH_COMMIT="440eca8612fb33d8be7dc1868553390cd42762a6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket bindings for discord."
 HOMEPAGE="https://github.com/simmsb/racket-cord"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="aowens-21/drracket-custom-keybindings"
 GH_COMMIT="fe11a60df4567640bc2baa16e46a6870bf5c4af6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the drracket-custom-keybindings Racket package"
 HOMEPAGE="https://github.com/aowens-21/drracket-custom-keybindings"

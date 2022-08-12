@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jessealama/gillette"
 GH_COMMIT="8f2e1d26480aec46e1c7334fdf95815cf6c99164"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Docs for Gillette"
 HOMEPAGE="https://github.com/jessealama/gillette"

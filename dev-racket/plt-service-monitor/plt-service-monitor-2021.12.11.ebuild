@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/plt-service-monitor"
 GH_COMMIT="2046a570e2037891897fa81b3050f5df4964557f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="service-monitoring and heartbeat tools"
 HOMEPAGE="https://github.com/racket/plt-service-monitor"

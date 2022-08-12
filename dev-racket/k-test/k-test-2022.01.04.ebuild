@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket-tw/k"
 GH_COMMIT="ecc83f37452f82c095ba1a79bcc991aea55637cf"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The k-test Racket package"
 HOMEPAGE="https://github.com/racket-tw/k"

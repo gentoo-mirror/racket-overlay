@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/reconstruct-template"
 GH_COMMIT="e3502153aeb64cbcf5809c7e89178eca54c76e34"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the reconstruct-template Racket package"
 HOMEPAGE="https://github.com/AlexKnauth/reconstruct-template"

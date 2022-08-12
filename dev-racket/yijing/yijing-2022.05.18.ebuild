@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="yanyingwang/yijing"
 GH_COMMIT="38f8e907c766d100c3c9ff42e672487aa7a8c536"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Chinese Yijing Icons."
 HOMEPAGE="https://github.com/yanyingwang/yijing"

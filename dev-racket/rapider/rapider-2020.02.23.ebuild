@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="nuty/rapider"
 GH_COMMIT="f167aa91522788e70affd49e8f350cd055dba3c4"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="web scrape framework"
 HOMEPAGE="https://github.com/nuty/rapider"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/racket-cheat"
 GH_COMMIT="129fbb808cac7b9d761e92a44e8f7877bf05e282"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a user-friendly index into the Racket documentation"
 HOMEPAGE="https://github.com/jeapostrophe/racket-cheat"

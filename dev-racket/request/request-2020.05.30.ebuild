@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/racket-request"
 GH_COMMIT="fa78b05f5f063e767bcdb38a3d46cb4ff911ed56"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The request Racket package"
 HOMEPAGE="https://github.com/jackfirth/racket-request"

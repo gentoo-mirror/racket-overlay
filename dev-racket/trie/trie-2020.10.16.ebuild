@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dstorrs/racket-trie"
 GH_COMMIT="da9564e8187ace2a4a891c979ef1e7f15a3d306e"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the trie Racket package"
 HOMEPAGE="https://github.com/dstorrs/racket-trie"

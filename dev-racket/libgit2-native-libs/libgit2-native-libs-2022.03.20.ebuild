@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="LiberalArtist/native-libgit2-pkgs"
 GH_COMMIT="266dd0d7a64d4db78db7d0031147a50cdd213f58"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="native libraries for libgit2 (meta-package)"
 HOMEPAGE="https://github.com/LiberalArtist/native-libgit2-pkgs"

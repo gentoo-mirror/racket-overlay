@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="countvajhula/ionic"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Another way to structure computations"
 HOMEPAGE="https://github.com/countvajhula/ionic"

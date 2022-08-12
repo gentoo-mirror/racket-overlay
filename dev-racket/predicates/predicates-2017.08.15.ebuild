@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/predicates"
 GH_COMMIT="ba6b82864a6bdb2b0aa42d3a493effe54d44e4e1"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the predicates Racket package"
 HOMEPAGE="https://github.com/jackfirth/predicates"

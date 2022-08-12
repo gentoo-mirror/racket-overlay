@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-dbg"
 GH_COMMIT="ffd1d900c4104cc6825961d09b7959d5bd5e1f1e"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Documentation for the dbg and dbg-ui packages."
 HOMEPAGE="https://github.com/Bogdanp/racket-dbg"

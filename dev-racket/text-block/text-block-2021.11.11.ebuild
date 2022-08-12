@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Metaxal/text-block"
 GH_COMMIT="67250c0f05d55d5a6f7f51623efea7217a99fe78"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Similar to pict, but for 2d unicode text and math formulas"
 HOMEPAGE="https://github.com/Metaxal/text-block"

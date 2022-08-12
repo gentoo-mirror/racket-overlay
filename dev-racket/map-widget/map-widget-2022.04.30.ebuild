@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="alex-hhh/map-widget"
 GH_COMMIT="174d649deddd01b2c43454a33248e598b88cc441"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Racket GUI Widget to display maps based on OpenStreetMap tiles"
 HOMEPAGE="https://github.com/alex-hhh/map-widget"

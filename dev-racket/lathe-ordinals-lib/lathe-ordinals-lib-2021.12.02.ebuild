@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lathe/lathe-ordinals-for-racket"
 GH_COMMIT="717efe9c0f91052095ac267e4f9b4b355053fab5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Ordinal numbers supporting addition, multiplication, and exponentiation. (lib)"
 HOMEPAGE="https://github.com/lathe/lathe-ordinals-for-racket"

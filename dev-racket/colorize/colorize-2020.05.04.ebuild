@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="yanyingwang/colorize"
 GH_COMMIT="157878ae018b5b6aebeb5e5e51d73ca38af4ad08"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="colorize your console"
 HOMEPAGE="https://github.com/yanyingwang/colorize"

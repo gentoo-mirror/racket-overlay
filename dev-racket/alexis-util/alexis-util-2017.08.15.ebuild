@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lexi-lambda/racket-alexis"
 GH_COMMIT="0268afb688231e0d6d76ded3291538dd5d3db37c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Various utilities and helper functions I've found useful"
 HOMEPAGE="https://github.com/lexi-lambda/racket-alexis"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="willghatch/racket-rash"
 GH_COMMIT="c85dda5fc7c387fd6e9207ae0b3fcd5b5ce208e7"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="line-oriented reader"
 HOMEPAGE="https://github.com/willghatch/racket-rash"

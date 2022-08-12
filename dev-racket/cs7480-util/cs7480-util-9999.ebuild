@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="MiloDavis/cs7480-util"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Static analysis utilities"
 HOMEPAGE="https://github.com/MiloDavis/cs7480-util"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="johnstonskj/behavior"
 GH_COMMIT="72103db75c07d52d9027b34f0960532e235f9c10"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The behavior Racket package"
 HOMEPAGE="https://github.com/johnstonskj/behavior"

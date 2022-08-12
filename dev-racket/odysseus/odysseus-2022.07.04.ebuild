@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="prozion/odysseus"
 GH_COMMIT="8786af2ff1b6fc92a3ee152376a47b357ea14ab3"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Library with handy general-purpose functions and macro as well as specific ones"
 HOMEPAGE="https://github.com/prozion/odysseus"

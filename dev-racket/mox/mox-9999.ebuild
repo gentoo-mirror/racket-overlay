@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="wargrey/mox"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Open XML for Microsoft Office"
 HOMEPAGE="https://github.com/wargrey/mox"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Kalimehtar/russian-lang"
 GH_COMMIT="aa6b77ffd5ecd40c6a13e96db5ccf8d0da5b19a1"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Programming language based on russian language"
 HOMEPAGE="https://github.com/Kalimehtar/russian-lang"

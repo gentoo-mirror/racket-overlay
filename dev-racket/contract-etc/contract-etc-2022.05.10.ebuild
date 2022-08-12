@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="camoy/contract-etc"
 GH_COMMIT="e3545eaca806067624559f1cc1e7657c9f46954a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Miscellaneous contracts."
 HOMEPAGE="https://github.com/camoy/contract-etc"

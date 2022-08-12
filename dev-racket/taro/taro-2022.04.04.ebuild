@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="orreksu/taro"
 GH_COMMIT="df5c03e04cd1c45772fd1ae5942606bd376291ea"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The taro Racket package"
 HOMEPAGE="https://github.com/orreksu/taro"

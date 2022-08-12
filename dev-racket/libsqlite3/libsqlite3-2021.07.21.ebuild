@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-libsqlite3"
 GH_COMMIT="6bb55122a315dee009c479cdad7494ff79aab423"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the libsqlite3 Racket package"
 HOMEPAGE="https://github.com/Bogdanp/racket-libsqlite3"

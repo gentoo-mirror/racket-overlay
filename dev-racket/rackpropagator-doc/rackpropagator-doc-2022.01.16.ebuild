@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="ots22/rackpropagator"
 GH_COMMIT="cfa841b5cfebd3829011c8e039e8ec43fc40226d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Rackpropagator documentation"
 HOMEPAGE="https://github.com/ots22/rackpropagator"

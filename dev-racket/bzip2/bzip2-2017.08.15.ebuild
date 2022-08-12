@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="97jaz/racket-bzip2"
 GH_COMMIT="7ceadc95e6221fd9a46f2b009cfc302117fe7f02"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="bzip2 compression and decompression"
 HOMEPAGE="https://github.com/97jaz/racket-bzip2"

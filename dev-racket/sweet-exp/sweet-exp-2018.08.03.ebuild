@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="takikawa/sweet-racket"
 GH_COMMIT="a3c1ae74c2e75e8d6164a3a9d8eb34335a7ba4de"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Sweet expressions: an alternative to s-expressions"
 HOMEPAGE="https://github.com/takikawa/sweet-racket"

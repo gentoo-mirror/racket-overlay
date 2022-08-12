@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/rhombus-prototype"
 GH_COMMIT="3a293448e218b8031506411816b3d3f675aa4ecf"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Prototype language as part of the Rhombus project"
 HOMEPAGE="https://github.com/racket/rhombus-prototype"

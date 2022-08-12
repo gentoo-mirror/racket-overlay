@@ -7,7 +7,7 @@ GH_DOM="git.sr.ht"
 GH_REPO="~sschwarzer/sudoku-solver"
 GH_COMMIT="849de53907ceab91280eb82f042386612e824096"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Sudoku solver that can also show the solution process as a GraphViz dot file"
 HOMEPAGE="https://git.sr.ht/~sschwarzer/sudoku-solver"

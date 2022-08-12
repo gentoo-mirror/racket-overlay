@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lexi-lambda/alexis-collection-lens"
 GH_COMMIT="4f91587e8a5728b02c1ea9af9ac7476baf39b928"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Deprecated. Use the collections-lens package instead."
 HOMEPAGE="https://github.com/lexi-lambda/alexis-collection-lens"

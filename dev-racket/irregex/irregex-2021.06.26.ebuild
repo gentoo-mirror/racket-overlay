@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jbclements/irregex"
 GH_COMMIT="3285834dfceab79a0c21e037d26c5cc10bd94444"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the irregex Racket package"
 HOMEPAGE="https://github.com/jbclements/irregex"

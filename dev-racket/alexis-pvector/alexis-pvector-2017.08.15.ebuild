@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lexi-lambda/racket-alexis-pvector"
 GH_COMMIT="f03b60714a0fd35ca61dd41307701074a2253d87"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Deprecated. Use the pvector package instead."
 HOMEPAGE="https://github.com/lexi-lambda/racket-alexis-pvector"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Gradual-Typing/Grift"
 GH_COMMIT="adb719623a70b9c9e085cf86586a2f9829dd3dae"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A gradually typed language"
 HOMEPAGE="https://github.com/Gradual-Typing/Grift"

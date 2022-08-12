@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Metaxal/global"
 GH_COMMIT="d912b774228e449f19083cba15e37b188a1673b4"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Define global variables and automatically generate a command line parser."
 HOMEPAGE="https://github.com/Metaxal/global"

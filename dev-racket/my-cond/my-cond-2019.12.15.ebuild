@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/my-cond"
 GH_COMMIT="1bb7066f69ba4619ac7d2ea0c292f80b78c5503b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the my-cond Racket package"
 HOMEPAGE="https://github.com/AlexKnauth/my-cond"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="herbie-fp/softposit-herbie"
 GH_COMMIT="53955b17435c64e0a7164d33b3243c69d2222d81"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="SoftPosit support for Herbie"
 HOMEPAGE="https://github.com/herbie-fp/softposit-herbie"

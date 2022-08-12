@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mbutterick/brag"
 GH_COMMIT="168c027031074f3ef35b1db55c9693e2f214939f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the brag-lib Racket package"
 HOMEPAGE="https://github.com/mbutterick/brag"

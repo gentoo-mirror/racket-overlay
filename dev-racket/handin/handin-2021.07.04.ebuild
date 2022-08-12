@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="plt/handin"
 GH_COMMIT="3c31daccf0f61bb06aa65e36d72acc0ef2f453da"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Handin server and client template"
 HOMEPAGE="https://github.com/plt/handin"

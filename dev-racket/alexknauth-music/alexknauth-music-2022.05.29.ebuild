@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/music"
 GH_COMMIT="3f643e2bab0c5dff68095ff7b7a64563a91caec4"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Some stuff for representing music and music theory"
 HOMEPAGE="https://github.com/AlexKnauth/music"

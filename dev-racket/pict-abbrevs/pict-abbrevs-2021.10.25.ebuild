@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="bengreenman/pict-abbrevs"
 GH_COMMIT="2d2fd74ab6e76ecef0ef5131173d0fa4def30bad"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Pict helper functions"
 HOMEPAGE="https://gitlab.com/bengreenman/pict-abbrevs"

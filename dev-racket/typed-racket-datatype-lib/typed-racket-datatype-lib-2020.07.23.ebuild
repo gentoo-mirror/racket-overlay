@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/typed-racket-datatype"
 GH_COMMIT="dc955052081b18a164552c4e7db75ac392a92402"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Algebraic Datatypes for Typed Racket (implementation)"
 HOMEPAGE="https://github.com/AlexKnauth/typed-racket-datatype"

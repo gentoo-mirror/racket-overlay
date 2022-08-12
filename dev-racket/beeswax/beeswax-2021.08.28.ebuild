@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="otherjoel/beeswax"
 GH_COMMIT="d763aefcba6d992a852a7f5a210d5a587efb3b07"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Pollen-friendly template language"
 HOMEPAGE="https://github.com/otherjoel/beeswax"

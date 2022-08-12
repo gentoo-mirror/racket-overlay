@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lathe/sew-for-racket"
 GH_COMMIT="a986cdb7386623f0796c5941319c49823154d2a2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A meta-language for assembling a file with custom preprocessing logic. (lib)"
 HOMEPAGE="https://github.com/lathe/sew-for-racket"

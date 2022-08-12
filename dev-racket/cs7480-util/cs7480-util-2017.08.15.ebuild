@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="MiloDavis/cs7480-util"
 GH_COMMIT="cd672fcb1f09354ef37619ddeed6c396286acfa5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Static analysis utilities"
 HOMEPAGE="https://github.com/MiloDavis/cs7480-util"

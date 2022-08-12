@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jessealama/laramie"
 GH_COMMIT="2a22059a889146a2061f7d1749abad8bd0f5458d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="HTML5 parser"
 HOMEPAGE="https://github.com/jessealama/laramie"

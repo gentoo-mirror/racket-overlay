@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="LLazarek/ruinit"
 GH_COMMIT="9afaab5d419557060bc9d360bdc042252406d5ff"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A small unit testing framework."
 HOMEPAGE="https://github.com/LLazarek/ruinit"

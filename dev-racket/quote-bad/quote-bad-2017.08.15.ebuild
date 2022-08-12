@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/quote-bad"
 GH_COMMIT="f7b81540acad204535b993806aca04a4692ec4d5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A version of quote that helps to rid programs of bad uses of quote"
 HOMEPAGE="https://github.com/AlexKnauth/quote-bad"

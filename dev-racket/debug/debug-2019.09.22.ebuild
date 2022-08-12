@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/debug"
 GH_COMMIT="aa798842c09ece55c2a088f09d30e398d2b77fee"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a lang-extension for debugging, and a macro for inserting a debug-repl"
 HOMEPAGE="https://github.com/AlexKnauth/debug"

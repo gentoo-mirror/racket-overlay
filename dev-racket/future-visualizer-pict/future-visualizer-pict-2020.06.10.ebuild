@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/future-visualizer"
 GH_COMMIT="87b83c0eb720247b5ad8222f0c9b0f07b226e0bb"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The drawing and data representation portions of the future visualizer"
 HOMEPAGE="https://github.com/racket/future-visualizer"

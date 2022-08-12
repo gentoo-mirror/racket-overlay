@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="michaelballantyne/faster-miniKanren"
 GH_COMMIT="1db40194cee7cc5821e0804055c92188e397f564"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A fast implementation of miniKanren with disequality and absento."
 HOMEPAGE="https://github.com/michaelballantyne/faster-miniKanren"

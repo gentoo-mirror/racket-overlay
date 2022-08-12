@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="yanyingwang/covid-19"
 GH_COMMIT="c69ad787d45df4698defc97c8863f47a95851984"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket wrapper of QQ/Sina's COVID-19 API"
 HOMEPAGE="https://github.com/yanyingwang/covid-19"

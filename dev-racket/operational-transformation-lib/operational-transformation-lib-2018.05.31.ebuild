@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="tonyg/racket-operational-transformation"
 GH_COMMIT="1960b7f70138a9de6e3ceb2943b8ca46c83d94ae"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the operational-transformation-lib Racket package"
 HOMEPAGE="https://github.com/tonyg/racket-operational-transformation"

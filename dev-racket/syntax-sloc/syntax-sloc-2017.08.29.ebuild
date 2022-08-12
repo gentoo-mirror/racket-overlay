@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/syntax-sloc"
 GH_COMMIT="ea9bfa06a207ba63b481dcc794c55475eb6bcc33"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="counts the number of source lines of code in a racket syntax object"
 HOMEPAGE="https://github.com/AlexKnauth/syntax-sloc"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="zyrolasting/racket-vulkan"
 GH_COMMIT="632e0d0ea2b7415dc290221331df1bf996612729"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Vulkan API integration."
 HOMEPAGE="https://github.com/zyrolasting/racket-vulkan"

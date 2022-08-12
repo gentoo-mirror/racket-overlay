@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-north"
 GH_COMMIT="08353f574489c65907a0dd15c4c1629e18d77027"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A database migration tool."
 HOMEPAGE="https://github.com/Bogdanp/racket-north"

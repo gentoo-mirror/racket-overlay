@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lives-group/pegwfgen"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Well-formed random PEG generator"
 HOMEPAGE="https://github.com/lives-group/pegwfgen"

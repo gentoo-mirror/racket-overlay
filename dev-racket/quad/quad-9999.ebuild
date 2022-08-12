@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mbutterick/typesetting"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Document processor (unstable)"
 HOMEPAGE="https://github.com/mbutterick/typesetting"

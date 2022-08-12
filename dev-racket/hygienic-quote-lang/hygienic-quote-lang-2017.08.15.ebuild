@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/hygienic-quote-lang"
 GH_COMMIT="82963703d47bafd51c284067771f46ea410dc725"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="hygienic versions of quote-like racket reader macros"
 HOMEPAGE="https://github.com/AlexKnauth/hygienic-quote-lang"

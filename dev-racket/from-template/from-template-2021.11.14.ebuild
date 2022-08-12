@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="nixin72/from-template"
 GH_COMMIT="81b899abdbe5850efff8ad7bd3617aaa5cb726a7"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Download template apps to get started building new projects with Racket"
 HOMEPAGE="https://github.com/nixin72/from-template"

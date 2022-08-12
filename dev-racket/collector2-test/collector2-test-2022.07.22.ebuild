@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="src_prepare/racket/collector2"
 GH_COMMIT="878d4ab9dfff29b19a666ef7ad0ed688a36d0460"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Parse Racket packages catalog and generate ebuild scripts. Tests."
 HOMEPAGE="https://gitlab.com/src_prepare/racket/collector2"

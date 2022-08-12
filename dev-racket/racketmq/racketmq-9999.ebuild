@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="git.syndicate-lang.org"
 GH_REPO="syndicate-lang/racketmq-2017"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An implementation of W3C WebSub."
 HOMEPAGE="https://git.syndicate-lang.org/syndicate-lang/racketmq-2017"

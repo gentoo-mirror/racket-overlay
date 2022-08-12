@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Lonero-Team/Racket-Package"
 GH_COMMIT="451a3be28e554fc9a3d6d3aada96d7fc76645d6f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A package for building distributed computing projects"
 HOMEPAGE="https://github.com/Lonero-Team/Racket-Package"

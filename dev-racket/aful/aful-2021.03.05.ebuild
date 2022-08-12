@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jsmaniac/aful"
 GH_COMMIT="e7f7270bdb70708f58bbda27ffad07509085e5fe"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A fork of #lang afl which also supports #lang aflu/unhygienic."
 HOMEPAGE="https://github.com/jsmaniac/aful"

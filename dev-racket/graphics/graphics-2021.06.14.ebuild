@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="wargrey/graphics"
 GH_COMMIT="f59f9d5a7accd1e14485fb7e18a049e286340a87"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Essential computer graphics for Typed Racket"
 HOMEPAGE="https://github.com/wargrey/graphics"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mythical-linux/rktfetch"
 GH_COMMIT="10d3393bc77eb31e7297ddbba7936d5518346283"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="rktfetch is an info fetch tool (like neofetch) but written in Racket"
 HOMEPAGE="https://github.com/mythical-linux/rktfetch"

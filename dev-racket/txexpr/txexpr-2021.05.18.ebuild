@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mbutterick/txexpr"
 GH_COMMIT="41d217580363c9cb11e2321c79f89c3cd7a604c1"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Handy tools for working with HTML-style tagged X-expressions"
 HOMEPAGE="https://github.com/mbutterick/txexpr"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Metaxal/bazaar"
 GH_COMMIT="53503da0fe0c8c2a545ab97312d340c7de3dd04c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A personal collection of useful definitions. Quite unstable."
 HOMEPAGE="https://github.com/Metaxal/bazaar"

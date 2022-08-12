@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="wargrey/mox"
 GH_COMMIT="2c4ad9e3e5ea3e8976d7c4670d9b60268a2e0b98"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Open XML for Microsoft Office"
 HOMEPAGE="https://github.com/wargrey/mox"

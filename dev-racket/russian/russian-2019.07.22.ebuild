@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Kalimehtar/russian"
 GH_COMMIT="f2c93e3a680b4fcfe147099b8fa99bb7062d0674"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Russian internationalization bits"
 HOMEPAGE="https://github.com/Kalimehtar/russian"

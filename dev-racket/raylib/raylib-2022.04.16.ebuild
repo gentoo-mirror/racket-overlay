@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="eutro/racket-raylib"
 GH_COMMIT="7e266f1f18f53f87ec128420ea4ccbecb60ae948"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Semi-automatically generated Raylib bindings."
 HOMEPAGE="https://github.com/eutro/racket-raylib"

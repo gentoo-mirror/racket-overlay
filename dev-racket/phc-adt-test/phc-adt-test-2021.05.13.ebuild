@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jsmaniac/phc-adt"
 GH_COMMIT="36c1047c4899d1b478cc6052f9b2e71168aeefb5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Tests for phc-adt"
 HOMEPAGE="https://github.com/jsmaniac/phc-adt"

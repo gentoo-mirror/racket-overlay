@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/reprovide-lang"
 GH_COMMIT="49c4c867964ddff42c5c61fe8a7e814851ed8a0c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a #lang for reproviding modules"
 HOMEPAGE="https://github.com/AlexKnauth/reprovide-lang"

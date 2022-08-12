@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="rymaju/code-sync"
 GH_COMMIT="feea02e2cc19088ba7ce5336b89b22044d5dafcf"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Fast Code Sharing for DrRacket"
 HOMEPAGE="https://github.com/rymaju/code-sync"

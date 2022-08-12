@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="sorawee/shlex"
 GH_COMMIT="f469d9aee8bdba095d7147928223dd9e98d4dbdc"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="shlex for Racket: Simple lexical analysis"
 HOMEPAGE="https://github.com/sorawee/shlex"

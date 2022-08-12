@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="bengreenman/choose-lang"
 GH_COMMIT="fdf777d8e82df64a69df1d09fc7f92c216f3bc68"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Pick #lang at read-time"
 HOMEPAGE="https://gitlab.com/bengreenman/choose-lang"

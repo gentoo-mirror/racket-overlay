@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dstorrs/racket-dstorrs-libs"
 GH_COMMIT="c2808eeae4203e5954e9524e9764dadee6faf5b5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the handy Racket package"
 HOMEPAGE="https://github.com/dstorrs/racket-dstorrs-libs"

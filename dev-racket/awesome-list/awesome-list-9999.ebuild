@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="slbtty/awesome-list"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Extra list processing functions & macros borrowed from various sources."
 HOMEPAGE="https://gitlab.com/slbtty/awesome-list"

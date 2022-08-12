@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mordae/racket-libserialport"
 GH_COMMIT="51f85372a6e51cc3268c4e45c0bef0f89c836b25"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="FFI bindings for the libserialport library."
 HOMEPAGE="https://github.com/mordae/racket-libserialport"

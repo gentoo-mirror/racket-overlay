@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Raymo111/cs135-drtools"
 GH_COMMIT="75c7041944ac489cacfe9327a7a936aafb576983"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="DrRacket Tools for CS 135 course at UWaterloo."
 HOMEPAGE="https://github.com/Raymo111/cs135-drtools"

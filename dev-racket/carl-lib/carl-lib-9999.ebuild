@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="mkyl/carl-lib"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Backend for Causal Relational Learning implementation"
 HOMEPAGE="https://github.com/mkyl/carl-lib"

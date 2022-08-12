@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Metaxal/quickscript-extra"
 GH_COMMIT="24e12e387bca5fe7da9ae573f2758e6003defe91"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Some scripts for DrRacket's Quickscript."
 HOMEPAGE="https://github.com/Metaxal/quickscript-extra"

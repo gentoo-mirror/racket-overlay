@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="xgqt/racket-dirname"
 GH_COMMIT="041285c1d906787c04402420c15b567a46911dd8"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Basename and dirname functions"
 HOMEPAGE="https://gitlab.com/xgqt/racket-dirname"

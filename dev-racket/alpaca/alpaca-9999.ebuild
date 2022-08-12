@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="traido/alpaca-api-rkt"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket client for Alpaca API"
 HOMEPAGE="https://github.com/traido/alpaca-api-rkt"

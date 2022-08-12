@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="nanopass/nanopass-framework-racket"
 GH_COMMIT="deac3a4bf937e1217ec54c5439710712b227fc5a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the nanopass Racket package"
 HOMEPAGE="https://github.com/nanopass/nanopass-framework-racket"

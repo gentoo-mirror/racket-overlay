@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="greghendershott/frog"
 GH_COMMIT="93d8b442c2e619334612b7e2d091e4eb33995021"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Static blog generator application. Supports Twitter Bootstrap, Pygments, more."
 HOMEPAGE="https://github.com/greghendershott/frog"

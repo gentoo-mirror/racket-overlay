@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lwhjp/racket-jni"
 GH_COMMIT="74527bfd14272d0dfb9afe781aeb0939c6e1eda2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Access the Java Native Interface with Racket"
 HOMEPAGE="https://github.com/lwhjp/racket-jni"

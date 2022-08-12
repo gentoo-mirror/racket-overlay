@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tgbugs/laundry"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Org mode for Racket."
 HOMEPAGE="https://github.com/tgbugs/laundry"

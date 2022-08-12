@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="bengreenman/choose-out"
 GH_COMMIT="55d3e0349408733337381a307ada0e89b88ae699"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Conditional provide (choose during expansion of importing module)"
 HOMEPAGE="https://gitlab.com/bengreenman/choose-out"

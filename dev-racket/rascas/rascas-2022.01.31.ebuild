@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Metaxal/rascas"
 GH_COMMIT="3b4a8dee5ac1564076dc17cd1a2e99ba7fb386f2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the rascas Racket package"
 HOMEPAGE="https://github.com/Metaxal/rascas"

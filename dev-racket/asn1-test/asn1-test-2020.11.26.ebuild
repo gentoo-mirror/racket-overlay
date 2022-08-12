@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="rmculpepper/asn1"
 GH_COMMIT="3afe9706302fcc6763f8d61622dee83ab6fa0c26"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="ASN.1 library"
 HOMEPAGE="https://github.com/rmculpepper/asn1"

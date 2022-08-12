@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="DexterLagan/cobalt2-theme"
 GH_COMMIT="7782e2324b62cc496ca2167800a423c8929adf01"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The Cobalt 2 color theme for DrRacket."
 HOMEPAGE="https://github.com/DexterLagan/cobalt2-theme"

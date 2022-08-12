@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="benknoble/tmux-vim-demo"
 GH_COMMIT="d794027ef6afa12194701ce64d741b33d6dced05"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A #lang for writing and running scripted demos with tmux and vim"
 HOMEPAGE="https://github.com/benknoble/tmux-vim-demo"

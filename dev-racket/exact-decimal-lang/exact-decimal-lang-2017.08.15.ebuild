@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/exact-decimal-lang"
 GH_COMMIT="0aae96ff741748e3a7da4239ad748e56c5f49470"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a lang-extension that reads decimals as exact rationals"
 HOMEPAGE="https://github.com/AlexKnauth/exact-decimal-lang"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Kalimehtar/gir"
 GH_COMMIT="668b693a4e0148ae5305493a3c7440e35f155082"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="GTK/GLib/GIO/... GObjectIntrospection FFI binding"
 HOMEPAGE="https://github.com/Kalimehtar/gir"

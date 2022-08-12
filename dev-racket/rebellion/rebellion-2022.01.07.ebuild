@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/rebellion"
 GH_COMMIT="fb76d4034e97aa0516dfda376b24a485488289f8"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A collection of infrastructure libraries"
 HOMEPAGE="https://github.com/jackfirth/rebellion"

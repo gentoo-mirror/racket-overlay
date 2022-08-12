@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="curiousyogurt/turing"
 GH_COMMIT="ff8006382eeade4642216b758efdae5c52efa049"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the turing Racket package"
 HOMEPAGE="https://github.com/curiousyogurt/turing"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="ralsei/sawzall"
 GH_COMMIT="0ddafc0d3cdfc1bfebda976c36d230dd29134eb7"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Tests for Sawzall"
 HOMEPAGE="https://github.com/ralsei/sawzall"

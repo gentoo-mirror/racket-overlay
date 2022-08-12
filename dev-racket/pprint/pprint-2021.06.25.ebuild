@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="takikawa/pprint.plt"
 GH_COMMIT="f078284e092f98c5c15278b334f9b5b32828e9b6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A universal pretty printing library"
 HOMEPAGE="https://github.com/takikawa/pprint.plt"

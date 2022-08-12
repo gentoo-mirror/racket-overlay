@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket-tw/cover-badge"
 GH_COMMIT="7819d2e7d52733d403290f4b608235bdee45f830"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A badge generator for coverage"
 HOMEPAGE="https://github.com/racket-tw/cover-badge"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/xml-rpc"
 GH_COMMIT="ff4bb8aed216fcde3ef34c78908747dbfe026049"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A native Racket XML-RPC client and server library"
 HOMEPAGE="https://github.com/jeapostrophe/xml-rpc"

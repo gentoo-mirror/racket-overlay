@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="RayRacine/opt"
 GH_COMMIT="83544737512709bfbdf5d65a956ee12c4cc7e822"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The opt Racket package"
 HOMEPAGE="https://gitlab.com/RayRacine/opt"

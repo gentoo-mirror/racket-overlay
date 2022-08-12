@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="97jaz/gregor"
 GH_COMMIT="983dd8d5d0d8fedc8e2b940b775b7b502f4fb231"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Code part of the gregor date and time library"
 HOMEPAGE="https://github.com/97jaz/gregor"

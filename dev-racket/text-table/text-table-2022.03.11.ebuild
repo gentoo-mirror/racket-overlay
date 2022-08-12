@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Metaxal/text-table"
 GH_COMMIT="35fb68b28a3e3cfd7dc9cc394aa9f96d051b020b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A simple package to display text tables with unicode frames."
 HOMEPAGE="https://github.com/Metaxal/text-table"

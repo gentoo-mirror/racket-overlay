@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="aeva/tangerine"
 GH_COMMIT="11117e4531b8640ba4846bed930409c4997b3b2c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library for constructing and executing signed distance functions."
 HOMEPAGE="https://github.com/aeva/tangerine"

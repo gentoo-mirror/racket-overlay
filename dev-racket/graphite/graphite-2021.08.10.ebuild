@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="ralsei/graphite"
 GH_COMMIT="89f24af3a7d83019de362b52c07f15ce32aa73b1"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A ggplot2-inspired data visualization library"
 HOMEPAGE="https://github.com/ralsei/graphite"

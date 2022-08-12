@@ -7,7 +7,7 @@ GH_DOM="bitbucket.org"
 GH_REPO="derend/simple-matrix"
 GH_COMMIT="19814fd5de10d42eea207939169ee5100e38c500"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A very simple library for basic matrix arithmetic."
 HOMEPAGE="https://bitbucket.org/derend/simple-matrix"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="wargrey/clang"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Toolbox for C family in Typed Racket"
 HOMEPAGE="https://github.com/wargrey/clang"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="RayRacine/ibkre"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="IBK Actor/Syndicate Library"
 HOMEPAGE="https://gitlab.com/RayRacine/ibkre"

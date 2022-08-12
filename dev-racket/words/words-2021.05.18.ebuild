@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mbutterick/words"
 GH_COMMIT="c8b9640ec5ec372306ead314d180c38510e32076"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="generate lists of words"
 HOMEPAGE="https://github.com/mbutterick/words"

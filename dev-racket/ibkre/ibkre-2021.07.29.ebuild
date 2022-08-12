@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="RayRacine/ibkre"
 GH_COMMIT="9874511b6c5b920ffdbe4e40c6ac2cdeec4a9b8c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="IBK Actor/Syndicate Library"
 HOMEPAGE="https://gitlab.com/RayRacine/ibkre"

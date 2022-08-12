@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="massung/r-cade"
 GH_COMMIT="aede5ea5b019775d5beba219baf6a19ef4d4bfca"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Retro game engine."
 HOMEPAGE="https://github.com/massung/r-cade"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="sorawee/fmt"
 GH_COMMIT="cdbfddfa486484ae8225a38053f99abbac1e9359"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An extensible code formatter for Racket"
 HOMEPAGE="https://github.com/sorawee/fmt"

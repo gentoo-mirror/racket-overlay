@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samdphillips/raco-pkg-env"
 GH_COMMIT="16e6ea731c360efeadd3c8ff5683e72cf5c3c2ea"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="virtualenv like tool for Racket"
 HOMEPAGE="https://github.com/samdphillips/raco-pkg-env"

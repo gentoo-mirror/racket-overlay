@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/turn-based-game"
 GH_COMMIT="bdc793d50f67bb59446caecc9e5771d84e1eba17"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="interfaces and tools for defining and playing turn-based games"
 HOMEPAGE="https://github.com/AlexKnauth/turn-based-game"

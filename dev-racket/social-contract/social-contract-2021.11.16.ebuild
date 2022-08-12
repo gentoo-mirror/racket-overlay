@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="countvajhula/social-contract"
 GH_COMMIT="9eae6040c675a4465af6bfde94dfcf80f548ff40"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="High-level, composable syntax for describing contracts."
 HOMEPAGE="https://github.com/countvajhula/social-contract"

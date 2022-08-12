@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jeapostrophe/raart"
 GH_COMMIT="9d82f2f8ad0052c2f4a6a75a00d957b9806f33df"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="racket ansi art"
 HOMEPAGE="https://github.com/jeapostrophe/raart"

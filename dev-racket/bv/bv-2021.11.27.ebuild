@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="pmatos/racket-bv"
 GH_COMMIT="3d1fdc02432dc7bb839802f499834bd3345e54bf"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Bitvectors for Racket a-la Rosette"
 HOMEPAGE="https://github.com/pmatos/racket-bv"

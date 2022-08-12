@@ -7,7 +7,7 @@ GH_DOM="git.sr.ht"
 GH_REPO="~sschwarzer/todo-txt"
 GH_COMMIT="cab12c9d480d16fdc1447caa55b50fff4a59bcdc"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the todo-txt Racket package"
 HOMEPAGE="https://git.sr.ht/~sschwarzer/todo-txt"

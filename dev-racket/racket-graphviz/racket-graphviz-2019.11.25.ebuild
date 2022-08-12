@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="pykello/racket-graphviz"
 GH_COMMIT="9486fa524e22e2a04ae20a36b0c1c426716981b5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Make composition of Racket Pict and Graphviz Diagrams possible."
 HOMEPAGE="https://github.com/pykello/racket-graphviz"

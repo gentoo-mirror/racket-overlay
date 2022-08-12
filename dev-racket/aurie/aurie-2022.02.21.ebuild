@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="spritely/aurie"
 GH_COMMIT="8f253de0c353f693f6fdb9578c497089acec470a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the aurie Racket package"
 HOMEPAGE="https://gitlab.com/spritely/aurie"

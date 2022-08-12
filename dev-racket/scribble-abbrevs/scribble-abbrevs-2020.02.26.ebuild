@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="bennn/scribble-abbrevs"
 GH_COMMIT="ecd6328cf21cd869c867587212fc0d8fdbf38f85"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Scribble-to-LaTeX helper functions"
 HOMEPAGE="https://github.com/bennn/scribble-abbrevs"

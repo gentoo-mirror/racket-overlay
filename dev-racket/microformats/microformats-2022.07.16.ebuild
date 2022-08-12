@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jacobwhall/racket-mf2"
 GH_COMMIT="b28d5344c62adde717b3edbeebb153340b7063a8"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A microformats2 parsing library"
 HOMEPAGE="https://github.com/jacobwhall/racket-mf2"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="Gradual-Typing/Grift"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A gradually typed language"
 HOMEPAGE="https://github.com/Gradual-Typing/Grift"

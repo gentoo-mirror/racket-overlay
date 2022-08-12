@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/koyo"
 GH_COMMIT="2a128cc6e25f0d69809bcedec06d0905fd44558a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A web application toolkit (docs only)."
 HOMEPAGE="https://github.com/Bogdanp/koyo"

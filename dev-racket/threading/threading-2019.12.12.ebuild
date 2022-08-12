@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lexi-lambda/threading"
 GH_COMMIT="13a34f14fe073c328e5cc083c616a602a79afa58"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the threading Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/threading"

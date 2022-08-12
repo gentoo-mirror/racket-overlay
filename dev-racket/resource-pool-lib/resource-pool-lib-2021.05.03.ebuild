@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-resource-pool"
 GH_COMMIT="60838899b4b1f69165dc1b3f664eb30d90355e47"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A generic blocking resource pool. (implementation)"
 HOMEPAGE="https://github.com/Bogdanp/racket-resource-pool"

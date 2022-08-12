@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-kafka"
 GH_COMMIT="dc05bbbc1f602ccb9ac670874ace5632b4528d93"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A client for Apache Kafka. (implementation only)"
 HOMEPAGE="https://github.com/Bogdanp/racket-kafka"

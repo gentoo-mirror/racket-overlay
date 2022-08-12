@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="sorawee/pprint-compact"
 GH_COMMIT="6a9aa374033b7d7fa048d156b7b71ed24b80b96a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A non-greedy pretty printer"
 HOMEPAGE="https://github.com/sorawee/pprint-compact"

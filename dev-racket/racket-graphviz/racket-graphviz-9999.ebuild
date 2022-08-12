@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="pykello/racket-graphviz"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Make composition of Racket Pict and Graphviz Diagrams possible."
 HOMEPAGE="https://github.com/pykello/racket-graphviz"

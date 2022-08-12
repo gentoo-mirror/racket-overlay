@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lathe/interconfection-for-racket"
 GH_COMMIT="0951fa96ce4cdd6d53df4dd2b93e011ad0d2bbbf"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library for building extensible systems, especially module systems. (doc)"
 HOMEPAGE="https://github.com/lathe/interconfection-for-racket"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="herbie-fp/rival"
 GH_COMMIT="93a2cc3c8f3c262897f71c787df17444369d03af"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Interval analysis for real computation"
 HOMEPAGE="https://github.com/herbie-fp/rival"

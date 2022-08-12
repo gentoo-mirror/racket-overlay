@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="racket-tw/k"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="examples of using k theorem prover"
 HOMEPAGE="https://github.com/racket-tw/k"

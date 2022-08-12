@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Syntacticlosure/racket-spider"
 GH_COMMIT="e85c669f23e96944a7f9a42b29872b8e59a65c74"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="lightweight http client"
 HOMEPAGE="https://github.com/Syntacticlosure/racket-spider"

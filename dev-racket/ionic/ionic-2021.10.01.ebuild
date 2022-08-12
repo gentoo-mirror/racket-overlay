@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="countvajhula/ionic"
 GH_COMMIT="c4240590122714c44960fbdd785647606d621f01"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Another way to structure computations"
 HOMEPAGE="https://github.com/countvajhula/ionic"

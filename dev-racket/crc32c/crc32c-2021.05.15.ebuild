@@ -7,7 +7,7 @@ GH_DOM="bitbucket.org"
 GH_REPO="Tetsumi/crc32c"
 GH_COMMIT="9ae11530f64ae796e3280b224249f5157b7bdf04"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Implementation of CRC32-C"
 HOMEPAGE="https://bitbucket.org/Tetsumi/crc32c"

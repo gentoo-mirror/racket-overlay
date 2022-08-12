@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="bennn/gtp-util"
 GH_COMMIT="e1c3d7b4ed1128271324201171240e111ce51419"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="37 helper functions you won't find anywhere else"
 HOMEPAGE="https://github.com/bennn/gtp-util"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="morcmarc/affix"
 GH_COMMIT="32a8e88e8547227d473013d8f90f41f6b5665b69"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Managing Racket application state"
 HOMEPAGE="https://github.com/morcmarc/affix"

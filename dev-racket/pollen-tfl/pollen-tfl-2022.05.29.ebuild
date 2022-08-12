@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mbutterick/pollen-tfl"
 GH_COMMIT="08196c3fe33a5869a3c497b19dd02ecee233a7e6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Sample Pollen project: source code for Typography for Lawyers website"
 HOMEPAGE="https://github.com/mbutterick/pollen-tfl"

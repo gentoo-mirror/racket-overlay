@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/define-match-spread-out"
 GH_COMMIT="0f97b9f4bdee1655617f70f4291cf774993b2f83"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a version of define that allows definitions to be spread across a file"
 HOMEPAGE="https://github.com/AlexKnauth/define-match-spread-out"

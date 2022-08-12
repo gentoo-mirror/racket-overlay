@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="sicp-lang/sicp"
 GH_COMMIT="80cb41e36651aa67f3a8dfe57fab53d67d01167a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="SICP Support for DrRacket"
 HOMEPAGE="https://github.com/sicp-lang/sicp"

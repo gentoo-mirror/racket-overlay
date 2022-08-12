@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="xgqt/racket-portage-admin"
 GH_COMMIT="3729ea070def872295713febe4352f549282ae86"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A GUI application for inspection of Gentoo-based systems. Core."
 HOMEPAGE="https://gitlab.com/xgqt/racket-portage-admin"

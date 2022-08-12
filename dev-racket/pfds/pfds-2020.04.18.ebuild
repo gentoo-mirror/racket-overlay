@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="takikawa/tr-pfds"
 GH_COMMIT="a08810bdfc760bb9ed68d08ea222a59135d9a203"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Purely functional data structures for Typed Racket"
 HOMEPAGE="https://github.com/takikawa/tr-pfds"

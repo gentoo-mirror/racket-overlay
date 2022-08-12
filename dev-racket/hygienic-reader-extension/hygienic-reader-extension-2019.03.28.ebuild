@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/hygienic-reader-extension"
 GH_COMMIT="e00ab648d34f7ea33abd5f9c8b372404bf64aa79"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="adding hygiene to racket reader extensions"
 HOMEPAGE="https://github.com/AlexKnauth/hygienic-reader-extension"

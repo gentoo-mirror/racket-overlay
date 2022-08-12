@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samth/gradual-typing-bib"
 GH_COMMIT="4c73669423a6877f37244e2015a0b02c8878f425"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the gradual-typing-bib Racket package"
 HOMEPAGE="https://github.com/samth/gradual-typing-bib"

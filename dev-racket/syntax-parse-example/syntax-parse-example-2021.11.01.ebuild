@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="syntax-objects/syntax-parse-example"
 GH_COMMIT="1f0506ffe5460b1da59b09a946b1b3254f7b975f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Example macros written using syntax/parse"
 HOMEPAGE="https://github.com/syntax-objects/syntax-parse-example"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Quickscript-Competiton/July2020entries"
 GH_COMMIT="8ef87f308a66b37a7fca4edacfd5819aeab10767"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Scripts from the Quickscript Competition July 2020"
 HOMEPAGE="https://github.com/Quickscript-Competiton/July2020entries"

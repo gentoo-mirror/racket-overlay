@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="michaelballantyne/multiscope"
 GH_COMMIT="bc59bd53462a72ed3e67ec2555e94e871bc7e314"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The multiscope Racket package"
 HOMEPAGE="https://github.com/michaelballantyne/multiscope"

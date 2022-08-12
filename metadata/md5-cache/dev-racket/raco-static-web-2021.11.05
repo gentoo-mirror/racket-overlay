@@ -3,7 +3,7 @@ DEFINED_PHASES=compile install postinst prepare prerm test
 DESCRIPTION=Serve some static files from raco
 EAPI=8
 HOMEPAGE=https://github.com/samdphillips/raco-static-web
-INHERIT=racket gh
+INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
@@ -11,5 +11,5 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/samdphillips/raco-static-web/archive/18880bccd538aef7a746c782f7d9cd27129d3577.tar.gz -> raco-static-web-2021.11.05.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3	gh	ef34df1fe2cc8afb0a92dc34090e1606
-_md5_=5507ad21865c671aabc7801787f8c0f9
+_eclasses_=gh	ef34df1fe2cc8afb0a92dc34090e1606	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3
+_md5_=a44b69defb0aae2f9f2315fc04cf7c26

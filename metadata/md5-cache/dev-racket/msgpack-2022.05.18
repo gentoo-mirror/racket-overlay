@@ -3,7 +3,7 @@ DEFINED_PHASES=compile install postinst prepare prerm test
 DESCRIPTION=Implementation of the MessagePack protocol.
 EAPI=8
 HOMEPAGE=https://gitlab.com/HiPhish/MsgPack.rkt
-INHERIT=racket gh
+INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
@@ -11,5 +11,5 @@ RDEPEND=dev-racket/quickcheck >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/HiPhish/MsgPack.rkt/-/archive/64a60986b149703ff9436877da1dd3e86c6e4094.tar.gz -> msgpack-2022.05.18.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3	gh	ef34df1fe2cc8afb0a92dc34090e1606
-_md5_=520dbd2bd2dc074649ede4225e624bd1
+_eclasses_=gh	ef34df1fe2cc8afb0a92dc34090e1606	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3
+_md5_=66160b7eea41d8237c85ae50eaaea9a9

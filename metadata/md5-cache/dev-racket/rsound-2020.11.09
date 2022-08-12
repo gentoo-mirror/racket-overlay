@@ -4,7 +4,7 @@ DEPEND=dev-racket/memoize dev-racket/portaudio
 DESCRIPTION=the rsound Racket package
 EAPI=8
 HOMEPAGE=https://github.com/jbclements/RSound
-INHERIT=racket gh
+INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
@@ -12,5 +12,5 @@ RDEPEND=dev-racket/memoize dev-racket/portaudio >=dev-scheme/racket-8.1:=[-minim
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jbclements/RSound/archive/c699db1ffae4cf0185c46bdc059d7879d40614ce.tar.gz -> rsound-2020.11.09.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3	gh	ef34df1fe2cc8afb0a92dc34090e1606
-_md5_=be7279749c08457288ea2ccd48d193c0
+_eclasses_=gh	ef34df1fe2cc8afb0a92dc34090e1606	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3
+_md5_=963cef2e97a9f6a4bc1cb7a1e440a4dd

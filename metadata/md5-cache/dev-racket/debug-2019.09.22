@@ -4,7 +4,7 @@ DEPEND=dev-racket/pretty-format
 DESCRIPTION=a lang-extension for debugging, and a macro for inserting a debug-repl
 EAPI=8
 HOMEPAGE=https://github.com/AlexKnauth/debug
-INHERIT=racket gh
+INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
@@ -12,5 +12,5 @@ RDEPEND=dev-racket/pretty-format >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/debug/archive/aa798842c09ece55c2a088f09d30e398d2b77fee.tar.gz -> debug-2019.09.22.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3	gh	ef34df1fe2cc8afb0a92dc34090e1606
-_md5_=397751533eeffae79270d99ff28580f5
+_eclasses_=gh	ef34df1fe2cc8afb0a92dc34090e1606	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3
+_md5_=570d5d18e9628005e38d331de5da1e95

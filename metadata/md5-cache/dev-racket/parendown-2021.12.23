@@ -4,7 +4,7 @@ DEPEND=dev-racket/parendown-doc dev-racket/parendown-lib
 DESCRIPTION=A weak opening parenthesis, good for eliminating indentation.
 EAPI=8
 HOMEPAGE=https://github.com/lathe/parendown-for-racket
-INHERIT=racket gh
+INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
@@ -12,5 +12,5 @@ RDEPEND=dev-racket/parendown-doc dev-racket/parendown-lib >=dev-scheme/racket-8.
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lathe/parendown-for-racket/archive/5af0eaa8fbbb060a7f5bb4b240e72fe56a6536b3.tar.gz -> parendown-2021.12.23.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3	gh	ef34df1fe2cc8afb0a92dc34090e1606
-_md5_=b67603d2cd466e1dc1fadba8296ac9ab
+_eclasses_=gh	ef34df1fe2cc8afb0a92dc34090e1606	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3
+_md5_=89e2d1a21725fe55cf9f34dff91d3425

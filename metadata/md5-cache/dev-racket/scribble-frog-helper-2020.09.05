@@ -4,7 +4,7 @@ DEPEND=dev-racket/frog dev-racket/gregor dev-racket/timable
 DESCRIPTION=scribble helper functions especially for writing blogs with frog
 EAPI=8
 HOMEPAGE=https://github.com/yanyingwang/scribble-frog-helper
-INHERIT=racket gh
+INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
@@ -12,5 +12,5 @@ RDEPEND=dev-racket/frog dev-racket/gregor dev-racket/timable >=dev-scheme/racket
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/yanyingwang/scribble-frog-helper/archive/5ba86188de0ce1cd3d4540982be2473183c78e81.tar.gz -> scribble-frog-helper-2020.09.05.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3	gh	ef34df1fe2cc8afb0a92dc34090e1606
-_md5_=b6c8f2be64e1898cfd0e850bec13f964
+_eclasses_=gh	ef34df1fe2cc8afb0a92dc34090e1606	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3
+_md5_=bc3e4f2d4b57c3bf11e7868c78ea52f3

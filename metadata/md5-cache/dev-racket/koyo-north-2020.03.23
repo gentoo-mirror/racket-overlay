@@ -4,7 +4,7 @@ DEPEND=dev-racket/component-lib dev-racket/koyo-lib dev-racket/north
 DESCRIPTION=A north migrator component for koyo.
 EAPI=8
 HOMEPAGE=https://github.com/Bogdanp/koyo-north
-INHERIT=racket gh
+INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
@@ -12,5 +12,5 @@ RDEPEND=dev-racket/component-lib dev-racket/koyo-lib dev-racket/north >=dev-sche
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/koyo-north/archive/a552fe709655a15d1a1382a909fe2466f173f27c.tar.gz -> koyo-north-2020.03.23.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3	gh	ef34df1fe2cc8afb0a92dc34090e1606
-_md5_=ffc572db7e779c6fe90f888712e3c021
+_eclasses_=gh	ef34df1fe2cc8afb0a92dc34090e1606	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3
+_md5_=b371fc4e4f0e6d78fbf73d85054e7af0

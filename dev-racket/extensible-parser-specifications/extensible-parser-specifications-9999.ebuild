@@ -6,9 +6,9 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jsmaniac/extensible-parser-specifications"
 
-inherit racket gh
+inherit gh racket
 
-DESCRIPTION="the extensible-parser-specifications Racket package"
+DESCRIPTION="The extensible-parser-specifications Racket package"
 HOMEPAGE="https://github.com/jsmaniac/extensible-parser-specifications"
 
 LICENSE="all-rights-reserved"
@@ -19,4 +19,4 @@ RDEPEND="dev-racket/alexis-util
 	dev-racket/generic-syntax-expanders
 	dev-racket/phc-toolkit
 	dev-racket/seq-no-order"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

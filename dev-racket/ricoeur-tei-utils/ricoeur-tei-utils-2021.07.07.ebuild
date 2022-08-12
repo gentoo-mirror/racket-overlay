@@ -7,7 +7,7 @@ GH_DOM="bitbucket.org"
 GH_REPO="digitalricoeur/tei-utils"
 GH_COMMIT="545c192aff9138d05bdd1aeb97d0f145508b84a8"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Digital Ricoeur library for TEI XML files"
 HOMEPAGE="https://bitbucket.org/digitalricoeur/tei-utils"

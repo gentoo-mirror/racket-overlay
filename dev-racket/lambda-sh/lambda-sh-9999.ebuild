@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="wargrey/lambda-shell"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The lambda-sh Racket package"
 HOMEPAGE="https://github.com/wargrey/lambda-shell"

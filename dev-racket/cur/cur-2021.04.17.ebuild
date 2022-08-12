@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="wilbowma/cur"
 GH_COMMIT="7ce536c14e4e18cc84a7011a70f37cb98e21cf97"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Dependent types and meta-programming"
 HOMEPAGE="https://github.com/wilbowma/cur"

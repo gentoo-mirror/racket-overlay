@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="herbie-fp/rival"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Interval analysis for real computation"
 HOMEPAGE="https://github.com/herbie-fp/rival"

@@ -8,7 +8,7 @@ AUX_PH=a3292113bb0d7dd8dc2114702b90e76f23963496
 
 inherit racket
 
-DESCRIPTION="the stxparse-info Racket package"
+DESCRIPTION="The stxparse-info Racket package"
 HOMEPAGE="https://pkgs.racket-lang.org/package/stxparse-info"
 SRC_URI="https://github.com/jsmaniac/stxparse-info/archive/${MAIN_PH}.tar.gz -> ${P}.tar.gz
 	https://github.com/jsmaniac/subtemplate/archive/${AUX_PH}.tar.gz -> ${PN}_aux_subtemplate-${PV}.tar.gz"
@@ -21,7 +21,7 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/auto-syntax-e
 	dev-racket/version-case"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"
 PDEPEND="dev-racket/subtemplate"
 
 src_compile() {

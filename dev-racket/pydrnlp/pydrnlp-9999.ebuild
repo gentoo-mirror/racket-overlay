@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="bitbucket.org"
 GH_REPO="digitalricoeur/pydrnlp"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="NLP Library for Digital Ricoeur"
 HOMEPAGE="https://bitbucket.org/digitalricoeur/pydrnlp"

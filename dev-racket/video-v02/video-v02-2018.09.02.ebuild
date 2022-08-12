@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="videolang/video"
 GH_COMMIT="8828d1c287030691cbc12f75fb803265fc3d97bb"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="v0.2 of #lang video"
 HOMEPAGE="https://github.com/videolang/video"
@@ -23,4 +23,4 @@ RDEPEND="dev-racket/bitsyntax
 	dev-racket/portaudio
 	dev-racket/ppict
 	dev-racket/reprovide-lang"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

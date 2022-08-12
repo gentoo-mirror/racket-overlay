@@ -7,9 +7,9 @@ GH_DOM="github.com"
 GH_REPO="jsmaniac/xlist"
 GH_COMMIT="e82c02f99186b062df86a92dc63a954861e36064"
 
-inherit racket gh
+inherit gh racket
 
-DESCRIPTION="the xlist Racket package"
+DESCRIPTION="The xlist Racket package"
 HOMEPAGE="https://github.com/jsmaniac/xlist"
 
 LICENSE="all-rights-reserved"
@@ -25,4 +25,4 @@ RDEPEND="dev-racket/match-string
 	dev-racket/scribble-enhanced
 	dev-racket/scribble-math
 	dev-racket/type-expander"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

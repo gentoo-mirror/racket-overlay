@@ -4,5 +4,6 @@
 <pkgmetadata>
   <upstream>
     <bugs-to>https://bitbucket.org/digitalricoeur/pydrnlp</bugs-to>
+    <remote-id type="bitbucket">digitalricoeur/pydrnlp</remote-id>
   </upstream>
 </pkgmetadata>

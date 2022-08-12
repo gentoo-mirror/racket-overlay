@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="videolang/test-samples"
 GH_COMMIT="6ac1cfc77152350d1ce55738447350ae0d43cf5d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The video-samples Racket package"
 HOMEPAGE="https://github.com/videolang/test-samples"

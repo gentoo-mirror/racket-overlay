@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="wargrey/digimon"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The (typed) core to construct the digital world"
 HOMEPAGE="https://github.com/wargrey/digimon"

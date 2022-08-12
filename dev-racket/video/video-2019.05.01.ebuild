@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="videolang/video"
 GH_COMMIT="aa958b5ab250c8a202b24444935255d773608ea6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The latest version of #lang video"
 HOMEPAGE="https://github.com/videolang/video"

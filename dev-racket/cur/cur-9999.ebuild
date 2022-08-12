@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="wilbowma/cur"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Dependent types and meta-programming"
 HOMEPAGE="https://github.com/wilbowma/cur"

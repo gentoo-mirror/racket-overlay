@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="videolang/video"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The latest and greatest build of Video. This build will occasionally fail."
 HOMEPAGE="https://github.com/videolang/video"

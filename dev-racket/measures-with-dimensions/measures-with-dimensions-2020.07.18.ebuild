@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/measures-with-dimensions"
 GH_COMMIT="fc6c78f79ac89cf488a5ccc5fc20391bd254886c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="based on measures, but with dimensions and types"
 HOMEPAGE="https://github.com/AlexKnauth/measures-with-dimensions"

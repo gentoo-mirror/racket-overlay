@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jsmaniac/delay-pure"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The delay-pure Racket package"
 HOMEPAGE="https://github.com/jsmaniac/delay-pure"
@@ -15,6 +15,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/type-expander
+RDEPEND="dev-racket/phc-toolkit
+	dev-racket/type-expander
 	dev-racket/version-case"
 BDEPEND="${RDEPEND}"

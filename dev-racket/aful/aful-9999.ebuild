@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jsmaniac/aful"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A fork of #lang afl which also supports #lang aflu/unhygienic."
 HOMEPAGE="https://github.com/jsmaniac/aful"
@@ -20,4 +20,4 @@ RDEPEND="dev-racket/hygienic-reader-extension
 	dev-racket/rackjure
 	dev-racket/scribble-code-examples
 	dev-racket/scribble-enhanced"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

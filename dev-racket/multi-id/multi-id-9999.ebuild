@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="jsmaniac/multi-id"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The multi-id Racket package"
 HOMEPAGE="https://github.com/jsmaniac/multi-id"
@@ -16,6 +16,7 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/hyper-literate
+	dev-racket/phc-toolkit
 	dev-racket/scribble-enhanced
 	dev-racket/type-expander"
 BDEPEND="${RDEPEND}"

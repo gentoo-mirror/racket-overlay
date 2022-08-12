@@ -5,9 +5,9 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="herbie-fp/softposit-herbie"
-GH_COMMIT="d8cb08ed43abf907029ae2d87733ecaeafe8ea29"
+GH_COMMIT="20ef612dbd9e3413302d156d6325e1956ea0788d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="SoftPosit support for Herbie"
 HOMEPAGE="https://github.com/herbie-fp/softposit-herbie"

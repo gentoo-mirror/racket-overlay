@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lathe/lathe-comforts-for-racket"
 GH_COMMIT="a6a84fcd747e1ae9584c62d91edc2277a87154d8"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A collection of utilities. (doc)"
 HOMEPAGE="https://github.com/lathe/lathe-comforts-for-racket"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="vicampo/riposte"
 GH_COMMIT="0a71e54539cb40b574f84674769792444691a8cf"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Language for testing JSON-based HTTP APIs"
 HOMEPAGE="https://github.com/vicampo/riposte"

@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="zyrolasting/mind-map"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Write and render mind maps in Racket."
 HOMEPAGE="https://github.com/zyrolasting/mind-map"

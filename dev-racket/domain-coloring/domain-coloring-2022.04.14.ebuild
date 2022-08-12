@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="TrueQueenBee/domain-coloring"
 GH_COMMIT="6fa015ec563a0dff76a77d6653ac5c09b8b136e8"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A domain coloring tool for complex analysis"
 HOMEPAGE="https://github.com/TrueQueenBee/domain-coloring"

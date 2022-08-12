@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dstorrs/in-out-logged"
 GH_COMMIT="0854345e55490cd185ff0a8c8bc325208e7461de"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The in-out-logged Racket package"
 HOMEPAGE="https://github.com/dstorrs/in-out-logged"

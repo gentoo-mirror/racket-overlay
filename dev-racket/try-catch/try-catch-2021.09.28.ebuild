@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dstorrs/try-catch"
 GH_COMMIT="dd884c1819085f9adbdebc066f91e5273478cbeb"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the try-catch Racket package"
 HOMEPAGE="https://github.com/dstorrs/try-catch"

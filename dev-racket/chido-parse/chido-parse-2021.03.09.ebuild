@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="willghatch/racket-chido-parse"
 GH_COMMIT="413c49e9760c0313809ecbf9ccee9772413cb336"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Parsing with delimited continuations."
 HOMEPAGE="https://github.com/willghatch/racket-chido-parse"

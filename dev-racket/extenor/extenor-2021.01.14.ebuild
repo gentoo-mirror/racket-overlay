@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="willghatch/racket-extenor"
 GH_COMMIT="6be463cb23ceca3b602ce1c482cd6d37cd7a6e15"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the extenor Racket package"
 HOMEPAGE="https://github.com/willghatch/racket-extenor"

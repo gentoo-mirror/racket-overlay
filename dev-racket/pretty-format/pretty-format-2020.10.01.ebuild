@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/pretty-format"
 GH_COMMIT="f3c82271fe92e8414d203087727a73543465d27e"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Pretty versions of printf, format, etc. that print according to format strings"
 HOMEPAGE="https://github.com/AlexKnauth/pretty-format"

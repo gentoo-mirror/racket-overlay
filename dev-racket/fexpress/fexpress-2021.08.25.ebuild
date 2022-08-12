@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="rocketnia/fexpress"
 GH_COMMIT="5a6ee4baa220472cc68fdb41bd4b106a5add9a49"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A compilation-friendly fexpr language."
 HOMEPAGE="https://github.com/rocketnia/fexpress"

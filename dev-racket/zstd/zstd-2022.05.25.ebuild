@@ -7,7 +7,7 @@ GH_DOM="git.sr.ht"
 GH_REPO="~williewillus/racket-zstd"
 GH_COMMIT="70085af06dc8ae494c712066040b258c03a9942a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The zstd Racket package"
 HOMEPAGE="https://git.sr.ht/~williewillus/racket-zstd"

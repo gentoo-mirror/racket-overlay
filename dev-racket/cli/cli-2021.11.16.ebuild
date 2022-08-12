@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="countvajhula/cli"
 GH_COMMIT="20892b61a9c5fb0977d93fb9b7bbac77ea0fd882"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Simple and expressive command line interfaces."
 HOMEPAGE="https://github.com/countvajhula/cli"

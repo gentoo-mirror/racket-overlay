@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexMaclean/racket-openfst"
 GH_COMMIT="b308e9335fc02f57699ce8bcc2e2f231bf05edf6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The openfst Racket package"
 HOMEPAGE="https://github.com/AlexMaclean/racket-openfst"

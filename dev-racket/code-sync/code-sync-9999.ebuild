@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="rymaju/code-sync"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Fast Code Sharing for DrRacket"
 HOMEPAGE="https://github.com/rymaju/code-sync"

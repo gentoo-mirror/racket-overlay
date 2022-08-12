@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="tgbugs/laundry"
 GH_COMMIT="b35920bef4e1e117a0f4e4461b06294c9bcfb1b1"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Org mode for Racket."
 HOMEPAGE="https://github.com/tgbugs/laundry"

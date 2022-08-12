@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="evdubs/interactive-brokers-api"
 GH_COMMIT="74e39708478679af4fd347bda79b7942ffee029e"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Client API for Interactive Brokers' Trader Workstation"
 HOMEPAGE="https://github.com/evdubs/interactive-brokers-api"

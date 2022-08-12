@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="zyrolasting/syntax-highlighting"
 GH_COMMIT="d02c1847e606604e09d92bd5d2aec85d30e3dd48"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the syntax-highlighting Racket package"
 HOMEPAGE="https://github.com/zyrolasting/syntax-highlighting"

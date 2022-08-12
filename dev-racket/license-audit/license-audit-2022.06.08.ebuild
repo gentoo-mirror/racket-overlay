@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="sorawee/license-audit"
 GH_COMMIT="2503ab41ae29004b2b27e035eeebdfe1f1a5491e"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Audit package licenses (including their dependencies)"
 HOMEPAGE="https://github.com/sorawee/license-audit"

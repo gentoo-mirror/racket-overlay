@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="bennn/gtp-measure"
 GH_COMMIT="4411c3575f2f26269dc48fd9005b4ee7a898df26"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Runs programs, collects timing info"
 HOMEPAGE="https://github.com/bennn/gtp-measure"

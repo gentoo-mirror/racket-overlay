@@ -7,7 +7,7 @@ GH_DOM="git.sr.ht"
 GH_REPO="~sschwarzer/raco-exe-multitarget"
 GH_COMMIT="4da4e5a099cab3bcb8c68c062af197aca24f767a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Create standalone binaries for multiple target platforms"
 HOMEPAGE="https://git.sr.ht/~sschwarzer/raco-exe-multitarget"

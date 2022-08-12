@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="petterpripp/gsl-rng"
 GH_COMMIT="c7d98142b55ab990af8d1d27d59be17058755dcd"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Interface to GNU GSL Random Number Generation"
 HOMEPAGE="https://github.com/petterpripp/gsl-rng"

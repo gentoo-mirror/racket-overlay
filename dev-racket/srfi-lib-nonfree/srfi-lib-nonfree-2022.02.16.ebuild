@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/srfi"
 GH_COMMIT="7243029b135741ce08ae30f877e2f49a2a460b22"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="parts of srfi implementation that are licensed restrictively"
 HOMEPAGE="https://github.com/racket/srfi"

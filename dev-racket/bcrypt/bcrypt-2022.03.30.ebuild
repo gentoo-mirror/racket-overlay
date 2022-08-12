@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samth/bcrypt.rkt"
 GH_COMMIT="34284792169d9c34b3e1aecf7edc62513eda81d7"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Racket interface to the bcrypt key derivation function."
 HOMEPAGE="https://github.com/samth/bcrypt.rkt"

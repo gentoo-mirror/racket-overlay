@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="hashimmm/tablesci"
 GH_COMMIT="43c4544d64e9d218acabe167bfa3c894fa6f5f42"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The tablesci Racket package"
 HOMEPAGE="https://gitlab.com/hashimmm/tablesci"

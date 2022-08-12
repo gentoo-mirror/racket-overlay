@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/string-constants"
 GH_COMMIT="2d57df664efb028e25853cbe0ce22a82c4ece76d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The string-constants-lib-lgpl Racket package"
 HOMEPAGE="https://github.com/racket/string-constants"

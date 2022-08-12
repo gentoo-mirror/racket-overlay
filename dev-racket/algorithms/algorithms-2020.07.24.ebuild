@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="codereport/racket-algorithms"
 GH_COMMIT="b114ca74b632cd112d51509e79d2cf4f7aa55d2f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the algorithms Racket package"
 HOMEPAGE="https://github.com/codereport/racket-algorithms"

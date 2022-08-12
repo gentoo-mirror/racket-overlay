@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mbutterick/css-tools"
 GH_COMMIT="a33fc646904b99cece497b5b221a8d83bdc4d96f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Tools for generating & manipulating CSS (unstable)"
 HOMEPAGE="https://github.com/mbutterick/css-tools"

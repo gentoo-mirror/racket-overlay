@@ -7,7 +7,7 @@ GH_DOM="git.uwaterloo.ca"
 GH_REPO="djholtby/uwaterloo-racket"
 GH_COMMIT="c4848f9d32d83c385e7ae0a7efc8bc11ccb808a8"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The htdp-trace Racket package"
 HOMEPAGE="https://git.uwaterloo.ca/djholtby/uwaterloo-racket"

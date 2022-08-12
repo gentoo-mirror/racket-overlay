@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jsmaniac/type-expander"
 GH_COMMIT="b182b9422083bf8adee71d6543f78372ad801ede"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Type expanders for typed/racket, which work like match expanders for match"
 HOMEPAGE="https://github.com/jsmaniac/type-expander"

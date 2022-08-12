@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dstorrs/majordomo2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The majordomo2 Racket package"
 HOMEPAGE="https://github.com/dstorrs/majordomo2"

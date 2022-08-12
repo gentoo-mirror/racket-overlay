@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dstorrs/racket-queue"
 GH_COMMIT="c128d347f2a3a03b4c658976a0f5661c02b960b6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An amortized O(1) queue struct"
 HOMEPAGE="https://github.com/dstorrs/racket-queue"

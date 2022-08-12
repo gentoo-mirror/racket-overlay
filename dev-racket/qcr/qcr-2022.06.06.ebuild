@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Antigen-1/qcr"
 GH_COMMIT="289be0df3b253171ab3105345ffcdcdee2335ad2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A small chat room on tcp."
 HOMEPAGE="https://github.com/Antigen-1/qcr"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lives-group/typed-peg"
 GH_COMMIT="6bec91624e21d3d54bf2becdcd2080318bfb6de5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the typed-peg Racket package"
 HOMEPAGE="https://github.com/lives-group/typed-peg"

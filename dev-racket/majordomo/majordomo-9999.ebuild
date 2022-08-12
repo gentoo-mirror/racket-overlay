@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="dstorrs/majordomo"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A job manager that includes automatic retries with updated state on restart."
 HOMEPAGE="https://github.com/dstorrs/majordomo"

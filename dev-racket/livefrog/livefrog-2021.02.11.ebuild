@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="ebzzry/livefrog"
 GH_COMMIT="cde478d1ab11c52f7f23763174ae9ae16402a918"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Convert ljdump/ljmigrate files for Frog"
 HOMEPAGE="https://github.com/ebzzry/livefrog"

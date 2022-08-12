@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samdphillips/raco-static-web"
 GH_COMMIT="18880bccd538aef7a746c782f7d9cd27129d3577"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Serve some static files from raco"
 HOMEPAGE="https://github.com/samdphillips/raco-static-web"

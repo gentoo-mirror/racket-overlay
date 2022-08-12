@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="michaelballantyne/minikanren-ee"
 GH_COMMIT="6197816f2660c43acb7352bbbe1af2886d234aca"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the minikanren-ee Racket package"
 HOMEPAGE="https://github.com/michaelballantyne/minikanren-ee"

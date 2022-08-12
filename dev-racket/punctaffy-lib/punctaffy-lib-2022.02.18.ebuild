@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lathe/punctaffy-for-racket"
 GH_COMMIT="e2491eb71ca1eafe26cbf1e497532234b8fc78ba"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the punctaffy-lib Racket package"
 HOMEPAGE="https://github.com/lathe/punctaffy-for-racket"

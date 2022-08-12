@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="97jaz/gregor"
 GH_COMMIT="9b8fb5399470acfba13d7d02d3eb250626e64774"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Documentation part of gregor library"
 HOMEPAGE="https://github.com/97jaz/gregor"

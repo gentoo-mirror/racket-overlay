@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="yjqww6/drcomplete"
 GH_COMMIT="eed4628a9553e103e062006655a16f5dc68ee7cd"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The package assembles drcomplete plugins"
 HOMEPAGE="https://github.com/yjqww6/drcomplete"

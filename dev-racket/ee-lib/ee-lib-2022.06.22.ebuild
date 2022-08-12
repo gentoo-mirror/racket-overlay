@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="michaelballantyne/ee-lib"
 GH_COMMIT="c2dade453ed3293e9b2a7cf88495bef4da0b53d6"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Utilities for defining embedded macro expanders"
 HOMEPAGE="https://github.com/michaelballantyne/ee-lib"

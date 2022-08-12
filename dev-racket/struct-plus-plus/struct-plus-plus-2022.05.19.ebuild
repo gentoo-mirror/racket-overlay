@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dstorrs/struct-plus-plus"
 GH_COMMIT="55e8bf5aa9799978645a8e3be962df866be34a80"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the struct-plus-plus Racket package"
 HOMEPAGE="https://github.com/dstorrs/struct-plus-plus"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="johnnyodonnell/racket-lambda-runtime"
 GH_COMMIT="2a8410a11e93bf9371eac6f90a37c582ef5e1897"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the racket-lambda-runtime Racket package"
 HOMEPAGE="https://github.com/johnnyodonnell/racket-lambda-runtime"

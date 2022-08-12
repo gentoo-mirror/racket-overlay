@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="RayRacine/http11-server"
 GH_COMMIT="f45e745600995225fb492adc86bc31597b6b9b3d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The http11-server Racket package"
 HOMEPAGE="https://gitlab.com/RayRacine/http11-server"

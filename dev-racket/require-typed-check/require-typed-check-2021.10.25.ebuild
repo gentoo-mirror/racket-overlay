@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="bennn/require-typed-check"
 GH_COMMIT="06e185270750d7d85906da1d25e156ee32f609d4"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="require/typed, but skips contracts on already-typed imports"
 HOMEPAGE="https://github.com/bennn/require-typed-check"

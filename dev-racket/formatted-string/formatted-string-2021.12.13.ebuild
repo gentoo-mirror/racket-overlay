@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dannypsnl/formatted-string"
 GH_COMMIT="5a84d85bbeed0ce7a30f18b0a9356ac46f7ad241"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Extends racket string to formatted string"
 HOMEPAGE="https://github.com/dannypsnl/formatted-string"

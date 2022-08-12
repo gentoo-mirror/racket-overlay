@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="david-christiansen/brush"
 GH_COMMIT="91b83cda313f77f2068f0c02753c55c2563680d5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A semi-literate programming package for Scribble"
 HOMEPAGE="https://github.com/david-christiansen/brush"

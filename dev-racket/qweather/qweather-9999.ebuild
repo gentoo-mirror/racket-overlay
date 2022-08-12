@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="yanyingwang/qweather"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the qweather Racket package"
 HOMEPAGE="https://github.com/yanyingwang/qweather"

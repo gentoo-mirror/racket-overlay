@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="dustyweb/terminal-phase"
 GH_COMMIT="b23098b97889da18702e9935283e1ed8577149ba"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Terminal Phase is a space shooter video game that runs in your terminal!"
 HOMEPAGE="https://gitlab.com/dustyweb/terminal-phase"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="yjqww6/drcomplete"
 GH_COMMIT="85394d9063c84d3b04c5ada977bc14b5398466d2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A DrRacket plugin for autocomplete for required identifiers."
 HOMEPAGE="https://github.com/yjqww6/drcomplete"

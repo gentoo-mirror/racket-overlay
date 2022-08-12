@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="yanyingwang/qweather"
 GH_COMMIT="eee37ffa0c73333a415e7375c0a2a129c93f5446"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the qweather Racket package"
 HOMEPAGE="https://github.com/yanyingwang/qweather"

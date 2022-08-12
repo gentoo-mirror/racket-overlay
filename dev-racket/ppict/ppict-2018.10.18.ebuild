@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="rmculpepper/ppict"
 GH_COMMIT="5d2d5f9d0a10f0988c7ed1f1986a0a6a15dcdb77"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="progressive picts and slideshows"
 HOMEPAGE="https://github.com/rmculpepper/ppict"

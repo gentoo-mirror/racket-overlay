@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="kalxd/azelf"
 GH_COMMIT="99059eced9f97f79521c50908b3fc9c7b363d27b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the azelf Racket package"
 HOMEPAGE="https://github.com/kalxd/azelf"

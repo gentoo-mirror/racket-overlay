@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="LiberalArtist/libxml2-ffi"
 GH_COMMIT="34f26243e8f35ae84f248e02dfbd7214ec2c619d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket bindings for libxml2"
 HOMEPAGE="https://github.com/LiberalArtist/libxml2-ffi"

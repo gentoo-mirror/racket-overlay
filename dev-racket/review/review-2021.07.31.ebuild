@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-review"
 GH_COMMIT="98be04613d1ed3a17a8d516f22fd3f10f52a6767"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A surface-level linter for #lang racket modules."
 HOMEPAGE="https://github.com/Bogdanp/racket-review"

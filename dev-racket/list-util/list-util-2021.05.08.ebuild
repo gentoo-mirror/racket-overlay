@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="RayRacine/list-util"
 GH_COMMIT="e538fd85b38e7bfcaf2aace75ced7d0183e91073"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Additional List utilities in Typed Racket."
 HOMEPAGE="https://gitlab.com/RayRacine/list-util"

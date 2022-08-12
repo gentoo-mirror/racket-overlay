@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/syntax-macro-lang"
 GH_COMMIT="d71edad70a023fb8e13b9841f2ec46117864f146"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The syntax-macro-lang Racket package"
 HOMEPAGE="https://github.com/AlexKnauth/syntax-macro-lang"

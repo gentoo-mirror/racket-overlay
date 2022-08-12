@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="wargrey/digimon"
 GH_COMMIT="c153b0fa6345712b0a2d05588edabf925c93f154"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The (typed) core to construct the digital world"
 HOMEPAGE="https://github.com/wargrey/digimon"

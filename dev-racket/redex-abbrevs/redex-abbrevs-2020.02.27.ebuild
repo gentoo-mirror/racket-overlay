@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="bennn/redex-abbrevs"
 GH_COMMIT="3205f90c07e5614ad90cea59eb59b7bc883167df"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Tools for PLT Redex"
 HOMEPAGE="https://github.com/bennn/redex-abbrevs"

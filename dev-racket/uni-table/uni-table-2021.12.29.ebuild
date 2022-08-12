@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="racketeer/uni-table"
 GH_COMMIT="301feeda30ef2f42eb91328bbbb884c2759dba88"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Unicode tables rendering with ECMA-48 Select Graphic Rendition codes support"
 HOMEPAGE="https://gitlab.com/racketeer/uni-table"

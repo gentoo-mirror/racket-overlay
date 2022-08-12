@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dannypsnl/mathler"
 GH_COMMIT="804b8978dc4b4c872f6690348fadf562ccc86ec2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="terminal version of mathler game, and its solver"
 HOMEPAGE="https://github.com/dannypsnl/mathler"

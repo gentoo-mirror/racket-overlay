@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="djh-uwaterloo/uwaterloo-racket"
 GH_COMMIT="24f1c0034ea24180c4d501eb51efd96f5f349215"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the uwaterloo-racket-tools Racket package"
 HOMEPAGE="https://github.com/djh-uwaterloo/uwaterloo-racket"

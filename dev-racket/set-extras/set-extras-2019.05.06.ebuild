@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="philnguyen/set-extras"
 GH_COMMIT="7feeb7a3a6b05c2e9ce39a0ff31eae25e150119d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The set-extras Racket package"
 HOMEPAGE="https://github.com/philnguyen/set-extras"

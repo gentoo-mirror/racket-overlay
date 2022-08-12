@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket-tw/k"
 GH_COMMIT="774770c211bb720be9deb700a1be5ad23ab7f616"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="documentation of k theorem prover"
 HOMEPAGE="https://github.com/racket-tw/k"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="willghatch/racket-rash"
 GH_COMMIT="c40c5adfedf632bc1fdbad3e0e2763b134ee3ff5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Demo code for the Rash package."
 HOMEPAGE="https://github.com/willghatch/racket-rash"

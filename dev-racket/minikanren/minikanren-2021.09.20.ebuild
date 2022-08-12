@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="takikawa/minikanren"
 GH_COMMIT="34ca4936f0df0ca07c5869ef95ed10f82b9a879f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A Planet 2 package for minikanren"
 HOMEPAGE="https://github.com/takikawa/minikanren"

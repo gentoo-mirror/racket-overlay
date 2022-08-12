@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="dustyweb/magenc"
 GH_COMMIT="f5e011cb3f4fa060623764a4a80860e31ebca9fc"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Symmetric encryption for magnet URIs (code and docs)"
 HOMEPAGE="https://gitlab.com/dustyweb/magenc"

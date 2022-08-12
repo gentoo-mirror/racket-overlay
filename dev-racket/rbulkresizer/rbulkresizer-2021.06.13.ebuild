@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="xgqt/rbulkresizer"
 GH_COMMIT="58d32a47bbd8a7447769212765b42ea80a4f051a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Graphical bulk picture resize tool"
 HOMEPAGE="https://gitlab.com/xgqt/rbulkresizer"

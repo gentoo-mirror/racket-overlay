@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/postfix-dot-notation"
 GH_COMMIT="584ed69de73775e261ecdb7607fc14d9790500ef"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a lang-extension for postfix dot notation"
 HOMEPAGE="https://github.com/AlexKnauth/postfix-dot-notation"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="DavidThien/softposit-rkt"
 GH_COMMIT="0ee9f12a1079f0dd803b8560609284486d576ac2"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The softposit-rkt Racket package"
 HOMEPAGE="https://github.com/DavidThien/softposit-rkt"

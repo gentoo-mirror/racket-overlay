@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Metaxal/search-list-box"
 GH_COMMIT="4c7b180583af54ae7e108bb89ef44ca7d85ff941"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A list-box% with a search field"
 HOMEPAGE="https://github.com/Metaxal/search-list-box"

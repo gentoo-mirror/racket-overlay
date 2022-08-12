@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-binfmt"
 GH_COMMIT="bfed5dc03ebdc80983f3f114b5df925551abfcaf"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The binfmt Racket package"
 HOMEPAGE="https://github.com/Bogdanp/racket-binfmt"

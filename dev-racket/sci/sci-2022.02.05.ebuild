@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="soegaard/sci"
 GH_COMMIT="821340e0efa32b40b18c460d6ade87cc36b64d13"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Floating point matrices using CBLAS and LAPACK."
 HOMEPAGE="https://github.com/soegaard/sci"

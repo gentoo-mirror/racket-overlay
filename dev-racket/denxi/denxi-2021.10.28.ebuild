@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="zyrolasting/denxi"
 GH_COMMIT="140724df70266ca69da5ff6ea73cf2529582ce3f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the denxi Racket package"
 HOMEPAGE="https://github.com/zyrolasting/denxi"

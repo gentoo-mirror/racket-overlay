@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="alex-hhh/data-frame"
 GH_COMMIT="5230adcbf26d3a54a0ca45f52a559906640f6f8e"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A data frame implementation for Racket"
 HOMEPAGE="https://github.com/alex-hhh/data-frame"

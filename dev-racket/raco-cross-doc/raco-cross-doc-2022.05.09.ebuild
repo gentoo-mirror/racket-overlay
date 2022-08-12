@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/raco-cross"
 GH_COMMIT="97e2d68fc6ff451f79fb82dd2b81495a2afa7b23"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="documentation part of raco-cross"
 HOMEPAGE="https://github.com/racket/raco-cross"

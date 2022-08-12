@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="a11ce/racket-p5"
 GH_COMMIT="5dec940a183e8a9a2670b00809bf3b84d870d4e3"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Uses urlang to give p5.js better syntax."
 HOMEPAGE="https://github.com/a11ce/racket-p5"

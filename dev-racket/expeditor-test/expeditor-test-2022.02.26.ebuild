@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/expeditor"
 GH_COMMIT="ff2ffd64a0211e6c401ec2a13b0070daa14c9d00"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="test part of expeditor"
 HOMEPAGE="https://github.com/racket/expeditor"

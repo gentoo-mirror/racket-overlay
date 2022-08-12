@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="spritely/syrup"
 GH_COMMIT="88eb2691cdd3806290fa42480dfefed09138eb09"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the syrup Racket package"
 HOMEPAGE="https://gitlab.com/spritely/syrup"

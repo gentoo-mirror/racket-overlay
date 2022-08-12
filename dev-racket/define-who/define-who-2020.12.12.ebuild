@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="sorawee/define-who"
 GH_COMMIT="c77167fe7d5c2f3057cc80d9c201f9e888f02545"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An anaphoric macro that binds who to function name"
 HOMEPAGE="https://github.com/sorawee/define-who"

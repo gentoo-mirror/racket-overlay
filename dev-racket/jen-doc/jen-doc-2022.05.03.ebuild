@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="HeladoDeBrownie/jen"
 GH_COMMIT="d7b5f3aeb77f880a7a9a6b7ac4994dfdbbd9674c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="procedural generation DSL embedded in Racket (doc) [UNSTABLE]"
 HOMEPAGE="https://github.com/HeladoDeBrownie/jen"

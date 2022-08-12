@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="lives-group/typed-peg"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the typed-peg Racket package"
 HOMEPAGE="https://github.com/lives-group/typed-peg"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-chief"
 GH_COMMIT="b790e057c60b3a30ff8232cd0684aab2ebb167f1"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Chief runs Procfile-based applications. Like foreman, but written in Racket."
 HOMEPAGE="https://github.com/Bogdanp/racket-chief"

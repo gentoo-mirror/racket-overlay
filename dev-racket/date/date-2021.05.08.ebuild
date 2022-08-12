@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="RayRacine/date"
 GH_COMMIT="57d7adbbc09dffc26337bff1b1a3597c872be8ea"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The date Racket package"
 HOMEPAGE="https://gitlab.com/RayRacine/date"

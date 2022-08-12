@@ -7,7 +7,7 @@ GH_DOM="codeberg.org"
 GH_REPO="montanari/rparallel"
 GH_COMMIT="28a7a131aada4d8d9a7890721a32180a03037624"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="High-level parallel forms"
 HOMEPAGE="https://codeberg.org/montanari/rparallel"

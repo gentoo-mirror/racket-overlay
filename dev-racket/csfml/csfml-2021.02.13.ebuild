@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="massung/racket-csfml"
 GH_COMMIT="7bcd88b848d054b5d847a51f65eb90988c260b81"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Bindings for CSFML 2.5 (https://www.sfml-dev.org/download/csfml/)"
 HOMEPAGE="https://github.com/massung/racket-csfml"

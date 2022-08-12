@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="zyrolasting/mind-map"
 GH_COMMIT="8401400f1dbc7956357cd27563b6926f4e429d7c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Write and render mind maps in Racket."
 HOMEPAGE="https://github.com/zyrolasting/mind-map"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jackfirth/resyntax"
 GH_COMMIT="116125648c59c44645c860d0ee00ce24d0b94ad7"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An experimental refactoring tool built on top of syntax-parse."
 HOMEPAGE="https://github.com/jackfirth/resyntax"

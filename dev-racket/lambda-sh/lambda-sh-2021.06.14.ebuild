@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="wargrey/lambda-shell"
 GH_COMMIT="c75bf03a46be0a4d84a3c36d7ec2624cb7bf8019"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the lambda-sh Racket package"
 HOMEPAGE="https://github.com/wargrey/lambda-shell"

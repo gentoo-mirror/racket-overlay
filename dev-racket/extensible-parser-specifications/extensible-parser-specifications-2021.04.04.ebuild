@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jsmaniac/extensible-parser-specifications"
 GH_COMMIT="616130a74b83cf7790257150655949698a7a3913"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the extensible-parser-specifications Racket package"
 HOMEPAGE="https://github.com/jsmaniac/extensible-parser-specifications"

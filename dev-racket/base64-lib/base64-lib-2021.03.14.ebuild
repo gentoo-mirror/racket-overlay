@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="rmculpepper/racket-base64"
 GH_COMMIT="f3ff606785a553651d79c2e846b35fe84be9b2b0"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the base64-lib Racket package"
 HOMEPAGE="https://github.com/rmculpepper/racket-base64"

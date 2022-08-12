@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/deta"
 GH_COMMIT="420295e1c520989b945138575428eadb35839051"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A functional database mapper. (tests only)"
 HOMEPAGE="https://github.com/Bogdanp/deta"

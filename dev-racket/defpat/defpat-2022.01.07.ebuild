@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="AlexKnauth/defpat"
 GH_COMMIT="12cf5babc38f7f8ae9e0be0dac92a724b3c12204"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="a version of define for defining functions with match-patterns as arguments"
 HOMEPAGE="https://github.com/AlexKnauth/defpat"

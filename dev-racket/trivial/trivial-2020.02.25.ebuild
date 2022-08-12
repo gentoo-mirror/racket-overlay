@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="bennn/trivial"
 GH_COMMIT="c28c838d6d0116ba4c9d122c0e410ef178164e3a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="type-tailored standard library functions"
 HOMEPAGE="https://github.com/bennn/trivial"

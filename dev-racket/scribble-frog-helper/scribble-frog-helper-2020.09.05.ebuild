@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="yanyingwang/scribble-frog-helper"
 GH_COMMIT="5ba86188de0ce1cd3d4540982be2473183c78e81"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="scribble helper functions especially for writing blogs with frog"
 HOMEPAGE="https://github.com/yanyingwang/scribble-frog-helper"

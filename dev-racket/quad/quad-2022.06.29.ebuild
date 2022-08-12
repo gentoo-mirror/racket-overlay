@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mbutterick/typesetting"
 GH_COMMIT="342422e221c7218880c6ecfb6e5bc0caf1b3b50d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Document processor (unstable)"
 HOMEPAGE="https://github.com/mbutterick/typesetting"

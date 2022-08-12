@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="yilinwei/otp"
 GH_COMMIT="f0446d60c3491afaf0b2e7c283561a475a24f269"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the otp-lib Racket package"
 HOMEPAGE="https://github.com/yilinwei/otp"

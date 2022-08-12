@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="willghatch/racket-syntax-implicits"
 GH_COMMIT="df1fb32a62348acbcc68e36a2a6a0fc6da4cea18"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the syntax-implicits Racket package"
 HOMEPAGE="https://github.com/willghatch/racket-syntax-implicits"

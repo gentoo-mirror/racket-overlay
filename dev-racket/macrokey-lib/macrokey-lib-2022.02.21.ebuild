@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="xgqt/racket-macrokey"
 GH_COMMIT="517f9a2aa5eda9003cc2f12cb7083bcb3bc3b1e4"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="MacroKey. Core."
 HOMEPAGE="https://gitlab.com/xgqt/racket-macrokey"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mbutterick/br-parser-tools"
 GH_COMMIT="9b2d7cc759b40fd556a398e181ca0fd070885904"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The br-parser-tools Racket package"
 HOMEPAGE="https://github.com/mbutterick/br-parser-tools"

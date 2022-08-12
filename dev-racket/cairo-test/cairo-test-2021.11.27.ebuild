@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="soegaard/cairo"
 GH_COMMIT="5281c9acf2217015b96b8a6a4788b9ec6eecd179"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the cairo-test Racket package"
 HOMEPAGE="https://github.com/soegaard/cairo"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dstorrs/majordomo2"
 GH_COMMIT="1ae638f7c55afc08fb7afbd36836b0c4dc3ec00f"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the majordomo2 Racket package"
 HOMEPAGE="https://github.com/dstorrs/majordomo2"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="basus/colophon"
 GH_COMMIT="04989fbffb385a09d4f6b83ab9a132fa85ec8454"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="An experimental static site generator"
 HOMEPAGE="https://github.com/basus/colophon"

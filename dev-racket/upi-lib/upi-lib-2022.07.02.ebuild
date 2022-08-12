@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="xgqt/racket-upi"
 GH_COMMIT="86f5c850ae2c45ae894c40a934737447d5cc5787"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Unix tools inspired Procedure Interface for Racket. Core."
 HOMEPAGE="https://gitlab.com/xgqt/racket-upi"

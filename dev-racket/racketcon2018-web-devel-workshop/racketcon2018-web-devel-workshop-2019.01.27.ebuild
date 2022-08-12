@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jessealama/racketcon-2018-web-devel-workshop"
 GH_COMMIT="e377a8f4fd9d6ef3b097ef1507ff3e16e0e260dc"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Material for the web development workshop held at RacketCon 2018"
 HOMEPAGE="https://github.com/jessealama/racketcon-2018-web-devel-workshop"

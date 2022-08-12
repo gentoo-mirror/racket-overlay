@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="istefanis/lti-freq-domain-toolbox"
 GH_COMMIT="15d64a9c6c8660f3fd2032f99f0f82758ea4350a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Functions for studying LTI (linear time-invariant) dynamical systems"
 HOMEPAGE="https://github.com/istefanis/lti-freq-domain-toolbox"

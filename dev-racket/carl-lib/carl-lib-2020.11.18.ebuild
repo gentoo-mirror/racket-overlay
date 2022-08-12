@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mkyl/carl-lib"
 GH_COMMIT="195c155ccf9306acd29adaf2ab7d536d7686f849"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Backend for Causal Relational Learning implementation"
 HOMEPAGE="https://github.com/mkyl/carl-lib"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="a11ce/esAsm"
 GH_COMMIT="5566da7537f08500425e94cdb693d8605cee4536"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="esAsm is a toy assembly-ish language."
 HOMEPAGE="https://github.com/a11ce/esAsm"

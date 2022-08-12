@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/errortrace"
 GH_COMMIT="9690fa5fd9888e9e244eb311994dcd8884ffb7a9"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The errortrace Racket package"
 HOMEPAGE="https://github.com/racket/errortrace"

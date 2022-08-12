@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="deepmind/deepmind-research"
 GH_COMMIT="fba48d1e44d86628b65a31549560b7be2a25d823"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the satore Racket package"
 HOMEPAGE="https://github.com/deepmind/deepmind-research"

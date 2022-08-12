@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lexi-lambda/megaparsack"
 GH_COMMIT="c4f573c4b41f75f20dfacc2e8cfe7b6bff789fb3"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="helpers for using megaparsack with parser-tools"
 HOMEPAGE="https://github.com/lexi-lambda/megaparsack"

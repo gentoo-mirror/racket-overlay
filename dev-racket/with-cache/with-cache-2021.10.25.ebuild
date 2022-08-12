@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="bennn/with-cache"
 GH_COMMIT="07e3ad861bbd98c212c8d24868af665617949a9d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Filesystem-based caching"
 HOMEPAGE="https://github.com/bennn/with-cache"

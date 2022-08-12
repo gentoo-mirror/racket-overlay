@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="RayRacine/openweather"
 GH_COMMIT="a0c4e4832b3ac05c1c38fbf64c6ce3ff583882e7"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the openweather Racket package"
 HOMEPAGE="https://gitlab.com/RayRacine/openweather"

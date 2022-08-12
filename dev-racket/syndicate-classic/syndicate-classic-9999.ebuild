@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="tonyg/syndicate"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The syndicate-classic Racket package"
 HOMEPAGE="https://github.com/tonyg/syndicate"

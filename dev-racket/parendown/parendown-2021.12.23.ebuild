@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="lathe/parendown-for-racket"
 GH_COMMIT="5af0eaa8fbbb060a7f5bb4b240e72fe56a6536b3"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A weak opening parenthesis, good for eliminating indentation."
 HOMEPAGE="https://github.com/lathe/parendown-for-racket"

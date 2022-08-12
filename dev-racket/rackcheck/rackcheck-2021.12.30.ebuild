@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/rackcheck"
 GH_COMMIT="bd98efd97994ea5ebf201ca263578f9ea4ad66cb"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A property-based testing library with shrinking support."
 HOMEPAGE="https://github.com/Bogdanp/rackcheck"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="soegaard/minipascal"
 GH_COMMIT="6c028051ba9c151c5b6e8fddd6c2442c1abb0601"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="MiniPascal as a Racket language"
 HOMEPAGE="https://github.com/soegaard/minipascal"

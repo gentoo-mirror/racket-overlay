@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jsmaniac/delay-pure"
 GH_COMMIT="19541b8094b1aac23268f13d308202627275a360"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the delay-pure Racket package"
 HOMEPAGE="https://github.com/jsmaniac/delay-pure"

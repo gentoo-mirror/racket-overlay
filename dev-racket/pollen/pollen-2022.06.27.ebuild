@@ -7,7 +7,7 @@ GH_DOM="git.matthewbutterick.com"
 GH_REPO="mbutterick/pollen"
 GH_COMMIT="7a7b7d49ee60268974711155b4b5c21b218f7ee5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Publishing system for web-based books"
 HOMEPAGE="https://git.matthewbutterick.com/mbutterick/pollen"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="soegaard/sketching"
 GH_COMMIT="335009141da5ef79b085db02a2b57597374d950d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Documentation for Sketching"
 HOMEPAGE="https://github.com/soegaard/sketching"

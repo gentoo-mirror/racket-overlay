@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="bennn/racket-left-pad"
 GH_COMMIT="2b17c398c033cc0cbf3535144860676ca682027d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="String left pad"
 HOMEPAGE="https://github.com/bennn/racket-left-pad"

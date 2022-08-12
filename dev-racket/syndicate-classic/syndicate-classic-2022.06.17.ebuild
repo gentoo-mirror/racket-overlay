@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="tonyg/syndicate"
 GH_COMMIT="43cc25ea1b365febd68458a9f4f9858872840a62"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The syndicate-classic Racket package"
 HOMEPAGE="https://github.com/tonyg/syndicate"

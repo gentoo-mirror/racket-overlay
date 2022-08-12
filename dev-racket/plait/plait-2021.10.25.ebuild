@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mflatt/plait"
 GH_COMMIT="b628372b4b6c1d10f0805e9ac6bf4e648bd6b0ef"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the plait Racket package"
 HOMEPAGE="https://github.com/mflatt/plait"

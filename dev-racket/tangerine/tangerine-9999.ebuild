@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="github.com"
 GH_REPO="aeva/tangerine"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A library for constructing and executing signed distance functions."
 HOMEPAGE="https://github.com/aeva/tangerine"

@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="gradual-typing-performance/gtp-pict"
 GH_COMMIT="7de896b161fea193b72adb255deff4f44241e97d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Picts related to gradual typing / performance"
 HOMEPAGE="https://gitlab.com/gradual-typing-performance/gtp-pict"

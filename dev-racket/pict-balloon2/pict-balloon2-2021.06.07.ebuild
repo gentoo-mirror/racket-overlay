@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="mflatt/pict-balloon2"
 GH_COMMIT="e445c3649f0a17232e05727cedc42ff585bd20f7"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the pict-balloon2 Racket package"
 HOMEPAGE="https://github.com/mflatt/pict-balloon2"

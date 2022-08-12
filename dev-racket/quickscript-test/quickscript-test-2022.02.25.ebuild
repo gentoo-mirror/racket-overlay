@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Metaxal/quickscript-test"
 GH_COMMIT="ec216436da5c636bb650160d56e939352ee906b3"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Tests for the quickscript package"
 HOMEPAGE="https://github.com/Metaxal/quickscript-test"

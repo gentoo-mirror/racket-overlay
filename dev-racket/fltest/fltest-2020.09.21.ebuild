@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="samth/fltest"
 GH_COMMIT="8d2d686a7d940accf540b74a9409d3b51ea980eb"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the fltest Racket package"
 HOMEPAGE="https://github.com/samth/fltest"

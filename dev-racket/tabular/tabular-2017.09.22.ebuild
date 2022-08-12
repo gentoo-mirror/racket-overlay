@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="tonyg/racket-tabular"
 GH_COMMIT="5b1e3687dd27660f8bd3ecc10d52e8d57b150ff4"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Experimental tabular data package"
 HOMEPAGE="https://github.com/tonyg/racket-tabular"

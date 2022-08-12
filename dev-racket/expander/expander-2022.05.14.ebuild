@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="racket/racket"
 GH_COMMIT="c0fb670a72371bcac16fabe43cb0a5bb36e9f58d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Racket's implementation of macros, modules, and top-level evaluation"
 HOMEPAGE="https://github.com/racket/racket"

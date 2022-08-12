@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dannypsnl/jsonrpc"
 GH_COMMIT="9b9fc157dad4a08fcb354daecd00e32217310693"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="jsonrpc: client and server"
 HOMEPAGE="https://github.com/dannypsnl/jsonrpc"

@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="wargrey/w3s"
 GH_COMMIT="8283bc69bbcde2c935e632e420147f0f65e8c89e"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="W3 Standards Implemented in Typed Racket"
 HOMEPAGE="https://github.com/wargrey/w3s"

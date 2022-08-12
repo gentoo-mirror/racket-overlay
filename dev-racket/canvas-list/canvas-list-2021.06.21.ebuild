@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="massung/racket-canvas-list"
 GH_COMMIT="4f22186773730955e4786df078ad16fd4dfa927c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the canvas-list Racket package"
 HOMEPAGE="https://github.com/massung/racket-canvas-list"

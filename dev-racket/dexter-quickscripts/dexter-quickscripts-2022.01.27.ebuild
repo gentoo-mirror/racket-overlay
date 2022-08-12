@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="DexterLagan/dexter-quickscripts"
 GH_COMMIT="77ddacfb7c5764c18887ec0e4760f2f59191474d"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A collection of scripts for Racket's QuickScript"
 HOMEPAGE="https://github.com/DexterLagan/dexter-quickscripts"

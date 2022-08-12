@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jpverkamp/noise"
 GH_COMMIT="435173a377406e3ecc03cc02f39a0a725eb3a87b"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the noise Racket package"
 HOMEPAGE="https://github.com/jpverkamp/noise"

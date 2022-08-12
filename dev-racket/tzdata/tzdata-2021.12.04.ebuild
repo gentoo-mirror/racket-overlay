@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="97jaz/tzdata"
 GH_COMMIT="533ad95323344b5185f690c7861fa695eaddc35c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="zoneinfo data mainly for Windows systems using tzinfo"
 HOMEPAGE="https://github.com/97jaz/tzdata"

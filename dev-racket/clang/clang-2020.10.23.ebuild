@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="wargrey/clang"
 GH_COMMIT="b9d008a4bf914474fa3368095e93a5c4925dc9f5"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Toolbox for C family in Typed Racket"
 HOMEPAGE="https://github.com/wargrey/clang"

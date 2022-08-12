@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Bogdanp/koyo-north"
 GH_COMMIT="a552fe709655a15d1a1382a909fe2466f173f27c"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A north migrator component for koyo."
 HOMEPAGE="https://github.com/Bogdanp/koyo-north"

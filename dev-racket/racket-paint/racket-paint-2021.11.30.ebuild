@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="Metaxal/racket-paint"
 GH_COMMIT="905c8c0f8048c8d918900ff3692e1e9b904e1fef"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A simple paint program"
 HOMEPAGE="https://github.com/Metaxal/racket-paint"

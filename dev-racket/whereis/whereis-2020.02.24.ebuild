@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="rmculpepper/racket-whereis"
 GH_COMMIT="4e987ee3bc57b2fb64c44c419edca4a91b8de305"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="the whereis Racket package"
 HOMEPAGE="https://github.com/rmculpepper/racket-whereis"

@@ -7,7 +7,7 @@ GH_DOM="gitlab.com"
 GH_REPO="slbtty/awesome-list"
 GH_COMMIT="0bea9593f54043cbf9ac047f20d09ad404ea3419"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Extra list processing functions & macros borrowed from various sources."
 HOMEPAGE="https://gitlab.com/slbtty/awesome-list"

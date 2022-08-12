@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="rmculpepper/sql"
 GH_COMMIT="7bb2872fb7850f67a7db3c9e017dfc9b61bd612e"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="an S-expression notation for SQL"
 HOMEPAGE="https://github.com/rmculpepper/sql"

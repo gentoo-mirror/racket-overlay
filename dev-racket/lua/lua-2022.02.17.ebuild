@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="shawsumma/lure"
 GH_COMMIT="1f0fe07bbc6a8fd0cf68768e9cfd2900e28f869a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="The programming language Lua. Targeting version 5.3.5 (Currently unstable)"
 HOMEPAGE="https://github.com/shawsumma/lure"

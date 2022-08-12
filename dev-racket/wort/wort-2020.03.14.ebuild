@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="robertkleffner/wort"
 GH_COMMIT="433130f0f6f1fa90d7ed21b857d03bce856656b0"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="A tiny concatenative language with polymorphic type inference"
 HOMEPAGE="https://github.com/robertkleffner/wort"

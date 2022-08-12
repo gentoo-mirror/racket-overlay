@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jbclements/memoize"
 GH_COMMIT="9cdbf7512b8a531b1b26ffc02160aa9e8125f2ed"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Memoization for functions"
 HOMEPAGE="https://github.com/jbclements/memoize"

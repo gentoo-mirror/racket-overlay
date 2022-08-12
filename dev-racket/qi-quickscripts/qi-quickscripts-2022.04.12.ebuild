@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="spdegabrielle/Qi-Quickscripts"
 GH_COMMIT="6eea8599e2fa9381732e138810d798c9e715d753"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="DrRacket integration scripts for the Qi language."
 HOMEPAGE="https://github.com/spdegabrielle/Qi-Quickscripts"

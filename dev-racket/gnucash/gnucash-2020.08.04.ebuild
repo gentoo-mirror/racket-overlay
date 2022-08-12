@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="jbclements/gnucash"
 GH_COMMIT="701dee030a70b778f6de9dae428d6287aecd7a5a"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="parses gnucash XML files"
 HOMEPAGE="https://github.com/jbclements/gnucash"

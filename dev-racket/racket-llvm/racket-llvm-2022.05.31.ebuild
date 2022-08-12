@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="dannypsnl/racket-llvm"
 GH_COMMIT="080be51de06446e8fd4d27b79ce7576b0cc8e738"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="racket llvm C-API bindings"
 HOMEPAGE="https://github.com/dannypsnl/racket-llvm"

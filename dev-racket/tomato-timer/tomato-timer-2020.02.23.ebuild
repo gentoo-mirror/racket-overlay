@@ -7,7 +7,7 @@ GH_DOM="github.com"
 GH_REPO="bennn/tomato-timer"
 GH_COMMIT="23254a8138d5fad885f3b7033fb89549cb268b50"
 
-inherit racket gh
+inherit gh racket
 
 DESCRIPTION="Command-line timer"
 HOMEPAGE="https://github.com/bennn/tomato-timer"

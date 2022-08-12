@@ -1,10 +1,9 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/aws dev-racket/yaml >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/aws dev-racket/yaml
 DESCRIPTION=The Racket code associated with the Captain Teach server
 EAPI=8
 HOMEPAGE=https://github.com/jbclements/admiral-edu-server
-INHERIT=racket gh
+INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
@@ -13,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jbclements/admiral-edu-server/archive/79c2778dd43d07e92ab02fb75955ec6060ed6861.tar.gz -> admiral-edu-server-2021.11.27.tar.gz
 _eclasses_=gh	ef34df1fe2cc8afb0a92dc34090e1606	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3
-_md5_=0ca11ed02708b8fa3a84db1696276bc4
+_md5_=798fd2a5edb978bfec6030d6bcee0ecc

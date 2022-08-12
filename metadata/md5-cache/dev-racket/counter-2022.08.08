@@ -1,0 +1,14 @@
+BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Small counter library to use for console output, logging, etc.
+EAPI=8
+HOMEPAGE=https://gitlab.com/xgqt/scheme-counter
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=CC0-1.0
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://gitlab.com/xgqt/scheme-counter/-/archive/8807bdb03b6c8ff08edcf0570c937c243ff66343.tar.gz -> counter-2022.08.08.tar.gz
+_eclasses_=gh	ef34df1fe2cc8afb0a92dc34090e1606	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3
+_md5_=b6b7a786f62e558e3acd2c168be47d88

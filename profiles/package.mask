@@ -1,0 +1,6 @@
+# Copyright 1999-2022 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+# Maciej Barć <xgqt@gentoo.org> (2022-08-14)
+# The package sys-apps/racket-where should be used instead.
+dev-racket/racket-where

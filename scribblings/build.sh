@@ -26,4 +26,11 @@ set -e
 export PATH
 
 
-exec scribble --htmls --dest ./doc ++main-xref-in gentoo-racket-overlay.scrbl
+root_source="$(realpath "$(dirname "${0}")/../")"
+root_scribblings="${root_source}"/scribblings
+
+
+cd "${root_scribblings}"
+
+exec raco scribble ++main-xref-in --htmls --dest "${root_scribblings}"/doc \
+     "${root_scribblings}"/gentoo-racket-overlay.scrbl

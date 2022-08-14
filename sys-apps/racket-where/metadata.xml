@@ -7,7 +7,7 @@
     <name>Maciej Barć</name>
   </maintainer>
   <upstream>
-    <bugs-to>https://gitlab.com/src_prepare/racket/racket-where/-/issues</bugs-to>
-    <remote-id type="gitlab">src_prepare/racket/racket-where</remote-id>
+    <bugs-to>https://gitlab.com/gentoo-racket/racket-where/-/issues</bugs-to>
+    <remote-id type="gitlab">gentoo-racket/racket-where</remote-id>
   </upstream>
 </pkgmetadata>

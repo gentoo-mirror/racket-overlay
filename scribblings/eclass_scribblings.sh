@@ -26,4 +26,16 @@ set -e
 export PATH
 
 
-exec scribble --htmls --dest ./doc ++main-xref-in gentoo-racket-overlay.scrbl
+root_source="$(realpath "$(dirname "${0}")/../")"
+root_scribblings="${root_source}"/scribblings
+eclass_scribblings="${root_scribblings}"/eclass
+
+
+for eclass_file in "${root_source}"/eclass/*.eclass ; do
+    eclass_name="$(basename "$(basename "${eclass_file}")" .eclass)"
+    eclass_scrbl="${eclass_scribblings}"/"${eclass_name}".scrbl
+
+    echo "[ .. ] Working on ${eclass_name} (${eclass_file}) ..."
+
+    racket -l eclass2scrbl -- -O "${eclass_scrbl}" "${eclass_file}"
+done

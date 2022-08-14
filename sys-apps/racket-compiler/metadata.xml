@@ -7,7 +7,7 @@
     <name>Maciej Barć</name>
   </maintainer>
   <upstream>
-    <bugs-to>https://gitlab.com/src_prepare/racket/racket-compiler/-/issues</bugs-to>
-    <remote-id type="gitlab">src_prepare/racket/racket-compiler</remote-id>
+    <bugs-to>https://gitlab.com/gentoo-racket/racket-compiler/-/issues</bugs-to>
+    <remote-id type="gitlab">gentoo-racket/racket-compiler</remote-id>
   </upstream>
 </pkgmetadata>

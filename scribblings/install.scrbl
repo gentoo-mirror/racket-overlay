@@ -1,49 +1,49 @@
 #!/usr/bin/env racket
 
 
-;; This file is part of racket-overlay.
+;; This file is part of gentoo-racket-overlay.
 
-;; racket-overlay is free software: you can redistribute it and/or modify
+;; gentoo-racket-overlay is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
-;; the Free Software Foundation, either version 3 of the License, or
+;; the Free Software Foundation, either version 2 of the License, or
 ;; (at your option) any later version.
 
-;; racket-overlay is distributed in the hope that it will be useful,
+;; gentoo-racket-overlay is distributed in the hope that it will be useful,
 ;; but WITHOUT ANY WARRANTY; without even the implied warranty of
 ;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 ;; GNU General Public License for more details.
 
 ;; You should have received a copy of the GNU General Public License
-;; along with racket-overlay.  If not, see <https://www.gnu.org/licenses/>.
+;; along with gentoo-racket-overlay.  If not, see <https://www.gnu.org/licenses/>.
 
 ;; Original author: Maciej Barć <xgqt@riseup.net>
-;; Copyright (c) 2021, src_prepare group
+;; Copyright (c) 2021-2022, Maciej Barć <xgqt@riseup.net>
 ;; Licensed under the GNU GPL v2 License
 
 
 #lang scribble/manual
 
 
-@title[#:tag "racket-overlay-install"]{Racket Package Install Process}
+@title[#:tag "gentoo-racket-overlay-install"]{Racket Package Install Process}
 
 
 @section{Helpers}
 
 We use 2 helper packages:
-@link["https://gitlab.com/src_prepare/racket/racket-compiler"
+@link["https://gitlab.com/gentoo-racket/racket-compiler"
       "racket-compiler"] and
-@link["https://gitlab.com/src_prepare/racket/racket-where"
+@link["https://gitlab.com/gentoo-racket/racket-where"
       "racket-where"].
 Both of those packages are used in the eclass and are essential to it's function.
 Also, both of those packages include internally their own definitions of
 ebuild phases that otherwise would not be possible to resolve correctly.
 
-@link["https://gitlab.com/src_prepare/racket/racket-compiler"
+@link["https://gitlab.com/gentoo-racket/racket-compiler"
       "Racket-Compiler"]
 is used to compile a directory of racket source code
 in the "racket_src_compile" racket.eclass function.
 
-@link["https://gitlab.com/src_prepare/racket/racket-where"
+@link["https://gitlab.com/gentoo-racket/racket-where"
       "Racket-Where"]
 is used to in "racket_pkg_prerm" racket.eclass function to check
 if a package is registered in the Racket package database files.

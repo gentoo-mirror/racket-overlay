@@ -24,35 +24,9 @@
 #lang scribble/manual
 
 
-@title[#:tag "gentoo-racket-overlay-developers"]{Ebuild Developers}
+@title[#:tag "gentoo-racket-overlay-eclasses"]{Eclasses}
 
 
-@section{Updating packages with Collector2}
-
-Presented here is a example workflow of updating this repository's packages:
-
-@itemlist[
- @item{
-  Generate packages
-  @commandline{collector2 -d $(pwd) -c}
- }
- @item{
-  Regenerate manifests
-  @commandline{repoman manifest}
- }
- @item{
-  Check if repoman test passes, if no correct the errors
-  @commandline{repoman -dvx full}
- }
- @item{
-  Commit the changes
-  @commandline{git commit --signoff}
- }
- @item{
-  Synchronize the repository
-  @nested[#:style 'code-inset]{@verbatim{
-    git pull
-    git push
-  }}
- }
- ]
+@include-section{eclass/gh.scrbl}
+@include-section{eclass/racket-common.scrbl}
+@include-section{eclass/racket.scrbl}

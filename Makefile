@@ -1,5 +1,5 @@
 # Original author: Maciej Barć <xgqt@riseup.net>
-# Copyright (c) 2021, src_prepare group
+# Copyright (c) 2021-2022, Maciej Barć <xgqt@riseup.net>
 # Licensed under the GNU GPL v2 License
 
 
@@ -66,7 +66,7 @@ scribblings/doc:
 	cd $(DOC_SOURCE_DIR) && $(SH) $(DOC_SOURCE_DIR)/build.sh
 
 public: scribblings/doc
-	cp -r $(PWD)/scribblings/doc/racket-overlay $(PWD)/public
+	cp -r $(PWD)/scribblings/doc/gentoo-racket-overlay $(PWD)/public
 
 regen-public:
 	if [ -d $(DOC_BUILT_DIR)  ] ; then rm -dr $(DOC_BUILT_DIR)  ; fi

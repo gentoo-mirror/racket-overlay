@@ -8,13 +8,13 @@ SCRBL_DOCS=FALSE
 inherit racket
 
 DESCRIPTION="Small tool to find Racket packages"
-HOMEPAGE="https://gitlab.com/src_prepare/racket/racket-where"
+HOMEPAGE="https://gitlab.com/gentoo-racket/racket-where"
 
 if [[ "${PV}" == *9999* ]]; then
 	inherit git-r3
-	EGIT_REPO_URI="https://gitlab.com/src_prepare/racket/${PN}.git"
+	EGIT_REPO_URI="https://gitlab.com/gentoo-racket/${PN}.git"
 else
-	SRC_URI="https://gitlab.com/src_prepare/racket/${PN}/-/archive/${PV}/${P}.tar.gz"
+	SRC_URI="https://gitlab.com/gentoo-racket/${PN}/-/archive/${PV}/${P}.tar.gz"
 	KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 fi
 

@@ -3,7 +3,7 @@
 
 # @ECLASS: gh.eclass
 # @MAINTAINER:
-# src_prepare group
+# Maciej Barć <xgqt@riseup.net>
 # @AUTHOR:
 # Maciej Barć <xgqt@riseup.net>
 # @SUPPORTED_EAPIS: 7 8

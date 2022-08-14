@@ -2,8 +2,12 @@
 <!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 
 <pkgmetadata>
+  <maintainer type="person">
+    <email>xgqt@riseup.net</email>
+    <name>Maciej Barć</name>
+  </maintainer>
   <upstream>
-    <bugs-to>https://gitlab.com/src_prepare/racket/racket-maints</bugs-to>
-    <remote-id type="gitlab">src_prepare/racket/racket-maints</remote-id>
+    <bugs-to>https://gitlab.com/gentoo-racket/racket-maints</bugs-to>
+    <remote-id type="gitlab">gentoo-racket/racket-maints</remote-id>
   </upstream>
 </pkgmetadata>

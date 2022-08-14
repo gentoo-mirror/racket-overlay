@@ -9,13 +9,13 @@ PYTHON_COMPAT=( python3_{8..11} )
 inherit distutils-r1 racket
 
 DESCRIPTION="Racket Maintenance Scripts"
-HOMEPAGE="https://gitlab.com/src_prepare/racket/racket-maints/"
+HOMEPAGE="https://gitlab.com/gentoo-racket/racket-maints/"
 
 if [[ ${PV} == *9999* ]]; then
 	inherit git-r3
-	EGIT_REPO_URI="https://gitlab.com/src_prepare/racket/${PN}.git"
+	EGIT_REPO_URI="https://gitlab.com/gentoo-racket/${PN}.git"
 else
-	SRC_URI="https://gitlab.com/src_prepare/racket/${PN}/-/archive/${PV}/${P}.tar.gz"
+	SRC_URI="https://gitlab.com/gentoo-racket/${PN}/-/archive/${PV}/${P}.tar.gz"
 	KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 fi
 

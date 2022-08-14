@@ -24,19 +24,9 @@
 #lang scribble/manual
 
 
-@title[#:tag "gentoo-racket-overlay"]{Racket Gentoo Overlay}
-
-@author[@author+email["Maciej Barć" "xgqt@riseup.net"]]
+@title[#:tag "gentoo-racket-overlay-eclasses"]{Eclasses}
 
 
-@table-of-contents[]
-
-
-@include-section{about.scrbl}
-@include-section{users.scrbl}
-@include-section{developers.scrbl}
-@include-section{install.scrbl}
-@include-section{eclass.scrbl}
-
-
-@index-section[]
+@include-section{eclass/gh.scrbl}
+@include-section{eclass/racket-common.scrbl}
+@include-section{eclass/racket.scrbl}

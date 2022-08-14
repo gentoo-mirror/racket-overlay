@@ -53,7 +53,7 @@ To build this documentation clone the "gentoo-racket-overlay" repository,
 change directory into @filepath{scribblings}
 and execute the @filepath{build.sh} script.
 
-@commandline{git clone --recursive --verbose https://gitlab.com/gentoo-racket/gentoo-racket-overlay}
+@commandline{git clone --recursive --verbose https://gitlab.com/gentoo-racket/gentoo-racket-overlay racket-overlay}
 @commandline{cd scribblings}
 @commandline{sh ./build.sh}
 

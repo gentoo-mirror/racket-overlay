@@ -3,7 +3,7 @@
 
 <repositories xmlns="" version="1.0">
   <repo quality="experimental" status="unofficial">
-    <name>gentoo-racket-overlay</name>
+    <name>racket-overlay</name>
     <description lang="en">Racket packages overlay</description>
     <homepage>https://gitlab.com/gentoo-racket/gentoo-racket-overlay/</homepage>
     <owner type="person">

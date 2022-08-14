@@ -45,8 +45,8 @@ manifests:
 regen-gentoo: ebuilds manifests
 
 egencache:
-	PORATGE_REPOSITORIES="[gentoo-racket-overlay] location = $(PWD)" \
-		$(EGENCACHE) --repo gentoo-racket-overlay $(EGENCACHE_FLAGS)
+	PORATGE_REPOSITORIES="[racket-overlay] location = $(PWD)" \
+		$(EGENCACHE) --repo racket-overlay $(EGENCACHE_FLAGS)
 
 clean-metadata-cache:
 	rm -r $(PWD)/metadata/md5-cache

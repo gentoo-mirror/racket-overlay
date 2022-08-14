@@ -40,46 +40,45 @@ If you use eix, than update it's database with @commandline{eix-update}
 If you have eselect-repository installed you can use the following command:
 
 @nested[#:style 'code-inset]{@verbatim{
-  eselect repository add gentoo-racket-overlay git
-  https://gitlab.com/gentoo-racket/gentoo-racket-overlay
+  eselect repository add racket-overlay git https://gitlab.com/gentoo-racket/gentoo-racket-overlay
 }}
 
 
 @subsection{Manual}
 
-As root: clone the repository into @filepath{/var/db/repos/gentoo-racket-overlay}
-and copy @filepath{examples/repos.conf/gentoo-racket-overlay.conf}
+As root: clone the repository into @filepath{/var/db/repos/racket-overlay}
+and copy @filepath{examples/repos.conf/racket-overlay.conf}
 into @filepath{/etc/portage/repos.conf}
 
 @nested[#:style 'code-inset]{@verbatim{
-  mkdir -p /etc/portage/repos.conf
   cd /var/db/repos/
-  git clone --recursive --verbose https://gitlab.com/gentoo-racket/gentoo-racket-overlay
-  cp examples/repos.conf/gentoo-racket-overlay.conf /etc/portage/repos.conf/gentoo-racket-overlay.conf
+  git clone --recursive --verbose https://gitlab.com/gentoo-racket/gentoo-racket-overlay racket-overlay
+  mkdir -p /etc/portage/repos.conf
+  cp racket-overlay/examples/repos.conf/racket-overlay.conf /etc/portage/repos.conf/racket-overlay.conf
 }}
 
 
 @section{Unmask}
 
-Unmask packages in gentoo-racket-overlay and a recent version of Racket (at least 8.1)
+Unmask packages in racket-overlay and a recent version of Racket (at least 8.1)
 
 @nested[#:style 'code-inset]{@verbatim{
   mkdir -p /etc/portage/package.accept_keywords
-  echo 'dev-racket/*::gentoo-racket-overlay' >> /etc/portage/package.accept_keywords/gentoo-racket-overlay.conf
-  echo 'sys-apps/*::gentoo-racket-overlay' >> /etc/portage/package.accept_keywords/gentoo-racket-overlay.conf
-  echo '>=dev-scheme/racket-8.1::gentoo' >> /etc/portage/package.accept_keywords/gentoo-racket-overlay.conf
+  echo 'dev-racket/*::racket-overlay' >> /etc/portage/package.accept_keywords/racket-overlay.conf
+  echo 'sys-apps/*::racket-overlay' >> /etc/portage/package.accept_keywords/racket-overlay.conf
+  echo '>=dev-scheme/racket-8.1::gentoo' >> /etc/portage/package.accept_keywords/racket-overlay.conf
 }}
 
 If you want to try experimental snapshots of Racket also
 unmask dev-scheme/racket from this overlay.
 
 @nested[#:style 'code-inset]{@verbatim{
-  echo 'dev-scheme/racket::gentoo-racket-overlay' >> /etc/portage/package.accept_keywords/gentoo-racket-overlay.conf
+  echo 'dev-scheme/racket::racket-overlay' >> /etc/portage/package.accept_keywords/racket-overlay.conf
 }}
 
 Check out a example
-@link["https://gitlab.com/gentoo-racket/gentoo-racket-overlay/-/blob/master/examples/package.accept_keywords/gentoo-racket-overlay.conf"
-      "gentoo-racket-overlay.conf"].
+@link["https://gitlab.com/gentoo-racket/gentoo-racket-overlay/-/blob/master/examples/package.accept_keywords/racket-overlay.conf"
+      "racket-overlay.conf"].
 
 
 @section{Emerge Racket}
@@ -109,9 +108,9 @@ You should get a message similar to this:
   @;; WARNING: Don't format this!
   The following packages are causing rebuilds:
 
-  (dev-scheme/racket-8.2:0/8.2::gentoo-racket-overlay, ebuild scheduled for merge) causes rebuilds for:
-  (dev-racket/drracket-one-dark-2021.03.05:0/0::gentoo-racket-overlay, ebuild scheduled for merge)
-  (sys-apps/racket-compiler-0.0.0:0/0::gentoo-racket-overlay, ebuild scheduled for merge)
+  (dev-scheme/racket-8.2:0/8.2::racket-overlay, ebuild scheduled for merge) causes rebuilds for:
+  (dev-racket/drracket-one-dark-2021.03.05:0/0::racket-overlay, ebuild scheduled for merge)
+  (sys-apps/racket-compiler-0.0.0:0/0::racket-overlay, ebuild scheduled for merge)
 }}
 
 For more info on Gentoo updates see

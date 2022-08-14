@@ -11,5 +11,5 @@ RDEPEND=dev-racket/crypto dev-racket/option-bind dev-racket/sha >=dev-scheme/rac
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/RenaissanceBug/racket-jwt/archive/0f747569e878ef14d1f5d2de527efd02af88fcf9.tar.gz -> net-jwt-2020.12.04.tar.gz
-_eclasses_=gh	ef34df1fe2cc8afb0a92dc34090e1606	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3
+_eclasses_=gh	ef34df1fe2cc8afb0a92dc34090e1606	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	17eef861930206de72d37570d2c43a51
 _md5_=0cbb61879348fbff09fe733dc3f6fde8

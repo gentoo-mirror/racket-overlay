@@ -11,5 +11,5 @@ RDEPEND=dev-racket/stockfighter-racket >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/eu90h/mockfighter/archive/63906eff874e90644725dbff5365889d959e2294.tar.gz -> mockfighter-2017.08.15.tar.gz
-_eclasses_=gh	ef34df1fe2cc8afb0a92dc34090e1606	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3
+_eclasses_=gh	ef34df1fe2cc8afb0a92dc34090e1606	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	17eef861930206de72d37570d2c43a51
 _md5_=7540d0532da3f1e094d60d18c9fbf5c0

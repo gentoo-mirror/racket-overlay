@@ -11,5 +11,5 @@ RDEPEND=dev-racket/set-extras >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/philnguyen/typed-racket-hacks/archive/6d462852a29abb4406d53db2587e9d463b90b2ae.tar.gz -> typed-racket-hacks-2018.12.17.tar.gz
-_eclasses_=gh	ef34df1fe2cc8afb0a92dc34090e1606	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3
+_eclasses_=gh	ef34df1fe2cc8afb0a92dc34090e1606	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	17eef861930206de72d37570d2c43a51
 _md5_=93167eef65eb0f9edf584b1b842ebc96

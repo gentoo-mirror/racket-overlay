@@ -11,5 +11,5 @@ RDEPEND=dev-racket/graph-lib dev-racket/natural-cli dev-racket/txexpr >=dev-sche
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/zyrolasting/racket-vulkan/archive/1e983e921fb41b59994cea0fc0ebd859ec847186.tar.gz -> vulkan-2022.02.08.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3	gh	ef34df1fe2cc8afb0a92dc34090e1606
+_eclasses_=gh	ef34df1fe2cc8afb0a92dc34090e1606	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	17eef861930206de72d37570d2c43a51
 _md5_=bfff38958b970f1737f6851b69c36454

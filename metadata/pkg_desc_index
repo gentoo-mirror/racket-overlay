@@ -1088,7 +1088,6 @@ dev-racket/racket-school-mystery-languages 2017.08.15 9999: The racket-school-my
 dev-racket/racket-spider 2020.01.01 2022.05.17 9999: lightweight http client
 dev-racket/racket-to 2018.05.04 9999: The racket-to Racket package
 dev-racket/racket-to-python 2018.05.22 9999: The racket-to-python Racket package
-dev-racket/racket-where 2022.06.08 2022.07.02 9999: Small tool to find installed Racket packages
 dev-racket/racketcon2018-web-devel-workshop 2019.01.27 2022.05.19 9999: Material for the web development workshop held at RacketCon 2018
 dev-racket/racketmq 9999: An implementation of W3C WebSub.
 dev-racket/racketscript 2022.01.19 2022.04.15 2022.04.29 9999: A lightweight Racket to JavaScript compiler with some batteries included

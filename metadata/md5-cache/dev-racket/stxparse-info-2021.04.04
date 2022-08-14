@@ -12,5 +12,5 @@ RDEPEND=dev-racket/auto-syntax-e dev-racket/version-case >=dev-scheme/racket-8.1
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jsmaniac/stxparse-info/archive/d35e84905fdbbef4309edca0a138cd77066be185.tar.gz -> stxparse-info-2021.04.04.tar.gz https://github.com/jsmaniac/subtemplate/archive/a3292113bb0d7dd8dc2114702b90e76f23963496.tar.gz -> stxparse-info_aux_subtemplate-2021.04.04.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	17eef861930206de72d37570d2c43a51
 _md5_=b3913b7460fdbc2ea88b6007a5368efd

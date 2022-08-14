@@ -11,5 +11,5 @@ RDEPEND=dev-racket/gen-queue-lib dev-racket/graph-doc dev-racket/graph-lib >=dev
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://git.marvid.fr/scolobb/typed-graph/archive/330a3ae753f4e9722bc9e994ea4b9b1820660307.tar.gz -> typed-graph-2022.01.05.tar.gz
-_eclasses_=gh	ef34df1fe2cc8afb0a92dc34090e1606	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	e73f2aa3a518bc607deddce0968949b3
+_eclasses_=gh	ef34df1fe2cc8afb0a92dc34090e1606	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	bfe749040877f328fea2fd60a296e9ed	racket	17eef861930206de72d37570d2c43a51
 _md5_=c552b71b5c01896d83bb0a84d433bf60

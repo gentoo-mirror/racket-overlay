@@ -55,7 +55,7 @@ esac
 case ${SCRBL_DOCS} in
 	1 | [Tt][Rr][Uu][Ee] | [Oo][Nn] )
 		_do_scrbl=1
-		IUSE+="doc"
+		IUSE+=" doc "
 		BDEPEND+=" doc? ( dev-texlive/texlive-fontsextra ) "
 		;;
 	* )

@@ -55,7 +55,7 @@ esac
 case ${SCRBL_DOCS} in
 	1 | [Tt][Rr][Uu][Ee] | [Oo][Nn] )
 		_do_scrbl=1
-		IUSE+="doc"
+		IUSE+=" doc "
 		BDEPEND+=" doc? ( dev-texlive/texlive-fontsextra ) "
 		;;
 	* )
@@ -150,14 +150,24 @@ racket_src_prepare() {
 }
 
 # @FUNCTION: raco_docs_switch
+# @USAGE: [update index]
 # @DESCRIPTION:
-# Based on whether _do_scrbl=1 and USE=doc documentation is enabled
-# by not passing the --no-docs switch.
+# This function echoes parameter to either disable or enable docs.
+# If the first argument is eqal to "index", then, instead of no flags, the
+# "--doc-index" is echoed.
+# Based on whether _do_scrbl is "1" and "doc" USE flag is enabled documentation
+# is enabled, otherwise it is disabled.
+# The flag "--doc-index" is only known to "raco setup", other commands will
+# build docs unless passed the "--no-docs" flag.
 raco_docs_switch() {
 	debug-print-function ${FUNCNAME} "${@}"
 
 	if [[ ${_do_scrbl} -eq 1 ]] && use doc ; then
-		echo ''
+		if [[ ${1} == index ]] ; then
+			echo '--doc-index'
+		else
+			echo ''
+		fi
 	else
 		echo '--no-docs'
 	fi
@@ -333,7 +343,7 @@ racket_src_install() {
 # @FUNCTION: raco_remove
 # @USAGE: [pkg_name] ...
 # @DESCRIPTION:
-# Remove a package installed in 'installation' scope
+# Remove a package installed in the "installation" scope.
 raco_remove() {
 	debug-print-function ${FUNCNAME} "${@}"
 
@@ -409,8 +419,7 @@ raco_system_setup() {
 		--force
 		--jobs "$(makeopts_jobs)"
 		--no-pkg-deps
-		$(raco_docs_switch)
-		$(usex doc '--doc-index' '')  # --doc-index is only known to "raco setup"
+		$(raco_docs_switch index)
 		--only
 		--pkgs ${pkg}
 	)

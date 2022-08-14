@@ -13,6 +13,7 @@
 | plai-dynamic       | unknown GH DOM, 404 web    |
 | qi                 | circular deps (use qi-lib) |
 | quickscript        | in main-distribution       |
+| racket-where       | special ebuild (sys-apps)  |
 | unb-cs2613         | unknown GH DOM, 404 web    |
 | unb-cs4613         | unknown GH DOM, 404 web    |
 

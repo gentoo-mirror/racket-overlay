@@ -150,14 +150,24 @@ racket_src_prepare() {
 }
 
 # @FUNCTION: raco_docs_switch
+# @USAGE: subcommand
 # @DESCRIPTION:
-# Based on whether _do_scrbl=1 and USE=doc documentation is enabled
-# by not passing the --no-docs switch.
+# Subcommand is the name of a raco subcommand.
+# This function echoes parameter to either disable or enable docs that are
+# appropriate for the picked subcommand.
+# Based on whether _do_scrbl is "1" and "doc" USE flag is enabled documentation
+# is enabled, otherwise it is disabled.
+# The flag "--doc-index" is only known to "raco setup", other commands will
+# build docs unless passed the "--no-docs" flag.
 raco_docs_switch() {
 	debug-print-function ${FUNCNAME} "${@}"
 
 	if [[ ${_do_scrbl} -eq 1 ]] && use doc ; then
-		echo ''
+		if [[ ${1} == setup ]] ; then
+			echo '--doc-index'
+		else
+			echo ''
+		fi
 	else
 		echo '--no-docs'
 	fi
@@ -213,7 +223,7 @@ raco_temporary_install() {
 	# (mainly "pkg_*" functions), not for "user" scope (mainly "src_compile").
 	# CONSIDER: Set PLT_COMPILED_FILE_CHECK in "raco_install"?
 	PLT_COMPILED_FILE_CHECK="exists" \
-		raco_install --name "${pkg}" --scope user $(raco_docs_switch)
+		raco_install --name "${pkg}" --scope user $(raco_docs_switch install)
 }
 
 # @FUNCTION: scribble_system_docs
@@ -343,7 +353,7 @@ raco_remove() {
 		--force
 		--no-trash
 		--scope installation
-		$(raco_docs_switch)
+		$(raco_docs_switch remove)
 	)
 	eraco pkg remove "${raco_opts[@]}" ${pkg}
 }
@@ -409,8 +419,7 @@ raco_system_setup() {
 		--force
 		--jobs "$(makeopts_jobs)"
 		--no-pkg-deps
-		$(raco_docs_switch)
-		$(usex doc '--doc-index' '')  # --doc-index is only known to "raco setup"
+		$(raco_docs_switch setup)
 		--only
 		--pkgs ${pkg}
 	)

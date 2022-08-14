@@ -50,9 +50,9 @@ Presented here is a example workflow of updating this repository's packages:
  }
  @item{
   Synchronize the repository
-  @codeblock{
-   git pull
-   git push
-  }
+  @nested[#:style 'code-inset]{@verbatim{
+    git pull
+    git push
+  }}
  }
  ]

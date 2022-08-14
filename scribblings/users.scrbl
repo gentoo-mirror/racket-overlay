@@ -39,8 +39,10 @@ If you use eix, than update it's database with @commandline{eix-update}
 
 If you have eselect-repository installed you can use the following command:
 
-@codeblock{eselect repository add gentoo-racket-overlay git
- https://gitlab.com/gentoo-racket/gentoo-racket-overlay}
+@nested[#:style 'code-inset]{@verbatim{
+  eselect repository add gentoo-racket-overlay git
+  https://gitlab.com/gentoo-racket/gentoo-racket-overlay
+}}
 
 
 @subsection{Manual}
@@ -49,31 +51,31 @@ As root: clone the repository into @filepath{/var/db/repos/gentoo-racket-overlay
 and copy @filepath{examples/repos.conf/gentoo-racket-overlay.conf}
 into @filepath{/etc/portage/repos.conf}
 
-@codeblock{
- mkdir -p /etc/portage/repos.conf
- cd /var/db/repos/
- git clone --recursive --verbose https://gitlab.com/gentoo-racket/gentoo-racket-overlay
- cp examples/repos.conf/gentoo-racket-overlay.conf /etc/portage/repos.conf/gentoo-racket-overlay.conf
-}
+@nested[#:style 'code-inset]{@verbatim{
+  mkdir -p /etc/portage/repos.conf
+  cd /var/db/repos/
+  git clone --recursive --verbose https://gitlab.com/gentoo-racket/gentoo-racket-overlay
+  cp examples/repos.conf/gentoo-racket-overlay.conf /etc/portage/repos.conf/gentoo-racket-overlay.conf
+}}
 
 
 @section{Unmask}
 
 Unmask packages in gentoo-racket-overlay and a recent version of Racket (at least 8.1)
 
-@codeblock{
- mkdir -p /etc/portage/package.accept_keywords
- echo 'dev-racket/*::gentoo-racket-overlay' >> /etc/portage/package.accept_keywords/gentoo-racket-overlay.conf
- echo 'sys-apps/*::gentoo-racket-overlay' >> /etc/portage/package.accept_keywords/gentoo-racket-overlay.conf
- echo '>=dev-scheme/racket-8.1::gentoo' >> /etc/portage/package.accept_keywords/gentoo-racket-overlay.conf
-}
+@nested[#:style 'code-inset]{@verbatim{
+  mkdir -p /etc/portage/package.accept_keywords
+  echo 'dev-racket/*::gentoo-racket-overlay' >> /etc/portage/package.accept_keywords/gentoo-racket-overlay.conf
+  echo 'sys-apps/*::gentoo-racket-overlay' >> /etc/portage/package.accept_keywords/gentoo-racket-overlay.conf
+  echo '>=dev-scheme/racket-8.1::gentoo' >> /etc/portage/package.accept_keywords/gentoo-racket-overlay.conf
+}}
 
 If you want to try experimental snapshots of Racket also
 unmask dev-scheme/racket from this overlay.
 
-@codeblock{
- echo 'dev-scheme/racket::gentoo-racket-overlay' >> /etc/portage/package.accept_keywords/gentoo-racket-overlay.conf
-}
+@nested[#:style 'code-inset]{@verbatim{
+  echo 'dev-scheme/racket::gentoo-racket-overlay' >> /etc/portage/package.accept_keywords/gentoo-racket-overlay.conf
+}}
 
 Check out a example
 @link["https://gitlab.com/gentoo-racket/gentoo-racket-overlay/-/blob/master/examples/package.accept_keywords/gentoo-racket-overlay.conf"
@@ -84,11 +86,11 @@ Check out a example
 
 Emerge dev-scheme/racket with USE="-minimal"
 
-@codeblock{
- mkdir -p /etc/portage/package.use
- echo 'dev-scheme/racket -minimal' >> /etc/portage/package.use/racket.conf
- emerge -av dev-scheme/racket
-}
+@nested[#:style 'code-inset]{@verbatim{
+  mkdir -p /etc/portage/package.use
+  echo 'dev-scheme/racket -minimal' >> /etc/portage/package.use/racket.conf
+  emerge -av dev-scheme/racket
+}}
 
 Check out a example
 @link["https://gitlab.com/gentoo-racket/gentoo-racket-overlay/-/blob/master/examples/package.use/racket.conf"
@@ -98,17 +100,19 @@ Check out a example
 @section{Updates}
 
 To update "dev-scheme/racket" and packages that depend on it update the world set:
-@codeblock{emerge -Dauv --jobs=1 --with-bdeps=y @"@world"}
+@nested[#:style 'code-inset]{@verbatim{
+  emerge -Dauv --jobs=1 --with-bdeps=y @"@world"
+}}
 
 You should get a message similar to this:
-@codeblock{
- @; WARNING: Don't format this!
-The following packages are causing rebuilds:
+@nested[#:style 'code-inset]{@verbatim{
+  @;; WARNING: Don't format this!
+  The following packages are causing rebuilds:
 
   (dev-scheme/racket-8.2:0/8.2::gentoo-racket-overlay, ebuild scheduled for merge) causes rebuilds for:
-    (dev-racket/drracket-one-dark-2021.03.05:0/0::gentoo-racket-overlay, ebuild scheduled for merge)
-    (sys-apps/racket-compiler-0.0.0:0/0::gentoo-racket-overlay, ebuild scheduled for merge)
-}
+  (dev-racket/drracket-one-dark-2021.03.05:0/0::gentoo-racket-overlay, ebuild scheduled for merge)
+  (sys-apps/racket-compiler-0.0.0:0/0::gentoo-racket-overlay, ebuild scheduled for merge)
+}}
 
 For more info on Gentoo updates see
 @link["https://wiki.gentoo.org/wiki/Upgrading_Gentoo#Updating_packages"

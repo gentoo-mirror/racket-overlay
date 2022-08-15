@@ -4,12 +4,12 @@
 EAPI=8
 
 GH_DOM="gitlab.com"
-GH_REPO="xgqt/racket-portage-admin"
+GH_REPO="gentoo-racket/racket-portage-admin"
 
 inherit gh racket
 
 DESCRIPTION="A GUI application for inspection of Gentoo-based systems. Metapackage."
-HOMEPAGE="https://gitlab.com/xgqt/racket-portage-admin"
+HOMEPAGE="https://gitlab.com/gentoo-racket/racket-portage-admin"
 S="${S}/src/portage-admin"
 
 LICENSE="GPL-3"

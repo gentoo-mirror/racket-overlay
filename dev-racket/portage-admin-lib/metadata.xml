@@ -3,7 +3,7 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://gitlab.com/xgqt/racket-portage-admin</bugs-to>
-    <remote-id type="gitlab">xgqt/racket-portage-admin</remote-id>
+    <bugs-to>https://gitlab.com/gentoo-racket/racket-portage-admin</bugs-to>
+    <remote-id type="gitlab">gentoo-racket/racket-portage-admin</remote-id>
   </upstream>
 </pkgmetadata>

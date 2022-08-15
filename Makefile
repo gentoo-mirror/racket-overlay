@@ -21,10 +21,7 @@ SCAN_CONFIG         := $(METADATA)/pkgcheck.conf
 
 NPROC               := $(shell nproc || echo 1)
 
-# i.e.: C2EXCL="-e pkg1 -e pkg2"
-COLLECTOR2_EXCLUDE  :=
-COLLECTOR2_AUX      := --create --directory $(PWD) --license-lookup --verbose
-COLLECTOR2_FLAGS    := $(COLLECTOR2_AUX) $(COLLECTOR2_EXCLUDE)
+COLLECTOR2_FLAGS    := --create --directory $(PWD) --excludes-file $(PWD)/excludes.rktd --license-lookup --verbose
 
 MANIFEST_FLAGS      := --verbose
 EGENCACHE_FLAGS     := --jobs $(NPROC) --load-average $(NPROC) --update --verbose

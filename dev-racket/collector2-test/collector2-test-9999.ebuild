@@ -4,12 +4,12 @@
 EAPI=8
 
 GH_DOM="gitlab.com"
-GH_REPO="src_prepare/racket/collector2"
+GH_REPO="gentoo-racket/racket-collector2"
 
 inherit gh racket
 
 DESCRIPTION="Parse Racket packages catalog and generate ebuild scripts. Tests."
-HOMEPAGE="https://gitlab.com/src_prepare/racket/collector2"
+HOMEPAGE="https://gitlab.com/gentoo-racket/racket-collector2"
 S="${S}/src/collector2-test"
 
 LICENSE="GPL-3"

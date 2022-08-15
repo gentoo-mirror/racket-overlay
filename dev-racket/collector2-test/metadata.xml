@@ -3,7 +3,7 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://gitlab.com/src_prepare/racket/collector2</bugs-to>
-    <remote-id type="gitlab">src_prepare/racket/collector2</remote-id>
+    <bugs-to>https://gitlab.com/gentoo-racket/racket-collector2</bugs-to>
+    <remote-id type="gitlab">gentoo-racket/racket-collector2</remote-id>
   </upstream>
 </pkgmetadata>

@@ -4,12 +4,12 @@
 EAPI=8
 
 GH_DOM="gitlab.com"
-GH_REPO="xgqt/racket-ebuild"
+GH_REPO="gentoo-racket/racket-ebuild"
 
 inherit gh racket
 
 DESCRIPTION="Library to ease automatic ebuild creation. Additional helper libraries."
-HOMEPAGE="https://gitlab.com/xgqt/racket-ebuild"
+HOMEPAGE="https://gitlab.com/gentoo-racket/racket-ebuild"
 S="${S}/src/ebuild-transformers"
 
 LICENSE="GPL-3"

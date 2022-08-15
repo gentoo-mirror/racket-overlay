@@ -2,7 +2,7 @@ BDEPEND=dev-racket/portage-admin-lib >=dev-vcs/git-1.8.2.1[curl] >=dev-scheme/ra
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
 DESCRIPTION=A GUI application for inspection of Gentoo-based systems. Documentation.
 EAPI=8
-HOMEPAGE=https://gitlab.com/xgqt/racket-portage-admin
+HOMEPAGE=https://gitlab.com/gentoo-racket/racket-portage-admin
 INHERIT=gh racket
 IUSE=doc
 LICENSE=GPL-3
@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=dev-racket/portage-admin-lib >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 _eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	gh	663bca9e1d90b6f6a02b0367a666070e	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=5640ed3224459fba36c95abfdaa30f45
+_md5_=e194e479213a72319890b17357a0187f

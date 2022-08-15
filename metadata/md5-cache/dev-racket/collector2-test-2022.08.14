@@ -1,0 +1,14 @@
+BDEPEND=dev-racket/collector2-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Parse Racket packages catalog and generate ebuild scripts. Tests.
+EAPI=8
+HOMEPAGE=https://gitlab.com/gentoo-racket/racket-collector2
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=GPL-3
+RDEPEND=dev-racket/collector2-lib >=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://gitlab.com/gentoo-racket/racket-collector2/-/archive/e4d9b2535c67e4df5c2a2f9ac2fd76f932f6884f.tar.gz -> collector2-test-2022.08.14.tar.gz
+_eclasses_=gh	663bca9e1d90b6f6a02b0367a666070e	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_md5_=f8c239ad9c0c18234f12f72eab3ecea8

@@ -2,7 +2,7 @@ BDEPEND=dev-racket/ebuild-lib dev-racket/ebuild-templates dev-racket/ebuild-tool
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
 DESCRIPTION=Library to ease automatic ebuild creation. Tests.
 EAPI=8
-HOMEPAGE=https://gitlab.com/xgqt/racket-ebuild
+HOMEPAGE=https://gitlab.com/gentoo-racket/racket-ebuild
 INHERIT=gh racket
 IUSE=doc
 LICENSE=GPL-3
@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=dev-racket/ebuild-lib dev-racket/ebuild-templates dev-racket/ebuild-tools dev-racket/ebuild-transformers dev-racket/threading-lib dev-racket/upi-lib dev-racket/uuid >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 _eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	gh	663bca9e1d90b6f6a02b0367a666070e	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=3a3df316ab7c1415025acbdc1fa46dc3
+_md5_=02764b71e389bbd301f10cc106cd6c9e

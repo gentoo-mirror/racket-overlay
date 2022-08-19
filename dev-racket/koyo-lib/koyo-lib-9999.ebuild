@@ -17,6 +17,7 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/component-lib
+	dev-racket/crontab-lib
 	dev-racket/crypto-lib
 	dev-racket/gregor-lib
 	dev-racket/mime-type-lib

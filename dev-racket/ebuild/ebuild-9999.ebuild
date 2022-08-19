@@ -17,6 +17,7 @@ SLOT="0"
 
 RDEPEND="dev-racket/ebuild-doc
 	dev-racket/ebuild-lib
+	dev-racket/ebuild-modify-lang
 	dev-racket/ebuild-templates
 	dev-racket/ebuild-test
 	dev-racket/ebuild-tools

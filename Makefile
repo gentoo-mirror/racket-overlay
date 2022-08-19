@@ -21,7 +21,7 @@ SCAN_CONFIG         := $(METADATA)/pkgcheck.conf
 
 NPROC               := $(shell nproc || echo 1)
 
-COLLECTOR2_FLAGS    := --create --directory $(PWD) --excludes-file $(PWD)/excludes.rktd --license-lookup --verbose
+COLLECTOR2_FLAGS    := --create --directory $(PWD) --excludes-file $(PWD)/excludes.rktd --license-lookup --modifications-file modifications.rkt --verbose
 
 MANIFEST_FLAGS      := --verbose
 EGENCACHE_FLAGS     := --jobs $(NPROC) --load-average $(NPROC) --update --verbose

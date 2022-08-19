@@ -16,6 +16,7 @@ LICENSE="GPL-3"
 SLOT="0"
 
 RDEPEND="dev-racket/ebuild-lib
+	dev-racket/ebuild-modify-lang
 	dev-racket/ebuild-templates
 	dev-racket/ebuild-tools
 	dev-racket/ebuild-transformers

@@ -18,6 +18,7 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/component-doc
 	dev-racket/component-lib
+	dev-racket/crontab
 	dev-racket/gregor-doc
 	dev-racket/gregor-lib
 	dev-racket/koyo-lib

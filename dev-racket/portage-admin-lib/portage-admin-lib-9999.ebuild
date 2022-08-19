@@ -6,7 +6,7 @@ EAPI=8
 GH_DOM="gitlab.com"
 GH_REPO="gentoo-racket/racket-portage-admin"
 
-inherit gh racket
+inherit desktop xdg gh racket
 
 DESCRIPTION="A GUI application for inspection of Gentoo-based systems. Core."
 HOMEPAGE="https://gitlab.com/gentoo-racket/racket-portage-admin"
@@ -17,3 +17,13 @@ SLOT="0"
 
 RDEPEND="dev-racket/threading-lib"
 BDEPEND="${RDEPEND}"
+
+src_install() {
+	domenu ../../extras/racket-portage-admin.desktop
+	racket_src_install
+}
+
+pkg_postinst() {
+	racket_pkg_postinst
+	xdg_pkg_postinst
+}

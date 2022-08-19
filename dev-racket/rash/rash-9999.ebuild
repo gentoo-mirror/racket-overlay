@@ -19,5 +19,6 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/basedir
 	dev-racket/linea
 	dev-racket/shell-pipeline
-	dev-racket/udelim"
+	dev-racket/udelim
+	dev-libs/libedit"
 BDEPEND="${RDEPEND}"

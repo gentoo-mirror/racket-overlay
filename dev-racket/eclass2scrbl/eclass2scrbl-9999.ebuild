@@ -11,11 +11,11 @@ inherit gh racket
 DESCRIPTION="Convert Gentoo Eclasses to Scribble documents."
 HOMEPAGE="https://gitlab.com/gentoo-racket/racket-eclass2scrbl"
 
-LICENSE="all-rights-reserved"
+LICENSE="GPL-2+"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/brag-lib
 	dev-racket/threading-lib
-	dev-racket/upi-lib"
+	dev-racket/upi-lib
+	dev-racket/ziptie-git"
 BDEPEND="${RDEPEND}"

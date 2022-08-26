@@ -12,6 +12,8 @@ DESCRIPTION="Racket parser for Ini and UNIX Conf files. Documentation."
 HOMEPAGE="https://gitlab.com/xgqt/racket-ini"
 S="${S}/src/ini-doc"
 
-LICENSE="all-rights-reserved"
+LICENSE="GPL-2+"
 SLOT="0"
-RESTRICT="mirror"
+
+RDEPEND="dev-racket/ini-lib"
+BDEPEND="${RDEPEND}"

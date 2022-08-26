@@ -8,7 +8,7 @@ GH_REPO="Bogdanp/racket-http-easy"
 
 inherit gh racket
 
-DESCRIPTION="A high-level HTTP client."
+DESCRIPTION="A high-level HTTP client. (docs & implementation)"
 HOMEPAGE="https://github.com/Bogdanp/racket-http-easy"
 S="${S}/http-easy"
 
@@ -16,6 +16,5 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/memoize-lib
-	dev-racket/resource-pool-lib"
+RDEPEND="dev-racket/http-easy-lib"
 BDEPEND="${RDEPEND}"

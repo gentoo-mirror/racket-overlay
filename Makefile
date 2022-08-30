@@ -3,8 +3,8 @@
 # Licensed under the GNU GPL v2 License
 
 
-EGENCACHE           := egencache
-PKGCHECK            := pkgcheck
+EGENCACHE               := egencache
+PKGCHECK                := pkgcheck
 PKGDEV                  := pkgdev
 RACKET                  := racket
 SH                      := sh
@@ -17,11 +17,13 @@ DOC_BUILT_DIR           := $(DOC_SOURCE_DIR)/doc
 DOC_PUBLIC_DIR          := $(PWD)/public
 METADATA                := $(PWD)/metadata
 
+EXCLUDES                := $(PWD)/excludes.rktd
+MODS                    := $(PWD)/modifications.rkt
 SCAN_CONFIG             := $(METADATA)/pkgcheck.conf
 
 NPROC                   := $(shell nproc || echo 1)
 
-COLLECTOR2_FLAGS        := --create --directory $(PWD) --excludes-file $(PWD)/excludes.rktd --license-lookup --modifications-file $(PWD)/modifications.rkt --verbose
+COLLECTOR2_FLAGS        := --create --directory $(PWD) --excludes-file $(EXCLUDES) --license-lookup --modifications-file $(MODS) --verbose
 CLEAN-VERSIONS_FLAGS    := --max 4 --only-category dev-racket --repository $(PWD) --verbose
 MANIFEST_FLAGS          := --verbose
 EGENCACHE_FLAGS         := --jobs $(NPROC) --load-average $(NPROC) --update --repo racket-overlay --verbose

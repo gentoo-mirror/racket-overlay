@@ -3,11 +3,11 @@
 @section{Eclass}
 
 @subsection[#:tag "MAINTAINER maciej bar"]{Maintainer}
-Maciej Barć <xgqt@"@"riseup.net>
+Maciej Barć @link["mailto:xgqt@riseup.net" "<xgqt@riseup.net>"]
 
 @subsection[#:tag "AUTHOR maciej bar"]{Author}
-Maciej Barć <xgqt@"@"riseup.net>
-Tom Gillespie <tgbugs@"@"gmail.com>
+Maciej Barć @link["mailto:xgqt@riseup.net" "<xgqt@riseup.net>"]
+Tom Gillespie @link["mailto:tgbugs@gmail.com" "<tgbugs@gmail.com>"]
 
 @subsection[#:tag "SUPPORTED_EAPIS "]{Supported_eapis}
 7 8

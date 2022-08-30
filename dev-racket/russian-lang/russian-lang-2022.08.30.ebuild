@@ -4,13 +4,13 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="kalxd/azelf"
-GH_COMMIT="1a24bbd37532767edba1d95c26fb07b308797580"
+GH_REPO="Kalimehtar/russian-lang"
+GH_COMMIT="ccd3598dcfbf9903de04ba756d6dd72d2efd83eb"
 
 inherit gh racket
 
-DESCRIPTION="The azelf Racket package"
-HOMEPAGE="https://github.com/kalxd/azelf"
+DESCRIPTION="Programming language based on russian language"
+HOMEPAGE="https://github.com/Kalimehtar/russian-lang"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

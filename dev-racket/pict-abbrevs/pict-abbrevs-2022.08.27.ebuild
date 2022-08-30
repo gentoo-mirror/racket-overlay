@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="gitlab.com"
 GH_REPO="bengreenman/pict-abbrevs"
-GH_COMMIT="2d2fd74ab6e76ecef0ef5131173d0fa4def30bad"
+GH_COMMIT="29fb0f7456018e02a9a5531b76af4f0ce2d27854"
 
 inherit gh racket
 
@@ -19,4 +19,4 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/lang-file
 	dev-racket/ppict"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

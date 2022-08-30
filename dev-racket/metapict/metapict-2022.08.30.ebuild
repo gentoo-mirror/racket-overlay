@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="soegaard/metapict"
-GH_COMMIT="c206aebc02f7903c2c3c80e017d1db78a2f030b5"
+GH_COMMIT="23b9b8e4bc636741ab06aa04641eb9f2d5f180a8"
 
 inherit gh racket
 
@@ -22,4 +22,4 @@ RDEPEND="dev-racket/graph-lib
 	dev-racket/racket-poppler
 	dev-racket/unstable-latent-contract-lib
 	dev-racket/unstable-parameter-group-lib"
-DEPEND="${RDEPEND}"
+BDEPEND="${RDEPEND}"

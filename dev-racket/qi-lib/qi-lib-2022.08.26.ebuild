@@ -5,23 +5,18 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="countvajhula/qi"
-GH_COMMIT="827316e4ac34f994eb8aed92f05da69bfe3c459e"
+GH_COMMIT="7d1afb978d9a4579ffd7fd644fe8370f718763be"
 
 inherit gh racket
 
-DESCRIPTION="A general-purpose functional DSL. [docs only]"
+DESCRIPTION="A general-purpose functional DSL. [implementation only]"
 HOMEPAGE="https://github.com/countvajhula/qi"
-S="${S}/qi-doc"
+S="${S}/qi-lib"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/metapict
-	dev-racket/qi-lib
-	dev-racket/qi-probe
-	dev-racket/relation
-	dev-racket/scribble-abbrevs
-	dev-racket/scribble-math"
+RDEPEND="dev-racket/fancy-app"
 BDEPEND="${RDEPEND}"

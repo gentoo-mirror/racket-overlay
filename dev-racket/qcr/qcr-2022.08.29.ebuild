@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="Antigen-1/qcr"
-GH_COMMIT="8d2882ab1b0716214f09b2533ebcaca9f26291b2"
+GH_COMMIT="92139d4900af6060007f10ac207be7727bc14bb2"
 
 inherit gh racket
 

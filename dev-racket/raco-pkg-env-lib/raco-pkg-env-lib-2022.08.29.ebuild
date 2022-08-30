@@ -4,14 +4,14 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racket/errortrace"
-GH_COMMIT="9690fa5fd9888e9e244eb311994dcd8884ffb7a9"
+GH_REPO="samdphillips/raco-pkg-env"
+GH_COMMIT="fa11a88d5056ca7552dbb5e8b19dacfdf793a177"
 
 inherit gh racket
 
-DESCRIPTION="The errortrace Racket package"
-HOMEPAGE="https://github.com/racket/errortrace"
-S="${S}/errortrace"
+DESCRIPTION="virtualenv like tool for Racket"
+HOMEPAGE="https://github.com/samdphillips/raco-pkg-env"
+S="${S}/raco-pkg-env-lib"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

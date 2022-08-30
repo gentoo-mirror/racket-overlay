@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="racket/ChezScheme"
-GH_COMMIT="bf85cb968781081c4fb60c6b4215519b8a31c86a"
+GH_COMMIT="05eabab8f4e590387a00af0841e24650494d806d"
 
 inherit gh racket
 

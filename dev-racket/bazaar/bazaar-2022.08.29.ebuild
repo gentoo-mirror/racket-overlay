@@ -4,15 +4,18 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="dannypsnl/data-type"
-GH_COMMIT="ab521276bc054921a740c6e6ff9030d8cb4dc172"
+GH_REPO="Metaxal/bazaar"
+GH_COMMIT="90f7451afd6c3be4284fddcc79ade9f8e4dbf24f"
 
 inherit gh racket
 
-DESCRIPTION="data type syntax for typed/racket"
-HOMEPAGE="https://github.com/dannypsnl/data-type"
+DESCRIPTION="A personal collection of useful definitions. Quite unstable."
+HOMEPAGE="https://github.com/Metaxal/bazaar"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/define2"
+BDEPEND="${RDEPEND}"

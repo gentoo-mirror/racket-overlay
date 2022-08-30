@@ -4,18 +4,16 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="Metaxal/bazaar"
-GH_COMMIT="53503da0fe0c8c2a545ab97312d340c7de3dd04c"
+GH_REPO="racket/racket"
+GH_COMMIT="532ca1109dcf607ec2a9347ef7dc7aaef28bc277"
 
 inherit gh racket
 
-DESCRIPTION="A personal collection of useful definitions. Quite unstable."
-HOMEPAGE="https://github.com/Metaxal/bazaar"
+DESCRIPTION="The plt-services Racket package"
+HOMEPAGE="https://github.com/racket/racket"
+S="${S}/pkgs/plt-services"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RESTRICT="mirror"
-
-RDEPEND="dev-racket/define2"
-DEPEND="${RDEPEND}"

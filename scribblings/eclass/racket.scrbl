@@ -3,11 +3,11 @@
 @section{Eclass}
 
 @subsection[#:tag "MAINTAINER maciej bar"]{Maintainer}
-Maciej Barć @link["mailto:xgqt@riseup.net" "<xgqt@riseup.net>"]
+Maciej Barć @link["mailto:xgqt@riseup.net" "xgqt@riseup.net"]
 
 @subsection[#:tag "AUTHOR maciej bar"]{Author}
-Maciej Barć @link["mailto:xgqt@riseup.net" "<xgqt@riseup.net>"]
-Tom Gillespie @link["mailto:tgbugs@gmail.com" "<tgbugs@gmail.com>"]
+Maciej Barć @link["mailto:xgqt@riseup.net" "xgqt@riseup.net"]
+Tom Gillespie @link["mailto:tgbugs@gmail.com" "tgbugs@gmail.com"]
 
 @subsection[#:tag "SUPPORTED_EAPIS "]{Supported_eapis}
 7 8
@@ -80,7 +80,7 @@ build directory.
 @nested[#:style 'code-inset]{@verbatim{
 SCRBL_DOC_DIR="${WORKDIR}/${P}_scrbl_docs"}}
 
-- racket-where (for `racket_pkg_prerm') - no additional BDEPEND
+- racket-where (for @exec{racket_pkg_prerm}) - no additional BDEPEND
 - other - racket-compiler and racket-where
 @section{racket_environment_prepare}
 @itemlist[@item{@exec{FUNCTION}}]
@@ -111,8 +111,8 @@ with the package.
 @subsection[#:tag "DESCRIPTION default src_prepare"]{Description}
 Default src_prepare:
 
-In addition to `default' this phase executes:
-`racket_environment_prepare' and `racket_clean_directory'.
+In addition to @exec{default} this phase executes:
+@exec{racket_environment_prepare} and @exec{racket_clean_directory}.
 
 @section{raco_docs_switch}
 @itemlist[@item{@exec{FUNCTION}}]
@@ -176,7 +176,7 @@ Output to html, latex, markdown and text formats.
 @subsection[#:tag "DESCRIPTION default src_compile"]{Description}
 Default src_compile:
 
-Executes `raco_temporary_install' and conditionally `scribble_system_docs'.
+Executes @exec{raco_temporary_install} and conditionally @exec{scribble_system_docs}.
 
 @section{racket_src_test}
 @itemlist[@item{@exec{FUNCTION}}]
@@ -185,7 +185,7 @@ Executes `raco_temporary_install' and conditionally `scribble_system_docs'.
 @subsection[#:tag "DESCRIPTION default src_test"]{Description}
 Default src_test:
 
-Executes `raco_test'.
+Executes @exec{raco_test}.
 
 @section{racket_copy_package}
 @itemlist[@item{@exec{FUNCTION}}]
@@ -218,7 +218,7 @@ Install documentation from SCRBL_DOC_DIR.
 @subsection[#:tag "DESCRIPTION default src_install"]{Description}
 Default src_install:
 
-Installs miscellaneous docs with `einstalldocs'
+Installs miscellaneous docs with @exec{einstalldocs}
 and then installs the compiled racket package files.
 
 @section{raco_remove}
@@ -239,7 +239,7 @@ Remove a package installed in the "installation" scope.
 Default pkg_prerm:
 
 If we are removing (not updating) the package, then
-if we have Racket available remove the pkg using `raco_remove'
+if we have Racket available remove the pkg using @exec{raco_remove}
 (if it is installed) to properly update pkg databases.
 
 @section{raco_system_install}

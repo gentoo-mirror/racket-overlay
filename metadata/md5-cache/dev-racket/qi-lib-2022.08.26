@@ -10,6 +10,6 @@ LICENSE=all-rights-reserved
 RDEPEND=dev-racket/fancy-app >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/countvajhula/qi/archive/827316e4ac34f994eb8aed92f05da69bfe3c459e.tar.gz -> qi-lib-2022.08.09.tar.gz
+SRC_URI=https://github.com/countvajhula/qi/archive/7d1afb978d9a4579ffd7fd644fe8370f718763be.tar.gz -> qi-lib-2022.08.26.tar.gz
 _eclasses_=gh	663bca9e1d90b6f6a02b0367a666070e	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=062a750f6b2d106a331fea34dbb70209
+_md5_=5b8f96a0524488d5ace3dd469db5d39e

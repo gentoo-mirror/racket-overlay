@@ -1,15 +1,14 @@
 BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DESCRIPTION=The azelf Racket package
+DESCRIPTION=The errortrace Racket package
 EAPI=8
-HOMEPAGE=https://github.com/kalxd/azelf
+HOMEPAGE=https://github.com/racket/errortrace
 INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
-LICENSE=all-rights-reserved
+LICENSE=|| ( Apache-2.0 MIT )
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
-RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/kalxd/azelf/archive/1a24bbd37532767edba1d95c26fb07b308797580.tar.gz -> azelf-2022.04.30.tar.gz
+SRC_URI=https://github.com/racket/errortrace/archive/612995aff0111e6500f7da1ad93250db65633523.tar.gz -> errortrace-2022.08.26.tar.gz
 _eclasses_=gh	663bca9e1d90b6f6a02b0367a666070e	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=10481447c82ce63de236ed84c88ffced
+_md5_=3ddc18c85a3274eecee260f6581134f2

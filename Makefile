@@ -13,6 +13,7 @@ MANIFEST                := $(PKGDEV) manifest
 SCAN                    := $(PKGCHECK) scan
 
 DOC_SOURCE_DIR          := $(PWD)/scribblings
+DOC_ECLASS_DIR          := $(DOC_SOURCE_DIR)/eclass
 DOC_BUILT_DIR           := $(DOC_SOURCE_DIR)/doc
 DOC_PUBLIC_DIR          := $(PWD)/public
 METADATA                := $(PWD)/metadata
@@ -63,6 +64,17 @@ test:
 
 
 # Documentation
+
+$(DOC_ECLASS_DIR)/%.scrbl:
+	$(RACKET) -l eclass2scrbl -- \
+		--output $(DOC_ECLASS_DIR)/$(*).scrbl $(PWD)/eclass/$(*).eclass
+
+.PHONY: eclass-scribblings
+eclass-scribblings:
+	$(MAKE) -B \
+		$(DOC_ECLASS_DIR)/gh.scrbl \
+		$(DOC_ECLASS_DIR)/racket-common.scrbl \
+		$(DOC_ECLASS_DIR)/racket.scrbl
 
 $(DOC_BUILT_DIR):
 	cd $(DOC_SOURCE_DIR) && $(SH) $(DOC_SOURCE_DIR)/build.sh

@@ -33,25 +33,32 @@ EGENCACHE_FLAGS         := --jobs $(NPROC) --load-average $(NPROC) --update --re
 SCAN_FLAGS              := --config $(SCAN_CONFIG) --jobs=$(NPROC) --verbose
 
 
-all: regen-gentoo test
+.PHONY: all
+all: regen test
 
 
 # Regenerate
 
+.PHONY: ebuilds
 ebuilds:
 	$(RACKET) -l collector2 -- $(COLLECTOR2_FLAGS)
 
+# WARNING: Not a "cleanup" rule. Removes files registered by git.
+.PHONY: clean-versions
 clean-versions:
 	$(RACKET) -l ebuild/tools/clean-versions -- $(CLEAN-VERSIONS_FLAGS)
 
+.PHONY: manifests
 manifests:
 	$(MANIFEST) $(MANIFEST_FLAGS) $(PWD)
 
-regen-gentoo: ebuilds clean-versions manifests
+.PHONY: regen
+regen: ebuilds clean-versions manifests
 
 
 # Test
 
+.PHONY: test
 test:
 	$(SCAN) $(SCAN_FLAGS) $(PWD)
 
@@ -101,7 +108,7 @@ submodules:
 
 # Cleanup
 
-.PHONY: clean-metadata-cache
+.PHONY: clean-md5-cache
 clean-md5-cache:
 	rm -r $(PWD)/metadata/md5-cache
 

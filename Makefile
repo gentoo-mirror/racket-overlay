@@ -4,6 +4,7 @@
 
 
 EGENCACHE               := egencache
+EIX-UPDATE              := eix-update
 PKGCHECK                := pkgcheck
 PKGDEV                  := pkgdev
 RACKET                  := racket
@@ -12,6 +13,7 @@ SH                      := sh
 MANIFEST                := $(PKGDEV) manifest
 SCAN                    := $(PKGCHECK) scan
 
+PWD                     ?= $(shell pwd)
 DOC_SOURCE_DIR          := $(PWD)/scribblings
 DOC_ECLASS_DIR          := $(DOC_SOURCE_DIR)/eclass
 DOC_BUILT_DIR           := $(DOC_SOURCE_DIR)/doc
@@ -47,15 +49,6 @@ manifests:
 
 regen-gentoo: ebuilds clean-versions manifests
 
-egencache:
-	PORATGE_REPOSITORIES="[racket-overlay] location = $(PWD)" \
-		$(EGENCACHE) $(EGENCACHE_FLAGS)
-
-clean-metadata-cache:
-	rm -r $(PWD)/metadata/md5-cache
-
-clean: clean-metadata-cache
-
 
 # Test
 
@@ -88,7 +81,29 @@ public:
 	$(MAKE) -B $(DOC_PUBLIC_DIR)
 
 
-# Auxiliary
+# Support
 
+# Regenerate metadata/md5-cache on demand.
+.PHONY: egencache
+egencache:
+	PORATGE_REPOSITORIES="[racket-overlay] location = $(PWD)" \
+		$(EGENCACHE) $(EGENCACHE_FLAGS)
+
+# Regenerate the system eix cache database.
+.PHONY: eix-update
+eix-update:
+	eix-update --repo-name $(PWD) racket-overlay
+
+.PHONY: submodules
 submodules:
 	$(SH) $(PWD)/3rd_party/scripts/src/update-submodules
+
+
+# Cleanup
+
+.PHONY: clean-metadata-cache
+clean-md5-cache:
+	rm -r $(PWD)/metadata/md5-cache
+
+.PHONY: clean
+clean: clean-md5-cache

@@ -64,16 +64,16 @@ test:
 
 # Documentation
 
-scribblings/doc:
+$(DOC_BUILT_DIR):
 	cd $(DOC_SOURCE_DIR) && $(SH) $(DOC_SOURCE_DIR)/build.sh
 
-public: scribblings/doc
+$(DOC_PUBLIC_DIR):
+	$(MAKE) -B $(DOC_BUILT_DIR)
 	cp -r $(PWD)/scribblings/doc/gentoo-racket-overlay $(PWD)/public
 
-regen-public:
-	if [ -d $(DOC_BUILT_DIR)  ] ; then rm -dr $(DOC_BUILT_DIR)  ; fi
-	if [ -d $(DOC_PUBLIC_DIR) ] ; then rm -dr $(DOC_PUBLIC_DIR) ; fi
-	$(MAKE) public
+.PHONY: public
+public:
+	$(MAKE) -B $(DOC_PUBLIC_DIR)
 
 
 # Auxiliary

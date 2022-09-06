@@ -1,0 +1,7 @@
+{
+  "local": [],
+  "dev": [
+    "collector2-lib",
+    "ebuild-tools"
+  ]
+}

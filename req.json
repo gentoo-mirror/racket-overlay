@@ -2,6 +2,7 @@
   "local": [],
   "dev": [
     "collector2-lib",
-    "ebuild-tools"
+    "ebuild-tools",
+    "eclass2scrbl"
   ]
 }

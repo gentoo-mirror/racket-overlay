@@ -8,11 +8,11 @@ GH_REPO="xgqt/racket-upi"
 
 inherit gh racket
 
-DESCRIPTION="Unix tools inspired Procedure Interface for Racket. Core."
+DESCRIPTION="Racket library inspired by UNIX tools. Core."
 HOMEPAGE="https://gitlab.com/xgqt/racket-upi"
 S="${S}/src/upi-lib"
 
-LICENSE="GPL-3"
+LICENSE="GPL-2+"
 SLOT="0"
 
 RDEPEND="dev-racket/threading-lib"

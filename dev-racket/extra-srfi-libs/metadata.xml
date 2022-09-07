@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/shawnw/racket-extra-srfi-libs</bugs-to>
+    <remote-id type="github">shawnw/racket-extra-srfi-libs</remote-id>
+  </upstream>
+</pkgmetadata>

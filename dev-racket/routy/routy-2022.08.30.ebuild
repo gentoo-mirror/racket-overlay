@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="Junker/routy"
-GH_COMMIT="8ea8293f0b89daec1858a9f445d3f7ff42dd4aed"
+GH_COMMIT="68409310aa853d2b72030f9029abb92bbbdb170e"
 
 inherit gh racket
 

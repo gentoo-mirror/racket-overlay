@@ -12,7 +12,7 @@ DESCRIPTION="ZipTie, completion component."
 HOMEPAGE="https://gitlab.com/xgqt/racket-ziptie"
 S="${S}/src/ziptie-completion"
 
-LICENSE="GPL-3"
+LICENSE="GPL-2+"
 SLOT="0"
 
 RDEPEND="dev-racket/threading-lib"

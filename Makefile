@@ -46,7 +46,7 @@ ebuilds:
 # WARNING: Not a "cleanup" rule. Removes files registered by git.
 .PHONY: clean-versions
 clean-versions:
-	$(RACKET) -l ebuild/tools/clean-versions -- $(CLEAN-VERSIONS_FLAGS)
+	$(RACKET) -l ebuild/tools/clean-versions-exe -- $(CLEAN-VERSIONS_FLAGS)
 
 .PHONY: manifests
 manifests:

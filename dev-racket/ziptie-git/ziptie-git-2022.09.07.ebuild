@@ -5,18 +5,17 @@ EAPI=8
 
 GH_DOM="gitlab.com"
 GH_REPO="xgqt/racket-ziptie"
-GH_COMMIT="31783fecd5af059bb1fcbfdb6ab726cab73ab8ae"
+GH_COMMIT="662d6281e8edb6b543242128fd50296ad05c00be"
 
 inherit gh racket
 
-DESCRIPTION="ZipTie, monorepo component."
+DESCRIPTION="ZipTie, git component."
 HOMEPAGE="https://gitlab.com/xgqt/racket-ziptie"
-S="${S}/src/ziptie-monorepo"
+S="${S}/src/ziptie-git"
 
-LICENSE="GPL-3"
+LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
-RDEPEND="dev-racket/threading-lib
-	dev-racket/upi-lib"
+RDEPEND="dev-racket/threading-lib"
 BDEPEND="${RDEPEND}"

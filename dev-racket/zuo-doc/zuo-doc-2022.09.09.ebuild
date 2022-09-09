@@ -5,15 +5,14 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="racket/racket"
-GH_COMMIT="0d0c4c19805483a885928629619773e468f44cb9"
+GH_COMMIT="532a22af0bfcd4cd6f59f4e3986f330b3c401874"
 
 inherit gh racket
 
-DESCRIPTION="The plt-services Racket package"
+DESCRIPTION="Documentation for the Zuo language"
 HOMEPAGE="https://github.com/racket/racket"
-S="${S}/pkgs/plt-services"
+S="${S}/racket/src/zuo/zuo-doc"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
-RESTRICT="mirror"

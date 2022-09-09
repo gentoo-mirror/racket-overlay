@@ -4,13 +4,14 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="michaelballantyne/ee-lib"
-GH_COMMIT="c2dade453ed3293e9b2a7cf88495bef4da0b53d6"
+GH_REPO="racket/racket"
+GH_COMMIT="532a22af0bfcd4cd6f59f4e3986f330b3c401874"
 
 inherit gh racket
 
-DESCRIPTION="Utilities for defining embedded macro expanders"
-HOMEPAGE="https://github.com/michaelballantyne/ee-lib"
+DESCRIPTION="The plt-services Racket package"
+HOMEPAGE="https://github.com/racket/racket"
+S="${S}/pkgs/plt-services"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

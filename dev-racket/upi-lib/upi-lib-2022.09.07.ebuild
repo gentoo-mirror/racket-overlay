@@ -4,16 +4,16 @@
 EAPI=8
 
 GH_DOM="gitlab.com"
-GH_REPO="xgqt/racket-ziptie"
-GH_COMMIT="31783fecd5af059bb1fcbfdb6ab726cab73ab8ae"
+GH_REPO="xgqt/racket-upi"
+GH_COMMIT="d22ba2a8118b5a3f9a7c588b186692b725663088"
 
 inherit gh racket
 
-DESCRIPTION="ZipTie, distro component."
-HOMEPAGE="https://gitlab.com/xgqt/racket-ziptie"
-S="${S}/src/ziptie-distro"
+DESCRIPTION="Racket library inspired by UNIX tools. Core."
+HOMEPAGE="https://gitlab.com/xgqt/racket-upi"
+S="${S}/src/upi-lib"
 
-LICENSE="GPL-3"
+LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 

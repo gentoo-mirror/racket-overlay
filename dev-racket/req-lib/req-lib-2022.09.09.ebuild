@@ -4,19 +4,19 @@
 EAPI=8
 
 GH_DOM="gitlab.com"
-GH_REPO="xgqt/racket-ziptie"
-GH_COMMIT="31783fecd5af059bb1fcbfdb6ab726cab73ab8ae"
+GH_REPO="xgqt/racket-req"
+GH_COMMIT="6169c8680c9167b43617a14e7f4aff5a400f06f0"
 
 inherit gh racket
 
-DESCRIPTION="ZipTie, make component."
-HOMEPAGE="https://gitlab.com/xgqt/racket-ziptie"
-S="${S}/src/ziptie-make"
+DESCRIPTION="Dependency manager for Racket projects. Core."
+HOMEPAGE="https://gitlab.com/xgqt/racket-req"
+S="${S}/src/req-lib"
 
-LICENSE="GPL-3"
+LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
 RDEPEND="dev-racket/threading-lib
-	dev-racket/uuid"
+	dev-racket/upi-lib"
 BDEPEND="${RDEPEND}"

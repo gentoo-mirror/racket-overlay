@@ -5,17 +5,17 @@ EAPI=8
 
 GH_DOM="gitlab.com"
 GH_REPO="xgqt/racket-upi"
-GH_COMMIT="ea63556878dbc386defaa3d992c6d648e75d2031"
+GH_COMMIT="d22ba2a8118b5a3f9a7c588b186692b725663088"
 
 inherit gh racket
 
-DESCRIPTION="Unix tools inspired Procedure Interface for Racket. Core."
+DESCRIPTION="Racket library inspired by UNIX tools. Documentation."
 HOMEPAGE="https://gitlab.com/xgqt/racket-upi"
-S="${S}/src/upi-lib"
+S="${S}/src/upi-doc"
 
-LICENSE="GPL-3"
+LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
-RDEPEND="dev-racket/threading-lib"
+RDEPEND="dev-racket/upi-lib"
 BDEPEND="${RDEPEND}"

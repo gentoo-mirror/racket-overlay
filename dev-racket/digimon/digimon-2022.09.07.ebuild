@@ -4,18 +4,15 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="yanyingwang/ming"
-GH_COMMIT="40701fbc3114ebf40c56e129f2dfce8326022134"
+GH_REPO="wargrey/digimon"
+GH_COMMIT="e60908a10af138f4d5c681e4005d0c47c94175ff"
 
 inherit gh racket
 
-DESCRIPTION="The ming Racket package"
-HOMEPAGE="https://github.com/yanyingwang/ming"
+DESCRIPTION="The (typed) core to construct the digital world"
+HOMEPAGE="https://github.com/wargrey/digimon"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RESTRICT="mirror"
-
-RDEPEND="dev-racket/scribble-rainbow-delimiters"
-BDEPEND="${RDEPEND}"

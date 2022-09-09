@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="sorawee/fmt"
-GH_COMMIT="701cfc83e6dee6e86d2dcca1b6fab2c3c923286b"
+GH_COMMIT="732b41bda63c961b2903166281e8275e3e97f8b1"
 
 inherit gh racket
 

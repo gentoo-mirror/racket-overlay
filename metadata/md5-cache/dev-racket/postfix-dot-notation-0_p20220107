@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/hygienic-reader-extension dev-racket/sweet-exp >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=a lang-extension for postfix dot notation
+EAPI=8
+HOMEPAGE=https://github.com/AlexKnauth/postfix-dot-notation
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/hygienic-reader-extension dev-racket/sweet-exp >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/AlexKnauth/postfix-dot-notation/archive/7475bf0b7f0f6fdd534933b86a29de633841f2b0.tar.gz -> postfix-dot-notation-0_p20220107.tar.gz
+_eclasses_=gh	663bca9e1d90b6f6a02b0367a666070e	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_md5_=3256a9293302a40a91bd424b9a07714d

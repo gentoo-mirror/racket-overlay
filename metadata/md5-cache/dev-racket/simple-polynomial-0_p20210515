@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/simple-matrix >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Basic polynomial arithmetic and interpolation.
+EAPI=8
+HOMEPAGE=https://bitbucket.org/derend/simple-polynomial
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/simple-matrix >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://bitbucket.org/derend/simple-polynomial/get/c8c7e2e4175a27123becd6e78f792738b0bf1188.tar.gz -> simple-polynomial-0_p20210515.tar.gz
+_eclasses_=gh	663bca9e1d90b6f6a02b0367a666070e	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_md5_=080a06e394d78d2cf076d7bd535cc239

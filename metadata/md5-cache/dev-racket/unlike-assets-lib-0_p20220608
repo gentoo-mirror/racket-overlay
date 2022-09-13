@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/ansi-color dev-racket/file-watchers dev-racket/graph-lib dev-racket/kinda-ferpy >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=(OLD EDITION) Implementation of unlike-assets
+EAPI=8
+HOMEPAGE=https://github.com/zyrolasting/unlike-assets
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/ansi-color dev-racket/file-watchers dev-racket/graph-lib dev-racket/kinda-ferpy >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/zyrolasting/unlike-assets/archive/7fb08d6902d34399c96a325d68fd27f1ff84813b.tar.gz -> unlike-assets-lib-0_p20220608.tar.gz
+_eclasses_=gh	663bca9e1d90b6f6a02b0367a666070e	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_md5_=ea8e0bde55b21f55000753db44257fed

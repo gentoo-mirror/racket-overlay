@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/_-exp dev-racket/adjutor dev-racket/gregor-lib dev-racket/markdown dev-racket/python-tokenizer dev-racket/rackjure dev-racket/reprovide-lang dev-racket/ricoeur-kernel dev-racket/ricoeur-tei-utils dev-racket/sql >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=NLP Library for Digital Ricoeur
+EAPI=8
+HOMEPAGE=https://bitbucket.org/digitalricoeur/pydrnlp
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/_-exp dev-racket/adjutor dev-racket/gregor-lib dev-racket/markdown dev-racket/python-tokenizer dev-racket/rackjure dev-racket/reprovide-lang dev-racket/ricoeur-kernel dev-racket/ricoeur-tei-utils dev-racket/sql >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://bitbucket.org/digitalricoeur/pydrnlp/get/666c1e00b67c0cc1ee6b5e3fbcfbec498b3173ac.tar.gz -> pydrnlp-0_p20210707.tar.gz
+_eclasses_=gh	663bca9e1d90b6f6a02b0367a666070e	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_md5_=6b875d0ee030923d07b8528be703b5f6

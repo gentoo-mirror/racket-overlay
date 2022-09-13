@@ -1,0 +1,16 @@
+BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/drcomplete-base
+DESCRIPTION=A DrRacket plugin for autocomplete for user-defined identifiers.
+EAPI=8
+HOMEPAGE=https://github.com/yjqww6/drcomplete
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/drcomplete-base >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/yjqww6/drcomplete/archive/eed4628a9553e103e062006655a16f5dc68ee7cd.tar.gz -> drcomplete-user-defined-0_p20210928.tar.gz
+_eclasses_=gh	663bca9e1d90b6f6a02b0367a666070e	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_md5_=3db5430bc1ae1738e7d67ce5ff9db414

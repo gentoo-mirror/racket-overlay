@@ -1,0 +1,16 @@
+BDEPEND=dev-racket/collections-lib dev-racket/functional-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=The functional-doc Racket package
+EAPI=8
+HOMEPAGE=https://pkgs.racket-lang.org/package/functional-doc
+INHERIT=racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+PDEPEND=dev-racket/collections-doc
+RDEPEND=dev-racket/collections-lib dev-racket/functional-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/lexi-lambda/functional/archive/be2285cd3da0e2fffe651a8ab723185bb669425d.tar.gz -> functional-doc-0_p20210702.tar.gz https://github.com/lexi-lambda/racket-collections/archive/c4822fc200b0488922cd6e86b4f2ea7cf8c565da.tar.gz -> functional-doc_aux_collections-doc-0_p20210702.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_md5_=12fb5af99cf2713b025ecfa1b651fe9e

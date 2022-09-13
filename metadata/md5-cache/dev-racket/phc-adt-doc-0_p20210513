@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/alexis-util dev-racket/datatype dev-racket/extensible-parser-specifications dev-racket/hyper-literate dev-racket/multi-id dev-racket/phc-adt-lib dev-racket/phc-toolkit dev-racket/remember dev-racket/scribble-enhanced dev-racket/scribble-math dev-racket/threading dev-racket/trivial dev-racket/type-expander dev-racket/typed-struct-props dev-racket/xlist >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Documentation for phc-adt (and rendering of the literate programming)
+EAPI=8
+HOMEPAGE=https://github.com/jsmaniac/phc-adt
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/alexis-util dev-racket/datatype dev-racket/extensible-parser-specifications dev-racket/hyper-literate dev-racket/multi-id dev-racket/phc-adt-lib dev-racket/phc-toolkit dev-racket/remember dev-racket/scribble-enhanced dev-racket/scribble-math dev-racket/threading dev-racket/trivial dev-racket/type-expander dev-racket/typed-struct-props dev-racket/xlist >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/jsmaniac/phc-adt/archive/36c1047c4899d1b478cc6052f9b2e71168aeefb5.tar.gz -> phc-adt-doc-0_p20210513.tar.gz
+_eclasses_=gh	663bca9e1d90b6f6a02b0367a666070e	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_md5_=b1a0e0251ffa196e3844571c31d89f9d

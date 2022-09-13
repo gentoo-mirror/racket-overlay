@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/gregor dev-racket/html-parsing dev-racket/request dev-racket/sxml >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=A bot and API client for runogame.com
+EAPI=8
+HOMEPAGE=https://github.com/winny-/runomatic
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/gregor dev-racket/html-parsing dev-racket/request dev-racket/sxml >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/winny-/runomatic/archive/017e5df3f4436248c5d4e0c1955c66d7808e5ed9.tar.gz -> runomatic-0_p20220213.tar.gz
+_eclasses_=gh	663bca9e1d90b6f6a02b0367a666070e	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_md5_=a1cf95afdeed3c213ac1a112ae008638

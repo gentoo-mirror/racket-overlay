@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/3s dev-racket/apse dev-racket/dos dev-racket/fector dev-racket/lux dev-racket/mode-lambda dev-racket/openal dev-racket/opengl dev-racket/pfds >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Get Bonus is a project about discovering the best way to program video games.
+EAPI=8
+HOMEPAGE=https://github.com/get-bonus/get-bonus
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/3s dev-racket/apse dev-racket/dos dev-racket/fector dev-racket/lux dev-racket/mode-lambda dev-racket/openal dev-racket/opengl dev-racket/pfds >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/get-bonus/get-bonus/archive/d9bb88d2940263641c35ad98912c5a2b3136cc96.tar.gz -> get-bonus-0_p20210311.tar.gz
+_eclasses_=gh	663bca9e1d90b6f6a02b0367a666070e	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_md5_=bfc826a92633f83e1d8244d82aaf5be9

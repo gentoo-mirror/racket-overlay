@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/mordae >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Epson ESC/VP21 Projector Control
+EAPI=8
+HOMEPAGE=https://github.com/mordae/racket-esc-vp21
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/mordae >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/mordae/racket-esc-vp21/archive/01bc89268f4f051d55885f64d4a0fac671a762b9.tar.gz -> esc-vp21-0_p20170815.tar.gz
+_eclasses_=gh	663bca9e1d90b6f6a02b0367a666070e	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_md5_=8b059699e0c353f06d75d8a671a50b6c

@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/reprovide-lang-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=The doc-coverage Racket package
+EAPI=8
+HOMEPAGE=https://github.com/jackfirth/doc-coverage
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/reprovide-lang-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/jackfirth/doc-coverage/archive/b1c0e9f3fd3a25e260f8905e6c8211dacf532b25.tar.gz -> doc-coverage-0_p20200721.tar.gz
+_eclasses_=gh	663bca9e1d90b6f6a02b0367a666070e	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_md5_=a50054312b2097306061d86a2f7710b6

@@ -1,0 +1,14 @@
+BDEPEND=dev-racket/splitflap-doc dev-racket/splitflap-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Atom and RSS feed generation
+EAPI=8
+HOMEPAGE=https://github.com/otherjoel/splitflap
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=BlueOak-1.0.0
+RDEPEND=dev-racket/splitflap-doc dev-racket/splitflap-lib >=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://github.com/otherjoel/splitflap/archive/b5a57329c9b63d2ad33066414df162060c92c876.tar.gz -> splitflap-0_p20220502.tar.gz
+_eclasses_=gh	663bca9e1d90b6f6a02b0367a666070e	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_md5_=8897e6556d5a21dfdca543ef83d000ae

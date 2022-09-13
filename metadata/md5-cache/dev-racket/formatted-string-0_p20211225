@@ -1,0 +1,14 @@
+BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Extends racket string to formatted string
+EAPI=8
+HOMEPAGE=https://github.com/dannypsnl/formatted-string
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=|| ( Apache-2.0 MIT )
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://github.com/dannypsnl/formatted-string/archive/7d477f7d8b2d64bd3e93b1f376a95ca89fc655eb.tar.gz -> formatted-string-0_p20211225.tar.gz
+_eclasses_=gh	663bca9e1d90b6f6a02b0367a666070e	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_md5_=08f8b33cab848ff22a9bab57cd115ff8

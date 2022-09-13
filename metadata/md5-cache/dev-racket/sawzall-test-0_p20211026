@@ -1,0 +1,16 @@
+BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/threading-lib dev-racket/sawzall-lib dev-racket/data-frame
+DESCRIPTION=Tests for Sawzall
+EAPI=8
+HOMEPAGE=https://github.com/ralsei/sawzall
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/threading-lib dev-racket/sawzall-lib dev-racket/data-frame >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/ralsei/sawzall/archive/344f362e510856c4696dda621ffb66a7b52cae94.tar.gz -> sawzall-test-0_p20211026.tar.gz
+_eclasses_=gh	663bca9e1d90b6f6a02b0367a666070e	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_md5_=dfcdea70ea652d301de0e18d74c5491d

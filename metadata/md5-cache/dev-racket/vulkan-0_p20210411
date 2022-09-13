@@ -1,0 +1,16 @@
+BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DEPEND=dev-racket/graph-lib dev-racket/natural-cli dev-racket/txexpr
+DESCRIPTION=Vulkan API integration.
+EAPI=8
+HOMEPAGE=https://github.com/zyrolasting/racket-vulkan
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/graph-lib dev-racket/natural-cli dev-racket/txexpr >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/zyrolasting/racket-vulkan/archive/632e0d0ea2b7415dc290221331df1bf996612729.tar.gz -> vulkan-0_p20210411.tar.gz
+_eclasses_=gh	663bca9e1d90b6f6a02b0367a666070e	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_md5_=3a1c8db613fdd0da42a66845a0ee380b

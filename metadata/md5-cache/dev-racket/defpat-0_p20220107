@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/generic-bind dev-racket/reprovide-lang dev-racket/scribble-code-examples dev-racket/sweet-exp dev-racket/unstable-lib dev-racket/unstable-list-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=a version of define for defining functions with match-patterns as arguments
+EAPI=8
+HOMEPAGE=https://github.com/AlexKnauth/defpat
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/generic-bind dev-racket/reprovide-lang dev-racket/scribble-code-examples dev-racket/sweet-exp dev-racket/unstable-lib dev-racket/unstable-list-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/AlexKnauth/defpat/archive/12cf5babc38f7f8ae9e0be0dac92a724b3c12204.tar.gz -> defpat-0_p20220107.tar.gz
+_eclasses_=gh	663bca9e1d90b6f6a02b0367a666070e	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_md5_=e8b54e82413b5a7e6570990ab3e714a8

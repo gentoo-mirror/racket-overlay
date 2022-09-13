@@ -19,5 +19,7 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/clotho
 	dev-racket/memoize
 	dev-racket/pprint
-	dev-racket/racr"
+	dev-racket/quickcheck
+	dev-racket/racr
+	dev-racket/version-string-with-git-hash"
 BDEPEND="${RDEPEND}"

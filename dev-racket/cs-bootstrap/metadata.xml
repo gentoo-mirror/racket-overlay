@@ -3,7 +3,7 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/racket/ChezScheme</bugs-to>
-    <remote-id type="github">racket/ChezScheme</remote-id>
+    <bugs-to>https://github.com/racket/racket</bugs-to>
+    <remote-id type="github">racket/racket</remote-id>
   </upstream>
 </pkgmetadata>

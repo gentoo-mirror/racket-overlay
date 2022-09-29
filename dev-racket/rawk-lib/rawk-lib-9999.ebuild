@@ -16,5 +16,6 @@ LICENSE="GPL-2+"
 SLOT="0"
 
 RDEPEND="dev-racket/reprovide-lang-lib
+	dev-racket/seq-no-order
 	dev-racket/threading-lib"
 BDEPEND="${RDEPEND}"

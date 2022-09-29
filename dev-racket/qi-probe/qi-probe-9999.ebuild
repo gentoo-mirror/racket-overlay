@@ -16,6 +16,5 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/mischief
-	dev-racket/qi-lib"
+RDEPEND="dev-racket/qi-lib"
 BDEPEND="${RDEPEND}"

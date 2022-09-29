@@ -19,7 +19,6 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/metapict
 	dev-racket/qi-lib
 	dev-racket/qi-probe
-	dev-racket/relation
 	dev-racket/scribble-abbrevs
 	dev-racket/scribble-math"
 BDEPEND="${RDEPEND}"

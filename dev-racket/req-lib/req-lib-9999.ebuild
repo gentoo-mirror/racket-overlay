@@ -15,6 +15,7 @@ S="${S}/src/req-lib"
 LICENSE="GPL-2+"
 SLOT="0"
 
-RDEPEND="dev-racket/threading-lib
+RDEPEND="dev-racket/colorize
+	dev-racket/threading-lib
 	dev-racket/upi-lib"
 BDEPEND="${RDEPEND}"

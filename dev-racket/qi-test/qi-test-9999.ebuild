@@ -16,8 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/cover
-	dev-racket/cover-coveralls
-	dev-racket/qi-lib
-	dev-racket/relation"
+RDEPEND="dev-racket/adjutor
+	dev-racket/qi-lib"
 BDEPEND="${RDEPEND}"

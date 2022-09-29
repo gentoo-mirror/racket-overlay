@@ -15,5 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/mime-type-lib"
+RDEPEND="dev-racket/mime-type-lib
+	dev-racket/version-case"
 BDEPEND="${RDEPEND}"

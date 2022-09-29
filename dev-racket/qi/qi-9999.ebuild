@@ -16,8 +16,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/cli
-	dev-racket/qi-doc
+RDEPEND="dev-racket/qi-doc
 	dev-racket/qi-lib
 	dev-racket/qi-probe
 	dev-racket/qi-quickscripts

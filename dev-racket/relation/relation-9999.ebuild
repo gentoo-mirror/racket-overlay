@@ -16,26 +16,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/algebraic
-	dev-racket/arguments
-	dev-racket/collections-doc
-	dev-racket/collections-lib
-	dev-racket/cover
-	dev-racket/cover-coveralls
-	dev-racket/describe
-	dev-racket/fancy-app
-	dev-racket/functional-doc
-	dev-racket/functional-lib
-	dev-racket/kw-utils
-	dev-racket/mischief
-	dev-racket/point-free
-	dev-racket/qi-lib
-	dev-racket/rackjure
-	dev-racket/scribble-abbrevs
-	dev-racket/social-contract
-	dev-racket/sugar
-	dev-racket/threading-doc
-	dev-racket/threading-lib
-	dev-racket/typed-stack
-	dev-racket/version-case"
+RDEPEND="dev-racket/relation-doc
+	dev-racket/relation-lib
+	dev-racket/relation-test"
 BDEPEND="${RDEPEND}"

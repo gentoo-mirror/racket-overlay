@@ -24,7 +24,7 @@ test:
       - "*/*/metadata.xml"
       - .gitlab-ci.yml
       - Makefile
-      - eclass/*.ebuild
+      - eclass/*.eclass
 
   before_script:
     - emerge --version ; pkgcheck --version

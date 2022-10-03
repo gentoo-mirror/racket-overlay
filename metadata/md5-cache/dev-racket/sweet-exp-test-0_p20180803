@@ -11,5 +11,5 @@ RDEPEND=dev-racket/sweet-exp-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/takikawa/sweet-racket/archive/a3c1ae74c2e75e8d6164a3a9d8eb34335a7ba4de.tar.gz -> sweet-exp-test-0_p20180803.tar.gz
-_eclasses_=gh	663bca9e1d90b6f6a02b0367a666070e	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
 _md5_=73de6c76f1159a0a0e2e472c8f8216c7

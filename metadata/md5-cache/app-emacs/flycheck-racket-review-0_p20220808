@@ -9,5 +9,5 @@ LICENSE=BSD
 RDEPEND=dev-racket/review app-emacs/flycheck >=app-editors/emacs-24.1:*
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/racket-review/archive/c7516902108183d329bd502f79ab8a017ad57855.tar.gz -> flycheck-racket-review-0_p20220808.tar.gz
-_eclasses_=gh	663bca9e1d90b6f6a02b0367a666070e	elisp-common	79f8e13c80c89792e5c9b3fc8ef59f3b	elisp	c1c17e9c24d72d3bd58c611de8116fb6
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	elisp-common	79f8e13c80c89792e5c9b3fc8ef59f3b	elisp	c1c17e9c24d72d3bd58c611de8116fb6
 _md5_=e31155d4bbf2a58a23f788755413f8b8

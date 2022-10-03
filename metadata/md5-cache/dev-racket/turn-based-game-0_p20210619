@@ -12,5 +12,5 @@ RDEPEND=dev-racket/agile dev-racket/collections-doc dev-racket/collections-lib >
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/turn-based-game/archive/bdc793d50f67bb59446caecc9e5771d84e1eba17.tar.gz -> turn-based-game-0_p20210619.tar.gz
-_eclasses_=gh	663bca9e1d90b6f6a02b0367a666070e	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
 _md5_=60f5f9b92764cd236200380747066ee5

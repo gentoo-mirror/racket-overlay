@@ -12,5 +12,5 @@ RDEPEND=dev-racket/kw-utils dev-racket/mutable-match-lambda dev-racket/unstable-
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/hash-lambda/archive/d65df820d1c16e4d2f8c6e1519f3a0ec838387c8.tar.gz -> hash-lambda-0_p20170815.tar.gz
-_eclasses_=gh	663bca9e1d90b6f6a02b0367a666070e	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
 _md5_=39432aaf3cec2126b9b70783a43db6bc

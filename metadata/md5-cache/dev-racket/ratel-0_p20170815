@@ -11,5 +11,5 @@ RDEPEND=dev-racket/threading >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/198d/ratel/archive/c28e0d56e9f1babad8293ab50c1f30cb3fd4df67.tar.gz -> ratel-0_p20170815.tar.gz
-_eclasses_=gh	663bca9e1d90b6f6a02b0367a666070e	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
 _md5_=90402a4748f398b79796de9589343691

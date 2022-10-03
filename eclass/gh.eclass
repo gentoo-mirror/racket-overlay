@@ -133,7 +133,7 @@ case ${PV} in
 				S="${WORKDIR}/${GH_REPO##*/}-${GH_COMMIT}"
 				;;
 			gitlab )
-				SRC_URI="https://${GH_DOM}/${GH_REPO}/-/archive/${GH_COMMIT}.tar.gz -> ${P}.tar.gz"
+				SRC_URI="https://${GH_DOM}/${GH_REPO}/-/archive/${GH_COMMIT}/${GH_REPO##*/}-${GH_COMMIT}.tar.gz -> ${P}.tar.gz"
 				S="${WORKDIR}/${GH_REPO##*/}-${GH_COMMIT}"
 				;;
 			* )

@@ -14,6 +14,3 @@ HOMEPAGE="https://github.com/simmone/racket-simple-xml"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
-
-RDEPEND="dev-racket/detail"
-BDEPEND="${RDEPEND}"

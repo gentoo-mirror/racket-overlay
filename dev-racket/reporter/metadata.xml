@@ -3,7 +3,7 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/racket-tw/reporter</bugs-to>
-    <remote-id type="github">racket-tw/reporter</remote-id>
+    <bugs-to>https://github.com/dannypsnl/reporter</bugs-to>
+    <remote-id type="github">dannypsnl/reporter</remote-id>
   </upstream>
 </pkgmetadata>

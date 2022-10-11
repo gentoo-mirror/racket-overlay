@@ -15,6 +15,7 @@ S="${S}/src/vdb-doc"
 LICENSE="GPL-2+"
 SLOT="0"
 
-RDEPEND="dev-racket/vdb-lib
+RDEPEND="dev-racket/threading-lib
+	dev-racket/vdb-lib
 	dev-racket/ziptie-git"
 BDEPEND="${RDEPEND}"

@@ -15,7 +15,8 @@ S="${S}/src/vdb-lib"
 LICENSE="GPL-2+"
 SLOT="0"
 
-RDEPEND="dev-racket/reprovide-lang-lib
+RDEPEND="dev-racket/bzip2
+	dev-racket/reprovide-lang-lib
 	dev-racket/threading-lib
 	dev-racket/upi-lib"
 BDEPEND="${RDEPEND}"

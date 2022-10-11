@@ -1,0 +1,15 @@
+BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Put the contents of a file directly in a Scribble doc
+EAPI=8
+HOMEPAGE=https://gitlab.com/bengreenman/scribble-include-text
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://gitlab.com/bengreenman/scribble-include-text/-/archive/a0053a054a2fddb28d547b5465ecbc930fc0d35e/scribble-include-text-a0053a054a2fddb28d547b5465ecbc930fc0d35e.tar.gz -> scribble-include-text-0_p20221003.tar.gz
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_md5_=23a80df0a0ac555189eae5a218fd5af3

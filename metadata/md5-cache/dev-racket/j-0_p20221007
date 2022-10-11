@@ -1,0 +1,15 @@
+BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Racket implementation of J language and related concepts
+EAPI=8
+HOMEPAGE=https://github.com/lwhjp/racket-jlang
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/lwhjp/racket-jlang/archive/021c40382f95d1a6dc0b329a152a171465b9bc75.tar.gz -> j-0_p20221007.tar.gz
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_md5_=5383810316ddd03c9baa38adc54c5408

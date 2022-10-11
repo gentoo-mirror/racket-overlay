@@ -1,14 +1,14 @@
-BDEPEND=dev-racket/c-utils dev-racket/colorize >=dev-vcs/git-1.8.2.1[curl] >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DESCRIPTION=A util toolbox for compiler error reporting
+DESCRIPTION=multipurpose library focused on CTF
 EAPI=8
-HOMEPAGE=https://github.com/dannypsnl/reporter
+HOMEPAGE=https://github.com/a11ce/bincraft
 INHERIT=gh racket
 IUSE=doc
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/c-utils dev-racket/colorize >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=dd3dec4a78157fb244a926c34e123a02
+_md5_=658bc6b528c6c0e836fe0508d5e1f92b

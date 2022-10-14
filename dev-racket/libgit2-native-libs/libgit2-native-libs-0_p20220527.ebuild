@@ -12,7 +12,6 @@ inherit gh racket
 DESCRIPTION="native libraries for libgit2 (meta-package)"
 HOMEPAGE="https://github.com/LiberalArtist/native-libgit2-pkgs"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
-RESTRICT="mirror"

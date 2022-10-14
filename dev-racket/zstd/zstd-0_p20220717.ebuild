@@ -12,7 +12,6 @@ inherit gh racket
 DESCRIPTION="The zstd Racket package"
 HOMEPAGE="https://git.sr.ht/~williewillus/racket-zstd"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
-RESTRICT="mirror"

@@ -12,7 +12,6 @@ inherit gh racket
 DESCRIPTION="A collection of scripts for Racket's QuickScript"
 HOMEPAGE="https://github.com/DexterLagan/dexter-quickscripts"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
-RESTRICT="mirror"

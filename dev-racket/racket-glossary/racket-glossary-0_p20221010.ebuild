@@ -12,10 +12,9 @@ inherit gh racket
 DESCRIPTION="The racket-glossary Racket package"
 HOMEPAGE="https://git.sr.ht/~sschwarzer/racket-glossary"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/al2-test-runner"
 BDEPEND="${RDEPEND}"

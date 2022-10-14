@@ -12,10 +12,9 @@ inherit gh racket
 DESCRIPTION="The moonrat Racket package"
 HOMEPAGE="https://github.com/zzkt/moonrat"
 
-LICENSE="all-rights-reserved"
+LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/english
 	dev-racket/parsack"

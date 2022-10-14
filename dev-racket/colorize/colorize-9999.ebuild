@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="colorize your console"
 HOMEPAGE="https://github.com/yanyingwang/colorize"
 
-LICENSE="all-rights-reserved"
+LICENSE="Apache-2.0"
 SLOT="0"
-RESTRICT="mirror"

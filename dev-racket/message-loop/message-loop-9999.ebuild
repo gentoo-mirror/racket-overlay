@@ -11,9 +11,8 @@ inherit gh racket
 DESCRIPTION="A listener-based action handling system"
 HOMEPAGE="https://github.com/dstorrs/message-loop"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/rx-tx-async-channel
 	dev-racket/struct-plus-plus

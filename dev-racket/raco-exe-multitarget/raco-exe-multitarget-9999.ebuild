@@ -11,9 +11,8 @@ inherit gh racket
 DESCRIPTION="Create standalone binaries for multiple target platforms"
 HOMEPAGE="https://git.sr.ht/~sschwarzer/raco-exe-multitarget"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/al2-test-runner
 	dev-racket/raco-cross-lib"

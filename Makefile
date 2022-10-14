@@ -26,7 +26,7 @@ SCAN_CONFIG             := $(METADATA)/pkgcheck.conf
 
 NPROC                   := $(shell nproc || echo 1)
 
-COLLECTOR2_FLAGS        := --create --directory $(PWD) --excludes-file $(EXCLUDES) --license-lookup --modifications-file $(MODS) --verbose
+COLLECTOR2_FLAGS        := --create --directory $(PWD) --excludes-file $(EXCLUDES) --modifications-file $(MODS) --verbose
 CLEAN-VERSIONS_FLAGS    := --max 4 --only-category dev-racket --repository $(PWD) --verbose
 MANIFEST_FLAGS          := --verbose
 EGENCACHE_FLAGS         := --jobs $(NPROC) --load-average $(NPROC) --update --repo racket-overlay --verbose

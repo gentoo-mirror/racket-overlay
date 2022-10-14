@@ -15,5 +15,6 @@ S="${S}/src/bumpv-lib"
 LICENSE="GPL-2+"
 SLOT="0"
 
-RDEPEND="dev-racket/ziptie-git"
+RDEPEND="dev-racket/colorize
+	dev-racket/ziptie-git"
 BDEPEND="${RDEPEND}"

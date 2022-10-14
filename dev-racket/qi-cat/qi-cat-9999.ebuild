@@ -11,9 +11,8 @@ inherit gh racket
 DESCRIPTION="Packages for studying the connections between Qi and Category Theory."
 HOMEPAGE="https://github.com/NoahStoryM/qi-cat"
 
-LICENSE="all-rights-reserved"
+LICENSE="Unlicense"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/qi-lib"
 BDEPEND="${RDEPEND}"

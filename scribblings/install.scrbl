@@ -29,19 +29,13 @@
 
 @section{Helpers}
 
-We use 2 helper packages:
+We used to use 2 helper packages:
 @link["https://gitlab.com/gentoo-racket/racket-compiler"
       "racket-compiler"] and
 @link["https://gitlab.com/gentoo-racket/racket-where"
       "racket-where"].
-Both of those packages are used in the eclass and are essential to it's function.
-Also, both of those packages include internally their own definitions of
-ebuild phases that otherwise would not be possible to resolve correctly.
 
-@link["https://gitlab.com/gentoo-racket/racket-compiler"
-      "Racket-Compiler"]
-is used to compile a directory of racket source code
-in the "racket_src_compile" racket.eclass function.
+But now we only use racket-where.
 
 @link["https://gitlab.com/gentoo-racket/racket-where"
       "Racket-Where"]
@@ -56,16 +50,16 @@ not removing that package when we don't need to.
 
 @section{First merge}
 
-Upon 1st merge of a "dev-racket" package new version of "racket"
-(should be from this overlay) and "racket-compiler"
-along with "racket-where" will be pulled.
+Upon 1st merge of a "dev-racket" packages new version of "racket"
+and "racket-where" will be pulled.
 
-Packages will be built in this order: "dev-scheme/racket",
-"sys-apps/racket-where", "sys-apps/racket-compiler",
+Packages will be built in this order:
+"dev-scheme/racket",
+"sys-apps/racket-where"
 and lastly your wanted "dev-racket" package.
 This is because "racket-where" depedns on "racket",
-"racket-compiler" on "racket-where" and "dev-racket" packages all depedn
-on "racket-compiler" and "racket-where" (@envvar{BDEPEND}).
+and "dev-racket" packages all depend
+on "racket-where" (@envvar{BDEPEND}).
 
 
 @section{Just in case}

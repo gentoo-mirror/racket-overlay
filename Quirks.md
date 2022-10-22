@@ -11,7 +11,6 @@
 | nix                | upstream gone              |
 | optimization-coach | malformed source           |
 | plai-dynamic       | unknown GH DOM, 404 web    |
-| qi                 | circular deps (use qi-lib) |
 | quickscript        | in main-distribution       |
 | racket-where       | special ebuild (sys-apps)  |
 | unb-cs2613         | unknown GH DOM, 404 web    |

@@ -38,11 +38,11 @@ Presented here is a example workflow of updating this repository's packages:
  }
  @item{
   Regenerate manifests
-  @commandline{repoman manifest}
+  @commandline{pkgdev manifest}
  }
  @item{
   Check if repoman test passes, if no correct the errors
-  @commandline{repoman -dvx full}
+  @commandline{pkgcheck scan}
  }
  @item{
   Commit the changes

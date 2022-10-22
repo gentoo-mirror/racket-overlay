@@ -36,7 +36,7 @@ echo '>=dev-scheme/racket-8.1::gentoo' >> /etc/portage/package.accept_keywords/g
 Check out a example
 [gentoo-racket-overlay.conf](./examples/package.accept_keywords/gentoo-racket-overlay.conf).
 
-### Emerge Racketg
+### Emerge Racket
 
 Emerge `dev-scheme/racket` with `USE="-minimal"`:
 ```sh

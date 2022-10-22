@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="Programming language based on russian language"
 HOMEPAGE="https://github.com/Kalimehtar/russian-lang"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
-RESTRICT="mirror"

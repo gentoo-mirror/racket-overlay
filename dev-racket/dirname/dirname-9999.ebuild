@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="Basename and dirname functions"
 HOMEPAGE="https://gitlab.com/xgqt/racket-dirname"
 
-LICENSE="all-rights-reserved"
+LICENSE="CC0-1.0"
 SLOT="0"
-RESTRICT="mirror"

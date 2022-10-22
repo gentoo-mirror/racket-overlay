@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="Put the contents of a file directly in a Scribble doc"
 HOMEPAGE="https://gitlab.com/bengreenman/scribble-include-text"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
-RESTRICT="mirror"

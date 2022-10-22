@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="rktfetch is an info fetch tool (like neofetch) but written in Racket"
 HOMEPAGE="https://github.com/mythical-linux/rktfetch"
 
-LICENSE="all-rights-reserved"
+LICENSE="CC0-1.0"
 SLOT="0"
-RESTRICT="mirror"

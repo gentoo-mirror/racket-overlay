@@ -12,6 +12,5 @@ DESCRIPTION="The threading-lib Racket package"
 HOMEPAGE="https://github.com/lexi-lambda/threading"
 S="${S}/threading-lib"
 
-LICENSE="all-rights-reserved"
+LICENSE="ISC"
 SLOT="0"
-RESTRICT="mirror"

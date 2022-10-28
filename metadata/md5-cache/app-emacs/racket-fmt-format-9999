@@ -8,5 +8,5 @@ LICENSE=|| ( Apache-2.0 MIT )
 PROPERTIES=live
 RDEPEND=dev-racket/fmt app-emacs/reformatter >=app-editors/emacs-24.3:*
 SLOT=0
-_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	gh	2efd973430985d5fee2990854013b2ee	elisp-common	79f8e13c80c89792e5c9b3fc8ef59f3b	elisp	c1c17e9c24d72d3bd58c611de8116fb6
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	gh	2efd973430985d5fee2990854013b2ee	elisp-common	79f8e13c80c89792e5c9b3fc8ef59f3b	elisp	8aab2c847b5894dc40503ae1d203abcf
 _md5_=f1a0806106532019d58b7550bfb54792

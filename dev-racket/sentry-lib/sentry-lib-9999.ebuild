@@ -17,5 +17,5 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/gregor-lib
-	dev-racket/http-easy"
+	dev-racket/http-easy-lib"
 BDEPEND="${RDEPEND}"

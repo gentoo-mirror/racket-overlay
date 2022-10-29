@@ -16,6 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/rackcheck
+RDEPEND="dev-racket/rackcheck-lib
 	dev-racket/smtp-server"
 BDEPEND="${RDEPEND}"

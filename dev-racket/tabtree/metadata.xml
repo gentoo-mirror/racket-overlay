@@ -3,7 +3,7 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/prozion/tabtree</bugs-to>
-    <remote-id type="github">prozion/tabtree</remote-id>
+    <bugs-to>https://github.com/prozion/tabtree-racket</bugs-to>
+    <remote-id type="github">prozion/tabtree-racket</remote-id>
   </upstream>
 </pkgmetadata>

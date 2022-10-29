@@ -17,5 +17,5 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/binfmt
-	dev-racket/rackcheck"
+	dev-racket/rackcheck-lib"
 BDEPEND="${RDEPEND}"

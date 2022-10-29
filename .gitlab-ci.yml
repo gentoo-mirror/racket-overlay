@@ -4,7 +4,7 @@
 # Original author: Maciej Barć <xgqt@riseup.net>
 # Copyright (c) 2021-2022, Maciej Barć <xgqt@riseup.net>
 # Licensed under the GNU GPL v2 License
-# SPDX-License-Identifier: GPL-2.0
+# SPDX-License-Identifier: GPL-2.0-or-later
 
 
 stages:
@@ -27,7 +27,7 @@ test:
       - eclass/*.eclass
 
   before_script:
-    - emerge --version ; pkgcheck --version
+    - pkgcheck --version
 
   script:
     - make test
@@ -50,7 +50,7 @@ pages:
     paths:
       - public
 
-  image: racket/racket:8.5-full
+  image: racket/racket:8.6-full
 
   before_script:
     - apt-get update

@@ -11,9 +11,8 @@ inherit gh racket
 DESCRIPTION="The Scheme-PLUS-for-Racket Racket package"
 HOMEPAGE="https://github.com/damien-mattei/Scheme-PLUS-for-Racket"
 
-LICENSE="all-rights-reserved"
+LICENSE="LGPL-3+"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/scribble-code-examples"
 BDEPEND="${RDEPEND}"

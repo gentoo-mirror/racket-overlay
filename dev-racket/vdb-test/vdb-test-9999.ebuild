@@ -15,5 +15,6 @@ S="${S}/src/vdb-test"
 LICENSE="GPL-2+"
 SLOT="0"
 
-RDEPEND="dev-racket/vdb-lib"
+RDEPEND="dev-racket/threading-lib
+	dev-racket/vdb-lib"
 BDEPEND="${RDEPEND}"

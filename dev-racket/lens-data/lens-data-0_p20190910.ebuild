@@ -21,6 +21,7 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/fancy-app
 	dev-racket/kw-make-struct-lib
+	dev-racket/racket
 	dev-racket/reprovide-lang-lib
 	dev-racket/struct-update-lib
 	dev-racket/sweet-exp-lib

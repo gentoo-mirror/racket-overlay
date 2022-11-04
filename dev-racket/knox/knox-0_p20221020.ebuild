@@ -16,5 +16,6 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
-RDEPEND="dev-racket/rosette"
+RDEPEND="dev-racket/racket
+	dev-racket/rosette"
 BDEPEND="${RDEPEND}"

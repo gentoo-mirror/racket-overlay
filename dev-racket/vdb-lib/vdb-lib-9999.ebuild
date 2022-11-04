@@ -18,5 +18,6 @@ SLOT="0"
 RDEPEND="dev-racket/bzip2
 	dev-racket/reprovide-lang-lib
 	dev-racket/threading-lib
+	dev-racket/typed-pmsf
 	dev-racket/upi-lib"
 BDEPEND="${RDEPEND}"

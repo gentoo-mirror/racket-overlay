@@ -16,5 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/xfunctions-lib"
+RDEPEND="dev-racket/racket
+	dev-racket/xfunctions-lib"
 BDEPEND="${RDEPEND}"

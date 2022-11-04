@@ -20,6 +20,7 @@ KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/fancy-app
+	dev-racket/racket
 	dev-racket/reprovide-lang-lib
 	dev-racket/sweet-exp-lib"
 BDEPEND="${RDEPEND}"

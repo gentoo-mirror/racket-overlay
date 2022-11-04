@@ -20,5 +20,6 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/anaphoric
 	dev-racket/graph-lib
+	dev-racket/racket
 	dev-racket/threading"
 BDEPEND="${RDEPEND}"

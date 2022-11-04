@@ -23,5 +23,6 @@ RDEPEND="dev-racket/pmsf-condition
 	dev-racket/pmsf-restrict
 	dev-racket/pmsf-slot
 	dev-racket/pmsf-src-uri
+	dev-racket/typed-pmsf
 	dev-racket/ziptie-git"
 BDEPEND="${RDEPEND}"

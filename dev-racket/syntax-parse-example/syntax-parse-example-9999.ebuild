@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="Example macros written using syntax/parse"
 HOMEPAGE="https://github.com/syntax-objects/syntax-parse-example"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
-RESTRICT="mirror"

@@ -1,16 +1,14 @@
 BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/racketscript-compiler
-DESCRIPTION=Goodies for RacketScript
+DESCRIPTION=String search algorithms
 EAPI=8
-HOMEPAGE=https://github.com/racketscript/racketscript
+HOMEPAGE=https://github.com/shawnw/racket-string-searchers
 INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
-LICENSE=all-rights-reserved
-RDEPEND=dev-racket/racketscript-compiler >=dev-scheme/racket-8.1:=[-minimal]
-RESTRICT=mirror
+LICENSE=|| ( Apache-2.0 MIT )
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
-SRC_URI=https://github.com/racketscript/racketscript/archive/69bb893694c60a99fb975941d459cf0dd8180ac0.tar.gz -> racketscript-extras-0_p20220415.tar.gz
+SRC_URI=https://github.com/shawnw/racket-string-searchers/archive/46e466009ff2c5b83980c5dc2f78542f9aeb6775.tar.gz -> string-searchers-0_p20221104.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=42493b4e6f8ec8c8d5fb1ebbae29dff4
+_md5_=dae5746b8fd2ce71e282a3c7a6efcefd

@@ -4,17 +4,16 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="wesleybits/xfunctions"
+GH_REPO="HaeckGabriel/RacketLinearRegression"
 
 inherit gh racket
 
-DESCRIPTION="Documentation for xfunctions"
-HOMEPAGE="https://github.com/wesleybits/xfunctions"
-S="${S}/xfunctions-doc"
+DESCRIPTION="Linear Regression implemented in Racket."
+HOMEPAGE="https://github.com/HaeckGabriel/RacketLinearRegression"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/xfunctions-lib"
+RDEPEND="dev-racket/csv-reading"
 BDEPEND="${RDEPEND}"

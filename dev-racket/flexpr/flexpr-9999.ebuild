@@ -14,6 +14,3 @@ HOMEPAGE="https://github.com/greghendershott/flexpr"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
-
-RDEPEND="dev-racket/racket"
-BDEPEND="${RDEPEND}"

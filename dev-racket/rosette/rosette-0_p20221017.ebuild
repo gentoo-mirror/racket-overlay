@@ -18,6 +18,5 @@ KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/custom-load
-	dev-racket/racket
 	dev-racket/rfc6455"
 BDEPEND="${RDEPEND}"

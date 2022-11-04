@@ -13,6 +13,3 @@ HOMEPAGE="https://github.com/shawnw/racket-extra-srfi-libs"
 
 LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-
-RDEPEND="dev-racket/racket"
-BDEPEND="${RDEPEND}"

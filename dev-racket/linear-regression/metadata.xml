@@ -3,7 +3,7 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/kalxd/ekans</bugs-to>
-    <remote-id type="github">kalxd/ekans</remote-id>
+    <bugs-to>https://github.com/HaeckGabriel/RacketLinearRegression</bugs-to>
+    <remote-id type="github">HaeckGabriel/RacketLinearRegression</remote-id>
   </upstream>
 </pkgmetadata>

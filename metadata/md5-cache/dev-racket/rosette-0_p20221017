@@ -1,4 +1,4 @@
-BDEPEND=dev-racket/custom-load dev-racket/rfc6455 >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/custom-load dev-racket/racket dev-racket/rfc6455 >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DESCRIPTION=The Rosette Language
 EAPI=8
@@ -7,9 +7,9 @@ INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/custom-load dev-racket/rfc6455 >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/custom-load dev-racket/racket dev-racket/rfc6455 >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/emina/rosette/archive/7e696132caef69397b75ca74d0d0de96b20029a4.tar.gz -> rosette-0_p20221017.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=55621d79320fda60c4fa4740cd152063
+_md5_=260c3bcef222d2f9a1cca775c9a61b2e

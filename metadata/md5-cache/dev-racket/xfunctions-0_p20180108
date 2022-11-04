@@ -1,4 +1,4 @@
-BDEPEND=dev-racket/xfunctions-doc dev-racket/xfunctions-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/racket dev-racket/xfunctions-doc dev-racket/xfunctions-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DESCRIPTION=Extended Functional Combinators
 EAPI=8
@@ -7,9 +7,9 @@ INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/xfunctions-doc dev-racket/xfunctions-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/racket dev-racket/xfunctions-doc dev-racket/xfunctions-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/wesleybits/xfunctions/archive/a8c545d55ee1d9df715ccc44fb22eec463e0f206.tar.gz -> xfunctions-0_p20180108.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=fc249930da953faa0a1693c20d141f95
+_md5_=2e4f7cf12fcd0cd17744cd6a3e827e34

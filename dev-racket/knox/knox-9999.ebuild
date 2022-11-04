@@ -14,6 +14,5 @@ HOMEPAGE="https://github.com/anishathalye/knox"
 LICENSE="MIT"
 SLOT="0"
 
-RDEPEND="dev-racket/racket
-	dev-racket/rosette"
+RDEPEND="dev-racket/rosette"
 BDEPEND="${RDEPEND}"

@@ -18,6 +18,5 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/racket
-	dev-racket/xfunctions-lib"
+RDEPEND="dev-racket/xfunctions-lib"
 BDEPEND="${RDEPEND}"

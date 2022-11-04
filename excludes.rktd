@@ -2,6 +2,7 @@
 ;; For more info see Collector2 documentation.
 
 ((hard "alpaca"                         ;
+       "ekans"                          ; 404
        "egg-herbie"                     ; binary
        "egg-herbie-linux"               ; binary
        "egg-herbie-osx"                 ; binary

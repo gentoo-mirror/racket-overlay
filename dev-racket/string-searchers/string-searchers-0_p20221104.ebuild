@@ -4,13 +4,13 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="shawnw/racket-stencil-vector-utils"
-GH_COMMIT="9ec7672e9210ab0ecb7a73dd0b186494aab72391"
+GH_REPO="shawnw/racket-string-searchers"
+GH_COMMIT="46e466009ff2c5b83980c5dc2f78542f9aeb6775"
 
 inherit gh racket
 
-DESCRIPTION="Functions for working with stencil vectors"
-HOMEPAGE="https://github.com/shawnw/racket-stencil-vector-utils"
+DESCRIPTION="String search algorithms"
+HOMEPAGE="https://github.com/shawnw/racket-string-searchers"
 
 LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"

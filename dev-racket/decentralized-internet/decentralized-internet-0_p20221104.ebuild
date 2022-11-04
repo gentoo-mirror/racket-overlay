@@ -4,13 +4,13 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="kalxd/ekans"
-GH_COMMIT="52d5acb0339dc38a6410f853957d57f90f566131"
+GH_REPO="Lonero-Team/Racket-Package"
+GH_COMMIT="be9c648496e055274453990aa648891e9b7f5640"
 
 inherit gh racket
 
-DESCRIPTION="The ekans Racket package"
-HOMEPAGE="https://github.com/kalxd/ekans"
+DESCRIPTION="A package for building distributed computing projects"
+HOMEPAGE="https://github.com/Lonero-Team/Racket-Package"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

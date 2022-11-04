@@ -4,19 +4,18 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racketscript/racketscript"
-GH_COMMIT="11400fdd9d11541e7dd40c536c015677a7fa4181"
+GH_REPO="HaeckGabriel/RacketLinearRegression"
+GH_COMMIT="066aab8d661f251ca7c0364bee0bc7d9db92d8d4"
 
 inherit gh racket
 
-DESCRIPTION="Goodies for RacketScript"
-HOMEPAGE="https://github.com/racketscript/racketscript"
-S="${S}/racketscript-extras"
+DESCRIPTION="Linear Regression implemented in Racket."
+HOMEPAGE="https://github.com/HaeckGabriel/RacketLinearRegression"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/racketscript-compiler"
+RDEPEND="dev-racket/csv-reading"
 BDEPEND="${RDEPEND}"

@@ -16,6 +16,5 @@ LICENSE="LGPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
-RDEPEND="dev-racket/racket
-	dev-racket/sugar"
+RDEPEND="dev-racket/sugar"
 BDEPEND="${RDEPEND}"

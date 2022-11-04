@@ -16,6 +16,5 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/custom-load
-	dev-racket/racket
 	dev-racket/rfc6455"
 BDEPEND="${RDEPEND}"

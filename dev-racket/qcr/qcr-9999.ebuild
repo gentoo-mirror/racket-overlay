@@ -14,6 +14,5 @@ HOMEPAGE="https://github.com/Antigen-1/qcr"
 LICENSE="LGPL-3"
 SLOT="0"
 
-RDEPEND="dev-racket/racket
-	dev-racket/sugar"
+RDEPEND="dev-racket/sugar"
 BDEPEND="${RDEPEND}"

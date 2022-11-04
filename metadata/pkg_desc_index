@@ -917,6 +917,7 @@ dev-racket/operational-transformation 0_p20180531 0_p20210902 9999: The operatio
 dev-racket/operational-transformation-demo 0_p20180531 0_p20210902 9999: Demo collaborative editor using Operational Transformation (OT).
 dev-racket/operational-transformation-lib 0_p20180531 0_p20210902 9999: The operational-transformation-lib Racket package
 dev-racket/opt 0_p20210508 0_p20220702 0_p20220903 9999: The opt Racket package
+dev-racket/optimization-coach 0_p20211011 9999: Optimization Coach Plug-In for DrRacket
 dev-racket/option-bind 0_p20170815 9999: Monadic shorthand for propagating #f in Option types
 dev-racket/org 0_p20220517 0_p20220519 0_p20220528 9999: Org mode as #lang org.
 dev-racket/org-mode 0_p20170815 9999: A native Racket reader and writer for org-mode files.
@@ -1076,6 +1077,7 @@ dev-racket/qi-test 0_p20220928 0_p20221012 0_p20221103 9999: A general-purpose f
 dev-racket/qiniu-sdk 0_p20180725 9999: A simple library for qiniu.com
 dev-racket/qresults-list 0_p20200118 9999: enhanced list-box% control
 dev-racket/qtops 0_p20201004 0_p20220526 9999: Perform operations on things with qualities
+dev-racket/quad 0_p20221018 9999: Document processor (unstable)
 dev-racket/quad-tree 0_p20170815 9999: The quad-tree Racket package
 dev-racket/quaternion 0_p20171013 9999: The Quaternion Racket package
 dev-racket/queue 0_p20220503 0_p20220511 9999: An amortized O(1) queue struct
@@ -1256,10 +1258,12 @@ dev-racket/rosette 0_p20221017 9999: The Rosette Language
 dev-racket/routy 0_p20190518 0_p20220830 9999: Routy is a lightweight high performance HTTP request router for Racket.
 dev-racket/rparallel 0_p20220829 0_p20220906 0_p20220923 9999: High-level parallel forms
 dev-racket/rpn 0_p20200531 9999: The rpn Racket package
+dev-racket/rpp 0_p20220831 9999: The rpp Racket package
 dev-racket/rs 0_p20210415 9999: The rs Racket package
 dev-racket/rs-l 0_p20200606 9999: Library with loop and event tools for rs (the Racket Sequencer)
 dev-racket/rsa 0_p20160929 9999: An rsa encryption library for racket
 dev-racket/rsc3 0_p20170815 0_p20211127 9999: The rsc3 SuperCollider client ported to Racket
+dev-racket/rsharp 0_p20220728 9999: attempt at create c# - like syntax for teaching purposes
 dev-racket/rsound 0_p20211127 0_p20220811 0_p20220912 9999: The rsound Racket package
 dev-racket/rsvg 0_p20210505 9999: FFI bindings to libRSVG, a library for loading SVG documents
 dev-racket/rtlv 0_p20221020 9999: Tools for reasoning about circuits in Rosette/Racket
@@ -1676,6 +1680,7 @@ dev-racket/with-cache 0_p20200203 0_p20211025 0_p20220628 9999: Filesystem-based
 dev-racket/wn 0_p20190530 9999: An FFI interface to WordNet 3.0 -- A Lexical Database for English
 dev-racket/word 0_p20220222 0_p20220702 0_p20220903 9999: Signed and Unsigned Word datatype for Racket using refinement types.
 dev-racket/wordle-solver 0_p20220208 0_p20220209 0_p20220215 9999: A simple solver for Wordle
+dev-racket/words 0_p20220816 9999: generate lists of words
 dev-racket/wort 0_p20200314 0_p20210803 9999: A tiny concatenative language with polymorphic type inference
 dev-racket/wy-posn-util 0_p20210219 0_p20220517 9999: Functions to work with 2d vectors (posn) in 2htdp.
 dev-racket/x11 0_p20210310 9999: X11 bindings for Racket. Initially Jon Rafkind's work.

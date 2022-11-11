@@ -4,12 +4,12 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="countvajhula/qi"
+GH_REPO="drym-org/qi"
 
 inherit gh racket
 
 DESCRIPTION="A general-purpose functional DSL. [tests only]"
-HOMEPAGE="https://github.com/countvajhula/qi"
+HOMEPAGE="https://github.com/drym-org/qi"
 S="${S}/qi-test"
 
 LICENSE="all-rights-reserved"

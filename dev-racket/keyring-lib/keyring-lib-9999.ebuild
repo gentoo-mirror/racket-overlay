@@ -12,6 +12,5 @@ DESCRIPTION="Implementation of the keyring package."
 HOMEPAGE="https://github.com/samdphillips/racket-keyring"
 S="${S}/keyring-lib"
 
-LICENSE="all-rights-reserved"
+LICENSE="Apache-2.0"
 SLOT="0"
-RESTRICT="mirror"

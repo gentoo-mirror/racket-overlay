@@ -14,3 +14,6 @@ HOMEPAGE="https://github.com/samth/htdp-json"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/http-easy-lib"
+BDEPEND="${RDEPEND}"

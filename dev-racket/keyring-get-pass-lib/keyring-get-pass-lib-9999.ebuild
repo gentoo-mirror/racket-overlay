@@ -12,9 +12,8 @@ DESCRIPTION="Keyring backend using get-pass"
 HOMEPAGE="https://github.com/samdphillips/racket-keyring"
 S="${S}/keyring-get-pass-lib"
 
-LICENSE="all-rights-reserved"
+LICENSE="Apache-2.0"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/get-pass
 	dev-racket/keyring-lib"

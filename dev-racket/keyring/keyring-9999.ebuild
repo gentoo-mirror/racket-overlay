@@ -12,9 +12,8 @@ DESCRIPTION="a library for uniformly accessing secrets"
 HOMEPAGE="https://github.com/samdphillips/racket-keyring"
 S="${S}/keyring"
 
-LICENSE="all-rights-reserved"
+LICENSE="Apache-2.0"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/keyring-lib"
 BDEPEND="${RDEPEND}"

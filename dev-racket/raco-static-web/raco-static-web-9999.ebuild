@@ -11,9 +11,8 @@ inherit gh racket
 DESCRIPTION="Serve some static files from raco"
 HOMEPAGE="https://github.com/samdphillips/raco-static-web"
 
-LICENSE="all-rights-reserved"
+LICENSE="Apache-2.0"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/mime-type-lib
 	dev-racket/version-case"

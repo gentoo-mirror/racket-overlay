@@ -14,6 +14,3 @@ HOMEPAGE="https://github.com/rfindler/lindenmayer"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
-
-RDEPEND="dev-racket/pict3d"
-BDEPEND="${RDEPEND}"

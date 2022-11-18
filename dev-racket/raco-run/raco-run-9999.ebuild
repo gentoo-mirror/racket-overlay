@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="Run submodules from the command line"
 HOMEPAGE="https://github.com/samdphillips/raco-run"
 
-LICENSE="all-rights-reserved"
+LICENSE="Apache-2.0"
 SLOT="0"
-RESTRICT="mirror"

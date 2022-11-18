@@ -1,0 +1,14 @@
+BDEPEND=dev-racket/reprovide-lang-lib dev-racket/threading-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Library to ease automatic ebuild creation. Core.
+EAPI=8
+HOMEPAGE=https://gitlab.com/gentoo-racket/racket-ebuild
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=GPL-3
+RDEPEND=dev-racket/reprovide-lang-lib dev-racket/threading-lib >=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://gitlab.com/gentoo-racket/racket-ebuild/-/archive/ba56a2c4efcf2ef9d0426ea7cab095252b71dca9/racket-ebuild-ba56a2c4efcf2ef9d0426ea7cab095252b71dca9.tar.gz -> ebuild-lib-0_p20221113.tar.gz
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_md5_=469ea6bdfd453f6392595ef9a31ef963

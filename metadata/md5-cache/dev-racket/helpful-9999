@@ -1,6 +1,6 @@
 BDEPEND=dev-racket/levenshtein >=dev-vcs/git-1.8.2.1[curl] >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DESCRIPTION=Helpfully suggest a closest variable name on unbound identifier error
+DESCRIPTION=Helpfully provide suggestions on unbound identifier error
 EAPI=8
 HOMEPAGE=https://github.com/sorawee/helpful
 INHERIT=gh racket
@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=dev-racket/levenshtein >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 _eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=75c2bf03464295b1076c26879ee01e91
+_md5_=3dbd8c18cf6255a1be41c96f3ae84b03

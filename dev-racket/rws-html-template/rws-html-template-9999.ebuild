@@ -21,6 +21,6 @@ RDEPEND="dev-racket/html-template
 BDEPEND="${RDEPEND}"
 
 src_unpack() {
-	wget -O "${T}/rws-html-template.zip" "http://www.neilvandyke.org/racket/rws-html-template.zip"
+	wget -O "${T}/rws-html-template.zip" "https://www.neilvandyke.org/racket/rws-html-template.zip"
 	unpack "${T}/rws-html-template.zip"
 }

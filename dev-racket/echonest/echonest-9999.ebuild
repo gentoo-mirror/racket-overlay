@@ -8,7 +8,7 @@ GH_REPO="greghendershott/echonest"
 
 inherit gh racket
 
-DESCRIPTION="Wrapper for The Echo Nest web API."
+DESCRIPTION="The echonest Racket package"
 HOMEPAGE="https://github.com/greghendershott/echonest"
 
 LICENSE="all-rights-reserved"

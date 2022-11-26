@@ -18,5 +18,5 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/anaphoric
 	dev-racket/graph-lib
-	dev-racket/threading"
+	dev-racket/threading-lib"
 BDEPEND="${RDEPEND}"

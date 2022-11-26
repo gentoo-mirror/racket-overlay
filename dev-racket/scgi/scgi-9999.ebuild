@@ -20,6 +20,6 @@ RDEPEND="dev-racket/mcfly"
 BDEPEND="${RDEPEND}"
 
 src_unpack() {
-	wget -O "${T}/scgi.zip" "http://www.neilvandyke.org/racket/scgi.zip"
+	wget -O "${T}/scgi.zip" "https://www.neilvandyke.org/racket/scgi.zip"
 	unpack "${T}/scgi.zip"
 }

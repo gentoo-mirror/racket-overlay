@@ -21,6 +21,6 @@ RDEPEND="dev-racket/mcfly
 BDEPEND="${RDEPEND}"
 
 src_unpack() {
-	wget -O "${T}/rfc3339-old.zip" "http://www.neilvandyke.org/racket/rfc3339-old.zip"
+	wget -O "${T}/rfc3339-old.zip" "https://www.neilvandyke.org/racket/rfc3339-old.zip"
 	unpack "${T}/rfc3339-old.zip"
 }

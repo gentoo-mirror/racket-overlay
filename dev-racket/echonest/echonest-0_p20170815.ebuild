@@ -9,7 +9,7 @@ GH_COMMIT="fd7d6511231bb4304cfd10260825e86ac33c3ddc"
 
 inherit gh racket
 
-DESCRIPTION="Wrapper for The Echo Nest web API."
+DESCRIPTION="The echonest Racket package"
 HOMEPAGE="https://github.com/greghendershott/echonest"
 
 LICENSE="all-rights-reserved"

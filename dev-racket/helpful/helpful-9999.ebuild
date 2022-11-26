@@ -8,7 +8,7 @@ GH_REPO="sorawee/helpful"
 
 inherit gh racket
 
-DESCRIPTION="Helpfully suggest a closest variable name on unbound identifier error"
+DESCRIPTION="Helpfully provide suggestions on unbound identifier error"
 HOMEPAGE="https://github.com/sorawee/helpful"
 
 LICENSE="|| ( Apache-2.0 MIT )"

@@ -11,9 +11,8 @@ inherit gh racket
 DESCRIPTION="Some Clojure-inspired idioms."
 HOMEPAGE="https://github.com/greghendershott/rackjure"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD-2"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/threading-doc
 	dev-racket/threading-lib"

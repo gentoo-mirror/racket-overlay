@@ -21,6 +21,6 @@ RDEPEND="dev-racket/mcfly
 BDEPEND="${RDEPEND}"
 
 src_unpack() {
-	wget -O "${T}/canonicalize-path.zip" "http://www.neilvandyke.org/racket/canonicalize-path.zip"
+	wget -O "${T}/canonicalize-path.zip" "https://www.neilvandyke.org/racket/canonicalize-path.zip"
 	unpack "${T}/canonicalize-path.zip"
 }

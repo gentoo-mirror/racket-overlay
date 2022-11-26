@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="Disassembler for JIT-compiled functions."
 HOMEPAGE="https://github.com/samth/disassemble"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
-RESTRICT="mirror"

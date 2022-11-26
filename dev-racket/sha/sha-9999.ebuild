@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="SHA-1 and SHA-2, via FFI to OpenSSL."
 HOMEPAGE="https://github.com/greghendershott/sha"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD-2"
 SLOT="0"
-RESTRICT="mirror"

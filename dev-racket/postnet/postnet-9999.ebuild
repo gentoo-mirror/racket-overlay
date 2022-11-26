@@ -21,6 +21,6 @@ RDEPEND="dev-racket/mcfly
 BDEPEND="${RDEPEND}"
 
 src_unpack() {
-	wget -O "${T}/postnet.zip" "http://www.neilvandyke.org/racket/postnet.zip"
+	wget -O "${T}/postnet.zip" "https://www.neilvandyke.org/racket/postnet.zip"
 	unpack "${T}/postnet.zip"
 }

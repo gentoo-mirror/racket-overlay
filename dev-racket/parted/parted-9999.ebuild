@@ -22,6 +22,6 @@ RDEPEND="dev-racket/mcfly
 BDEPEND="${RDEPEND}"
 
 src_unpack() {
-	wget -O "${T}/parted.zip" "http://www.neilvandyke.org/racket/parted.zip"
+	wget -O "${T}/parted.zip" "https://www.neilvandyke.org/racket/parted.zip"
 	unpack "${T}/parted.zip"
 }

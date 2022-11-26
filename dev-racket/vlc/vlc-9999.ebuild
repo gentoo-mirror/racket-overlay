@@ -21,6 +21,6 @@ RDEPEND="dev-racket/mcfly
 BDEPEND="${RDEPEND}"
 
 src_unpack() {
-	wget -O "${T}/vlc.zip" "http://www.neilvandyke.org/racket/vlc.zip"
+	wget -O "${T}/vlc.zip" "https://www.neilvandyke.org/racket/vlc.zip"
 	unpack "${T}/vlc.zip"
 }

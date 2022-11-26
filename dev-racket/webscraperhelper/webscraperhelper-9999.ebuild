@@ -20,6 +20,6 @@ RDEPEND="dev-racket/mcfly"
 BDEPEND="${RDEPEND}"
 
 src_unpack() {
-	wget -O "${T}/webscraperhelper.zip" "http://www.neilvandyke.org/racket/webscraperhelper.zip"
+	wget -O "${T}/webscraperhelper.zip" "https://www.neilvandyke.org/racket/webscraperhelper.zip"
 	unpack "${T}/webscraperhelper.zip"
 }

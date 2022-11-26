@@ -21,6 +21,6 @@ RDEPEND="dev-racket/mcfly
 BDEPEND="${RDEPEND}"
 
 src_unpack() {
-	wget -O "${T}/roomba.zip" "http://www.neilvandyke.org/racket/roomba.zip"
+	wget -O "${T}/roomba.zip" "https://www.neilvandyke.org/racket/roomba.zip"
 	unpack "${T}/roomba.zip"
 }

@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="Support for HTTP 1.1 including automatic connection pooling."
 HOMEPAGE="https://github.com/greghendershott/http"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD-2"
 SLOT="0"
-RESTRICT="mirror"

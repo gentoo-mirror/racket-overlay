@@ -17,6 +17,6 @@ KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RESTRICT="mirror"
 
 src_unpack() {
-	wget -O "${T}/mcfly.zip" "http://www.neilvandyke.org/racket/mcfly.zip"
+	wget -O "${T}/mcfly.zip" "https://www.neilvandyke.org/racket/mcfly.zip"
 	unpack "${T}/mcfly.zip"
 }

@@ -21,6 +21,6 @@ RDEPEND="dev-racket/mcfly
 BDEPEND="${RDEPEND}"
 
 src_unpack() {
-	wget -O "${T}/cpuinfo.zip" "http://www.neilvandyke.org/racket/cpuinfo.zip"
+	wget -O "${T}/cpuinfo.zip" "https://www.neilvandyke.org/racket/cpuinfo.zip"
 	unpack "${T}/cpuinfo.zip"
 }

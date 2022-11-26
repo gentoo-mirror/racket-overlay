@@ -11,9 +11,8 @@ inherit gh racket
 DESCRIPTION="The aws Racket package"
 HOMEPAGE="https://github.com/greghendershott/aws"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD-2"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/http
 	dev-racket/sha"

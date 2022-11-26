@@ -22,6 +22,6 @@ RDEPEND="dev-racket/canonicalize-path
 BDEPEND="${RDEPEND}"
 
 src_unpack() {
-	wget -O "${T}/mediafile.zip" "http://www.neilvandyke.org/racket/mediafile.zip"
+	wget -O "${T}/mediafile.zip" "https://www.neilvandyke.org/racket/mediafile.zip"
 	unpack "${T}/mediafile.zip"
 }

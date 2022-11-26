@@ -21,6 +21,6 @@ RDEPEND="dev-racket/mcfly
 BDEPEND="${RDEPEND}"
 
 src_unpack() {
-	wget -O "${T}/sudo.zip" "http://www.neilvandyke.org/racket/sudo.zip"
+	wget -O "${T}/sudo.zip" "https://www.neilvandyke.org/racket/sudo.zip"
 	unpack "${T}/sudo.zip"
 }

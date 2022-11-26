@@ -21,6 +21,6 @@ RDEPEND="dev-racket/mcfly
 BDEPEND="${RDEPEND}"
 
 src_unpack() {
-	wget -O "${T}/numformat-old.zip" "http://www.neilvandyke.org/racket/numformat-old.zip"
+	wget -O "${T}/numformat-old.zip" "https://www.neilvandyke.org/racket/numformat-old.zip"
 	unpack "${T}/numformat-old.zip"
 }

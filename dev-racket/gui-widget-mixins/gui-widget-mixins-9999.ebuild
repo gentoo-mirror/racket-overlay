@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="Tool tips, cue text and validation for text-field% GUI widgets in Racket"
 HOMEPAGE="https://github.com/alex-hhh/gui-widget-mixins"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"

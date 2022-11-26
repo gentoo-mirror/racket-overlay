@@ -20,6 +20,6 @@ RDEPEND="dev-racket/mcfly"
 BDEPEND="${RDEPEND}"
 
 src_unpack() {
-	wget -O "${T}/overeasy.zip" "http://www.neilvandyke.org/racket/overeasy.zip"
+	wget -O "${T}/overeasy.zip" "https://www.neilvandyke.org/racket/overeasy.zip"
 	unpack "${T}/overeasy.zip"
 }

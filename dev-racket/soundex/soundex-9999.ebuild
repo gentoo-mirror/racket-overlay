@@ -21,6 +21,6 @@ RDEPEND="dev-racket/mcfly
 BDEPEND="${RDEPEND}"
 
 src_unpack() {
-	wget -O "${T}/soundex.zip" "http://www.neilvandyke.org/racket/soundex.zip"
+	wget -O "${T}/soundex.zip" "https://www.neilvandyke.org/racket/soundex.zip"
 	unpack "${T}/soundex.zip"
 }

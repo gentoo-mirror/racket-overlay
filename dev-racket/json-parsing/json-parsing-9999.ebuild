@@ -21,6 +21,6 @@ RDEPEND="dev-racket/mcfly
 BDEPEND="${RDEPEND}"
 
 src_unpack() {
-	wget -O "${T}/json-parsing.zip" "http://www.neilvandyke.org/racket/json-parsing.zip"
+	wget -O "${T}/json-parsing.zip" "https://www.neilvandyke.org/racket/json-parsing.zip"
 	unpack "${T}/json-parsing.zip"
 }

@@ -20,6 +20,6 @@ RDEPEND="dev-racket/mcfly"
 BDEPEND="${RDEPEND}"
 
 src_unpack() {
-	wget -O "${T}/gdbdump.zip" "http://www.neilvandyke.org/racket/gdbdump.zip"
+	wget -O "${T}/gdbdump.zip" "https://www.neilvandyke.org/racket/gdbdump.zip"
 	unpack "${T}/gdbdump.zip"
 }

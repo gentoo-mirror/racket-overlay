@@ -20,6 +20,6 @@ RDEPEND="dev-racket/mcfly"
 BDEPEND="${RDEPEND}"
 
 src_unpack() {
-	wget -O "${T}/charterm.zip" "http://www.neilvandyke.org/racket/charterm.zip"
+	wget -O "${T}/charterm.zip" "https://www.neilvandyke.org/racket/charterm.zip"
 	unpack "${T}/charterm.zip"
 }

@@ -21,6 +21,6 @@ RDEPEND="dev-racket/mcfly
 BDEPEND="${RDEPEND}"
 
 src_unpack() {
-	wget -O "${T}/numspell.zip" "http://www.neilvandyke.org/racket/numspell.zip"
+	wget -O "${T}/numspell.zip" "https://www.neilvandyke.org/racket/numspell.zip"
 	unpack "${T}/numspell.zip"
 }

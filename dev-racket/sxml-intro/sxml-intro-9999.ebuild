@@ -17,6 +17,6 @@ KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RESTRICT="mirror"
 
 src_unpack() {
-	wget -O "${T}/sxml-intro.zip" "http://www.neilvandyke.org/racket/sxml-intro.zip"
+	wget -O "${T}/sxml-intro.zip" "https://www.neilvandyke.org/racket/sxml-intro.zip"
 	unpack "${T}/sxml-intro.zip"
 }

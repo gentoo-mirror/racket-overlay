@@ -23,6 +23,6 @@ RDEPEND="dev-racket/charterm
 BDEPEND="${RDEPEND}"
 
 src_unpack() {
-	wget -O "${T}/rackonsole.zip" "http://www.neilvandyke.org/racket/rackonsole.zip"
+	wget -O "${T}/rackonsole.zip" "https://www.neilvandyke.org/racket/rackonsole.zip"
 	unpack "${T}/rackonsole.zip"
 }

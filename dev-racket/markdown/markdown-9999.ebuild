@@ -11,9 +11,8 @@ inherit gh racket
 DESCRIPTION="Markdown format parser."
 HOMEPAGE="https://github.com/greghendershott/markdown"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD-2"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/parsack
 	dev-racket/sexp-diff-lib

@@ -2,13 +2,13 @@ BDEPEND=dev-racket/curly-fn-lib dev-racket/drcomplete dev-racket/file-watchers d
 DEFINED_PHASES=compile install postinst prepare prerm test
 DESCRIPTION=A DrRacket plugin to make it experience like an IDE
 EAPI=8
-HOMEPAGE=https://github.com/racket-tw/sauron
+HOMEPAGE=https://github.com/dannypsnl/sauron
 INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=|| ( Apache-2.0 MIT )
 RDEPEND=dev-racket/curly-fn-lib dev-racket/drcomplete dev-racket/file-watchers dev-racket/from-template dev-racket/raco-invoke dev-racket/try-catch-finally-lib >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
-SRC_URI=https://github.com/racket-tw/sauron/archive/1d1d0e263e104251b44b2baa7741869374e922e1.tar.gz -> sauron-0_p20221015.tar.gz
+SRC_URI=https://github.com/dannypsnl/sauron/archive/1d1d0e263e104251b44b2baa7741869374e922e1.tar.gz -> sauron-0_p20221015.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=14b5b9939771705e1218a2a55c433f29
+_md5_=c0eb01475c3d4b14866f3cf6927c6871

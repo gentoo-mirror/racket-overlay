@@ -1,4 +1,4 @@
-BDEPEND=dev-racket/text-table >=dev-vcs/git-1.8.2.1[curl] >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/pprint dev-racket/text-table >=dev-vcs/git-1.8.2.1[curl] >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
 DESCRIPTION=Audit package licenses (including their dependencies)
 EAPI=8
@@ -7,7 +7,7 @@ INHERIT=gh racket
 IUSE=doc
 LICENSE=|| ( Apache-2.0 MIT )
 PROPERTIES=live
-RDEPEND=dev-racket/text-table >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/pprint dev-racket/text-table >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 _eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=d23182f71d4591f7108197c7a8febde8
+_md5_=39d6224d1574744399f1be399aa46ace

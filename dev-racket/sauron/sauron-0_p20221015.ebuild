@@ -4,13 +4,13 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racket-tw/sauron"
+GH_REPO="dannypsnl/sauron"
 GH_COMMIT="1d1d0e263e104251b44b2baa7741869374e922e1"
 
 inherit gh racket
 
 DESCRIPTION="A DrRacket plugin to make it experience like an IDE"
-HOMEPAGE="https://github.com/racket-tw/sauron"
+HOMEPAGE="https://github.com/dannypsnl/sauron"
 
 LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"

@@ -3,7 +3,7 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/racket-tw/drracket-wakatime</bugs-to>
-    <remote-id type="github">racket-tw/drracket-wakatime</remote-id>
+    <bugs-to>https://github.com/dannypsnl/drracket-wakatime</bugs-to>
+    <remote-id type="github">dannypsnl/drracket-wakatime</remote-id>
   </upstream>
 </pkgmetadata>

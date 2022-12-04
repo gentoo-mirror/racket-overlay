@@ -9,7 +9,7 @@ GH_COMMIT="8fc8fc7ae323bdfc3208669c526703c8a0b3e000"
 
 inherit gh racket
 
-DESCRIPTION="Static blog generator application. Supports Twitter Bootstrap, Pygments, more."
+DESCRIPTION="Static blog generator application. (No longer under active development.)"
 HOMEPAGE="https://github.com/greghendershott/frog"
 
 LICENSE="all-rights-reserved"

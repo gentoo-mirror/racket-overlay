@@ -4,12 +4,12 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racket-tw/cover-badge"
+GH_REPO="dannypsnl/cover-badge"
 
 inherit gh racket
 
 DESCRIPTION="A badge generator for coverage"
-HOMEPAGE="https://github.com/racket-tw/cover-badge"
+HOMEPAGE="https://github.com/dannypsnl/cover-badge"
 
 LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"

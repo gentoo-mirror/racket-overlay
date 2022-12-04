@@ -3,7 +3,7 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/racket-tw/sauron</bugs-to>
-    <remote-id type="github">racket-tw/sauron</remote-id>
+    <bugs-to>https://github.com/dannypsnl/sauron</bugs-to>
+    <remote-id type="github">dannypsnl/sauron</remote-id>
   </upstream>
 </pkgmetadata>

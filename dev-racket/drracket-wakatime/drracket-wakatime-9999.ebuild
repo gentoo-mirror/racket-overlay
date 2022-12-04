@@ -4,12 +4,12 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racket-tw/drracket-wakatime"
+GH_REPO="dannypsnl/drracket-wakatime"
 
 inherit gh racket
 
 DESCRIPTION="wakatime support on DrRacket"
-HOMEPAGE="https://github.com/racket-tw/drracket-wakatime"
+HOMEPAGE="https://github.com/dannypsnl/drracket-wakatime"
 
 LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"

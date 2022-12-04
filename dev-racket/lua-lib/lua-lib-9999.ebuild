@@ -15,3 +15,6 @@ S="${S}/lua-lib"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/iso-printf-lib"
+BDEPEND="${RDEPEND}"

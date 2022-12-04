@@ -12,6 +12,5 @@ DESCRIPTION="functions for reading and writing binary data"
 HOMEPAGE="https://github.com/rmculpepper/binaryio"
 S="${S}/binaryio-lib"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"

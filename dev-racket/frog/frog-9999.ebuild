@@ -8,7 +8,7 @@ GH_REPO="greghendershott/frog"
 
 inherit gh racket
 
-DESCRIPTION="Static blog generator application. Supports Twitter Bootstrap, Pygments, more."
+DESCRIPTION="Static blog generator application. (No longer under active development.)"
 HOMEPAGE="https://github.com/greghendershott/frog"
 
 LICENSE="all-rights-reserved"

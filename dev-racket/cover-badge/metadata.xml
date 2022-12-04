@@ -3,7 +3,7 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/racket-tw/cover-badge</bugs-to>
-    <remote-id type="github">racket-tw/cover-badge</remote-id>
+    <bugs-to>https://github.com/dannypsnl/cover-badge</bugs-to>
+    <remote-id type="github">dannypsnl/cover-badge</remote-id>
   </upstream>
 </pkgmetadata>

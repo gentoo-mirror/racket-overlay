@@ -14,3 +14,6 @@ HOMEPAGE="https://github.com/wargrey/clang"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/digimon"
+BDEPEND="${RDEPEND}"

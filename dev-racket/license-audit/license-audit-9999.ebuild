@@ -14,5 +14,6 @@ HOMEPAGE="https://github.com/sorawee/license-audit"
 LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
 
-RDEPEND="dev-racket/text-table"
+RDEPEND="dev-racket/pprint
+	dev-racket/text-table"
 BDEPEND="${RDEPEND}"

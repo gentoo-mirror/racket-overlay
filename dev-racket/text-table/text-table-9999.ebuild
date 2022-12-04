@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="A simple package to display text tables with unicode frames."
 HOMEPAGE="https://github.com/Metaxal/text-table"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"

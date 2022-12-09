@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="Generate cryptographically-random UUIDs in pure Racket"
 HOMEPAGE="https://github.com/LiberalArtist/uuid"
 
-LICENSE="all-rights-reserved"
+LICENSE="Apache-2.0"
 SLOT="0"
-RESTRICT="mirror"

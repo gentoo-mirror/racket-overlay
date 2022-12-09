@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="Utilities for using reCAPTCHA with the web-server/formlets API"
 HOMEPAGE="https://github.com/LiberalArtist/recaptcha"
 
-LICENSE="all-rights-reserved"
+LICENSE="MPL-2.0"
 SLOT="0"
-RESTRICT="mirror"

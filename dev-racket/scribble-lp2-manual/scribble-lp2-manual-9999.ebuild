@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="Literate programming in style"
 HOMEPAGE="https://github.com/benknoble/scribble-lp2-manual"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
-RESTRICT="mirror"

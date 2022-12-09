@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="A try macro for sarna"
 HOMEPAGE="https://github.com/benknoble/try-make-sarna-happy"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
-RESTRICT="mirror"

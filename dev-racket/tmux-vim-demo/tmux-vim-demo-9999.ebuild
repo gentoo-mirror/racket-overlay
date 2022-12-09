@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="A #lang for writing and running scripted demos with tmux and vim"
 HOMEPAGE="https://github.com/benknoble/tmux-vim-demo"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
-RESTRICT="mirror"

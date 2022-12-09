@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="A #lang for JSON data"
 HOMEPAGE="https://github.com/benknoble/jsond"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
-RESTRICT="mirror"

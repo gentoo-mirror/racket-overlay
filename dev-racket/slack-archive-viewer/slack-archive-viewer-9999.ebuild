@@ -11,9 +11,8 @@ inherit gh racket
 DESCRIPTION="Generate a static site to view slack archives"
 HOMEPAGE="https://github.com/benknoble/slack-archive-viewer"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/beeswax
 	dev-racket/jsond

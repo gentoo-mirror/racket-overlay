@@ -12,7 +12,7 @@ if [[ "${PV}" == *9999* ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://gitlab.com/gentoo-racket/${PN}.git"
 else
-	SRC_URI="https://gitlab.com/gentoo-racket/${PN}/-/archive/${PV}/${P}.tar.gz"
+	SRC_URI="https://gitlab.com/gentoo-racket/${PN}/-/archive/${PV}/${P}.tar.bz2"
 	KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 fi
 S="${S}/src"

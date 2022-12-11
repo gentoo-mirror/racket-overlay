@@ -111,10 +111,10 @@ dev-racket/boincrpc 0_p20210625 9999: The boincrpc Racket package
 dev-racket/bookcover 0_p20190324 9999: The bookcover Racket package
 dev-racket/box-extra 0_p20210725 9999: Extra utilities for working with boxes in Racket.
 dev-racket/box-extra-lib 0_p20210725 9999: Extra utilities for working with boxes. (implementation)
-dev-racket/br-parser-tools 0_p20210518 0_p20220723 9999: The br-parser-tools Racket package
+dev-racket/br-parser-tools 0_p20220723 9999: The br-parser-tools Racket package
 dev-racket/br-parser-tools-doc 0_p20210518 9999: fork of parser-tools-doc for Beautiful Racket
 dev-racket/br-parser-tools-lib 0_p20210518 9999: fork of parser-tools-lib for Beautiful Racket
-dev-racket/brag 0_p20220115 0_p20220116 0_p20220209 9999: The brag Racket package
+dev-racket/brag 0_p20220209 9999: The brag Racket package
 dev-racket/brag-lib 0_p20220115 0_p20220116 0_p20220209 9999: The brag-lib Racket package
 dev-racket/brazilian-law 0_p20180901 9999: The brazilian-law Racket package
 dev-racket/brush 0_p20171109 0_p20220501 9999: A semi-literate programming package for Scribble
@@ -243,7 +243,7 @@ dev-racket/csfml 0_p20210213 0_p20220220 9999: Bindings for CSFML 2.5 (https://w
 dev-racket/csp 0_p20220809 0_p20220819 0_p20220823 9999: solve constraint-satisfaction problems
 dev-racket/csrmesh 0_p20210508 0_p20220702 0_p20220903 9999: Implementation of the Bluetooth CSR Mesh protocol.
 dev-racket/css-expr 0_p20180512 9999: S-expression-based CSS
-dev-racket/css-tools 0_p20210518 0_p20220326 9999: Tools for generating & manipulating CSS (unstable)
+dev-racket/css-tools 0_p20220326 9999: Tools for generating & manipulating CSS (unstable)
 dev-racket/csv 0_p20170815 9999: csv file reader and writer
 dev-racket/csv-reading 9999: Comma-Separated Value (CSV) Parsing
 dev-racket/csv-writing 0_p20191115 9999: simple functions to write CSV files (and TSV files)
@@ -531,7 +531,7 @@ dev-racket/graphic-block 0_p20220720 0_p20220722 0_p20221204 9999: The graphic-b
 dev-racket/graphics 0_p20220221 0_p20220329 0_p20220816 0_p20220919: Essential computer graphics for Typed Racket
 dev-racket/graphics-engine 0_p20200804 9999: An accelerated graphics programming environment.
 dev-racket/graphite 0_p20210810 0_p20210819 9999: A ggplot2-inspired data visualization library
-dev-racket/graphite-doc 0_p20210810 0_p20210819: Documentation for Graphite
+dev-racket/graphite-doc 0_p20210819: Documentation for Graphite
 dev-racket/graphite-lib 0_p20210810 0_p20210819 9999: A ggplot2-inspired data visualization library (no documentation)
 dev-racket/graphite-test 0_p20210810 0_p20210819 9999: Tests for Graphite
 dev-racket/graphite-tutorial 0_p20210810 0_p20210819: A guided tour for Graphite
@@ -973,7 +973,7 @@ dev-racket/parted 9999: Interface to GNU Parted Disk Partion Utility
 dev-racket/pcg 0_p20180626 9999: Permuted congruential generators (PCG) in Racket
 dev-racket/pdf-read 0_p20200323 9999: The pdf-read Racket package
 dev-racket/peg 0_p20190111 9999: PEG parser generator
-dev-racket/peg-gen 0_p20220215 0_p20220517 0_p20220610 9999: Well-formed random PEG generator
+dev-racket/peg-gen 0_p20220517 0_p20220610 9999: Well-formed random PEG generator
 dev-racket/peony 0_p20200701 9999: A small frontend on web-server to make developing some kinds of webapp quicker.
 dev-racket/persistent-array 0_p20170818 9999: A semi-persistent array
 dev-racket/persistent-union-find 0_p20170815 9999: A persistent implementation of the union-find data structure
@@ -1039,7 +1039,7 @@ dev-racket/pollen-citations-mcgill 0_p20210531 9999: A McGill-style citations sy
 dev-racket/pollen-component 0_p20180513 9999: Component-based development for Pollen
 dev-racket/pollen-count 0_p20170815 9999: The pollen-count Racket package
 dev-racket/pollen-rock 0_p20190617 9999: An enhanced Pollen server and an in-browser editor for Pollen files
-dev-racket/pollen-tfl 0_p20220529 0_p20220717 0_p20220723 9999: Sample Pollen project: source code for Typography for Lawyers website
+dev-racket/pollen-tfl 0_p20220723 9999: Sample Pollen project: source code for Typography for Lawyers website
 dev-racket/pollen-tuftorial 0_p20210518 9999: Pollen tutorial project based on Tufte CSS
 dev-racket/polyglot 0_p20210101 9999: The polyglot Racket package
 dev-racket/polyglot-doc 0_p20210101 9999: Documentation for polyglot
@@ -1591,7 +1591,7 @@ dev-racket/tweedledee 0_p20200506 9999: Conflicts with tweedledum, or any other 
 dev-racket/tweedledum 0_p20200506 9999: Conflicts with tweedledee, or any other package with a hill/king module.
 dev-racket/twilio 0_p20190523 9999: A Twilio client for Racket.
 dev-racket/twixt 0_p20200220 9999: A library for modeling the board game TwixT
-dev-racket/txexpr 0_p20220103 0_p20220220 0_p20220812 9999: Handy tools for working with HTML-style tagged X-expressions
+dev-racket/txexpr 0_p20220220 0_p20220812 9999: Handy tools for working with HTML-style tagged X-expressions
 dev-racket/txexpr-stxparse 0_p20181214 0_p20220107 9999: syntax-parse patterns for parsing Tagged X-expressions
 dev-racket/type-conventions 0_p20170815 9999: Forms for giving specific argument names implicit types
 dev-racket/type-expander 0_p20210404 0_p20211111 9999: Type expanders for typed/racket, which work like match expanders for match
@@ -1605,7 +1605,7 @@ dev-racket/typed-map-lib 0_p20210404 9999: Implementation of typed-map
 dev-racket/typed-map-test 0_p20210404 9999: Tests for typed-map
 dev-racket/typed-minikanren 0_p20210503 9999: An implementation of miniKanren in typed racket.
 dev-racket/typed-otp-lib 0_p20220516 0_p20220804 0_p20221130 9999: The typed-otp-lib Racket package
-dev-racket/typed-peg 0_p20220219 0_p20220401 0_p20220412 9999: the typed-peg Racket package
+dev-racket/typed-peg 0_p20220412 9999: the typed-peg Racket package
 dev-racket/typed-pmsf 0_p20221029 9999: PMS formatting and parsing functions. Typed interface.
 dev-racket/typed-racket-datatype 0_p20200723 0_p20210901 9999: Algebraic Datatypes for Typed Racket (tests and docs)
 dev-racket/typed-racket-datatype-lib 0_p20200723 0_p20210901 9999: Algebraic Datatypes for Typed Racket (implementation)
@@ -1660,7 +1660,7 @@ dev-racket/urlang 0_p20220227 0_p20220616 0_p20220816 9999: The urlang Racket pa
 dev-racket/uu-cs3520 0_p20180804 9999: Utah CS 3520 homework submission plugin for DrRacket
 dev-racket/uu-cs5510 0_p20170815 9999: Utah CS 5510 homework submission plugin for DrRacket
 dev-racket/uuid 0_p20210528 0_p20221208 9999: Generate cryptographically-random UUIDs in pure Racket
-dev-racket/uwaterloo-racket-tools 0_p20210910 0_p20220716 0_p20221204 9999: The uwaterloo-racket-tools Racket package
+dev-racket/uwaterloo-racket-tools 0_p20220716 0_p20221204 9999: The uwaterloo-racket-tools Racket package
 dev-racket/value-evt 0_p20210401 9999: The value-evt Racket package
 dev-racket/values 0_p20200904 9999: functional multi-valued computation
 dev-racket/values-plus 0_p20170815 9999: The values-plus Racket package

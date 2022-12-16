@@ -5,10 +5,9 @@ EAPI=8
 HOMEPAGE=https://github.com/Bogdanp/racket-crontab
 INHERIT=gh racket
 IUSE=doc
-LICENSE=all-rights-reserved
+LICENSE=BSD
 PROPERTIES=live
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
-RESTRICT=mirror
 SLOT=0
 _eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=63e9479092492f6b7dc8163d7f075efe
+_md5_=b97be0c9d97fa91a6a708c6e97882003

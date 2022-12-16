@@ -1,0 +1,14 @@
+BDEPEND=dev-racket/component-lib dev-racket/crontab-lib dev-racket/crypto-lib dev-racket/gregor-lib dev-racket/mime-type-lib dev-racket/raco-invoke >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=A web application toolkit (implementation only).
+EAPI=8
+HOMEPAGE=https://github.com/Bogdanp/koyo
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=BSD
+RDEPEND=dev-racket/component-lib dev-racket/crontab-lib dev-racket/crypto-lib dev-racket/gregor-lib dev-racket/mime-type-lib dev-racket/raco-invoke >=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://github.com/Bogdanp/koyo/archive/0c3ff367bfb87b0e3d9376c7bf34df026d6da1f0.tar.gz -> koyo-lib-0_p20221211.tar.gz
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_md5_=32b09f4a566b78bb2a5c75aa56de98a4

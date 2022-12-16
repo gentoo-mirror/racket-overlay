@@ -5,10 +5,9 @@ EAPI=8
 HOMEPAGE=https://github.com/Bogdanp/racket-kafka
 INHERIT=gh racket
 IUSE=doc
-LICENSE=all-rights-reserved
+LICENSE=BSD
 PROPERTIES=live
 RDEPEND=dev-racket/binfmt dev-racket/lz4-lib dev-racket/sasl-lib >=dev-scheme/racket-8.1:=[-minimal]
-RESTRICT=mirror
 SLOT=0
 _eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=5d16c9fcb349206b64c2a3339f1a0ea1
+_md5_=fa116cb1288f0451df7d8e2eef5661c4

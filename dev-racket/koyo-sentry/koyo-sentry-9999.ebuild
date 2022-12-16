@@ -11,9 +11,8 @@ inherit gh racket
 DESCRIPTION="Integrates koyo and racket-sentry."
 HOMEPAGE="https://github.com/Bogdanp/koyo-sentry"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/koyo-lib
 	dev-racket/sentry-doc

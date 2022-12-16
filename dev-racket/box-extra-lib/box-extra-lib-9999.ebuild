@@ -12,6 +12,5 @@ DESCRIPTION="Extra utilities for working with boxes. (implementation)"
 HOMEPAGE="https://github.com/Bogdanp/racket-box-extra"
 S="${S}/box-extra-lib"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"

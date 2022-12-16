@@ -12,9 +12,8 @@ DESCRIPTION="A Sentry SDK for Racket. (docs and implementation)"
 HOMEPAGE="https://github.com/Bogdanp/racket-sentry"
 S="${S}/sentry"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/sentry-doc
 	dev-racket/sentry-lib"

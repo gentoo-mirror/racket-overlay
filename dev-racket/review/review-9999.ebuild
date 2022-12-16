@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="A surface-level linter for #lang racket modules."
 HOMEPAGE="https://github.com/Bogdanp/racket-review"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"

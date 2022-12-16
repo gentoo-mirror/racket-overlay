@@ -11,9 +11,8 @@ inherit gh racket
 DESCRIPTION="Universally unique lexicographically sortable identifiers."
 HOMEPAGE="https://github.com/Bogdanp/racket-ulid"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/rackcheck-lib"
 BDEPEND="${RDEPEND}"

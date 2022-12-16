@@ -12,9 +12,8 @@ DESCRIPTION="A web application toolkit (tests only)."
 HOMEPAGE="https://github.com/Bogdanp/koyo"
 S="${S}/koyo-test"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/component-lib
 	dev-racket/gregor-lib

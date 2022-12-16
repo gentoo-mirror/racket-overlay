@@ -12,9 +12,8 @@ DESCRIPTION="A web application toolkit (docs and implementation)."
 HOMEPAGE="https://github.com/Bogdanp/koyo"
 S="${S}/koyo"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/koyo-doc
 	dev-racket/koyo-lib"

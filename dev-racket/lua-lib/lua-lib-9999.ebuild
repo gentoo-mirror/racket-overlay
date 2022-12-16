@@ -12,9 +12,8 @@ DESCRIPTION="A #lang implementation of the Lua programming language. (implementa
 HOMEPAGE="https://github.com/Bogdanp/racket-lua"
 S="${S}/lua-lib"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/iso-printf-lib"
 BDEPEND="${RDEPEND}"

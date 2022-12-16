@@ -12,9 +12,8 @@ DESCRIPTION="Fast, idiomatic bindings for Redis. (docs & implementation)"
 HOMEPAGE="https://github.com/Bogdanp/racket-redis"
 S="${S}/redis"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/redis-doc
 	dev-racket/redis-lib"

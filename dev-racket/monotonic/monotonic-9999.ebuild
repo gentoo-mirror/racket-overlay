@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="Monotonic time for Racket."
 HOMEPAGE="https://github.com/Bogdanp/racket-monotonic"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"

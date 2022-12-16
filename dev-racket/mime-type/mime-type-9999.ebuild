@@ -12,9 +12,8 @@ DESCRIPTION="Utilities for working with MIME types. (docs, tests & implementatio
 HOMEPAGE="https://github.com/Bogdanp/racket-net-mime-type"
 S="${S}/mime-type"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/mime-type-lib"
 BDEPEND="${RDEPEND}"

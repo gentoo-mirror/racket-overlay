@@ -12,9 +12,8 @@ DESCRIPTION="The Apache Avro serialization format. (tests only)"
 HOMEPAGE="https://github.com/Bogdanp/racket-avro"
 S="${S}/avro-test"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/avro-lib"
 BDEPEND="${RDEPEND}"

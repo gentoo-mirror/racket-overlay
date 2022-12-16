@@ -11,9 +11,8 @@ inherit gh racket
 DESCRIPTION="A Racket GUI Widget to display maps based on OpenStreetMap tiles"
 HOMEPAGE="https://github.com/alex-hhh/map-widget"
 
-LICENSE="all-rights-reserved"
+LICENSE="LGPL-3+"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/al2-test-runner
 	dev-racket/geoid

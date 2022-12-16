@@ -12,6 +12,5 @@ DESCRIPTION="A Pure-Racket LZ4 decompressor. (implementation only)"
 HOMEPAGE="https://github.com/Bogdanp/racket-lz4"
 S="${S}/lz4-lib"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"

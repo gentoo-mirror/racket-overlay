@@ -12,9 +12,8 @@ DESCRIPTION="Web form validation (tests only)."
 HOMEPAGE="https://github.com/Bogdanp/racket-forms"
 S="${S}/forms-test"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/forms-lib"
 BDEPEND="${RDEPEND}"

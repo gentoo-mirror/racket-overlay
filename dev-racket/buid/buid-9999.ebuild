@@ -11,9 +11,8 @@ inherit gh racket
 DESCRIPTION="Universally unique, lexicographically-sortable flake ids for Racket."
 HOMEPAGE="https://github.com/Bogdanp/racket-buid"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/rackcheck-lib"
 BDEPEND="${RDEPEND}"

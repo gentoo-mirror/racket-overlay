@@ -12,6 +12,5 @@ DESCRIPTION="A Twilio client for Racket."
 HOMEPAGE="https://github.com/Bogdanp/racket-twilio"
 S="${S}/twilio"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"

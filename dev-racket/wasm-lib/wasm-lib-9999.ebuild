@@ -12,9 +12,8 @@ DESCRIPTION="WIP Wasm tooling for Racket."
 HOMEPAGE="https://github.com/Bogdanp/racket-wasm"
 S="${S}/wasm-lib"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/threading-lib"
 BDEPEND="${RDEPEND}"

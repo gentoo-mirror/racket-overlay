@@ -12,9 +12,8 @@ DESCRIPTION="Chief runs Procfile-based applications. Like foreman, but written i
 HOMEPAGE="https://github.com/Bogdanp/racket-chief"
 S="${S}/chief"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/gregor-lib"
 BDEPEND="${RDEPEND}"

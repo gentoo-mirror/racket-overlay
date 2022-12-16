@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="The nevermore Racket package"
 HOMEPAGE="https://github.com/Bogdanp/nevermore"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"

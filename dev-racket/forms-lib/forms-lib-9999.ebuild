@@ -12,6 +12,5 @@ DESCRIPTION="Web form validation (implementation only)."
 HOMEPAGE="https://github.com/Bogdanp/racket-forms"
 S="${S}/forms-lib"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"

@@ -16,5 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/toml-lib"
+RDEPEND="dev-racket/gregor-lib
+	dev-racket/toml-lib"
 BDEPEND="${RDEPEND}"

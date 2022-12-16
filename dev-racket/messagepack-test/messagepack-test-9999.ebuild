@@ -12,9 +12,8 @@ DESCRIPTION="The messagepack-test Racket package"
 HOMEPAGE="https://github.com/Bogdanp/racket-messagepack"
 S="${S}/messagepack-test"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/messagepack-lib
 	dev-racket/rackcheck-lib"

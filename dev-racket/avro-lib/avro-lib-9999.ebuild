@@ -12,6 +12,5 @@ DESCRIPTION="The Apache Avro serialization format. (implementation only)"
 HOMEPAGE="https://github.com/Bogdanp/racket-avro"
 S="${S}/avro-lib"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"

@@ -12,9 +12,8 @@ DESCRIPTION="A database migration tool."
 HOMEPAGE="https://github.com/Bogdanp/racket-north"
 S="${S}/north"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/gregor-lib"
 BDEPEND="${RDEPEND}"

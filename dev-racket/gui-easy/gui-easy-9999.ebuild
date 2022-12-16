@@ -12,9 +12,8 @@ DESCRIPTION="A declarative API on top of racket/gui. (docs & implementation)"
 HOMEPAGE="https://github.com/Bogdanp/racket-gui-easy"
 S="${S}/gui-easy"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/gui-easy-lib"
 BDEPEND="${RDEPEND}"

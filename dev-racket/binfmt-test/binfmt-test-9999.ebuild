@@ -12,9 +12,8 @@ DESCRIPTION="The binfmt-test Racket package"
 HOMEPAGE="https://github.com/Bogdanp/racket-binfmt"
 S="${S}/binfmt-test"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/binfmt
 	dev-racket/rackcheck-lib"

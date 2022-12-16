@@ -12,9 +12,8 @@ DESCRIPTION="A functional database mapper. (tests only)"
 HOMEPAGE="https://github.com/Bogdanp/deta"
 S="${S}/deta-test"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/deta-lib
 	dev-racket/gregor-lib

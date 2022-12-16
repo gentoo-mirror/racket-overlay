@@ -12,6 +12,5 @@ DESCRIPTION="A generic blocking resource pool. (implementation)"
 HOMEPAGE="https://github.com/Bogdanp/racket-resource-pool"
 S="${S}/resource-pool-lib"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"

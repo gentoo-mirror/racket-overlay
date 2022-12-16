@@ -12,6 +12,5 @@ DESCRIPTION="A client for the Postmark HTTP API."
 HOMEPAGE="https://github.com/Bogdanp/racket-postmark"
 S="${S}/postmark"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"

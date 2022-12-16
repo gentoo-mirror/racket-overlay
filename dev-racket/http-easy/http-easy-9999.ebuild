@@ -12,9 +12,8 @@ DESCRIPTION="A high-level HTTP client. (docs & implementation)"
 HOMEPAGE="https://github.com/Bogdanp/racket-http-easy"
 S="${S}/http-easy"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/http-easy-lib"
 BDEPEND="${RDEPEND}"

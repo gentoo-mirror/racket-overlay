@@ -12,9 +12,8 @@ DESCRIPTION="The iso-printf Racket package"
 HOMEPAGE="https://github.com/Bogdanp/racket-iso-printf"
 S="${S}/iso-printf"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/iso-printf-lib"
 BDEPEND="${RDEPEND}"

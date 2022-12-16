@@ -11,9 +11,8 @@ inherit gh racket
 DESCRIPTION="Community-Driven Interactive Code Evaluation"
 HOMEPAGE="https://git.sr.ht/~williewillus/r16"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/dbg
 	dev-racket/racket-cord

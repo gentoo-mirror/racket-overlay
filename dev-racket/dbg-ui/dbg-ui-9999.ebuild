@@ -12,9 +12,8 @@ DESCRIPTION="Remote debugging GUI client for the dbg package."
 HOMEPAGE="https://github.com/Bogdanp/racket-dbg"
 S="${S}/dbg-ui"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/canvas-list
 	dev-racket/dbg

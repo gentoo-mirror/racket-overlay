@@ -12,6 +12,5 @@ DESCRIPTION="IP address utilities (implementation only)."
 HOMEPAGE="https://github.com/Bogdanp/racket-net-ip"
 S="${S}/net-ip-lib"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"

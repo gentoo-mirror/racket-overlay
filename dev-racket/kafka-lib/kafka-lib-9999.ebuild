@@ -12,9 +12,8 @@ DESCRIPTION="A client for Apache Kafka. (implementation only)"
 HOMEPAGE="https://github.com/Bogdanp/racket-kafka"
 S="${S}/kafka-lib"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/binfmt
 	dev-racket/lz4-lib

@@ -12,6 +12,5 @@ DESCRIPTION="Remote debugging client and server implementation."
 HOMEPAGE="https://github.com/Bogdanp/racket-dbg"
 S="${S}/dbg"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"

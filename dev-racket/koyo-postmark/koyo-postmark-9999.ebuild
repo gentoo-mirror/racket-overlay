@@ -11,9 +11,8 @@ inherit gh racket
 DESCRIPTION="A Postmark mail adapter for koyo. (docs and implementation)"
 HOMEPAGE="https://github.com/Bogdanp/koyo-postmark"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/koyo-doc
 	dev-racket/koyo-lib

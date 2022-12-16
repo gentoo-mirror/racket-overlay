@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="The raco-invoke Racket package"
 HOMEPAGE="https://github.com/Bogdanp/raco-invoke"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"

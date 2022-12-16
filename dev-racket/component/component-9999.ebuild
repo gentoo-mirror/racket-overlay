@@ -12,9 +12,8 @@ DESCRIPTION="Simple dependency injection (docs and implementation)."
 HOMEPAGE="https://github.com/Bogdanp/racket-component"
 S="${S}/component"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/component-doc
 	dev-racket/component-lib"

@@ -11,9 +11,8 @@ inherit gh racket
 DESCRIPTION="A Redis-based session store for Koyo."
 HOMEPAGE="https://github.com/Bogdanp/koyo-sessions-redis"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/koyo-doc
 	dev-racket/koyo-lib

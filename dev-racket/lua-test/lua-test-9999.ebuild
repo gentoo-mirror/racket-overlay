@@ -12,9 +12,8 @@ DESCRIPTION="A #lang implementation of the Lua programming language. (tests only
 HOMEPAGE="https://github.com/Bogdanp/racket-lua"
 S="${S}/lua-test"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/lua-lib"
 BDEPEND="${RDEPEND}"

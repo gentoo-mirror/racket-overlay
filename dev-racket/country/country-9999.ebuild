@@ -12,6 +12,5 @@ DESCRIPTION="Facilities for working with country data."
 HOMEPAGE="https://github.com/Bogdanp/racket-country"
 S="${S}/country"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD ODbL-1.0 GPL-2+"
 SLOT="0"
-RESTRICT="mirror"

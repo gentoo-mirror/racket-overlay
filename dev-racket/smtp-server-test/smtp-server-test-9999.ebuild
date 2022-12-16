@@ -12,9 +12,8 @@ DESCRIPTION="An implementation of RFC5321 for Racket. (tests only)"
 HOMEPAGE="https://github.com/Bogdanp/racket-smtp-server"
 S="${S}/smtp-server-test"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/rackcheck-lib
 	dev-racket/smtp-server"

@@ -12,9 +12,8 @@ DESCRIPTION="Geolocation based on MaxMind's GeoIP databases. (docs and implement
 HOMEPAGE="https://github.com/Bogdanp/racket-geoip"
 S="${S}/geoip"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/geoip-doc
 	dev-racket/geoip-lib"

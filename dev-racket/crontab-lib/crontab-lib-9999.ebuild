@@ -12,6 +12,5 @@ DESCRIPTION="Cron-like scheduling for Racket. (implementation only)"
 HOMEPAGE="https://github.com/Bogdanp/racket-crontab"
 S="${S}/crontab-lib"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"

@@ -12,9 +12,8 @@ DESCRIPTION="The marionette Racket package"
 HOMEPAGE="https://github.com/Bogdanp/marionette"
 S="${S}/marionette"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/marionette-doc
 	dev-racket/marionette-lib"

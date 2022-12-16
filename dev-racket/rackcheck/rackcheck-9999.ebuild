@@ -12,9 +12,8 @@ DESCRIPTION="A property-based testing library with shrinking support."
 HOMEPAGE="https://github.com/Bogdanp/rackcheck"
 S="${S}/rackcheck"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/rackcheck-lib"
 BDEPEND="${RDEPEND}"

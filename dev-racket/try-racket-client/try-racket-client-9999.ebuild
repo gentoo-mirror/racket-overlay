@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="An API client for try-racket.defn.io."
 HOMEPAGE="https://github.com/Bogdanp/try-racket-client"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"

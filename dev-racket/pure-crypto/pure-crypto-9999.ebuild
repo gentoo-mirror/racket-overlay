@@ -11,9 +11,5 @@ inherit gh racket
 DESCRIPTION="a pure crypto implementation for racket"
 HOMEPAGE="https://github.com/simmone/racket-pure-crypto"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"
-
-RDEPEND="dev-racket/detail"
-BDEPEND="${RDEPEND}"

@@ -11,6 +11,8 @@ inherit gh racket
 DESCRIPTION="Xlsx File tool"
 HOMEPAGE="https://github.com/simmone/racket-simple-xlsx"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"
+
+RDEPEND="dev-racket/simple-xml"
+BDEPEND="${RDEPEND}"

@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="A Catppuccin color theme for DrRacket."
 HOMEPAGE="https://github.com/PanAeon/drracket-catppuccin"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
-RESTRICT="mirror"

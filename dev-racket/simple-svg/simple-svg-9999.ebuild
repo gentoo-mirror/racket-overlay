@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="svg generate tool for racket"
 HOMEPAGE="https://github.com/simmone/racket-simple-svg"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"

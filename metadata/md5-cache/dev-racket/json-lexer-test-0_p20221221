@@ -1,0 +1,14 @@
+BDEPEND=dev-racket/json-lexer-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=A lexer and pretty-printer for JSON. (tests only)
+EAPI=8
+HOMEPAGE=https://github.com/Bogdanp/racket-json-lexer
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=BSD
+RDEPEND=dev-racket/json-lexer-lib >=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://github.com/Bogdanp/racket-json-lexer/archive/5959f36069569818af80749c4b41903afc776ca7.tar.gz -> json-lexer-test-0_p20221221.tar.gz
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_md5_=60afd04163ae768c20fbc764ab2af958

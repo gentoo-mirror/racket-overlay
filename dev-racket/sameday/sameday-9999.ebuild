@@ -11,9 +11,8 @@ inherit gh racket
 DESCRIPTION="A Racket client for the Sameday API."
 HOMEPAGE="https://github.com/Bogdanp/racket-sameday"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/gregor-doc
 	dev-racket/gregor-lib

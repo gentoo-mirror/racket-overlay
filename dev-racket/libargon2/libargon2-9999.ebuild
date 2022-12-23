@@ -12,6 +12,5 @@ DESCRIPTION="The libargon2 Racket package"
 HOMEPAGE="https://github.com/Bogdanp/racket-libargon2"
 S="${S}/libargon2"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"

@@ -12,6 +12,5 @@ DESCRIPTION="Bindings to libsass."
 HOMEPAGE="https://github.com/Bogdanp/racket-sass"
 S="${S}/sass"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"

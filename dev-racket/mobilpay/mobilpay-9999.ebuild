@@ -11,9 +11,8 @@ inherit gh racket
 DESCRIPTION="The mobilpay Racket package"
 HOMEPAGE="https://github.com/Bogdanp/mobilpay"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/crypto-lib
 	dev-racket/gregor-lib"

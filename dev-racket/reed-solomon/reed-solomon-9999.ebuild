@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="Reed-Solomon implementation"
 HOMEPAGE="https://github.com/simmone/racket-reed-solomon"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"

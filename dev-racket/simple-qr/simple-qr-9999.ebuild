@@ -11,9 +11,8 @@ inherit gh racket
 DESCRIPTION="QR code tool"
 HOMEPAGE="https://github.com/simmone/racket-simple-qr"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/reed-solomon
 	dev-racket/simple-svg"

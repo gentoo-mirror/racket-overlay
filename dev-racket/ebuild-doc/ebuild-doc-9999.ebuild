@@ -12,7 +12,7 @@ DESCRIPTION="Library to ease automatic ebuild creation. Documentation."
 HOMEPAGE="https://gitlab.com/gentoo-racket/racket-ebuild"
 S="${S}/src/ebuild-doc"
 
-LICENSE="GPL-3"
+LICENSE="GPL-2+"
 SLOT="0"
 
 RDEPEND="dev-racket/ebuild-lib

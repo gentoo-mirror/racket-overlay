@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/johnstonskj/racket-codepoint/archive/f114a142f08bee5ca26b17d37ed698ebc7e63176.tar.gz -> codepoint-0_p20210928.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=8aded1c4b625df7ed29add28cfe98c3a
+_md5_=61ebb521ec65655ed60a5864b9dd722e

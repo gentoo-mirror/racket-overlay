@@ -11,4 +11,4 @@ RDEPEND=dev-racket/curly-fn dev-racket/functional-lib dev-racket/megaparsack-lib
 RESTRICT=mirror
 SLOT=0
 _eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=33c8148e7f43a15d380dde24a4b96e6c
+_md5_=10a83aa5945cc5404e91edb5272417a0

@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/bennn/zordoz/archive/c65eccf469725b36dc27e5e153354e7e71766b9c.tar.gz -> zordoz-0_p20211025.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=c65034a81544be2226ae4a7d9e8ae0ef
+_md5_=25f0c05df290dbfa442025fb69aa6536

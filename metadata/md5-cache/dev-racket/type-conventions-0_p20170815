@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/type-conventions/archive/550d9045206bd1c0a05713fa866a9cc2a0b48d99.tar.gz -> type-conventions-0_p20170815.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=0bf351f1619205918d7ff8081effc2a2
+_md5_=b5fb543b3867aed64281bedf09130f84

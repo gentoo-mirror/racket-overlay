@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/sk1e/ss-rpc-server/archive/50f281f251f06ea0b56955a275750aa170a94254.tar.gz -> ss-rpc-server-0_p20170815.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=cc9691f07e71b1946b2a102f3c332de1
+_md5_=f727d02a7abc8cb804ca1d3350037eb3

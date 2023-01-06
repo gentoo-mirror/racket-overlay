@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/yanyingwang/amap/archive/15a49b88386a453ef2ed07b694cf0d62a42211d2.tar.gz -> amap-0_p20210526.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=05226ecbc0907074def424094af44f3c
+_md5_=781855c0224ace63f340ea1eb81127d1

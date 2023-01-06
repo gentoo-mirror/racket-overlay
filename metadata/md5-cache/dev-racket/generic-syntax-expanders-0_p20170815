@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/generic-syntax-expanders/archive/6d3b41875095d0f18d6e1d88bf7a8ed3981fe999.tar.gz -> generic-syntax-expanders-0_p20170815.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=9e253f25d66316dd429b658de65eb4a5
+_md5_=88887704b623d67d248ded47979070db

@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/camoy/contract-etc/archive/507495a8d3f1251efb7f09f4e930451a14d4212a.tar.gz -> contract-etc-0_p20221006.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=ea41acfb238d33d1d9d0a5bd94676497
+_md5_=9073d190ade2799e6f0c200ef786293a

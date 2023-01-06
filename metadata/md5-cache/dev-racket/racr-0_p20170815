@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/eeide/racr/archive/bee5a520ec663aa58673367a453c5d2a97e8d79c.tar.gz -> racr-0_p20170815.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=1780d5f36b8ba1b7ed71de4e23f30c2e
+_md5_=a92e8a7abf2edb8158255bc48e121010

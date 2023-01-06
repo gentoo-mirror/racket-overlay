@@ -11,4 +11,4 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/shawnw/racket-unicode-breaks/archive/d1af98163caaf78b9ce0ab2018763d701002f04c.tar.gz -> unicode-breaks-0_p20221128.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=8271b33a71f10f6710639f9d5d0eb7f0
+_md5_=d8c152625514e0fe43a6c87034b8fe11

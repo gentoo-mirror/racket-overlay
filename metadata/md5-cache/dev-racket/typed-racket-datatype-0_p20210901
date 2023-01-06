@@ -11,4 +11,4 @@ RDEPEND=dev-racket/typed-racket-datatype-lib >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/typed-racket-datatype/archive/70af100b2035ee9383c63c0d969194659af233f2.tar.gz -> typed-racket-datatype-0_p20210901.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=afb36b19e0ad8b0ffda0e549d1a7fc69
+_md5_=0afce0961a4399e08d9e16d0a9e1357d

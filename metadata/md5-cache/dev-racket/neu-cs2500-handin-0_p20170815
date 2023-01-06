@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/nuprl/cs2500-client/archive/d48c433d69d75ea03c029ec0207faa928796e757.tar.gz -> neu-cs2500-handin-0_p20170815.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=2298d9df26a4146f302707dfc4660ffd
+_md5_=476a58b9aa6918a04387e9131032dd85

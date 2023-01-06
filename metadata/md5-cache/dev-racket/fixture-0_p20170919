@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/racket-fixture/archive/fafde5528ad6491cd9e87c078f9838eabc524a87.tar.gz -> fixture-0_p20170919.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=dd4f80f33b5d7bb3f26ead38d9e3fdeb
+_md5_=10eab91bb4b3ff5489155156d7e89f41

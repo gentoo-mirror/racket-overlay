@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lassik/racket-database-url/archive/1bc45817ab41171da41d39c0027367eda698c463.tar.gz -> database-url-0_p20200704.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=0a337ce4c0d0df78dabb87847aaabcfa
+_md5_=9db38f7361084c7aeba55e8925dd73cb

@@ -1,0 +1,14 @@
+BDEPEND=dev-racket/ini-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Racket parser for Ini and UNIX Conf files. Tests.
+EAPI=8
+HOMEPAGE=https://gitlab.com/xgqt/racket-ini
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=GPL-2+
+RDEPEND=dev-racket/ini-lib >=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://gitlab.com/xgqt/racket-ini/-/archive/d2f464039b7d4365c64c1eab6694e6c78e1a4a1f/racket-ini-d2f464039b7d4365c64c1eab6694e6c78e1a4a1f.tar.gz -> ini-test-0_p20230101.tar.gz
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_md5_=1d2bdcc2c3621a6f72d4e24994744ea0

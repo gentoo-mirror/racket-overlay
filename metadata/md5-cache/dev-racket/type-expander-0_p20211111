@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jsmaniac/type-expander/archive/9fbbe96f970562c613101e4c91c54873fed399bc.tar.gz -> type-expander-0_p20211111.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=355196ca6b750913b6d68161af7333fa
+_md5_=84cba5c19b1ab0c9689b25982514f099

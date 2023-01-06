@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/rfindler/haiku-enum/archive/6856c4c6bf3c82e30ac453cee9b57bb5ef717888.tar.gz -> haiku-enum-0_p20190722.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=f68d59af6c4eb435d493e2fbec10d927
+_md5_=08a2ad065b6ac0b5b796a07347820aa4

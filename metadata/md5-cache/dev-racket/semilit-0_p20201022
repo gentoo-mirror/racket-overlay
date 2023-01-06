@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/samth/semilit/archive/54db05b04b17c3b74facea8e8a438c73d238936a.tar.gz -> semilit-0_p20201022.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=6627cb4be6750a364d346d36a9f1efbd
+_md5_=3694e9115bc1169e393316a8d98c3594

@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/johnstonskj/rml-knn/archive/55a55d0e55d8363afafea7dd59b6dda37e77d4b0.tar.gz -> rml-knn-0_p20220620.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=ec59e8dd3aff33a767d95c558d59ea8b
+_md5_=07339aaefc33f2ffe159d7a4029c6058

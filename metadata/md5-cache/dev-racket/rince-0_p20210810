@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lwhjp/rince/archive/61664bfee27a53d18fcb9880e1202eb5cc8f4a5f.tar.gz -> rince-0_p20210810.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=33b4837f90d5ee2372e6bbfe7d54cf39
+_md5_=f56335e095287681f33b2f39e2611423

@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.flux.utah.edu/xsmith/clotho/-/archive/7cc309787f07286e3b1411346f4e85e4bec09098/clotho-7cc309787f07286e3b1411346f4e85e4bec09098.tar.gz -> clotho-0_p20221126.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=d97af0796703273028880c925accd575
+_md5_=539c6aab28d1ce5693f9ac0875d46838

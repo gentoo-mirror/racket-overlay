@@ -11,4 +11,4 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/benknoble/tmux-vim-demo/archive/b6160b99c07de6a2a9e89c0e76d714458e4c1d90.tar.gz -> tmux-vim-demo-0_p20221208.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=e962ff2857c807613395fd900fa61898
+_md5_=bd77093c4519ed9077bc95e2829bca81

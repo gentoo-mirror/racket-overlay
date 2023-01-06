@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/massung/tabular-asa/archive/90365df6b81f827a1d5663627e136dc835ff61fc.tar.gz -> tabular-asa-0_p20220103.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=54e934d125cbfbeb1f1f71441c894f53
+_md5_=874eb7bfa2a58ac2b4a804dcc159eb8c

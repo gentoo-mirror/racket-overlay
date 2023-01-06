@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/racket-mock/archive/5e8e2a1dd125e5e437510c87dabf903d0ec25749.tar.gz -> mock-0_p20201023.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=05d5d5e62dd38c9fedd3b71f345cb512
+_md5_=37aa20ce37fcd93227c7b52c427a21c1

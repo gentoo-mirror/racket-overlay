@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/euhmeuh/web-galaxy/archive/d484efe7422df0390d291f74c71cebf6006ab87a.tar.gz -> web-galaxy-doc-0_p20220208.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=bb27c7f32d344524b1bbcd9c5c6e8689
+_md5_=a5ed40548e3b5812e26ca557252ff28f

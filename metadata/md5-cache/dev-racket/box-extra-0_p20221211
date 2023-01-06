@@ -11,4 +11,4 @@ RDEPEND=dev-racket/box-extra-lib >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/racket-box-extra/archive/45d564fb24e6ddd9af77e845a7d1efe2586b8154.tar.gz -> box-extra-0_p20221211.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=63759ea0cd641462a40ec39bc6ca593f
+_md5_=c1578e4abc64561862dc1910f72d2fc1

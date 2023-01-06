@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jsmaniac/hyper-literate/archive/24fd9ca7ca9b96e3072d37306dc79edf24ba4ef1.tar.gz -> hyper-literate-0_p20210404.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=da3b1459a2118350e76619b607dc224e
+_md5_=2f33113de2e66ee962f263d47791509f

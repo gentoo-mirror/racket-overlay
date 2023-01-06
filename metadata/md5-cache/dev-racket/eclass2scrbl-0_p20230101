@@ -1,0 +1,14 @@
+BDEPEND=dev-racket/brag-lib dev-racket/threading-lib dev-racket/upi-lib dev-racket/ziptie-git >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Convert Gentoo Eclasses to Scribble documents.
+EAPI=8
+HOMEPAGE=https://gitlab.com/gentoo-racket/racket-eclass2scrbl
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=GPL-2+
+RDEPEND=dev-racket/brag-lib dev-racket/threading-lib dev-racket/upi-lib dev-racket/ziptie-git >=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://gitlab.com/gentoo-racket/racket-eclass2scrbl/-/archive/b9433260a6d650269528c70b08ebd9b7d221f708/racket-eclass2scrbl-b9433260a6d650269528c70b08ebd9b7d221f708.tar.gz -> eclass2scrbl-0_p20230101.tar.gz
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_md5_=589a9a491efb237729e875497a2e43a4

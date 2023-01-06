@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/HiPhish/neovim.rkt/-/archive/c7d0a3d7ceaebd59955e6d2aee16352098c82d8a/neovim.rkt-c7d0a3d7ceaebd59955e6d2aee16352098c82d8a.tar.gz -> nvim-client-0_p20220903.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=e9a8ae07b33a7c0562f55401b7e6c958
+_md5_=bef332ead5c62fd5b323a989bca5f0b1

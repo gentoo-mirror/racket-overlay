@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/takikawa/lipics-scribble/archive/32a8cb9782493e237c25994f70aa7c572d7ea567.tar.gz -> lipics-0_p20170902.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=3dcd3a2eb668741ed8d71430657bbad5
+_md5_=7d999f38c36dd5c1271e8bbf1d0c41dd

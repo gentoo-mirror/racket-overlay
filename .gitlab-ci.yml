@@ -14,6 +14,7 @@ stages:
 
 test:
   stage: test
+  timeout: 20 minutes
 
   image: registry.gitlab.com/src_prepare/gentoo-repoman-container:latest
 
@@ -35,6 +36,7 @@ test:
 
 pages:
   stage: pages
+  timeout: 5 minutes
 
   only:
     refs:

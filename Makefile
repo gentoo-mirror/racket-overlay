@@ -5,6 +5,7 @@
 
 EGENCACHE               := egencache
 EIX-UPDATE              := eix-update
+GIT                     := git
 PKGCHECK                := pkgcheck
 PKGDEV                  := pkgdev
 RACKET                  := racket
@@ -105,6 +106,9 @@ eix-update:
 submodules:
 	$(SH) $(PWD)/3rd_party/scripts/src/update-submodules
 
+.PHONY: autocommit
+autocommit:
+	$(GIT) --all --signoff --message="dev-racket: autoupdate"
 
 # Cleanup
 

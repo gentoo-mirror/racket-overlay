@@ -1,4 +1,4 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 # @ECLASS: racket-common.eclass
@@ -91,6 +91,7 @@ racket_clean_environment() {
 }
 
 # @FUNCTION: raco_test
+# @USAGE: [directory]
 # @DESCRIPTION:
 # Invokes 'raco test .' with '--submodule test' option causing it to look for
 # test submodules in files in current package directory (recursively)
@@ -98,13 +99,14 @@ racket_clean_environment() {
 raco_test() {
 	debug-print-function ${FUNCNAME} "${@}"
 
-	local raco_opts=(
+	local directory="${1:-.}"
+	local -a raco_opts=(
 		--drdr
 		--jobs "$(makeopts_jobs)"
 		--no-run-if-absent
 		--submodule test
 	)
-	eraco test "${raco_opts[@]}" .
+	eraco test "${raco_opts[@]}" "${directory}"
 }
 
 fi

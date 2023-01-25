@@ -11,5 +11,5 @@ inherit gh racket
 DESCRIPTION="The lti-freq-domain-toolbox Racket package"
 HOMEPAGE="https://github.com/istefanis/lti-freq-domain-toolbox"
 
-LICENSE="LGPL-3"
+LICENSE="GPL-3"
 SLOT="0"

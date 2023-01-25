@@ -12,7 +12,7 @@ DESCRIPTION="A GUI application for inspection of Gentoo-based systems. Core."
 HOMEPAGE="https://gitlab.com/gentoo-racket/racket-portage-admin"
 S="${S}/src/portage-admin-lib"
 
-LICENSE="GPL-3"
+LICENSE="GPL-2+"
 SLOT="0"
 
 RDEPEND="dev-racket/threading-lib"

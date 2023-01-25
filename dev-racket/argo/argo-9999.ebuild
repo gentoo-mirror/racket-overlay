@@ -17,8 +17,8 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/beautiful-racket-lib
 	dev-racket/brag
-	dev-racket/ejs
 	dev-racket/http
+	dev-racket/http-easy
 	dev-racket/json-pointer
 	dev-racket/sugar
 	dev-racket/uri-template"

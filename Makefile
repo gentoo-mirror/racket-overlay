@@ -108,7 +108,7 @@ submodules:
 
 .PHONY: autocommit
 autocommit:
-	$(GIT) --all --signoff --message="dev-racket: autoupdate"
+	$(GIT) commit --all --signoff --message="dev-racket: autoupdate"
 
 # Cleanup
 

@@ -1,0 +1,16 @@
+BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=The froglet Racket package
+EAPI=8
+HOMEPAGE=https://pkgs.racket-lang.org/package/froglet
+INHERIT=racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+PDEPEND=dev-racket/forge
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/tnelson/forge/archive/226720431d8e855a1a2c6e5f8efa9f81080ba8db.tar.gz -> froglet-0_p20230121.tar.gz https://github.com/tnelson/Forge/archive/226720431d8e855a1a2c6e5f8efa9f81080ba8db.tar.gz -> froglet_aux_forge-0_p20230121.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	97da5091f435674bf3acc717a35ee8a9
+_md5_=a256be1be7a8ac0a382c2fe11a6e0fd1

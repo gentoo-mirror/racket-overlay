@@ -11,5 +11,5 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/dstorrs/value-evt/archive/10c3b0cc46f7fface88d2609c6de29ed5cea5767.tar.gz -> value-evt-0_p20210401.tar.gz
-_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	97da5091f435674bf3acc717a35ee8a9
 _md5_=98e2af9c060433b25f1018b56b3b79bb

@@ -11,5 +11,5 @@ RDEPEND=dev-racket/markdown dev-racket/rackjure dev-racket/sugar dev-racket/txex
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://git.matthewbutterick.com/mbutterick/pollen/archive/c182a30f57ea5096440aea3d097f5fe3b78bb236.tar.gz -> pollen-0_p20221223.tar.gz
-_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	97da5091f435674bf3acc717a35ee8a9
 _md5_=b43c4f1b2afad838494cabc882a3832b

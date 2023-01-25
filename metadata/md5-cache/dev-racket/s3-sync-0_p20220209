@@ -11,5 +11,5 @@ RDEPEND=dev-racket/aws dev-racket/http >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mflatt/s3-sync/archive/46ce35eae8d99f4a7cee945aa7bd9d7b07f8beab.tar.gz -> s3-sync-0_p20220209.tar.gz
-_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	97da5091f435674bf3acc717a35ee8a9
 _md5_=b9b40b8cb913af3d47d4973818bc7c0b

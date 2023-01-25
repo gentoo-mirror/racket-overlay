@@ -12,5 +12,5 @@ RDEPEND=dev-racket/html-parsing dev-racket/sxml >=dev-scheme/racket-8.1:=[-minim
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/dstorrs/racket-dstorrs-libs/archive/c2808eeae4203e5954e9524e9764dadee6faf5b5.tar.gz -> handy-0_p20211012.tar.gz
-_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	97da5091f435674bf3acc717a35ee8a9
 _md5_=ca96467a05a6bf0f98b51d0d3f9ed978

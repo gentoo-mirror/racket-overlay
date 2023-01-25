@@ -11,5 +11,5 @@ RDEPEND=dev-racket/syntax-classes-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lexi-lambda/syntax-classes/archive/4d64d35259d69ee8d5c90f475fe777c66d54c8fd.tar.gz -> syntax-classes-doc-0_p20220412.tar.gz
-_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	97da5091f435674bf3acc717a35ee8a9
 _md5_=326d52a84026ba2dbf9f4d049d0335f1

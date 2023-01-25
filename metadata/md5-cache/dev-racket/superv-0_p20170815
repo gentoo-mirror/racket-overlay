@@ -11,5 +11,5 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/sleibrock/superv/archive/23a7132484f293c3ca407db5b3e86a9e0a7a9708.tar.gz -> superv-0_p20170815.tar.gz
-_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	97da5091f435674bf3acc717a35ee8a9
 _md5_=b914cb3a38044033cfd269b88c0f99d0

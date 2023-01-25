@@ -10,5 +10,5 @@ LICENSE=GPL-2+
 RDEPEND=dev-racket/vdb-doc dev-racket/vdb-lib dev-racket/vdb-test >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://gitlab.com/gentoo-racket/racket-vdb/-/archive/9f43475fb1fa8a6ea9a3c2517a4cf53c2a87ac00/racket-vdb-9f43475fb1fa8a6ea9a3c2517a4cf53c2a87ac00.tar.gz -> vdb-0_p20221029.tar.gz
-_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	97da5091f435674bf3acc717a35ee8a9
 _md5_=32b9aecc3d782eeee7186c89865deb61

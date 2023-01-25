@@ -12,5 +12,5 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/llazarek/mutate/archive/23cb1d0992862cec281a31b613fbf9166f4724df.tar.gz -> mutate-lib-0_p20221012.tar.gz https://github.com/llazarek/mutate/archive/23cb1d0992862cec281a31b613fbf9166f4724df.tar.gz -> mutate-lib_aux_mutate-lib-0_p20221012.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	97da5091f435674bf3acc717a35ee8a9
 _md5_=cda8b83f6a7ceed77ea2a193d91210fa

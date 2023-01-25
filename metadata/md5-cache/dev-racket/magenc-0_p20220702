@@ -11,5 +11,5 @@ RDEPEND=dev-racket/crypto-lib dev-racket/csexp dev-racket/sql >=dev-scheme/racke
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/dustyweb/magenc/-/archive/f5e011cb3f4fa060623764a4a80860e31ebca9fc/magenc-f5e011cb3f4fa060623764a4a80860e31ebca9fc.tar.gz -> magenc-0_p20220702.tar.gz
-_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	7c2cfe7cc5e5e89aa68f1bc963742356	racket	97da5091f435674bf3acc717a35ee8a9
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	97da5091f435674bf3acc717a35ee8a9
 _md5_=b9e893913c87fc702b3597710099f36b

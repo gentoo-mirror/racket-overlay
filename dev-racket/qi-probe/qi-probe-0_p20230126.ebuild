@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="drym-org/qi"
-GH_COMMIT="e057911f95068de11aafbfa522c4e181429424ff"
+GH_COMMIT="669554cd041ebd683903b577f0aea0ff45eec5ff"
 
 inherit gh racket
 

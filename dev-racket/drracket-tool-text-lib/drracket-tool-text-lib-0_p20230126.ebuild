@@ -4,14 +4,14 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racket/racket"
-GH_COMMIT="c28159300049ef2532f2e8dd62e8eba9c6b89a84"
+GH_REPO="racket/drracket"
+GH_COMMIT="3064ae4a35617dc8bd02d9505503343dbb4c14a7"
 
 inherit gh racket
 
-DESCRIPTION="Creates Chez Scheme boot files from source"
-HOMEPAGE="https://github.com/racket/racket"
-S="${S}/racket/src/rktboot"
+DESCRIPTION="The drracket-tool-text-lib Racket package"
+HOMEPAGE="https://github.com/racket/drracket"
+S="${S}/drracket-tool-text-lib"
 
 LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"

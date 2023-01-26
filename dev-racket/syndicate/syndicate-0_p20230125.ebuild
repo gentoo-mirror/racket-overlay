@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="git.syndicate-lang.org"
 GH_REPO="syndicate-lang/syndicate-rkt"
-GH_COMMIT="2124915de2ebbac77b48a281a6894ad5fe590264"
+GH_COMMIT="48e044b899aa2afb86a8bd334b53ec41e816710a"
 
 inherit gh racket
 

@@ -5,19 +5,22 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="drym-org/qi"
-GH_COMMIT="e057911f95068de11aafbfa522c4e181429424ff"
+GH_COMMIT="669554cd041ebd683903b577f0aea0ff45eec5ff"
 
 inherit gh racket
 
-DESCRIPTION="A general-purpose functional DSL. [tests only]"
+DESCRIPTION="A general-purpose functional DSL. [docs only]"
 HOMEPAGE="https://github.com/drym-org/qi"
-S="${S}/qi-test"
+S="${S}/qi-doc"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/adjutor
-	dev-racket/qi-lib"
+RDEPEND="dev-racket/metapict
+	dev-racket/qi-lib
+	dev-racket/qi-probe
+	dev-racket/scribble-abbrevs
+	dev-racket/scribble-math"
 BDEPEND="${RDEPEND}"

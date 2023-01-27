@@ -1,7 +1,6 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/scribble-bettergrammar-lib dev-racket/sexp-diff-doc >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DEPEND=dev-racket/scribble-bettergrammar-lib dev-racket/sexp-diff-doc
-DESCRIPTION=the scribble-bettergrammar-doc Racket package
+DESCRIPTION=The scribble-bettergrammar-doc Racket package
 EAPI=8
 HOMEPAGE=https://github.com/wilbowma/scribble-bettergrammar
 INHERIT=gh racket
@@ -11,6 +10,6 @@ LICENSE=all-rights-reserved
 RDEPEND=dev-racket/scribble-bettergrammar-lib dev-racket/sexp-diff-doc >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/wilbowma/scribble-bettergrammar/archive/4e4dc413cceb627248cc1ca6499b3d80876071e3.tar.gz -> scribble-bettergrammar-doc-0_p20220225.tar.gz
+SRC_URI=https://github.com/wilbowma/scribble-bettergrammar/archive/d3e88aa6870fbc84a0658b59af8c24aa237e1631.tar.gz -> scribble-bettergrammar-doc-0_p20230125.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=9d84e04199aedb25d5e234865baf1546
+_md5_=63839b695fb262ff919cc21541f684f2

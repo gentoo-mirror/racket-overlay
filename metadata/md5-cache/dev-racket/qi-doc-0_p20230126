@@ -10,6 +10,6 @@ LICENSE=all-rights-reserved
 RDEPEND=dev-racket/metapict dev-racket/qi-lib dev-racket/qi-probe dev-racket/scribble-abbrevs dev-racket/scribble-math >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/drym-org/qi/archive/e057911f95068de11aafbfa522c4e181429424ff.tar.gz -> qi-doc-0_p20230103.tar.gz
+SRC_URI=https://github.com/drym-org/qi/archive/669554cd041ebd683903b577f0aea0ff45eec5ff.tar.gz -> qi-doc-0_p20230126.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=b9853e49a562f4581ecda19f6e0a3016
+_md5_=522b20220f7161a791294cadac4d00bc

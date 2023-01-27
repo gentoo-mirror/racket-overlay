@@ -1,6 +1,6 @@
 BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DESCRIPTION=Documentation for the Zuo language
+DESCRIPTION=Creates Chez Scheme boot files from source
 EAPI=8
 HOMEPAGE=https://github.com/racket/racket
 INHERIT=gh racket
@@ -9,6 +9,6 @@ KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=|| ( Apache-2.0 MIT )
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
-SRC_URI=https://github.com/racket/racket/archive/c28159300049ef2532f2e8dd62e8eba9c6b89a84.tar.gz -> zuo-doc-0_p20230112.tar.gz
+SRC_URI=https://github.com/racket/racket/archive/1945f8f1ac92bc114b5f2ef4a449957237447487.tar.gz -> cs-bootstrap-0_p20230126.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=2588617bcdd7542a6954333256830bed
+_md5_=49fcbc75040f9bf033998cf091d9c878

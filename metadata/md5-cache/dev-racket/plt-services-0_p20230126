@@ -1,14 +1,15 @@
 BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DESCRIPTION=The drracket-tool-text-lib Racket package
+DESCRIPTION=The plt-services Racket package
 EAPI=8
-HOMEPAGE=https://github.com/racket/drracket
+HOMEPAGE=https://github.com/racket/racket
 INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
-LICENSE=|| ( Apache-2.0 MIT )
+LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/racket/drracket/archive/a07f1e390215bde30927e80a73ddd3a88b3b6bb2.tar.gz -> drracket-tool-text-lib-0_p20221213.tar.gz
+SRC_URI=https://github.com/racket/racket/archive/1945f8f1ac92bc114b5f2ef4a449957237447487.tar.gz -> plt-services-0_p20230126.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=dfb720672ab3fc099569c7e6d59b4993
+_md5_=c653399f133a99e8767028eb313df145

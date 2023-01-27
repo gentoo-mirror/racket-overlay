@@ -1,14 +1,14 @@
 BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DESCRIPTION=Creates Chez Scheme boot files from source
+DESCRIPTION=Implementation part of gref
 EAPI=8
-HOMEPAGE=https://github.com/racket/racket
+HOMEPAGE=https://github.com/usaoc/gref
 INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
-LICENSE=|| ( Apache-2.0 MIT )
+LICENSE=GPL-3+
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
-SRC_URI=https://github.com/racket/racket/archive/c28159300049ef2532f2e8dd62e8eba9c6b89a84.tar.gz -> cs-bootstrap-0_p20230112.tar.gz
+SRC_URI=https://github.com/usaoc/gref/archive/4a300ffdc6f4a1be652bbf72377d11048f9260fa.tar.gz -> gref-lib-0_p20230126.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=39e7ebf03bf755c2290566e9f242e656
+_md5_=f27ff2308c880f747422ff66f4060374

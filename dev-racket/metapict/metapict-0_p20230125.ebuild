@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="soegaard/metapict"
-GH_COMMIT="b77ace0b10a878abddc94741a4b4ffb5dea4443c"
+GH_COMMIT="d29c45cf32872f8607fca3c58272749c28fb8751"
 
 inherit gh racket
 

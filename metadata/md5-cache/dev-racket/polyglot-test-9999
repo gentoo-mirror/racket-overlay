@@ -1,4 +1,4 @@
-BDEPEND=dev-racket/aws dev-racket/markdown dev-racket/polyglot-lib dev-racket/unlike-assets-lib >=dev-vcs/git-1.8.2.1[curl] >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/aws dev-racket/markdown dev-racket/polyglot-lib >=dev-vcs/git-1.8.2.1[curl] >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
 DESCRIPTION=Tests for Polyglot
 EAPI=8
@@ -7,8 +7,8 @@ INHERIT=gh racket
 IUSE=doc
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/aws dev-racket/markdown dev-racket/polyglot-lib dev-racket/unlike-assets-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/aws dev-racket/markdown dev-racket/polyglot-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=3ae0e650703a133ec980835b681c975d
+_md5_=e25cc9b4448cb6d73125113b3ac34ae4

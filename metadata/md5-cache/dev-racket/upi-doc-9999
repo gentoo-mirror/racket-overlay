@@ -1,4 +1,4 @@
-BDEPEND=dev-racket/upi-lib >=dev-vcs/git-1.8.2.1[curl] >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/upi-lib dev-racket/ziptie-git >=dev-vcs/git-1.8.2.1[curl] >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
 DESCRIPTION=Racket library inspired by UNIX tools. Documentation.
 EAPI=8
@@ -7,7 +7,7 @@ INHERIT=gh racket
 IUSE=doc
 LICENSE=GPL-2+
 PROPERTIES=live
-RDEPEND=dev-racket/upi-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/upi-lib dev-racket/ziptie-git >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 _eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=0240edb334d3e72f5456ba39161f5232
+_md5_=0bc4b522b0195d173b699709f028b7b7

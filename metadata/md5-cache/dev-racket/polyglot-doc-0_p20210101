@@ -1,4 +1,4 @@
-BDEPEND=dev-racket/aws dev-racket/css-expr dev-racket/file-watchers dev-racket/markdown dev-racket/polyglot-lib dev-racket/txexpr dev-racket/unlike-assets-doc dev-racket/unlike-assets-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/aws dev-racket/css-expr dev-racket/file-watchers dev-racket/markdown dev-racket/polyglot-lib dev-racket/txexpr >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DESCRIPTION=Documentation for polyglot
 EAPI=8
@@ -7,9 +7,9 @@ INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
-RDEPEND=dev-racket/aws dev-racket/css-expr dev-racket/file-watchers dev-racket/markdown dev-racket/polyglot-lib dev-racket/txexpr dev-racket/unlike-assets-doc dev-racket/unlike-assets-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/aws dev-racket/css-expr dev-racket/file-watchers dev-racket/markdown dev-racket/polyglot-lib dev-racket/txexpr >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/zyrolasting/polyglot/archive/d27ca7fe90fd4ba2a6c5bcd921fce89e72d2c408.tar.gz -> polyglot-doc-0_p20210101.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=237e7b52a1ce57e6205ef1b2779b72d9
+_md5_=322f87739bff3f525abc9a78c507510d

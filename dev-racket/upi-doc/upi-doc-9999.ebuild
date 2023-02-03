@@ -15,5 +15,6 @@ S="${S}/src/upi-doc"
 LICENSE="GPL-2+"
 SLOT="0"
 
-RDEPEND="dev-racket/upi-lib"
+RDEPEND="dev-racket/upi-lib
+	dev-racket/ziptie-git"
 BDEPEND="${RDEPEND}"

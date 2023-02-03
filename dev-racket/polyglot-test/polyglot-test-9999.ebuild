@@ -18,6 +18,5 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/aws
 	dev-racket/markdown
-	dev-racket/polyglot-lib
-	dev-racket/unlike-assets-lib"
+	dev-racket/polyglot-lib"
 BDEPEND="${RDEPEND}"

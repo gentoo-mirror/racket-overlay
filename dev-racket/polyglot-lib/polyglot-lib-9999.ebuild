@@ -19,6 +19,5 @@ RESTRICT="mirror"
 RDEPEND="dev-racket/aws
 	dev-racket/file-watchers
 	dev-racket/markdown
-	dev-racket/txexpr
-	dev-racket/unlike-assets-lib"
+	dev-racket/txexpr"
 BDEPEND="${RDEPEND}"

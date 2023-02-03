@@ -23,7 +23,5 @@ RDEPEND="dev-racket/aws
 	dev-racket/file-watchers
 	dev-racket/markdown
 	dev-racket/polyglot-lib
-	dev-racket/txexpr
-	dev-racket/unlike-assets-doc
-	dev-racket/unlike-assets-lib"
+	dev-racket/txexpr"
 BDEPEND="${RDEPEND}"

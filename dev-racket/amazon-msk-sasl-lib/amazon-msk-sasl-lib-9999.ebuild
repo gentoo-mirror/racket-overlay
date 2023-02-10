@@ -1,4 +1,4 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -12,9 +12,8 @@ DESCRIPTION="A SASL implementation for AWS MSK IAM-based authentication."
 HOMEPAGE="https://github.com/Bogdanp/racket-kafka"
 S="${S}/amazon-msk-sasl-lib"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/crypto-lib
 	dev-racket/sasl-lib

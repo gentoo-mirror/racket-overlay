@@ -3,7 +3,7 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/PanAeon/drracket-catppuccin</bugs-to>
-    <remote-id type="github">PanAeon/drracket-catppuccin</remote-id>
+    <bugs-to>https://github.com/catppuccin/drracket-catppuccin</bugs-to>
+    <remote-id type="github">catppuccin/drracket-catppuccin</remote-id>
   </upstream>
 </pkgmetadata>

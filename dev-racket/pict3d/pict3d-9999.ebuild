@@ -1,4 +1,4 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -11,9 +11,8 @@ inherit gh racket
 DESCRIPTION="Modern 3D engine with a purely functional interface"
 HOMEPAGE="https://github.com/jeapostrophe/pict3d"
 
-LICENSE="all-rights-reserved"
+LICENSE="LGPL-3"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/pfds
 	dev-racket/unstable-lib"

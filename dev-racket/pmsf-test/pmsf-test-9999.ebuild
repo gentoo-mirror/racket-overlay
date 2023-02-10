@@ -22,6 +22,7 @@ RDEPEND="dev-racket/pmsf-condition
 	dev-racket/pmsf-restrict
 	dev-racket/pmsf-slot
 	dev-racket/pmsf-src-uri
+	dev-racket/threading-lib
 	dev-racket/typed-pmsf
 	dev-racket/vdb-lib"
 BDEPEND="${RDEPEND}"

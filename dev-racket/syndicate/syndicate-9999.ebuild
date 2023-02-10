@@ -17,7 +17,9 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/auxiliary-macro-context
+	dev-racket/libb2
+	dev-racket/libsodium
+	dev-racket/noise-protocol
 	dev-racket/preserves
-	dev-racket/sha
 	dev-racket/struct-defaults"
 BDEPEND="${RDEPEND}"

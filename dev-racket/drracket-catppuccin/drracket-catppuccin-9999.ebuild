@@ -4,12 +4,12 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="PanAeon/drracket-catppuccin"
+GH_REPO="catppuccin/drracket-catppuccin"
 
 inherit gh racket
 
 DESCRIPTION="A Catppuccin color theme for DrRacket."
-HOMEPAGE="https://github.com/PanAeon/drracket-catppuccin"
+HOMEPAGE="https://github.com/catppuccin/drracket-catppuccin"
 
 LICENSE="MIT"
 SLOT="0"

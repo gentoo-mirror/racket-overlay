@@ -1,0 +1,14 @@
+BDEPEND=dev-racket/crypto dev-racket/pk dev-racket/syrup >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Goblins is a transactional, distributed actor model environment
+EAPI=8
+HOMEPAGE=https://gitlab.com/spritely/goblins
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=Apache-2.0
+RDEPEND=dev-racket/crypto dev-racket/pk dev-racket/syrup >=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://gitlab.com/spritely/goblins/-/archive/c64f4caa414e251a5b20a902027b0803982a7b2f/goblins-c64f4caa414e251a5b20a902027b0803982a7b2f.tar.gz -> goblins-0_p20230130.tar.gz
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	97da5091f435674bf3acc717a35ee8a9
+_md5_=5494b7c71a85c84fd9620e17ed79fbaa

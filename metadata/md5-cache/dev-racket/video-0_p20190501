@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/videolang/video/archive/aa958b5ab250c8a202b24444935255d773608ea6.tar.gz -> video-0_p20190501.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	97da5091f435674bf3acc717a35ee8a9
-_md5_=827001c5cb2d4028c084b29312add645
+_md5_=a00eaec958af1be39daf0b6a8210ffa3

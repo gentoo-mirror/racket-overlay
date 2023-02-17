@@ -11,5 +11,5 @@ inherit gh racket
 DESCRIPTION="FFI to Libansilove"
 HOMEPAGE="https://gitlab.com/xgqt/racket-libansilove"
 
-LICENSE="GPL-3"
+LICENSE="GPL-2+"
 SLOT="0"

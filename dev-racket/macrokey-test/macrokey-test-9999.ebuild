@@ -12,7 +12,7 @@ DESCRIPTION="MacroKey. Tests."
 HOMEPAGE="https://gitlab.com/xgqt/racket-macrokey"
 S="${S}/src/macrokey-test"
 
-LICENSE="GPL-3"
+LICENSE="GPL-2+"
 SLOT="0"
 
 RDEPEND="dev-racket/macrokey-lib"

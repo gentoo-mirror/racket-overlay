@@ -3,13 +3,13 @@
 
 EAPI=8
 
-GH_DOM="gitlab.com"
-GH_REPO="spritely/syrup"
+GH_DOM="github.com"
+GH_REPO="ocapn/syrup"
 
 inherit gh racket
 
 DESCRIPTION="The syrup Racket package"
-HOMEPAGE="https://gitlab.com/spritely/syrup"
+HOMEPAGE="https://github.com/ocapn/syrup"
 S="${S}/impls/racket/syrup"
 
 LICENSE="all-rights-reserved"

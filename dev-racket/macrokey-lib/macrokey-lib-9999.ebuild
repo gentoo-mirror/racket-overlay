@@ -12,5 +12,5 @@ DESCRIPTION="MacroKey. Core."
 HOMEPAGE="https://gitlab.com/xgqt/racket-macrokey"
 S="${S}/src/macrokey-lib"
 
-LICENSE="GPL-3"
+LICENSE="GPL-2+"
 SLOT="0"

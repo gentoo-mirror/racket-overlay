@@ -11,5 +11,5 @@ inherit gh racket
 DESCRIPTION="Micro Make replacement"
 HOMEPAGE="https://gitlab.com/xgqt/racket-mike"
 
-LICENSE="GPL-3"
+LICENSE="GPL-2+"
 SLOT="0"

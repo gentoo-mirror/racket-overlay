@@ -12,7 +12,7 @@ DESCRIPTION="Parse Racket packages catalog and generate ebuild scripts. Tests."
 HOMEPAGE="https://gitlab.com/gentoo-racket/racket-collector2"
 S="${S}/src/collector2-test"
 
-LICENSE="GPL-3"
+LICENSE="GPL-2+"
 SLOT="0"
 
 RDEPEND="dev-racket/collector2-lib"

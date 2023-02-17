@@ -3,7 +3,7 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://gitlab.com/spritely/syrup</bugs-to>
-    <remote-id type="gitlab">spritely/syrup</remote-id>
+    <bugs-to>https://github.com/ocapn/syrup</bugs-to>
+    <remote-id type="github">ocapn/syrup</remote-id>
   </upstream>
 </pkgmetadata>

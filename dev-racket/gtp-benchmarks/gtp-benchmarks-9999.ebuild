@@ -11,9 +11,8 @@ inherit gh racket
 DESCRIPTION="gradual typing performance benchmarks"
 HOMEPAGE="https://github.com/bennn/gtp-benchmarks"
 
-LICENSE="all-rights-reserved"
+LICENSE="LGPL-2+"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/gtp-util
 	dev-racket/require-typed-check

@@ -12,9 +12,8 @@ DESCRIPTION="The Reckless Racket Shell.  For interactions and scripting."
 HOMEPAGE="https://github.com/willghatch/racket-rash"
 S="${S}/rash"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/basedir
 	dev-racket/linea

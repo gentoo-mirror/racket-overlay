@@ -8,7 +8,7 @@ GH_REPO="jackfirth/resyntax"
 
 inherit gh racket
 
-DESCRIPTION="An experimental refactoring tool built on top of syntax-parse."
+DESCRIPTION="A refactoring tool built on top of syntax-parse."
 HOMEPAGE="https://github.com/jackfirth/resyntax"
 
 LICENSE="all-rights-reserved"

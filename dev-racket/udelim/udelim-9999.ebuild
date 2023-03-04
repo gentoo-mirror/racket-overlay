@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="Add more parens and string delimiters."
 HOMEPAGE="https://github.com/willghatch/racket-udelim"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"

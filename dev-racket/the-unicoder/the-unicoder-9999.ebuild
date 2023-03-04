@@ -11,9 +11,8 @@ inherit gh racket
 DESCRIPTION="Universal unicode input system"
 HOMEPAGE="https://github.com/willghatch/the-unicoder"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/basedir"
 BDEPEND="${RDEPEND}"

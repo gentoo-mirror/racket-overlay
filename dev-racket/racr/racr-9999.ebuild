@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="The racr Racket package"
 HOMEPAGE="https://github.com/eeide/racr"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
-RESTRICT="mirror"

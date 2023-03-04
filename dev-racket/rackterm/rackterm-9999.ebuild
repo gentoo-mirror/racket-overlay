@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="The rackterm Racket package"
 HOMEPAGE="https://github.com/willghatch/rackterm"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"

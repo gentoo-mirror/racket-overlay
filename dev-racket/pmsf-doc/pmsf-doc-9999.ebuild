@@ -17,6 +17,8 @@ SLOT="0"
 
 RDEPEND="dev-racket/pmsf-condition
 	dev-racket/pmsf-depend
+	dev-racket/pmsf-iuse
+	dev-racket/pmsf-keywords
 	dev-racket/pmsf-lib
 	dev-racket/pmsf-manifest
 	dev-racket/pmsf-name

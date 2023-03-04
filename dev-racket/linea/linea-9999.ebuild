@@ -12,9 +12,8 @@ DESCRIPTION="line-oriented reader"
 HOMEPAGE="https://github.com/willghatch/racket-rash"
 S="${S}/linea"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/udelim"
 BDEPEND="${RDEPEND}"

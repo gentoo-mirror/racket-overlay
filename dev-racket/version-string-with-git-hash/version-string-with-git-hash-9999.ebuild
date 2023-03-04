@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="Do you want your package version string to contain a git commit hash?"
 HOMEPAGE="https://gitlab.flux.utah.edu/xsmith/version-string-with-git-hash"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD-2"
 SLOT="0"
-RESTRICT="mirror"

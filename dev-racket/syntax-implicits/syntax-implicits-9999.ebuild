@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="The syntax-implicits Racket package"
 HOMEPAGE="https://github.com/willghatch/racket-syntax-implicits"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"

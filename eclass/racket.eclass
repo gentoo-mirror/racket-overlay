@@ -87,11 +87,15 @@ esac
 # @CODE
 : ${SCRBL_DOC_DIR:="${WORKDIR}/${P}_scrbl_docs"}
 
-# - racket-where (for `racket_pkg_prerm') - no additional BDEPEND
+# - racket-where (for "racket_pkg_prerm") - no additional BDEPEND
 # - other - racket-compiler and racket-where
 case ${PN} in
-	"racket-where" )  true  ;;
-	* )  BDEPEND+=" sys-apps/racket-where "  ;;
+	"racket-where" )
+		:
+		;;
+	* )
+		BDEPEND+=" sys-apps/racket-where "
+		;;
 esac
 
 # @FUNCTION: racket_environment_prepare
@@ -105,8 +109,6 @@ esac
 # RACKET_P_DIR = ${EPREFIX}/usr/share/racket/pkgs/${RACKET_PN}
 # @CODE
 racket_environment_prepare() {
-	debug-print-function ${FUNCNAME} "${@}"
-
 	if ! [[ ${PN} == "racket-where" ]] ; then
 		command -v racket-where >/dev/null || die "racket-where is missing"
 	fi
@@ -128,8 +130,6 @@ racket_environment_prepare() {
 # Removes '.git*' directories if they exist so that they are not merged
 # with the package.
 racket_clean_directory() {
-	debug-print-function ${FUNCNAME} "${@}"
-
 	local d
 	for d in ./.git* ; do
 		if [[ -d "${d}" ]] ; then
@@ -140,13 +140,12 @@ racket_clean_directory() {
 
 # @FUNCTION: racket_src_prepare
 # @DESCRIPTION:
-# Default src_prepare:
+# Default "src_prepare" for the "racket" eclass.
+# Prepare the package sources.
 #
-# In addition to `default' this phase executes:
-# `racket_environment_prepare' and `racket_clean_directory'.
+# In addition to "default" this phase executes:
+# "racket_environment_prepare" and "racket_clean_directory".
 racket_src_prepare() {
-	debug-print-function ${FUNCNAME} "${@}"
-
 	racket_environment_prepare
 	racket_clean_directory
 
@@ -159,6 +158,7 @@ racket_src_prepare() {
 # This function echoes parameter to either disable or enable docs.
 # If the first argument is eqal to "index", then, instead of no flags, the
 # "--doc-index" is echoed.
+#
 # Based on whether _do_scrbl is "1" and "doc" USE flag is enabled documentation
 # is enabled, otherwise it is disabled.
 # The flag "--doc-index" is only known to "raco setup", other commands will
@@ -184,7 +184,7 @@ raco_docs_switch() {
 raco_install() {
 	debug-print-function ${FUNCNAME} "${@}"
 
-	local raco_opts=(
+	local -a raco_opts=(
 		--batch
 		--deps force
 		--force
@@ -237,8 +237,6 @@ raco_temporary_install() {
 # Compile the documentation using scribble.
 # Output to html, latex, markdown and text formats.
 scribble_system_docs() {
-	debug-print-function ${FUNCNAME} "${@}"
-
 	ebegin "Building system-wide documentation"
 
 	local doctype
@@ -262,12 +260,11 @@ scribble_system_docs() {
 
 # @FUNCTION: racket_src_compile
 # @DESCRIPTION:
-# Default src_compile:
+# Default "src_compile" for the "racket" eclass.
+# Build the package.
 #
-# Executes `raco_temporary_install' and conditionally `scribble_system_docs'.
+# Executes "raco_temporary_install" and conditionally "scribble_system_docs".
 racket_src_compile() {
-	debug-print-function ${FUNCNAME} "${@}"
-
 	raco_temporary_install
 
 	if [[ ${_do_scrbl} -eq 1 ]] && use doc ; then
@@ -277,12 +274,11 @@ racket_src_compile() {
 
 # @FUNCTION: racket_src_test
 # @DESCRIPTION:
-# Default src_test:
+# Default "src_test" for the "racket" eclass.
+# Test the package.
 #
-# Executes `raco_test'.
+# Executes "raco_test".
 racket_src_test() {
-	debug-print-function ${FUNCNAME} "${@}"
-
 	raco_test
 }
 
@@ -304,8 +300,6 @@ racket_copy_package() {
 # @DESCRIPTION:
 # Try to find any launchers created in "PLTUSERHOME" - copy them to the image.
 racket_copy_launchers() {
-	debug-print-function ${FUNCNAME} "${@}"
-
 	find "${PLTUSERHOME}" -type d -name "bin" -exec cp -r {} "${D}/usr" \; ||
 		die "failed to copy found launchers"
 
@@ -319,8 +313,6 @@ racket_copy_launchers() {
 # @DESCRIPTION:
 # Install documentation from SCRBL_DOC_DIR.
 racket_maybe_install_system_docs() {
-	debug-print-function ${FUNCNAME} "${@}"
-
 	if [[ ${_do_scrbl} -eq 1 ]] ; then
 		if use doc ; then
 			einfo "Installing documentation for ${P}"
@@ -332,16 +324,16 @@ racket_maybe_install_system_docs() {
 
 # @FUNCTION: racket_src_install
 # @DESCRIPTION:
-# Default src_install:
+# Default "src_install" for the "racket" eclass.
+# Install the package.
 #
-# Installs miscellaneous docs with `einstalldocs'
+# Installs miscellaneous docs with "einstalldocs"
 # and then installs the compiled racket package files.
 racket_src_install() {
-	debug-print-function ${FUNCNAME} "${@}"
-
 	racket_copy_package
 	racket_copy_launchers
 	racket_maybe_install_system_docs
+
 	einstalldocs
 }
 
@@ -353,7 +345,7 @@ raco_remove() {
 	debug-print-function ${FUNCNAME} "${@}"
 
 	local pkg="${@:-${RACKET_PN}}"
-	local raco_opts=(
+	local -a raco_opts=(
 		--batch
 		--force
 		--no-trash
@@ -365,14 +357,13 @@ raco_remove() {
 
 # @FUNCTION: racket_pkg_prerm
 # @DESCRIPTION:
-# Default pkg_prerm:
+# Default "pkg_prerm" for the "racket" eclass.
+# Called before a package is unmerged.
 #
 # If we are removing (not updating) the package, then
-# if we have Racket available remove the pkg using `raco_remove'
+# if we have Racket available remove the pkg using "raco_remove"
 # (if it is installed) to properly update pkg databases.
 racket_pkg_prerm() {
-	debug-print-function ${FUNCNAME} "${@}"
-
 	if [[ -z "${REPLACED_BY_VERSION}" ]] ; then
 		if has_version "dev-scheme/racket" && racket-where "${RACKET_PN}" ; then
 			raco_remove
@@ -419,7 +410,7 @@ raco_system_setup() {
 	debug-print-function ${FUNCNAME} "${@}"
 
 	local pkg="${@:-${RACKET_PN}}"
-	local raco_opts=(
+	local -a raco_opts=(
 		--all-users
 		--force
 		--jobs "$(makeopts_jobs)"
@@ -433,14 +424,13 @@ raco_system_setup() {
 
 # @FUNCTION: racket_pkg_postinst
 # @DESCRIPTION:
-# Default pkg_postinst:
+# Default "pkg_postinst" for the "racket" eclass.
+# Called after package image is installed.
 #
 # Runs raco_system_install, "dir" defaults to RACKET_P_DIR
 # and raco_system_setup if RACO_SETUP is ON (the default),
 # "pkg_name" defaults to RACKET_PN.
 racket_pkg_postinst() {
-	debug-print-function ${FUNCNAME} "${@}"
-
 	raco_system_install
 
 	case ${RACO_SETUP} in

@@ -10,5 +10,5 @@ LICENSE=GPL-2+
 RDEPEND=dev-racket/brag-lib dev-racket/pmsf-lib dev-racket/reprovide-lang-lib dev-racket/threading-lib >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://gitlab.com/gentoo-racket/racket-pmsf/-/archive/d7690c1a61cce3febb3e35eb25561b8b2eaced3d/racket-pmsf-d7690c1a61cce3febb3e35eb25561b8b2eaced3d.tar.gz -> pmsf-manifest-0_p20230301.tar.gz
-_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	5bd948c835822cae460ff531f413eec1
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	498393dd1f578b80e94c3b93b729bd07	racket	1be0d857b081e0bee9d8414a150672a5
 _md5_=8e6c870ba334351a4b8c5203639d733a

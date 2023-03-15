@@ -10,5 +10,5 @@ LICENSE=|| ( Apache-2.0 MIT )
 RDEPEND=dev-racket/basedir dev-racket/csv-reading dev-racket/linea dev-racket/rash dev-racket/shell-pipeline dev-racket/text-table dev-racket/udelim >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/willghatch/racket-rash/archive/42460a283ce2d7296257b068505cd4649052f67c.tar.gz -> rash-demos-0_p20230224.tar.gz
-_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	5bd948c835822cae460ff531f413eec1
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	498393dd1f578b80e94c3b93b729bd07	racket	1be0d857b081e0bee9d8414a150672a5
 _md5_=01dd01e8cf43d02f8a7fc2deb1f5fbb6

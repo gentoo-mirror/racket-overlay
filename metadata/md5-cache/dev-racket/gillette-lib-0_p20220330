@@ -12,5 +12,5 @@ RDEPEND=dev-racket/http-easy dev-racket/laramie-lib dev-racket/syntax-classes-li
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jessealama/gillette/archive/8f2e1d26480aec46e1c7334fdf95815cf6c99164.tar.gz -> gillette-lib-0_p20220330.tar.gz
-_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	5bd948c835822cae460ff531f413eec1
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	498393dd1f578b80e94c3b93b729bd07	racket	1be0d857b081e0bee9d8414a150672a5
 _md5_=cde94b9179c0f11579e340af36238b6b

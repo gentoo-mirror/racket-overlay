@@ -11,5 +11,5 @@ RDEPEND=dev-racket/diagrama-doc dev-racket/diagrama-lib >=dev-scheme/racket-8.1:
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/florence/diagrama/archive/291f244843d7226df4b7cb763bc3d6b1e98af71b.tar.gz -> diagrama-0_p20200310.tar.gz
-_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	5bd948c835822cae460ff531f413eec1
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	498393dd1f578b80e94c3b93b729bd07	racket	1be0d857b081e0bee9d8414a150672a5
 _md5_=46b12ecfccade3d35676256ce78704c5

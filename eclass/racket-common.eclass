@@ -18,8 +18,12 @@ _RACKET_COMMON_ECLASS=1
 inherit multiprocessing xdg-utils
 
 case ${EAPI} in
-	7 | 8 )  true  ;;
-	* )  die "EAPI: ${EAPI} not supported"  ;;
+	7 | 8 )
+		:
+		;;
+	* )
+		die "EAPI: ${EAPI} not supported"
+		;;
 esac
 
 # @ECLASS_VARIABLE: RACKET_REQ_USE
@@ -44,8 +48,6 @@ BDEPEND="${RDEPEND}"
 # @DESCRIPTION:
 # Check if the "raco" command exists.
 racket_check_raco() {
-	debug-print-function ${FUNCNAME} "${@}"
-
 	command -v raco >/dev/null || die "raco is missing"
 }
 
@@ -57,6 +59,7 @@ eraco() {
 	debug-print-function ${FUNCNAME} "${@}"
 
 	racket_check_raco
+
 	ebegin "Invoking \"raco ${*}\""
 	raco "${@}"
 	eend ${?} "\"raco ${*}\" failed" || die
@@ -70,8 +73,6 @@ eraco() {
 # For more info about environment variables used/respected by Racket see:
 # https://docs.racket-lang.org/reference/Filesystem.html
 racket_clean_environment() {
-	debug-print-function ${FUNCNAME} "${@}"
-
 	racket_check_raco
 	xdg_environment_reset
 

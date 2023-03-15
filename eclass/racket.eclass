@@ -1,4 +1,4 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 # @ECLASS: racket.eclass
@@ -15,7 +15,6 @@
 if [[ -z ${_RACKET_ECLASS} ]] ; then
 _RACKET_ECLASS=1
 
-
 # @ECLASS_VARIABLE: RACKET_REQ_USE
 # @INTERNAL
 # @DESCRIPTION:
@@ -26,8 +25,12 @@ RACKET_REQ_USE+="${RACKET_REQ_USE:+,}-minimal"
 inherit multiprocessing racket-common
 
 case ${EAPI} in
-	7 | 8 )  true  ;;
-	* )  die "EAPI: ${EAPI} not supported"  ;;
+	7 | 8 )
+		:
+		;;
+	* )
+		die "EAPI: ${EAPI} not supported"
+		;;
 esac
 
 # @ECLASS_VARIABLE: RACKET_PN
@@ -146,6 +149,7 @@ racket_src_prepare() {
 
 	racket_environment_prepare
 	racket_clean_directory
+
 	default
 }
 
@@ -199,6 +203,7 @@ raco_bare_install() {
 
 	local scope="${1}"
 	local pkg="${2:-${RACKET_PN}}"
+
 	raco_install --name "${pkg}" --no-docs --no-setup --scope "${scope}"
 }
 

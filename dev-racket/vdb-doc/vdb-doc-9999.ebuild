@@ -17,8 +17,11 @@ SLOT="0"
 
 RDEPEND="dev-racket/pmsf-depend
 	dev-racket/pmsf-doc
+	dev-racket/pmsf-iuse
+	dev-racket/pmsf-keywords
 	dev-racket/pmsf-slot
 	dev-racket/threading-lib
+	dev-racket/typed-pmsf
 	dev-racket/vdb-lib
 	dev-racket/ziptie-git"
 BDEPEND="${RDEPEND}"

@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=dev-racket/relation dev-racket/cover-coveralls dev-racket/cover dev-racket/scribble-abbrevs dev-racket/adjutor dev-racket/fancy-app dev-racket/mischief >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	97da5091f435674bf3acc717a35ee8a9
+_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	5bd948c835822cae460ff531f413eec1
 _md5_=ed2efd4d0a3321b0fbfeda0fab81f35c

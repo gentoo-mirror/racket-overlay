@@ -11,5 +11,5 @@ RDEPEND=dev-racket/anaphoric dev-racket/br-parser-tools-lib dev-racket/brag dev-
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/euhmeuh/virtual-mpu/archive/d8056f928a646bb9ac96fdb78cde794efc82d144.tar.gz -> virtual-mpu-0_p20180910.tar.gz
-_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	97da5091f435674bf3acc717a35ee8a9
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	5bd948c835822cae460ff531f413eec1
 _md5_=21a4e880f98d0f9c212d71ff73115d9c

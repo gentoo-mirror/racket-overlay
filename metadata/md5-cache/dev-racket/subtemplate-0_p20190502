@@ -12,5 +12,5 @@ RDEPEND=dev-racket/alexis-util dev-racket/auto-syntax-e dev-racket/backport-temp
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jsmaniac/subtemplate/archive/a3292113bb0d7dd8dc2114702b90e76f23963496.tar.gz -> subtemplate-0_p20190502.tar.gz https://github.com/jsmaniac/stxparse-info/archive/d35e84905fdbbef4309edca0a138cd77066be185.tar.gz -> subtemplate_aux_stxparse-info-0_p20190502.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	97da5091f435674bf3acc717a35ee8a9
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	5bd948c835822cae460ff531f413eec1
 _md5_=07fc59df376e94391431728a8eeab247

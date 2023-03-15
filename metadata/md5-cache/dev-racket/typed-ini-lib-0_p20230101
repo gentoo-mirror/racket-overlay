@@ -10,5 +10,5 @@ LICENSE=GPL-2+
 RDEPEND=dev-racket/ini-lib >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://gitlab.com/xgqt/racket-ini/-/archive/d2f464039b7d4365c64c1eab6694e6c78e1a4a1f/racket-ini-d2f464039b7d4365c64c1eab6694e6c78e1a4a1f.tar.gz -> typed-ini-lib-0_p20230101.tar.gz
-_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	97da5091f435674bf3acc717a35ee8a9
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	5bd948c835822cae460ff531f413eec1
 _md5_=17a8c4d840abda73a318eda5afa86d0a

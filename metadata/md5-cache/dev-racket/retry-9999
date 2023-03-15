@@ -10,5 +10,5 @@ PROPERTIES=live
 RDEPEND=dev-racket/compose-app dev-racket/fancy-app dev-racket/gregor-doc dev-racket/gregor-lib dev-racket/mock dev-racket/mock-rackunit dev-racket/reprovide-lang >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	97da5091f435674bf3acc717a35ee8a9
+_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	5bd948c835822cae460ff531f413eec1
 _md5_=4c0368376d25f836e9b6c4e46bfffef5

@@ -12,5 +12,5 @@ RDEPEND=dev-racket/digimon >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/wargrey/w3s/archive/ccd79b3d30b28f376e9d85eb9e766533571a7d2e.tar.gz -> w3s-0_p20221105.tar.gz https://github.com/wargrey/graphics/archive/e7eb9bcfa8503e66bbeb0429b2bc64738d68bb9a.tar.gz -> w3s_aux_graphics-0_p20221105.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	97da5091f435674bf3acc717a35ee8a9
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	5bd948c835822cae460ff531f413eec1
 _md5_=90e2cde8c25e9b8dff7e12b0f41aef2e

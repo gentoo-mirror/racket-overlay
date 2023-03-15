@@ -11,5 +11,5 @@ RDEPEND=dev-racket/jen-doc dev-racket/jen-lib dev-racket/jen-samples >=dev-schem
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/HeladoDeBrownie/jen/archive/d7b5f3aeb77f880a7a9a6b7ac4994dfdbbd9674c.tar.gz -> jen-0_p20220503.tar.gz
-_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	97da5091f435674bf3acc717a35ee8a9
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	5bd948c835822cae460ff531f413eec1
 _md5_=975f08146c3f68a107f1d9dddf7951da

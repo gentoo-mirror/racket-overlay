@@ -1,0 +1,14 @@
+BDEPEND=dev-racket/http-easy dev-racket/http-easy-lib dev-racket/hyper-literate dev-racket/net-ip-lib dev-racket/scribble-enhanced >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=SOCKS5 TCP Client
+EAPI=8
+HOMEPAGE=https://github.com/cloudrac3r/racket-socks5
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=BSD
+RDEPEND=dev-racket/http-easy dev-racket/http-easy-lib dev-racket/hyper-literate dev-racket/net-ip-lib dev-racket/scribble-enhanced >=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://github.com/cloudrac3r/racket-socks5/archive/0c8ad185d743e369d15a3373664b6ab5681377d0.tar.gz -> socks5-0_p20230309.tar.gz
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	5bd948c835822cae460ff531f413eec1
+_md5_=d375353b8b1db7f553e08c39cef2a90e

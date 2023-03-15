@@ -12,5 +12,5 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/tnelson/forge/archive/912b34b335608e9f9e373e2455a34fcbcedf6072.tar.gz -> froglet-0_p20230206.tar.gz https://github.com/tnelson/Forge/archive/912b34b335608e9f9e373e2455a34fcbcedf6072.tar.gz -> froglet_aux_forge-0_p20230206.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	97da5091f435674bf3acc717a35ee8a9
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	5bd948c835822cae460ff531f413eec1
 _md5_=e0a9920d98664eb250d15161cec5f629

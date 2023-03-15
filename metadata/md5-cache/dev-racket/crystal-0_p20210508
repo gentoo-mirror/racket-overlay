@@ -11,5 +11,5 @@ RDEPEND=dev-racket/crypto-lib dev-racket/csexp dev-racket/html-writing dev-racke
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/spritely/crystal/-/archive/70274401f177b1001ea15169c9032e466bf8efc9/crystal-70274401f177b1001ea15169c9032e466bf8efc9.tar.gz -> crystal-0_p20210508.tar.gz
-_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	97da5091f435674bf3acc717a35ee8a9
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	8d9a0235222199d9692a3941181901c2	racket	5bd948c835822cae460ff531f413eec1
 _md5_=78cbdaf184910b115e3440670cfc7d7a

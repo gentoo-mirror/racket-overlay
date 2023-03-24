@@ -2,11 +2,12 @@
 ;; For more info see Collector2 documentation.
 
 ((hard "alpaca"                         ; 404
-       "ekans"                          ; 404
        "egg-herbie"                     ; binary
        "egg-herbie-linux"               ; binary
        "egg-herbie-osx"                 ; binary
        "egg-herbie-windows"             ; binary
+       "ekans"                          ; 404
+       "emmy"                           ; 404
        "plai-dynamic"                   ; 404
        "qualified-in"                   ; 404
        "unb-cs2613"                     ; 404

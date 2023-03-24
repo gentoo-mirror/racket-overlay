@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="FFI bindings to PLplot"
 HOMEPAGE="https://github.com/oetr/racket-plplot"
 
-LICENSE="all-rights-reserved"
+LICENSE="AGPL-3"
 SLOT="0"
-RESTRICT="mirror"

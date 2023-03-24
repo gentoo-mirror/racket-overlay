@@ -18,7 +18,5 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/graphite-doc
-	dev-racket/graphite-lib
-	dev-racket/graphite-tutorial"
+RDEPEND="dev-racket/graphite-lib"
 BDEPEND="${RDEPEND}"

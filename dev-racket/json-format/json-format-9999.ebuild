@@ -13,3 +13,8 @@ HOMEPAGE="https://github.com/shawnw/racket-json-format"
 
 LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
+
+RDEPEND="dev-racket/extra-srfi-libs
+	dev-racket/soup-lib
+	dev-racket/unicode-breaks"
+BDEPEND="${RDEPEND}"

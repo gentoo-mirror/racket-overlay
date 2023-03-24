@@ -1,4 +1,4 @@
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/extra-srfi-libs dev-racket/soup-lib dev-racket/unicode-breaks >=dev-vcs/git-1.8.2.1[curl] >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
 DESCRIPTION=Pretty printers for JSON
 EAPI=8
@@ -7,7 +7,7 @@ INHERIT=gh racket
 IUSE=doc
 LICENSE=|| ( Apache-2.0 MIT )
 PROPERTIES=live
-RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/extra-srfi-libs dev-racket/soup-lib dev-racket/unicode-breaks >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 _eclasses_=git-r3	c57c50c922e121043788de0b40ada60a	gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	498393dd1f578b80e94c3b93b729bd07	racket	1be0d857b081e0bee9d8414a150672a5
-_md5_=91c8d3463f1468e4a26ed955b2d4abac
+_md5_=b065529a6691b18b540ca775ff3b0f5d

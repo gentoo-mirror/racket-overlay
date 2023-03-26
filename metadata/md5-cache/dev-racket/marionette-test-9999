@@ -9,5 +9,5 @@ LICENSE=BSD
 PROPERTIES=live
 RDEPEND=dev-racket/marionette-lib >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
-_eclasses_=git-r3	c57c50c922e121043788de0b40ada60a	gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	498393dd1f578b80e94c3b93b729bd07	racket	1be0d857b081e0bee9d8414a150672a5
+_eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676	gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	498393dd1f578b80e94c3b93b729bd07	racket	1be0d857b081e0bee9d8414a150672a5
 _md5_=12ccdf0e85fc5d2d8614943a261f93e7

@@ -10,5 +10,5 @@ LICENSE=GPL-2+
 RDEPEND=dev-racket/portage-admin-lib >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://gitlab.com/gentoo-racket/racket-portage-admin/-/archive/84fc9d2e2838eca9d576ca0f6862ed0e10841c86/racket-portage-admin-84fc9d2e2838eca9d576ca0f6862ed0e10841c86.tar.gz -> portage-admin-doc-0_p20230124.tar.gz
-_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	498393dd1f578b80e94c3b93b729bd07	racket	1be0d857b081e0bee9d8414a150672a5
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	498393dd1f578b80e94c3b93b729bd07	racket	1be0d857b081e0bee9d8414a150672a5
 _md5_=e1ad6b42bab5b1c839e620974ce268e5

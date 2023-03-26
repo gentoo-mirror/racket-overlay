@@ -11,5 +11,5 @@ RDEPEND=dev-racket/opt dev-racket/string-util >=dev-scheme/racket-8.1:=[-minimal
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/RayRacine/uri/-/archive/79934c1432baad34a3272c0429caa4b695c4b996/uri-79934c1432baad34a3272c0429caa4b695c4b996.tar.gz -> uri-0_p20220702.tar.gz
-_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	ac0e315a3688929e34ac75b139e7349a	racket-common	498393dd1f578b80e94c3b93b729bd07	racket	1be0d857b081e0bee9d8414a150672a5
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	498393dd1f578b80e94c3b93b729bd07	racket	1be0d857b081e0bee9d8414a150672a5
 _md5_=6a3e0626e7c4efd87c805eb29cb4da5f

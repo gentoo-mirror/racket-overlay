@@ -11,8 +11,9 @@ inherit gh racket
 DESCRIPTION="The ming Racket package"
 HOMEPAGE="https://github.com/yanyingwang/ming"
 
-LICENSE="Apache-2.0"
+LICENSE="all-rights-reserved"
 SLOT="0"
+RESTRICT="mirror"
 
 RDEPEND="dev-racket/scribble-rainbow-delimiters"
 BDEPEND="${RDEPEND}"

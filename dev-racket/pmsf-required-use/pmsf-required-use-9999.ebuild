@@ -18,6 +18,5 @@ SLOT="0"
 RDEPEND="dev-racket/brag-lib
 	dev-racket/pmsf-condition
 	dev-racket/pmsf-lib
-	dev-racket/reprovide-lang-lib
-	dev-racket/threading-lib"
+	dev-racket/reprovide-lang-lib"
 BDEPEND="${RDEPEND}"

@@ -19,6 +19,7 @@ RDEPEND="dev-racket/pmsf-condition
 	dev-racket/pmsf-depend
 	dev-racket/pmsf-iuse
 	dev-racket/pmsf-keywords
+	dev-racket/pmsf-license
 	dev-racket/pmsf-name
 	dev-racket/pmsf-required-use
 	dev-racket/pmsf-restrict

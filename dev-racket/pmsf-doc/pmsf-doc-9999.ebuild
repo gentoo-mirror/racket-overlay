@@ -20,6 +20,7 @@ RDEPEND="dev-racket/pmsf-condition
 	dev-racket/pmsf-iuse
 	dev-racket/pmsf-keywords
 	dev-racket/pmsf-lib
+	dev-racket/pmsf-license
 	dev-racket/pmsf-manifest
 	dev-racket/pmsf-name
 	dev-racket/pmsf-required-use

@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/adjutor dev-racket/qi-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=A general-purpose functional DSL. [tests only]
+EAPI=8
+HOMEPAGE=https://github.com/drym-org/qi
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/adjutor dev-racket/qi-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/drym-org/qi/archive/5fb31e523d90ec15d6b18b50df202d4623a635a9.tar.gz -> qi-test-0_p20230317.tar.gz
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	498393dd1f578b80e94c3b93b729bd07	racket	1be0d857b081e0bee9d8414a150672a5
+_md5_=ab538b2a4308dc50a93e5c864f2575e2

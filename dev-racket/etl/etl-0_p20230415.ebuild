@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="Jesse-Hamlin-Navias/etl"
-GH_COMMIT="e21a4de3791b96945de86be18382dd1be45427ce"
+GH_COMMIT="b0fa42a8b135e3baf8c2e3c609b1deab0b3e2b34"
 
 inherit gh racket
 

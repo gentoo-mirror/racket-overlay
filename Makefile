@@ -14,7 +14,7 @@ SH                      := sh
 MANIFEST                := $(PKGDEV) manifest
 SCAN                    := $(PKGCHECK) scan
 
-PWD                     ?= $(shell pwd)
+PWD                     := $(shell pwd)
 DOC_SOURCE_DIR          := $(PWD)/scribblings
 DOC_ECLASS_DIR          := $(DOC_SOURCE_DIR)/eclass
 DOC_BUILT_DIR           := $(DOC_SOURCE_DIR)/doc
@@ -108,6 +108,7 @@ submodules:
 
 .PHONY: autocommit
 autocommit:
+	$(GIT) add $(PWD)
 	$(GIT) commit --all --signoff --message="dev-racket: autoupdate"
 
 # Cleanup

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/csmoe/rustc-wrapper</bugs-to>
+    <remote-id type="github">csmoe/rustc-wrapper</remote-id>
+  </upstream>
+</pkgmetadata>

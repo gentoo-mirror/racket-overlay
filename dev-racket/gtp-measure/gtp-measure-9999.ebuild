@@ -11,9 +11,8 @@ inherit gh racket
 DESCRIPTION="Runs programs, collects timing info"
 HOMEPAGE="https://github.com/bennn/gtp-measure"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/basedir
 	dev-racket/gtp-util

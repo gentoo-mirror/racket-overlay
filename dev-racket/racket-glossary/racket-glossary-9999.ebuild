@@ -13,6 +13,3 @@ HOMEPAGE="https://git.sr.ht/~sschwarzer/racket-glossary"
 
 LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-
-RDEPEND="dev-racket/al2-test-runner"
-BDEPEND="${RDEPEND}"

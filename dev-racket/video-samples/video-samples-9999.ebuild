@@ -14,6 +14,3 @@ HOMEPAGE="https://github.com/videolang/test-samples"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
-
-RDEPEND="dev-racket/video"
-BDEPEND="${RDEPEND}"

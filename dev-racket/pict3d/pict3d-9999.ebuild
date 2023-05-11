@@ -14,6 +14,5 @@ HOMEPAGE="https://github.com/jeapostrophe/pict3d"
 LICENSE="LGPL-3"
 SLOT="0"
 
-RDEPEND="dev-racket/pfds
-	dev-racket/unstable-lib"
+RDEPEND="dev-racket/pfds"
 BDEPEND="${RDEPEND}"

@@ -1,0 +1,16 @@
+BDEPEND=dev-racket/digimon >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Essential computer graphics for Typed Racket
+EAPI=8
+HOMEPAGE=https://pkgs.racket-lang.org/package/graphics
+INHERIT=racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+PDEPEND=dev-racket/w3s
+RDEPEND=dev-racket/digimon >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/wargrey/graphics/archive/d188be04548f67538127f4ba5ef6f58e346bc5f5.tar.gz -> graphics-0_p20230320.tar.gz https://github.com/wargrey/w3s/archive/dfd4d0bbc1c76877de2bfa175b38bb93ec192d71.tar.gz -> graphics_aux_w3s-0_p20230320.tar.gz
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	498393dd1f578b80e94c3b93b729bd07	racket	1be0d857b081e0bee9d8414a150672a5
+_md5_=2361c937fc47ac23d2429f6d827e1b25

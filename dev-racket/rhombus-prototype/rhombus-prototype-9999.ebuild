@@ -14,3 +14,7 @@ HOMEPAGE="https://github.com/racket/rhombus-prototype"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/gui-easy
+	dev-racket/gui-easy-lib"
+BDEPEND="${RDEPEND}"

@@ -16,5 +16,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/graphite-lib"
+RDEPEND="dev-racket/graphite-doc
+	dev-racket/graphite-lib
+	dev-racket/graphite-tutorial"
 BDEPEND="${RDEPEND}"

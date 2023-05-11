@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/MohamedLEGH/crypto-sign</bugs-to>
+    <remote-id type="github">MohamedLEGH/crypto-sign</remote-id>
+  </upstream>
+</pkgmetadata>

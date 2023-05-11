@@ -14,6 +14,7 @@ HOMEPAGE="https://github.com/shawnw/racket-inotify"
 LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
 
-RDEPEND="dev-racket/extra-srfi-libs
+RDEPEND="dev-racket/c-defs
+	dev-racket/extra-srfi-libs
 	dev-racket/stencil-vector-utils"
 BDEPEND="${RDEPEND}"

@@ -11,9 +11,8 @@ inherit gh racket
 DESCRIPTION="Similar to pict, but for 2d unicode text and math formulas"
 HOMEPAGE="https://github.com/Metaxal/text-block"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/define2"
 BDEPEND="${RDEPEND}"

@@ -11,9 +11,8 @@ inherit gh racket
 DESCRIPTION="Define global variables and automatically generate a command line parser."
 HOMEPAGE="https://github.com/Metaxal/global"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/text-table"
 BDEPEND="${RDEPEND}"

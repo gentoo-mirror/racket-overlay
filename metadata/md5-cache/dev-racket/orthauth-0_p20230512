@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/python dev-racket/yaml >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=orthogonal authentication for racket
+EAPI=8
+HOMEPAGE=https://github.com/tgbugs/orthauth
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/python dev-racket/yaml >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/tgbugs/orthauth/archive/430d274f99c6ffbd294b422c325937c565841038.tar.gz -> orthauth-0_p20230512.tar.gz
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	498393dd1f578b80e94c3b93b729bd07	racket	1be0d857b081e0bee9d8414a150672a5
+_md5_=53fbf6a09e9caa048bdd4416b32b898b

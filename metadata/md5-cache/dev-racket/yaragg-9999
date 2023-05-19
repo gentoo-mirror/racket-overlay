@@ -1,14 +1,14 @@
-BDEPEND=dev-racket/digimon dev-racket/graphics dev-racket/w3s >=dev-vcs/git-1.8.2.1[curl] >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/rebellion >=dev-vcs/git-1.8.2.1[curl] >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DESCRIPTION=Open XML for Microsoft Office
+DESCRIPTION=Yet another Racket AST generator generator.
 EAPI=8
-HOMEPAGE=https://github.com/wargrey/mox
+HOMEPAGE=https://github.com/jackfirth/yaragg
 INHERIT=gh racket
 IUSE=doc
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/digimon dev-racket/graphics dev-racket/w3s >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/rebellion >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676	gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	498393dd1f578b80e94c3b93b729bd07	racket	1be0d857b081e0bee9d8414a150672a5
-_md5_=900eee31b05c7625f0cbfd2f30082534
+_md5_=0eee78b5f5e75a0e8c8a371d1d66d417

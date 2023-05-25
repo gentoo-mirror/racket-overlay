@@ -10,6 +10,6 @@ LICENSE=all-rights-reserved
 RDEPEND=dev-racket/http-easy dev-racket/rfc6455 >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/simmsb/racket-cord/archive/f2ca1a13849b700761e0d0f60d7ef8d898b7b142.tar.gz -> racket-cord-0_p20220909.tar.gz
+SRC_URI=https://github.com/simmsb/racket-cord/archive/812f45cd0c5f5470ae6727856229dbda06d1be03.tar.gz -> racket-cord-0_p20230520.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	498393dd1f578b80e94c3b93b729bd07	racket	1be0d857b081e0bee9d8414a150672a5
-_md5_=c2dfd0a000deca6ab2518664224979ff
+_md5_=97fbb00f6768f09af590d1ddff602bc7

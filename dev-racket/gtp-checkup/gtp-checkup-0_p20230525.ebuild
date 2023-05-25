@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="bennn/gtp-checkup"
-GH_COMMIT="59192ae3fafdc3ada1dcf1d6c2ba4d7e0aa34c40"
+GH_COMMIT="18c69f980ea0e59eeea2edbba388d6fc7cc66a45"
 
 inherit gh racket
 

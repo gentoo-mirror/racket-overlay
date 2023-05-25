@@ -5,17 +5,16 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="bennn/gtp-benchmarks"
-GH_COMMIT="dccbf0587689f6b2b00f6efb6e093b0068989a68"
+GH_COMMIT="ee80aa4d2ed34158010f0e3a569e469d6abed746"
 
 inherit gh racket
 
 DESCRIPTION="gradual typing performance benchmarks"
 HOMEPAGE="https://github.com/bennn/gtp-benchmarks"
 
-LICENSE="all-rights-reserved"
+LICENSE="LGPL-2+"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/gtp-util
 	dev-racket/require-typed-check

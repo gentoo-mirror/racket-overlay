@@ -4,16 +4,18 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racket/racket"
-GH_COMMIT="6752291781f891883ae19c18e296c2705561258a"
+GH_REPO="rpless/cover-coveralls"
+GH_COMMIT="7caf7d54c0265ed1d388cb28093a6dcc1da4b199"
 
 inherit gh racket
 
-DESCRIPTION="The plt-services Racket package"
-HOMEPAGE="https://github.com/racket/racket"
-S="${S}/pkgs/plt-services"
+DESCRIPTION="The cover-coveralls Racket package"
+HOMEPAGE="https://github.com/rpless/cover-coveralls"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/cover-lib"
+BDEPEND="${RDEPEND}"

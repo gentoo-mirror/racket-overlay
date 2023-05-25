@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="gitlab.com"
 GH_REPO="bengreenman/pict-abbrevs"
-GH_COMMIT="1468f8e67ee0e302827e28a74067dfef7c9c0d0e"
+GH_COMMIT="e15fb10bb7a7a2d2149e186d601daa75268b3975"
 
 inherit gh racket
 

@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="Bogdanp/racket-gui-easy"
-GH_COMMIT="d470426949d59a3b8008f03e0b395b9c00244b89"
+GH_COMMIT="ab4a710541bdf0c19ce1e309dcb528bc3339a35c"
 
 inherit gh racket
 

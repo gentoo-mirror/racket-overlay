@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="racket/rhombus-prototype"
-GH_COMMIT="9c7d1812061de31c60b15d12cd221428c0b72577"
+GH_COMMIT="fc8c88fe22025cb4d1e4187806ea4a02ad15257b"
 
 inherit gh racket
 
@@ -16,3 +16,7 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/gui-easy
+	dev-racket/gui-easy-lib"
+BDEPEND="${RDEPEND}"

@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="git.sr.ht"
 GH_REPO="~sschwarzer/racket-glossary"
-GH_COMMIT="77f84972a7d9f58062b7165feea78db752d26d61"
+GH_COMMIT="4909e8ff4291f3366953c51e54d31214ed4aa6cd"
 
 inherit gh racket
 
@@ -15,6 +15,3 @@ HOMEPAGE="https://git.sr.ht/~sschwarzer/racket-glossary"
 LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
-
-RDEPEND="dev-racket/al2-test-runner"
-BDEPEND="${RDEPEND}"

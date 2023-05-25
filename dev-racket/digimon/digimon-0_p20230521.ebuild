@@ -4,13 +4,13 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="kalxd/azelf"
-GH_COMMIT="7e8ca29d5ddee912f0d38d1ed8fdacd97e317db3"
+GH_REPO="wargrey/digimon"
+GH_COMMIT="9f662c4f1a81a49a714189e04f93b1120d9a53d9"
 
 inherit gh racket
 
-DESCRIPTION="The azelf Racket package"
-HOMEPAGE="https://github.com/kalxd/azelf"
+DESCRIPTION="The (typed) core to construct the digital world"
+HOMEPAGE="https://github.com/wargrey/digimon"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

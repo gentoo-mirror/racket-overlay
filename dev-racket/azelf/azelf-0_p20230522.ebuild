@@ -4,13 +4,13 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="Lonero-Team/Racket-Package"
-GH_COMMIT="3802c866cdb27e861455d273fefa7f6b4c36c2ca"
+GH_REPO="kalxd/azelf"
+GH_COMMIT="c6fb1393efde238967662c3c7b3d65d9ce21bd2a"
 
 inherit gh racket
 
-DESCRIPTION="A package for building distributed computing projects"
-HOMEPAGE="https://github.com/Lonero-Team/Racket-Package"
+DESCRIPTION="The azelf Racket package"
+HOMEPAGE="https://github.com/kalxd/azelf"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

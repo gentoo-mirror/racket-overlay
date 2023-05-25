@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="jackfirth/resyntax"
-GH_COMMIT="55c9f168256bd9d2a182269689c614f29eab0543"
+GH_COMMIT="e3b6b6a51cc3c01640fc5aaf40090f2466d00722"
 
 inherit gh racket
 

@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="shawnw/racket-extra-srfi-libs"
-GH_COMMIT="c2933e77cf4af19ca957011cec672ecc9dd6bc40"
+GH_COMMIT="d29744227a275efb571b3ad65b4b59321c93a89e"
 
 inherit gh racket
 

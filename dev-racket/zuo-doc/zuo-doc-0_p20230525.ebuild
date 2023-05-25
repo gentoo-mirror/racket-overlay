@@ -5,13 +5,13 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="racket/racket"
-GH_COMMIT="6752291781f891883ae19c18e296c2705561258a"
+GH_COMMIT="ff7a9feff54bffa81ca1baa19184684290d7ad3b"
 
 inherit gh racket
 
-DESCRIPTION="Racket's implementation of macros, modules, and top-level evaluation"
+DESCRIPTION="Documentation for the Zuo language"
 HOMEPAGE="https://github.com/racket/racket"
-S="${S}/racket/src/expander"
+S="${S}/racket/src/zuo/zuo-doc"
 
 LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"

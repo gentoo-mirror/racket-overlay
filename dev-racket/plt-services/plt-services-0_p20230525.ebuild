@@ -4,13 +4,14 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="wargrey/digimon"
-GH_COMMIT="005b3b8fdd42e311001deb03149d5becc702cf18"
+GH_REPO="racket/racket"
+GH_COMMIT="ff7a9feff54bffa81ca1baa19184684290d7ad3b"
 
 inherit gh racket
 
-DESCRIPTION="The (typed) core to construct the digital world"
-HOMEPAGE="https://github.com/wargrey/digimon"
+DESCRIPTION="The plt-services Racket package"
+HOMEPAGE="https://github.com/racket/racket"
+S="${S}/pkgs/plt-services"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

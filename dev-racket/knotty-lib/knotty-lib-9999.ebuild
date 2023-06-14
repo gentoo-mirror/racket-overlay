@@ -16,9 +16,7 @@ LICENSE="LGPL-3+"
 SLOT="0"
 
 RDEPEND="dev-racket/named-arguments
-	dev-racket/sweet-exp
 	dev-racket/sweet-exp-lib
 	dev-racket/sxml
-	dev-racket/threading
 	dev-racket/threading-lib"
 BDEPEND="${RDEPEND}"

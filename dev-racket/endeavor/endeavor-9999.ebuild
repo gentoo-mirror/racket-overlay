@@ -3,15 +3,13 @@
 
 EAPI=8
 
-GH_DOM="github.com"
+GH_DOM="codeberg.org"
 GH_REPO="sunarch/endeavor"
 
 inherit gh racket
 
 DESCRIPTION="((status pre-alpha) (phase design))"
-HOMEPAGE="https://github.com/sunarch/endeavor"
-S="${S}/endeavor"
+HOMEPAGE="https://codeberg.org/sunarch/endeavor"
 
-LICENSE="all-rights-reserved"
+LICENSE="MPL-2.0"
 SLOT="0"
-RESTRICT="mirror"

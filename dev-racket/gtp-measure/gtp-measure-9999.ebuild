@@ -4,12 +4,12 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="bennn/gtp-measure"
+GH_REPO="utahplt/gtp-measure"
 
 inherit gh racket
 
 DESCRIPTION="Runs programs, collects timing info"
-HOMEPAGE="https://github.com/bennn/gtp-measure"
+HOMEPAGE="https://github.com/utahplt/gtp-measure"
 
 LICENSE="MIT"
 SLOT="0"

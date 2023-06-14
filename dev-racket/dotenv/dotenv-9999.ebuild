@@ -10,7 +10,12 @@ inherit gh racket
 
 DESCRIPTION="Override environment variables by loading .env files."
 HOMEPAGE="https://github.com/royallthefourth/dotenv"
+S="${S}/dotenv"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/dotenv-doc
+	dev-racket/dotenv-lib"
+BDEPEND="${RDEPEND}"

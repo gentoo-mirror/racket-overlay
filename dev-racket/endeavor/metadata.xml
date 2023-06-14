@@ -3,7 +3,6 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/sunarch/endeavor</bugs-to>
-    <remote-id type="github">sunarch/endeavor</remote-id>
+    <bugs-to>https://codeberg.org/sunarch/endeavor</bugs-to>
   </upstream>
 </pkgmetadata>

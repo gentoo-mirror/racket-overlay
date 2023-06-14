@@ -4,12 +4,12 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="bennn/gtp-checkup"
+GH_REPO="utahplt/gtp-checkup"
 
 inherit gh racket
 
 DESCRIPTION="Test correctness of typed/untyped interaction."
-HOMEPAGE="https://github.com/bennn/gtp-checkup"
+HOMEPAGE="https://github.com/utahplt/gtp-checkup"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

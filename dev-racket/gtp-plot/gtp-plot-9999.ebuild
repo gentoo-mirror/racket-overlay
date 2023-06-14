@@ -4,12 +4,12 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="bennn/gtp-plot"
+GH_REPO="utahplt/gtp-plot"
 
 inherit gh racket
 
 DESCRIPTION="Plots for gradual typing performance"
-HOMEPAGE="https://github.com/bennn/gtp-plot"
+HOMEPAGE="https://github.com/utahplt/gtp-plot"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

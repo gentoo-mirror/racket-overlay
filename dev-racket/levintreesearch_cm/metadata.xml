@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/deepmind/levintreesearch_cm</bugs-to>
+    <remote-id type="github">deepmind/levintreesearch_cm</remote-id>
+  </upstream>
+</pkgmetadata>

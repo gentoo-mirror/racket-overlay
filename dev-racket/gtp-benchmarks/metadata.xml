@@ -3,7 +3,7 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/bennn/gtp-benchmarks</bugs-to>
-    <remote-id type="github">bennn/gtp-benchmarks</remote-id>
+    <bugs-to>https://github.com/utahplt/gtp-benchmarks</bugs-to>
+    <remote-id type="github">utahplt/gtp-benchmarks</remote-id>
   </upstream>
 </pkgmetadata>

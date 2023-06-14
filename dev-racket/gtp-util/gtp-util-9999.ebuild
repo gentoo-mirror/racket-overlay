@@ -4,12 +4,12 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="bennn/gtp-util"
+GH_REPO="utahplt/gtp-util"
 
 inherit gh racket
 
 DESCRIPTION="37 helper functions you won't find anywhere else"
-HOMEPAGE="https://github.com/bennn/gtp-util"
+HOMEPAGE="https://github.com/utahplt/gtp-util"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

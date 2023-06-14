@@ -1,0 +1,14 @@
+BDEPEND=dev-racket/colorize dev-racket/threading-lib dev-racket/upi-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Dependency manager for Racket projects. Core.
+EAPI=8
+HOMEPAGE=https://gitlab.com/xgqt/racket-req
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=GPL-2+
+RDEPEND=dev-racket/colorize dev-racket/threading-lib dev-racket/upi-lib >=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://gitlab.com/xgqt/racket-req/-/archive/a4d9eb58934aa451d96aba794f7efa2c48f18c69/racket-req-a4d9eb58934aa451d96aba794f7efa2c48f18c69.tar.gz -> req-lib-0_p20230605.tar.gz
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	498393dd1f578b80e94c3b93b729bd07	racket	1be0d857b081e0bee9d8414a150672a5
+_md5_=97cc628e3b2ccd59ab503d8eb6167b70

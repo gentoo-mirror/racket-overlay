@@ -1,8 +1,8 @@
 BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DESCRIPTION=A simple package to display text tables with unicode frames.
+DESCRIPTION=The dan-scheme Racket package
 EAPI=8
-HOMEPAGE=https://github.com/Metaxal/text-table
+HOMEPAGE=https://github.com/david-christiansen/dan-scheme
 INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
@@ -10,6 +10,6 @@ LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/Metaxal/text-table/archive/35fb68b28a3e3cfd7dc9cc394aa9f96d051b020b.tar.gz -> text-table-0_p20220616.tar.gz
+SRC_URI=https://github.com/david-christiansen/dan-scheme/archive/289e8cb903a24b2e1939a8556c164589a0e293e5.tar.gz -> dan-scheme-0_p20230628.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	498393dd1f578b80e94c3b93b729bd07	racket	1be0d857b081e0bee9d8414a150672a5
-_md5_=969112e9f258fc7e86517edc16d132cc
+_md5_=f3a69e9fb6aabb53e872e55b60df6632

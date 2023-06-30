@@ -9,6 +9,6 @@ KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=MIT
 RDEPEND=dev-racket/beautiful-racket-macro dev-racket/br-parser-tools-lib dev-racket/brag-lib >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
-SRC_URI=https://github.com/Nesuniken/BQN.rkt/archive/b25cf50a0d8ba619657d0ce754756ae77c28ef7f.tar.gz -> bqn-0_p20230511.tar.gz
+SRC_URI=https://github.com/Nesuniken/BQN.rkt/archive/a6c823079ed7cdb17fe003a1f908d5ddaf44cb15.tar.gz -> bqn-0_p20230627.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	498393dd1f578b80e94c3b93b729bd07	racket	1be0d857b081e0bee9d8414a150672a5
-_md5_=0f2737261e8bc8eaf5209dd05c09b6ca
+_md5_=cf65d508f8a77edee8e6de45d746c937

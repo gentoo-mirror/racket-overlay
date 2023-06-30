@@ -1,8 +1,8 @@
 BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DESCRIPTION=The plt-services Racket package
+DESCRIPTION=The preserves Racket package
 EAPI=8
-HOMEPAGE=https://github.com/racket/racket
+HOMEPAGE=https://gitlab.com/preserves/preserves
 INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
@@ -10,6 +10,6 @@ LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/racket/racket/archive/ff7a9feff54bffa81ca1baa19184684290d7ad3b.tar.gz -> plt-services-0_p20230525.tar.gz
+SRC_URI=https://gitlab.com/preserves/preserves/-/archive/6f085a71922451430b1e385afd75e7210c398210/preserves-6f085a71922451430b1e385afd75e7210c398210.tar.gz -> preserves-0_p20230627.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	498393dd1f578b80e94c3b93b729bd07	racket	1be0d857b081e0bee9d8414a150672a5
-_md5_=15f196d04d4b5288e3eac3c08b520206
+_md5_=d2046bbe18c68fc0ec98b0b158b74ce7

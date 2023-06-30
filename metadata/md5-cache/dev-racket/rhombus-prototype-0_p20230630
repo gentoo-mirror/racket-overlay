@@ -10,6 +10,6 @@ LICENSE=all-rights-reserved
 RDEPEND=dev-racket/gui-easy dev-racket/gui-easy-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/racket/rhombus-prototype/archive/fc8c88fe22025cb4d1e4187806ea4a02ad15257b.tar.gz -> rhombus-prototype-0_p20230522.tar.gz
+SRC_URI=https://github.com/racket/rhombus-prototype/archive/c5e72e3dbaef074d4f1a43ab11d5e36c5914d10f.tar.gz -> rhombus-prototype-0_p20230630.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	498393dd1f578b80e94c3b93b729bd07	racket	1be0d857b081e0bee9d8414a150672a5
-_md5_=1185987510a48a8583edf05baa0b12d1
+_md5_=0957b4b940d655263d0469749b01e652

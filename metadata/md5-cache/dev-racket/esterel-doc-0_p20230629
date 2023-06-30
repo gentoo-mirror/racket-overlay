@@ -9,6 +9,6 @@ KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=|| ( Apache-2.0 MIT )
 RDEPEND=dev-racket/esterel-lib >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
-SRC_URI=https://github.com/rfindler/esterel/archive/ad5f3404fff05039d3ac17cc1d6bb7aa77903b67.tar.gz -> esterel-doc-0_p20230519.tar.gz
+SRC_URI=https://github.com/rfindler/esterel/archive/8ca4fb50b998f0d73bca6ad4e52a164ca4844b7d.tar.gz -> esterel-doc-0_p20230629.tar.gz
 _eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	498393dd1f578b80e94c3b93b729bd07	racket	1be0d857b081e0bee9d8414a150672a5
-_md5_=fda6400723a862f77c041dffe5800f17
+_md5_=86b70c74c25ae2bb98308dc400bf071b

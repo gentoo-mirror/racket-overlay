@@ -16,6 +16,7 @@ LICENSE="BSD"
 SLOT="0"
 
 RDEPEND="dev-racket/binfmt
+	dev-racket/libzstd
 	dev-racket/lz4-lib
 	dev-racket/sasl-lib
 	dev-racket/snappy-lib"

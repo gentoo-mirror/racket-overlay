@@ -17,5 +17,6 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/mutate-doc
-	dev-racket/mutate-lib"
+	dev-racket/mutate-lib
+	dev-racket/mutate-mutators"
 BDEPEND="${RDEPEND}"

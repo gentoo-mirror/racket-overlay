@@ -17,5 +17,7 @@ SLOT="0"
 
 RDEPEND="dev-racket/knotty-lib
 	dev-racket/named-arguments
-	dev-racket/sxml"
+	dev-racket/sweet-exp-lib
+	dev-racket/sxml
+	dev-racket/threading-lib"
 BDEPEND="${RDEPEND}"

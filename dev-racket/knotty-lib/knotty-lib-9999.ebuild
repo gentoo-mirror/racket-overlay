@@ -15,7 +15,9 @@ S="${S}/knotty-lib"
 LICENSE="LGPL-3+"
 SLOT="0"
 
-RDEPEND="dev-racket/named-arguments
+RDEPEND="dev-racket/br-parser-tools
+	dev-racket/brag
+	dev-racket/named-arguments
 	dev-racket/sweet-exp-lib
 	dev-racket/sxml
 	dev-racket/threading-lib"

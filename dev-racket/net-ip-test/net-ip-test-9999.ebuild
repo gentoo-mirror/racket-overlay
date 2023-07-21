@@ -16,5 +16,5 @@ LICENSE="BSD"
 SLOT="0"
 
 RDEPEND="dev-racket/net-ip-lib
-	dev-racket/quickcheck"
+	dev-racket/rackcheck-lib"
 BDEPEND="${RDEPEND}"

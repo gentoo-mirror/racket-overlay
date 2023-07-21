@@ -16,5 +16,6 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/gui-easy
-	dev-racket/gui-easy-lib"
+	dev-racket/gui-easy-lib
+	dev-racket/pretty-expressive"
 BDEPEND="${RDEPEND}"

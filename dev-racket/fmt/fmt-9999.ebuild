@@ -14,5 +14,5 @@ HOMEPAGE="https://github.com/sorawee/fmt"
 LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
 
-RDEPEND="dev-racket/pprint-compact"
+RDEPEND="dev-racket/pretty-expressive"
 BDEPEND="${RDEPEND}"

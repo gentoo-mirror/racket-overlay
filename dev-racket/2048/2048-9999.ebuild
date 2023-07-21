@@ -10,10 +10,10 @@ inherit gh racket
 
 DESCRIPTION="The game of 2048 in Racket"
 HOMEPAGE="https://github.com/LiberalArtist/2048"
+S="${S}/2048"
 
-LICENSE="all-rights-reserved"
+LICENSE="AGPL-3+"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/icns"
 BDEPEND="${RDEPEND}"

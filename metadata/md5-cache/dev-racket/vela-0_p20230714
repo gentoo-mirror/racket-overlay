@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/vela-docs dev-racket/vela-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Simple web framework to build RESTful app in Racket.
+EAPI=8
+HOMEPAGE=https://github.com/nuty/vela
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/vela-docs dev-racket/vela-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/nuty/vela/archive/ba00692452020136b4f629e729a7e58855db630a.tar.gz -> vela-0_p20230714.tar.gz
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	498393dd1f578b80e94c3b93b729bd07	racket	1be0d857b081e0bee9d8414a150672a5
+_md5_=677ff8830f54c0e4ca0415c2d4f5d0ef

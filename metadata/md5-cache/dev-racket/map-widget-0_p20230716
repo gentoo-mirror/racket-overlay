@@ -1,0 +1,14 @@
+BDEPEND=dev-racket/al2-test-runner dev-racket/geoid dev-racket/http-easy >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=A Racket GUI Widget to display maps based on OpenStreetMap tiles
+EAPI=8
+HOMEPAGE=https://github.com/alex-hhh/map-widget
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=LGPL-3+
+RDEPEND=dev-racket/al2-test-runner dev-racket/geoid dev-racket/http-easy >=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://github.com/alex-hhh/map-widget/archive/6bf0345a9b9418021c17efaba27cb8651e636836.tar.gz -> map-widget-0_p20230716.tar.gz
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	498393dd1f578b80e94c3b93b729bd07	racket	1be0d857b081e0bee9d8414a150672a5
+_md5_=d4d4274f5538af057efab35e7234a2f7

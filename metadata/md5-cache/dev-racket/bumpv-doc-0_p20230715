@@ -1,0 +1,14 @@
+BDEPEND=dev-racket/bumpv-lib dev-racket/ziptie-git >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Bump your Racket-based project version. Documentation.
+EAPI=8
+HOMEPAGE=https://gitlab.com/xgqt/racket-bumpv
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=GPL-2+
+RDEPEND=dev-racket/bumpv-lib dev-racket/ziptie-git >=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://gitlab.com/xgqt/racket-bumpv/-/archive/fbaeef85127e2d183fabbd953a4358843310c79f/racket-bumpv-fbaeef85127e2d183fabbd953a4358843310c79f.tar.gz -> bumpv-doc-0_p20230715.tar.gz
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	498393dd1f578b80e94c3b93b729bd07	racket	1be0d857b081e0bee9d8414a150672a5
+_md5_=366be7a5afdfc9b68792c3c231511d0c

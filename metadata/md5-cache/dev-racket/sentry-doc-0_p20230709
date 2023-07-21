@@ -1,0 +1,14 @@
+BDEPEND=dev-racket/gregor-doc dev-racket/gregor-lib dev-racket/sentry-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=A Sentry SDK for Racket. (docs only)
+EAPI=8
+HOMEPAGE=https://github.com/Bogdanp/racket-sentry
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=BSD
+RDEPEND=dev-racket/gregor-doc dev-racket/gregor-lib dev-racket/sentry-lib >=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://github.com/Bogdanp/racket-sentry/archive/8cc862858376ed2e80c70e8c25ae88d3f3953906.tar.gz -> sentry-doc-0_p20230709.tar.gz
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	498393dd1f578b80e94c3b93b729bd07	racket	1be0d857b081e0bee9d8414a150672a5
+_md5_=e756ef6a5c65c8c0e543991631da1d51

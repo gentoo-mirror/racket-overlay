@@ -3,7 +3,7 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/LiberalArtist/native-libgit2-pkgs</bugs-to>
-    <remote-id type="github">LiberalArtist/native-libgit2-pkgs</remote-id>
+    <bugs-to>https://github.com/libgit2-racket/native-libs</bugs-to>
+    <remote-id type="github">libgit2-racket/native-libs</remote-id>
   </upstream>
 </pkgmetadata>

@@ -4,12 +4,12 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="LiberalArtist/native-libgit2-pkgs"
+GH_REPO="libgit2-racket/native-libs"
 
 inherit gh racket
 
 DESCRIPTION="native libraries for libgit2 (meta-package)"
-HOMEPAGE="https://github.com/LiberalArtist/native-libgit2-pkgs"
+HOMEPAGE="https://github.com/libgit2-racket/native-libs"
 
 LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"

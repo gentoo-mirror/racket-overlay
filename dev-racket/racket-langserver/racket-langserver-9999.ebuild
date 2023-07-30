@@ -15,6 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/chk
+RDEPEND="dev-racket/chk-lib
 	dev-racket/html-parsing"
 BDEPEND="${RDEPEND}"

@@ -1,0 +1,14 @@
+BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=The rackterm Racket package
+EAPI=8
+HOMEPAGE=https://github.com/willghatch/rackterm
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=|| ( Apache-2.0 MIT )
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://github.com/willghatch/rackterm/archive/1c784f1b6958f479bc5913c632b3f2d5fa6a5204.tar.gz -> rackterm-0_p20230726.tar.gz
+_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	498393dd1f578b80e94c3b93b729bd07	racket	1be0d857b081e0bee9d8414a150672a5
+_md5_=ff6d7b4a1faf3c3868e5d5a29458e929

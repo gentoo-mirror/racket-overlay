@@ -18,5 +18,6 @@ SLOT="0"
 RDEPEND="dev-racket/doc-coverage
 	dev-racket/expect
 	dev-racket/gref-doc
-	dev-racket/gref-lib"
+	dev-racket/gref-lib
+	dev-racket/rackunit-spec"
 BDEPEND="${RDEPEND}"

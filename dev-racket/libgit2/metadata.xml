@@ -3,7 +3,7 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/bbusching/libgit2</bugs-to>
-    <remote-id type="github">bbusching/libgit2</remote-id>
+    <bugs-to>https://github.com/libgit2-racket/libgit2</bugs-to>
+    <remote-id type="github">libgit2-racket/libgit2</remote-id>
   </upstream>
 </pkgmetadata>

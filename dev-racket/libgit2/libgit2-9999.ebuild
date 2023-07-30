@@ -4,13 +4,17 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="bbusching/libgit2"
+GH_REPO="libgit2-racket/libgit2"
 
 inherit gh racket
 
-DESCRIPTION="Racket bindings for the Libgit2 library."
-HOMEPAGE="https://github.com/bbusching/libgit2"
+DESCRIPTION="Low-level Racket bindings for the libgit2 C library"
+HOMEPAGE="https://github.com/libgit2-racket/libgit2"
+S="${S}/libgit2"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
-RESTRICT="mirror"
+
+RDEPEND="dev-racket/libgit2-native-libs
+	dev-racket/rackunit-spec"
+BDEPEND="${RDEPEND}"

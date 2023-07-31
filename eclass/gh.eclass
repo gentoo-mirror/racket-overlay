@@ -6,7 +6,7 @@
 # Maciej Barć <xgqt@riseup.net>
 # @AUTHOR:
 # Maciej Barć <xgqt@riseup.net>
-# @SUPPORTED_EAPIS: 7 8
+# @SUPPORTED_EAPIS: 8
 # @BLURB: Git Hosting snapshot helper
 # @DESCRIPTION:
 # This eclass is used to ease creating snapshot ebuilds.
@@ -39,7 +39,7 @@
 # @CODE
 
 case ${EAPI} in
-	7|8) ;;
+	8) ;;
 	*) die "${ECLASS}: EAPI ${EAPI:-0} not supported" ;;
 esac
 

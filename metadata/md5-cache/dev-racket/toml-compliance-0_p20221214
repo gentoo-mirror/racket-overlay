@@ -11,5 +11,5 @@ RDEPEND=dev-racket/gregor-lib dev-racket/toml-lib >=dev-scheme/racket-8.1:=[-min
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/winny-/toml-racket/archive/b6aea8ae2441c1f41f8e010e826cb2259de272bf.tar.gz -> toml-compliance-0_p20221214.tar.gz
-_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	498393dd1f578b80e94c3b93b729bd07	racket	1be0d857b081e0bee9d8414a150672a5
+_eclasses_=gh	2bde97b593c408e19140457a1d895cae	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	234b375f5f5097321c62db9134bfd569	racket	f9c6a6893a51ad33d3f9c2244c193bfd
 _md5_=482765e0a979f84e90fcd8aad6ee2b05

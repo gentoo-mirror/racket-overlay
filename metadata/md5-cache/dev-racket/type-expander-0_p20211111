@@ -11,5 +11,5 @@ RDEPEND=dev-racket/auto-syntax-e dev-racket/debug-scopes dev-racket/hyper-litera
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jsmaniac/type-expander/archive/9fbbe96f970562c613101e4c91c54873fed399bc.tar.gz -> type-expander-0_p20211111.tar.gz
-_eclasses_=gh	2efd973430985d5fee2990854013b2ee	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	498393dd1f578b80e94c3b93b729bd07	racket	1be0d857b081e0bee9d8414a150672a5
+_eclasses_=gh	2bde97b593c408e19140457a1d895cae	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	234b375f5f5097321c62db9134bfd569	racket	f9c6a6893a51ad33d3f9c2244c193bfd
 _md5_=84cba5c19b1ab0c9689b25982514f099

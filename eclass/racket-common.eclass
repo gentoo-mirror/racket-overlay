@@ -7,7 +7,7 @@
 # @AUTHOR:
 # Maciej Barć <xgqt@riseup.net>
 # Tom Gillespie <tgbugs@gmail.com>
-# @SUPPORTED_EAPIS: 7 8
+# @SUPPORTED_EAPIS: 8
 # @BLURB: Common configuration eclass for compiling Racket sources.
 # @DESCRIPTION:
 # This eclass is used in packages that need to compile Racket source code.
@@ -18,12 +18,8 @@ _RACKET_COMMON_ECLASS=1
 inherit multiprocessing xdg-utils
 
 case ${EAPI} in
-	7 | 8 )
-		:
-		;;
-	* )
-		die "EAPI: ${EAPI} not supported"
-		;;
+	8) ;;
+	*) die "${ECLASS}: EAPI ${EAPI:-0} not supported" ;;
 esac
 
 # @ECLASS_VARIABLE: RACKET_REQ_USE

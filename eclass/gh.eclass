@@ -1,4 +1,4 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 # @ECLASS: gh.eclass
@@ -39,11 +39,8 @@
 # @CODE
 
 case ${EAPI} in
-	7 | 8 )
-		;;
-	* )
-		die "EAPI: ${EAPI} not supported"
-		;;
+	7|8) ;;
+	*) die "${ECLASS}: EAPI ${EAPI:-0} not supported" ;;
 esac
 
 # @ECLASS_VARIABLE: GH_DOM

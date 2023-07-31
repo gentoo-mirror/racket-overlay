@@ -18,12 +18,8 @@ _RACKET_COMMON_ECLASS=1
 inherit multiprocessing xdg-utils
 
 case ${EAPI} in
-	7 | 8 )
-		:
-		;;
-	* )
-		die "EAPI: ${EAPI} not supported"
-		;;
+	7|8) ;;
+	*) die "${ECLASS}: EAPI ${EAPI:-0} not supported" ;;
 esac
 
 # @ECLASS_VARIABLE: RACKET_REQ_USE

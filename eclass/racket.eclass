@@ -25,12 +25,8 @@ RACKET_REQ_USE+="${RACKET_REQ_USE:+,}-minimal"
 inherit multiprocessing racket-common
 
 case ${EAPI} in
-	7 | 8 )
-		:
-		;;
-	* )
-		die "EAPI: ${EAPI} not supported"
-		;;
+	7|8) ;;
+	*) die "${ECLASS}: EAPI ${EAPI:-0} not supported" ;;
 esac
 
 # @ECLASS_VARIABLE: RACKET_PN

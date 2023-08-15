@@ -20,5 +20,6 @@ KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RDEPEND="dev-racket/esterel-doc
 	dev-racket/esterel-examples
 	dev-racket/esterel-lib
+	dev-racket/esterel-rhombus-lib
 	dev-racket/esterel-test"
 BDEPEND="${RDEPEND}"

@@ -1,4 +1,4 @@
-BDEPEND=dev-racket/esterel-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/esterel-lib dev-racket/esterel-rhombus-lib dev-racket/rhombus-prototype >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DESCRIPTION=Some example programs in Esterel
 EAPI=8
@@ -7,8 +7,8 @@ INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=|| ( Apache-2.0 MIT )
-RDEPEND=dev-racket/esterel-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/esterel-lib dev-racket/esterel-rhombus-lib dev-racket/rhombus-prototype >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/rfindler/esterel/archive/fc379aa9deae883ed51b16ff76f93571a0d2c8ac.tar.gz -> esterel-examples-0_p20230718.tar.gz
 _eclasses_=gh	2bde97b593c408e19140457a1d895cae	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	234b375f5f5097321c62db9134bfd569	racket	f9c6a6893a51ad33d3f9c2244c193bfd
-_md5_=bc52f30136a885e5db19203b1cb77ad0
+_md5_=234e492872f88da460d79b5f0ead9b54

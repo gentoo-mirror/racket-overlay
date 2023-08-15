@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/chk-lib dev-racket/html-parsing >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Language Server Protocol implementation for Racket
+EAPI=8
+HOMEPAGE=https://github.com/jeapostrophe/racket-langserver
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/chk-lib dev-racket/html-parsing >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/jeapostrophe/racket-langserver/archive/3447fe6b5091c78f9807bcaf6ee7640c862a9484.tar.gz -> racket-langserver-0_p20230810.tar.gz
+_eclasses_=gh	2bde97b593c408e19140457a1d895cae	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	234b375f5f5097321c62db9134bfd569	racket	f9c6a6893a51ad33d3f9c2244c193bfd
+_md5_=66369818e4a8784a023dccd74ddeed58

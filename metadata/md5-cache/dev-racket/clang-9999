@@ -11,4 +11,4 @@ RDEPEND=dev-racket/digimon >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991	gh	2bde97b593c408e19140457a1d895cae	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	234b375f5f5097321c62db9134bfd569	racket	f9c6a6893a51ad33d3f9c2244c193bfd
-_md5_=a935e7091d8a6d2c8c954452222c4bfb
+_md5_=3ec5d19ee259335049b03e829fdf5dba

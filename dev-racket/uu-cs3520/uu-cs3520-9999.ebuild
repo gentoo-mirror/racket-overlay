@@ -15,5 +15,5 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/plait"
+RDEPEND="dev-racket/shplait"
 BDEPEND="${RDEPEND}"

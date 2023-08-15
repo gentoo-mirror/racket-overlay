@@ -12,7 +12,7 @@ DESCRIPTION="Generalized references for Racket"
 HOMEPAGE="https://github.com/usaoc/gref"
 S="${S}/gref"
 
-LICENSE="GPL-3+"
+LICENSE="FSFAP"
 SLOT="0"
 
 RDEPEND="dev-racket/gref-doc

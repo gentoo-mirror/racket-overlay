@@ -1,0 +1,14 @@
+BDEPEND=dev-racket/ebuild-lib dev-racket/ebuild-templates dev-racket/ebuild-tools dev-racket/ebuild-transformers dev-racket/ziptie-git >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Library to ease automatic ebuild creation. Documentation.
+EAPI=8
+HOMEPAGE=https://gitlab.com/gentoo-racket/racket-ebuild
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=GPL-2+
+RDEPEND=dev-racket/ebuild-lib dev-racket/ebuild-templates dev-racket/ebuild-tools dev-racket/ebuild-transformers dev-racket/ziptie-git >=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://gitlab.com/gentoo-racket/racket-ebuild/-/archive/6d23de624c9087e03f9407379160821e5e00c4f0/racket-ebuild-6d23de624c9087e03f9407379160821e5e00c4f0.tar.gz -> ebuild-doc-0_p20230815.tar.gz
+_eclasses_=gh	2bde97b593c408e19140457a1d895cae	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	234b375f5f5097321c62db9134bfd569	racket	f9c6a6893a51ad33d3f9c2244c193bfd
+_md5_=465517404ef577e187279763696bd4a6

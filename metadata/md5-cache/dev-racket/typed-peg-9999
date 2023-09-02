@@ -1,15 +1,13 @@
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/peg-gen dev-racket/pprint dev-racket/rackcheck >=dev-vcs/git-1.8.2.1[curl] >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/peg-gen dev-racket/pprint dev-racket/rackcheck
-DESCRIPTION=the typed-peg Racket package
+DESCRIPTION=The typed-peg Racket package
 EAPI=8
 HOMEPAGE=https://github.com/lives-group/typed-peg
 INHERIT=gh racket
 IUSE=doc
-LICENSE=all-rights-reserved
+LICENSE=|| ( Apache-2.0 MIT )
 PROPERTIES=live
 RDEPEND=dev-racket/peg-gen dev-racket/pprint dev-racket/rackcheck >=dev-scheme/racket-8.1:=[-minimal]
-RESTRICT=mirror
 SLOT=0
 _eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991	gh	2bde97b593c408e19140457a1d895cae	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	234b375f5f5097321c62db9134bfd569	racket	f9c6a6893a51ad33d3f9c2244c193bfd
-_md5_=afe5b9e4c73e14dcabb59b1f2638c98e
+_md5_=0a7d75ff0085da0001f3712123ca5158

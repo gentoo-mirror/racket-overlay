@@ -1,0 +1,14 @@
+BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Additional functions for interacting with nested hash tables
+EAPI=8
+HOMEPAGE=https://github.com/priime0/hash-star
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=MIT
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://github.com/priime0/hash-star/archive/fbc634f2a546eddf4a09df0f3bd59ef55448c79e.tar.gz -> hash-star-0_p20230901.tar.gz
+_eclasses_=gh	2bde97b593c408e19140457a1d895cae	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	234b375f5f5097321c62db9134bfd569	racket	f9c6a6893a51ad33d3f9c2244c193bfd
+_md5_=32b99e775d09a724130b53f0720e1ea2

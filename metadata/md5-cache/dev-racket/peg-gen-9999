@@ -1,15 +1,13 @@
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/algorithms dev-racket/cover dev-racket/cover-lib dev-racket/rackcheck >=dev-vcs/git-1.8.2.1[curl] >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DEPEND=dev-racket/rackcheck
 DESCRIPTION=Well-formed random PEG generator
 EAPI=8
 HOMEPAGE=https://github.com/lives-group/pegwfgen
 INHERIT=gh racket
 IUSE=doc
-LICENSE=all-rights-reserved
+LICENSE=MIT
 PROPERTIES=live
-RDEPEND=dev-racket/rackcheck >=dev-scheme/racket-8.1:=[-minimal]
-RESTRICT=mirror
+RDEPEND=dev-racket/algorithms dev-racket/cover dev-racket/cover-lib dev-racket/rackcheck >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 _eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991	gh	2bde97b593c408e19140457a1d895cae	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	234b375f5f5097321c62db9134bfd569	racket	f9c6a6893a51ad33d3f9c2244c193bfd
-_md5_=6681093059416300e8669cef02190a48
+_md5_=7a5a2f9d99b7caafb29fe6c00dac2c4e

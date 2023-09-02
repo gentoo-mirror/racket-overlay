@@ -2,7 +2,7 @@ BDEPEND=dev-racket/gregor-lib dev-racket/parsack-lib >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
 DESCRIPTION=TOML Library (library component)
 EAPI=8
-HOMEPAGE=https://github.com/winny-/toml-racket
+HOMEPAGE=https://github.com/toml-racket/toml-racket
 INHERIT=gh racket
 IUSE=doc
 LICENSE=all-rights-reserved
@@ -11,4 +11,4 @@ RDEPEND=dev-racket/gregor-lib dev-racket/parsack-lib >=dev-scheme/racket-8.1:=[-
 RESTRICT=mirror
 SLOT=0
 _eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991	gh	2bde97b593c408e19140457a1d895cae	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	234b375f5f5097321c62db9134bfd569	racket	f9c6a6893a51ad33d3f9c2244c193bfd
-_md5_=f754f7d8e67286e51d72a0a4882519ac
+_md5_=51728f30b14c5068781f0ac3a7b6c267

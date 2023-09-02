@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/css-tools dev-racket/quickcheck dev-racket/sugar >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Tiny framework for generating identicons
+EAPI=8
+HOMEPAGE=https://github.com/DarrenN/identikon
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/css-tools dev-racket/quickcheck dev-racket/sugar >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/DarrenN/identikon/archive/d8908ee6955e69466270692599eb9076adc6a28b.tar.gz -> identikon-0_p20230818.tar.gz
+_eclasses_=gh	2bde97b593c408e19140457a1d895cae	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	234b375f5f5097321c62db9134bfd569	racket	f9c6a6893a51ad33d3f9c2244c193bfd
+_md5_=104ce1abb557408a48a3f5946c087704

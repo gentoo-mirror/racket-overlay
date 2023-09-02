@@ -1,0 +1,14 @@
+BDEPEND=dev-racket/algorithms dev-racket/cover dev-racket/cover-lib dev-racket/rackcheck >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Well-formed random PEG generator
+EAPI=8
+HOMEPAGE=https://github.com/lives-group/pegwfgen
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=MIT
+RDEPEND=dev-racket/algorithms dev-racket/cover dev-racket/cover-lib dev-racket/rackcheck >=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://github.com/lives-group/pegwfgen/archive/1829a4ba3a86dd75bd5956e42b2002e6cbaf6b0c.tar.gz -> peg-gen-0_p20230830.tar.gz
+_eclasses_=gh	2bde97b593c408e19140457a1d895cae	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	234b375f5f5097321c62db9134bfd569	racket	f9c6a6893a51ad33d3f9c2244c193bfd
+_md5_=5689e81e1da092213a195eff602837a8

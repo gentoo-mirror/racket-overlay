@@ -1,4 +1,4 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -11,9 +11,11 @@ inherit gh racket
 DESCRIPTION="Well-formed random PEG generator"
 HOMEPAGE="https://github.com/lives-group/pegwfgen"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
-RESTRICT="mirror"
 
-RDEPEND="dev-racket/rackcheck"
-DEPEND="${RDEPEND}"
+RDEPEND="dev-racket/algorithms
+	dev-racket/cover
+	dev-racket/cover-lib
+	dev-racket/rackcheck"
+BDEPEND="${RDEPEND}"

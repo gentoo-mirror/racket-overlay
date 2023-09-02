@@ -11,9 +11,8 @@ inherit gh racket
 DESCRIPTION="A McGill-style citations system that works within the Pollen publishing system."
 HOMEPAGE="https://github.com/sanchom/pollen-citations-mcgill"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/pollen
 	dev-racket/txexpr"

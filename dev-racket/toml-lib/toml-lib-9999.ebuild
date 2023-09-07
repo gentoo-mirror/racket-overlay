@@ -12,9 +12,8 @@ DESCRIPTION="TOML Library (library component)"
 HOMEPAGE="https://github.com/toml-racket/toml-racket"
 S="${S}/toml-lib"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD-2"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/gregor-lib
 	dev-racket/parsack-lib"

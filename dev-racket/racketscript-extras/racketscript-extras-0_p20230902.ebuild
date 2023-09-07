@@ -4,18 +4,19 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="mflatt/uu-cs3520"
-GH_COMMIT="b0dfad48eab5d41706b6016bdfc6b9acafe46093"
+GH_REPO="racketscript/racketscript"
+GH_COMMIT="bff853c802b0073d08043f850108a57981d9f826"
 
 inherit gh racket
 
-DESCRIPTION="Utah CS 3520 homework submission plugin for DrRacket"
-HOMEPAGE="https://github.com/mflatt/uu-cs3520"
+DESCRIPTION="Goodies for RacketScript"
+HOMEPAGE="https://github.com/racketscript/racketscript"
+S="${S}/racketscript-extras"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/plait"
+RDEPEND="dev-racket/racketscript-compiler"
 BDEPEND="${RDEPEND}"

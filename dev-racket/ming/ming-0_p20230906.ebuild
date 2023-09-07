@@ -4,18 +4,18 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="kugelblitz/spreadsheet-editor"
-GH_COMMIT="73f8cfa89f0534f0bbb72833741cc7d5974ecda8"
+GH_REPO="yanyingwang/ming"
+GH_COMMIT="ec0ff9cf97d26a716c7896ff36d2ba17b515d074"
 
 inherit gh racket
 
-DESCRIPTION="Flexible spreadsheet editor built on top of Racket's GUI controls"
-HOMEPAGE="https://github.com/kugelblitz/spreadsheet-editor"
+DESCRIPTION="The ming Racket package"
+HOMEPAGE="https://github.com/yanyingwang/ming"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/table-panel"
+RDEPEND="dev-racket/scribble-rainbow-delimiters"
 BDEPEND="${RDEPEND}"

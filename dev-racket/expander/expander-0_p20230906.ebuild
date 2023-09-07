@@ -4,14 +4,14 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racket/drracket"
-GH_COMMIT="06a747632ef32d737127527e53030afa36f165f8"
+GH_REPO="racket/racket"
+GH_COMMIT="e2964e246243f0ab56595c92462f6dbd576c48eb"
 
 inherit gh racket
 
-DESCRIPTION="The drracket-tool-text-lib Racket package"
-HOMEPAGE="https://github.com/racket/drracket"
-S="${S}/drracket-tool-text-lib"
+DESCRIPTION="Racket's implementation of macros, modules, and top-level evaluation"
+HOMEPAGE="https://github.com/racket/racket"
+S="${S}/racket/src/expander"
 
 LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"

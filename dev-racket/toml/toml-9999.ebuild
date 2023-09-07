@@ -12,10 +12,10 @@ DESCRIPTION="TOML Library (Install this for all TOML goodies)"
 HOMEPAGE="https://github.com/toml-racket/toml-racket"
 S="${S}/toml"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD-2"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/toml-compliance
+	dev-racket/toml-doc
 	dev-racket/toml-lib"
 BDEPEND="${RDEPEND}"

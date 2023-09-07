@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/toml-racket/toml-racket</bugs-to>
+    <remote-id type="github">toml-racket/toml-racket</remote-id>
+  </upstream>
+</pkgmetadata>

@@ -4,13 +4,13 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="mflatt/shplait"
-GH_COMMIT="6a6e3caf28bf26e8c89d22a605b1561432a9d565"
+GH_REPO="jackfirth/rebellion"
+GH_COMMIT="68b45a646e021ea370414347c1ab672416781c36"
 
 inherit gh racket
 
-DESCRIPTION="The shplait Racket package"
-HOMEPAGE="https://github.com/mflatt/shplait"
+DESCRIPTION="A collection of infrastructure libraries"
+HOMEPAGE="https://github.com/jackfirth/rebellion"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

@@ -8,13 +8,13 @@ GH_REPO="toml-racket/toml-racket"
 
 inherit gh racket
 
-DESCRIPTION="Toml Library (scripts to drive toml-test compliance suite)"
+DESCRIPTION="Documentation for TOML library"
 HOMEPAGE="https://github.com/toml-racket/toml-racket"
-S="${S}/toml-compliance"
+S="${S}/toml-doc"
 
-LICENSE="BSD-2"
+LICENSE="all-rights-reserved"
 SLOT="0"
+RESTRICT="mirror"
 
-RDEPEND="dev-racket/gregor-lib
-	dev-racket/toml-lib"
+RDEPEND="dev-racket/toml-lib"
 BDEPEND="${RDEPEND}"

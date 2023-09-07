@@ -5,20 +5,20 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="racketscript/racketscript"
-GH_COMMIT="68490ef8034f9a2b27c6ddb01e78d3bb0481f514"
+GH_COMMIT="bff853c802b0073d08043f850108a57981d9f826"
 
 inherit gh racket
 
-DESCRIPTION="A Racket to JavaScript compiler"
+DESCRIPTION="A lightweight Racket to JavaScript compiler with some batteries included"
 HOMEPAGE="https://github.com/racketscript/racketscript"
-S="${S}/racketscript-compiler"
+S="${S}/racketscript"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/anaphoric
-	dev-racket/graph-lib
-	dev-racket/threading-lib"
+RDEPEND="dev-racket/racketscript-compiler
+	dev-racket/racketscript-doc
+	dev-racket/racketscript-extras"
 BDEPEND="${RDEPEND}"

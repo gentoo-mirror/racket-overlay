@@ -4,18 +4,19 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="yanyingwang/ming"
-GH_COMMIT="8eb1c324c6218c9ad931398eed8a2143c18db57f"
+GH_REPO="mflatt/uu-cs3520"
+GH_COMMIT="c4804473175f2229f58703cbe0e5baeefbe33fbc"
 
 inherit gh racket
 
-DESCRIPTION="The ming Racket package"
-HOMEPAGE="https://github.com/yanyingwang/ming"
+DESCRIPTION="Utah CS 3520 homework submission plugin for DrRacket"
+HOMEPAGE="https://github.com/mflatt/uu-cs3520"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/scribble-rainbow-delimiters"
+RDEPEND="dev-racket/rhombus-prototype
+	dev-racket/shplait"
 BDEPEND="${RDEPEND}"

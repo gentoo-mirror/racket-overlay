@@ -4,19 +4,18 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racketscript/racketscript"
-GH_COMMIT="68490ef8034f9a2b27c6ddb01e78d3bb0481f514"
+GH_REPO="kugelblitz/spreadsheet-editor"
+GH_COMMIT="46774a3ff1ec726a23974be831ed45419c7cfdee"
 
 inherit gh racket
 
-DESCRIPTION="Goodies for RacketScript"
-HOMEPAGE="https://github.com/racketscript/racketscript"
-S="${S}/racketscript-extras"
+DESCRIPTION="Flexible spreadsheet editor built on top of Racket's GUI controls"
+HOMEPAGE="https://github.com/kugelblitz/spreadsheet-editor"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/racketscript-compiler"
+RDEPEND="dev-racket/table-panel"
 BDEPEND="${RDEPEND}"

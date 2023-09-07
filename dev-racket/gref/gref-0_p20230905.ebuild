@@ -5,14 +5,18 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="usaoc/gref"
-GH_COMMIT="1da6852efb53db9e58d6b429af7ca9df68274a7c"
+GH_COMMIT="4520bf033c74b40c830400b65ac0cbb1d6b8623c"
 
 inherit gh racket
 
-DESCRIPTION="Implementation part of gref"
+DESCRIPTION="Generalized references for Racket"
 HOMEPAGE="https://github.com/usaoc/gref"
-S="${S}/gref-lib"
+S="${S}/gref"
 
-LICENSE="GPL-3+"
+LICENSE="FSFAP"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
+
+RDEPEND="dev-racket/gref-doc
+	dev-racket/gref-lib"
+BDEPEND="${RDEPEND}"

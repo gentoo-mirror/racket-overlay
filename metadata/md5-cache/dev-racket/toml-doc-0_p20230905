@@ -1,8 +1,8 @@
 BDEPEND=dev-racket/toml-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DESCRIPTION=Toml Library (scripts to drive toml-test compliance suite)
+DESCRIPTION=Documentation for TOML library
 EAPI=8
-HOMEPAGE=https://github.com/winny-/toml-racket
+HOMEPAGE=https://github.com/toml-racket/toml-racket
 INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
@@ -10,6 +10,6 @@ LICENSE=all-rights-reserved
 RDEPEND=dev-racket/toml-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/winny-/toml-racket/archive/6faefadfd8d873c53adb12b1f955dc8f75c79fe4.tar.gz -> toml-compliance-0_p20220715.tar.gz
+SRC_URI=https://github.com/toml-racket/toml-racket/archive/31a5f715f184423f24e06cb602649b95371f077f.tar.gz -> toml-doc-0_p20230905.tar.gz
 _eclasses_=gh	2bde97b593c408e19140457a1d895cae	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	234b375f5f5097321c62db9134bfd569	racket	f9c6a6893a51ad33d3f9c2244c193bfd
-_md5_=677bc2bc78a1fa077dbfc40f68f97ee8
+_md5_=42f3e67b50a846008f897d14eff600fc

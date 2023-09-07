@@ -10,6 +10,6 @@ LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/racket/racket/archive/6cb776fdf8c58b116b9e9fa32f9166e1f82e97e8.tar.gz -> plt-services-0_p20230730.tar.gz
+SRC_URI=https://github.com/racket/racket/archive/e2964e246243f0ab56595c92462f6dbd576c48eb.tar.gz -> plt-services-0_p20230906.tar.gz
 _eclasses_=gh	2bde97b593c408e19140457a1d895cae	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	234b375f5f5097321c62db9134bfd569	racket	f9c6a6893a51ad33d3f9c2244c193bfd
-_md5_=4eba31cc442a13109330be48e2e667a9
+_md5_=3014a2f4faa1ae3a3a874197bda7df31

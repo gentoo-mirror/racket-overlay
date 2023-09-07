@@ -10,6 +10,6 @@ LICENSE=all-rights-reserved
 RDEPEND=dev-racket/scribble-rainbow-delimiters >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/yanyingwang/ming/archive/8eb1c324c6218c9ad931398eed8a2143c18db57f.tar.gz -> ming-0_p20230718.tar.gz
+SRC_URI=https://github.com/yanyingwang/ming/archive/ec0ff9cf97d26a716c7896ff36d2ba17b515d074.tar.gz -> ming-0_p20230906.tar.gz
 _eclasses_=gh	2bde97b593c408e19140457a1d895cae	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	234b375f5f5097321c62db9134bfd569	racket	f9c6a6893a51ad33d3f9c2244c193bfd
-_md5_=35f32eaa097e80fdfa391a3cdcb58b63
+_md5_=d6f43b5e8497c335f5d7fc7365cb45a3

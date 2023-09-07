@@ -10,6 +10,6 @@ LICENSE=all-rights-reserved
 RDEPEND=dev-racket/css-tools dev-racket/csv-reading dev-racket/frog dev-racket/graph dev-racket/gregor-lib dev-racket/plt-web-lib dev-racket/pollen dev-racket/ppict dev-racket/s3-sync dev-racket/sugar dev-racket/txexpr >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/racket/racket-lang-org/archive/f24cbaab2b0d6580b7e5e1557deebb97fc09be19.tar.gz -> racket-lang-org-0_p20230726.tar.gz
+SRC_URI=https://github.com/racket/racket-lang-org/archive/7e6ecf100bcc99f4967fb6b3fc014db25a0b213d.tar.gz -> racket-lang-org-0_p20230905.tar.gz
 _eclasses_=gh	2bde97b593c408e19140457a1d895cae	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	234b375f5f5097321c62db9134bfd569	racket	f9c6a6893a51ad33d3f9c2244c193bfd
-_md5_=af7160a5c8df11c97ff00089e0b2f265
+_md5_=cd9f4c494662808297087d945de2a222

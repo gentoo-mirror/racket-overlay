@@ -5,10 +5,9 @@ EAPI=8
 HOMEPAGE=https://github.com/toml-racket/toml-racket
 INHERIT=gh racket
 IUSE=doc
-LICENSE=all-rights-reserved
+LICENSE=BSD-2
 PROPERTIES=live
 RDEPEND=dev-racket/gregor-lib dev-racket/toml-lib >=dev-scheme/racket-8.1:=[-minimal]
-RESTRICT=mirror
 SLOT=0
 _eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991	gh	2bde97b593c408e19140457a1d895cae	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	234b375f5f5097321c62db9134bfd569	racket	f9c6a6893a51ad33d3f9c2244c193bfd
-_md5_=629c099dbc0b893852bda66095c46c10
+_md5_=7f14298e78e8c3b5af584a251865cd88

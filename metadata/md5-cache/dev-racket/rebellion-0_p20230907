@@ -1,14 +1,15 @@
 BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DESCRIPTION=Documentation for the Zuo language
+DESCRIPTION=A collection of infrastructure libraries
 EAPI=8
-HOMEPAGE=https://github.com/racket/racket
+HOMEPAGE=https://github.com/jackfirth/rebellion
 INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
-LICENSE=|| ( Apache-2.0 MIT )
+LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/racket/racket/archive/6cb776fdf8c58b116b9e9fa32f9166e1f82e97e8.tar.gz -> zuo-doc-0_p20230730.tar.gz
+SRC_URI=https://github.com/jackfirth/rebellion/archive/68b45a646e021ea370414347c1ab672416781c36.tar.gz -> rebellion-0_p20230907.tar.gz
 _eclasses_=gh	2bde97b593c408e19140457a1d895cae	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	234b375f5f5097321c62db9134bfd569	racket	f9c6a6893a51ad33d3f9c2244c193bfd
-_md5_=23ce53d9baff969bbe7e937223a3c2b7
+_md5_=bd09221636774ef354b7b62ced3befe6

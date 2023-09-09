@@ -12,5 +12,5 @@ RDEPEND=dev-racket/basedir dev-racket/beautiful-racket dev-racket/br-parser-tool
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/tnelson/Forge/archive/aa2e8a67a8ff38db145dcb1a1aa5c02d0b851235.tar.gz -> forge-0_p20230716.tar.gz https://github.com/tnelson/forge/archive/aa2e8a67a8ff38db145dcb1a1aa5c02d0b851235.tar.gz -> forge_aux_froglet-0_p20230716.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	234b375f5f5097321c62db9134bfd569	racket	f9c6a6893a51ad33d3f9c2244c193bfd
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
 _md5_=21d403e71cfd9730e82846bb36f10b60

@@ -1858,5 +1858,5 @@ dev-racket/zubat 0_p20221101 9999: The zubat Racket package
 dev-racket/zuo-doc 0_p20230906 0_p20230907 9999: Documentation for the Zuo language
 dev-scheme/racket 8.5_p20220705: General purpose, multi-paradigm Lisp-Scheme programming language
 sys-apps/racket-compiler 1.0.0: Small tool to compile Racket source code
-sys-apps/racket-maints 1.1.0-r2 9999: Racket Maintenance Scripts
+sys-apps/racket-maints 1.1.1 9999: Racket Maintenance Scripts
 sys-apps/racket-where 1.0.0-r2 1.0.2 1.0.3: Small tool to find installed Racket packages

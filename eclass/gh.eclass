@@ -106,7 +106,7 @@ fi
 # GH_COMMIT="ad4c54b0b8cf299f50ac48ee3188e8429e749e6e"
 # @CODE
 
-case ${PV} in
+case "${PV}" in
 	*9999* )
 		# PROPERTIES+=" live"  # git-r3 already sets this
 		inherit git-r3
@@ -118,19 +118,23 @@ case ${PV} in
 
 		case "${GH_TYPE}" in
 			bitbucket )
-				SRC_URI="https://${GH_DOM}/${GH_REPO}/get/${GH_COMMIT}.tar.gz -> ${P}.tar.gz"
+				SRC_URI="https://${GH_DOM}/${GH_REPO}/get/${GH_COMMIT}.tar.gz
+					-> ${P}.tar.gz"
 				S="${WORKDIR}/${GH_REPO%%/*}-${GH_REPO##*/}-${GH_COMMIT:0:12}"
 				;;
 			gitea )
-				SRC_URI="https://${GH_DOM}/${GH_REPO}/archive/${GH_COMMIT}.tar.gz -> ${P}.tar.gz"
+				SRC_URI="https://${GH_DOM}/${GH_REPO}/archive/${GH_COMMIT}.tar.gz
+					-> ${P}.tar.gz"
 				S="${WORKDIR}/${PN}"
 				;;
 			github | sourcehut )
-				SRC_URI="https://${GH_DOM}/${GH_REPO}/archive/${GH_COMMIT}.tar.gz -> ${P}.tar.gz"
+				SRC_URI="https://${GH_DOM}/${GH_REPO}/archive/${GH_COMMIT}.tar.gz
+					-> ${P}.tar.gz"
 				S="${WORKDIR}/${GH_REPO##*/}-${GH_COMMIT}"
 				;;
 			gitlab )
-				SRC_URI="https://${GH_DOM}/${GH_REPO}/-/archive/${GH_COMMIT}/${GH_REPO##*/}-${GH_COMMIT}.tar.gz -> ${P}.tar.gz"
+				SRC_URI="https://${GH_DOM}/${GH_REPO}/-/archive/${GH_COMMIT}/${GH_REPO##*/}-${GH_COMMIT}.tar.gz
+					-> ${P}.tar.gz"
 				S="${WORKDIR}/${GH_REPO##*/}-${GH_COMMIT}"
 				;;
 			* )

@@ -4,13 +4,12 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="mflatt/shplait"
+GH_REPO="dergemkr/racket-lmdb"
 
 inherit gh racket
 
-DESCRIPTION="The shplait Racket package"
-HOMEPAGE="https://github.com/mflatt/shplait"
+DESCRIPTION="A wrapper for the LMDB database."
+HOMEPAGE="https://github.com/dergemkr/racket-lmdb"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT OPENLDAP"
 SLOT="0"
-RESTRICT="mirror"

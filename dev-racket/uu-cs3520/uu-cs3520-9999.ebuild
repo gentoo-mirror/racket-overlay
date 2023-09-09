@@ -15,6 +15,5 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/rhombus-prototype
-	dev-racket/shplait"
+RDEPEND="dev-racket/shplait"
 BDEPEND="${RDEPEND}"

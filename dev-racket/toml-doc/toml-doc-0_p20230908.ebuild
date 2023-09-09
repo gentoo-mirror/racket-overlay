@@ -5,6 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="toml-racket/toml-racket"
+GH_COMMIT="ccf095966836af8bbeffcfc4c47b6109162a4517"
 
 inherit gh racket
 
@@ -14,6 +15,7 @@ S="${S}/toml-doc"
 
 LICENSE="BSD-2"
 SLOT="0"
+KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
 RDEPEND="dev-racket/toml-lib"
 BDEPEND="${RDEPEND}"

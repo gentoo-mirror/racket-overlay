@@ -5,15 +5,19 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="toml-racket/toml-racket"
+GH_COMMIT="ccf095966836af8bbeffcfc4c47b6109162a4517"
 
 inherit gh racket
 
-DESCRIPTION="Documentation for TOML library"
+DESCRIPTION="TOML Library (Install this for all TOML goodies)"
 HOMEPAGE="https://github.com/toml-racket/toml-racket"
-S="${S}/toml-doc"
+S="${S}/toml"
 
 LICENSE="BSD-2"
 SLOT="0"
+KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
-RDEPEND="dev-racket/toml-lib"
+RDEPEND="dev-racket/toml-compliance
+	dev-racket/toml-doc
+	dev-racket/toml-lib"
 BDEPEND="${RDEPEND}"

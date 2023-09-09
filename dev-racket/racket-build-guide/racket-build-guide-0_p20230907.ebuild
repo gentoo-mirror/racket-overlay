@@ -4,18 +4,18 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="rfindler/esterel"
-GH_COMMIT="9ac0749726c3486a2702e9f6ec405256dce178c9"
+GH_REPO="racket/racket"
+GH_COMMIT="837c819ce1caf734ee90f38c76b8b76eda11ac4e"
 
 inherit gh racket
 
-DESCRIPTION="Esterel in Rhombus"
-HOMEPAGE="https://github.com/rfindler/esterel"
-S="${S}/esterel-rhombus-lib"
+DESCRIPTION="Racket build and contribution documentation"
+HOMEPAGE="https://github.com/racket/racket"
+S="${S}/pkgs/racket-build-guide"
 
 LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
-RDEPEND="dev-racket/esterel-lib"
+RDEPEND="dev-racket/distro-build-doc"
 BDEPEND="${RDEPEND}"

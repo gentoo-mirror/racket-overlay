@@ -4,13 +4,13 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="mflatt/shplait"
-GH_COMMIT="6550ecc50d831d6f832416f9d36e7039b2a3a827"
+GH_REPO="jbclements/parse-qif"
+GH_COMMIT="ddb371e5aca548a3f6dfee136bf7acd644c923bd"
 
 inherit gh racket
 
-DESCRIPTION="The shplait Racket package"
-HOMEPAGE="https://github.com/mflatt/shplait"
+DESCRIPTION="Basic QIF-parsing code, used to apply categories to downloaded transactions"
+HOMEPAGE="https://github.com/jbclements/parse-qif"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

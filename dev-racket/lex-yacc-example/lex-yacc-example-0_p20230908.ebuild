@@ -4,13 +4,13 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="mflatt/shplait"
-GH_COMMIT="6550ecc50d831d6f832416f9d36e7039b2a3a827"
+GH_REPO="petterpripp/lex-yacc-example"
+GH_COMMIT="f88e1fef14ebf82a2225a517cd05bf74d21de557"
 
 inherit gh racket
 
-DESCRIPTION="The shplait Racket package"
-HOMEPAGE="https://github.com/mflatt/shplait"
+DESCRIPTION="Examples for lexer and yacc"
+HOMEPAGE="https://github.com/petterpripp/lex-yacc-example"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

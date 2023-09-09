@@ -4,13 +4,14 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="mflatt/shplait"
-GH_COMMIT="6550ecc50d831d6f832416f9d36e7039b2a3a827"
+GH_REPO="racket/racket"
+GH_COMMIT="837c819ce1caf734ee90f38c76b8b76eda11ac4e"
 
 inherit gh racket
 
-DESCRIPTION="The shplait Racket package"
-HOMEPAGE="https://github.com/mflatt/shplait"
+DESCRIPTION="The plt-services Racket package"
+HOMEPAGE="https://github.com/racket/racket"
+S="${S}/pkgs/plt-services"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

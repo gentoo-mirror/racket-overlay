@@ -7,6 +7,10 @@
   (require ebuild/sh-function))
 
 (modifications
+ (package ("dev-racket" "lmdb")
+          (#rx".*"
+           [LICENSE
+            "MIT OPENLDAP"]))
  (package ("dev-racket" "portage-admin-lib")
           (#rx".*"
            [inherits

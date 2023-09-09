@@ -52,7 +52,7 @@ racket_check_raco() {
 # @DESCRIPTION:
 # Wrapper for the Racket's "raco" command.
 eraco() {
-	debug-print-function ${FUNCNAME[0]} "${@}"
+	debug-print-function "${FUNCNAME[0]}" "${@}"
 
 	racket_check_raco
 
@@ -93,7 +93,7 @@ racket_clean_environment() {
 # test submodules in files in current package directory (recursively)
 # and execute those tests.
 raco_test() {
-	debug-print-function ${FUNCNAME[0]} "${@}"
+	debug-print-function "${FUNCNAME[0]}" "${@}"
 
 	local directory="${1:-.}"
 	local -a raco_opts=(

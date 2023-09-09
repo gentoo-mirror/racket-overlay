@@ -7,10 +7,10 @@
   (require ebuild/sh-function))
 
 (modifications
- (package ("dev-racket" "rash")
+ (package ("dev-racket" "lmdb")
           (#rx".*"
-           [RDEPEND
-            `(,@RDEPEND "dev-libs/libedit")]))
+           [LICENSE
+            "MIT OPENLDAP"]))
  (package ("dev-racket" "portage-admin-lib")
           (#rx".*"
            [inherits
@@ -24,4 +24,8 @@
               ,(sh-function "pkg_postinst"
                             (make-script
                              "racket_pkg_postinst"
-                             "xdg_pkg_postinst")))])))
+                             "xdg_pkg_postinst")))]))
+ (package ("dev-racket" "rash")
+          (#rx".*"
+           [RDEPEND
+            `(,@RDEPEND "dev-libs/libedit")])))

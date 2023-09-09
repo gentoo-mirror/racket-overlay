@@ -52,7 +52,7 @@ racket_check_raco() {
 # @DESCRIPTION:
 # Wrapper for the Racket's "raco" command.
 eraco() {
-	debug-print-function ${FUNCNAME} "${@}"
+	debug-print-function "${FUNCNAME[0]}" "${@}"
 
 	racket_check_raco
 
@@ -72,19 +72,19 @@ racket_clean_environment() {
 	racket_check_raco
 	xdg_environment_reset
 
-	local RT="${T}"/racket
+	# For "PLTUSERHOME" and "TMPDIR".
+	local racket_build_directory="${WORKDIR}/${P}_RacketBuildDir"
 
 	# Where packages will be installed in user scope (as portage user).
-	export PLTUSERHOME="${RT}"/pltuserhome
+	export PLTUSERHOME="${racket_build_directory}/pltuserhome"
 	mkdir -p "${PLTUSERHOME}" || die
 
 	# Temporary directory used by Racket.
-	export TMPDIR="${RT}"/tmpdir
+	export TMPDIR="${racket_build_directory}/tmpdir"
 	mkdir -p "${TMPDIR}" || die
 
 	# Additional variables to unset
-	unset PLTADDONDIR PLTCOLLECTS PLTCONFIGDIR
-	unset PLT_COMPILED_FILE_CHECK
+	unset PLTADDONDIR PLTCOLLECTS PLTCONFIGDIR PLT_COMPILED_FILE_CHECK
 }
 
 # @FUNCTION: raco_test
@@ -94,7 +94,7 @@ racket_clean_environment() {
 # test submodules in files in current package directory (recursively)
 # and execute those tests.
 raco_test() {
-	debug-print-function ${FUNCNAME} "${@}"
+	debug-print-function "${FUNCNAME[0]}" "${@}"
 
 	local directory="${1:-.}"
 	local -a raco_opts=(

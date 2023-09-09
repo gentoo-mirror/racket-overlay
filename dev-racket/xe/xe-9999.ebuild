@@ -8,7 +8,7 @@ GH_REPO="tonyg/racket-xe"
 
 inherit gh racket
 
-DESCRIPTION="xexpr XML utilities, plus traversal and filtering"
+DESCRIPTION="xexpr XML and HTML utilities, plus traversal and filtering"
 HOMEPAGE="https://github.com/tonyg/racket-xe"
 
 LICENSE="all-rights-reserved"

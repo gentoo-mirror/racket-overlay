@@ -14,6 +14,3 @@ HOMEPAGE="https://github.com/mflatt/shplait"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
-
-RDEPEND="dev-racket/rhombus-prototype"
-BDEPEND="${RDEPEND}"

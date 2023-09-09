@@ -12,9 +12,8 @@ DESCRIPTION="Documentation for TOML library"
 HOMEPAGE="https://github.com/toml-racket/toml-racket"
 S="${S}/toml-doc"
 
-LICENSE="all-rights-reserved"
+LICENSE="BSD-2"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/toml-lib"
 BDEPEND="${RDEPEND}"

@@ -4,17 +4,18 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="mflatt/uu-cs3520"
+GH_REPO="michaelballantyne/syntax-spec"
 
 inherit gh racket
 
-DESCRIPTION="Utah CS 3520 homework submission plugin for DrRacket"
-HOMEPAGE="https://github.com/mflatt/uu-cs3520"
+DESCRIPTION="The syntax-spec-v1 Racket package"
+HOMEPAGE="https://github.com/michaelballantyne/syntax-spec"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/rhombus-prototype
-	dev-racket/shplait"
+RDEPEND="dev-racket/ee-lib
+	dev-racket/paren-shape
+	dev-racket/version-case"
 BDEPEND="${RDEPEND}"

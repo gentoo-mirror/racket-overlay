@@ -5,6 +5,7 @@ EAPI=8
 
 GH_DOM="gitlab.flux.utah.edu"
 GH_REPO="xsmith/xsmith"
+GH_COMMIT="de6ace161b0a09a8137c38a181a66c1403f5698a"
 
 inherit gh racket
 
@@ -14,6 +15,7 @@ S="${S}/xsmith"
 
 LICENSE="BSD-2"
 SLOT="0"
+KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
 RDEPEND="dev-racket/clotho
 	dev-racket/memoize

@@ -4,19 +4,17 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="rfindler/esterel"
-GH_COMMIT="9ac0749726c3486a2702e9f6ec405256dce178c9"
+GH_REPO="shawnw/racket-soup-lib"
+GH_COMMIT="c92e20d8cce7e4c0107036af65fc23a93d5d4ddc"
 
 inherit gh racket
 
-DESCRIPTION="Esterel in Rhombus"
-HOMEPAGE="https://github.com/rfindler/esterel"
-S="${S}/esterel-rhombus-lib"
+DESCRIPTION="Assorted things too minor to go into packages of their own"
+HOMEPAGE="https://github.com/shawnw/racket-soup-lib"
 
 LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
-RDEPEND="dev-racket/esterel-lib
-	dev-racket/rhombus-prototype"
+RDEPEND="dev-racket/extra-srfi-libs"
 BDEPEND="${RDEPEND}"

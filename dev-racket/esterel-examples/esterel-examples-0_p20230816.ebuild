@@ -18,5 +18,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
 RDEPEND="dev-racket/esterel-lib
-	dev-racket/esterel-rhombus-lib"
+	dev-racket/esterel-rhombus-lib
+	dev-racket/rhombus-prototype"
 BDEPEND="${RDEPEND}"

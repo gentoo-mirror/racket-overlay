@@ -5,6 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="mflatt/uu-cs3520"
+GH_COMMIT="35e4080660e3a212a48bb7a430d94bde55fad885"
 
 inherit gh racket
 
@@ -13,6 +14,7 @@ HOMEPAGE="https://github.com/mflatt/uu-cs3520"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
+KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/rhombus-prototype

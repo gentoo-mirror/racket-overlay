@@ -15,7 +15,7 @@ S="${S}/kafka-lib"
 LICENSE="BSD"
 SLOT="0"
 
-RDEPEND="dev-racket/binfmt
+RDEPEND="dev-racket/binfmt-lib
 	dev-racket/libzstd
 	dev-racket/lz4-lib
 	dev-racket/sasl-lib

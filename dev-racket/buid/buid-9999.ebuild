@@ -8,11 +8,12 @@ GH_REPO="Bogdanp/racket-buid"
 
 inherit gh racket
 
-DESCRIPTION="Universally unique, lexicographically-sortable flake ids for Racket."
+DESCRIPTION="The buid Racket package"
 HOMEPAGE="https://github.com/Bogdanp/racket-buid"
+S="${S}/buid"
 
 LICENSE="BSD"
 SLOT="0"
 
-RDEPEND="dev-racket/rackcheck-lib"
+RDEPEND="dev-racket/buid-lib"
 BDEPEND="${RDEPEND}"

@@ -4,14 +4,13 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racket/racket"
-GH_COMMIT="e2964e246243f0ab56595c92462f6dbd576c48eb"
+GH_REPO="jackfirth/namecaser"
+GH_COMMIT="8e46fa624f3ee9d9607159a9a4becd3067fec4ec"
 
 inherit gh racket
 
-DESCRIPTION="Documentation for the Zuo language"
-HOMEPAGE="https://github.com/racket/racket"
-S="${S}/racket/src/zuo/zuo-doc"
+DESCRIPTION="The namecaser Racket package"
+HOMEPAGE="https://github.com/jackfirth/namecaser"
 
 LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"

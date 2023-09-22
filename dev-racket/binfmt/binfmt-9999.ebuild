@@ -14,3 +14,6 @@ S="${S}/binfmt"
 
 LICENSE="BSD"
 SLOT="0"
+
+RDEPEND="dev-racket/binfmt-lib"
+BDEPEND="${RDEPEND}"

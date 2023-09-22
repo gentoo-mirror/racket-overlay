@@ -1,14 +1,14 @@
 BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DESCRIPTION=The drracket-tool-text-lib Racket package
+DESCRIPTION=Additional SRFI libraries not included in the standard srfi-lib package
 EAPI=8
-HOMEPAGE=https://github.com/racket/drracket
+HOMEPAGE=https://github.com/shawnw/racket-extra-srfi-libs
 INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=|| ( Apache-2.0 MIT )
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
-SRC_URI=https://github.com/racket/drracket/archive/56a5b27f193d1682f742e60102dad3225a0b82bb.tar.gz -> drracket-tool-text-lib-0_p20230905.tar.gz
+SRC_URI=https://github.com/shawnw/racket-extra-srfi-libs/archive/25886da48b687edd46e2ff47f680dfd34eb288ef.tar.gz -> extra-srfi-libs-0_p20230915.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=72a1294c84fb8d3d4a89ae74abf1c7a6
+_md5_=634dcaa8f1d4e61c4b71ad77626c9b4e

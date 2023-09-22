@@ -4,14 +4,14 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racket/racket"
-GH_COMMIT="e2964e246243f0ab56595c92462f6dbd576c48eb"
+GH_REPO="rfindler/esterel"
+GH_COMMIT="a41981c5238488b6856f31510d5805f533232854"
 
 inherit gh racket
 
-DESCRIPTION="Racket's implementation of macros, modules, and top-level evaluation"
-HOMEPAGE="https://github.com/racket/racket"
-S="${S}/racket/src/expander"
+DESCRIPTION="Esterel implementation in Racket"
+HOMEPAGE="https://github.com/rfindler/esterel"
+S="${S}/esterel-lib"
 
 LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"

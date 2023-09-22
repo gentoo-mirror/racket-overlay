@@ -4,14 +4,14 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racket/drracket"
-GH_COMMIT="56a5b27f193d1682f742e60102dad3225a0b82bb"
+GH_REPO="racket/srfi"
+GH_COMMIT="45ae4cd9aae085c8c5e4c106ff430bf704bf3296"
 
 inherit gh racket
 
-DESCRIPTION="The drracket-tool-text-lib Racket package"
-HOMEPAGE="https://github.com/racket/drracket"
-S="${S}/drracket-tool-text-lib"
+DESCRIPTION="parts of srfi implementation that are licensed restrictively"
+HOMEPAGE="https://github.com/racket/srfi"
+S="${S}/srfi-lib-nonfree"
 
 LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"

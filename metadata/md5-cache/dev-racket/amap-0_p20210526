@@ -11,5 +11,5 @@ RDEPEND=dev-racket/request dev-racket/scribble-rainbow-delimiters >=dev-scheme/r
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/yanyingwang/amap/archive/15a49b88386a453ef2ed07b694cf0d62a42211d2.tar.gz -> amap-0_p20210526.tar.gz
-_eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
 _md5_=781855c0224ace63f340ea1eb81127d1

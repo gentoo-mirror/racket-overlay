@@ -10,5 +10,5 @@ LICENSE=AGPL-3+
 RDEPEND=dev-racket/icns >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/LiberalArtist/2048/archive/8bed991e180105051631424df743993bf2d1d7de.tar.gz -> 2048-0_p20230709.tar.gz
-_eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
 _md5_=a829b5a3e5802cb2810a11afde2edad3

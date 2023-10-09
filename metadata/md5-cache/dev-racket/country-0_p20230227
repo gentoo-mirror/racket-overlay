@@ -10,5 +10,5 @@ LICENSE=BSD ODbL-1.0 GPL-2+
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/racket-country/archive/e433bcdb710718f3b46470fc2cf6f210c98998e1.tar.gz -> country-0_p20230227.tar.gz
-_eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
 _md5_=020c2717d62dc09a3c98ce9bcacb2da2

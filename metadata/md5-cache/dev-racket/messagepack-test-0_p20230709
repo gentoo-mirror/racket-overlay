@@ -10,5 +10,5 @@ LICENSE=BSD
 RDEPEND=dev-racket/messagepack-lib dev-racket/rackcheck-lib >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/racket-messagepack/archive/a0b317e8c1f6c1764ad4bdf86968c4d52cddfb9b.tar.gz -> messagepack-test-0_p20230709.tar.gz
-_eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
 _md5_=e4c53f7e92e46ce59684dc51f92c475d

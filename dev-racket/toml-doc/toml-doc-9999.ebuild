@@ -15,5 +15,6 @@ S="${S}/toml-doc"
 LICENSE="BSD-2"
 SLOT="0"
 
-RDEPEND="dev-racket/toml-lib"
+RDEPEND="dev-racket/gregor-doc
+	dev-racket/toml-lib"
 BDEPEND="${RDEPEND}"

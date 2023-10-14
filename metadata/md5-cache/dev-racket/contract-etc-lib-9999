@@ -1,14 +1,14 @@
-BDEPEND=dev-racket/digimon dev-racket/graphics >=dev-vcs/git-1.8.2.1[curl] >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DESCRIPTION=The lambda-sh Racket package
+DESCRIPTION=The contract-etc-lib Racket package
 EAPI=8
-HOMEPAGE=https://github.com/wargrey/lambda-shell
+HOMEPAGE=https://github.com/camoy/contract-etc
 INHERIT=gh racket
 IUSE=doc
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/digimon dev-racket/graphics >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991	gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=c38affa7c4e0bf8f6ba820767358a992
+_md5_=823a7f58c4038a9469f3ac94f9b96a81

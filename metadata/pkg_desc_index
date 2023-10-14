@@ -24,14 +24,14 @@ dev-racket/al2-test-runner 0_p20230511 9999: Alternative way of running rackunit
 dev-racket/alexis-collection-lens 0_p20230511 9999: Deprecated. Use the collections-lens package instead.
 dev-racket/alexis-collections 0_p20230511 9999: Deprecated. Use the collections package instead.
 dev-racket/alexis-multicast 0_p20211127 9999: One-to-many buffered asynchronous channels
-dev-racket/alexis-pvector 0_p20230511 0_p20230910 9999: Deprecated. Use the pvector package instead.
-dev-racket/alexis-util 0_p20230511 9999: Various utilities and helper functions I've found useful
+dev-racket/alexis-pvector 0_p20230910 9999: Deprecated. Use the pvector package instead.
+dev-racket/alexis-util 0_p20231006 9999: Various utilities and helper functions I've found useful
 dev-racket/alexknauth-music 0_p20220608 9999: Some stuff for representing music and music theory
 dev-racket/alexknauth-my-object 0_p20230511 9999: my version of objects, inspired by things from heresy
 dev-racket/algebraic 0_p20190810 9999: Algebraic Racket
 dev-racket/algorithms 0_p20230511 9999: The algorithms Racket package
 dev-racket/amap 0_p20210526 9999: Gaode Amap web service API
-dev-racket/amazon-msk-sasl-lib 0_p20230809 0_p20230918 9999: A SASL implementation for AWS MSK IAM-based authentication.
+dev-racket/amazon-msk-sasl-lib 0_p20231011 9999: A SASL implementation for AWS MSK IAM-based authentication.
 dev-racket/amb 0_p20230628 9999: The amb Racket package
 dev-racket/anaphoric 0_p20210729 9999: The anaphoric Racket package
 dev-racket/anarki 0_p20230605 9999: Community-managed variant of the Arc dialect of Lisp
@@ -104,9 +104,9 @@ dev-racket/binary-matcher 0_p20230326 9999: Destructure and extract data from by
 dev-racket/binaryio 0_p20230125 9999: functions for reading and writing binary data
 dev-racket/binaryio-lib 0_p20230511 9999: functions for reading and writing binary data
 dev-racket/bincraft 0_p20221022 9999: multipurpose library focused on CTF
-dev-racket/binfmt 0_p20230709 0_p20230918 9999: The binfmt Racket package
+dev-racket/binfmt 0_p20230918 9999: The binfmt Racket package
 dev-racket/binfmt-lib 0_p20230918 9999: The binfmt-lib Racket package
-dev-racket/binfmt-test 0_p20230709 0_p20230918 9999: The binfmt-test Racket package
+dev-racket/binfmt-test 0_p20230918 9999: The binfmt-test Racket package
 dev-racket/binutils 0_p20210228 9999: Utilities for manipulating machine code object files
 dev-racket/bip32 0_p20200819 9999: Racket implementation of Bitcoin Improvement Proposal 32.
 dev-racket/bitsyntax 0_p20210512 9999: Erlang-like binary pattern-matching and bit string manipulation for Racket.
@@ -128,7 +128,7 @@ dev-racket/brag-lib 0_p20220209 9999: The brag-lib Racket package
 dev-racket/brazilian-law 0_p20230511 9999: The brazilian-law Racket package
 dev-racket/brush 0_p20220501 9999: A semi-literate programming package for Scribble
 dev-racket/bs 0_p20190328 9999: A Bitcoin Script Implementation for testing Script riddles.
-dev-racket/buid 0_p20221211 0_p20230918 9999: The buid Racket package
+dev-racket/buid 0_p20230918 9999: The buid Racket package
 dev-racket/buid-lib 0_p20230918 9999: The buid-lib Racket package
 dev-racket/buid-test 0_p20230918 9999: The buid-test Racket package
 dev-racket/bumpv 0_p20230308 9999: Bump your Racket-based project version. Metapackage.
@@ -180,7 +180,7 @@ dev-racket/cldr-numbers-modern 0_p20170815 9999: API for cldr-numbers-modern dat
 dev-racket/cli 0_p20211221 9999: Simple and expressive command line interfaces.
 dev-racket/clicker-assets 0_p20230724 9999: Assets for clicker games
 dev-racket/client-cookies 0_p20170815 9999: Client cookies jar for net/url and similar libs.Deprecated: use net/cookies.
-dev-racket/clotho 0_p20230822 0_p20230919 9999: A library for enabling parametric randomness in Racket applications.
+dev-racket/clotho 0_p20230919 9999: A library for enabling parametric randomness in Racket applications.
 dev-racket/cobalt2-theme 0_p20220517 9999: The Cobalt 2 color theme for DrRacket.
 dev-racket/code-sync 0_p20201111 9999: Fast Code Sharing for DrRacket
 dev-racket/codepoint 0_p20230511 9999: Library for operations on Unicode codepoints, and UCD properties.
@@ -222,9 +222,10 @@ dev-racket/cond-contract 0_p20200219 9999: Conditional contracts for Racket
 dev-racket/cond-strict 0_p20220107 9999: cond: what it should have been
 dev-racket/config 0_p20230617 9999: File base configuration parameter system
 dev-racket/configurable 0_p20230511 9999: A simple software configuration system.
-dev-racket/confluent-schema-registry-lib 0_p20230809 0_p20230918 9999: A client for the Confluent Schema Registry API. (implementation only)
+dev-racket/confluent-schema-registry-lib 0_p20231011 9999: A client for the Confluent Schema Registry API. (implementation only)
 dev-racket/continued-fractions 0_p20230610 9999: Exact computer arithmetic and base conversion via continued fractions.
-dev-racket/contract-etc 0_p20230511 9999: Miscellaneous contracts.
+dev-racket/contract-etc 0_p20231008 9999: Miscellaneous contracts.
+dev-racket/contract-etc-lib 0_p20231008 9999: The contract-etc-lib Racket package
 dev-racket/contract-parameter 0_p20221006 9999: Dynamically bound contracts.
 dev-racket/contract-repl 0_p20170815 9999: A REPL that prints contracts on values
 dev-racket/control 0_p20170815 9999: Control structures
@@ -254,7 +255,7 @@ dev-racket/crypto-lib 0_p20220621 9999: Cryptography library
 dev-racket/crypto-sign 0_p20230508 9999: ECDSA and Schnorr algorithm
 dev-racket/crypto-test 0_p20230511 9999: Cryptography library
 dev-racket/crystal 0_p20220903 9999: The crystal Racket package
-dev-racket/cs-bootstrap 0_p20230907 0_p20230913 0_p20230922 9999: Creates Chez Scheme boot files from source
+dev-racket/cs-bootstrap 0_p20231014 9999: Creates Chez Scheme boot files from source
 dev-racket/cs135-drtools 0_p20220519 9999: DrRacket Tools for CS 135 course at UWaterloo.
 dev-racket/cs2500f16-jsonlab 0_p20230119 9999: Teachpack for CS2500 JSON lab
 dev-racket/cs7480-util 0_p20170815 9999: Static analysis utilities
@@ -300,7 +301,7 @@ dev-racket/dbus 0_p20170815 9999: Native D-Bus for Racket
 dev-racket/ddict 0_p20230511 9999: Deterministic Dictionaries
 dev-racket/debug 0_p20230511 9999: a lang-extension for debugging, and a macro for inserting a debug-repl
 dev-racket/debug-scopes 0_p20230511 9999: Some utilities which help debugging scope-related issues for unhygienic macros
-dev-racket/decentralized-internet 0_p20230816 9999: A package for building distributed computing projects
+dev-racket/decentralized-internet 0_p20231012 9999: A package for building distributed computing projects
 dev-racket/defensive-to-contracts 0_p20230403 9999: The defensive-to-contracts Racket package
 dev-racket/deferred 0_p20230403 9999: A simple library for deferring asynchronous tasks until a specified time
 dev-racket/define-assets-from 0_p20230403 9999: The define-assets-from Racket package
@@ -332,8 +333,8 @@ dev-racket/diagrama-lib 0_p20200310 9999: A diagram drawing library, implementat
 dev-racket/diagrams 0_p20230511 9999: Draw technical diagrams
 dev-racket/dice-parser 0_p20230511 9999: A parser for dice expressions like 1d6-1d4+5.
 dev-racket/diff-merge 0_p20180531 9999: Myers-Ukkonen diff and diff3-based merge for sequences
-dev-racket/digimon 0_p20230906 9999: The (typed) core to construct the digital world
-dev-racket/dirname 0_p20230715 9999: Basename and dirname functions
+dev-racket/digimon 0_p20231012 9999: The (typed) core to construct the digital world
+dev-racket/dirname 0_p20230926 9999: Basename and dirname functions
 dev-racket/disassemble 0_p20230511 9999: Disassembler for JIT-compiled functions.
 dev-racket/dispatch 0_p20230719 9999: Julia-style multiple dispatch in Racket
 dev-racket/disposable 0_p20171028 9999: The disposable Racket package
@@ -380,7 +381,7 @@ dev-racket/drracket-red 0_p20211127 9999: VsCode Red Theme for DrRacket
 dev-racket/drracket-restore-workspace 0_p20220608 9999: Restore workspace for DrRacket
 dev-racket/drracket-scheme-dark-green 0_p20230511 9999: This is a white-on-black dark green colorscheme for DrRacket.
 dev-racket/drracket-solarized 0_p20211127 9999: Solarized colorscheme for Drracket
-dev-racket/drracket-tool-text-lib 0_p20230908 0_p20230913 0_p20230921 9999: The drracket-tool-text-lib Racket package
+dev-racket/drracket-tool-text-lib 0_p20231008 9999: The drracket-tool-text-lib Racket package
 dev-racket/drracket-vim-tool 0_p20230511 9999: DrRacket plugin that simulates vim keybindings
 dev-racket/drracket-wakatime 0_p20230705 9999: wakatime support on DrRacket
 dev-racket/drracket-workspaces 0_p20230511 9999: Save and reopen groups of files in DrRacket as workspaces.
@@ -389,18 +390,18 @@ dev-racket/drrackettheme 0_p20180706 9999: set the background image for DrRacket
 dev-racket/drrackgit 0_p20171221 9999: A git plugin for DrRacket.
 dev-racket/dset 0_p20170818 9999: Deterministic Sets
 dev-racket/dssl 0_p20170815 9999: The dssl Racket package
-dev-racket/dssl2 0_p20230719 0_p20230921 9999: A language for data structures students
+dev-racket/dssl2 0_p20230921 9999: A language for data structures students
 dev-racket/dynamic-ffi 0_p20200217 9999: The dynamic-ffi Racket package
 dev-racket/dynamic-xml 0_p20200506 9999: Apply keyword procedures in a given Racket namespace using X-expressions.
 dev-racket/ebml 0_p20230313 9999: A library for reading and writing EBML files.
-dev-racket/ebuild 0_p20230815 9999: Library to ease automatic ebuild creation. Metapackage.
-dev-racket/ebuild-doc 0_p20230815 9999: Library to ease automatic ebuild creation. Documentation.
-dev-racket/ebuild-lib 0_p20230815 9999: Library to ease automatic ebuild creation. Core.
-dev-racket/ebuild-modify-lang 0_p20230815 9999: Library to ease automatic ebuild creation. Modification DSL.
-dev-racket/ebuild-templates 0_p20230815 9999: Library to ease automatic ebuild creation. Additional templates.
-dev-racket/ebuild-test 0_p20230815 9999: Library to ease automatic ebuild creation. Tests.
-dev-racket/ebuild-tools 0_p20230815 9999: Library to ease automatic ebuild creation. Tools.
-dev-racket/ebuild-transformers 0_p20230815 9999: Library to ease automatic ebuild creation. Additional helper libraries.
+dev-racket/ebuild 0_p20231008 9999: Library to ease automatic ebuild creation. Metapackage.
+dev-racket/ebuild-doc 0_p20231008 9999: Library to ease automatic ebuild creation. Documentation.
+dev-racket/ebuild-lib 0_p20231008 9999: Library to ease automatic ebuild creation. Core.
+dev-racket/ebuild-modify-lang 0_p20231008 9999: Library to ease automatic ebuild creation. Modification DSL.
+dev-racket/ebuild-templates 0_p20231008 9999: Library to ease automatic ebuild creation. Additional templates.
+dev-racket/ebuild-test 0_p20231008 9999: Library to ease automatic ebuild creation. Tests.
+dev-racket/ebuild-tools 0_p20231008 9999: Library to ease automatic ebuild creation. Tools.
+dev-racket/ebuild-transformers 0_p20231008 9999: Library to ease automatic ebuild creation. Additional helper libraries.
 dev-racket/ec 0_p20211127 9999: The ec Racket package
 dev-racket/echonest 0_p20170815 9999: The echonest Racket package
 dev-racket/eclass2scrbl 0_p20230705 9999: Convert Gentoo Eclasses to Scribble documents.
@@ -409,7 +410,7 @@ dev-racket/ee-lib 0_p20230511 9999: Utilities for defining embedded macro expand
 dev-racket/eff 0_p20230611 9999: A Library Provide Extensible Effects in Racket (Untyped).
 dev-racket/effection 0_p20220124 9999: A library for custom side effects.
 dev-racket/effection-doc 0_p20220124 9999: A library for custom side effects. (doc)
-dev-racket/effection-lib 0_p20220124 0_p20230909 9999: A library for custom side effects. (lib)
+dev-racket/effection-lib 0_p20230909 9999: A library for custom side effects. (lib)
 dev-racket/effection-test 0_p20230511 9999: A library for custom side effects. (test)
 dev-racket/effects 0_p20190521 9999: Delimited-continuation-based effects for Racket
 dev-racket/egal 0_p20170815 9999: Henry Baker's egal
@@ -424,7 +425,7 @@ dev-racket/emmy 0_p20221218 9999: The emmy Racket package
 dev-racket/emo 0_p20230704 9999: A very simple command line emoji finder
 dev-racket/emoji 0_p20191014 9999: Emoji terminal output for Racket
 dev-racket/encode-ita_2 0_p20221102 9999: Encodes strings in the 5 bit ITA2 character encoding.
-dev-racket/endeavor 0_p20230828 9999: ((status pre-alpha) (phase design))
+dev-racket/endeavor 0_p20231012 9999: ((status pre-alpha) (phase design))
 dev-racket/english 0_p20200220 9999: Utilities for generating English text strings -- e.g. plurals
 dev-racket/envlang 0_p20230511 9999: Prototype of a proof-of-concept for a language with first-class environments.
 dev-racket/envy 0_p20230427 9999: an environment variable manager for applications
@@ -432,19 +433,19 @@ dev-racket/errortrace 0_p20221004 9999: The errortrace Racket package
 dev-racket/errortrace-pkg 0_p20220608 9999: Errortrace installed packages
 dev-racket/esasm 0_p20230628 9999: esAsm is a toy assembly-ish language.
 dev-racket/esc-vp21 0_p20170815 9999: Epson ESC/VP21 Projector Control
-dev-racket/esterel 0_p20230816 0_p20230918 9999: Esterel implementation in Racket
-dev-racket/esterel-doc 0_p20230816 0_p20230918 9999: Documentation for the Esterel implementation in Racket
-dev-racket/esterel-examples 0_p20230816 0_p20230918 9999: Some example programs in Esterel
-dev-racket/esterel-lib 0_p20230816 0_p20230918 9999: Esterel implementation in Racket
+dev-racket/esterel 0_p20230918 9999: Esterel implementation in Racket
+dev-racket/esterel-doc 0_p20230918 9999: Documentation for the Esterel implementation in Racket
+dev-racket/esterel-examples 0_p20230918 9999: Some example programs in Esterel
+dev-racket/esterel-lib 0_p20230918 9999: Esterel implementation in Racket
 dev-racket/esterel-redex 0_p20230703 9999: Redex code related to Esterel in Racket
-dev-racket/esterel-rhombus-lib 0_p20230816 0_p20230918 9999: Esterel in Rhombus
-dev-racket/esterel-test 0_p20230816 0_p20230918 9999: Tests for the Esterel implementation in Racket
+dev-racket/esterel-rhombus-lib 0_p20230918 9999: Esterel in Rhombus
+dev-racket/esterel-test 0_p20230918 9999: Tests for the Esterel implementation in Racket
 dev-racket/etf 0_p20230614 9999: The etf Racket package
 dev-racket/etl 0_p20230415 9999: A racket implementation of the etl esolang created by xSK
 dev-racket/euclid 0_p20210521 9999: Data structures and algorithms related to Euclidean geometry
 dev-racket/eventfd 0_p20230511 9999: Linux eventfd support
-dev-racket/exact-decimal-lang 0_p20230511 9999: a lang-extension that reads decimals as exact rationals
-dev-racket/expander 0_p20230907 0_p20230913 0_p20230922 9999: Racket's implementation of macros, modules, and top-level evaluation
+dev-racket/exact-decimal-lang 0_p20230929 9999: a lang-extension that reads decimals as exact rationals
+dev-racket/expander 0_p20231014 9999: Racket's implementation of macros, modules, and top-level evaluation
 dev-racket/expect 0_p20170922 9999: The expect Racket package
 dev-racket/expeditor 0_p20221216 9999: Terminal expression editor
 dev-racket/expeditor-doc 0_p20221216 9999: documentation part of expeditor
@@ -454,7 +455,7 @@ dev-racket/explorer 0_p20230511 9999: Utility for interactive exploration of com
 dev-racket/extenor 0_p20230224 9999: The extenor Racket package
 dev-racket/extensible-functions 0_p20180509 9999: A solution to the expression problem in Typed Racket
 dev-racket/extensible-parser-specifications 0_p20230119 9999: The extensible-parser-specifications Racket package
-dev-racket/extra-srfi-libs 0_p20230724 0_p20230908 0_p20230915 9999: Additional SRFI libraries not included in the standard srfi-lib package
+dev-racket/extra-srfi-libs 0_p20231008 9999: Additional SRFI libraries not included in the standard srfi-lib package
 dev-racket/ez-csv 0_p20220309 9999: Reading and writing CSV files from Racket... Except easier.
 dev-racket/fairyfloss 0_p20200103 9999: sailorhg's fairyfloss for DrRacket
 dev-racket/fairylog 0_p20190429 9999: The Fairylog Racket package
@@ -481,7 +482,7 @@ dev-racket/flexpr 0_p20170815 9999: Expressions rendered as both XML and JSON
 dev-racket/fltest 0_p20220516 9999: The fltest Racket package
 dev-racket/fluent 0_p20210323 9999: UNIX style pipes and a lambda shorthand syntax to make your code more readable.
 dev-racket/fme 0_p20170815 9999: Fourier-Motzkin elimination for integer inequality satisfiability
-dev-racket/fmt 0_p20230715 0_p20230910 9999: An extensible code formatter for Racket
+dev-racket/fmt 0_p20230910 9999: An extensible code formatter for Racket
 dev-racket/font-finder 0_p20230511 9999: Locate font files on your computer
 dev-racket/fontconfig 0_p20230511 9999: FFI bindings for fontconfig
 dev-racket/fontland 0_p20230320 9999: font processing [in development]
@@ -557,17 +558,17 @@ dev-racket/gnucash 0_p20220719 9999: parses gnucash XML files
 dev-racket/goblins 0_p20230508 9999: Goblins is a transactional, distributed actor model environment
 dev-racket/google 0_p20170815 9999: Google APIs (Drive, Plus, ...) for Racket.
 dev-racket/google-spreadsheet-api 0_p20221111 9999: Racket interface for Google Spreadsheet APIs
-dev-racket/gradual-typing-bib 0_p20220405 9999: The gradual-typing-bib Racket package
+dev-racket/gradual-typing-bib 0_p20231007 9999: The gradual-typing-bib Racket package
 dev-racket/graph 0_p20220114 9999: Generic graph library.
 dev-racket/graph-doc 0_p20220114 9999: Documentation for graph-lib
 dev-racket/graph-lib 0_p20220114 9999: main graph package
 dev-racket/graph-test 0_p20220114 9999: Tests for graph-lib
-dev-racket/graphic-block 0_p20221204 9999: The graphic-block Racket package
-dev-racket/graphics 0_p20220919 0_p20230320: Essential computer graphics for Typed Racket
+dev-racket/graphic-block 0_p20231003 9999: The graphic-block Racket package
+dev-racket/graphics 0_p20230320 0_p20230902: Essential computer graphics for Typed Racket
 dev-racket/graphics-engine 0_p20200804 9999: An accelerated graphics programming environment.
 dev-racket/graphite 0_p20210819 9999: A ggplot2-inspired data visualization library
 dev-racket/graphite-doc 0_p20210819: Documentation for Graphite
-dev-racket/graphite-lib 0_p20210819 9999: A ggplot2-inspired data visualization library (no documentation)
+dev-racket/graphite-lib 0_p20230927 9999: A ggplot2-inspired data visualization library (no documentation)
 dev-racket/graphite-test 0_p20210819 9999: Tests for Graphite
 dev-racket/graphite-tutorial 0_p20210810 0_p20210819: A guided tour for Graphite
 dev-racket/gref 0_p20230905 9999: Generalized references for Racket
@@ -588,8 +589,8 @@ dev-racket/gtp-paper 0_p20230511 9999: Quick-start for SIGPLAN Scribble papers
 dev-racket/gtp-pict 0_p20220903 9999: Picts related to gradual typing / performance
 dev-racket/gtp-plot 0_p20220220 9999: Plots for gradual typing performance
 dev-racket/gtp-util 0_p20230330 9999: 37 helper functions you won't find anywhere else
-dev-racket/gui-easy 0_p20230829 9999: A declarative API on top of racket/gui. (docs & implementation)
-dev-racket/gui-easy-lib 0_p20230829 9999: A declarative API on top of racket/gui. (implementation)
+dev-racket/gui-easy 0_p20231009 9999: A declarative API on top of racket/gui. (docs & implementation)
+dev-racket/gui-easy-lib 0_p20231009 9999: A declarative API on top of racket/gui. (implementation)
 dev-racket/gui-pkg-manager 0_p20230511 9999: Graphical tool for managing Racket package installations
 dev-racket/gui-pkg-manager-doc 0_p20211009 9999: documentation part of gui-pkg-manager
 dev-racket/gui-widget-mixins 0_p20230511 9999: Tool tips, cue text and validation for text-field% GUI widgets in Racket
@@ -615,8 +616,8 @@ dev-racket/hive-server 0_p20210823 9999: Hive: client-server framework. This is 
 dev-racket/holy 0_p20230511 9999: The HoLy Racket package
 dev-racket/honu 0_p20230519 9999: The implementation of the Honu language
 dev-racket/hostname 9999: Getting Hostname, FQDN, and IP Addresses
-dev-racket/htdf 0_p20220928 0_p20230922 9999: The htdf Racket package
-dev-racket/htdp-examplar 0_p20230831 9999: The htdp-examplar Racket package
+dev-racket/htdf 0_p20231012 9999: The htdf Racket package
+dev-racket/htdp-examplar 0_p20230930 9999: The htdp-examplar Racket package
 dev-racket/htdp-json 0_p20221111 9999: A library for teaching with JSON
 dev-racket/htdp-trace 0_p20230705 9999: The htdp-trace Racket package
 dev-racket/html-examples 0_p20230511 9999: Generate an HTML part out of Scribble Examples
@@ -625,9 +626,9 @@ dev-racket/html-template 9999: HTML-Writing Template Language in SXML
 dev-racket/html-writing 9999: Writing HTML from SXML
 dev-racket/http 0_p20230813 9999: Support for HTTP 1.1 including automatic connection pooling.
 dev-racket/http-client 0_p20211127 9999: A practical http client library for sending data to http servers.
-dev-racket/http-easy 0_p20230709 9999: A high-level HTTP client. (docs & implementation)
-dev-racket/http-easy-lib 0_p20230709 9999: A high-level HTTP client. (implementation)
-dev-racket/http-easy-test 0_p20230709 9999: A high-level HTTP client. (tests only)
+dev-racket/http-easy 0_p20231002 9999: A high-level HTTP client. (docs & implementation)
+dev-racket/http-easy-lib 0_p20231002 9999: A high-level HTTP client. (implementation)
+dev-racket/http-easy-test 0_p20231002 9999: A high-level HTTP client. (tests only)
 dev-racket/http-proxy 0_p20230916 9999: A simple HTTP CONNECT proxy server. (docs & implementation)
 dev-racket/http-proxy-lib 0_p20230916 9999: A simple HTTP CONNECT proxy server. (implementation only)
 dev-racket/http-proxy-test 0_p20230916 9999: A simple HTTP CONNECT proxy server. (tests only)
@@ -663,7 +664,7 @@ dev-racket/inotify 0_p20230509 9999: Racket bindings for the Linux inotify API.
 dev-racket/intellij 0_p20230304 9999: Support IntelliJ editor features
 dev-racket/interactive-brokers-api 0_p20230427 9999: Client API for Interactive Brokers' Trader Workstation
 dev-racket/interactive-syntax 0_p20201205 9999: (Early) Prototype for Interactive Syntax
-dev-racket/interconfection 0_p20230511 0_p20230907 9999: A library for building extensible systems, especially module systems.
+dev-racket/interconfection 0_p20230907 9999: A library for building extensible systems, especially module systems.
 dev-racket/interconfection-doc 0_p20220208 9999: A library for building extensible systems, especially module systems. (doc)
 dev-racket/interconfection-lib 0_p20220208 9999: A library for building extensible systems, especially module systems. (lib)
 dev-racket/interconfection-test 0_p20220208 9999: A library for building extensible systems, especially module systems. (test)
@@ -720,8 +721,8 @@ dev-racket/k-example 0_p20220125 9999: examples of using k theorem prover
 dev-racket/k-infix 0_p20220204 9999: The k-infix Racket package
 dev-racket/k-lib 0_p20220125 9999: libraries of k theorem prover
 dev-racket/k-test 0_p20220104 9999: The k-test Racket package
-dev-racket/kafka 0_p20230809 0_p20230918 9999: A client for Apache Kafka. (docs & implementation)
-dev-racket/kafka-lib 0_p20230809 0_p20230918 9999: A client for Apache Kafka. (implementation only)
+dev-racket/kafka 0_p20231011 9999: A client for Apache Kafka. (docs & implementation)
+dev-racket/kafka-lib 0_p20231011 9999: A client for Apache Kafka. (implementation only)
 dev-racket/karp 0_p20230809 9999: A language for NP-Reductions
 dev-racket/kernel 0_p20170815 9999: Interface to Linux kernel runtime configuration.
 dev-racket/keyring 0_p20221110 9999: a library for uniformly accessing secrets
@@ -736,27 +737,27 @@ dev-racket/knitscheme 0_p20230315 9999: A domain-specific language for knitting 
 dev-racket/knotty 0_p20230719 9999: A domain-specific language for knitting patterns
 dev-racket/knotty-lib 0_p20230719 9999: The knotty-lib Racket package
 dev-racket/knox 0_p20230617 9999: The knox Racket package
-dev-racket/koyo 0_p20230812 9999: A web application toolkit (docs and implementation).
-dev-racket/koyo-doc 0_p20230812 9999: A web application toolkit (docs only).
-dev-racket/koyo-lib 0_p20230812 9999: A web application toolkit (implementation only).
+dev-racket/koyo 0_p20231004 9999: A web application toolkit (docs and implementation).
+dev-racket/koyo-doc 0_p20231004 9999: A web application toolkit (docs only).
+dev-racket/koyo-lib 0_p20231004 9999: A web application toolkit (implementation only).
 dev-racket/koyo-north 0_p20221211 9999: A north migrator component for koyo.
 dev-racket/koyo-postmark 0_p20230709 9999: A Postmark mail adapter for koyo. (docs and implementation)
-dev-racket/koyo-sentry 0_p20230709 9999: Integrates koyo and racket-sentry.
+dev-racket/koyo-sentry 0_p20231003 9999: Integrates koyo and racket-sentry.
 dev-racket/koyo-sessions-redis 0_p20230709 9999: A Redis-based session store for Koyo.
-dev-racket/koyo-test 0_p20230812 9999: A web application toolkit (tests only).
+dev-racket/koyo-test 0_p20231004 9999: A web application toolkit (tests only).
 dev-racket/kw-make-struct 0_p20220107 9999: Naming struct fields with keywords for constructing and matching
 dev-racket/kw-make-struct-lib 0_p20220502 9999: Naming struct fields with keywords for constructing and matching
 dev-racket/kw-utils 0_p20220824 9999: misc kw utils
 dev-racket/lambda-calculus 0_p20210330 9999: A lambda-calculus DSL in Racket
-dev-racket/lambda-sh 0_p20230811 9999: The lambda-sh Racket package
+dev-racket/lambda-sh 0_p20230906 9999: The lambda-sh Racket package
 dev-racket/lambdajam2015-racket-pl-pl 0_p20170815 9999: The lambdajam-2015-racket-pl-pl Racket package
 dev-racket/lang-file 0_p20220723 9999: Functions for dealing with #lang files
 dev-racket/lang-file-lib 0_p20220723 9999: Functions for dealing with #lang files
 dev-racket/lang-slide 0_p20190814 9999: A picture showing all the languages used to implement Racket.
-dev-racket/laramie 0_p20230726 0_p20230918 9999: HTML5 parser
-dev-racket/laramie-doc 0_p20230707 0_p20230918 9999: Documentation for Laramie
-dev-racket/laramie-lib 0_p20230707 0_p20230918 9999: Implementation for Laramie
-dev-racket/laramie-test 0_p20230707 0_p20230918 9999: Tests for Laramie
+dev-racket/laramie 0_p20230918 9999: HTML5 parser
+dev-racket/laramie-doc 0_p20230918 9999: Documentation for Laramie
+dev-racket/laramie-lib 0_p20230918 9999: Implementation for Laramie
+dev-racket/laramie-test 0_p20230918 9999: Tests for Laramie
 dev-racket/latex-pict 0_p20210310 9999: The latex-pict Racket package
 dev-racket/latex-utils 0_p20170815 9999: Some utilities for generating LaTeX markup of various descriptions.
 dev-racket/lathe-comforts 0_p20220306 9999: A collection of utilities.
@@ -788,7 +789,7 @@ dev-racket/lens-lib 0_p20190910 9999: The lens-lib Racket package
 dev-racket/lens-unstable 0_p20190910 9999: Unstable and experimental features for lenses
 dev-racket/levenshtein 9999: Levenshtein Distance Metric
 dev-racket/levintreesearch_cm 0_p20230829 9999: Levin Tree Search with Context Models
-dev-racket/lex-yacc-example 0_p20220518 0_p20230908 9999: Examples for lexer and yacc
+dev-racket/lex-yacc-example 0_p20230908 9999: Examples for lexer and yacc
 dev-racket/libansilove 0_p20230402 9999: FFI to Libansilove
 dev-racket/libargon2 0_p20230516 9999: The libargon2 Racket package
 dev-racket/libb2 0_p20230206 9999: The libb2 Racket package
@@ -801,16 +802,16 @@ dev-racket/libopenal-racket 0_p20171220 9999: Racket wrapper for the OpenAL libr
 dev-racket/libquiche 0_p20210622 9999: The libquiche Racket package
 dev-racket/libserialport 0_p20210723 9999: FFI bindings for the libserialport library.
 dev-racket/libsodium 0_p20230206 9999: Racket bindings for libsodium.
-dev-racket/libsqlite3 0_p20220811 9999: The libsqlite3 Racket package
+dev-racket/libsqlite3 0_p20230928 9999: The libsqlite3 Racket package
 dev-racket/libtoxcore-racket 0_p20170815 9999: A Racket wrapper for the Tox libraries.
 dev-racket/libuuid 0_p20210529 9999: FFI bindings for the libuuid library.
 dev-racket/libxml2 0_p20220508 9999: Racket bindings for libxml2
-dev-racket/libzstd 0_p20230630 0_p20230913 9999: The libzstd Racket package
+dev-racket/libzstd 0_p20231008 9999: The libzstd Racket package
 dev-racket/license-audit 0_p20221202 9999: Audit package licenses (including their dependencies)
 dev-racket/lindenmayer 0_p20230304 9999: The lindenmayer Racket package
 dev-racket/linea 0_p20230224 9999: line-oriented reader
 dev-racket/linear-regression 0_p20221201 9999: Linear Regression implemented in Racket.
-dev-racket/linux-shared-libraries 0_p20200603 9999: The linux-shared-libraries Racket package
+dev-racket/linux-shared-libraries 0_p20230930 9999: The linux-shared-libraries Racket package
 dev-racket/lipics 0_p20170902 9999: Scribble languages for the LIPIcs paper format
 dev-racket/list-plus 0_p20220608 9999: A form that collects values into a list while supporting internal-definitions
 dev-racket/list-util 0_p20220903 9999: Additional List utilities in Typed Racket.
@@ -827,9 +828,9 @@ dev-racket/logo 0_p20190203 9999: A #lang for Logo
 dev-racket/loop 0_p20220608 9999: Advanced named let
 dev-racket/lti-freq-domain-toolbox 0_p20230810 9999: The lti-freq-domain-toolbox Racket package
 dev-racket/lua 0_p20220609 9999: The programming language Lua. Targeting version 5.3.5 (Currently unstable)
-dev-racket/lua-lang 0_p20230709 0_p20230921 9999: A #lang implementation of the Lua programming language. (docs & implementation)
-dev-racket/lua-lib 0_p20230709 0_p20230921 9999: A #lang implementation of the Lua programming language. (implementation only)
-dev-racket/lua-test 0_p20230709 0_p20230921 9999: A #lang implementation of the Lua programming language. (tests only)
+dev-racket/lua-lang 0_p20230921 9999: A #lang implementation of the Lua programming language. (docs & implementation)
+dev-racket/lua-lib 0_p20230921 9999: A #lang implementation of the Lua programming language. (implementation only)
+dev-racket/lua-test 0_p20230921 9999: A #lang implementation of the Lua programming language. (tests only)
 dev-racket/lux 0_p20210602 9999: brilliant interactive programs
 dev-racket/lux-charterm 0_p20171204 9999: a lux chaos for terminal programs
 dev-racket/lwc2016 0_p20200718 9999: PLT submision to the 2016 language workbench challenge
@@ -844,7 +845,7 @@ dev-racket/macrotypes-example 0_p20210416 9999: The macrotypes-example Racket pa
 dev-racket/macrotypes-lib 0_p20210416 9999: Types as macros core api, used to create Turnstile lang
 dev-racket/macrotypes-nonstx 0_p20180503 9999: The macrotypes-nonstx Racket package
 dev-racket/macrotypes-test 0_p20210416 9999: The macrotypes-test Racket package
-dev-racket/maelstrom 0_p20230828 0_p20230913 9999: The maelstrom Racket package
+dev-racket/maelstrom 0_p20231008 9999: The maelstrom Racket package
 dev-racket/magenc 0_p20221128 9999: Symmetric encryption for magnet URIs (code and docs)
 dev-racket/magic-loader 0_p20180615 9999: The magic-loader Racket package
 dev-racket/magnolisp 0_p20170815 9999: The magnolisp Racket package
@@ -901,7 +902,7 @@ dev-racket/mike 0_p20230402 9999: Micro Make replacement
 dev-racket/mime-type 0_p20221212 9999: Utilities for working with MIME types. (docs, tests & implementation)
 dev-racket/mime-type-lib 0_p20221212 9999: Utilities for working with MIME types. (implementation)
 dev-racket/mind-map 0_p20200619 9999: Write and render mind maps in Racket.
-dev-racket/ming 0_p20230906 9999: The ming Racket package
+dev-racket/ming 0_p20231009 9999: The ming Racket package
 dev-racket/mini-theme 0_p20211120 9999: A minimal DrRacket theme
 dev-racket/minikanren 0_p20230705 9999: A Planet 2 package for minikanren
 dev-racket/minikanren-ee 0_p20230221 9999: The minikanren-ee Racket package
@@ -929,13 +930,14 @@ dev-racket/monad 0_p20170815 9999: A generic/polymorphic monad library for Racke
 dev-racket/mongodb 0_p20230105 9999: A native Racket interface to MongoDB & BSON
 dev-racket/monitors 0_p20170817 9999: Java style monitors for Racket objects
 dev-racket/monotonic 0_p20221213 9999: Monotonic time for Racket.
-dev-racket/moonrat 0_p20221016 0_p20230922 9999: The moonrat Racket package
+dev-racket/moonrat 0_p20230922 9999: The moonrat Racket package
 dev-racket/mordae 0_p20230221 9999: Personal utilities, do not use directly!
 dev-racket/morsel-doc 0_p20200622 9999: documentation for morsel-lib
 dev-racket/morsel-lib 0_p20200622 9999: core of Plisqin
 dev-racket/mosquitto-ffi 0_p20170815 9999: An FFI binding of libmosquitto for racket
-dev-racket/mox 0_p20230512 9999: Open XML for Microsoft Office
-dev-racket/mred-designer 0_p20210506 9999: A WYSIWYG GUI generator for Racket
+dev-racket/mox 0_p20230809 9999: Open XML for Microsoft Office
+dev-racket/mqtt-client 0_p20231004 9999: Racket MQTT client implementation based on paho.mqtt.c
+dev-racket/mred-designer 0_p20230926 9999: A WYSIWYG GUI generator for Racket
 dev-racket/msgpack 0_p20230311 9999: Implementation of the MessagePack protocol.
 dev-racket/msgpack-rpc 0_p20191221 9999: A MessagePack-RPC client for Racket
 dev-racket/multi-file-lang 0_p20191202 9999: a #lang language for multiple files in one
@@ -1040,7 +1042,7 @@ dev-racket/parsack 0_p20220712 9999: A basic Parsec (Haskell's monadic parser co
 dev-racket/parsack-doc 0_p20220712 9999: documentation for parsack
 dev-racket/parsack-lib 0_p20220712 9999: core parsack files (no docs or tests)
 dev-racket/parsack-test 0_p20220712 9999: tests and examples for parsack
-dev-racket/parse-qif 0_p20230416 0_p20230907 9999: Basic QIF-parsing code, used to apply categories to downloaded transactions
+dev-racket/parse-qif 0_p20230907 9999: Basic QIF-parsing code, used to apply categories to downloaded transactions
 dev-racket/parser-combinator 0_p20190505 9999: Parser / Lexer Library, and JSON Implementation.
 dev-racket/parted 9999: Interface to GNU Parted Disk Partion Utility
 dev-racket/pcg 0_p20180626 9999: Permuted congruential generators (PCG) in Racket
@@ -1077,7 +1079,7 @@ dev-racket/pkg-push 0_p20191024 9999: The pkg-push Racket package
 dev-racket/pl 9999: Eli's PL course plugin
 dev-racket/plai-lazy 0_p20170815 9999: A lazy variant of the plai language
 dev-racket/plai-typed 0_p20220915 9999: The plai-typed Racket package
-dev-racket/plai-typed-s-exp-match 0_p20170815 9999: Simple S-expression matcher for use with plai-typed
+dev-racket/plai-typed-s-exp-match 0_p20230926 9999: Simple S-expression matcher for use with plai-typed
 dev-racket/plait 0_p20221209 9999: The plait Racket package
 dev-racket/plaitypus 0_p20191217 9999: The plaitypus Racket package
 dev-racket/planet2-example 0_p20170815 9999: An example package for testing purposes
@@ -1089,7 +1091,7 @@ dev-racket/plot-container 0_p20210620 9999: Embed plot snips in Racket GUI appli
 dev-racket/plplot 0_p20230319 9999: FFI bindings to PLplot
 dev-racket/plt-build-plot 0_p20230726 9999: tools to record and plot raco setup memory use
 dev-racket/plt-service-monitor 0_p20221215 9999: service-monitoring and heartbeat tools
-dev-racket/plt-services 0_p20230907 0_p20230913 0_p20230922 9999: The plt-services Racket package
+dev-racket/plt-services 0_p20231014 9999: The plt-services Racket package
 dev-racket/plt-web 0_p20211009 9999: Web-page creation libraries
 dev-racket/plt-web-doc 0_p20211009 9999: documentation part of plt-web
 dev-racket/plt-web-lib 0_p20211009 9999: PLT web page style and generation
@@ -1112,7 +1114,7 @@ dev-racket/pmsf-test 0_p20230705 9999: PMS formatting and parsing functions. Tes
 dev-racket/png-image 0_p20190521 9999: Library to view and modify PNG chunks.
 dev-racket/point-free 0_p20171122 9999: A library for easier and more powerful function composition
 dev-racket/pollen 0_p20230621 9999: Publishing system for web-based books
-dev-racket/pollen-citations-mcgill 0_p20230902 9999: A McGill-style citations system that works within the Pollen publishing system.
+dev-racket/pollen-citations-mcgill 0_p20231013 9999: A McGill-style citations system that works within the Pollen publishing system.
 dev-racket/pollen-component 0_p20230221 9999: Component-based development for Pollen
 dev-racket/pollen-count 0_p20170815 9999: The pollen-count Racket package
 dev-racket/pollen-rock 0_p20190617 9999: An enhanced Pollen server and an in-browser editor for Pollen files
@@ -1123,7 +1125,7 @@ dev-racket/polyglot-doc 0_p20210101 9999: Documentation for polyglot
 dev-racket/polyglot-lib 0_p20210101 9999: Implementation for Polyglot
 dev-racket/polyglot-test 0_p20210101 9999: Tests for Polyglot
 dev-racket/polysemy 0_p20210404 9999: The polysemy Racket package
-dev-racket/pop-pl 0_p20180123 9999: A Patient-Oriented Prescription Programming Language
+dev-racket/pop-pl 0_p20231013 9999: A Patient-Oriented Prescription Programming Language
 dev-racket/popl2012-ryr-talk 0_p20230221 9999: The popl-2012-ryr-talk Racket package
 dev-racket/port-match 0_p20230119 9999: Pattern Matching for Ports
 dev-racket/portage-admin 0_p20230705 9999: A GUI application for inspection of Gentoo-based systems. Metapackage.
@@ -1142,8 +1144,8 @@ dev-racket/pprint 0_p20230309 9999: A universal pretty printing library
 dev-racket/pprint-compact 0_p20220316 9999: A non-greedy pretty printer
 dev-racket/predicates 0_p20211117 9999: The predicates Racket package
 dev-racket/prefab-predicate-compat 0_p20180522 9999: The prefab-predicate-compat Racket package
-dev-racket/preserves 0_p20230721 9999: The preserves Racket package
-dev-racket/pretty-expressive 0_p20230715 0_p20230911 0_p20230922 9999: A pretty expressive printer
+dev-racket/preserves 0_p20231002 9999: The preserves Racket package
+dev-racket/pretty-expressive 0_p20230922 9999: A pretty expressive printer
 dev-racket/pretty-format 0_p20220106 9999: Pretty versions of printf, format, etc. that print according to format strings
 dev-racket/print-debug 0_p20221208 9999: Debugging tool. Use for debug printing variables and expresions.
 dev-racket/priority-queue 0_p20221228 9999: Max priority queue data structure
@@ -1156,7 +1158,7 @@ dev-racket/protobj 9999: Prototype-Delegation Object Model
 dev-racket/protobuf 9999: Protocol Buffer serialization library and ProtoC code generator plugin
 dev-racket/protocol-buffers 0_p20230709 9999: The protocol-buffers Racket package
 dev-racket/protocol-buffers-lib 0_p20230709 9999: The protocol-buffers-lib Racket package
-dev-racket/protocol-buffers-test 0_p20230709 9999: An implementation of the Protocol Buffers proto2 and proto3 specs. (tests only)
+dev-racket/protocol-buffers-test 0_p20231013 9999: An implementation of the Protocol Buffers proto2 and proto3 specs. (tests only)
 dev-racket/psd 0_p20180716 9999: Read (and will write) Photoshop Documents
 dev-racket/punctaffy 0_p20230628 9999: The punctaffy Racket package
 dev-racket/punctaffy-doc 0_p20230628 9999: The punctaffy-doc Racket package
@@ -1173,13 +1175,13 @@ dev-racket/pyffi-lib 0_p20221117 9999: Use Python from Racket.
 dev-racket/python 0_p20170815 9999: An implementation of the Python programming language for Racket
 dev-racket/python-tokenizer 0_p20170815 9999: A fairly direct translation of tokenize.py
 dev-racket/qcr 0_p20230206 9999: A small chat room on tcp.
-dev-racket/qi 0_p20230809 9999: A general-purpose functional DSL.
+dev-racket/qi 0_p20231006 9999: A general-purpose functional DSL.
 dev-racket/qi-cat 0_p20230104 9999: Packages for studying the connections between Qi and Category Theory.
-dev-racket/qi-doc 0_p20230809 9999: A general-purpose functional DSL. [docs only]
-dev-racket/qi-lib 0_p20230809 9999: A general-purpose functional DSL. [implementation only]
-dev-racket/qi-probe 0_p20230809 9999: A circuit tester style debugger for Qi.
+dev-racket/qi-doc 0_p20231013 9999: A general-purpose functional DSL. [docs only]
+dev-racket/qi-lib 0_p20231006 9999: A general-purpose functional DSL. [implementation only]
+dev-racket/qi-probe 0_p20231006 9999: A circuit tester style debugger for Qi.
 dev-racket/qi-quickscripts 0_p20230705 9999: DrRacket integration scripts for the Qi language
-dev-racket/qi-test 0_p20230809 9999: A general-purpose functional DSL. [tests only]
+dev-racket/qi-test 0_p20231006 9999: A general-purpose functional DSL. [tests only]
 dev-racket/qiniu-sdk 0_p20180725 9999: A simple library for qiniu.com
 dev-racket/qresults-list 0_p20200118 9999: enhanced list-box% control
 dev-racket/qtops 0_p20220526 9999: Perform operations on things with qualities
@@ -1197,13 +1199,13 @@ dev-racket/r-cade 0_p20230221 9999: Retro game engine.
 dev-racket/r-lexer 0_p20170815 9999: The r-lexer Racket package
 dev-racket/r-linq 0_p20230221 9999: LINQ implemented in Racket.
 dev-racket/r16 0_p20230527 9999: Community-Driven Interactive Code Evaluation
-dev-racket/r7rs 0_p20230614 9999: An implementation of R7RS as a #lang
-dev-racket/r7rs-lib 0_p20230614 9999: The r7rs-lib Racket package
+dev-racket/r7rs 0_p20231013 9999: An implementation of R7RS as a #lang
+dev-racket/r7rs-lib 0_p20231013 9999: The r7rs-lib Racket package
 dev-racket/raart 0_p20220517 9999: racket ansi art
 dev-racket/rackcheck 0_p20230709 9999: A property-based testing library with shrinking support.
 dev-racket/rackcheck-lib 0_p20230709 9999: A property-based testing library with shrinking support. (implementation)
 dev-racket/rackdis 0_p20170815 9999: Redis bindings
-dev-racket/racket-build-guide 0_p20230907 0_p20230913 0_p20230922 9999: Racket build and contribution documentation
+dev-racket/racket-build-guide 0_p20231014 9999: Racket build and contribution documentation
 dev-racket/racket-cheat 0_p20211009 9999: a user-friendly index into the Racket documentation
 dev-racket/racket-chipmunk 0_p20220321 9999: Chipmunk bindings for Racket.
 dev-racket/racket-cord 0_p20230520 9999: Racket bindings for discord.
@@ -1212,8 +1214,8 @@ dev-racket/racket-glossary 0_p20230615 9999: The racket-glossary Racket package
 dev-racket/racket-graphviz 0_p20191125 9999: Make composition of Racket Pict and Graphviz Diagrams possible.
 dev-racket/racket-immutable 0_p20220107 9999: The racket-immutable Racket package
 dev-racket/racket-lambda-runtime 0_p20220517 9999: The racket-lambda-runtime Racket package
-dev-racket/racket-lang-org 0_p20230908 0_p20230913 0_p20230915 9999: Sources for http://racket-lang.org
-dev-racket/racket-langserver 0_p20230810 0_p20230907 9999: Language Server Protocol implementation for Racket
+dev-racket/racket-lang-org 0_p20231013 9999: Sources for http://racket-lang.org
+dev-racket/racket-langserver 0_p20230907 9999: Language Server Protocol implementation for Racket
 dev-racket/racket-language-server 0_p20200410 9999: Implementation of the Language Server Protocol for Racket.
 dev-racket/racket-llvm 0_p20221019 9999: racket llvm C-API bindings
 dev-racket/racket-locale 0_p20180928 9999: More, and complete, locale tools.
@@ -1336,13 +1338,13 @@ dev-racket/resource-pool 0_p20230709 9999: A generic blocking resource pool. (do
 dev-racket/resource-pool-lib 0_p20230709 9999: A generic blocking resource pool. (implementation)
 dev-racket/response-ext 0_p20220116 9999: Extended HTTP response functions for Racket Web Server
 dev-racket/restore 0_p20170815 9999: protocol for restore program state
-dev-racket/resyntax 0_p20230902 0_p20230910 9999: A refactoring tool built on top of syntax-parse.
+dev-racket/resyntax 0_p20230910 9999: A refactoring tool built on top of syntax-parse.
 dev-racket/retry 0_p20171205 9999: Composable configurable retryers for flakily failing operations.
 dev-racket/review 0_p20230804 9999: A surface-level linter for #lang racket modules.
 dev-racket/rex 0_p20180613 9999: Language for deterministic finite state machines
 dev-racket/rfc3339-old 9999: RFC 3339 Timestamps
 dev-racket/rfc6455 0_p20190714 9999: RFC 6455 WebSockets support for Racket.
-dev-racket/rhombus-prototype 0_p20230906 0_p20230913 0_p20230921 9999: Prototype language as part of the Rhombus project
+dev-racket/rhombus-prototype 0_p20231012 9999: Prototype language as part of the Rhombus project
 dev-racket/ricoeur-kernel 0_p20220925 9999: A standard library for Digital Ricoeur
 dev-racket/ricoeur-tei-utils 0_p20220925 9999: Digital Ricoeur library for TEI XML files
 dev-racket/riff 0_p20170815 9999: riff is a racket wrapper for FLIF
@@ -1366,9 +1368,9 @@ dev-racket/rokit-racket 0_p20210318 9999: The rokit-racket Racket package
 dev-racket/roman-numeral 0_p20210528 9999: Utilities for parsing and writing Roman numerals
 dev-racket/roomba 9999: iRobot Roomba/Create Interface
 dev-racket/rosetta 0_p20220625 9999: The rosetta Racket package
-dev-racket/rosette 0_p20230907 0_p20230915 9999: The Rosette Language
+dev-racket/rosette 0_p20230915 9999: The Rosette Language
 dev-racket/routy 0_p20220830 9999: Routy is a lightweight high performance HTTP request router for Racket.
-dev-racket/rparallel 0_p20230828 0_p20230920 9999: High-level parallel forms
+dev-racket/rparallel 0_p20231012 9999: High-level parallel forms
 dev-racket/rpn 0_p20200531 9999: The rpn Racket package
 dev-racket/rpp 0_p20220831 9999: The rpp Racket package
 dev-racket/rs 0_p20210415 9999: The rs Racket package
@@ -1376,8 +1378,8 @@ dev-racket/rs-l 0_p20200606 9999: Library with loop and event tools for rs (the 
 dev-racket/rsa 0_p20160929 9999: An rsa encryption library for racket
 dev-racket/rsc3 0_p20211127 9999: The rsc3 SuperCollider client ported to Racket
 dev-racket/rsharp 0_p20220728 9999: attempt at create c# - like syntax for teaching purposes
-dev-racket/rsound 0_p20230119 9999: The rsound Racket package
-dev-racket/rsvg 0_p20230309 0_p20230917 9999: FFI bindings to libRSVG, a library for loading SVG documents
+dev-racket/rsound 0_p20231003 9999: The rsound Racket package
+dev-racket/rsvg 0_p20230917 9999: FFI bindings to libRSVG, a library for loading SVG documents
 dev-racket/rtlv 0_p20230305 9999: Tools for reasoning about circuits in Rosette/Racket
 dev-racket/rtmidi 0_p20210329 9999: The rtmidi Racket package
 dev-racket/rtnl 0_p20170815 9999: Racket FFI Bindings for the Route-Netlink Library
@@ -1402,7 +1404,7 @@ dev-racket/sass 0_p20230119 9999: Bindings to libsass.
 dev-racket/sat 0_p20220108 9999: A simple SAT solver based on DPLL.
 dev-racket/satore 0_p20220628 9999: The satore Racket package
 dev-racket/sau-cptr405 9999: SAU CPTR-405 W20 handin plugin for DrRacket
-dev-racket/sauron 0_p20230701 9999: A DrRacket plugin to make it experience like an IDE
+dev-racket/sauron 0_p20230930 9999: A DrRacket plugin to make it experience like an IDE
 dev-racket/sawzall 0_p20211101 9999: A grammar for data wrangling
 dev-racket/sawzall-doc 0_p20211101 9999: Documentation for Sawzall
 dev-racket/sawzall-lib 0_p20211101 9999: A grammar for data wrangling (no documentation)
@@ -1424,9 +1426,9 @@ dev-racket/scribble-abbrevs 0_p20220915 9999: Scribble-to-LaTeX helper functions
 dev-racket/scribble-bettergrammar 0_p20230223 9999: The scribble-bettergrammar Racket package
 dev-racket/scribble-bettergrammar-doc 0_p20230223 9999: The scribble-bettergrammar-doc Racket package
 dev-racket/scribble-bettergrammar-lib 0_p20230223 9999: The scribble-bettergrammar-lib Racket package
-dev-racket/scribble-cheatsheet 0_p20230330 9999: Quick reference for Scribble
-dev-racket/scribble-code-examples 0_p20230704 9999: A scribble examples form that works with non-s-exp languages
-dev-racket/scribble-code-examples-lib 0_p20230704 9999: A scribble examples form that works with non-s-exp languages
+dev-racket/scribble-cheatsheet 0_p20231009 9999: Quick reference for Scribble
+dev-racket/scribble-code-examples 0_p20230927 9999: A scribble examples form that works with non-s-exp languages
+dev-racket/scribble-code-examples-lib 0_p20230927 9999: A scribble examples form that works with non-s-exp languages
 dev-racket/scribble-enhanced 0_p20210404 9999: The scribble-enhanced Racket package
 dev-racket/scribble-frog-helper 0_p20220518 9999: scribble helper functions especially for writing blogs with frog
 dev-racket/scribble-include-text 0_p20221101 9999: Put the contents of a file directly in a Scribble doc
@@ -1454,10 +1456,10 @@ dev-racket/semver 0_p20200816 9999: An implementation of the semver (semantic ve
 dev-racket/send-exp 0_p20180830 9999: Terse syntax for object-oriented message sending
 dev-racket/sendinblue 0_p20230308 9999: A client for the Sendinblue transactional email API.
 dev-racket/sendinblue-test 0_p20230308 9999: A client for the Sendinblue transactional email API. (tests only)
-dev-racket/sentry 0_p20230709 9999: A Sentry SDK for Racket. (docs and implementation)
-dev-racket/sentry-doc 0_p20230709 9999: A Sentry SDK for Racket. (docs only)
-dev-racket/sentry-lib 0_p20230709 9999: A Sentry SDK for Racket. (implementation only)
-dev-racket/sentry-test 0_p20230709 9999: A Sentry SDK for Racket. (tests only)
+dev-racket/sentry 0_p20231005 9999: A Sentry SDK for Racket. (docs and implementation)
+dev-racket/sentry-doc 0_p20231005 9999: A Sentry SDK for Racket. (docs only)
+dev-racket/sentry-lib 0_p20231005 9999: A Sentry SDK for Racket. (implementation only)
+dev-racket/sentry-test 0_p20231005 9999: A Sentry SDK for Racket. (tests only)
 dev-racket/seq 0_p20230411 9999: A generic, isomorphic, sequence library.
 dev-racket/seq-doc 0_p20230411 9999: A generic, isomorphic, sequence library. [docs only]
 dev-racket/seq-lib 0_p20230411 9999: A generic, isomorphic, sequence library. [implementation only]
@@ -1481,7 +1483,7 @@ dev-racket/sha 0_p20221125 9999: SHA-1 and SHA-2, via FFI to OpenSSL.
 dev-racket/shell-pipeline 0_p20230224 9999: Shell pipeline library
 dev-racket/shlex 0_p20220608 9999: shlex for Racket: Simple lexical analysis
 dev-racket/shootout 9999: Expression Performance Comparison
-dev-racket/shplait 0_p20230906 0_p20230913 0_p20230921 9999: The shplait Racket package
+dev-racket/shplait 0_p20231012 9999: The shplait Racket package
 dev-racket/sicp 0_p20230701 9999: SICP Support for DrRacket
 dev-racket/signature 0_p20170815 9999: Syntax and utilities for writing function contracts as signatures
 dev-racket/simple-barcode 0_p20221221 9999: Barcode tool
@@ -1504,7 +1506,7 @@ dev-racket/sl2014 0_p20170815 9999: The sl2014 Racket package
 dev-racket/slack-api 0_p20170815 9999: Racket bindings for the Slack API
 dev-racket/slack-archive-viewer 0_p20230206 9999: Generate a static site to view slack archives
 dev-racket/slib-format 0_p20230724 9999: SLIB's Common Lisp compatible format
-dev-racket/slide-easy 0_p20230620 0_p20230909 9999: Create slides and templates easily
+dev-racket/slide-easy 0_p20230909 9999: Create slides and templates easily
 dev-racket/slideshow-latex 0_p20230706 9999: Slideshow extensions to embed LaTeX and math, as well as other goodies
 dev-racket/slideshow-pretty 0_p20170815 9999: Slideshow extensions to add pretty transitions between slides.
 dev-racket/slideshow-repl 0_p20190822 9999: The slideshow-repl Racket package
@@ -1512,10 +1514,10 @@ dev-racket/slideshow-text-style 0_p20210726 9999: Small library that helps with 
 dev-racket/smart-completion 0_p20190224 9999: The smart-completion Racket package
 dev-racket/sml 0_p20230418 9999: S-Markup Language
 dev-racket/smtp 0_p20220226 9999: A practical library to send emails using SMTP protocol
-dev-racket/smtp-server 0_p20230710 9999: An implementation of RFC5321 for Racket. (docs & implementation)
+dev-racket/smtp-server 0_p20230927 9999: An implementation of RFC5321 for Racket. (docs & implementation)
 dev-racket/smtp-server-test 0_p20230710 9999: An implementation of RFC5321 for Racket. (tests only)
 dev-racket/snack 9999: The snack Racket package
-dev-racket/snappy 0_p20170815 9999: FFI bindings to snappy, a fast compression library
+dev-racket/snappy 0_p20230930 9999: FFI bindings to snappy, a fast compression library
 dev-racket/snappy-lib 0_p20230709 9999: A pure-Racket decompressor for Snappy data. (implementation only)
 dev-racket/snappy-rkt 0_p20230709 9999: A pure-Racket decompressor for Snappy data. (docs & implementation)
 dev-racket/snappy-test 0_p20230709 9999: A pure-Racket decompressor for Snappy data. (tests only)
@@ -1525,14 +1527,14 @@ dev-racket/softposit-herbie 0_p20220613 9999: SoftPosit support for Herbie
 dev-racket/softposit-rkt 0_p20220613 9999: The softposit-rkt Racket package
 dev-racket/sonic-pi 0_p20170815 9999: The sonic-pi Racket package
 dev-racket/soundex 9999: Soundex Index Keying
-dev-racket/soup-lib 0_p20230703 0_p20230913 0_p20230920 9999: Assorted things too minor to go into packages of their own
+dev-racket/soup-lib 0_p20230920 9999: Assorted things too minor to go into packages of their own
 dev-racket/spacemacs-theme 0_p20230119 9999: Spacemacs lite and dark color themes for DrRacket.
 dev-racket/sparse 0_p20181129 9999: The sparse Racket package
 dev-racket/spipe 0_p20181104 9999: A 'super-pipe' that threads over Racket hash-tables
 dev-racket/split-by 0_p20170815 9999: The split-by function from Mathematica
-dev-racket/splitflap 0_p20230513 9999: Atom and RSS feed generation
-dev-racket/splitflap-doc 0_p20230513 9999: Documentation for splitflap
-dev-racket/splitflap-lib 0_p20230513 9999: Implementation of splitflap
+dev-racket/splitflap 0_p20231013 9999: Atom and RSS feed generation
+dev-racket/splitflap-doc 0_p20231013 9999: Documentation for splitflap
+dev-racket/splitflap-lib 0_p20231013 9999: Implementation of splitflap
 dev-racket/spmatrix 0_p20170815 9999: Semi-persistent matrices based on spvectors
 dev-racket/spreadsheet-editor 0_p20230907 9999: Flexible spreadsheet editor built on top of Racket's GUI controls
 dev-racket/spvector 0_p20230618 9999: The spvector Racket package
@@ -1540,12 +1542,12 @@ dev-racket/sql 0_p20220324 9999: an S-expression notation for SQL
 dev-racket/sql-sourcery 0_p20190209 9999: The sql-sourcery Racket package
 dev-racket/sqlite-table 0_p20171205 9999: The sqlite-table Racket package
 dev-racket/squicky 9999: A parser for a wiki syntax (a mild extension of WikiCreole)
-dev-racket/srfi-doc-nonfree 0_p20230216 0_p20230918 9999: The srfi-doc-nonfree Racket package
-dev-racket/srfi-lib-nonfree 0_p20230216 0_p20230918 9999: parts of srfi implementation that are licensed restrictively
+dev-racket/srfi-doc-nonfree 0_p20230918 9999: The srfi-doc-nonfree Racket package
+dev-racket/srfi-lib-nonfree 0_p20230918 9999: parts of srfi implementation that are licensed restrictively
 dev-racket/ss-rpc-server 0_p20170815 9999: RPC for using Racket as GNU Emacs extension language
 dev-racket/sse 0_p20220903 9999: Server Sent Events for Racket
 dev-racket/ssh-hack 0_p20221231 9999: A simple Dgamelaunch client
-dev-racket/stacker 0_p20230724 0_p20230912 9999: The Stacker Racket package
+dev-racket/stacker 0_p20230912 9999: The Stacker Racket package
 dev-racket/staged-slide 0_p20230403 9999: Helpers for building staged slides in Slideshow
 dev-racket/stardate 0_p20230403 9999: Compute the current TNG stardate.
 dev-racket/static-rename 0_p20230403 9999: The static-rename Racket package
@@ -1559,7 +1561,7 @@ dev-racket/stomp 0_p20180927 9999: STOMP messaging protocol codec and client
 dev-racket/stream-etc 0_p20221006 9999: Miscellaneous stream operations.
 dev-racket/stream-values 0_p20220618 9999: A library for multiple values manipulation in streams
 dev-racket/stretchable-snip 0_p20190429 9999: Racket library for stretchable (scalable) editor snips
-dev-racket/string-constants-lib-lgpl 0_p20230505 0_p20230911 0_p20230916 9999: The string-constants-lib-lgpl Racket package
+dev-racket/string-constants-lib-lgpl 0_p20230916 9999: The string-constants-lib-lgpl Racket package
 dev-racket/string-interpolation 0_p20230306 9999: String interpolation syntax in string literals
 dev-racket/string-searchers 0_p20221104 9999: String search algorithms
 dev-racket/string-sexpr 0_p20170815 9999: a supplementary package for Fundamentals I
@@ -1593,9 +1595,9 @@ dev-racket/sxml-intro 9999: SXML in Racket: Tools for XML and HTML
 dev-racket/symalg 0_p20180401 9999: Expressing and manipulating symbolic algebraic expressions in Racket.
 dev-racket/syncvar 0_p20230608 9999: A library of synchronous variables.
 dev-racket/syncvar-lib 0_p20230608 9999: A library of synchronous variables.
-dev-racket/syndicate 0_p20230211 9999: The syndicate Racket package
+dev-racket/syndicate 0_p20231012 9999: The syndicate Racket package
 dev-racket/syndicate-classic 0_p20230214 9999: The syndicate-classic Racket package
-dev-racket/synology-decrypt 0_p20230828 0_p20230918 9999: The synology-decrypt Racket package
+dev-racket/synology-decrypt 0_p20230918 9999: The synology-decrypt Racket package
 dev-racket/syntax-class-or 0_p20180801 9999: Combining syntax classes together as multiple variants
 dev-racket/syntax-classes 0_p20220412 9999: Additional useful syntax classes for use with syntax/parse
 dev-racket/syntax-classes-doc 0_p20230404 9999: The syntax-classes-doc Racket package
@@ -1657,19 +1659,19 @@ dev-racket/threading-lib 0_p20221016 9999: The threading-lib Racket package
 dev-racket/thrift 0_p20181205 9999: Support for the Apache Thrift messaging framework
 dev-racket/tightlight 9999: The tightlight Racket package
 dev-racket/timable 0_p20210921 9999: The timable Racket package
-dev-racket/tinybasic 0_p20230526 9999: TinyBASIC (Install this package for all goodies)
-dev-racket/tinybasic-doc 0_p20230526 9999: TinyBASIC (Documentation only)
-dev-racket/tinybasic-examples 0_p20230526 9999: TinyBASIC (Examples only)
-dev-racket/tinybasic-lib 0_p20230526 9999: TinyBASIC (Implementation)
+dev-racket/tinybasic 0_p20230923 9999: TinyBASIC (Install this package for all goodies)
+dev-racket/tinybasic-doc 0_p20230923 9999: TinyBASIC (Documentation only)
+dev-racket/tinybasic-examples 0_p20230923 9999: TinyBASIC (Examples only)
+dev-racket/tinybasic-lib 0_p20230923 9999: TinyBASIC (Implementation)
 dev-racket/tjson 0_p20220903 9999: Basic Typed Racket Json Parser and Emitter
 dev-racket/tmux-vim-demo 0_p20230206 9999: A #lang for writing and running scripted demos with tmux and vim
 dev-racket/todo-list 0_p20180930 9999: A list of goals + interactive commands for solving them in DrRacket
 dev-racket/todo-txt 0_p20230527 9999: The todo-txt Racket package
 dev-racket/tomato-timer 0_p20211025 9999: Command-line timer
-dev-racket/toml 0_p20230903 0_p20230908 9999: TOML Library (Install this for all TOML goodies)
-dev-racket/toml-compliance 0_p20230903 0_p20230908 9999: Toml Library (scripts to drive toml-test compliance suite)
-dev-racket/toml-doc 0_p20230905 0_p20230908 9999: Documentation for TOML library
-dev-racket/toml-lib 0_p20230903 0_p20230908 9999: TOML Library (library component)
+dev-racket/toml 0_p20230927 9999: TOML Library (Install this for all TOML goodies)
+dev-racket/toml-compliance 0_p20230927 9999: Toml Library (scripts to drive toml-test compliance suite)
+dev-racket/toml-doc 0_p20230927 9999: Documentation for TOML library
+dev-racket/toml-lib 0_p20230927 9999: TOML Library (library component)
 dev-racket/towers 0_p20211101 9999: The GUI client interface for the Towers game.
 dev-racket/towers-lib 0_p20211101 9999: Library for the Towers game.
 dev-racket/towers-server 0_p20211101 9999: The server for the Towers game. Not required to play.
@@ -1704,8 +1706,8 @@ dev-racket/txexpr-stxparse 0_p20220107 9999: syntax-parse patterns for parsing T
 dev-racket/type-conventions 0_p20170815 9999: Forms for giving specific argument names implicit types
 dev-racket/type-expander 0_p20211111 9999: Type expanders for typed/racket, which work like match expanders for match
 dev-racket/typed-colorize 0_p20230312 9999: Typed Racket interface to the colorize package
-dev-racket/typed-compose 0_p20210930 9999: Utilities for composing functions in Typed Racket.
-dev-racket/typed-graph 0_p20220105 9999: Typed interface for the generic graph library.
+dev-racket/typed-compose 0_p20230929 9999: Utilities for composing functions in Typed Racket.
+dev-racket/typed-graph 0_p20230929 9999: Typed interface for the generic graph library.
 dev-racket/typed-ini-lib 0_p20230825 9999: Racket parser for Ini and UNIX Conf files. Typed interface.
 dev-racket/typed-map 0_p20210404 9999: The typed-map Racket package
 dev-racket/typed-map-doc 0_p20210404 9999: Documentation for typed-map
@@ -1767,7 +1769,7 @@ dev-racket/uri-old 9999: Web URI and URL
 dev-racket/uri-template 0_p20180703 9999: Implementation of RFC 6570 (URI Template).
 dev-racket/urlang 0_p20230531 9999: The urlang Racket package
 dev-racket/used-imports 0_p20230515 9999: The used-imports Racket package
-dev-racket/uu-cs3520 0_p20230905 0_p20230913 0_p20230920 9999: Utah CS 3520 homework submission plugin for DrRacket
+dev-racket/uu-cs3520 0_p20230920 9999: Utah CS 3520 homework submission plugin for DrRacket
 dev-racket/uu-cs5510 0_p20170815 9999: Utah CS 5510 homework submission plugin for DrRacket
 dev-racket/uuid 0_p20230624 9999: Generate cryptographically-random UUIDs in pure Racket
 dev-racket/uwaterloo-racket-tools 0_p20221204 9999: The uwaterloo-racket-tools Racket package
@@ -1797,7 +1799,7 @@ dev-racket/vk 0_p20221024 9999: The package allows to make some requests to vk.c
 dev-racket/vlc 9999: VideoLAN VLC Media Player Control
 dev-racket/vscode-dark-theme 0_p20220101 9999: VSCode default dark theme for DrRacket
 dev-racket/vulkan 0_p20230830 9999: Vulkan API integration.
-dev-racket/w3s 0_p20221105 0_p20230216: W3 Standards Implemented in Typed Racket
+dev-racket/w3s 0_p20230216 0_p20230902: W3 Standards Implemented in Typed Racket
 dev-racket/wasm-lib 0_p20230526 9999: WIP Wasm tooling for Racket.
 dev-racket/wavelet-transform-haar1d 0_p20170815 9999: A library to perform forward and reverse 1-d Haar Wavelet transforms
 dev-racket/wavenet 0_p20230101 9999: An interface for the Google Cloud text-to-speech API
@@ -1825,7 +1827,7 @@ dev-racket/x509-lib 0_p20220621 9999: Support for X.509 certificates.
 dev-racket/x64asm 0_p20210406 9999: a simple x64 assembler written in Typed Racket
 dev-racket/x64asm-doc 0_p20210406 9999: The x64asm-doc Racket package
 dev-racket/x64asm-lib 0_p20210406 9999: a simple x64 assembler written in Typed Racket
-dev-racket/xe 0_p20191006 0_p20230908 9999: xexpr XML and HTML utilities, plus traversal and filtering
+dev-racket/xe 0_p20230908 9999: xexpr XML and HTML utilities, plus traversal and filtering
 dev-racket/xenomorph 0_p20230320 9999: binary encoder [in development]
 dev-racket/xexpr-path 0_p20170815 9999: XML Expression Path Lookup
 dev-racket/xfunctions 0_p20180108 9999: Extended Functional Combinators
@@ -1837,11 +1839,11 @@ dev-racket/xml-html 0_p20180617 9999: The xml-html Racket package
 dev-racket/xml-rpc 0_p20220126 9999: A native Racket XML-RPC client and server library
 dev-racket/xmlns 0_p20171021 9999: XML namespace support
 dev-racket/xmpp 0_p20220903 9999: An XMPP library.
-dev-racket/xsmith 0_p20230823 0_p20230910 9999: Generator of highly effective fuzz testers.
+dev-racket/xsmith 0_p20230910 9999: Generator of highly effective fuzz testers.
 dev-racket/xxhash 0_p20230709 9999: An implementation of the xxHash digest algorithm. (docs & implementation)
 dev-racket/xxhash-lib 0_p20230709 9999: An implementation of the xxHash digest algorithm. (implementation only)
 dev-racket/xxhash-test 0_p20230709 9999: An implementation of the xxHash digest algorithm. (tests only)
-dev-racket/yaml 0_p20210221 9999: A library for parsing and emitting YAML.
+dev-racket/yaml 0_p20230928 9999: A library for parsing and emitting YAML.
 dev-racket/yaragg 0_p20230902 9999: Yet another Racket AST generator generator.
 dev-racket/yijing 0_p20220720 9999: Chinese Yijing Icons.
 dev-racket/yotsubapi 0_p20230119 9999: A Racket Client for the 4chan API
@@ -1863,7 +1865,7 @@ dev-racket/zmq 0_p20170815 9999: Minimal Racket ZeroMQ Bindings
 dev-racket/zordoz 0_p20230119 9999: Explorer for .zo bytecode files
 dev-racket/zstd 0_p20230527 9999: The zstd Racket package
 dev-racket/zubat 0_p20221101 9999: The zubat Racket package
-dev-racket/zuo-doc 0_p20230907 0_p20230913 0_p20230922 9999: Documentation for the Zuo language
+dev-racket/zuo-doc 0_p20231014 9999: Documentation for the Zuo language
 dev-scheme/racket 8.5_p20220705: General purpose, multi-paradigm Lisp-Scheme programming language
 sys-apps/racket-compiler 1.0.0: Small tool to compile Racket source code
 sys-apps/racket-maints 1.1.1 9999: Racket Maintenance Scripts

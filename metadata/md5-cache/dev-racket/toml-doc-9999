@@ -1,4 +1,4 @@
-BDEPEND=dev-racket/toml-lib >=dev-vcs/git-1.8.2.1[curl] >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/gregor-doc dev-racket/toml-lib >=dev-vcs/git-1.8.2.1[curl] >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
 DESCRIPTION=Documentation for TOML library
 EAPI=8
@@ -7,7 +7,7 @@ INHERIT=gh racket
 IUSE=doc
 LICENSE=BSD-2
 PROPERTIES=live
-RDEPEND=dev-racket/toml-lib >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/gregor-doc dev-racket/toml-lib >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 _eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991	gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=5dfb2a1e2261b46d7a9f951c2935c727
+_md5_=2d07e33457266e15633489ef7b287828

@@ -10,10 +10,12 @@ inherit gh racket
 
 DESCRIPTION="Miscellaneous contracts."
 HOMEPAGE="https://github.com/camoy/contract-etc"
+S="${S}/contract-etc"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/chk-lib"
+RDEPEND="dev-racket/chk-lib
+	dev-racket/contract-etc-lib"
 BDEPEND="${RDEPEND}"

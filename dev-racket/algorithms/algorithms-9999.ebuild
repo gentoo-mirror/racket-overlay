@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="The algorithms Racket package"
 HOMEPAGE="https://github.com/codereport/racket-algorithms"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
-RESTRICT="mirror"

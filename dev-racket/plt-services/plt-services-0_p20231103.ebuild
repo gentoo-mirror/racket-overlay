@@ -5,17 +5,15 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="racket/racket"
-GH_COMMIT="feb3f1967ce48ff7a7e71bac1710066f98061db9"
+GH_COMMIT="17817fd2744dec8d07d4d936319af2338b865c5c"
 
 inherit gh racket
 
-DESCRIPTION="Racket build and contribution documentation"
+DESCRIPTION="The plt-services Racket package"
 HOMEPAGE="https://github.com/racket/racket"
-S="${S}/pkgs/racket-build-guide"
+S="${S}/pkgs/plt-services"
 
-LICENSE="|| ( Apache-2.0 MIT )"
+LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
-
-RDEPEND="dev-racket/distro-build-doc"
-BDEPEND="${RDEPEND}"
+RESTRICT="mirror"

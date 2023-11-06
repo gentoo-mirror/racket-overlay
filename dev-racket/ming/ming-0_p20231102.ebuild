@@ -4,16 +4,18 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racket/racket"
-GH_COMMIT="feb3f1967ce48ff7a7e71bac1710066f98061db9"
+GH_REPO="yanyingwang/ming"
+GH_COMMIT="c350334bb30fc6f6e5e8379adb8b17ffa3079a23"
 
 inherit gh racket
 
-DESCRIPTION="The plt-services Racket package"
-HOMEPAGE="https://github.com/racket/racket"
-S="${S}/pkgs/plt-services"
+DESCRIPTION="The ming Racket package"
+HOMEPAGE="https://github.com/yanyingwang/ming"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/scribble-rainbow-delimiters"
+BDEPEND="${RDEPEND}"

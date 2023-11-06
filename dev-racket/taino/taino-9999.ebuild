@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="HTMX, Racket, and ClickHouse Framework"
 HOMEPAGE="https://github.com/juliojimenez/taino"
 
-LICENSE="all-rights-reserved"
+LICENSE="Apache-2.0"
 SLOT="0"
-RESTRICT="mirror"

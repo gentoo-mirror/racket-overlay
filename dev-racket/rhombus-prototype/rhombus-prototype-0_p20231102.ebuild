@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="racket/rhombus-prototype"
-GH_COMMIT="b80c0ed9723381baef155f609b6d9adcc92c0d3e"
+GH_COMMIT="0e876c224c834fc76bfb8b07e309cc55ac58d658"
 
 inherit gh racket
 

@@ -4,14 +4,13 @@
 EAPI=8
 
 GH_DOM="gitlab.com"
-GH_REPO="preserves/preserves"
-GH_COMMIT="ad3da3896b2b6d052fcb0dbc55324e6c80f371a0"
+GH_REPO="RayRacine/bluetooth-socket"
+GH_COMMIT="bd48368028d2b0e69ba96399d2771d163d40cf46"
 
 inherit gh racket
 
-DESCRIPTION="The preserves Racket package"
-HOMEPAGE="https://gitlab.com/preserves/preserves"
-S="${S}/implementations/racket/preserves"
+DESCRIPTION="The bluetooth-socket Racket package"
+HOMEPAGE="https://gitlab.com/RayRacine/bluetooth-socket"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

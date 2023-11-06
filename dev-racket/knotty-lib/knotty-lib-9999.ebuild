@@ -17,6 +17,9 @@ SLOT="0"
 
 RDEPEND="dev-racket/br-parser-tools
 	dev-racket/brag
+	dev-racket/html-parsing
+	dev-racket/html-template
+	dev-racket/html-writing
 	dev-racket/named-arguments
 	dev-racket/sweet-exp-lib
 	dev-racket/sxml

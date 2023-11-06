@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="t0mpr1c3/knotty"
-GH_COMMIT="c5e4a5faf68ef3b6dde369426cf1ffc6dbc522c5"
+GH_COMMIT="d599a8da954e2b2409a4584573b606e313d73a1c"
 
 inherit gh racket
 

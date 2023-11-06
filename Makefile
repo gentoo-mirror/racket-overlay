@@ -94,7 +94,7 @@ public:
 # Regenerate metadata/md5-cache on demand.
 .PHONY: egencache
 egencache:
-	PORATGE_REPOSITORIES="[racket-overlay] location = $(PWD)" \
+	PORTAGE_REPOSITORIES="[racket-overlay] location = $(PWD)" \
 		$(EGENCACHE) $(EGENCACHE_FLAGS)
 
 # Regenerate the system eix cache database.

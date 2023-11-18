@@ -15,5 +15,6 @@ S="${S}/lua-test"
 LICENSE="BSD"
 SLOT="0"
 
-RDEPEND="dev-racket/lua-lib"
+RDEPEND="dev-racket/lua-lib
+	dev-racket/rackcheck-lib"
 BDEPEND="${RDEPEND}"

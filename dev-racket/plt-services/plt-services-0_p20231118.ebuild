@@ -4,13 +4,14 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="Lonero-Team/Racket-Package"
-GH_COMMIT="0a28f3077bddb113ac45eeb9a889c566b4fa8f0f"
+GH_REPO="racket/racket"
+GH_COMMIT="c90eb54541cec1822c17bc8b33aaba0faaaec45d"
 
 inherit gh racket
 
-DESCRIPTION="A package for building distributed computing projects"
-HOMEPAGE="https://github.com/Lonero-Team/Racket-Package"
+DESCRIPTION="The plt-services Racket package"
+HOMEPAGE="https://github.com/racket/racket"
+S="${S}/pkgs/plt-services"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

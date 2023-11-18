@@ -4,16 +4,19 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racket/racket"
-GH_COMMIT="f2880cd0b88c31165789f17d83bc3938a32757a1"
+GH_REPO="REA1/karp"
+GH_COMMIT="cd8ff66ab6b7c5fd45a968cfbec70ac3a5ac4021"
 
 inherit gh racket
 
-DESCRIPTION="The plt-services Racket package"
-HOMEPAGE="https://github.com/racket/racket"
-S="${S}/pkgs/plt-services"
+DESCRIPTION="A language for NP-Reductions"
+HOMEPAGE="https://github.com/REA1/karp"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/rosette
+	dev-racket/scribble-math"
+BDEPEND="${RDEPEND}"

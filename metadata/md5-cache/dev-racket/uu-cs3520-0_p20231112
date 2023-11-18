@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/rhombus-prototype dev-racket/shplait >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Utah CS 3520 homework submission plugin for DrRacket
+EAPI=8
+HOMEPAGE=https://github.com/mflatt/uu-cs3520
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/rhombus-prototype dev-racket/shplait >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/mflatt/uu-cs3520/archive/9c7899c2de0e59f77d8a5489bc0608c6d1004729.tar.gz -> uu-cs3520-0_p20231112.tar.gz
+_eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=82670728ea840abe3099b45eac3585bd

@@ -16,7 +16,7 @@ LICENSE="LGPL-3+"
 SLOT="0"
 
 RDEPEND="dev-racket/br-parser-tools
-	dev-racket/brag
+	dev-racket/brag-lib
 	dev-racket/html-parsing
 	dev-racket/html-template
 	dev-racket/html-writing

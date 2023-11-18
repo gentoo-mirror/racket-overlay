@@ -4,14 +4,14 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racket/racket"
-GH_COMMIT="f2880cd0b88c31165789f17d83bc3938a32757a1"
+GH_REPO="willghatch/racket-rash"
+GH_COMMIT="494f2284f01a30485521697b11b83a133dcb51d7"
 
 inherit gh racket
 
-DESCRIPTION="Creates Chez Scheme boot files from source"
-HOMEPAGE="https://github.com/racket/racket"
-S="${S}/racket/src/rktboot"
+DESCRIPTION="Shell pipeline library"
+HOMEPAGE="https://github.com/willghatch/racket-rash"
+S="${S}/shell-pipeline"
 
 LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"

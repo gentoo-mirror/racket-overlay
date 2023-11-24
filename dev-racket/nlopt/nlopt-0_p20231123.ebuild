@@ -4,14 +4,13 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racket/racket"
-GH_COMMIT="f81671d6c9776ec970d5af6e39c21d8672e5652f"
+GH_REPO="jkominek/nlopt"
+GH_COMMIT="05e4c0333c405cc64757930965b320220ee3a62c"
 
 inherit gh racket
 
-DESCRIPTION="The plt-services Racket package"
-HOMEPAGE="https://github.com/racket/racket"
-S="${S}/pkgs/plt-services"
+DESCRIPTION="FFI wrapper for the NLopt nonlinear optimization library."
+HOMEPAGE="https://github.com/jkominek/nlopt"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

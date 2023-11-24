@@ -4,13 +4,14 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="hrvoje064/math-quiz-jasna"
-GH_COMMIT="d455aab7e84ed02fcb4affb0f612b41c3dbe4538"
+GH_REPO="racket/drracket"
+GH_COMMIT="edc80d6206c1457b26ae3525a103202310ac205e"
 
 inherit gh racket
 
-DESCRIPTION="Math-quiz for grade 1,2,3, ... (elementary school)"
-HOMEPAGE="https://github.com/hrvoje064/math-quiz-jasna"
+DESCRIPTION="The drracket-tool-text-lib Racket package"
+HOMEPAGE="https://github.com/racket/drracket"
+S="${S}/drracket-tool-text-lib"
 
 LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"

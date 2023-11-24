@@ -5,14 +5,17 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="racket/racket"
-GH_COMMIT="f81671d6c9776ec970d5af6e39c21d8672e5652f"
+GH_COMMIT="4aa0d55c25785e96196948da7f83c88b024a6c4f"
 
 inherit gh racket
 
-DESCRIPTION="Racket's implementation of macros, modules, and top-level evaluation"
+DESCRIPTION="Racket build and contribution documentation"
 HOMEPAGE="https://github.com/racket/racket"
-S="${S}/racket/src/expander"
+S="${S}/pkgs/racket-build-guide"
 
 LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
+
+RDEPEND="dev-racket/distro-build-doc"
+BDEPEND="${RDEPEND}"

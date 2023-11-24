@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="gitlab.com"
 GH_REPO="preserves/preserves"
-GH_COMMIT="4b40bf174d8dfae544dcd47b1d17eeba96de0ff8"
+GH_COMMIT="aea735bb4e73c62d0772f12674f24a9a50ec99ed"
 
 inherit gh racket
 

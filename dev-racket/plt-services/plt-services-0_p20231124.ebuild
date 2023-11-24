@@ -5,14 +5,15 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="racket/racket"
-GH_COMMIT="f81671d6c9776ec970d5af6e39c21d8672e5652f"
+GH_COMMIT="4aa0d55c25785e96196948da7f83c88b024a6c4f"
 
 inherit gh racket
 
-DESCRIPTION="Creates Chez Scheme boot files from source"
+DESCRIPTION="The plt-services Racket package"
 HOMEPAGE="https://github.com/racket/racket"
-S="${S}/racket/src/rktboot"
+S="${S}/pkgs/plt-services"
 
-LICENSE="|| ( Apache-2.0 MIT )"
+LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
+RESTRICT="mirror"

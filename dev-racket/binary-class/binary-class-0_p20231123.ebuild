@@ -4,13 +4,13 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="wargrey/digimon"
-GH_COMMIT="399e6c394a69c9d16526f23805a5ce571203cc5c"
+GH_REPO="Kalimehtar/binary-class"
+GH_COMMIT="6eaf37b5de716d377c3c6ab4658addc5ae70bd45"
 
 inherit gh racket
 
-DESCRIPTION="The (typed) core to construct the digital world"
-HOMEPAGE="https://github.com/wargrey/digimon"
+DESCRIPTION="Classes for writing and reading binary data"
+HOMEPAGE="https://github.com/Kalimehtar/binary-class"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

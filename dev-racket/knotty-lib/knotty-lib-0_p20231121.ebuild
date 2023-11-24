@@ -5,7 +5,7 @@ EAPI=8
 
 GH_DOM="github.com"
 GH_REPO="t0mpr1c3/knotty"
-GH_COMMIT="8a2f9e0049be6dcbad53d7091de128a6483fa26c"
+GH_COMMIT="73654d463f2e0224ad32610a72c38c4770578376"
 
 inherit gh racket
 
@@ -18,7 +18,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 
 RDEPEND="dev-racket/br-parser-tools
-	dev-racket/brag
+	dev-racket/brag-lib
+	dev-racket/html-parsing
+	dev-racket/html-template
+	dev-racket/html-writing
 	dev-racket/named-arguments
 	dev-racket/sweet-exp-lib
 	dev-racket/sxml

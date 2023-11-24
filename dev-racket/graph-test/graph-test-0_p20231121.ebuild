@@ -4,18 +4,19 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="mflatt/shplait"
-GH_COMMIT="4c2ab9fbf38cc84e9eb545796ed551e019bad0af"
+GH_REPO="stchang/graph"
+GH_COMMIT="9d77ab184e26f4f3c917c7bd49eda2e980a24fae"
 
 inherit gh racket
 
-DESCRIPTION="The shplait Racket package"
-HOMEPAGE="https://github.com/mflatt/shplait"
+DESCRIPTION="Tests for graph-lib"
+HOMEPAGE="https://github.com/stchang/graph"
+S="${S}/graph-test"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/rhombus-prototype"
+RDEPEND="dev-racket/graph-lib"
 BDEPEND="${RDEPEND}"

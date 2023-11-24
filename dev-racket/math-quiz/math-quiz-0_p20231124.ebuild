@@ -4,14 +4,13 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racket/racket"
-GH_COMMIT="f81671d6c9776ec970d5af6e39c21d8672e5652f"
+GH_REPO="hrvoje064/math-quiz-jasna"
+GH_COMMIT="31b84d71b69d3bc87bb633b016a0b1e20c465dd0"
 
 inherit gh racket
 
-DESCRIPTION="Documentation for the Zuo language"
-HOMEPAGE="https://github.com/racket/racket"
-S="${S}/racket/src/zuo/zuo-doc"
+DESCRIPTION="Math-quiz for grade 1,2,3, ... (elementary school)"
+HOMEPAGE="https://github.com/hrvoje064/math-quiz-jasna"
 
 LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"

@@ -1,14 +1,15 @@
 BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
-DESCRIPTION=Documentation for the Zuo language
+DESCRIPTION=Generic interface for some queues. Used by graph-lib
 EAPI=8
-HOMEPAGE=https://github.com/racket/racket
+HOMEPAGE=https://github.com/stchang/graph
 INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
-LICENSE=|| ( Apache-2.0 MIT )
+LICENSE=all-rights-reserved
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
 SLOT=0
-SRC_URI=https://github.com/racket/racket/archive/f81671d6c9776ec970d5af6e39c21d8672e5652f.tar.gz -> zuo-doc-0_p20231022.tar.gz
+SRC_URI=https://github.com/stchang/graph/archive/9d77ab184e26f4f3c917c7bd49eda2e980a24fae.tar.gz -> gen-queue-lib-0_p20231121.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=9de05ccfca9a4c4d93a336de9c4d8b53
+_md5_=b8d34c3783230a5a191457a37528c799

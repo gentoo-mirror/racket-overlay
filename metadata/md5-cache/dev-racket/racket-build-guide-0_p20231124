@@ -9,6 +9,6 @@ KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=|| ( Apache-2.0 MIT )
 RDEPEND=dev-racket/distro-build-doc >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
-SRC_URI=https://github.com/racket/racket/archive/f81671d6c9776ec970d5af6e39c21d8672e5652f.tar.gz -> racket-build-guide-0_p20231022.tar.gz
+SRC_URI=https://github.com/racket/racket/archive/4aa0d55c25785e96196948da7f83c88b024a6c4f.tar.gz -> racket-build-guide-0_p20231124.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=c67fb74070c7e80930d5fff87879e97d
+_md5_=8db42b00a4a5e57b6910c7c2cb75e512

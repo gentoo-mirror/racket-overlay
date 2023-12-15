@@ -1,0 +1,14 @@
+BDEPEND=dev-racket/brag >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Simple and Extensible Configuration
+EAPI=8
+HOMEPAGE=https://github.com/micahcantor/fig
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=MIT
+RDEPEND=dev-racket/brag >=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://github.com/micahcantor/fig/archive/88494bcac1c28a3c8e512a7ab65008c09dc334ce.tar.gz -> fig-0_p20231129.tar.gz
+_eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=e1781e3a8dbd345580409d526555d013

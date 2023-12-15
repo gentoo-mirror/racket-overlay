@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="A Scribble document style for NSF proposals"
 HOMEPAGE="https://github.com/chrdimo/nsf-scribble"
 
-LICENSE="all-rights-reserved"
+LICENSE="CC-BY-4.0"
 SLOT="0"
-RESTRICT="mirror"

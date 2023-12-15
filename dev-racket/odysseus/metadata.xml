@@ -3,7 +3,7 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/prozion/odysseus-racket</bugs-to>
-    <remote-id type="github">prozion/odysseus-racket</remote-id>
+    <bugs-to>https://github.com/prozion/odysseus</bugs-to>
+    <remote-id type="github">prozion/odysseus</remote-id>
   </upstream>
 </pkgmetadata>

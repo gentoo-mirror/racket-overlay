@@ -11,4 +11,4 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/racket-monotonic/archive/d857b49046ec3466505c76701d08a9b48100af87.tar.gz -> monotonic-0_p20221213.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=8e80a6a4cb659bad272e00ecbd220e43
+_md5_=637eebdb8d34c017a98b4478e1d81299

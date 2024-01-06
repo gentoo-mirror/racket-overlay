@@ -13,4 +13,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/wargrey/graphics/archive/5da55911b6132c5e30b1b89e4dbc01c2f15d7a09.tar.gz -> graphics-0_p20231115.tar.gz https://github.com/wargrey/w3s/archive/e06b39a02b37a2bc15a56b572ad80d62823b17c8.tar.gz -> graphics_aux_w3s-0_p20231115.tar.gz
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=61c34b5f0cbc439bed7ca9e2423081d6
+_md5_=5f4f35419f5478d01d22e056e1db18da

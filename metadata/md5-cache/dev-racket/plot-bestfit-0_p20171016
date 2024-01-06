@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/florence/plot-bestfit/archive/dd6ffbef2626d7cc7e6802389ce53d57d36bb21d.tar.gz -> plot-bestfit-0_p20171016.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=563dc131f4360227cbdfb4b3326861f6
+_md5_=fd3e178df295c9d2ebc833e0d33ae0b0

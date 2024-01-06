@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mbutterick/pollen-tuftorial/archive/bb50c7bf4544c0013a59a65e38d48bd174231d05.tar.gz -> pollen-tuftorial-0_p20210518.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=b60a24b8450be73904c1fea0e2387b05
+_md5_=4076dc66188cbf8d6770905cc0c54a06

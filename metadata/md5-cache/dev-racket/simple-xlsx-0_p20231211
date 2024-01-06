@@ -11,4 +11,4 @@ RDEPEND=dev-racket/simple-xml >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/simmone/racket-simple-xlsx/archive/61c0c7c39e943d14f5eac0117455585a405931c8.tar.gz -> simple-xlsx-0_p20231211.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=e2de4f867e8207c781dfe6623d570641
+_md5_=dd9b61edf624da3d79ef0e39be466e91

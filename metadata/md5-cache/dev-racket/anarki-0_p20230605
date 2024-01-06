@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/arclanguage/anarki/archive/e49b1bfe1f7bf0e682d360eb677947264000de82.tar.gz -> anarki-0_p20230605.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=01cf0c63ee0450c9bd345efa0e72f60d
+_md5_=c4100124447d2a4ed79e75be7b65f939

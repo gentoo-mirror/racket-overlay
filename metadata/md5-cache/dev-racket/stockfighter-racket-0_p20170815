@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/eu90h/stockfighter-racket/archive/cf7669c2d79645a54ee287df14a3e704006e0096.tar.gz -> stockfighter-racket-0_p20170815.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=0d94afa2fa7691680847fd63be9e6b01
+_md5_=047ae6aa7d539a4ff02e805d6236c18c

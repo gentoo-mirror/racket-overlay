@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/tomob/neo4j-lib/archive/18d50ef8c4a59b5e7b4a2f6ee778fb90782ef777.tar.gz -> neo4j-lib-0_p20210524.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=65d744a06a03cfa2e3b3154cfca41f78
+_md5_=72a66049c1b36c0bc7866e9775fed020

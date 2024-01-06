@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/esilkensen/yaml/archive/b60a1e4a01979ed447799b07e7f8dd5ff17019f0.tar.gz -> yaml-0_p20230928.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=40bccbb76bbbcc2604e5aac7b51044c2
+_md5_=bb5a7199978ac37d64e1c7dabab7a832

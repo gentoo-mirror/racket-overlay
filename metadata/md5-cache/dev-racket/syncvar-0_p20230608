@@ -11,4 +11,4 @@ RDEPEND=dev-racket/syncvar-lib >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/samdphillips/racket-syncvar/archive/47d1694a8ab17c292999d53f1d7f30e81e47dbce.tar.gz -> syncvar-0_p20230608.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=9a4fc49ea64ee697509ae8beddb0000b
+_md5_=16ea1317866b43111c9c4c143bb51c4c

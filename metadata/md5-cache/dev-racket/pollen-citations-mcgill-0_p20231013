@@ -11,4 +11,4 @@ RDEPEND=dev-racket/pollen dev-racket/txexpr >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/sanchom/pollen-citations-mcgill/archive/63bcef990cf549d5863a7d6117a1c3475ab53286.tar.gz -> pollen-citations-mcgill-0_p20231013.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=406303629e027bf7554a3c28501969c9
+_md5_=3386e13d73396585544f79fca51a0484

@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/racket/unstable-contract-lib/archive/198b743c39450f0340dc03a792c29794652d6e08.tar.gz -> unstable-contract-lib-0_p20200418.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=e40957df267a098cb6fad3a1e66ec807
+_md5_=9e08009526a2075d052eabc7d6690cb0

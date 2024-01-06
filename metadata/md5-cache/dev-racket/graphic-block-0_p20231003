@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://git.uwaterloo.ca/djholtby/uwaterloo-racket/-/archive/c4848f9d32d83c385e7ae0a7efc8bc11ccb808a8/uwaterloo-racket-c4848f9d32d83c385e7ae0a7efc8bc11ccb808a8.tar.gz -> graphic-block-0_p20231003.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=6e03e5f3e1ba27a39f4667759ebb9223
+_md5_=fa1b2f2ebfbf365d745234f35c70a52d

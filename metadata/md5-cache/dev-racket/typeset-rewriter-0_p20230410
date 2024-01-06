@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/pnwamk/typeset-rewriter/archive/38164dca24bb66127ba40ba5a8293b304a2e8e1c.tar.gz -> typeset-rewriter-0_p20230410.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=3aea40f49860a6d77d8cb65b372e68ce
+_md5_=6bef6d70b5d3e8414efc556b4fb02f8c

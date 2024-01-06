@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/dvanhorn/redex-aam-tutorial/archive/1fdb038225b03d5ea9cf4258503cb8c83f108671.tar.gz -> redex-aam-tutorial-0_p20220902.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=187ad918b4f0d68b98ccf52063a1398a
+_md5_=4d30cb3f631cc03b6fa2f745a8b33f92

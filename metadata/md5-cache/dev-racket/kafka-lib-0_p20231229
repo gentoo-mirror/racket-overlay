@@ -1,0 +1,14 @@
+BDEPEND=dev-racket/binfmt-lib dev-racket/libzstd dev-racket/lz4-lib dev-racket/sasl-lib dev-racket/snappy-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=A client for Apache Kafka. (implementation only)
+EAPI=8
+HOMEPAGE=https://github.com/Bogdanp/racket-kafka
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=BSD
+RDEPEND=dev-racket/binfmt-lib dev-racket/libzstd dev-racket/lz4-lib dev-racket/sasl-lib dev-racket/snappy-lib >=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://github.com/Bogdanp/racket-kafka/archive/1ac07163404b7ff2dbdc69a545a88dbb0bbd09ea.tar.gz -> kafka-lib-0_p20231229.tar.gz
+_eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=d7e775ce6261a5e37f212922a6d66dce

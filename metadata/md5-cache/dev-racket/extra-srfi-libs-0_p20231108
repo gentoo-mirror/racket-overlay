@@ -11,4 +11,4 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/shawnw/racket-extra-srfi-libs/archive/2d97dc8f48718872a46ae586f967cab740059ee9.tar.gz -> extra-srfi-libs-0_p20231108.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=2d2ab3b1985cce1123cc357c606dd786
+_md5_=559dd08903aa32800746aeeeb88eb932

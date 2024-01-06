@@ -11,4 +11,4 @@ RDEPEND=dev-racket/ebuild-lib dev-racket/threading-lib dev-racket/upi-lib >=dev-
 SLOT=0
 SRC_URI=https://gitlab.com/gentoo-racket/racket-ebuild/-/archive/f546f1c86a834a04520d0817407141d376572c86/racket-ebuild-f546f1c86a834a04520d0817407141d376572c86.tar.gz -> ebuild-transformers-0_p20231008.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=0bad9b3a7b254e350cd321d9a52c87cc
+_md5_=d2f5c2b3f46249132b7fc1588901730f

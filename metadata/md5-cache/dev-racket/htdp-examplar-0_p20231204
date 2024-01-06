@@ -11,4 +11,4 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/dbp/htdp-examplar/archive/f180ef537e3401c064e54e99e1551d92428cc725.tar.gz -> htdp-examplar-0_p20231204.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=9c7d8c6cc8c15c2c7ba11186d3f57917
+_md5_=adaa0b3c9983e258aa315533d632389c

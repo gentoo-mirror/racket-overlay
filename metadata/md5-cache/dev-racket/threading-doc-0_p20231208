@@ -11,4 +11,4 @@ RDEPEND=dev-racket/threading-lib >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/lexi-lambda/threading/archive/aedb198261cf73b3f9b282566e7e7dd9b9be63a6.tar.gz -> threading-doc-0_p20231208.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=0193c1ce03f39474b60c56f9489038d6
+_md5_=6f554953a6f43bf4d05d912ccf68276d

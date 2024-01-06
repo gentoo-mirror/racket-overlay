@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/stchang/macrotypes/archive/220552416edf5646d796668176a473e4271205b2.tar.gz -> rackunit-macrotypes-lib-0_p20230331.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=cc8c746009755d013d5fd5918d9aecc9
+_md5_=a7300d96ad7be9cb8174f1ae39c2c40f

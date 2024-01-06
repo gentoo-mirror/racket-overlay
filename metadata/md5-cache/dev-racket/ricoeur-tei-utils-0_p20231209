@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://bitbucket.org/digitalricoeur/tei-utils/get/545c192aff9138d05bdd1aeb97d0f145508b84a8.tar.gz -> ricoeur-tei-utils-0_p20231209.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=12b9cfc4d9e8886449426157c9d4896d
+_md5_=bdb4b4a1064489eeff967c0e5a92d0da

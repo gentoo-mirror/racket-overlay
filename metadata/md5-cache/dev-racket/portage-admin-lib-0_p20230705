@@ -12,4 +12,4 @@ RDEPEND=dev-racket/threading-lib >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://gitlab.com/gentoo-racket/racket-portage-admin/-/archive/84fc9d2e2838eca9d576ca0f6862ed0e10841c86/racket-portage-admin-84fc9d2e2838eca9d576ca0f6862ed0e10841c86.tar.gz -> portage-admin-lib-0_p20230705.tar.gz
 _eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d	xdg-utils	baea6080dd821f5562d715887954c9d3	xdg	4a14c5c24f121e7da66e5aab4a168c6e	gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=486ee48d87ef0ffc87bacd16493e71d6
+_md5_=c531fd86cad3f04ee07f01610e8ba54b

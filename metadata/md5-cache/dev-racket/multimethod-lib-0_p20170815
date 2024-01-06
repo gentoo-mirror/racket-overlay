@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lexi-lambda/racket-multimethod/archive/8a0903ebaedd919971c382eeb785f05080c7a8d6.tar.gz -> multimethod-lib-0_p20170815.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=860e83b4294fdaba211343545a9485c2
+_md5_=fd70f2d8214a9ae7a6ec33ff6588e426

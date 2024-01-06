@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/florence/talk-typer/archive/24c5779e4d5b9548f96ac66d7c638c9bef0e7428.tar.gz -> talk-typer-0_p20170815.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=f092f5644cc58f942714c2187fb16cec
+_md5_=e487ea981077a7a398529dc14592e9c4

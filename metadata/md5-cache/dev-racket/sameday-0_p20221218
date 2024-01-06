@@ -11,4 +11,4 @@ RDEPEND=dev-racket/gregor-doc dev-racket/gregor-lib dev-racket/http-easy >=dev-s
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/racket-sameday/archive/247071c522ce1bedef406ba3a430e05a95aa0159.tar.gz -> sameday-0_p20221218.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=a160e20715aead5cae3cabecc5b392ef
+_md5_=da4d86d13afc5605b81e8c56d11f0c1a

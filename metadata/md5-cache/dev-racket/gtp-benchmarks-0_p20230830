@@ -11,4 +11,4 @@ RDEPEND=dev-racket/gtp-util dev-racket/require-typed-check dev-racket/scribble-a
 SLOT=0
 SRC_URI=https://github.com/utahplt/gtp-benchmarks/archive/f93e25208b3258263a41b8652a4aae852a4ac3ec.tar.gz -> gtp-benchmarks-0_p20230830.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=60b6d7da5d0f5917df56425491b0981c
+_md5_=a134d1f91df090afbd2474d20c2819e2

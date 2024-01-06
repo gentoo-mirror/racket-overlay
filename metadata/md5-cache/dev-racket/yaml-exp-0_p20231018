@@ -11,4 +11,4 @@ RDEPEND=dev-racket/yaml >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/eutro/yaml-exp/archive/3f4d7bc1c3fb6c674d5be219223e4cab96879cf5.tar.gz -> yaml-exp-0_p20231018.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=33985eea84423d297ecba766d90ca485
+_md5_=b26c3852d161ac63fe0d5bc29b8d8489

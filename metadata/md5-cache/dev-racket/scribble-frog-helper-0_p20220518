@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/yanyingwang/scribble-frog-helper/archive/bc9f6579c6cdbd02e9bf6561bf7839df8124097b.tar.gz -> scribble-frog-helper-0_p20220518.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=0c76671ae503dc7a86e64c66d9b3e79f
+_md5_=8823af4dd0598c9f3dbbc95b6ca1be86

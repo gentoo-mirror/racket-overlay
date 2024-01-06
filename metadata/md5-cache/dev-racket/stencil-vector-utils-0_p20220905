@@ -11,4 +11,4 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/shawnw/racket-stencil-vector-utils/archive/c06dd00e1aad61f3b7a4b0a5c6693e329f95b8b4.tar.gz -> stencil-vector-utils-0_p20220905.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=14a88ce7a0d19f7c89755ae0b900d0ba
+_md5_=d0f4bf2685e8fb41aeb146ba22e51419

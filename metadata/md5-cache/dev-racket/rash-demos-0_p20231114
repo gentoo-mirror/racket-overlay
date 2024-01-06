@@ -11,4 +11,4 @@ RDEPEND=dev-racket/basedir dev-racket/csv-reading dev-racket/linea dev-racket/ra
 SLOT=0
 SRC_URI=https://github.com/willghatch/racket-rash/archive/494f2284f01a30485521697b11b83a133dcb51d7.tar.gz -> rash-demos-0_p20231114.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=2e2b3908dbdfce4d74bbb38137e44c23
+_md5_=f73353234bdf26940c5d7a137cb797fe

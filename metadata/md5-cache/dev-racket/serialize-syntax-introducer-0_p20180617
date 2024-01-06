@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/macrotypefunctors/serialize-syntax-introducer/archive/5944d9f32df50b608c3493a7fd6a510afabf8fd3.tar.gz -> serialize-syntax-introducer-0_p20180617.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=540c656614dc120c4f71bc6e28f92d33
+_md5_=cb555c97a9a882eeb49b3235729a23b8

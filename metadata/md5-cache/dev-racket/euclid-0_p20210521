@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/euclid/archive/bd64f8f2c7e60ce6d435c7f0241cf3dfffe6d297.tar.gz -> euclid-0_p20210521.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=6d7ff11bfd8ace3a2312ed89c95cd8fd
+_md5_=376626a74485f2cd1361e9a297033c79

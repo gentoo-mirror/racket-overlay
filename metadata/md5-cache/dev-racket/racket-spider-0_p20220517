@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Syntacticlosure/racket-spider/archive/1ed8e8996d296021a1adf7acb30190db301055f7.tar.gz -> racket-spider-0_p20220517.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=0f0f9bc000e12dbc5e86b0d0b98cc079
+_md5_=99c21cadb5c69f581936d9e30eb0015a

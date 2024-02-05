@@ -8,7 +8,7 @@ GH_REPO="simmone/racket-simple-xlsx"
 
 inherit gh racket
 
-DESCRIPTION="Xlsx File tool"
+DESCRIPTION="read and write .xlsx file."
 HOMEPAGE="https://github.com/simmone/racket-simple-xlsx"
 
 LICENSE="|| ( Apache-2.0 MIT )"

@@ -11,11 +11,10 @@ inherit gh racket
 DESCRIPTION="The syntax-spec-v1 Racket package"
 HOMEPAGE="https://github.com/michaelballantyne/syntax-spec"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/ee-lib
-	dev-racket/paren-shape
+	dev-racket/syntax-classes-lib
 	dev-racket/version-case"
 BDEPEND="${RDEPEND}"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://gitlab.com/xgqt/xgqt-lang-lib-simplelog4all</bugs-to>
+    <remote-id type="gitlab">xgqt/xgqt-lang-lib-simplelog4all</remote-id>
+  </upstream>
+</pkgmetadata>

@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/handy dev-racket/syntax-classes-lib dev-racket/try-catch >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=The struct-plus-plus Racket package
+EAPI=8
+HOMEPAGE=https://github.com/dstorrs/struct-plus-plus
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/handy dev-racket/syntax-classes-lib dev-racket/try-catch >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/dstorrs/struct-plus-plus/archive/d39cb339186efe4578e034c9db7482860048d8e4.tar.gz -> struct-plus-plus-0_p20240109.tar.gz
+_eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=501a212965c6ac1c91b32e5eb8f2235c

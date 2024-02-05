@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/elle-lib dev-racket/rebellion >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Documentation for the Elle language.
+EAPI=8
+HOMEPAGE=https://github.com/tail-reversion/elle
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/elle-lib dev-racket/rebellion >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/tail-reversion/elle/archive/87053a6ba8e12c15823395149fe74a62ebb77fee.tar.gz -> elle-doc-0_p20240109.tar.gz
+_eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=b3092ea335e80c6051b4205d1cd588ff

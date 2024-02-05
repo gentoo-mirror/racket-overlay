@@ -1,0 +1,15 @@
+BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Read, search and render pdfs. Use LaTeX in scribble and slidehow.
+EAPI=8
+HOMEPAGE=https://github.com/soegaard/racket-poppler
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/soegaard/racket-poppler/archive/3ff5998d69e3b65fbba75a4f1dfe9d8e1b15caa5.tar.gz -> racket-poppler-0_p20240205.tar.gz
+_eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=ac84cee5c08d5aebcd5404c8fb0f25f0

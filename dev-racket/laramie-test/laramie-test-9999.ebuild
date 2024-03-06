@@ -15,6 +15,3 @@ S="${S}/laramie-test"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
-
-RDEPEND="dev-racket/laramie-lib"
-BDEPEND="${RDEPEND}"

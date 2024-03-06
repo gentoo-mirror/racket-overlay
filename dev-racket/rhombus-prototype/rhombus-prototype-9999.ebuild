@@ -17,5 +17,6 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/gui-easy
 	dev-racket/gui-easy-lib
+	dev-racket/pict-balloon2
 	dev-racket/pretty-expressive"
 BDEPEND="${RDEPEND}"

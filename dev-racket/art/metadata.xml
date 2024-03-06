@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/jagen31/art3</bugs-to>
+    <remote-id type="github">jagen31/art3</remote-id>
+  </upstream>
+</pkgmetadata>

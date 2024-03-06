@@ -1,14 +1,14 @@
-BDEPEND=dev-racket/digimon dev-racket/graphics dev-racket/w3s >=dev-vcs/git-1.8.2.1[curl] >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/art-doc dev-racket/art-lib >=dev-vcs/git-1.8.2.1[curl] >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DESCRIPTION=Open XML for Microsoft Office
+DESCRIPTION=The art Racket package
 EAPI=8
-HOMEPAGE=https://github.com/wargrey/mox
+HOMEPAGE=https://github.com/jagen31/art3
 INHERIT=gh racket
 IUSE=doc
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/digimon dev-racket/graphics dev-racket/w3s >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/art-doc dev-racket/art-lib >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b	gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=5dda33c330685c324fe7fc5b0af1709b
+_md5_=b38584b22ff021ae3d89829d015d9a54

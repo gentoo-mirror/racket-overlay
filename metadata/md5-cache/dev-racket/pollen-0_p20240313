@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/markdown dev-racket/rackjure dev-racket/sugar dev-racket/txexpr >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Publishing system for web-based books
+EAPI=8
+HOMEPAGE=https://git.matthewbutterick.com/mbutterick/pollen
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/markdown dev-racket/rackjure dev-racket/sugar dev-racket/txexpr >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://git.matthewbutterick.com/mbutterick/pollen/archive/1fa3f236c232c9bf24fae370bb8f4e88c25391f1.tar.gz -> pollen-0_p20240313.tar.gz
+_eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=8085ccc864b6c1fde6f945aaa128eb80

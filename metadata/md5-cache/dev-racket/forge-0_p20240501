@@ -1,0 +1,16 @@
+BDEPEND=dev-racket/basedir dev-racket/beautiful-racket dev-racket/br-parser-tools-lib dev-racket/brag-lib dev-racket/crypto-lib dev-racket/mischief dev-racket/predicates dev-racket/pretty-format dev-racket/request dev-racket/sha dev-racket/syntax-classes >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=A model-finding language with Alloy-adjacent syntax.
+EAPI=8
+HOMEPAGE=https://pkgs.racket-lang.org/package/forge
+INHERIT=racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+PDEPEND=dev-racket/froglet
+RDEPEND=dev-racket/basedir dev-racket/beautiful-racket dev-racket/br-parser-tools-lib dev-racket/brag-lib dev-racket/crypto-lib dev-racket/mischief dev-racket/predicates dev-racket/pretty-format dev-racket/request dev-racket/sha dev-racket/syntax-classes >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/tnelson/Forge/archive/37e1f4dcf447e8e3e877d2d2cec7bb9908e925dd.tar.gz -> forge-0_p20240501.tar.gz https://github.com/tnelson/forge/archive/37e1f4dcf447e8e3e877d2d2cec7bb9908e925dd.tar.gz -> forge_aux_froglet-0_p20240501.tar.gz
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=f355f0fab1e1c868a709acfb89e7df24

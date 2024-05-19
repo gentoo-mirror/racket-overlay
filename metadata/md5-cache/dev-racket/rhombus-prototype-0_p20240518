@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/gui-easy dev-racket/gui-easy-lib dev-racket/pict-balloon2 dev-racket/pretty-expressive >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Prototype language as part of the Rhombus project
+EAPI=8
+HOMEPAGE=https://github.com/racket/rhombus-prototype
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/gui-easy dev-racket/gui-easy-lib dev-racket/pict-balloon2 dev-racket/pretty-expressive >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/racket/rhombus-prototype/archive/b37c8157c4ae9a92d0c35640c2da0a67b7e238b8.tar.gz -> rhombus-prototype-0_p20240518.tar.gz
+_eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=e1cbb4face4337d816a2b8967ac2593d

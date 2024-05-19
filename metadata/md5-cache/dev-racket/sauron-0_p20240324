@@ -1,0 +1,14 @@
+BDEPEND=dev-racket/curly-fn-lib dev-racket/drcomplete dev-racket/file-watchers dev-racket/from-template dev-racket/raco-invoke dev-racket/try-catch-finally-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=A DrRacket plugin to make it experience like an IDE
+EAPI=8
+HOMEPAGE=https://github.com/dannypsnl/sauron
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=|| ( Apache-2.0 MIT )
+RDEPEND=dev-racket/curly-fn-lib dev-racket/drcomplete dev-racket/file-watchers dev-racket/from-template dev-racket/raco-invoke dev-racket/try-catch-finally-lib >=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://github.com/dannypsnl/sauron/archive/9a2692e5e788e7457e55bf186fa9c185ec4eae96.tar.gz -> sauron-0_p20240324.tar.gz
+_eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=8f3c42c930e26793860d397363532038

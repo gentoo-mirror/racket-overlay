@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/arguments dev-racket/collections-lib dev-racket/describe dev-racket/functional-lib dev-racket/kw-utils dev-racket/point-free dev-racket/qi-lib dev-racket/social-contract dev-racket/version-case >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=The relation-lib Racket package
+EAPI=8
+HOMEPAGE=https://github.com/countvajhula/relation
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/arguments dev-racket/collections-lib dev-racket/describe dev-racket/functional-lib dev-racket/kw-utils dev-racket/point-free dev-racket/qi-lib dev-racket/social-contract dev-racket/version-case >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/countvajhula/relation/archive/eac44044137131349e8139500fd15428baf17527.tar.gz -> relation-lib-0_p20240327.tar.gz
+_eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=8da910d2a83c0b9efa470bd454aaf800

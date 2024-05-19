@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/Jython1415/let-expander</bugs-to>
+    <remote-id type="github">Jython1415/let-expander</remote-id>
+  </upstream>
+</pkgmetadata>

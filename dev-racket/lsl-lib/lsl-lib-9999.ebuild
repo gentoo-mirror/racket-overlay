@@ -18,7 +18,9 @@ RESTRICT="mirror"
 
 RDEPEND="dev-racket/automata-lib
 	dev-racket/ee-lib
+	dev-racket/gui-easy-lib
 	dev-racket/http-easy-lib
+	dev-racket/metapict
 	dev-racket/mischief
 	dev-racket/rosette
 	dev-racket/struct-set

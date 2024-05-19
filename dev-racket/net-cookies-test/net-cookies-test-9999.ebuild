@@ -14,6 +14,3 @@ S="${S}/net-cookies-test"
 
 LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-
-RDEPEND="dev-racket/rackcheck-lib"
-BDEPEND="${RDEPEND}"

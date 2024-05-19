@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="Streams for typed racket"
 HOMEPAGE="https://github.com/AlexKnauth/typed-racket-stream"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
-RESTRICT="mirror"

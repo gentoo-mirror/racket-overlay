@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="Interval analysis for real computation"
 HOMEPAGE="https://github.com/herbie-fp/rival"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
-RESTRICT="mirror"

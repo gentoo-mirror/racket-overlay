@@ -14,6 +14,7 @@ HOMEPAGE="https://github.com/damien-mattei/Scheme-PLUS-for-Racket"
 LICENSE="LGPL-3+"
 SLOT="0"
 
-RDEPEND="dev-racket/sci
+RDEPEND="dev-racket/reprovide-lang-lib
+	dev-racket/sci
 	dev-racket/scribble-code-examples"
 BDEPEND="${RDEPEND}"

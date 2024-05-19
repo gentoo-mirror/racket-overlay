@@ -19,7 +19,8 @@ RDEPEND="dev-racket/collections-doc
 	dev-racket/collections-lib
 	dev-racket/cover
 	dev-racket/cover-coveralls
-	dev-racket/relation
+	dev-racket/relation-doc
+	dev-racket/relation-lib
 	dev-racket/scribble-abbrevs
 	dev-racket/social-contract"
 BDEPEND="${RDEPEND}"

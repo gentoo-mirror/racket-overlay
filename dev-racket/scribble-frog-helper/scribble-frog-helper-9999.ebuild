@@ -15,7 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/frog
-	dev-racket/gregor
+RDEPEND="dev-racket/gregor
 	dev-racket/timable"
 BDEPEND="${RDEPEND}"

@@ -1,0 +1,14 @@
+BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Kittle Buffer, or KBF for short, is an extended Brainf**k implementation.
+EAPI=8
+HOMEPAGE=https://github.com/KDr2/kittle-buffer
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=|| ( Apache-2.0 MIT )
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://github.com/KDr2/kittle-buffer/archive/d6b9ba0060ce06d755f0b84c962ac299f6675b58.tar.gz -> kittle-buffer-0_p20240616.tar.gz
+_eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=38618e94384e7ef0b95f6a0d9eb2a6b0

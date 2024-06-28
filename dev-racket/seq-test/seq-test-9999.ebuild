@@ -16,7 +16,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/collections-lib
-	dev-racket/relation-lib
+RDEPEND="dev-racket/relation-lib
 	dev-racket/seq-lib"
 BDEPEND="${RDEPEND}"

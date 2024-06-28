@@ -8,9 +8,8 @@ GH_REPO="KDr2/kittle-buffer"
 
 inherit gh racket
 
-DESCRIPTION="An extended Brainf**k implementation."
+DESCRIPTION="Kittle Buffer, or KBF for short, is an extended Brainf**k implementation."
 HOMEPAGE="https://github.com/KDr2/kittle-buffer"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"

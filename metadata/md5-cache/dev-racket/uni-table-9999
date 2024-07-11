@@ -9,5 +9,5 @@ LICENSE=|| ( Apache-2.0 MIT )
 PROPERTIES=live
 RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
-_eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1	gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	xdg-utils	baea6080dd821f5562d715887954c9d3	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
 _md5_=0e5754f012be29bbb83be7874395a99b

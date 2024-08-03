@@ -12,9 +12,8 @@ DESCRIPTION="A tool for automatically improving the accuracy of floating point e
 HOMEPAGE="https://github.com/uwplse/herbie"
 S="${S}/src"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/fpbench
 	dev-racket/rival"

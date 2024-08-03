@@ -8,7 +8,7 @@ GH_REPO="NoahStoryM/amb"
 
 inherit gh racket
 
-DESCRIPTION="The amb Racket package"
+DESCRIPTION="Ambiguous Operator"
 HOMEPAGE="https://github.com/NoahStoryM/amb"
 
 LICENSE="MIT"

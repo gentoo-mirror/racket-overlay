@@ -15,5 +15,9 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/rhombus-prototype"
+RDEPEND="dev-racket/rhombus
+	dev-racket/rhombus-lib
+	dev-racket/rhombus-scribble-lib
+	dev-racket/shrubbery
+	dev-racket/shrubbery-lib"
 BDEPEND="${RDEPEND}"

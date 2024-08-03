@@ -16,5 +16,5 @@ LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
 
 RDEPEND="dev-racket/esterel-lib
-	dev-racket/rhombus-prototype"
+	dev-racket/rhombus-lib"
 BDEPEND="${RDEPEND}"

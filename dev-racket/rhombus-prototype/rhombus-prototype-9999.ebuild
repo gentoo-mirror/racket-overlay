@@ -4,19 +4,23 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="racket/rhombus-prototype"
+GH_REPO="racket/rhombus"
 
 inherit gh racket
 
-DESCRIPTION="Prototype language as part of the Rhombus project"
-HOMEPAGE="https://github.com/racket/rhombus-prototype"
+DESCRIPTION="A compatibility package that combines original Rhombus packages"
+HOMEPAGE="https://github.com/racket/rhombus"
+S="${S}/rhombus-prototype"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"
 
-RDEPEND="dev-racket/gui-easy
-	dev-racket/gui-easy-lib
-	dev-racket/pict-balloon2
-	dev-racket/pretty-expressive"
+RDEPEND="dev-racket/enforest
+	dev-racket/rhombus
+	dev-racket/rhombus-draw
+	dev-racket/rhombus-gui
+	dev-racket/rhombus-pict
+	dev-racket/rhombus-scribble
+	dev-racket/rhombus-slideshow
+	dev-racket/shrubbery"
 BDEPEND="${RDEPEND}"

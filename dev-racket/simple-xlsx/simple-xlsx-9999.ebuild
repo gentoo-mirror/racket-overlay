@@ -14,5 +14,5 @@ HOMEPAGE="https://github.com/simmone/racket-simple-xlsx"
 LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
 
-RDEPEND="dev-racket/simple-xml"
+RDEPEND="dev-racket/fast-xml"
 BDEPEND="${RDEPEND}"

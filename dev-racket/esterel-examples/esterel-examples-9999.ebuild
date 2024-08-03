@@ -17,5 +17,5 @@ SLOT="0"
 
 RDEPEND="dev-racket/esterel-lib
 	dev-racket/esterel-rhombus-lib
-	dev-racket/rhombus-prototype"
+	dev-racket/rhombus-lib"
 BDEPEND="${RDEPEND}"

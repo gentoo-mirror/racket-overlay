@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/beautiful-racket-lib dev-racket/brag >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=A partial implementation of the Troll dice-rolling language in Racket.
+EAPI=8
+HOMEPAGE=https://github.com/jessealama/1d6
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/beautiful-racket-lib dev-racket/brag >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/jessealama/1d6/archive/85cd64f8d1ef6bc0a8fc2e573285ce2dd7a58f7e.tar.gz -> 1d6-0_p20240828.tar.gz
+_eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	e644caa6eb7ce7e5ab0864383ac13ad9	xdg-utils	5465aed08f1dfc2a75f14cbea4272961	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=4af065c6883dfdf834f268ebf7254f82

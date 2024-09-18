@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/algebraic dev-racket/arguments dev-racket/collections-doc dev-racket/collections-lib dev-racket/fancy-app dev-racket/functional-doc dev-racket/functional-lib dev-racket/rackjure dev-racket/relation-lib dev-racket/scribble-abbrevs dev-racket/sugar dev-racket/threading-doc >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Generic interfaces and convenient utilities for using relations. [docs only]
+EAPI=8
+HOMEPAGE=https://github.com/countvajhula/relation
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/algebraic dev-racket/arguments dev-racket/collections-doc dev-racket/collections-lib dev-racket/fancy-app dev-racket/functional-doc dev-racket/functional-lib dev-racket/rackjure dev-racket/relation-lib dev-racket/scribble-abbrevs dev-racket/sugar dev-racket/threading-doc >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/countvajhula/relation/archive/c3405da5f15a264d6061903dc85b292a3a9742c8.tar.gz -> relation-doc-0_p20240914.tar.gz
+_eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	e644caa6eb7ce7e5ab0864383ac13ad9	xdg-utils	5465aed08f1dfc2a75f14cbea4272961	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=403ef3165e6a0206a5eaf9be6c2c98c7

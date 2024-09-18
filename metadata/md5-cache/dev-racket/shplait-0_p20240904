@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/rhombus dev-racket/rhombus-lib dev-racket/rhombus-scribble-lib dev-racket/shrubbery dev-racket/shrubbery-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=The shplait Racket package
+EAPI=8
+HOMEPAGE=https://github.com/mflatt/shplait
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/rhombus dev-racket/rhombus-lib dev-racket/rhombus-scribble-lib dev-racket/shrubbery dev-racket/shrubbery-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/mflatt/shplait/archive/d5fa216209a4891e19ccb057a70def746be744c2.tar.gz -> shplait-0_p20240904.tar.gz
+_eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	e644caa6eb7ce7e5ab0864383ac13ad9	xdg-utils	5465aed08f1dfc2a75f14cbea4272961	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=df747cdfe29a87b5a1f48491ff360555

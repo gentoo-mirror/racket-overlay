@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/argo dev-racket/beautiful-racket-lib dev-racket/br-parser-tools-lib dev-racket/brag-lib dev-racket/dotenv dev-racket/http dev-racket/json-pointer dev-racket/misc1 >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Language for testing JSON-based HTTP APIs
+EAPI=8
+HOMEPAGE=https://github.com/jessealama/riposte
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/argo dev-racket/beautiful-racket-lib dev-racket/br-parser-tools-lib dev-racket/brag-lib dev-racket/dotenv dev-racket/http dev-racket/json-pointer dev-racket/misc1 >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/jessealama/riposte/archive/3690fbe49def177cbf797f6d066ff5c1b392b098.tar.gz -> riposte-0_p20240828.tar.gz
+_eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	e644caa6eb7ce7e5ab0864383ac13ad9	xdg-utils	5465aed08f1dfc2a75f14cbea4272961	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=3fb104b4e44be42172701ff07ef9e96c

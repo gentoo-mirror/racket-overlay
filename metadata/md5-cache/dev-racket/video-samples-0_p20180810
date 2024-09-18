@@ -1,4 +1,4 @@
-BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/video >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test
 DESCRIPTION=The video-samples Racket package
 EAPI=8
@@ -7,9 +7,9 @@ INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
 LICENSE=all-rights-reserved
-RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/video >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/videolang/test-samples/archive/6ac1cfc77152350d1ce55738447350ae0d43cf5d.tar.gz -> video-samples-0_p20180810.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	e644caa6eb7ce7e5ab0864383ac13ad9	xdg-utils	5465aed08f1dfc2a75f14cbea4272961	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=8f0fdf496934764d4c25349a0a374999
+_md5_=e60febd092647f04f217106d3857bc55

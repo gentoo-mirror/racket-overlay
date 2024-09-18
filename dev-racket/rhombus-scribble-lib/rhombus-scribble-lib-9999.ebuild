@@ -15,6 +15,8 @@ S="${S}/rhombus-scribble-lib"
 LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
 
-RDEPEND="dev-racket/rhombus-lib
-	dev-racket/shrubbery-lib"
+RDEPEND="dev-racket/enforest-lib
+	dev-racket/rhombus-lib
+	dev-racket/shrubbery-lib
+	dev-racket/shrubbery-render-lib"
 BDEPEND="${RDEPEND}"

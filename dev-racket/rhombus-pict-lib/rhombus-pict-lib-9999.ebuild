@@ -17,5 +17,6 @@ SLOT="0"
 
 RDEPEND="dev-racket/pict-balloon2
 	dev-racket/rhombus-draw-lib
-	dev-racket/rhombus-lib"
+	dev-racket/rhombus-lib
+	dev-racket/shrubbery-render-lib"
 BDEPEND="${RDEPEND}"

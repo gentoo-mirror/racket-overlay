@@ -11,9 +11,8 @@ inherit gh racket
 DESCRIPTION="An X11 window manager written in Racket (still in early stage)"
 HOMEPAGE="https://github.com/Metaxal/rwind"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/x11"
 BDEPEND="${RDEPEND}"

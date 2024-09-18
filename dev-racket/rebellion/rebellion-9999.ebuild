@@ -14,3 +14,6 @@ HOMEPAGE="https://github.com/jackfirth/rebellion"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/guard"
+BDEPEND="${RDEPEND}"

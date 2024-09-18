@@ -3,7 +3,7 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/vicampo/riposte</bugs-to>
-    <remote-id type="github">vicampo/riposte</remote-id>
+    <bugs-to>https://github.com/jessealama/riposte</bugs-to>
+    <remote-id type="github">jessealama/riposte</remote-id>
   </upstream>
 </pkgmetadata>

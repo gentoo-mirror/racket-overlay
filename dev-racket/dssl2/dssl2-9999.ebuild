@@ -14,3 +14,6 @@ HOMEPAGE="https://github.com/tov/dssl2"
 LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
+
+RDEPEND="dev-racket/csv-reading"
+BDEPEND="${RDEPEND}"

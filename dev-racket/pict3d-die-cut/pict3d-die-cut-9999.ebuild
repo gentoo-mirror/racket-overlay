@@ -15,5 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/glu-tessellate"
+RDEPEND="dev-racket/glu-tessellate
+	dev-racket/pict3d"
 BDEPEND="${RDEPEND}"

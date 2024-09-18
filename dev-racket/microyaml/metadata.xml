@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/cloudrac3r/racket-microyaml</bugs-to>
+    <remote-id type="github">cloudrac3r/racket-microyaml</remote-id>
+  </upstream>
+</pkgmetadata>

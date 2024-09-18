@@ -17,5 +17,5 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/fancy-app
-	dev-racket/syntax-spec-v1"
+	dev-racket/syntax-spec-v2"
 BDEPEND="${RDEPEND}"

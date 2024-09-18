@@ -11,9 +11,8 @@ inherit gh racket
 DESCRIPTION="A version of quote that helps to rid programs of bad uses of quote"
 HOMEPAGE="https://github.com/AlexKnauth/quote-bad"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/hygienic-quote-lang
 	dev-racket/unstable-lib

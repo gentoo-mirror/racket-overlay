@@ -9,9 +9,11 @@
        "egg-herbie-windows"             ; binary
        "ekans"                          ; 404
        "emmy"                           ; 404
+       "llm"                            ; 404 but seems to be a issue with pkg-server
        "plai-dynamic"                   ; 404
        "qualified-in"                   ; 404
        "raqet"                          ; unsupported GH_TYPE
+       "sirmail"                        ; 404 but seems to be a issue with pkg-server
        "typed-compose"                  ; 404
        "typed-graph"                    ; 404
        "unb-cs2613"                     ; 404

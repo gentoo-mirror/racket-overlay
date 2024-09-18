@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/damien-mattei/SRFI-105-for-Racket</bugs-to>
+    <remote-id type="github">damien-mattei/SRFI-105-for-Racket</remote-id>
+  </upstream>
+</pkgmetadata>

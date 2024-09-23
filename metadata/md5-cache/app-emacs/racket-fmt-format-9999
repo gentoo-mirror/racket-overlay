@@ -1,5 +1,5 @@
 BDEPEND=app-emacs/reformatter >=dev-vcs/git-1.8.2.1[curl] >=app-editors/emacs-24.3:*
-DEFINED_PHASES=compile configure install postinst postrm prepare setup test unpack
+DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
 DESCRIPTION=Format Racket code using the fmt code formatter package
 EAPI=8
 HOMEPAGE=https://github.com/sorawee/fmt
@@ -8,5 +8,5 @@ LICENSE=|| ( Apache-2.0 MIT )
 PROPERTIES=live
 RDEPEND=dev-racket/fmt app-emacs/reformatter >=app-editors/emacs-24.3:*
 SLOT=0
-_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	gh	fc6ba371c0469f8c5572be5ddf1caea9	elisp-common	abb2dda42f680fce87602c8273f832c7	elisp	fbefa95f5e9ab880a34bc69832b7c0d7
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	gh	fc6ba371c0469f8c5572be5ddf1caea9	elisp-common	abb2dda42f680fce87602c8273f832c7	elisp	e7149f29f0c141396a0cec7cc59947a6
 _md5_=f1a0806106532019d58b7550bfb54792

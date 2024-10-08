@@ -10,5 +10,5 @@ LICENSE=|| ( Apache-2.0 MIT )
 RDEPEND=dev-racket/curly-fn-lib dev-racket/drcomplete dev-racket/file-watchers dev-racket/from-template dev-racket/raco-invoke dev-racket/try-catch-finally-lib >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/dannypsnl/sauron/archive/9a2692e5e788e7457e55bf186fa9c185ec4eae96.tar.gz -> sauron-0_p20240324.tar.gz
-_eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	e644caa6eb7ce7e5ab0864383ac13ad9	xdg-utils	5465aed08f1dfc2a75f14cbea4272961	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
 _md5_=8f3c42c930e26793860d397363532038

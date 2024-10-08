@@ -11,5 +11,5 @@ RDEPEND=dev-racket/graph-lib dev-racket/kinda-ferpy dev-racket/unlike-assets-lib
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/zyrolasting/unlike-assets/archive/7fb08d6902d34399c96a325d68fd27f1ff84813b.tar.gz -> unlike-assets-doc-0_p20221013.tar.gz
-_eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	e644caa6eb7ce7e5ab0864383ac13ad9	xdg-utils	5465aed08f1dfc2a75f14cbea4272961	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
 _md5_=6e9f223fe025dbd2913b0ff226c10733

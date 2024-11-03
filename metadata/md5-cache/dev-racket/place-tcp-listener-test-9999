@@ -1,0 +1,13 @@
+BDEPEND=dev-racket/place-tcp-listener-lib >=dev-vcs/git-1.8.2.1[curl] >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test unpack
+DESCRIPTION=A TCP listener that dispatches new connections to places. (tests only)
+EAPI=8
+HOMEPAGE=https://github.com/Bogdanp/racket-place-tcp-listener
+INHERIT=gh racket
+IUSE=doc
+LICENSE=BSD
+PROPERTIES=live
+RDEPEND=dev-racket/place-tcp-listener-lib >=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=2f1d9c928f635cc67a644f2c8a1563c5

@@ -1,0 +1,14 @@
+BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Math-quiz for grade 1,2,3, ... (elementary school)
+EAPI=8
+HOMEPAGE=https://github.com/hrvoje064/math-quiz-jasna
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=|| ( Apache-2.0 MIT )
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://github.com/hrvoje064/math-quiz-jasna/archive/58ccac67a342e23415d3756efedd206e16af0c7f.tar.gz -> math-quiz-0_p20241106.tar.gz
+_eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=275c680607a078f8274da0ba7f320a2b

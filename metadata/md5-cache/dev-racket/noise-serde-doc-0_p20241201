@@ -1,0 +1,14 @@
+BDEPEND=dev-racket/noise-serde-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Racket <-> Swift interop library. (docs)
+EAPI=8
+HOMEPAGE=https://github.com/Bogdanp/Noise
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=BSD
+RDEPEND=dev-racket/noise-serde-lib >=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://github.com/Bogdanp/Noise/archive/5533331a16936bf6f31dcb9a2e3405d820fcf01b.tar.gz -> noise-serde-doc-0_p20241201.tar.gz
+_eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=67206e382793a3d7db8d6c1f0143805d

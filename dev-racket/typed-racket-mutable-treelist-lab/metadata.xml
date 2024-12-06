@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/NoahStoryM/typed-racket-mutable-treelist-lab</bugs-to>
+    <remote-id type="github">NoahStoryM/typed-racket-mutable-treelist-lab</remote-id>
+  </upstream>
+</pkgmetadata>

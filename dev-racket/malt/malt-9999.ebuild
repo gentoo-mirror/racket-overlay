@@ -13,3 +13,8 @@ HOMEPAGE="https://github.com/themetaschemer/malt"
 
 LICENSE="MIT"
 SLOT="0"
+
+RDEPEND="dev-racket/opencl
+	dev-racket/string-interpolation
+	dev-racket/xxhash"
+BDEPEND="${RDEPEND}"

@@ -15,10 +15,15 @@ S="${S}/koyo-lib"
 LICENSE="BSD"
 SLOT="0"
 
-RDEPEND="dev-racket/component-lib
+RDEPEND="dev-racket/actor-lib
+	dev-racket/buid-lib
+	dev-racket/component-lib
 	dev-racket/crontab-lib
 	dev-racket/crypto-lib
+	dev-racket/define-query-lib
 	dev-racket/gregor-lib
 	dev-racket/mime-type-lib
-	dev-racket/raco-invoke"
+	dev-racket/monocle-lib
+	dev-racket/raco-invoke
+	dev-racket/threading-lib"
 BDEPEND="${RDEPEND}"

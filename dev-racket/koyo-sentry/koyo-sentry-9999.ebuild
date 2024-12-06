@@ -14,7 +14,11 @@ HOMEPAGE="https://github.com/Bogdanp/koyo-sentry"
 LICENSE="BSD"
 SLOT="0"
 
-RDEPEND="dev-racket/koyo-lib
+RDEPEND="dev-racket/component-doc
+	dev-racket/component-lib
+	dev-racket/koyo-doc
+	dev-racket/koyo-lib
 	dev-racket/sentry-doc
-	dev-racket/sentry-lib"
+	dev-racket/sentry-lib
+	dev-racket/threading-lib"
 BDEPEND="${RDEPEND}"

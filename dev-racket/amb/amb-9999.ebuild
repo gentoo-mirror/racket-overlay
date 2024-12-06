@@ -10,6 +10,7 @@ inherit gh racket
 
 DESCRIPTION="Ambiguous Operator"
 HOMEPAGE="https://github.com/NoahStoryM/amb"
+S="${S}/amb"
 
 LICENSE="MIT"
 SLOT="0"

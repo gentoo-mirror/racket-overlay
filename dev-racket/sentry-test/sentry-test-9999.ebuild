@@ -15,7 +15,6 @@ S="${S}/sentry-test"
 LICENSE="BSD"
 SLOT="0"
 
-RDEPEND="dev-racket/gregor-lib
-	dev-racket/sentry-lib
+RDEPEND="dev-racket/sentry-lib
 	dev-racket/threading-lib"
 BDEPEND="${RDEPEND}"

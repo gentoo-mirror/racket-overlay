@@ -15,6 +15,8 @@ S="${S}/sentry-lib"
 LICENSE="BSD"
 SLOT="0"
 
-RDEPEND="dev-racket/gregor-lib
-	dev-racket/http-easy-lib"
+RDEPEND="dev-racket/actor-lib
+	dev-racket/http-easy-lib
+	dev-racket/monocle-lib
+	dev-racket/threading-lib"
 BDEPEND="${RDEPEND}"

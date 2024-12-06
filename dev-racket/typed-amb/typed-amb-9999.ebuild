@@ -16,6 +16,5 @@ LICENSE="MIT"
 SLOT="0"
 
 RDEPEND="dev-racket/amb
-	dev-racket/typed-data-queue
-	dev-racket/typed-racket-stream"
+	dev-racket/typed-racket-mutable-treelist-lab"
 BDEPEND="${RDEPEND}"

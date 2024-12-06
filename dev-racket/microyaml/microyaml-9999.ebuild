@@ -11,5 +11,5 @@ inherit gh racket
 DESCRIPTION="Faster, non-compliant YAML parser."
 HOMEPAGE="https://github.com/cloudrac3r/racket-microyaml"
 
-LICENSE="GPL-3+"
+LICENSE="BSD"
 SLOT="0"

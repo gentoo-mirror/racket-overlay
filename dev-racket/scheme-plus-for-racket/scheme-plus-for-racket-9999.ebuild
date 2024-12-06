@@ -16,5 +16,6 @@ SLOT="0"
 
 RDEPEND="dev-racket/reprovide-lang-lib
 	dev-racket/sci
-	dev-racket/scribble-code-examples"
+	dev-racket/scribble-code-examples
+	dev-racket/srfi105-for-racket"
 BDEPEND="${RDEPEND}"

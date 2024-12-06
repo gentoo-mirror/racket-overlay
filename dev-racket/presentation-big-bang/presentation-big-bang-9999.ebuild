@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="The presentation-big-bang Racket package"
 HOMEPAGE="https://github.com/maueroats/presentation-big-bang"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
-RESTRICT="mirror"

@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="A load handler that avoids stale zo files."
 HOMEPAGE="https://github.com/rmculpepper/custom-load"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"

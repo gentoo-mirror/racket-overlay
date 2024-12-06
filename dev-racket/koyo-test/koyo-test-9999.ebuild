@@ -15,7 +15,8 @@ S="${S}/koyo-test"
 LICENSE="BSD"
 SLOT="0"
 
-RDEPEND="dev-racket/component-lib
+RDEPEND="dev-racket/buid-lib
+	dev-racket/component-lib
 	dev-racket/gregor-lib
 	dev-racket/koyo-lib
 	dev-racket/libargon2"

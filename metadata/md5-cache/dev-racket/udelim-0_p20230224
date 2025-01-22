@@ -11,4 +11,4 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/willghatch/racket-udelim/archive/6bdfb2af13bc27eb68d2e210b6ac7e19d2d1c826.tar.gz -> udelim-0_p20230224.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=edb6bd3a8233422021b6d59433636222
+_md5_=15214fae3a798dd96f6d2675217d7ea9

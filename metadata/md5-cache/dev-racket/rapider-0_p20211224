@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/nuty/rapider/archive/909ea324095c89bdd568f73428ce306aa313d7d4.tar.gz -> rapider-0_p20211224.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=4b57072fed4444556752bc5678b47a67
+_md5_=221ec2059017362bc4bc13e5c6a99afb

@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/bennn/ipoe/archive/6663c215361064bf3a56fb933ccf5f6276b7de50.tar.gz -> ipoe-0_p20211025.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=ab83397dbf5eb9f7d72194e2857a6cea
+_md5_=4b7eb45d23034385060dc051de9e5adc

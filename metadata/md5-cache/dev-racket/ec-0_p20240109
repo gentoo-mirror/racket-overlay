@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/marckn0x/ec/archive/81d6fbe1852d3b20cffa651e6062dd1aca146018.tar.gz -> ec-0_p20240109.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=0be3420de606c8d0ce4a432efbe40578
+_md5_=d4cd444c176b887bf43fffc792292d35

@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mromyers/infix-syntax/archive/8886395e31dc0b5d0db3a77a75255df15492806c.tar.gz -> infix-syntax-0_p20180925.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=28f22406e13249a1a6879a67fb72856f
+_md5_=5526ce8677ad16b07db52d125c579ca3

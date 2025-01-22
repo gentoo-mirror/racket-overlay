@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/dedbox/racket-neuron/archive/a8ecafec0c6398c35423348cb02ec229869c8b15.tar.gz -> neuron-lib-0_p20190719.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=8a39a784fa48d85fa46875fc17a8508b
+_md5_=6797429aced2452b0a2877bcc486c932

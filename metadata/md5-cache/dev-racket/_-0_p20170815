@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/LeifAndersen/racket-_/archive/e687a8eaf4ef62b97ad5d37f6fd09cb684c7d101.tar.gz -> _-0_p20170815.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=1581bbaa36fa1ffb84259ce3f925c839
+_md5_=bb4f7e8f3cd28ad30f5bbc6333b9fdb6

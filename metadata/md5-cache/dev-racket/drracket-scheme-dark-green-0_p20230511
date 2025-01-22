@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/shhyou/drracket-scheme-dark-green/archive/bda60667005f146ffa78b6435e10cd5731d7f211.tar.gz -> drracket-scheme-dark-green-0_p20230511.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=6c41e41b997b42402a143cc3b4c3a584
+_md5_=7686f14b35fc772dcb516599518dd019

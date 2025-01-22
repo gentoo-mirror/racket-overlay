@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/TrueQueenBee/domain-coloring/archive/b0b1cbb2a4a8d54ef616b0d38cdc62acae8e4544.tar.gz -> domain-coloring-0_p20240109.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=6eee75f455d3911043dc131b9e8fa3e1
+_md5_=8e1c1585851781435eca3935d1ea5b81

@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/scribble-example/archive/8ea8ae06d859b607fd3600a68a806513580e1867.tar.gz -> jack-scribble-example-0_p20190719.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=0a1572e58e95c07e6e07ae7bded549f7
+_md5_=f8bf2d8af9fa36366792bbbf564afb00

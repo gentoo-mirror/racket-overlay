@@ -11,4 +11,4 @@ RDEPEND=dev-racket/static-rename dev-racket/sxml >=dev-scheme/racket-8.1:=[-mini
 SLOT=0
 SRC_URI=https://github.com/kurinoku/sxml-extra-utils/archive/f5a2a688d67d92de7adda295190ffc8e9efcda86.tar.gz -> sxml-extra-0_p20220717.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=9f0fb0f1a495c49d55e4fbc7b791b4a5
+_md5_=4713c98651a50b45bd02b68d54187b83

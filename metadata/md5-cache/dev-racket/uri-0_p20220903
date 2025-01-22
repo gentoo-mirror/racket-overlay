@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://gitlab.com/RayRacine/uri/-/archive/79934c1432baad34a3272c0429caa4b695c4b996/uri-79934c1432baad34a3272c0429caa4b695c4b996.tar.gz -> uri-0_p20220903.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=512bed8d2102012f4a3b2a380d1b6aca
+_md5_=ee4e00145a57f23a985a9d04f3fe7041

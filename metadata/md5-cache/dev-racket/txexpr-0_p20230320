@@ -2,7 +2,7 @@ BDEPEND=dev-racket/sugar >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/
 DEFINED_PHASES=compile install postinst prepare prerm test
 DESCRIPTION=Handy tools for working with HTML-style tagged X-expressions
 EAPI=8
-HOMEPAGE=https://git.matthewbutterick.com/mbutterick/txexpr
+HOMEPAGE=https://gitlab.com/mbutterick/txexpr
 INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
@@ -10,6 +10,6 @@ LICENSE=all-rights-reserved
 RDEPEND=dev-racket/sugar >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://git.matthewbutterick.com/mbutterick/txexpr/archive/4ed851459e97be03418b1e92a5c07174e99bf28f.tar.gz -> txexpr-0_p20230320.tar.gz
+SRC_URI=https://gitlab.com/mbutterick/txexpr/-/archive/4ed851459e97be03418b1e92a5c07174e99bf28f/txexpr-4ed851459e97be03418b1e92a5c07174e99bf28f.tar.gz -> txexpr-0_p20230320.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=b68783fc8327f624f75a89eb12f9c38d
+_md5_=4087966841e6b8c56204b418ef77468e

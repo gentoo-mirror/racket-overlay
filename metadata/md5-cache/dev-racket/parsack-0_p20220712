@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/stchang/parsack/archive/57b21873e8e3eb7ffbdfa253251c3c27a66723b1.tar.gz -> parsack-0_p20220712.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=4b32dbf5d02a63e5f2b5a001d5742566
+_md5_=44b587178e6fe1babc2ad40ee66e92a6

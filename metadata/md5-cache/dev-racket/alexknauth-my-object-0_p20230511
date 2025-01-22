@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/my-object/archive/62e46a159c8a5391e13e71f1be5af28ab727b2ba.tar.gz -> alexknauth-my-object-0_p20230511.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=55fd0c031da29b25822c04071e630ab2
+_md5_=5f0542d58be902d72a9a8de55d72b5b4

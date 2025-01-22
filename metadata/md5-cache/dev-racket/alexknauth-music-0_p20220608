@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/AlexKnauth/music/archive/e9dc2e3654d59d6eedbec3dfe67db77d0f8b0d16.tar.gz -> alexknauth-music-0_p20220608.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=4785e2e7bf305052571c208836bf3340
+_md5_=8ec69461d8374df735375cfd177b0c46

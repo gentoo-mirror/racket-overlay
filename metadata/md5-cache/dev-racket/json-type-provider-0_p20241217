@@ -1,0 +1,16 @@
+BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=A well-typed JSON parser for Typed Racket inspired by Type Provider
+EAPI=8
+HOMEPAGE=https://pkgs.racket-lang.org/package/json-type-provider
+INHERIT=racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+PDEPEND=dev-racket/json-type-provider
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/philnguyen/json-type-provider/archive/f96d3f212519f4ff2aef828e7b891971b82babb8.tar.gz -> json-type-provider-0_p20241217.tar.gz https://github.com/philnguyen/json-type-provider/archive/f96d3f212519f4ff2aef828e7b891971b82babb8.tar.gz -> json-type-provider_aux_json-type-provider-0_p20241217.tar.gz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=6267953417e2e36f9fd4ef73672b3337

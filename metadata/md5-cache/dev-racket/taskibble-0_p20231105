@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/sorpaas/taskibble/archive/c333907e04ab23b0a79cd7c763f691dd743897ac.tar.gz -> taskibble-0_p20231105.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=2fde62947bf7c18e4ff418a9cca0320e
+_md5_=ad7b9d2d9bd8c5b4f99d1c4159349a48

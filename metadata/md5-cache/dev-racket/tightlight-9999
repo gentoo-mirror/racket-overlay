@@ -12,4 +12,4 @@ RDEPEND=dev-racket/snack >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=052ecd9ae91c3a3487049fc6c539cb2c
+_md5_=e7acfcf1acc11d8f1e03ad5e08d88b39

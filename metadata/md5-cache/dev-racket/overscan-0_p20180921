@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mwunsch/overscan/archive/f198e6b4c1f64cf5720e66ab5ad27fdc4b9e67e9.tar.gz -> overscan-0_p20180921.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=6295a631c7dc3f3061e8bda7f6553898
+_md5_=e2c56bfb8a25dc37a6875e464df26791

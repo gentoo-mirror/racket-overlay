@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/ifigueroap/racket-quickcheck/archive/0b6902d8d79973ec959f99e56ccba038beca8fe9.tar.gz -> quickcheck-0_p20240730.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=7834d788ec84def4c4bb5b7cb8f6add1
+_md5_=7be4bc22aa6cf912d74791a20ab03e3b

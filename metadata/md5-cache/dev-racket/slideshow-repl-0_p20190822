@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mflatt/slideshow-repl/archive/e8d3f8fb08322cd1aa9553c1c0079d7bebb3e823.tar.gz -> slideshow-repl-0_p20190822.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=7823c9f3eaa48911455815747cac3138
+_md5_=e3da9779bb99e2a9cca1b1e1e41462e1

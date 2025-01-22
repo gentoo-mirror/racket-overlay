@@ -11,4 +11,4 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/csmoe/rustc-wrapper/archive/2287383203334ce73185b96d702d5a3768f69bf0.tar.gz -> rustc-wrapper-0_p20230423.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=3b165e53557fa0a58f259fcad0466d56
+_md5_=bb751c32b71d13b4c2d9b37303a5f24f

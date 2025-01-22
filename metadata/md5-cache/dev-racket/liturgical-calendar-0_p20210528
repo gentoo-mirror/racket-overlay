@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/LiberalArtist/liturgical-calendar/archive/69af60c76b565b5469d94fffe72917e722afdc6a.tar.gz -> liturgical-calendar-0_p20210528.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=942f89a3c67f140910cb17e520a98d8e
+_md5_=e746f6376646fb3a8402e51fe4c26fca

@@ -11,4 +11,4 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/johnnyodonnell/java-array-list/archive/530c76031abb521e0ac6782053f6555c0e9e9590.tar.gz -> java-array-list-0_p20220404.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=643bc19b29812c453db684a1fd5a7b6e
+_md5_=dcc8d8894520163373122c04c5b4284d

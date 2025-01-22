@@ -11,4 +11,4 @@ RDEPEND=dev-racket/chk-lib >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/camoy/meta/archive/490259dc9cf527a71e7d89f487709e894b3cb469.tar.gz -> meta-0_p20230201.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=1d9613e0953d138e8770680a4b3d1157
+_md5_=63d7e7803060a6a551146b526ca6c250

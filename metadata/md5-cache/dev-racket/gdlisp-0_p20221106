@@ -11,4 +11,4 @@ RDEPEND=dev-racket/file-watchers dev-racket/syntax-classes-lib >=dev-scheme/rack
 SLOT=0
 SRC_URI=https://github.com/eutro/gdlisp/archive/97317d0a5ecbb42b51a4ce45a7af2bc70c9bc95a.tar.gz -> gdlisp-0_p20221106.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=59031f6ee621c054a0a69ad8f403fb3a
+_md5_=97b56f992e6b8cef05f4ba776b1b27ec

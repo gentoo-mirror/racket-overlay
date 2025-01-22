@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/tonyg/racket-xe/archive/ce113def8ce67651d0c6135afd5e0b506aeaca8e.tar.gz -> xe-0_p20230908.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=48ec05796bd598a0dba5068579a06679
+_md5_=35788eb6f6f0b54648fbb647ddccfcf4

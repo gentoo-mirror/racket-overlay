@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Quickscript-Competiton/July2020entries/archive/4fca3a6eac86a3af944d4e3763395d31705b59b1.tar.gz -> quickscript-competition2020-0_p20211105.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=70dc46606892f5048d5aee6192d48af0
+_md5_=7f142b1a2ece0fa4841abb51b4ab4ffd

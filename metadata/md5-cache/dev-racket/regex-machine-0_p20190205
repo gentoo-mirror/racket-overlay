@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/jackfirth/regex-machine/archive/25754a4dc2aae351e2fe5db1b98101abb9ce088e.tar.gz -> regex-machine-0_p20190205.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=2432b3b93cf920e0b3b659255cc584ac
+_md5_=cdb900ad5fd5460808bed03315856e95

@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/Kalimehtar/fast-convert/archive/2420aeb2ce8c7fb3e14d0ee1d560c33e16aa1b80.tar.gz -> fast-convert-0_p20170815.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=9c54e8f535216751ee02d5f7146c2f46
+_md5_=8cb4ac3521249ebdf318463c50e25b05

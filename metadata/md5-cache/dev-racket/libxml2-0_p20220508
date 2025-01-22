@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/LiberalArtist/libxml2-ffi/archive/34f26243e8f35ae84f248e02dfbd7214ec2c619d.tar.gz -> libxml2-0_p20220508.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=c40d28a6e28a393f75047015edca3c20
+_md5_=8fc11c3cd169ff16a7cfac1abcf421b0

@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/wesleybits/xfunctions/archive/a8c545d55ee1d9df715ccc44fb22eec463e0f206.tar.gz -> xfunctions-0_p20180108.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=a836cd69a01396c480a29585d50942e6
+_md5_=7047c1c514d1ea5e91c3ad8830a55684

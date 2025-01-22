@@ -11,4 +11,4 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://gitlab.com/xgqt/xgqt-lang-lib-simplelog4all/-/archive/3f6bdb8429279b5a34e887b4f1a132243da551d9/xgqt-lang-lib-simplelog4all-3f6bdb8429279b5a34e887b4f1a132243da551d9.tar.gz -> simplelog-0_p20241126.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=314b364bd2b354a7e4127cdd4286a7fe
+_md5_=5ff34c2d503dcbbb9c7ff64fcac6a915

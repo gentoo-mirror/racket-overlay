@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/LeifAndersen/racket-dlm-read/archive/9ae0487b315e762d311ea0e14b72a9bd2de27470.tar.gz -> dlm-read-0_p20170815.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=49b51225fae2e2d130e28d4188f3c220
+_md5_=27bee13fd33743cdc67e6e87c8d11460

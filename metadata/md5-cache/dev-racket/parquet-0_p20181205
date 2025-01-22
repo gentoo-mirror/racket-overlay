@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/johnstonskj/racket-parquet/archive/19a26155d832d1102003ddd67dcd40c2fb1c5325.tar.gz -> parquet-0_p20181205.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=37ae8ceece48787a9569ef357cb1b82d
+_md5_=711c580159dfd28d09b6a9b8c65dd6e5

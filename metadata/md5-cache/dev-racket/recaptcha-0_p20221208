@@ -11,4 +11,4 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/LiberalArtist/recaptcha/archive/ca38159c2358657de0580eb65a3bdcc6d45d42b5.tar.gz -> recaptcha-0_p20221208.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=5b8b669a4c7bfc573fe10e0c6e206a45
+_md5_=60e598ab637d5458c43a82094e79820c

@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/tjitze/ranked-programming/archive/5503146a8ac9779d949905b778f0d9fd6d8c0d1a.tar.gz -> ranked-programming-0_p20200518.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=63df8716e026f32be399b37439feb9ae
+_md5_=e6b1278c2505256d125d930201d8a8ea

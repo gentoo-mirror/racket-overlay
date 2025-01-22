@@ -11,4 +11,4 @@ RDEPEND=dev-racket/canvas-list dev-racket/dbg dev-racket/gui-easy-lib >=dev-sche
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/racket-dbg/archive/7626db7250daee0a748786c9e3bb760eeae7ce18.tar.gz -> dbg-ui-0_p20240616.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=bcb42a1e69e7149ede4dd55533ff487b
+_md5_=945e7da118e97bbc0f1e075d985ffea8

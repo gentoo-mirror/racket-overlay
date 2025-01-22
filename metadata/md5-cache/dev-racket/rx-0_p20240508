@@ -11,4 +11,4 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/johnstonskj/racket-rx/archive/470f6ad02d717bf2abf3a68d385b17331d9bb1d2.tar.gz -> rx-0_p20240508.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=c6bd99c5486643534abca8294721df1e
+_md5_=7a318325d944db9f910e42e6f68acb7a

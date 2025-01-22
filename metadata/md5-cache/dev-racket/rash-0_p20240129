@@ -11,4 +11,4 @@ RDEPEND=dev-racket/basedir dev-racket/linea dev-racket/shell-pipeline dev-racket
 SLOT=0
 SRC_URI=https://github.com/willghatch/racket-rash/archive/feb3ad16deb0b372a05f5d522f71e1746a3f96fd.tar.gz -> rash-0_p20240129.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=a94cb28588de3805bf8c055ea089b5b7
+_md5_=fd646e02958e11c13f7db8117a388b79

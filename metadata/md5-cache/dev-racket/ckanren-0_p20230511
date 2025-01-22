@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/calvis/cKanren/archive/8714bdd442ca03dbf5b1d6250904cbc5fd275e68.tar.gz -> ckanren-0_p20230511.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=da5ce70cbeb3c9e6a81a71b00731d218
+_md5_=4fe5a774aad3cc79f69e6f0e517a1f02

@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/APOS80/pmap/archive/e352de9bbc6735b1ca089a21490f87fc2fba5279.tar.gz -> pmap-0_p20230221.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=2154faa3e22691a17b3bda17c4f89858
+_md5_=67a7393f3be8073ea9a279754a9b5fdc

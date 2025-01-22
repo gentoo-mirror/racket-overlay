@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/racket/unstable-pretty-lib/archive/d420f822301174b1931c8b43d2131924fc75565f.tar.gz -> unstable-pretty-lib-0_p20191024.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=702e712520a16d9e5d468a3b2d4a07cc
+_md5_=f86ed9cf0e77baad69f2f54c02dd9544

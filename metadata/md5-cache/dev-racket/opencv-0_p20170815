@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/oetr/racket-opencv/archive/8124eb6b620769137656547e83f9d9587ab37c23.tar.gz -> opencv-0_p20170815.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=38693603cf2eda84baa22643e47e4b03
+_md5_=9edb218d3af0d52281a605aa9c5f9855

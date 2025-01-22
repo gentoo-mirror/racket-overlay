@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lehitoskin/libtoxcore-racket/archive/8baa14d6835ec4371de4ce7aa73237cd509d8f48.tar.gz -> libtoxcore-racket-0_p20170815.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=1c4388b2060d369b9da110844f67f140
+_md5_=96c25b9a1f086acb102fd18b6bafbbae

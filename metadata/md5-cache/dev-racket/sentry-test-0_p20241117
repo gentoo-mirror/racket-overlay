@@ -11,4 +11,4 @@ RDEPEND=dev-racket/sentry-lib dev-racket/threading-lib >=dev-scheme/racket-8.1:=
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/racket-sentry/archive/8afdac25d190ea8a1d86378404111367519dced6.tar.gz -> sentry-test-0_p20241117.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=07ed2f318595fcfc4b320238104ef06f
+_md5_=f4d14cad8570558101fdef937e06256f

@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/default-kramer/morsel/archive/10cf376f07755f066cbbfc2d242c104f103b33da.tar.gz -> morsel-lib-0_p20200622.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=e0142262b32da1a3649a419308e1119d
+_md5_=47b93a82cd68238df5a34fad29e332c5

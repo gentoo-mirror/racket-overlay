@@ -11,4 +11,4 @@ RDEPEND=dev-racket/ee-lib dev-racket/syntax-classes-lib dev-racket/version-case 
 SLOT=0
 SRC_URI=https://github.com/michaelballantyne/syntax-spec/archive/6a0e30e621cf3d9cc9c09f43edca419104edfbef.tar.gz -> syntax-spec-v1-0_p20240114.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=d8fdc492efd6e420c11d168de0e84d1a
+_md5_=f63a76111036e67de21f4a9dfc94664d

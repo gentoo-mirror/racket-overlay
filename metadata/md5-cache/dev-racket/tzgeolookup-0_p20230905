@@ -11,4 +11,4 @@ RDEPEND=dev-racket/geoid >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/alex-hhh/tzgeolookup/archive/d10c7d86a072ed7cb46b950361151753a0ae9d11.tar.gz -> tzgeolookup-0_p20230905.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=abfef39d830cbca7e50d54f4193410a5
+_md5_=9731681c5358ab6c7d33fa57c1a454b0

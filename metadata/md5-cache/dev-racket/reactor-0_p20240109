@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/florence/reactor/archive/c4687bd43fafcd09802042648900d4737b04f923.tar.gz -> reactor-0_p20240109.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=c40ccb43feb7bf30e44c0f56542ab140
+_md5_=5665b14fc74663a4ba838a5abf9f91c3

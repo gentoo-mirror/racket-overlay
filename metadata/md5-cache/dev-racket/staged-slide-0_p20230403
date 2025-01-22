@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/stamourv/staged-slide/archive/28b9389ea83984306dd50b634cb795c3bd86ca41.tar.gz -> staged-slide-0_p20230403.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=90d58001c90bd9efb6b88d3311de263f
+_md5_=6b40e40cafb4c882801deaf18f79dae7

@@ -2,7 +2,7 @@ BDEPEND=dev-racket/sugar >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/
 DEFINED_PHASES=compile install postinst prepare prerm test
 DESCRIPTION=Tools for generating & manipulating CSS (unstable)
 EAPI=8
-HOMEPAGE=https://git.matthewbutterick.com/mbutterick/css-tools
+HOMEPAGE=https://gitlab.com/mbutterick/css-tools
 INHERIT=gh racket
 IUSE=doc
 KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
@@ -10,6 +10,6 @@ LICENSE=all-rights-reserved
 RDEPEND=dev-racket/sugar >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://git.matthewbutterick.com/mbutterick/css-tools/archive/90c8f8f1068e5d03e0c4793712a5cb48af9aef48.tar.gz -> css-tools-0_p20230320.tar.gz
+SRC_URI=https://gitlab.com/mbutterick/css-tools/-/archive/90c8f8f1068e5d03e0c4793712a5cb48af9aef48/css-tools-90c8f8f1068e5d03e0c4793712a5cb48af9aef48.tar.gz -> css-tools-0_p20230320.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=65667c3a73000cd7910afd2385ab272c
+_md5_=8231a1279a3ec7d27da0e6d8ca5aec87

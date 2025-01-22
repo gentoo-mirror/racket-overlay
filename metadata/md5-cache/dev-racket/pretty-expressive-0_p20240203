@@ -11,4 +11,4 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/sorawee/pretty-expressive/archive/0984931c6f8ff32921dd477c875127de7600dfd5.tar.gz -> pretty-expressive-0_p20240203.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=9ccd11049ee31106090b8a63dd119016
+_md5_=29bbf3dc9eded2b3fd584964509f365d

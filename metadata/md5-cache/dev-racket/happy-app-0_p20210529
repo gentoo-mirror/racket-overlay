@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/plane/happy-app/archive/b14ad656e3f326881adf958bde846073c14d5e5f.tar.gz -> happy-app-0_p20210529.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=7cbc32994847b9264b1afb4a4b343c9f
+_md5_=733bd26ac38b4d8bdfc86cfcbac402df

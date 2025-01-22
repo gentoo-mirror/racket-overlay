@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/tov/dssl2/archive/16de1cf332fc9dd4a2e1a256915758bd61bacfbf.tar.gz -> dssl2-0_p20240830.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=52c89ce16a845846e8d608b817261883
+_md5_=f01bb931e67d83b7491ed1942680a73f

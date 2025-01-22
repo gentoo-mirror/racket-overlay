@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/lexi-lambda/envy/archive/580610f63b66ee7503c32facfa8924505e5f35f1.tar.gz -> envy-0_p20230427.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=6377971d31c1fa82da7baef0b28a9bda
+_md5_=ecc81df19c3a7413368729faadd7ea9d

@@ -11,4 +11,4 @@ RDEPEND=dev-racket/json-lexer-lib >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/Bogdanp/racket-json-lexer/archive/d3b61463971d495d3b7ae834f2c3256faf2ed593.tar.gz -> json-lexer-test-0_p20231229.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=f22233cad6a659b7557b28f5ed59de65
+_md5_=ea17d3810a8370f9d8beb195c4a83eda

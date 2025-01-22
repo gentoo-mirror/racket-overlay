@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/ErwinKotz/test_racket_package/archive/de1a5a3b39f6f511536e2e53419a7deee2114641.tar.gz -> jsonic-jf-0_p20220319.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=881df8549de6dbbf68c59881f9d50343
+_md5_=250e99820b01c31398062eae84f91d75

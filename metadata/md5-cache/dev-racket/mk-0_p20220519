@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/WeixiMa/mk/archive/a01b4ee787e7889b9f226d954d932f9770c0ba1d.tar.gz -> mk-0_p20220519.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=d26492be15b7ad9d40896471f0e6f4e8
+_md5_=b25de4c4e2955e2ddb084dbb5e2dcdb1

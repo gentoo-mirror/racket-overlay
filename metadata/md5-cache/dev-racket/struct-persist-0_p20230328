@@ -12,4 +12,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/javiervivanco/struct-persist/archive/e577dc0f834123abeb14e82db868ce3769fe84cc.tar.gz -> struct-persist-0_p20230328.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=2b80f94c4b04aa732da8c1d8c8af63a4
+_md5_=818ee3f0fdd881d919b3787a8200dd5d

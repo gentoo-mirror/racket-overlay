@@ -11,4 +11,4 @@ RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/sorawee/drracket-restore-workspace/archive/139a3d95198c8e4e47835aca12cde4c9f140afc7.tar.gz -> drracket-restore-workspace-0_p20220608.tar.gz
 _eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=194407d0b365504d2495d53f5e7a9e55
+_md5_=a41d21e3e51f03f6cdf09a590dbd3537

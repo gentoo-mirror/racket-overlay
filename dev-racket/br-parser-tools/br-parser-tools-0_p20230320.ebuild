@@ -1,16 +1,16 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-GH_DOM="git.matthewbutterick.com"
+GH_DOM="gitlab.com"
 GH_REPO="mbutterick/br-parser-tools"
 GH_COMMIT="95b7c69cf9d660a51abf4742378b9adb7100d25a"
 
 inherit gh racket
 
 DESCRIPTION="The br-parser-tools Racket package"
-HOMEPAGE="https://git.matthewbutterick.com/mbutterick/br-parser-tools"
+HOMEPAGE="https://gitlab.com/mbutterick/br-parser-tools"
 S="${S}/br-parser-tools"
 
 LICENSE="all-rights-reserved"

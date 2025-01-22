@@ -2,4 +2,8 @@
 <!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 
 <pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/tnelson/Forge</bugs-to>
+    <remote-id type="github">tnelson/Forge</remote-id>
+  </upstream>
 </pkgmetadata>

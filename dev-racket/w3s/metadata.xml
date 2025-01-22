@@ -2,4 +2,8 @@
 <!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 
 <pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/wargrey/w3s</bugs-to>
+    <remote-id type="github">wargrey/w3s</remote-id>
+  </upstream>
 </pkgmetadata>

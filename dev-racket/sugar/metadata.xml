@@ -3,6 +3,7 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://git.matthewbutterick.com/mbutterick/sugar</bugs-to>
+    <bugs-to>https://gitlab.com/mbutterick/sugar</bugs-to>
+    <remote-id type="gitlab">mbutterick/sugar</remote-id>
   </upstream>
 </pkgmetadata>

@@ -3,7 +3,7 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/mbutterick/beautiful-racket</bugs-to>
-    <remote-id type="github">mbutterick/beautiful-racket</remote-id>
+    <bugs-to>https://gitlab.com/mbutterick/beautiful-racket</bugs-to>
+    <remote-id type="gitlab">mbutterick/beautiful-racket</remote-id>
   </upstream>
 </pkgmetadata>

@@ -3,7 +3,7 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/bksaiki/generic-flonum</bugs-to>
-    <remote-id type="github">bksaiki/generic-flonum</remote-id>
+    <bugs-to>https://github.com/herbie-fp/generic-flonum</bugs-to>
+    <remote-id type="github">herbie-fp/generic-flonum</remote-id>
   </upstream>
 </pkgmetadata>

@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -16,11 +16,13 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/basedir
+RDEPEND="dev-racket/base64-lib
+	dev-racket/basedir
 	dev-racket/beautiful-racket
 	dev-racket/br-parser-tools-lib
 	dev-racket/brag-lib
 	dev-racket/crypto-lib
+	dev-racket/http-easy
 	dev-racket/mischief
 	dev-racket/predicates
 	dev-racket/pretty-format

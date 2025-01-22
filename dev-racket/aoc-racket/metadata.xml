@@ -3,6 +3,7 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://git.matthewbutterick.com/mbutterick/aoc-racket</bugs-to>
+    <bugs-to>https://gitlab.com/mbutterick/aoc-racket</bugs-to>
+    <remote-id type="gitlab">mbutterick/aoc-racket</remote-id>
   </upstream>
 </pkgmetadata>

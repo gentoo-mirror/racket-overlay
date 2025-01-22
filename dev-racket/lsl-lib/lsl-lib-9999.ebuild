@@ -1,4 +1,4 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -22,9 +22,9 @@ RDEPEND="dev-racket/automata-lib
 	dev-racket/http-easy-lib
 	dev-racket/metapict
 	dev-racket/mischief
-	dev-racket/rosette
 	dev-racket/struct-set
 	dev-racket/syntax-classes
+	dev-racket/t-test
 	dev-racket/threading
 	dev-racket/threading-lib"
 BDEPEND="${RDEPEND}"

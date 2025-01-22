@@ -1,0 +1,19 @@
+# Copyright 1999-2025 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+GH_DOM="gitlab.com"
+GH_REPO="mbutterick/beautiful-racket"
+GH_COMMIT="7d41a489c6ec6e1f35fdd5b7ee1861cc11ccde19"
+
+inherit gh racket
+
+DESCRIPTION="Subpackage with just the br/macro and br/syntax modules"
+HOMEPAGE="https://gitlab.com/mbutterick/beautiful-racket"
+S="${S}/beautiful-racket-macro"
+
+LICENSE="all-rights-reserved"
+SLOT="0"
+KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
+RESTRICT="mirror"

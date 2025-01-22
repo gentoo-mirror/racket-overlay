@@ -1,16 +1,16 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-GH_DOM="git.matthewbutterick.com"
+GH_DOM="gitlab.com"
 GH_REPO="mbutterick/typesetting"
 GH_COMMIT="680422ea57fce4bc4280edb7412c161561d1641c"
 
 inherit gh racket
 
 DESCRIPTION="font processing [in development]"
-HOMEPAGE="https://git.matthewbutterick.com/mbutterick/typesetting"
+HOMEPAGE="https://gitlab.com/mbutterick/typesetting"
 S="${S}/fontland"
 
 LICENSE="all-rights-reserved"

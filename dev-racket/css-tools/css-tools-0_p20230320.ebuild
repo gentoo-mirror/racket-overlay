@@ -1,16 +1,16 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-GH_DOM="git.matthewbutterick.com"
+GH_DOM="gitlab.com"
 GH_REPO="mbutterick/css-tools"
 GH_COMMIT="90c8f8f1068e5d03e0c4793712a5cb48af9aef48"
 
 inherit gh racket
 
 DESCRIPTION="Tools for generating & manipulating CSS (unstable)"
-HOMEPAGE="https://git.matthewbutterick.com/mbutterick/css-tools"
+HOMEPAGE="https://gitlab.com/mbutterick/css-tools"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

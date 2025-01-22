@@ -3,6 +3,7 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://git.matthewbutterick.com/mbutterick/typesetting</bugs-to>
+    <bugs-to>https://gitlab.com/mbutterick/typesetting</bugs-to>
+    <remote-id type="gitlab">mbutterick/typesetting</remote-id>
   </upstream>
 </pkgmetadata>

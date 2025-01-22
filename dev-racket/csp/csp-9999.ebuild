@@ -1,15 +1,15 @@
-# Copyright 1999-2024 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-GH_DOM="git.matthewbutterick.com"
+GH_DOM="gitlab.com"
 GH_REPO="mbutterick/typesetting"
 
 inherit gh racket
 
 DESCRIPTION="solve constraint-satisfaction problems"
-HOMEPAGE="https://git.matthewbutterick.com/mbutterick/typesetting"
+HOMEPAGE="https://gitlab.com/mbutterick/typesetting"
 S="${S}/csp"
 
 LICENSE="all-rights-reserved"

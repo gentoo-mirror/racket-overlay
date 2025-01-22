@@ -3,6 +3,7 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://git.matthewbutterick.com/mbutterick/br-parser-tools</bugs-to>
+    <bugs-to>https://gitlab.com/mbutterick/br-parser-tools</bugs-to>
+    <remote-id type="gitlab">mbutterick/br-parser-tools</remote-id>
   </upstream>
 </pkgmetadata>

@@ -3,13 +3,13 @@
 
 EAPI=8
 
-GH_DOM="github.com"
-GH_REPO="jsmaniac/delay-pure"
+GH_DOM="gitea.suzanne.soy"
+GH_REPO="suzanne.soy/delay-pure"
 
 inherit gh racket
 
 DESCRIPTION="The delay-pure Racket package"
-HOMEPAGE="https://github.com/jsmaniac/delay-pure"
+HOMEPAGE="https://gitea.suzanne.soy/suzanne.soy/delay-pure"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

@@ -4,12 +4,12 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="noahstorym/dynamic-case"
+GH_REPO="NoahStoryM/dynamic-case"
 
 inherit gh racket
 
 DESCRIPTION="Dynamic Case"
-HOMEPAGE="https://github.com/noahstorym/dynamic-case"
+HOMEPAGE="https://github.com/NoahStoryM/dynamic-case"
 
 LICENSE="MIT"
 SLOT="0"

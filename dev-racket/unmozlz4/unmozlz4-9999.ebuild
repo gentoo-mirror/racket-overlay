@@ -14,6 +14,5 @@ HOMEPAGE="https://git.sr.ht/~nut/racket-unmozlz4"
 LICENSE="ISC"
 SLOT="0"
 
-RDEPEND="dev-racket/binaryio-lib
-	dev-racket/lz4-lib"
+RDEPEND="dev-racket/lz4-lib"
 BDEPEND="${RDEPEND}"

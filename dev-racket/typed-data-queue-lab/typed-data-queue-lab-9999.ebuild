@@ -4,12 +4,12 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="noahstorym/typed-data-queue-lab"
+GH_REPO="NoahStoryM/typed-data-queue-lab"
 
 inherit gh racket
 
 DESCRIPTION="Queues for typed racket"
-HOMEPAGE="https://github.com/noahstorym/typed-data-queue-lab"
+HOMEPAGE="https://github.com/NoahStoryM/typed-data-queue-lab"
 
 LICENSE="MIT"
 SLOT="0"

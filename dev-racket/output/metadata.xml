@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/lang-library/racket-output</bugs-to>
+    <remote-id type="github">lang-library/racket-output</remote-id>
+  </upstream>
+</pkgmetadata>

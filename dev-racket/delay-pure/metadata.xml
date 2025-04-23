@@ -3,7 +3,6 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/jsmaniac/delay-pure</bugs-to>
-    <remote-id type="github">jsmaniac/delay-pure</remote-id>
+    <bugs-to>https://gitea.suzanne.soy/suzanne.soy/delay-pure</bugs-to>
   </upstream>
 </pkgmetadata>

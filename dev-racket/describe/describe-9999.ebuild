@@ -3,14 +3,13 @@
 
 EAPI=8
 
-GH_DOM="git.matthewbutterick.com"
-GH_REPO="mbutterick/describe"
+GH_DOM="github.com"
+GH_REPO="spdegabrielle/describe"
 
 inherit gh racket
 
-DESCRIPTION="Doug Williams's 'describe' package from PLaneT"
-HOMEPAGE="https://git.matthewbutterick.com/mbutterick/describe"
+DESCRIPTION="The describe Racket package"
+HOMEPAGE="https://github.com/spdegabrielle/describe"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"

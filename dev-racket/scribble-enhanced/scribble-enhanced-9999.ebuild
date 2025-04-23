@@ -3,13 +3,13 @@
 
 EAPI=8
 
-GH_DOM="github.com"
-GH_REPO="jsmaniac/scribble-enhanced"
+GH_DOM="gitea.suzanne.soy"
+GH_REPO="suzanne.soy/scribble-enhanced"
 
 inherit gh racket
 
 DESCRIPTION="The scribble-enhanced Racket package"
-HOMEPAGE="https://github.com/jsmaniac/scribble-enhanced"
+HOMEPAGE="https://gitea.suzanne.soy/suzanne.soy/scribble-enhanced"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

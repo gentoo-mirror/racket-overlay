@@ -3,7 +3,6 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/envlang/racket</bugs-to>
-    <remote-id type="github">envlang/racket</remote-id>
+    <bugs-to>https://gitea.suzanne.soy/suzanne.soy/envlang-racket</bugs-to>
   </upstream>
 </pkgmetadata>

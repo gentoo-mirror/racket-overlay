@@ -3,13 +3,13 @@
 
 EAPI=8
 
-GH_DOM="github.com"
-GH_REPO="envlang/racket"
+GH_DOM="gitea.suzanne.soy"
+GH_REPO="suzanne.soy/envlang-racket"
 
 inherit gh racket
 
 DESCRIPTION="Prototype of a proof-of-concept for a language with first-class environments."
-HOMEPAGE="https://github.com/envlang/racket"
+HOMEPAGE="https://gitea.suzanne.soy/suzanne.soy/envlang-racket"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

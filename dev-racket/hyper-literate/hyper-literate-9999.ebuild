@@ -3,13 +3,13 @@
 
 EAPI=8
 
-GH_DOM="github.com"
-GH_REPO="jsmaniac/hyper-literate"
+GH_DOM="gitea.suzanne.soy"
+GH_REPO="suzanne.soy/hyper-literate"
 
 inherit gh racket
 
 DESCRIPTION="The hyper-literate Racket package"
-HOMEPAGE="https://github.com/jsmaniac/hyper-literate"
+HOMEPAGE="https://gitea.suzanne.soy/suzanne.soy/hyper-literate"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

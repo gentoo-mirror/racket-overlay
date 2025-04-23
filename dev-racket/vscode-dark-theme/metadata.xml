@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
-
-<pkgmetadata>
-  <upstream>
-    <bugs-to>https://github.com/kurtisvetter/drracket-vscode-dark</bugs-to>
-    <remote-id type="github">kurtisvetter/drracket-vscode-dark</remote-id>
-  </upstream>
-</pkgmetadata>

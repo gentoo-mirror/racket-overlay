@@ -8,5 +8,5 @@ LICENSE=BSD
 PROPERTIES=live
 RDEPEND=dev-racket/review app-emacs/flycheck >=app-editors/emacs-24.1:*
 SLOT=0
-_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	gh	fc6ba371c0469f8c5572be5ddf1caea9	elisp-common	4ee3453b022aae73f4d827a0f98920c2	elisp	8dfc7a00348fe9c91895014adc78a4a5
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	gh	fc6ba371c0469f8c5572be5ddf1caea9	elisp-common	fe05085d051330f15cf7201109b5cd23	elisp	8dfc7a00348fe9c91895014adc78a4a5
 _md5_=a34103e8b2edbd8a2d5a46d83de616be

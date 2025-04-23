@@ -1,4 +1,4 @@
-# Copyright 1999-2023 Gentoo Authors
+# Copyright 1999-2025 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 # @ECLASS: gh.eclass
@@ -62,7 +62,7 @@ if [[ -z "${GH_TYPE}" ]] ; then
 			GH_TYPE="bitbucket"
 			;;
 		codeberg.org | git.marvid.fr | git.matthewbutterick.com \
-			| git.syndicate-lang.org )
+			| git.syndicate-lang.org | gitea.suzanne.soy )
 			GH_TYPE="gitea"
 			;;
 		github.com )

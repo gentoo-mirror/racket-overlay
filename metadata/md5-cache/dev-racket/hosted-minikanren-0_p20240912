@@ -10,5 +10,5 @@ LICENSE=MIT
 RDEPEND=dev-racket/csv-reading dev-racket/fmt dev-racket/sql dev-racket/syntax-spec-v2 dev-racket/text-table dev-racket/threading >=dev-scheme/racket-8.1:=[-minimal]
 SLOT=0
 SRC_URI=https://github.com/michaelballantyne/hosted-minikanren/archive/d20e8a629c1d1a70368ad5a1fb91a5ef42a7225f.tar.gz -> hosted-minikanren-0_p20240912.tar.gz
-_eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_eclasses_=gh	5d88554cb57e4049413f47b75096e2ab	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
 _md5_=320b5c8709e04eef9e285455505a7820

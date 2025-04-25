@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/disposable dev-racket/reprovide-lang >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=The net2 Racket package
+EAPI=8
+HOMEPAGE=https://github.com/jackfirth/racket-net2
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/disposable dev-racket/reprovide-lang >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/jackfirth/racket-net2/archive/b4247d52177120ff246b60c400b070dc962ee24b.tar.gz -> net2-0_p20180103.tar.gz
+_eclasses_=gh	5d88554cb57e4049413f47b75096e2ab	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=f3abb342bc7312dfc63f44b573cb2adb

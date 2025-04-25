@@ -1,0 +1,14 @@
+BDEPEND=dev-racket/clotho dev-racket/memoize dev-racket/pprint dev-racket/quickcheck dev-racket/racr dev-racket/version-string-with-git-hash >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Generator of highly effective fuzz testers.
+EAPI=8
+HOMEPAGE=https://gitlab.flux.utah.edu/xsmith/xsmith
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=BSD-2
+RDEPEND=dev-racket/clotho dev-racket/memoize dev-racket/pprint dev-racket/quickcheck dev-racket/racr dev-racket/version-string-with-git-hash >=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://gitlab.flux.utah.edu/xsmith/xsmith/-/archive/5dd69736542e0b30a5158de81c0dba4868fc8646/xsmith-5dd69736542e0b30a5158de81c0dba4868fc8646.tar.gz -> xsmith-0_p20250213.tar.gz
+_eclasses_=gh	5d88554cb57e4049413f47b75096e2ab	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=f85385e9351bd8e08f138616ded1f895

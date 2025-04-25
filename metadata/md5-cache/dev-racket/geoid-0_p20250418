@@ -1,0 +1,14 @@
+BDEPEND=dev-racket/al2-test-runner >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=work efficiently with geographic data
+EAPI=8
+HOMEPAGE=https://github.com/alex-hhh/geoid
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=LGPL-3+
+RDEPEND=dev-racket/al2-test-runner >=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://github.com/alex-hhh/geoid/archive/dad9e91a05853d1cf11766ea96388f6d79f063e7.tar.gz -> geoid-0_p20250418.tar.gz
+_eclasses_=gh	5d88554cb57e4049413f47b75096e2ab	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=b73c426516565d6745ef96109dfa6fe3

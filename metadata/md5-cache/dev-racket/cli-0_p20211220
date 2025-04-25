@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/cover dev-racket/cover-coveralls dev-racket/mischief dev-racket/scribble-abbrevs dev-racket/version-case >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Simple and expressive command line interfaces.
+EAPI=8
+HOMEPAGE=https://github.com/countvajhula/cli
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/cover dev-racket/cover-coveralls dev-racket/mischief dev-racket/scribble-abbrevs dev-racket/version-case >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/countvajhula/cli/archive/26c930e8f8bc4cb9396561f2678d74179473085d.tar.gz -> cli-0_p20211220.tar.gz
+_eclasses_=gh	5d88554cb57e4049413f47b75096e2ab	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=4ce5d71cf1501e8558c4a3c21f62ea7e

@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/meta-json dev-racket/output >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=commit 39d9665a59356f61d3713eddb1e6c5101b7aebfd
+EAPI=8
+HOMEPAGE=https://github.com/lang-library/racket-json-api
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/meta-json dev-racket/output >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/lang-library/racket-json-api/archive/39d9665a59356f61d3713eddb1e6c5101b7aebfd.tar.gz -> json-api-0_p20250416.tar.gz
+_eclasses_=gh	5d88554cb57e4049413f47b75096e2ab	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=9a00be3b49b01f8e7d81731ce6ccf7c5

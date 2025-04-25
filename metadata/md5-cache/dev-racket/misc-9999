@@ -1,4 +1,4 @@
-BDEPEND=dev-racket/access dev-racket/reprovide-lang-lib dev-racket/uuid >=dev-vcs/git-1.8.2.1[curl] >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/access dev-racket/output dev-racket/reprovide-lang-lib dev-racket/uuid >=dev-vcs/git-1.8.2.1[curl] >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
 DESCRIPTION=commit f4e70ce966f8592225c58040e97bcc647bd1b235
 EAPI=8
@@ -7,8 +7,8 @@ INHERIT=gh racket
 IUSE=doc
 LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=dev-racket/access dev-racket/reprovide-lang-lib dev-racket/uuid >=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/access dev-racket/output dev-racket/reprovide-lang-lib dev-racket/uuid >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=559e7e0deb1bc61f22dd20d3aac1bb8d
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	gh	5d88554cb57e4049413f47b75096e2ab	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=160e42ecfb6fdafaa6a1da77849f3a9a

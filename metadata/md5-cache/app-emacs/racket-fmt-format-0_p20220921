@@ -9,5 +9,5 @@ LICENSE=|| ( Apache-2.0 MIT )
 RDEPEND=dev-racket/fmt app-emacs/reformatter >=app-editors/emacs-24.3:*
 SLOT=0
 SRC_URI=https://github.com/sorawee/fmt/archive/f87e5d25ffa638f858797d4de024320c0573a6a1.tar.gz -> racket-fmt-format-0_p20220921.tar.gz
-_eclasses_=gh	fc6ba371c0469f8c5572be5ddf1caea9	elisp-common	fe05085d051330f15cf7201109b5cd23	elisp	8dfc7a00348fe9c91895014adc78a4a5
+_eclasses_=gh	5d88554cb57e4049413f47b75096e2ab	elisp-common	fe05085d051330f15cf7201109b5cd23	elisp	8dfc7a00348fe9c91895014adc78a4a5
 _md5_=204859c8d49edf52863a8d83e5ec2bc4

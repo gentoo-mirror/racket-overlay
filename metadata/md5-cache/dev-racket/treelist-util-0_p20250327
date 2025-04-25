@@ -1,0 +1,14 @@
+BDEPEND=dev-racket/reprovide-lang-lib dev-racket/rhombus dev-racket/rhombus-lib dev-racket/rhombus-scribble-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Treelist operations matching racket/list that aren't in racket/treelist
+EAPI=8
+HOMEPAGE=https://github.com/AlexKnauth/treelist-util
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=MIT
+RDEPEND=dev-racket/reprovide-lang-lib dev-racket/rhombus dev-racket/rhombus-lib dev-racket/rhombus-scribble-lib >=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://github.com/AlexKnauth/treelist-util/archive/cd38c0bb2c5861e28b566b5800282fb181e6b472.tar.gz -> treelist-util-0_p20250327.tar.gz
+_eclasses_=gh	5d88554cb57e4049413f47b75096e2ab	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=40c86265dab546b5c47e2b488230786a

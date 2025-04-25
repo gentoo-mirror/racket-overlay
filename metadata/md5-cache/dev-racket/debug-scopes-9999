@@ -2,7 +2,7 @@ BDEPEND=dev-racket/pretty-format dev-racket/reprovide-lang dev-racket/scribble-e
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
 DESCRIPTION=Some utilities which help debugging scope-related issues for unhygienic macros
 EAPI=8
-HOMEPAGE=https://github.com/jsmaniac/debug-scopes
+HOMEPAGE=https://gitea.suzanne.soy/suzanne.soy/debug-scopes
 INHERIT=gh racket
 IUSE=doc
 LICENSE=all-rights-reserved
@@ -10,5 +10,5 @@ PROPERTIES=live
 RDEPEND=dev-racket/pretty-format dev-racket/reprovide-lang dev-racket/scribble-enhanced >=dev-scheme/racket-8.1:=[-minimal]
 RESTRICT=mirror
 SLOT=0
-_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=a66d2fc5cfe2703adbdae5212fdfabfd
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	gh	5d88554cb57e4049413f47b75096e2ab	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=7d46abd7d9224827463b41d76ad9bd95

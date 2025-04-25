@@ -1,0 +1,14 @@
+BDEPEND=dev-racket/resource-pool-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=A high-level HTTP client. (implementation)
+EAPI=8
+HOMEPAGE=https://github.com/Bogdanp/racket-http-easy
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=BSD
+RDEPEND=dev-racket/resource-pool-lib >=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://github.com/Bogdanp/racket-http-easy/archive/953b97d8582b377c82c82b58e00f1a78d67106ec.tar.gz -> http-easy-lib-0_p20250322.tar.gz
+_eclasses_=gh	5d88554cb57e4049413f47b75096e2ab	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=e6d5738c7962240950ef2a3f8c7813c4

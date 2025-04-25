@@ -1,13 +1,14 @@
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+BDEPEND=dev-racket/http-easy dev-racket/threading >=dev-vcs/git-1.8.2.1[curl] >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
-DESCRIPTION=A raco command for quickly creating new Racket projects
+DESCRIPTION=Download template apps to get started building new projects with Racket
 EAPI=8
-HOMEPAGE=https://github.com/priime0/raco-new
+HOMEPAGE=https://github.com/racket-templates/raco-new
 INHERIT=gh racket
 IUSE=doc
-LICENSE=MIT
+LICENSE=all-rights-reserved
 PROPERTIES=live
-RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+RDEPEND=dev-racket/http-easy dev-racket/threading >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
 SLOT=0
-_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	gh	fc6ba371c0469f8c5572be5ddf1caea9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=6f32a14937000e7675edade9623fbbc0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	gh	5d88554cb57e4049413f47b75096e2ab	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=324c6b7fc7170557fe32d4476ff585ed

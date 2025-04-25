@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/br-parser-tools-doc dev-racket/brag-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=The brag Racket package
+EAPI=8
+HOMEPAGE=https://gitlab.com/mbutterick/brag
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/br-parser-tools-doc dev-racket/brag-lib >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://gitlab.com/mbutterick/brag/-/archive/30cbf95e6a717e71fb8bda6b15a7253aed36115a/brag-30cbf95e6a717e71fb8bda6b15a7253aed36115a.tar.gz -> brag-0_p20230504.tar.gz
+_eclasses_=gh	5d88554cb57e4049413f47b75096e2ab	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=074b071537f71d13564710cf253e5ae9

@@ -3,13 +3,13 @@
 
 EAPI=8
 
-GH_DOM="github.com"
-GH_REPO="jsmaniac/debug-scopes"
+GH_DOM="gitea.suzanne.soy"
+GH_REPO="suzanne.soy/debug-scopes"
 
 inherit gh racket
 
 DESCRIPTION="Some utilities which help debugging scope-related issues for unhygienic macros"
-HOMEPAGE="https://github.com/jsmaniac/debug-scopes"
+HOMEPAGE="https://gitea.suzanne.soy/suzanne.soy/debug-scopes"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

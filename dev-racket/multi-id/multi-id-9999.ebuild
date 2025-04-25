@@ -3,13 +3,13 @@
 
 EAPI=8
 
-GH_DOM="github.com"
-GH_REPO="jsmaniac/multi-id"
+GH_DOM="gitea.suzanne.soy"
+GH_REPO="suzanne.soy/multi-id"
 
 inherit gh racket
 
 DESCRIPTION="The multi-id Racket package"
-HOMEPAGE="https://github.com/jsmaniac/multi-id"
+HOMEPAGE="https://gitea.suzanne.soy/suzanne.soy/multi-id"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

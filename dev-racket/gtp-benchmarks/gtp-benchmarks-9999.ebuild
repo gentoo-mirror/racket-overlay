@@ -14,7 +14,8 @@ HOMEPAGE="https://github.com/utahplt/gtp-benchmarks"
 LICENSE="LGPL-2+"
 SLOT="0"
 
-RDEPEND="dev-racket/gtp-util
+RDEPEND="dev-racket/gtp-measure
+	dev-racket/gtp-util
 	dev-racket/require-typed-check
 	dev-racket/scribble-abbrevs
 	dev-racket/syntax-sloc

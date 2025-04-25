@@ -3,13 +3,13 @@
 
 EAPI=8
 
-GH_DOM="github.com"
-GH_REPO="jsmaniac/typed-worklist"
+GH_DOM="gitea.suzanne.soy"
+GH_REPO="suzanne.soy/typed-worklist"
 
 inherit gh racket
 
 DESCRIPTION="The typed-worklist Racket package"
-HOMEPAGE="https://github.com/jsmaniac/typed-worklist"
+HOMEPAGE="https://gitea.suzanne.soy/suzanne.soy/typed-worklist"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

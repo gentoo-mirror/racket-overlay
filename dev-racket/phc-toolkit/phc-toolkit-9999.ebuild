@@ -3,13 +3,13 @@
 
 EAPI=8
 
-GH_DOM="github.com"
-GH_REPO="jsmaniac/phc-toolkit"
+GH_DOM="gitea.suzanne.soy"
+GH_REPO="suzanne.soy/phc-toolkit"
 
 inherit gh racket
 
 DESCRIPTION="The phc-toolkit Racket package"
-HOMEPAGE="https://github.com/jsmaniac/phc-toolkit"
+HOMEPAGE="https://gitea.suzanne.soy/suzanne.soy/phc-toolkit"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

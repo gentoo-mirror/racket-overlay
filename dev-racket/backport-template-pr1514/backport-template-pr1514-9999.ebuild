@@ -3,13 +3,13 @@
 
 EAPI=8
 
-GH_DOM="github.com"
-GH_REPO="jsmaniac/backport-template-pr1514"
+GH_DOM="gitea.suzanne.soy"
+GH_REPO="suzanne.soy/backport-template-pr1514"
 
 inherit gh racket
 
 DESCRIPTION="The backport-template-pr1514 Racket package"
-HOMEPAGE="https://github.com/jsmaniac/backport-template-pr1514"
+HOMEPAGE="https://gitea.suzanne.soy/suzanne.soy/backport-template-pr1514"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

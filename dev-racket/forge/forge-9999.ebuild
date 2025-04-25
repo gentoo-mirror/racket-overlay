@@ -12,9 +12,8 @@ DESCRIPTION="A model-finding language with Alloy-adjacent syntax."
 HOMEPAGE="https://github.com/tnelson/Forge"
 S="${S}/forge"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/base64-lib
 	dev-racket/basedir

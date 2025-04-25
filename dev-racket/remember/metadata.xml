@@ -3,7 +3,6 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/jsmaniac/remember</bugs-to>
-    <remote-id type="github">jsmaniac/remember</remote-id>
+    <bugs-to>https://gitea.suzanne.soy/suzanne.soy/remember</bugs-to>
   </upstream>
 </pkgmetadata>

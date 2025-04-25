@@ -18,6 +18,7 @@ KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/access
+	dev-racket/output
 	dev-racket/reprovide-lang-lib
 	dev-racket/uuid"
 BDEPEND="${RDEPEND}"

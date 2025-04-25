@@ -3,7 +3,6 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/jsmaniac/chain-module-begin</bugs-to>
-    <remote-id type="github">jsmaniac/chain-module-begin</remote-id>
+    <bugs-to>https://gitea.suzanne.soy/suzanne.soy/chain-module-begin</bugs-to>
   </upstream>
 </pkgmetadata>

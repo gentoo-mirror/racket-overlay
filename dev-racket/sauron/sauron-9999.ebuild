@@ -17,7 +17,7 @@ SLOT="0"
 RDEPEND="dev-racket/curly-fn-lib
 	dev-racket/drcomplete
 	dev-racket/file-watchers
-	dev-racket/from-template
 	dev-racket/raco-invoke
+	dev-racket/raco-new
 	dev-racket/try-catch-finally-lib"
 BDEPEND="${RDEPEND}"

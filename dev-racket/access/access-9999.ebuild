@@ -4,12 +4,12 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="lang-library/racekt-access"
+GH_REPO="lang-library/racket-access"
 
 inherit gh racket
 
-DESCRIPTION="Access Path for Racket"
-HOMEPAGE="https://github.com/lang-library/racekt-access"
+DESCRIPTION="commit 5c3838f68bbea7748be0e65d806758897a239ef8"
+HOMEPAGE="https://github.com/lang-library/racket-access"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

@@ -3,13 +3,13 @@
 
 EAPI=8
 
-GH_DOM="github.com"
-GH_REPO="jsmaniac/xlist"
+GH_DOM="gitea.suzanne.soy"
+GH_REPO="suzanne.soy/xlist"
 
 inherit gh racket
 
 DESCRIPTION="The xlist Racket package"
-HOMEPAGE="https://github.com/jsmaniac/xlist"
+HOMEPAGE="https://gitea.suzanne.soy/suzanne.soy/xlist"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

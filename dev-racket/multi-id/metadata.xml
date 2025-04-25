@@ -3,7 +3,6 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/jsmaniac/multi-id</bugs-to>
-    <remote-id type="github">jsmaniac/multi-id</remote-id>
+    <bugs-to>https://gitea.suzanne.soy/suzanne.soy/multi-id</bugs-to>
   </upstream>
 </pkgmetadata>

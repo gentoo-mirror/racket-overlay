@@ -11,9 +11,8 @@ inherit gh racket
 DESCRIPTION="A fast, efficient, immutable, dataframes implementation."
 HOMEPAGE="https://github.com/massung/tabular-asa"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/csv-reading"
 BDEPEND="${RDEPEND}"

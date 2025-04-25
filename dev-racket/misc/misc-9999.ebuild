@@ -16,6 +16,7 @@ SLOT="0"
 RESTRICT="mirror"
 
 RDEPEND="dev-racket/access
+	dev-racket/output
 	dev-racket/reprovide-lang-lib
 	dev-racket/uuid"
 BDEPEND="${RDEPEND}"

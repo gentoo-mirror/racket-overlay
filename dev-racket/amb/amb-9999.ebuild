@@ -14,3 +14,6 @@ S="${S}/pkgs/amb"
 
 LICENSE="MIT"
 SLOT="0"
+
+RDEPEND="dev-racket/goto"
+BDEPEND="${RDEPEND}"

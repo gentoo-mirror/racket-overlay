@@ -3,13 +3,13 @@
 
 EAPI=8
 
-GH_DOM="github.com"
-GH_REPO="jsmaniac/typed-struct-props"
+GH_DOM="gitea.suzanne.soy"
+GH_REPO="suzanne.soy/typed-struct-props"
 
 inherit gh racket
 
 DESCRIPTION="The typed-struct-props Racket package"
-HOMEPAGE="https://github.com/jsmaniac/typed-struct-props"
+HOMEPAGE="https://gitea.suzanne.soy/suzanne.soy/typed-struct-props"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

@@ -3,13 +3,13 @@
 
 EAPI=8
 
-GH_DOM="github.com"
-GH_REPO="jsmaniac/tr-immutable"
+GH_DOM="gitea.suzanne.soy"
+GH_REPO="suzanne.soy/tr-immutable"
 
 inherit gh racket
 
 DESCRIPTION="The tr-immutable Racket package"
-HOMEPAGE="https://github.com/jsmaniac/tr-immutable"
+HOMEPAGE="https://gitea.suzanne.soy/suzanne.soy/tr-immutable"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

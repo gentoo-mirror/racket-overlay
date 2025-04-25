@@ -3,13 +3,13 @@
 
 EAPI=8
 
-GH_DOM="github.com"
-GH_REPO="jsmaniac/type-expander"
+GH_DOM="gitea.suzanne.soy"
+GH_REPO="suzanne.soy/type-expander"
 
 inherit gh racket
 
 DESCRIPTION="Type expanders for typed/racket, which work like match expanders for match"
-HOMEPAGE="https://github.com/jsmaniac/type-expander"
+HOMEPAGE="https://gitea.suzanne.soy/suzanne.soy/type-expander"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

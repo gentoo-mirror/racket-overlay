@@ -3,13 +3,13 @@
 
 EAPI=8
 
-GH_DOM="github.com"
-GH_REPO="jsmaniac/anaphoric"
+GH_DOM="gitea.suzanne.soy"
+GH_REPO="suzanne.soy/anaphoric"
 
 inherit gh racket
 
 DESCRIPTION="The anaphoric Racket package"
-HOMEPAGE="https://github.com/jsmaniac/anaphoric"
+HOMEPAGE="https://gitea.suzanne.soy/suzanne.soy/anaphoric"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

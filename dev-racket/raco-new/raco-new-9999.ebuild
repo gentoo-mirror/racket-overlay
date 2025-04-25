@@ -4,12 +4,17 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="priime0/raco-new"
+GH_REPO="racket-templates/raco-new"
 
 inherit gh racket
 
-DESCRIPTION="A raco command for quickly creating new Racket projects"
-HOMEPAGE="https://github.com/priime0/raco-new"
+DESCRIPTION="Download template apps to get started building new projects with Racket"
+HOMEPAGE="https://github.com/racket-templates/raco-new"
 
-LICENSE="MIT"
+LICENSE="all-rights-reserved"
 SLOT="0"
+RESTRICT="mirror"
+
+RDEPEND="dev-racket/http-easy
+	dev-racket/threading"
+BDEPEND="${RDEPEND}"

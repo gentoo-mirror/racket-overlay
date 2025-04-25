@@ -3,13 +3,13 @@
 
 EAPI=8
 
-GH_DOM="github.com"
-GH_REPO="jsmaniac/aful"
+GH_DOM="gitea.suzanne.soy"
+GH_REPO="suzanne.soy/aful"
 
 inherit gh racket
 
-DESCRIPTION="A fork of #lang afl which also supports #lang aflu/unhygienic."
-HOMEPAGE="https://github.com/jsmaniac/aful"
+DESCRIPTION="A fork of #lang afl which also supports #lang aful/unhygienic."
+HOMEPAGE="https://gitea.suzanne.soy/suzanne.soy/aful"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

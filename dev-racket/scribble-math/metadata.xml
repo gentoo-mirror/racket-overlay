@@ -3,7 +3,6 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/jsmaniac/scribble-math</bugs-to>
-    <remote-id type="github">jsmaniac/scribble-math</remote-id>
+    <bugs-to>https://gitea.suzanne.soy/suzanne.soy/scribble-math</bugs-to>
   </upstream>
 </pkgmetadata>

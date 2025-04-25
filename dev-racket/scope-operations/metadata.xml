@@ -3,7 +3,6 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/jsmaniac/scope-operations</bugs-to>
-    <remote-id type="github">jsmaniac/scope-operations</remote-id>
+    <bugs-to>https://gitea.suzanne.soy/suzanne.soy/scope-operations</bugs-to>
   </upstream>
 </pkgmetadata>

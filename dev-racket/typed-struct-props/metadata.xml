@@ -3,7 +3,6 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/jsmaniac/typed-struct-props</bugs-to>
-    <remote-id type="github">jsmaniac/typed-struct-props</remote-id>
+    <bugs-to>https://gitea.suzanne.soy/suzanne.soy/typed-struct-props</bugs-to>
   </upstream>
 </pkgmetadata>

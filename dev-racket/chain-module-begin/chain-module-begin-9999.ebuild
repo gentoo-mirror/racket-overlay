@@ -3,13 +3,13 @@
 
 EAPI=8
 
-GH_DOM="github.com"
-GH_REPO="jsmaniac/chain-module-begin"
+GH_DOM="gitea.suzanne.soy"
+GH_REPO="suzanne.soy/chain-module-begin"
 
 inherit gh racket
 
 DESCRIPTION="The chain-module-begin Racket package"
-HOMEPAGE="https://github.com/jsmaniac/chain-module-begin"
+HOMEPAGE="https://gitea.suzanne.soy/suzanne.soy/chain-module-begin"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

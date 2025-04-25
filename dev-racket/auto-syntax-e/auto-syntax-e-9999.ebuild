@@ -3,13 +3,13 @@
 
 EAPI=8
 
-GH_DOM="github.com"
-GH_REPO="jsmaniac/auto-syntax-e"
+GH_DOM="gitea.suzanne.soy"
+GH_REPO="suzanne.soy/auto-syntax-e"
 
 inherit gh racket
 
 DESCRIPTION="The auto-syntax-e Racket package"
-HOMEPAGE="https://github.com/jsmaniac/auto-syntax-e"
+HOMEPAGE="https://gitea.suzanne.soy/suzanne.soy/auto-syntax-e"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

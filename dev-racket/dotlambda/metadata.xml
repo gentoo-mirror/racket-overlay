@@ -3,7 +3,6 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/jsmaniac/dotlambda</bugs-to>
-    <remote-id type="github">jsmaniac/dotlambda</remote-id>
+    <bugs-to>https://gitea.suzanne.soy/suzanne.soy/dotlambda</bugs-to>
   </upstream>
 </pkgmetadata>

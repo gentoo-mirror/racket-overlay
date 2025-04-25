@@ -3,13 +3,13 @@
 
 EAPI=8
 
-GH_DOM="github.com"
-GH_REPO="jsmaniac/typed-map"
+GH_DOM="gitea.suzanne.soy"
+GH_REPO="suzanne.soy/typed-map"
 
 inherit gh racket
 
 DESCRIPTION="Documentation for typed-map"
-HOMEPAGE="https://github.com/jsmaniac/typed-map"
+HOMEPAGE="https://gitea.suzanne.soy/suzanne.soy/typed-map"
 S="${S}/typed-map-doc"
 
 LICENSE="all-rights-reserved"

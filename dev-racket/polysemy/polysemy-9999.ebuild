@@ -3,13 +3,13 @@
 
 EAPI=8
 
-GH_DOM="github.com"
-GH_REPO="jsmaniac/polysemy"
+GH_DOM="gitea.suzanne.soy"
+GH_REPO="suzanne.soy/polysemy"
 
 inherit gh racket
 
 DESCRIPTION="The polysemy Racket package"
-HOMEPAGE="https://github.com/jsmaniac/polysemy"
+HOMEPAGE="https://gitea.suzanne.soy/suzanne.soy/polysemy"
 
 LICENSE="all-rights-reserved"
 SLOT="0"

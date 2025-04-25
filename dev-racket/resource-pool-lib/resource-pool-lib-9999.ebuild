@@ -14,3 +14,6 @@ S="${S}/resource-pool-lib"
 
 LICENSE="BSD"
 SLOT="0"
+
+RDEPEND="dev-racket/actor-lib"
+BDEPEND="${RDEPEND}"

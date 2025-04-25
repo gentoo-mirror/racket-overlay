@@ -3,7 +3,6 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/jsmaniac/anaphoric</bugs-to>
-    <remote-id type="github">jsmaniac/anaphoric</remote-id>
+    <bugs-to>https://gitea.suzanne.soy/suzanne.soy/anaphoric</bugs-to>
   </upstream>
 </pkgmetadata>

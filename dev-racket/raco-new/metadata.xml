@@ -3,7 +3,7 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/priime0/raco-new</bugs-to>
-    <remote-id type="github">priime0/raco-new</remote-id>
+    <bugs-to>https://github.com/racket-templates/raco-new</bugs-to>
+    <remote-id type="github">racket-templates/raco-new</remote-id>
   </upstream>
 </pkgmetadata>

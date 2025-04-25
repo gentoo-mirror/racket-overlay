@@ -3,7 +3,6 @@
 
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/jsmaniac/phc-toolkit</bugs-to>
-    <remote-id type="github">jsmaniac/phc-toolkit</remote-id>
+    <bugs-to>https://gitea.suzanne.soy/suzanne.soy/phc-toolkit</bugs-to>
   </upstream>
 </pkgmetadata>

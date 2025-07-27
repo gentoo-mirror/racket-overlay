@@ -1902,7 +1902,6 @@ dev-racket/tzgeolookup 0_p20230905 9999: The tzgeolookup Racket package
 dev-racket/tzinfo 0_p20211205 9999: API for querying the IANA tz database
 dev-racket/udelim 0_p20230224 9999: Add more parens and string delimiters.
 dev-racket/udev 0_p20210529 9999: udev bindings for Racket
-dev-racket/udiff 0_p20250717 9999: Unix diff compact-mode parser.
 dev-racket/ugly-app-lib 0_p20210526 9999: The ugly-app-lib Racket package
 dev-racket/uke 0_p20250422 0_p20250701 9999: The uke Racket package
 dev-racket/uke-extra-lib 0_p20250422 0_p20250423 9999: The uke-extra-lib Racket package
@@ -2054,5 +2053,5 @@ dev-racket/zstd 0_p20250211 9999: The zstd Racket package
 dev-racket/zubat 0_p20221101 9999: The zubat Racket package
 dev-racket/zuo-doc 0_p20250421 0_p20250726 9999: Documentation for the Zuo language
 sys-apps/racket-compiler 1.0.0: Small tool to compile Racket source code
-sys-apps/racket-maints 1.1.1 9999: Racket Maintenance Scripts
+sys-apps/racket-maints 1.1.1-r1 9999: Racket Maintenance Scripts
 sys-apps/racket-where 1.0.3: Small tool to find installed Racket packages

@@ -1,23 +1,15 @@
----
-
-
 # Original author: Maciej Barć <xgqt@riseup.net>
 # Copyright (c) 2021-2023, Maciej Barć <xgqt@riseup.net>
 # Licensed under the GNU GPL v2 License
 # SPDX-License-Identifier: GPL-2.0-or-later
-
-
+---
 stages:
   - test
   - pages
-
-
 test:
   stage: test
   timeout: 20 minutes
-
   image: registry.gitlab.com/src_prepare/gentoo-repoman-container:latest
-
   only:
     changes:
       - "*/*/*.ebuild"
@@ -26,18 +18,14 @@ test:
       - .gitlab-ci.yml
       - Makefile
       - eclass/*.eclass
-
   before_script:
     - pkgcheck --version
-
   script:
     - make test
-
-
 pages:
   stage: pages
   timeout: 5 minutes
-
+  image: racket/racket:8.17-full
   only:
     refs:
       - master
@@ -46,17 +34,12 @@ pages:
       - Makefile
       - scribblings/*.scrbl
       - scribblings/*/*.scrbl
-
   artifacts:
     expire_in: 1 week
     paths:
       - public
-
-  image: racket/racket:8.6-full
-
   before_script:
     - apt-get update
     - apt-get install -y make sqlite3
-
   script:
     - make public

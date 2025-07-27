@@ -10,17 +10,18 @@
        "egg-herbie-windows"             ; binary
        "ekans"                          ; 404
        "emmy"                           ; 404
-       "vscode-dark-theme"              ; 404 user gone not in archive
        "llm"                            ; 404 but seems to be a issue with pkg-server
        "plai-dynamic"                   ; 404
        "qualified-in"                   ; 404
        "raqet"                          ; unsupported GH_TYPE
-       "sirmail"                        ; 404 but seems to be a issue with pkg-server
        "s-lib"                          ; 404 repo gone but in sofware heritage archive
+       "sirmail"                        ; 404 but seems to be a issue with pkg-server
        "typed-compose"                  ; 404
        "typed-graph"                    ; 404
+       "udiff"                          ; > unknown license: CNPLv6+
        "unb-cs2613"                     ; 404
        "unb-cs4613"                     ; 404
+       "vscode-dark-theme"              ; 404 user gone not in archive
        )
  (soft "net-cookies"                    ; part of the main-distribution
        "net-cookies-doc"                ; part of the main-distribution

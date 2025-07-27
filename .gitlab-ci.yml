@@ -18,6 +18,7 @@ test:
       - ".gitlab-ci.yml"
       - "Makefile"
       - "eclass/*.eclass"
+      - "metadata/*"
   before_script:
     - pkgcheck --version
   script:

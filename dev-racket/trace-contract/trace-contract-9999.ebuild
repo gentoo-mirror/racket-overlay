@@ -20,6 +20,7 @@ RDEPEND="dev-racket/automata-lib
 	dev-racket/chk-lib
 	dev-racket/contract-etc-lib
 	dev-racket/graph-lib
+	dev-racket/logic-lib
 	dev-racket/redex-etc
 	dev-racket/stream-etc
 	dev-racket/trace-contract-lib"

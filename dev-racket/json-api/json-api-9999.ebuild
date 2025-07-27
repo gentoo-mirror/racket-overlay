@@ -8,7 +8,7 @@ GH_REPO="lang-library/racket-json-api"
 
 inherit gh racket
 
-DESCRIPTION="commit 39d9665a59356f61d3713eddb1e6c5101b7aebfd"
+DESCRIPTION="commit 86331bfafa26baf4a2dcc4a267d132a252ccd6ed"
 HOMEPAGE="https://github.com/lang-library/racket-json-api"
 
 LICENSE="all-rights-reserved"

@@ -17,6 +17,8 @@ SLOT="0"
 
 RDEPEND="dev-racket/http-easy
 	dev-racket/rhombus
+	dev-racket/rhombus-http-lib
+	dev-racket/rhombus-json
 	dev-racket/rhombus-scribble-lib
 	dev-racket/rhombus-url"
 BDEPEND="${RDEPEND}"

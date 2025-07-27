@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/camoy/roulette</bugs-to>
+    <remote-id type="github">camoy/roulette</remote-id>
+  </upstream>
+</pkgmetadata>

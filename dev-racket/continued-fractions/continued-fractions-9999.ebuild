@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="Exact computer arithmetic and base conversion via continued fractions."
 HOMEPAGE="https://derend@bitbucket.org/derend/continued-fractions"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT-0"
 SLOT="0"
-RESTRICT="mirror"

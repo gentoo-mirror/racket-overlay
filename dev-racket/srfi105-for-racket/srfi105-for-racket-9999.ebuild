@@ -8,7 +8,7 @@ GH_REPO="damien-mattei/SRFI-105-for-Racket"
 
 inherit gh racket
 
-DESCRIPTION="SRFI 105 Curly Infix"
+DESCRIPTION="SRFI 105 implementation and moreuse with #lang SRFI-105"
 HOMEPAGE="https://github.com/damien-mattei/SRFI-105-for-Racket"
 
 LICENSE="LGPL-3+"

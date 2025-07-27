@@ -11,9 +11,8 @@ inherit gh racket
 DESCRIPTION="Basic polynomial arithmetic and interpolation."
 HOMEPAGE="https://bitbucket.org/derend/simple-polynomial"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT-0"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/simple-matrix"
 BDEPEND="${RDEPEND}"

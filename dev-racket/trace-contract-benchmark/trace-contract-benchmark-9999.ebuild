@@ -25,5 +25,6 @@ RDEPEND="dev-racket/automata-lib
 	dev-racket/stream-etc
 	dev-racket/syntax-sloc
 	dev-racket/threading-lib
+	dev-racket/trace-contract-lib
 	dev-racket/whereis"
 BDEPEND="${RDEPEND}"

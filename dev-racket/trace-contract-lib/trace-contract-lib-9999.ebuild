@@ -16,7 +16,8 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/chk-lib
+RDEPEND="dev-racket/automata-lib
+	dev-racket/chk-lib
 	dev-racket/ee-lib
 	dev-racket/meta"
 BDEPEND="${RDEPEND}"

@@ -2,13 +2,12 @@ BDEPEND=dev-racket/tinybasic-doc dev-racket/tinybasic-examples dev-racket/tinyba
 DEFINED_PHASES=compile install postinst prepare prerm test unpack
 DESCRIPTION=TinyBASIC (Install this package for all goodies)
 EAPI=8
-HOMEPAGE=https://github.com/winny-/tinybasic.rkt
+HOMEPAGE=https://github.com/tinybasic-rkt/tinybasic-rkt
 INHERIT=gh racket
 IUSE=doc
-LICENSE=all-rights-reserved
+LICENSE=MIT
 PROPERTIES=live
 RDEPEND=dev-racket/tinybasic-doc dev-racket/tinybasic-examples dev-racket/tinybasic-lib >=dev-scheme/racket-8.1:=[-minimal]
-RESTRICT=mirror
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	gh	5d88554cb57e4049413f47b75096e2ab	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
-_md5_=9c0df7e7bf35ecd8270d62eaf0ea8d69
+_md5_=8b0d7c7b2ef7ae153082b8cd09d4dc1d

@@ -1,0 +1,14 @@
+BDEPEND=dev-racket/marionette-doc dev-racket/marionette-lib >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=The marionette Racket package
+EAPI=8
+HOMEPAGE=https://github.com/Bogdanp/marionette
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=BSD
+RDEPEND=dev-racket/marionette-doc dev-racket/marionette-lib >=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://github.com/Bogdanp/marionette/archive/3c3fc27d035d96befb29a8121779e6ee3c088913.tar.gz -> marionette-0_p20250529.tar.gz
+_eclasses_=gh	5d88554cb57e4049413f47b75096e2ab	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=35afc835c688bfc1ea3dca591e48e901

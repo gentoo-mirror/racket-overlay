@@ -1,0 +1,14 @@
+BDEPEND=>=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=A surface-level linter for #lang racket modules.
+EAPI=8
+HOMEPAGE=https://github.com/Bogdanp/racket-review
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=BSD
+RDEPEND=>=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://github.com/Bogdanp/racket-review/archive/fb70921689bc31dfa9dde816395b53bd4c5548fd.tar.gz -> review-0_p20250723.tar.gz
+_eclasses_=gh	5d88554cb57e4049413f47b75096e2ab	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=d6111e74bb6f75f90b6a3eaaef6dd874

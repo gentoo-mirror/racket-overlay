@@ -1,0 +1,14 @@
+BDEPEND=dev-racket/crypto >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=The keccak Racket package
+EAPI=8
+HOMEPAGE=https://github.com/bkc39/keccak-rkt
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=|| ( Apache-2.0 MIT )
+RDEPEND=dev-racket/crypto >=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://github.com/bkc39/keccak-rkt/archive/b22d4297a62c06fcb3c8d2b6bb05f44e2ab353ce.tar.gz -> keccak-0_p20250724.tar.gz
+_eclasses_=gh	5d88554cb57e4049413f47b75096e2ab	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=338a675297e8c36fe89b4ead5d8c80cb

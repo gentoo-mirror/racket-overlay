@@ -1,0 +1,14 @@
+BDEPEND=dev-racket/reprovide-lang-lib dev-racket/sci dev-racket/scribble-code-examples dev-racket/srfi105-for-racket dev-racket/try-catch >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Scheme+ for Racketuse with SRFI 105:#lang SRFI-105(require Scheme+)
+EAPI=8
+HOMEPAGE=https://github.com/damien-mattei/Scheme-PLUS-for-Racket
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=LGPL-3+
+RDEPEND=dev-racket/reprovide-lang-lib dev-racket/sci dev-racket/scribble-code-examples dev-racket/srfi105-for-racket dev-racket/try-catch >=dev-scheme/racket-8.1:=[-minimal]
+SLOT=0
+SRC_URI=https://github.com/damien-mattei/Scheme-PLUS-for-Racket/archive/cbf4b5e3b9b84cf84ea3cb710e96662f6e76cc37.tar.gz -> scheme-plus-for-racket-0_p20250721.tar.gz
+_eclasses_=gh	5d88554cb57e4049413f47b75096e2ab	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=c5eaf118e82758a4876a02f0b36218eb

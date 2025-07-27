@@ -1,0 +1,15 @@
+BDEPEND=dev-racket/sha >=dev-scheme/racket-8.1:=[-minimal] doc? ( dev-texlive/texlive-fontsextra ) sys-apps/racket-where
+DEFINED_PHASES=compile install postinst prepare prerm test
+DESCRIPTION=Community-managed variant of the Arc dialect of Lisp
+EAPI=8
+HOMEPAGE=https://github.com/arclanguage/anarki
+INHERIT=gh racket
+IUSE=doc
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+LICENSE=all-rights-reserved
+RDEPEND=dev-racket/sha >=dev-scheme/racket-8.1:=[-minimal]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/arclanguage/anarki/archive/b482707c59e52aa4b54cdae57692b4d5e91d0aef.tar.gz -> anarki-0_p20250701.tar.gz
+_eclasses_=gh	5d88554cb57e4049413f47b75096e2ab	multiprocessing	1e32df7deee68372153dca65f4a7c21f	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	racket-common	93499343b4e1726605cbaf9e873c650b	racket	bc8df6ce7e3179e603d099e8ca0d668a
+_md5_=c32fdb987c1d3a3778f11ab5f3a9cf37

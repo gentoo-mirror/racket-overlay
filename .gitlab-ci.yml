@@ -9,15 +9,15 @@ stages:
 test:
   stage: test
   timeout: 20 minutes
-  image: registry.gitlab.com/src_prepare/gentoo-repoman-container:latest
+  image: docker.io/xgqt/ci-gentoo-tools:latest
   only:
     changes:
       - "*/*/*.ebuild"
       - "*/*/Manifest"
       - "*/*/metadata.xml"
-      - .gitlab-ci.yml
-      - Makefile
-      - eclass/*.eclass
+      - ".gitlab-ci.yml"
+      - "Makefile"
+      - "eclass/*.eclass"
   before_script:
     - pkgcheck --version
   script:
@@ -25,15 +25,15 @@ test:
 pages:
   stage: pages
   timeout: 5 minutes
-  image: racket/racket:8.17-full
+  image: docker.io/racket/racket:8.17-full
   only:
     refs:
       - master
     changes:
-      - .gitlab-ci.yml
-      - Makefile
-      - scribblings/*.scrbl
-      - scribblings/*/*.scrbl
+      - ".gitlab-ci.yml"
+      - "Makefile"
+      - "scribblings/*.scrbl"
+      - "scribblings/*/*.scrbl"
   artifacts:
     expire_in: 1 week
     paths:

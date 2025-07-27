@@ -12,6 +12,5 @@ DESCRIPTION="Macros for fast sequences."
 HOMEPAGE="https://github.com/abolotina/fast-sequence-combinators"
 S="${S}/fast-sequence-lib"
 
-LICENSE="all-rights-reserved"
+LICENSE="|| ( Apache-2.0 MIT )"
 SLOT="0"
-RESTRICT="mirror"

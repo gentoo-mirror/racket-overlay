@@ -4,17 +4,16 @@
 EAPI=8
 
 GH_DOM="github.com"
-GH_REPO="winny-/tinybasic.rkt"
+GH_REPO="tinybasic-rkt/tinybasic-rkt"
 
 inherit gh racket
 
 DESCRIPTION="TinyBASIC (Install this package for all goodies)"
-HOMEPAGE="https://github.com/winny-/tinybasic.rkt"
+HOMEPAGE="https://github.com/tinybasic-rkt/tinybasic-rkt"
 S="${S}/tinybasic"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT"
 SLOT="0"
-RESTRICT="mirror"
 
 RDEPEND="dev-racket/tinybasic-doc
 	dev-racket/tinybasic-examples

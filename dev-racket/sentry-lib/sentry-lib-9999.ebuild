@@ -16,6 +16,7 @@ LICENSE="BSD"
 SLOT="0"
 
 RDEPEND="dev-racket/actor-lib
+	dev-racket/box-extra-lib
 	dev-racket/http-easy-lib
 	dev-racket/monocle-lib
 	dev-racket/threading-lib"

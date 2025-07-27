@@ -14,5 +14,5 @@ HOMEPAGE="https://github.com/NoahStoryM/ctp"
 LICENSE="MIT"
 SLOT="0"
 
-RDEPEND="dev-racket/amb"
+RDEPEND="dev-racket/typed-amb"
 BDEPEND="${RDEPEND}"

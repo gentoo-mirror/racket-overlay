@@ -16,5 +16,7 @@ LICENSE="BSD"
 SLOT="0"
 
 RDEPEND="dev-racket/http-easy
-	dev-racket/resource-pool-lib"
+	dev-racket/monocle-lib
+	dev-racket/resource-pool-lib
+	dev-racket/threading-lib"
 BDEPEND="${RDEPEND}"

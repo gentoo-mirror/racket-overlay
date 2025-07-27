@@ -18,6 +18,12 @@ SLOT="0"
 RDEPEND="dev-racket/rhombus
 	dev-racket/rhombus-draw
 	dev-racket/rhombus-gui
+	dev-racket/rhombus-http
+	dev-racket/rhombus-icons
+	dev-racket/rhombus-json
+	dev-racket/rhombus-logo
 	dev-racket/rhombus-pict
-	dev-racket/rhombus-scribble"
+	dev-racket/rhombus-scribble
+	dev-racket/rhombus-url
+	dev-racket/rhombus-xml"
 BDEPEND="${RDEPEND}"

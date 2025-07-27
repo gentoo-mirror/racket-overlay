@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="A very simple library for basic matrix arithmetic."
 HOMEPAGE="https://bitbucket.org/derend/simple-matrix"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT-0"
 SLOT="0"
-RESTRICT="mirror"

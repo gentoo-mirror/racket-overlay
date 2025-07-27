@@ -11,6 +11,5 @@ inherit gh racket
 DESCRIPTION="Coupling and logic to let and let* forms."
 HOMEPAGE="https://bitbucket.org/derend/andlet"
 
-LICENSE="all-rights-reserved"
+LICENSE="MIT-0"
 SLOT="0"
-RESTRICT="mirror"

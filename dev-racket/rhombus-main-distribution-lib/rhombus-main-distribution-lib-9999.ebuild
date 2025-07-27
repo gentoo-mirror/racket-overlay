@@ -17,6 +17,7 @@ SLOT="0"
 
 RDEPEND="dev-racket/rhombus-draw-lib
 	dev-racket/rhombus-gui-lib
+	dev-racket/rhombus-http-lib
 	dev-racket/rhombus-icons
 	dev-racket/rhombus-json-lib
 	dev-racket/rhombus-lib

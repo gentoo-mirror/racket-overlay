@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/tgbugs/rkdf</bugs-to>
+    <remote-id type="github">tgbugs/rkdf</remote-id>
+  </upstream>
+</pkgmetadata>

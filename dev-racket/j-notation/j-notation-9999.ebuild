@@ -15,5 +15,6 @@ LICENSE="all-rights-reserved"
 SLOT="0"
 RESTRICT="mirror"
 
-RDEPEND="dev-racket/brag-lib"
+RDEPEND="dev-racket/brag-lib
+	dev-racket/resyntax"
 BDEPEND="${RDEPEND}"

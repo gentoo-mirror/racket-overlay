@@ -15,5 +15,6 @@ S="${S}/redis-lib"
 LICENSE="MIT"
 SLOT="0"
 
-RDEPEND="dev-racket/resource-pool-lib"
+RDEPEND="dev-racket/resource-pool-lib
+	dev-racket/struct-define"
 BDEPEND="${RDEPEND}"
